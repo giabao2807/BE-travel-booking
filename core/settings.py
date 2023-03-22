@@ -12,8 +12,13 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+from os.path import join, dirname
+import cloudinary
+
 from dotenv import load_dotenv
 from datetime import timedelta
+from utils import read_scopes
+
 
 load_dotenv()
 
@@ -30,8 +35,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'dd90-116-110-95-159.ap.ngrok.io']
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Application definition
 
@@ -44,17 +49,21 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
-    'api_base',
+    'corsheaders',
+    'base',
+    'api_user',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'base.middleware.middleware.MyCustomMiddleWare'
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -82,7 +91,9 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
-    )
+    ),
+    "DEFAULT_PAGINATION_CLASS": "base.pagination.CustomPagination",
+    "PAGE_SIZE": 12,
 }
 
 SIMPLE_JWT = {
@@ -178,4 +189,15 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'api_information.User'
+AUTH_USER_MODEL = 'api_user.Account'
+
+#jwt
+SCOPES_JSON_PATH = join(BASE_DIR, "common/scopes.json")
+DEFAULT_SCOPES_JSON_PATH = join(BASE_DIR, "common/default_scopes.json")
+SCOPES: dict = read_scopes(SCOPES_JSON_PATH)
+DEFAULT_SCOPES: dict = read_scopes(DEFAULT_SCOPES_JSON_PATH)
+
+#cloudinary
+cloudinary.config(cloud_name=os.getenv('CLOUDINARY_NAME'),
+                  api_key=os.getenv('CLOUDINARY_API_KEY'),
+                  api_secret=os.getenv('CLOUDINARY_API_SECRET'))

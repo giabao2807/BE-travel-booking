@@ -1,0 +1,52 @@
+from typing import Optional
+
+from django.db import transaction
+
+from api_user.models import Profile
+from api_user.services import AccountService, RoleService, TokenService
+from core.settings import SCOPES
+
+
+class ProfileService:
+    @classmethod
+    @transaction.atomic
+    def create_customer(cls, user_data: dict) -> Optional[Profile]:
+        """
+        Create a new user with new account and default role
+        :param user_data:
+        :return:
+        """
+        user = None
+        account = user_data.pop('account', {})
+        if account:
+            default_role = RoleService.get_role_customer()
+            account_instance = AccountService.create(account, default_role)
+            user_data['account'] = account_instance
+            user = Profile(**user_data)
+            user.save()
+        return user
+
+    @classmethod
+    def login_success_data(cls, profile: Profile):
+        """
+        Return success data for login
+        :param profile:
+        :return: dictionary data with general user information and token
+        included fields:
+        - id
+        - name
+        - scopes
+        - avatar
+        - access_token
+        - refresh_token
+        """
+        token_data = TokenService.generate_by_account(profile.account)
+        role = profile.account.role
+        user_data = {
+            'id': profile.id,
+            'name': profile.name,
+            'avatar': profile.account.avatar,
+            'role': role.name
+        }
+        data = {**token_data, **user_data}
+        return data
