@@ -27,7 +27,7 @@ def initial_profile_data(apps, schema_editor):
         )
         for item in items:
             profiles.append(profile_model(id=uuid.uuid4(), email=item['email'],
-                            password=make_password(os.getenv('DEFAULT__PASSWORD')),
+                            password=make_password(os.getenv('DEFAULT_PASSWORD')),
                             avatar=item['avatar'], role=new_role,
                             last_name=item['last_name'], first_name=item['first_name'],
                             gender=item['gender'], birthday=item['birthday'],

@@ -66,8 +66,8 @@ class ProfileService:
         role = profile.role
         user_data = {
             'id': profile.id,
-            'name': profile.name,
-            'avatar': profile.account.avatar,
+            'full_name': f"{profile.first_name} {profile.last_name}",
+            'avatar': profile.avatar,
             'role': role.name
         }
         data = {**token_data, **user_data}
