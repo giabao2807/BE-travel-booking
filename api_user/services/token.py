@@ -1,14 +1,13 @@
 from rest_framework_simplejwt.exceptions import TokenError
 from rest_framework_simplejwt.tokens import RefreshToken
 
-from api_user.models import Account
+from api_user.models import Profile
 
 
 class TokenService:
     @classmethod
-    def generate_by_account(cls, account: Account) -> dict:
+    def generate_by_account(cls, account: Profile) -> dict:
         """
-
         :param account:
         :return: data with access_token and refresh_token
         """
@@ -32,7 +31,7 @@ class TokenService:
             token_instance = RefreshToken(token=token)
             payload = token_instance.payload
             account_id = payload.get('user_id', '')
-            account = Account.objects.by_id(account_id)
+            account = Profile.objects.by_id(account_id)
             if account:
                 new_token = RefreshToken.for_user(account)
                 data = {

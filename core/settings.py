@@ -18,7 +18,8 @@ import cloudinary
 from dotenv import load_dotenv
 from datetime import timedelta
 from utils import read_scopes
-
+GDAL_LIBRARY_PATH = '/opt/homebrew/opt/gdal/lib/libgdal.dylib'
+GEOS_LIBRARY_PATH = '/opt/homebrew/opt/geos/lib/libgeos_c.dylib'
 
 load_dotenv()
 
@@ -189,7 +190,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'api_user.Account'
+AUTH_USER_MODEL = 'api_user.Profile'
 
 #jwt
 SCOPES_JSON_PATH = join(BASE_DIR, "common/scopes.json")

@@ -2,29 +2,28 @@ from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
-from api_user.models import Account
-from api_user.serializers import LoginAccountSerializer, AccountSerializer
-from api_user.serializers.profile import ProfileSerializer
-from api_user.services import AccountService, TokenService, ProfileService
+from api_user.models import Profile
+from api_user.serializers import LoginAccountSerializer, ProfileDetailSerializer
+from api_user.services import TokenService, ProfileService
 from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
 from base.views import BaseViewSet
 
 
 class ActionViewSet(BaseViewSet):
     permission_classes = []
-    view_set_name = "action"
-    queryset = Account.objects.all().prefetch_related("roles")
-    serializer_class = AccountSerializer
+    view_set_name = "profile"
+    queryset = Profile.objects.all().prefetch_related("roles")
+    serializer_class = ProfileDetailSerializer
     serializer_map = {
         "login": LoginAccountSerializer,
-        "sign_up": ProfileSerializer,
+        "sign_up": ProfileDetailSerializer,
     }
 
     @action(detail=False, methods=[HttpMethod.POST])
     def login(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
-            login_data = AccountService.login(serializer.validated_data)
+            login_data = ProfileService.login(serializer.validated_data)
             if login_data:
                 return Response(login_data)
             else:

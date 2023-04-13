@@ -2,20 +2,19 @@ from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 from rest_framework.serializers import ModelSerializer
 
-from api_user.models import Account
 from api_user.models.profile import Profile
 
 
 class ProfileDetailSerializer(ModelSerializer):
     class Meta:
         model = Profile
-        exclude = ['account', 'is_active']
+        exclude = ['password', 'active']
 
 
-class ProfileSerializer(ModelSerializer):
-    email = serializers.EmailField(source='account.email')
-    password = serializers.CharField(min_length=8, source="account.password")
-    avatar = serializers.CharField(source='account.avatar', required=False)
+class ProfileRegisterSerializer(ModelSerializer):
+    email = serializers.EmailField()
+    password = serializers.CharField(min_length=8)
+    avatar = serializers.CharField(required=False)
 
     def validate_email(self, value):
         duplicated_email = Account.objects.by_email(value)
@@ -25,4 +24,4 @@ class ProfileSerializer(ModelSerializer):
 
     class Meta:
         model = Profile
-        fields = ('id', 'name', 'gender', 'email', 'password', 'avatar')
+        fields = ('id', 'last_name', 'first_name', 'gender', 'email', 'password', 'avatar')
