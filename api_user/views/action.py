@@ -3,7 +3,7 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from api_user.models import Profile
-from api_user.serializers import LoginAccountSerializer, ProfileDetailSerializer
+from api_user.serializers import LoginAccountSerializer, ProfileDetailSerializer, CreateProfileSerializer
 from api_user.services import TokenService, ProfileService
 from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
 from base.views import BaseViewSet
@@ -16,7 +16,7 @@ class ActionViewSet(BaseViewSet):
     serializer_class = ProfileDetailSerializer
     serializer_map = {
         "login": LoginAccountSerializer,
-        "sign_up": ProfileDetailSerializer,
+        "sign_up": CreateProfileSerializer,
     }
 
     @action(detail=False, methods=[HttpMethod.POST])

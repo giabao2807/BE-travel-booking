@@ -20,3 +20,9 @@ class LoginAccountSerializer(ModelSerializer):
     class Meta:
         model = Profile
         fields = ["email", "password"]
+
+
+class CreateProfileSerializer(ModelSerializer):
+    class Meta:
+        model = Profile
+        fields = ['email', 'password', 'last_name', 'first_name', 'gender']

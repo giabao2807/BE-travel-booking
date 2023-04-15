@@ -9,23 +9,19 @@ from api_user.services.token import TokenService
 
 
 class ProfileService:
-    # @classmethod
-    # @transaction.atomic
-    # def create_customer(cls, user_data: dict) -> Optional[Profile]:
-    #     """
-    #     Create a new user with new account and default role
-    #     :param user_data:
-    #     :return:
-    #     """
-    #     user = None
-    #     account = user_data.pop('account', {})
-    #     if account:
-    #         default_role = RoleService.get_role_customer()
-    #         account_instance = AccountService.create(account, default_role)
-    #         user_data['account'] = account_instance
-    #         user = Profile(**user_data)
-    #         user.save()
-    #     return user
+    @classmethod
+    @transaction.atomic
+    def create_customer(cls, user_data: dict) -> Optional[Profile]:
+        """
+        Create a new user with new account and default role
+        :param user_data:
+        :return:
+        """
+        default_role = RoleService.get_role_customer()
+        user = Profile(**user_data)
+        user.role = default_role
+        user.save()
+        return user
 
     @classmethod
     def login(cls, login_data) -> Optional[dict]:
@@ -57,7 +53,6 @@ class ProfileService:
         included fields:
         - id
         - name
-        - scopes
         - avatar
         - access_token
         - refresh_token
@@ -68,6 +63,7 @@ class ProfileService:
             'id': profile.id,
             'full_name': f"{profile.first_name} {profile.last_name}",
             'avatar': profile.avatar,
+            'email': profile.email,
             'role': role.name
         }
         data = {**token_data, **user_data}
