@@ -1,7 +1,6 @@
 from django.core.validators import RegexValidator, MinLengthValidator
 from django.contrib.auth.base_user import AbstractBaseUser
 from django.db import models
-# from django.contrib.gis.db import models as point_models
 from api_user.managers import ProfileManager
 from api_user.models import Role
 from base.models import TimeStampedModel
@@ -22,7 +21,8 @@ class Profile(AbstractBaseUser, TimeStampedModel):
     gender = TinyIntegerField(choices=GenderChoices.choices)
     birthday = models.DateField(null=True, blank=True)
     address = models.CharField(max_length=255, null=True, blank=True)
-    # location = point_models.PointField(null=True, blank=True)
+    longitude = models.FloatField(blank=True, null=True)
+    latitude = models.FloatField(blank=True, null=True)
     phone = models.CharField(
         max_length=11,
         null=True,
