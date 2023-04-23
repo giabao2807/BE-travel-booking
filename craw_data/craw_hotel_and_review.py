@@ -60,16 +60,6 @@ def get_single_page_content(raw_url, file_name):
     count_tried = 0
     review_data = []
     ignore_page_names = [
-        "Attraction_Review-g298085-d5531576-Reviews{0}-Lady_Buddha-Da_Nang",
-        "Hotel_Review-g298085-d2179507-Reviews{0}-Danang_Marriott_Resort_Spa-Da_Nang",
-        "Hotel_Review-g298085-d3236066-Reviews{0}-Brilliant_Hotel-Da_Nang",
-        "Hotel_Review-g298085-d6161470-Reviews{0}-Fivitel_Boutique_Da_Nang-Da_Nang",
-        "Hotel_Review-g298085-d6370235-Reviews{0}-Premier_Village_Danang_Resort_Managed_by_Accor-Da_Nang",
-        "Hotel_Review-g298085-d9874032-Reviews{0}-Serene_Beach_Hotel-Da_Nang",
-        "Hotel_Review-g298085-d14794498-Reviews{0}-Ruby_Light_Hotel_by_NNT_Hotel_Collection-Da_Nang",
-        "Hotel_Review-g298085-d19453440-Reviews{0}-Muong_Thanh_Luxury_Song_Han_Hotel-Da_Nang",
-        "Hotel_Review-g298085-d20063843-Reviews{0}-HAIAN_Riverfront_Hotel_Danang-Da_Nang",
-        "Hotel_Review-g15296807-d6668057-Reviews{0}-FIVITEL_King_Hotel-My_An_Da_Nang"
     ]
     if file_name in ignore_page_names or "Attraction_Review" in raw_url:
         return
