@@ -1,5 +1,9 @@
 from django.db import models
-from base.models import TimeStampedModel
+
+from api_tour.managers import TourManager
+from api_tour.models import City
+from api_user.models import Profile
+from base.models import TimeStampedModel, Image
 
 
 class Tour(TimeStampedModel):
@@ -11,3 +15,20 @@ class Tour(TimeStampedModel):
     rate = models.FloatField(null=True, blank=True)
     schedule_content = models.TextField(null=True, blank=True)
     note = models.TextField(null=True, blank=True)
+    num_review = models.IntegerField(null=True, blank=True)
+    note = models.TextField(null=True, blank=True)
+    city = models.ForeignKey(City, on_delete=models.CASCADE, null=True)
+    owner = models.ForeignKey(Profile, on_delete=models.CASCADE, null=True)
+
+    objects = TourManager()
+
+    class Meta:
+        db_table = 'tours'
+
+
+class TourImage(models.Model):
+    image = models.ForeignKey(Image, on_delete=models.CASCADE, null=True, unique=True)
+    tour = models.ForeignKey(Tour, on_delete=models.CASCADE, null=True)
+
+    class Meta:
+        db_table = 'tour_image'

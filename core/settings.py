@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'base',
     'api_user',
+    'api_tour'
 ]
 
 MIDDLEWARE = [
