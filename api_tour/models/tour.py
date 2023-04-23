@@ -19,6 +19,8 @@ class Tour(TimeStampedModel):
     note = models.TextField(null=True, blank=True)
     city = models.ForeignKey(City, on_delete=models.CASCADE, null=True)
     owner = models.ForeignKey(Profile, on_delete=models.CASCADE, null=True)
+    longitude = models.FloatField(blank=True, null=True)
+    latitude = models.FloatField(blank=True, null=True)
 
     objects = TourManager()
 

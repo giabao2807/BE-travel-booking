@@ -1,11 +1,11 @@
 from django.db import models
 
-from base.models import TimeStampedModel, Image
+from base.models import Image, BaseSimpleModel
 
 
-class City(TimeStampedModel):
+class City(BaseSimpleModel):
     name = models.CharField(max_length=255)
-    zipcode = models.CharField(max_length=10, null=True, blank=True)
+    zipcode = models.CharField(max_length=20, null=True, blank=True)
     country = models.CharField(max_length=100, null=True, blank=True)
     longitude = models.FloatField(blank=True, null=True)
     latitude = models.FloatField(blank=True, null=True)
