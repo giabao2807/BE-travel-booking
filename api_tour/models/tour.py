@@ -8,7 +8,8 @@ from base.models import TimeStampedModel, Image
 
 class Tour(TimeStampedModel):
     name = models.CharField(max_length=255)
-    total_days = models.FloatField(null=True, blank=True)
+    total_days = models.CharField(max_length=30, null=True, blank=True)
+    language_tour = models.CharField(max_length=255, null=True, blank=True)
     descriptions = models.TextField(null=True, blank=True)
     group_size = models.IntegerField(null=True, blank=True)
     price = models.FloatField(null=True, blank=True)
@@ -16,7 +17,6 @@ class Tour(TimeStampedModel):
     schedule_content = models.TextField(null=True, blank=True)
     note = models.TextField(null=True, blank=True)
     num_review = models.IntegerField(null=True, blank=True)
-    note = models.TextField(null=True, blank=True)
     city = models.ForeignKey(City, on_delete=models.CASCADE, null=True)
     owner = models.ForeignKey(Profile, on_delete=models.CASCADE, null=True)
     longitude = models.FloatField(blank=True, null=True)
