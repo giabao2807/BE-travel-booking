@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-link = 'https://rentapartment.vn/vietnam-zip-postal-code/'
+link = 'https://thanhthinhbui.com/zipcode/'
 
 
 def soup_for_link(link):
@@ -29,7 +29,7 @@ def table_data_text(table):
 
 def get_data_for_city():
     main_page = soup_for_link(link)
-    table = main_page.find('table', {'class': 'tablepress tablepress-id-7'})
+    table = main_page.find('table')
     row = table_data_text(table)
     return row
 

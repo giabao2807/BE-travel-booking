@@ -13,7 +13,7 @@ class Tour(TimeStampedModel):
     language_tour = models.CharField(max_length=255, null=True, blank=True)
     descriptions = models.TextField(null=True, blank=True)
     group_size = models.IntegerField(null=True, blank=True)
-    price = models.FloatField(null=True, blank=True)
+    price = models.IntegerField(null=True, blank=True)
     rate = models.FloatField(null=True, blank=True)
     schedule_content = models.TextField(null=True, blank=True)
     note = models.TextField(null=True, blank=True)

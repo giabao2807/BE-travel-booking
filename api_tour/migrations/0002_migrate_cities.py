@@ -10,8 +10,9 @@ def initial_city_data(apps, schema_editor):
     cities = []
 
     for city in get_data_for_city():
-        cities.append(city_model(id=city[0], name=city[1],
-                                 zipcode=city[2], country='Việt Nam'))
+        cities.append(city_model(name=city[1],
+                                 zipcode=city[2],
+                                 country='Việt Nam'))
 
     city_model.objects.bulk_create(cities)
 
