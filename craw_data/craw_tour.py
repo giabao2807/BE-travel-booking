@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 link = 'https://www.vietnambooking.com/du-lich-trong-nuoc.html'
 
-pages = [i for i in range(2, 10)]
+pages = [i for i in range(1, 11)]
 link_page = [(link + '/' + str(page)) for page in pages]
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -25,7 +25,7 @@ def soup_for_link(link):
 def get_detail_item(item, detail_link):
     page = soup_for_link(detail_link)
     group_image = page.find('div', {'id': 'owl-slider-tour-single-feature'})
-    images = group_image.find_all('img')
+    images = [] if not group_image else group_image.find_all('img')
     link_images = [img['src'].replace('\n', '') for img in images]
     item['images'] = link_images
     item['city'] = page.find(
@@ -45,7 +45,6 @@ def get_detail_item(item, detail_link):
 def get_detail_tour_for_page(list_item):
     list_rs = []
     for idx, item in enumerate(list_item):
-        print(f"Fetching ... item {idx}")
         item_data = dict()
         image = item.find('div', {'class': 'box-img'})
         content = item.find('div', {'class': 'box-content'})
@@ -57,28 +56,20 @@ def get_detail_tour_for_page(list_item):
             'h3', {'class': 'title-h3'}).find('a').get_attribute_list('href')[0]
         item_data['total_days'] = content.find('table').find_all(
             'td')[1].get_text(strip=True)
-        item_data['price'] = content.find(
-            'div', {'class': 'box-price-promotion-tour'}).find('del').get_text(strip=True)
+        price_content = content.find(
+            'div', {'class': 'box-price-promotion-tour'})
+        item_data['price'] = price_content.find('del').get_text(
+            strip=True) if price_content.find('del') else price_content.find(
+            'span').get_text(strip=True)
         item_data = get_detail_item(item_data, item_data['link_detail'])
         list_rs.append(item_data)
-        print(f"Done item!")
     return list_rs
 
 
-# main_page = soup_for_link(link)
-# list_item = main_page.find(
-#     'div', {'class': 'category-box-list-default-inner'}).find('ul').find_all("li")
-#
-# real_items = []
-# for item in list_item:
-#     if len(item.find_all('div'))!= 0:
-#         real_items.append(item)
-#
-# list_tour = get_detail_tour_for_page(real_items)
 list_tour = []
 for idx, page in enumerate(link_page):
     print(f"Crawling ... page {idx}: {page}")
-    main_page = soup_for_link(link)
+    main_page = soup_for_link(page)
     list_item = main_page.find(
         'div', {'class': 'category-box-list-default-inner'}).find('ul').find_all("li")
     real_items = []

@@ -17,19 +17,16 @@ def initial_tour_data(apps, schema_editor):
     partner_role = role_model.objects.filter(id=RoleData.PARTNER.value.get('id')).first()
     partner = profile_models.objects.filter(role=partner_role)
 
-    with open('api_tour/statics/test.txt', 'r', encoding='utf-8') as f:
+    with open('api_tour/statics/craw_datatour_data.txt', 'r', encoding='utf-8') as f:
         list_data = json.load(f)
 
     for data in list_data:
         city = city_model.objects.filter(name=data['city']).first()
-        images = []
-        for image in data['images']:
-            image = image_model(link=image)
-            image.save()
-            images.append(image_model.objects.filter(link=image).first())
 
-        price = int(data['price'].replace(",", "").replace("đ", ""))
-
+        try:
+            price = int(data['price'].replace(",", "").replace("đ", ""))
+        except Exception:
+            price = 3000000
         tour = tour_model(
             name=data['name'], cover_picture=data['cover_image'],
             city=city, descriptions=data['description'],
@@ -40,8 +37,12 @@ def initial_tour_data(apps, schema_editor):
         )
         tour.save()
         tour = tour_model.objects.filter(name=data['name']).first()
-
-        tour_images = [tour_image_model(image=image, tour=tour) for image in images]
+        tour_images = []
+        for link in data['images']:
+            image = image_model(link=link)
+            image.save()
+            image = image_model.objects.filter(link=link).first()
+            tour_images.append(tour_image_model(image=image, tour=tour))
         tour_image_model.objects.bulk_create(tour_images)
 
 
@@ -57,7 +58,7 @@ def delete_all_data(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api_tour', '0003_alter_tour_models'),
+        ('api_tour', '0004_alter_tourimage_image'),
     ]
 
     operations = [

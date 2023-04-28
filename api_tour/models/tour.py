@@ -30,7 +30,7 @@ class Tour(TimeStampedModel):
 
 
 class TourImage(models.Model):
-    image = models.ForeignKey(Image, on_delete=models.CASCADE, null=True, unique=True)
+    image = models.ForeignKey(Image, on_delete=models.CASCADE, null=True)
     tour = models.ForeignKey(Tour, on_delete=models.CASCADE, null=True)
 
     class Meta:
