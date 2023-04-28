@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 link = 'https://www.vietnambooking.com/du-lich-trong-nuoc.html'
 
-pages = [i for i in range(2, 60)]
+pages = [i for i in range(2, 30)]
 link_page = [(link + '/' + str(page)) for page in pages]
 
 
@@ -20,14 +20,14 @@ def soup_for_link(link):
 
 
 def table_data_text(table):
-    def rowgetDataText(tr, coltag='td'):  # td (data) or th (header)
+    def row_get_data_text(tr, coltag='td'):  # td (data) or th (header)
         return [td.get_text(strip=True) for td in tr.find_all(coltag)]
     rows = []
     trs = table.find_all('tr')
     trs = trs[1:]
 
     for tr in trs:  # for every table row
-        rows.append(rowgetDataText(tr, 'td'))  # data row
+        rows.append(row_get_data_text(tr, 'td'))  # data row
     return rows
 
 
@@ -66,27 +66,27 @@ def get_detail_tour_for_page(real_items):
     return list_rs
 
 
-main_page = soup_for_link(link)
-list_item = main_page.find(
-    'div', {'class': 'category-box-list-default-inner'}).find('ul').find_all("li")
+# main_page = soup_for_link(link)
+# list_item = main_page.find(
+#     'div', {'class': 'category-box-list-default-inner'}).find('ul').find_all("li")
+#
+# real_items = []
+# for item in list_item:
+#     if len(item.find_all('div'))!= 0:
+#         real_items.append(item)
+#
+# list_tour = get_detail_tour_for_page(real_items)
+list_tour = []
+for page in link_page:
+    main_page = soup_for_link(link)
+    list_item = main_page.find(
+        'div', {'class': 'category-box-list-default-inner'}).find('ul').find_all("li")
+    real_items = []
+    for item in list_item:
+        if len(item.find_all('div')) != 0:
+            real_items.append(item)
+    rs = get_detail_tour_for_page(real_items)
+    list_tour.extend(rs)
 
-real_items = []
-for item in list_item:
-    if len(item.find_all('div'))!= 0:
-        real_items.append(item)
-
-list_tour = get_detail_tour_for_page(real_items)
-# list_tour = []
-# for page in link_page:
-#     main_page = soup_for_link(link)
-#     list_item = main_page.find(
-#         'div', {'class': 'category-box-list-default-inner'}).find('ul').find_all("li")
-#     real_items = []
-#     for item in list_item:
-#         if len(item.find_all('div')) != 0:
-#             real_items.append(item)
-#     rs = get_detail_tour_for_page(real_items)
-#     list_tour.extend(rs)
-
-with open('data.txt', 'w') as f:
-  json.dump(list_tour, f)
+with open('tour_data.txt', 'w') as f:
+    json.dump(list_tour, f)
