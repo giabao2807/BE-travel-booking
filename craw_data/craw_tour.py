@@ -37,7 +37,8 @@ def get_detail_item(item, detail_link):
         'div', {"class": "panel-collapse collapse in"}).find_all('div')[0])
     item['note'] = str(group[2].find(
         'div', {"class": "panel-collapse collapse in"}).find_all('div')[0])
-    item['num_review'] = str(random.randint(1,1000))
+    item['num_review'] = str(random.randint(1, 1000))
+    item['group_size'] = str(random.randint(10, 30))
     return item
 
 
