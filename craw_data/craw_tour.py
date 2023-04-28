@@ -44,7 +44,8 @@ def get_detail_item(item, detail_link):
 
 def get_detail_tour_for_page(list_item):
     list_rs = []
-    for item in list_item:
+    for idx, item in enumerate(list_item):
+        print(f"Fetching ... item {idx}")
         item_data = dict()
         image = item.find('div', {'class': 'box-img'})
         content = item.find('div', {'class': 'box-content'})
@@ -60,6 +61,7 @@ def get_detail_tour_for_page(list_item):
             'div', {'class': 'box-price-promotion-tour'}).find('del').get_text(strip=True)
         item_data = get_detail_item(item_data, item_data['link_detail'])
         list_rs.append(item_data)
+        print(f"Done item!")
     return list_rs
 
 
@@ -74,7 +76,8 @@ def get_detail_tour_for_page(list_item):
 #
 # list_tour = get_detail_tour_for_page(real_items)
 list_tour = []
-for page in link_page:
+for idx, page in enumerate(link_page):
+    print(f"Crawling ... page {idx}: {page}")
     main_page = soup_for_link(link)
     list_item = main_page.find(
         'div', {'class': 'category-box-list-default-inner'}).find('ul').find_all("li")
@@ -84,6 +87,7 @@ for page in link_page:
             real_items.append(item)
     rs = get_detail_tour_for_page(real_items)
     list_tour.extend(rs)
+    print(f"Done!")
 
 with open(PROJECT_ROOT + 'tour_data.txt', 'w', encoding='utf-8') as f:
     json.dump(list_tour, f, ensure_ascii=False)
