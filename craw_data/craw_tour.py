@@ -1,12 +1,15 @@
 import requests
 import json
+import random
+import os
 from bs4 import BeautifulSoup
 
 
 link = 'https://www.vietnambooking.com/du-lich-trong-nuoc.html'
 
-pages = [i for i in range(2, 30)]
+pages = [i for i in range(2, 10)]
 link_page = [(link + '/' + str(page)) for page in pages]
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 
 def soup_for_link(link):
@@ -19,33 +22,26 @@ def soup_for_link(link):
     return soap_drawn
 
 
-def table_data_text(table):
-    def row_get_data_text(tr, coltag='td'):  # td (data) or th (header)
-        return [td.get_text(strip=True) for td in tr.find_all(coltag)]
-    rows = []
-    trs = table.find_all('tr')
-    trs = trs[1:]
-
-    for tr in trs:  # for every table row
-        rows.append(row_get_data_text(tr, 'td'))  # data row
-    return rows
-
-
 def get_detail_item(item, detail_link):
     page = soup_for_link(detail_link)
+    group_image = page.find('div', {'id': 'owl-slider-tour-single-feature'})
+    images = group_image.find_all('img')
+    link_images = [img['src'].replace('\n', '') for img in images]
+    item['images'] = link_images
     item['city'] = page.find(
         'table', {'class': 'tlb-info-tour'}).find_all('td')[0].get_text(strip=True)
-    item['description'] = page.find('div', {'class': 'single-box-excerpt'})
+    item['description'] = str(page.find(
+        'div', {'class': 'single-box-excerpt'}))
     group = page.find_all('div', {'class': "panel panel-tour-product"})
-    item['schedule_content'] = str(group[0].find(
-        'div', {"class": "panel-collapse collapse in"}))
+    item['schedule_content'] =str(group[0].find(
+        'div', {"class": "panel-collapse collapse in"}).find_all('div')[0])
     item['note'] = str(group[2].find(
-        'div', {"class": "panel-collapse collapse in"}))
-    item['num_review'] = range(1,1000)
+        'div', {"class": "panel-collapse collapse in"}).find_all('div')[0])
+    item['num_review'] = str(random.randint(1,1000))
     return item
 
 
-def get_detail_tour_for_page(real_items):
+def get_detail_tour_for_page(list_item):
     list_rs = []
     for item in list_item:
         item_data = dict()
@@ -53,7 +49,7 @@ def get_detail_tour_for_page(real_items):
         content = item.find('div', {'class': 'box-content'})
         if not image or not content:
             continue
-        item_data['image'] = image.find('a').get_attribute_list('href')[0]
+        item_data['cover_image'] = image.find('a').find('img')['src']
         item_data['name'] = content.find('h3', {'class':'title-h3'}).get_text(strip=True)
         item_data['link_detail'] = content.find(
             'h3', {'class': 'title-h3'}).find('a').get_attribute_list('href')[0]
@@ -88,5 +84,5 @@ for page in link_page:
     rs = get_detail_tour_for_page(real_items)
     list_tour.extend(rs)
 
-with open('tour_data.txt', 'w') as f:
-    json.dump(list_tour, f)
+with open(PROJECT_ROOT + 'tour_data.txt', 'w', encoding='utf-8') as f:
+    json.dump(list_tour, f, ensure_ascii=False)
