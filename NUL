@@ -1,0 +1,134 @@
+[1682964272,993][INFO]: Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 35853
+[1682964272,993][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1682964273,496][INFO]: [819702e8ce01f730ac0399dc238286a8] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+
+      } ]
+   }
+}
+[1682964273,497][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1682964273,497][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1682964273,497][INFO]: Launching chrome: /usr/bin/google-chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.FNp7nM data:,
+[1682964273,687][INFO]: resolved localhost to ["127.0.0.1"]
+[1682964273,701][INFO]: [819702e8ce01f730ac0399dc238286a8] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "100.0.4896.127",
+      "chrome": {
+         "chromedriverVersion": "100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875})",
+         "userDataDir": "/tmp/.com.google.Chrome.FNp7nM"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:41173"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "819702e8ce01f730ac0399dc238286a8"
+}
+[1682964273,702][INFO]: [819702e8ce01f730ac0399dc238286a8] COMMAND Navigate {
+   "url": "https://www.tripadvisor.com.vn/Hotel_Review-g23779430-d1308229-Reviews-Chen_Sea_Resort_Spa_Phu_Quoc-Cua_Duong_Phu_Quoc_Island_Kien_Giang_Province.html"
+}
+[1682964273,702][INFO]: Waiting for pending navigations...
+[1682964273,702][INFO]: Done waiting for pending navigations. Status: ok
+[1682964275,026][INFO]: Waiting for pending navigations...
+[1682964276,288][INFO]: Done waiting for pending navigations. Status: ok
+[1682964276,288][INFO]: [819702e8ce01f730ac0399dc238286a8] RESPONSE Navigate
+[1682964276,288][INFO]: [819702e8ce01f730ac0399dc238286a8] COMMAND GetSource {
+
+}
+[1682964276,288][INFO]: Waiting for pending navigations...
+[1682964276,288][INFO]: Done waiting for pending navigations. Status: ok
+[1682964276,369][INFO]: Waiting for pending navigations...
+[1682964276,372][INFO]: Done waiting for pending navigations. Status: ok
+[1682964276,372][INFO]: [819702e8ce01f730ac0399dc238286a8] RESPONSE GetSource "\u003Chtml lang=\"vi-VN\" xmlns:og=\"http://opengraphprotocol.org/schema/\">\u003Chead>\u003Cmeta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\u003Clink rel=\"icon\" id=\"favicon\" href=\"https://static.tacdn...."
+[1682964277,085][INFO]: [819702e8ce01f730ac0399dc238286a8] COMMAND QuitAll {
+
+}
+[1682964277,136][INFO]: [819702e8ce01f730ac0399dc238286a8] RESPONSE QuitAll
