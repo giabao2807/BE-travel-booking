@@ -7,6 +7,7 @@ from selenium import webdriver
 import os
 import json
 import re
+import requests
 
 from selenium.webdriver.chrome.service import Service
 
@@ -46,6 +47,59 @@ searched_page_urls = [
 ]
 
 
+def get_geo_hotel(page_url):
+    geo_data = dict()
+    hotel_id_pattern = r"d(\d+?)-"
+    hotel_matched = re.findall(hotel_id_pattern, page_url)
+    hotel_id = hotel_matched[0]
+
+    params = {
+        "rn": 1,
+        "rc": "Hotel_Review",
+        "stayDates": "2023_5_7_2023_5_8",
+        "guestInfo": "1_2",
+        "placementName": "Hotel_Review_MapDetail_Anchor",
+        "currency": "VND",
+    }
+
+    response = requests.get(f"https://www.tripadvisor.com.vn/data/1.0/mapsEnrichment/hotel/{hotel_id}", params=params, headers=get_header(req_header))
+    if response.status_code == 200:
+        geo_data = {
+            "latitude": response.json()["hotels"][0]['location']['geoPoint']['latitude'],
+            "longitude": response.json()["hotels"][0]['location']['geoPoint']['longitude']
+        }
+
+    return geo_data
+
+
+def get_hotel_name(page_url):
+    page_data = dict()
+
+    try:
+        chrome_executable = Service(executable_path=DRIVER_BIN, log_path='NUL')
+        driver = webdriver.Chrome(service=chrome_executable)
+        driver.get(page_url)
+        page = driver.page_source
+        soup = BeautifulSoup(page, 'html.parser')
+
+        location_box = soup.find("div", {"class": "gZwVG H3 f u ERCyA"})
+        location_text = location_box.find("span", {"class": "fHvkI PTrfg"}).text
+        name_box = soup.find("h1", {"class": "QdLfr b d Pn"})
+        hotel_name = name_box.text
+        room_number_box = soup.find_all("div", {"class": "IhqAp Ci"})[-1]
+        room_number = room_number_box.text
+
+        page_data["location"] = location_text
+        page_data["name"] = hotel_name
+        page_data["geo_data"] = get_geo_hotel(page_url)
+        page_data["room_number"] = room_number
+    except Exception as e:
+        print(e)
+        print(f"Error when fetch url: {page_url}")
+
+    return page_data
+
+
 def create_format_url_string(url: str):
     review_str = "-Reviews"
     index = url.find(review_str)
@@ -62,6 +116,7 @@ def get_single_page_content(raw_url, file_name):
     review_data = []
     ignore_page_names = [
     ]
+    page_content = dict()
     if file_name in ignore_page_names or "Attraction_Review" in raw_url:
         return
 
@@ -114,9 +169,12 @@ def get_single_page_content(raw_url, file_name):
             is_next = count_tried < max_tried
             page_offset += 5
 
+        hotel_page_url = raw_url.format("")
+        page_content = get_hotel_name(hotel_page_url)
+
     with open(f'{file_name}.json', 'w', encoding='utf-8') as file:
         print(f"Fetched page: {raw_url} with {str(len(review_data))} reviews")
-        json.dump(dict(content=review_data), file, ensure_ascii=False)
+        json.dump(dict(content=review_data, hotel=page_content), file, ensure_ascii=False)
 
 
 def get_file_name_from_url(url):
@@ -178,6 +236,8 @@ for idx, search_page_url in enumerate(searched_page_urls):
     # Fetching page 22 with url: Hotel_Review-g15295685-d13980353-Reviews-Vinpearl_Resort_Golf_Nam_Hoi_An-Binh_Minh_Quang_Nam_Province.html
     # all_page_urls = ["Hotel_Review-g298085-d6370235-Reviews-Premier_Village_Danang_Resort_Managed_by_Accor-Da_Nang.html", "Attraction_Review-g298085-d5531576-Reviews-Lady_Buddha-Da_Nang.html", "Hotel_Review-g298085-d9874032-Reviews-Serene_Beach_Hotel-Da_Nang.html", "Attraction_Review-g298085-d6612108-Reviews-Dragon_Bridge-Da_Nang.html", "Attraction_Review-g298085-d454980-Reviews-The_Marble_Mountains-Da_Nang.html", "Attraction_Review-g298085-d24111506-Reviews-Santa_Spa-Da_Nang.html", "Hotel_Review-g298085-d20063843-Reviews-HAIAN_Riverfront_Hotel_Danang-Da_Nang.html", "Hotel_Review-g298085-d2179507-Reviews-Danang_Marriott_Resort_Spa-Da_Nang.html", "Hotel_Review-g298085-d14794498-Reviews-Ruby_Light_Hotel_by_NNT_Hotel_Collection-Da_Nang.html", "Hotel_Review-g298085-d19453440-Reviews-Muong_Thanh_Luxury_Song_Han_Hotel-Da_Nang.html", "Hotel_Review-g15296807-d6668057-Reviews-FIVITEL_King_Hotel-My_An_Da_Nang.html", "Hotel_Review-g298085-d6161470-Reviews-Fivitel_Boutique_Da_Nang-Da_Nang.html", "Hotel_Review-g298085-d3236066-Reviews-Brilliant_Hotel-Da_Nang.html", "Hotel_Review-g298085-d24948586-Reviews-Wink_Hotel_Danang_Centre-Da_Nang.html", "Hotel_Review-g298085-d13297744-Reviews-Nhu_Minh_Plaza_Danang_Hotel-Da_Nang.html", "Attraction_Review-g298085-d7687457-Reviews-My_Khe_Beach-Da_Nang.html", "Hotel_Review-g298085-d15142242-Reviews-Eden_Hotel_Danang-Da_Nang.html", "Hotel_Review-g298085-d14058690-Reviews-Balcona_Hotel_Da_Nang-Da_Nang.html", "Hotel_Review-g298085-d13084590-Reviews-New_Orient_Hotel-Da_Nang.html", "Hotel_Review-g298085-d13326393-Reviews-Sheraton_Grand_Danang_Resort_Convention_Center-Da_Nang.html", "Hotel_Review-g298085-d1732187-Reviews-Pullman_Danang_Beach_Resort-Da_Nang.html", "Attraction_Review-g298085-d18114312-Reviews-Oani_Spa-Da_Nang.html", "Hotel_Review-g298085-d9570796-Reviews-Ana_Maison_Boutique_Hotel-Da_Nang.html", "Hotel_Review-g298085-d24073544-Reviews-Nesta_Hotel_Da_Nang-Da_Nang.html", "Hotel_Review-g298085-d1575735-Reviews-One_Opera_Danang_Hotel-Da_Nang.html", "Hotel_Review-g298085-d15327970-Reviews-Rosamia_Da_Nang_Hotel-Da_Nang.html", "Hotel_Review-g298085-d2340470-Reviews-Hyatt_Regency_Danang_Resort_Spa-Da_Nang.html", "Hotel_Review-g298085-d24102969-Reviews-Cozy_Danang_Boutique_Hotel-Da_Nang.html", "Restaurant_Review-g298085-d24985405-Reviews-Cardi_Pizzeria_Bach_Dang-Da_Nang.html", "Hotel_Review-g298085-d17732168-Reviews-Minh_Boutique-Da_Nang.html", "Hotel_Review-g298085-d8299463-Reviews-Palmier_Hotel_Apartment-Da_Nang.html", "Restaurant_Review-g298085-d17760929-Reviews-Bep_Cuon_Da_Nang-Da_Nang.html", "Hotel_Review-g298085-d15153595-Reviews-TMS_Hotel_Da_Nang_Beach-Da_Nang.html", "Hotel_Review-g298085-d8300044-Reviews-Golden_Star_Hotel-Da_Nang.html", "Hotel_Review-g298085-d12579296-Reviews-Cocobay_Danang_Boutique_Hotels-Da_Nang.html", "Hotel_Review-g298085-d14094174-Reviews-DLG_Hotel-Da_Nang.html", "Hotel_Review-g298085-d9702684-Reviews-Hadana_Boutique_Hotel-Da_Nang.html", "Hotel_Review-g298085-d19482545-Reviews-Daisy_Boutique_Hotel_Apartment-Da_Nang.html", "Hotel_Review-g298085-d12117671-Reviews-Adaline_Hotel_Suite-Da_Nang.html", "Hotel_Review-g298085-d1198755-Reviews-Da_Nang_Riverside_Hotel-Da_Nang.html", "Hotel_Review-g298085-d7891016-Reviews-Samdi_Hotel-Da_Nang.html", "Hotel_Review-g298085-d7932663-Reviews-Vanda_Hotel-Da_Nang.html", "Hotel_Review-g298085-d24863133-Reviews-Golden_Lotus_Grand_Da_Nang-Da_Nang.html", "Attraction_Review-g298085-d13084698-Reviews-Silk_Spa_Da_Nang-Da_Nang.html", "Hotel_Review-g298085-d7760658-Reviews-Fusion_Suites_Danang_Beach-Da_Nang.html", "Attraction_Review-g298085-d11674427-Reviews-Herbal_Spa-Da_Nang.html", "Hotel_Review-g298085-d11779930-Reviews-Sofia_Suite_Hotel_Spa_Danang-Da_Nang.html", "Hotel_Review-g298085-d8147265-Reviews-Galavina_Danang_Hotel-Da_Nang.html", "Attraction_Review-g298085-d454979-Reviews-Da_Nang_Museum_of_Cham_Sculpture-Da_Nang.html", "Hotel_Review-g298085-d12710754-Reviews-Eco_Green_Boutique_Hotel-Da_Nang.html", "Hotel_Review-g298085-d11895549-Reviews-Luxtery_Hotel-Da_Nang.html", "Hotel_Review-g298085-d12676316-Reviews-Central_Hotel_Spa-Da_Nang.html", "Hotel_Review-g298085-d12391393-Reviews-SEN_Boutique_Hotel-Da_Nang.html", "Hotel_Review-g293925-d20411635-Reviews-La_Vela_Saigon_Hotel-Ho_Chi_Minh_City.html", "Hotel_Review-g298085-d12268599-Reviews-Grandvrio_City_Danang_by_Route_Inn_Group-Da_Nang.html", "Hotel_Review-g298085-d17695824-Reviews-Ocean_View_Hotel_Da_Nang-Da_Nang.html", "Hotel_Review-g298085-d14969237-Reviews-Seashore_Hotel_Apartment-Da_Nang.html", "Hotel_Review-g298085-d12123736-Reviews-Alani_Hotel_Spa-Da_Nang.html", "Hotel_Review-g298085-d12970369-Reviews-Haka_Hotel_Apartment-Da_Nang.html", "Hotel_Review-g298085-d21015072-Reviews-Golden_Lotus_Hotel-Da_Nang.html", "Hotel_Review-g298085-d16820992-Reviews-The_Code_Hotel_Spa-Da_Nang.html", "Hotel_Review-g298085-d23976746-Reviews-Draco_Hotel_Suites-Da_Nang.html", "Hotel_Review-g298085-d12442254-Reviews-Dylan_Hotel_Da_Nang-Da_Nang.html", "Hotel_Review-g293928-d15353581-Reviews-Vinpearl_Sealink_Nha_Trang-Nha_Trang_Khanh_Hoa_Province.html", "Hotel_Review-g298085-d14800987-Reviews-Aria_Grand_Da_Nang_Hotel_Apartments-Da_Nang.html", "Hotel_Review-g298085-d4346231-Reviews-Eden_Plaza_Da_Nang_Hotel-Da_Nang.html", "Hotel_Review-g298085-d15521854-Reviews-Grand_Cititel_Danang_Hotel-Da_Nang.html", "Hotel_Review-g15339118-d14932943-Reviews-Grand_Gold_Hotel-Tho_Quang_Son_Tra_Peninsula_Da_Nang.html", "Hotel_Review-g17786366-d18207115-Reviews-Maximilan_Danang_Beach_Hotel-Son_Tra_Peninsula_Da_Nang.html", "Hotel_Review-g298085-d6609499-Reviews-Melia_Danang_Beach_Resort-Da_Nang.html", "Hotel_Review-g298085-d3914006-Reviews-Orchid_Hotel-Da_Nang.html", "Hotel_Review-g298085-d21020893-Reviews-Canvas_Danang_Beach_Hotel-Da_Nang.html", "Hotel_Review-g298085-d4870701-Reviews-Happy_Day_Hotel_Da_Nang-Da_Nang.html", "Hotel_Review-g298085-d12722484-Reviews-Touch_Danang_Hostel-Da_Nang.html", "Hotel_Review-g298085-d12829336-Reviews-Gemma_Hotel-Da_Nang.html", "Hotel_Review-g19779171-d23169144-Reviews-Radisson_Hotel_Danang-Phuoc_My_Son_Tra_Peninsula_Da_Nang.html", "Attraction_Review-g298085-d15588293-Reviews-Danang_Green_Travel-Da_Nang.html", "Hotel_Review-g298085-d12646017-Reviews-Raon_Danang_Beach-Da_Nang.html", "Hotel_Review-g298085-d13846812-Reviews-Altara_Suites-Da_Nang.html", "Hotel_Review-g298085-d15225205-Reviews-Grand_Sunrise_Boutique_Hotel-Da_Nang.html", "Hotel_Review-g298085-d12221349-Reviews-Grand_Sunrise_3_Hotel-Da_Nang.html", "Hotel_Review-g298085-d13228168-Reviews-Lamuno_Hotel-Da_Nang.html", "Hotel_Review-g298085-d7787047-Reviews-Diamond_Sea_Hotel-Da_Nang.html", "Hotel_Review-g298085-d14016792-Reviews-Greenery_Hotel-Da_Nang.html", "Hotel_Review-g298085-d10181933-Reviews-Mercure_Danang_French_Village_Bana_Hills_Hotel-Da_Nang.html", "Attraction_Review-g298085-d7021088-Reviews-SKY36-Da_Nang.html", "Attraction_Review-g298085-d12273530-Reviews-Da_Nang_Catheral-Da_Nang.html", "Hotel_Review-g15296807-d19730171-Reviews-Senorita_Boutique_Hotel-My_An_Da_Nang.html", "Hotel_Review-g298085-d8431339-Reviews-Cicilia_Hotels_Spa-Da_Nang.html", "Hotel_Review-g15296807-d19254969-Reviews-Sofiana_My_Khe_Hotel_Spa-My_An_Da_Nang.html", "Hotel_Review-g19779171-d7389185-Reviews-Royal_Family_Hotel-Phuoc_My_Son_Tra_Peninsula_Da_Nang.html", "Hotel_Review-g11909288-d3504912-Reviews-Angsana_Lang_Co_Vietnam-Cu_Du_Loc_Vinh_Phu_Loc_District_Thua_Thien_Hue_Province.html", "Hotel_Review-g298085-d10255974-Reviews-FIVITEL_Queen-Da_Nang.html", "Hotel_Review-g298085-d8462721-Reviews-Le_House_Boutique_Hotel-Da_Nang.html", "Hotel_Review-g298085-d19935841-Reviews-Santa_Luxury_Hotel-Da_Nang.html", "Hotel_Review-g298085-d7787334-Reviews-Green_House_Hotel-Da_Nang.html", "Hotel_Review-g298085-d10182530-Reviews-Golden_Light_Hotel-Da_Nang.html", "Attraction_Review-g298085-d19417690-Reviews-Da_Nang_Travel_Car_Company-Da_Nang.html", "Hotel_Review-g298085-d13964367-Reviews-Parze_Ocean_Hotel_Spa-Da_Nang.html", "Hotel_Review-g298085-d21510279-Reviews-Chi_House_Danang_Hotel_Apartment-Da_Nang.html", "Hotel_Review-g298085-d12250113-Reviews-Le_Hoang_Beach_Hotel-Da_Nang.html", "Hotel_Review-g298085-d16952134-Reviews-Roliva_Hotel_Apartment_Danang-Da_Nang.html", "Hotel_Review-g19779171-d17591909-Reviews-Hai_Trieu_Hotel-Phuoc_My_Son_Tra_Peninsula_Da_Nang.html", "Hotel_Review-g298085-d14016789-Reviews-Rosetta_Hotel_Apartment-Da_Nang.html", "Attraction_Review-g298085-d12976292-Reviews-Maison_Spa_Da_Nang-Da_Nang.html", "Hotel_Review-g298085-d7403837-Reviews-Sofia_Boutique_Hotel_Da_Nang-Da_Nang.html", "Attraction_Review-g298085-d17546936-Reviews-Panda_Spa-Da_Nang.html", "Hotel_Review-g298086-d23019691-Reviews-Centara_Mirage_Resort_Mui_Ne-Phan_Thiet_Binh_Thuan_Province.html", "Hotel_Review-g298085-d10151876-Reviews-OYO_157_Centre_Hotel-Da_Nang.html", "Hotel_Review-g298085-d16917089-Reviews-Golden_Line_Danang_Hotel-Da_Nang.html", "Hotel_Review-g19935676-d10170259-Reviews-Mai_Boutique_Villa-An_Hai_Bac_Son_Tra_Peninsula_Da_Nang.html", "Hotel_Review-g298085-d9809627-Reviews-Da_nang_Han_River_Hotel-Da_Nang.html", "Hotel_Review-g19779171-d14025941-Reviews-Four_Points_by_Sheraton_Danang-Phuoc_My_Son_Tra_Peninsula_Da_Nang.html", "Restaurant_Review-g298085-d6961132-Reviews-Banh_xeo_Ba_Duong-Da_Nang.html", "Hotel_Review-g298085-d10049985-Reviews-Valentine_Hotel-Da_Nang.html", "Hotel_Review-g15296807-d11891076-Reviews-Yarra_Ocean_Suites_Danang-My_An_Da_Nang.html", "Hotel_Review-g298085-d1823746-Reviews-TIA_Wellness_Resort_Spa_Inclusive-Da_Nang.html", "Hotel_Review-g298085-d10175116-Reviews-Lucky_Bee_Homestay-Da_Nang.html", "Attraction_Review-g298085-d6372004-Reviews-Charm_Spa-Da_Nang.html", "Attraction_Review-g298085-d8090733-Reviews-Han_River_Bridge-Da_Nang.html", "Hotel_Review-g298085-d12250036-Reviews-The_Han_Hotel-Da_Nang.html", "Restaurant_Review-g298085-d13810289-Reviews-Thia_G-Da_Nang.html", "Hotel_Review-g298085-d6697462-Reviews-Sanouva_Danang_Hotel-Da_Nang.html", "Hotel_Review-g298085-d12596649-Reviews-Lis_Hotel-Da_Nang.html", "Hotel_Review-g298085-d12238939-Reviews-Little_Flower_Homestay-Da_Nang.html", "Hotel_Review-g298085-d3750946-Reviews-LEGEND_Boutique_Hotel-Da_Nang.html", "Hotel_Review-g298085-d12417548-Reviews-Danang_Moment_Boutique_Serviced_Apartment-Da_Nang.html", "Hotel_Review-g298085-d21041406-Reviews-M_Boutique_Danang-Da_Nang.html", "Hotel_Review-g298085-d10317572-Reviews-Danaciti_Hotel-Da_Nang.html", "Hotel_Review-g298085-d15300519-Reviews-Monsieur_Diesel_Hotel_Danang-Da_Nang.html", "Hotel_Review-g298085-d12730279-Reviews-Pavilion_Hotel_Danang-Da_Nang.html", "Hotel_Review-g298085-d23276595-Reviews-M_Suite_Danang-Da_Nang.html", "Hotel_Review-g298085-d12458667-Reviews-Mandila_Beach_Hotel_Danang-Da_Nang.html", "Hotel_Review-g298085-d14929076-Reviews-Lahome_Apartment_And_Villa-Da_Nang.html", "Hotel_Review-g298085-d15186970-Reviews-Jolia_Hotel_Apartment-Da_Nang.html", "Hotel_Review-g298086-d3478132-Reviews-The_Cliff_Resort_Residences-Phan_Thiet_Binh_Thuan_Province.html", "Attraction_Review-g298085-d24193508-Reviews-Santa_Spa-Da_Nang.html", "Hotel_Review-g19779171-d3240170-Reviews-Star_Hotel_Da_Nang-Phuoc_My_Son_Tra_Peninsula_Da_Nang.html", "Hotel_Review-g293928-d7305361-Reviews-Muong_Thanh_Luxury_Nha_Trang_Hotel-Nha_Trang_Khanh_Hoa_Province.html", "Hotel_Review-g17786366-d12295273-Reviews-Brilliant_Majestic_Villa_Hotel-Son_Tra_Peninsula_Da_Nang.html", "Hotel_Review-g298085-d15746947-Reviews-Pandora_Boutique_Da_Nang-Da_Nang.html", "Hotel_Review-g298085-d17484084-Reviews-CN_Palace_Boutique_Hotel_Spa-Da_Nang.html", "Hotel_Review-g17786366-d23333380-Reviews-Nguyen_Gia_Hotel-Son_Tra_Peninsula_Da_Nang.html", "Hotel_Review-g298085-d3210927-Reviews-Sun_Moon_Hotel_Hostel-Da_Nang.html", "Hotel_Review-g298085-d17379315-Reviews-The_Memory_Danang-Da_Nang.html", "Hotel_Review-g17786366-d10627716-Reviews-Star_City_Riverside_Hotel_By_Haviland-Son_Tra_Peninsula_Da_Nang.html", "Hotel_Review-g298085-d24838643-Reviews-Alan_Sea_Hotel_Danang-Da_Nang.html", "Hotel_Review-g298085-d8132288-Reviews-Jazz_Hotel-Da_Nang.html", "Hotel_Review-g298085-d3222457-Reviews-Fansipan_Danang_Hotel-Da_Nang.html", "Hotel_Review-g298085-d12222354-Reviews-Nam_Anh_Hotel-Da_Nang.html"]
     for _idx, page_url in enumerate(all_page_urls):
+        if idx < 22:
+            continue
         print(f"Fetching page {_idx} with url: {page_url}")
         page_url = domain_prefix + "/" + page_url
         page_url = create_format_url_string(page_url)

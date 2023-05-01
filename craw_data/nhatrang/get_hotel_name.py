@@ -66,33 +66,55 @@ def get_geo_hotel(page_url):
 
     return geo_data
 
+#
+# def get_hotel_content(page_url):
+#     ivivu_mapping = {
+#
+#     }
 
 def get_hotel_name(page_url):
     page_data = dict()
-    chrome_executable = Service(executable_path=DRIVER_BIN, log_path='NUL')
-    driver = webdriver.Chrome(service=chrome_executable)
-    driver.get(page_url)
-    page = driver.page_source
-    soup = BeautifulSoup(page, 'html.parser')
 
-    location_box = soup.find("div", {"class": "gZwVG H3 f u ERCyA"})
-    location_text = location_box.find("span", {"class": "fHvkI PTrfg"}).text
-    name_box = soup.find("h1", {"class": "QdLfr b d Pn"})
-    hotel_name = name_box.text
+    try:
+        chrome_executable = Service(executable_path=DRIVER_BIN, log_path='NUL')
+        driver = webdriver.Chrome(service=chrome_executable)
+        driver.get(page_url)
+        page = driver.page_source
+        soup = BeautifulSoup(page, 'html.parser')
 
-    page_data["location"] = location_text
-    page_data["name"] = hotel_name
-    page_data["geo_data"] = get_geo_hotel(page_url)
+        location_box = soup.find("div", {"class": "gZwVG H3 f u ERCyA"})
+        location_text = location_box.find("span", {"class": "fHvkI PTrfg"}).text
+        name_box = soup.find("h1", {"class": "QdLfr b d Pn"})
+        hotel_name = name_box.text
+        room_number_box = soup.find_all("div", {"class": "IhqAp Ci"})[-1]
+        room_number = room_number_box.text
+
+        page_data["location"] = location_text
+        page_data["name"] = hotel_name
+        page_data["geo_data"] = get_geo_hotel(page_url)
+        page_data["room_number"] = room_number
+    except Exception as e:
+        print(e)
+        print(f"Error when fetch url: {page_url}")
 
     return page_data
 
 
-for file_name in os.listdir():
+all_page = os.listdir()
+total_pages = len(all_page)
+
+for idx, file_name in enumerate(all_page):
+    print(f"Progressing idx: {idx}/{total_pages}")
     if file_name.endswith(".json"):
         url = domain_prefix + "/" + file_name.replace(".json", ".html")
         url = url.format("")
         page_content = get_hotel_name(url)
-        with open(file_name, "r+", encoding='utf-8') as file:
-            content = json.loads(file.read())
-            content["hotel"] = page_content
-            json.dump(content, file, ensure_ascii=False)
+        if page_content:
+            print(f"Crawling the hotel info url: {url}")
+            with open(file_name, "r+", encoding='utf-8') as file:
+                content = json.loads(file.read())
+                content["hotel"] = page_content
+                file.seek(0)
+                json.dump(content, file, ensure_ascii=False, indent=4)
+                file.truncate()
+            print("Done!")

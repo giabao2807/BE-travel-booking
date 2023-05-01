@@ -1,1 +1,12 @@
-{"content": []}
+{
+    "content": [],
+    "hotel": {
+        "location": "22 Morrison An Hai Bac Son Tra, Đà Nẵng 550000 Việt Nam",
+        "name": "Khách Sạn The Han",
+        "geo_data": {
+            "latitude": 16.07145118713379,
+            "longitude": 108.242431640625
+        },
+        "room_number": "19"
+    }
+}
