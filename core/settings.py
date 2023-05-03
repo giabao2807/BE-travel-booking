@@ -53,7 +53,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'base',
     'api_user',
-    'api_tour'
+    'api_tour',
+    'api_hotel'
 ]
 
 MIDDLEWARE = [
