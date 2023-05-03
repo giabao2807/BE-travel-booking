@@ -31,7 +31,6 @@ class Profile(AbstractBaseUser, TimeStampedModel):
             MinLengthValidator(9),
         ],
     )
-    active = models.BooleanField(default=True)
 
     USERNAME_FIELD = 'email'
     objects = ProfileManager()

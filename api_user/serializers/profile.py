@@ -1,5 +1,4 @@
 from rest_framework import serializers
-from rest_framework.exceptions import ValidationError
 from rest_framework.serializers import ModelSerializer
 
 from api_user.models.profile import Profile
@@ -8,7 +7,7 @@ from api_user.models.profile import Profile
 class ProfileDetailSerializer(ModelSerializer):
     class Meta:
         model = Profile
-        exclude = ['password', 'active']
+        exclude = ['password', 'is_active']
 
 
 class MyProfileSerializer(ModelSerializer):
@@ -16,7 +15,7 @@ class MyProfileSerializer(ModelSerializer):
 
     class Meta:
         model = Profile
-        exclude = ['password', 'active', "longitude", "latitude", 'role']
+        exclude = ['password', "longitude", "latitude", 'role', 'is_active']
 
 
 class ProfileRegisterSerializer(ModelSerializer):
