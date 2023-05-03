@@ -32,7 +32,7 @@ def initial_tour_data(apps, schema_editor):
             city=city, descriptions=data['description'],
             schedule_content=data['schedule_content'], note=data['note'],
             num_review=int(data['num_review']), group_size=data['group_size'],
-            price=price, owner=partner[random.randint(0, len(partner)-1)],
+            price=price, owner=partner[random.randint(0, len(partner)-2)],
             total_days=data['total_days'], language_tour="Việt Nam"
         )
         tour.save()
