@@ -1,1 +1,2 @@
-from permission import AdminPermission, PartnerPermission, CustomerPermission, UserPermission
+from .permission import AdminPermission,\
+    PartnerPermission, CustomerPermission, UserPermission
