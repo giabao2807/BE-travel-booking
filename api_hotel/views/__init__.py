@@ -1,1 +1,1 @@
-from .tour import TourViewSet
+from .hotel import HotelViewSet
