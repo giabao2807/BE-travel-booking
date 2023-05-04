@@ -5,7 +5,7 @@ from craw_data.craw_city import get_data_for_city
 
 
 def initial_city_data(apps, schema_editor):
-    city_model = apps.get_model("api_tour", "City")
+    city_model = apps.get_model("api_general", "City")
 
     cities = []
 
@@ -18,14 +18,14 @@ def initial_city_data(apps, schema_editor):
 
 
 def delete_all_data(apps, schema_editor):
-    city_model = apps.get_model("api_tour", "City")
+    city_model = apps.get_model("api_general", "City")
     city_model.objects.all().delete()
 
 
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api_tour', '0001_initial'),
+        ('api_general', '0001_initial'),
     ]
 
     operations = [

@@ -1,2 +1,2 @@
-from .city import City, CityImage
-from .tour import Tour, TourImage
+from .tour import Tour
+from .tour_image import TourImage

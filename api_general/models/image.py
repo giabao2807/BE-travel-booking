@@ -1,5 +1,4 @@
 from django.db import models
-from django.db.models import Manager
 
 
 class Image(models.Model):

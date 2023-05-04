@@ -1,9 +1,9 @@
 from django.db import models
 
+from api_general.models import City, Image
 from api_hotel.managers import HotelManager
-from api_tour.models import City
 from api_user.models import Profile
-from base.models import TimeStampedModel, Image
+from base.models import TimeStampedModel
 
 
 class Hotel(TimeStampedModel):
@@ -25,11 +25,3 @@ class Hotel(TimeStampedModel):
 
     class Meta:
         db_table = 'hotels'
-
-
-class HotelImage(models.Model):
-    image = models.ForeignKey(Image, on_delete=models.CASCADE, null=True)
-    hotel = models.ForeignKey(Hotel, on_delete=models.CASCADE, null=True)
-
-    class Meta:
-        db_table = 'hotel_image'

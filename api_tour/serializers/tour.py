@@ -1,6 +1,7 @@
 from rest_framework.serializers import ModelSerializer
 
-from api_tour.models import Tour, TourImage
+from api_tour.models import Tour
+from api_tour.models.tour_image import TourImage
 
 
 class TourSerializer(ModelSerializer):

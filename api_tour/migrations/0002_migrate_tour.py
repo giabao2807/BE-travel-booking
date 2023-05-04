@@ -8,9 +8,9 @@ from api_user.statics import RoleData
 
 
 def initial_tour_data(apps, schema_editor):
-    city_model = apps.get_model("api_tour", "City")
+    city_model = apps.get_model("api_general", "City")
     tour_model = apps.get_model("api_tour", "Tour")
-    image_model = apps.get_model("base", "Image")
+    image_model = apps.get_model("api_general", "Image")
     tour_image_model = apps.get_model("api_tour", "TourImage")
     profile_models = apps.get_model("api_user", 'Profile')
     role_model = apps.get_model("api_user", "Role")
@@ -48,7 +48,7 @@ def initial_tour_data(apps, schema_editor):
 
 def delete_all_data(apps, schema_editor):
     tour_model = apps.get_model("api_tour", "Tour")
-    image_model = apps.get_model("base", "Image")
+    image_model = apps.get_model("api_general", "Image")
     tour_image_model = apps.get_model("api_tour", "TourImage")
     tour_model.objects.all().delete()
     image_model.objects.all().delete()
@@ -58,7 +58,8 @@ def delete_all_data(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api_tour', '0004_alter_tourimage_image'),
+        ('api_tour', '0001_initial'),
+        ('api_user', '0003_migrate_profile'),
     ]
 
     operations = [

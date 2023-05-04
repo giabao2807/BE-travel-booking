@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, List
 
 from django.contrib.auth.hashers import check_password
 from django.db import transaction
@@ -68,3 +68,7 @@ class ProfileService:
         }
         data = {**token_data, **user_data}
         return data
+
+    @classmethod
+    def bulk_create_anonymous_users(cls) -> List[Profile]:
+        pass

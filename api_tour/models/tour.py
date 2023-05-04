@@ -1,9 +1,9 @@
 from django.db import models
 
+from api_general.models import City
 from api_tour.managers import TourManager
-from api_tour.models import City
 from api_user.models import Profile
-from base.models import TimeStampedModel, Image
+from base.models import TimeStampedModel
 
 
 class Tour(TimeStampedModel):
@@ -27,11 +27,3 @@ class Tour(TimeStampedModel):
 
     class Meta:
         db_table = 'tours'
-
-
-class TourImage(models.Model):
-    image = models.ForeignKey(Image, on_delete=models.CASCADE, null=True)
-    tour = models.ForeignKey(Tour, on_delete=models.CASCADE, null=True)
-
-    class Meta:
-        db_table = 'tour_image'
