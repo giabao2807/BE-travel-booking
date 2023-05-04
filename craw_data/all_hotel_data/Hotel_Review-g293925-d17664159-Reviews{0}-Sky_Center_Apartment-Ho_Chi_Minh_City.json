@@ -1,0 +1,38 @@
+{
+    "content": [
+        {
+            "name": "Jack Vu",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Căn hộ chung cư cao cấp ",
+            "review_content": "Phục vụ rất tốt, rất nhiệt tình, vui vẻ  Căn hộ đầy đủ tiện ích gia đình   Toà nhà sạch sẽ đầy đủ các tiện ích: vinmart, gym, khu vui chơi trẻ em, hồ bơi, gần ngay sân bay Tân sơn nhất, ra trung tâm quận 1 chỉ 10p.   ",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        }
+    ],
+    "hotel": {
+        "location": "5B Pho Quang Phuong 2 Quan Tan Binh, Thành phố Hồ Chí Minh Việt Nam",
+        "name": "Sky Center Apartment",
+        "geo_data": {
+            "latitude": 10.80605697631836,
+            "longitude": 106.66649627685547
+        },
+        "room_number": "Việt NamThành phố Hồ Chí Minh",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cf/cf/photo1jpg.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cb/42/can-h-75m2-2-phong-ng.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/de/69/24/sofa-living-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/de/69/1e/mail-box.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cf/d1/photo3jpg.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cf/d0/photo2jpg.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cf/ce/photo0jpg.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cb/3e/can-h-75m2-2-phong-ng.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cb/3b/can-h-75m2-2-phong-ng.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cb/3a/can-h-75m2-2-phong-ng.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cb/39/can-h-75m2-2-phong-ng.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cb/38/can-h-75m2-2-phong-ng.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cb/37/can-h-75m2-2-phong-ng.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cb/36/can-h-75m2-2-phong-ng.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2e/cb/35/can-h-75m2-2-phong-ng.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

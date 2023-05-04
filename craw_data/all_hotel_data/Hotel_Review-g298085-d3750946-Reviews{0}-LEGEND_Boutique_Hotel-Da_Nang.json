@@ -1,0 +1,147 @@
+{
+    "content": [
+        {
+            "name": "Dee Nguyen",
+            "avatar": "",
+            "review_rating": "2",
+            "review_title": "Tệ",
+            "review_content": "Phòng ko cách âm, tệ. Nhân vien buồng phòng lam việc bên ngoài ma bên trong nghe đùng đùng. Tàng trên di chuyen ở dưới cubg nghe lóbs. Ăn sáng it món. Thiết kế toilet va phòng tắm ko hợp ly. Ko co vách ngăn",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "HỒ HẢI H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Legend Boutique Hotel - nơi trải nghiệm tuyệt vời",
+            "review_content": "Khách sạn thiết kế đẹp, hiện đại, nội thất sang trọng, không gian ấm cúng, tất cả hướng đến sự thoải mái, tiện nghi cho khách. Vị trí thuận tiện, dễ dàng tìm kiếm. Nhân viên nhiệt tình, thân thiện. Khách sạn còn có hồ bơi và phòng Gym cực chill.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Truong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "tốt",
+            "review_content": "Mình ở Legend cho chuyến công tác đà nẵng lần này. Khách sạn tốt nhất mà xưa giờ đi công tác mình từng ở. Thiết kế vô cùng hiện đại, đặc biệt rất khác biệt so với những khách sạn cùng phân khúc. Ks nhỏ nhưng rất đầy đủ tiện nghi, phòng đẹp, rộng rãi, và cực kỳ sạch sẽ!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Sadie_LaY",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tại khách sạn",
+            "review_content": "Khách sạn đẹp, sang trọng, mới. Phòng ngủ rộng rãi thoáng mát. Khách sạn 3 sao mà chất lượng dễ sợ. Dịch vụ thì tốt nhân viên thân thiện nhiệt tình. Hồ bơi trên tầng thượng đẹp. Nói chung đáng để quay lại lần nữa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kính N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "khách sạn 3* tiêu chuẩn 4*+",
+            "review_content": "cảm ơn khách sạn Legend đã giúp gia đình tôi có một trải nghiệm thật tuyệt vời khi đến với Đà Nẵng. Ấn tượng đầu tiên là khách sạn rất tươi mát vì có nhiều cây xanh, rất gần gũi, tạo cảm giác thân thuộc. Tôi rất ấn tượng với nhân viên của khách sạn, từ các bạn lễ tân, bellman, các bạn phục vụ nhà hàng bạn nào cũng dễ thương, thân thiện, chuyên môn cao, phòng ở rất sang, thiết kế hiện đại, không gian ấm áp. Tôi đánh giá 5 sao nhé. Tôi sẽ giới thiệu nhiều du khách để trải nghiệm dịch vụ bên mình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ánh Minh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời. Cảm ơn Khách sạn Legend!",
+            "review_content": "Vừa qua tôi có kì nghỉ Honeymoon tại Khách sạn Legend thật tuyệt vời. Nhân viên ở đây rất thân thiện, nhiệt tình. Cơ sơ vật chất, phòng ngủ rất hiện đại, tôi rất ưng ý với gói Honeymoon khách sạn đã chuẩn bị thật chu đáo. Sẽ quay trở lại khi đến Đà Nẵng.",
+            "reviewer_location": "Hội An, Việt Nam"
+        },
+        {
+            "name": "Minh Trịnh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn mới và rất phong cách",
+            "review_content": "Một khách sạn rất mới tại Đà Nẵng, đi bộ 5 phút là đến bãi biển Mỹ Khê. Nhân viên đón tiếp niềm nở từ bảo vệ. Phòng mới, sang trọng với view thành phố và cây xanh rất mát mẻ. Ăn sáng ổn với nhiều món lựa chọn. Hòi bơi tầng top tuy nhỏ nhưng có view vô cực rất đẹp. Giá phòng khá rẻ trong giai đoạn opening. Rất cảm ơn Legend, chúng tôi sẽ quay lại sớm.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Julii Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good Service",
+            "review_content": "Tụi mình vừa có 1 trải nghiệm tuyệt vời tại khách sạn Legend. Tụi mình rất ấn tượng với sự chào đón từ các bạn lễ tân cũng như các bạn nhân viên khác tại khách sạn. Các bạn ấy rất chuyên nghiệp và thân thiệt. Phòng ốc ở đây khá là mới. Tụi mình có ghi chú trong đặt phòng là Honey Moon và thật bất ngờ khi nhận phòng khách sạn đã set up phòng của tụi mình rất là đẹp. Cảm ơn khách sạn đã cho tụi mình 1 kì nghỉ tuyệt vời 👍😍",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kiều Oanh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch Đà Nẵng",
+            "review_content": "Legend Hotel có gì?? Khi mới đặt chân tới đây điều đầu tiên mà tôi thấy hài lòng nhất là cách tiếp đón khách tại đây. Rất nhiệt tình, chu đáo. Về phòng của khách sạn thì tôi đánh giá rất cao, từ thiết kế đến không gian đều khiến tôi hài lòng. Có thể nói Legend Hotel là nơi mang lại cảm giác yên tĩnh, thư giãn. Đúng với những gì mà tôi cũng như khách du lịch khi bước chân tới Đà Nẵng đều mong muốn.. Cảm ơn Legend Hotel đã cho tôi một trải nghiệm tuyệt vời khi tới Đà Nẵng. ❤️",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lan Huong N",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Phù hợp đi công tác hoặc với gia đình",
+            "review_content": "Nhân viên nhiệt tình Cơ sở vật chất mới đẹp, sạch sẽ Đi bộ ra biển khoảng 200m Gần nhà hàng quán ăn Có nơi đậu xe oto Ăn sáng buffet Phù hợp đi công tác hoặc cho gia đình có con nhỏ Có hồ bơi và phòng tập GYM ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Anh Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cực kì thích !",
+            "review_content": "Khách sạn mới, giá phòng rẻ nhưng dịch vụ rất là ok, nhân viên thân thiện, nhà hàng đẹp và ấm cúng. Đồ ăn sáng ngon, nội thất trong phòng thì sang trọng. Sẽ lựa chọn ở lại khách sạn thêm nhiều lần nữa!!!",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Bao Thi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice room and friendly staff!!",
+            "review_content": "Khách sạn mới khai trương nên mình book đc giá khá rẻ đã bao gồm ăn sáng và được nâng hạng phòng miễn phí ^^ Phòng ốc sạch sẽ và phong cách rất hiện đại. Các bạn lễ tân rất nhiệt tình hướng dẫn mình thuê xe máy và các quán ăn local rất ngon!  Sẽ quay lại nếu có dịp! Thank you Legend Da Nang for a comfortable stay <3 ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Relax36792094361",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "quá tuyệt vời",
+            "review_content": "Nhân viên thân thiện, nhiệt tình, món ăn đa dạng hợp khẩu vị, phòng óc sạch sẽ có mùi hương tự nhiên. Nhân viên lễ tân vừa xinh đẹp lại rất nhẹ nhàng, nếu lần sau đến ĐN mình sẽ đến lưu trú tại khách sạn ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "khanhha91",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "đẹp,sang trọng,tuyệt vời",
+            "review_content": "Mình đi hồi tháng 2 đầu năm, phải đến bây giờ mới lại có duyên vào đây viết đánh giá. Thực sự rất tuyệt, cảm nhận đầu tiên là khách sạn lớn, mới ,và kiến trúc sang trọng. Hồi đó mình đặt phòng giá rất rẻ- nhân viên nice và nhiệt tình cực kỳ. Mình thích nội thất trong phòng.Điều mình ấn tượng nữa là buffe sáng của khách sạn, ngon, nhiều món. Ở khách sạn có dịch vụ thuê xe máy luôn, lúc đó mình thuê là 150k 1 ngày tha hồ lượn lờ. Tháng 10 này mình lại có chuyến vào DN, vẫn mong có duyên với Legend :X",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        }
+    ],
+    "hotel": {
+        "location": "169 Ho Nghinh, Đà Nẵng Việt Nam",
+        "name": "LEGEND Boutique Hotel",
+        "geo_data": {
+            "latitude": 16.068340301513672,
+            "longitude": 108.2432632446289
+        },
+        "room_number": "40",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e6/48/05/legend-hotel-danang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/e6/47/f6/legend-hotel-danang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/49/2e/74/legend-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/78/c1/17/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/2a/d9/b6/legend-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/2a/d9/b4/legend-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/ff/d4/1d/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/f4/33/d8/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/f4/33/d7/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/d2/55/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/d2/54/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/d2/53/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/d2/52/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/d2/50/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/d2/4f/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/d2/4e/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/d2/4d/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/d2/4c/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/a3/20/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/e2/a3/1f/caption.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

@@ -1,0 +1,347 @@
+{
+    "content": [
+        {
+            "name": "Duong Bui",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn và dịch vụ rất tốt",
+            "review_content": "Đã có những ngày công tác và nghĩ dưỡng thật tuyệt vời với Ccentral. Cảm ơn Ostin, Tina và Brian đã cho mình một sinh nhật tuyệt vời ở C Central. Vị trí tiện lợi, phòng sạch và tiện nghi. Nhìn chung sẽ quay lại đều đều :))",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "kimlien",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "khách sạn rát tốt",
+            "review_content": "tôi rất thích các bạn phuc vụ rất tốt  đặc biệt là bạn tom và julie phòng ở rất tốt sạch sẽ khu vực gần chung tâm đồ ăn sáng rất ngon vs cafe pha rất ngon.    cảm ơn các bạn chúng tôi sẽ quay lại một ngày gần nhất",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thinh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Danh gia tot",
+            "review_content": "Cam on ban le tan  ten vicky ostin tina da ho tro thong tin trong thoi gian luu tru tai khach sạn. Bua an sang ngon,phuc vu than thien nhiet tinh de thuong lam luon. Vi tri thuan tien di chuyen cac dia diem du lich",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Đức",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "OSTIN + TINA + VICKY",
+            "review_content": "Lễ tân phục vụ rất nhiện tình. Sẽ quay lại tiếp. Vị trí thuận lợi, buổi tối hơn ồn, nhưng không quá ồn, có sẵn nút tai. Buổi sáng view khá ok, đồ ăn sáng ngon, thời tiết dễ chịu, phòng đẹp, gần công viên trung tâm",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quang Thiều",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một nơi đáng để bạn dừng chân",
+            "review_content": "Dừng chân ở đây 2 ngày để cảm nhận ồn ào của Sài Gòn. Cảm nhận đầu tiên là phong cách chuyên nghiệp và thân thiện của nhân viên lễ tân. Dịch vụ tuyệt vời, phòng sạch sẽ, Thanks Kai - Vicky - Ostin. Mình sẽ quay lại đây nếu có dịp vào Sài Gòn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dich vu tot",
+            "review_content": "Bưa sang ngon, dich vu tot se quay lai lan sau. Cac ban nhan vien rat de thuong . Cam on ban Vicky ostin, da ho tro thong tin trong qua trinh luu tru tai khach sạn’ . Se goi y cho ban be nguoi than toi su dung dich vu",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "lâm Vũ An",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "đánh giá",
+            "review_content": "phòng nghỉ đẹp, sạch sẽ.  Vị trí đi lại thuận tiện  Nhân viên khách sạn thân thiện, nhiệt tình, vui vẻ 👌 chăm sóc quan tâm khách chu đáo 🥳 và chị Vicky rất tốt bụng and very beautiful ❤️ nhất định sẽ quay lại 🥳🥳🥳",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Uyên Uyên",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good",
+            "review_content": "Phòng sạch sẽ, view đẹp, dịch vụ phòng tốt. Có nút bịt tai chống ồn. Vị trí khách sạn thuận tiện để đi chơi. Nhân viên dễ thương, phục vụ tận tình, đặc biệt là Vicky- Tina- Sam. Lần sau đi du lịch nhất định sẽ quay lại khách sạn này.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "An Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt",
+            "review_content": "Giường êm, phòng rộng rãi sạch sẽ. Nhân viên phục vụ tốt và cực kì tận tình với khách, đặc biệt là 3 anh chị nhân viên Vicky-Tina-Sam. Địa điểm trong Bùi Viện và Đề Thám, đi lại các địa điểm trong Quận 1 cực kì tiện lợi.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt",
+            "review_content": "Phòng sạch sẽ, mới đẹp, nhưng đêm hơi ồn chút mà không sao :D  Ostin + lana + brian + betty nhiệt tình , thân thiện Mình có đặt thêm 1 đêm vì thấy hài lòng và được nhân viên hỗ trợ nhiệt tình.  🤗🤗🤗🤗🤗",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanh mai",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vu tot",
+            "review_content": "Phòng  kha ok  trang trí đẹp, vị trí thuận tiện cho di chuyển các địa điem quanh thành phố’.  Di chuyện gan các địa điểm noi tiếng quanh thanh pho.Gan chợ bến thành, có bar xung quanh Bữa sáng bét. Cam on ban tina , vicky  da ho tro trong thoi gian lu tru",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quocquyen78",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt",
+            "review_content": "Phòng great lắm, trang trí đẹp, vị trí thuận tiện cho di chuyển các địa điem quanh thành phố’. Gan chợ bến thành, có bar xung quanh Bữa sáng best   Staff friendly Vicky- Kai  Vị trí thuận lợi cho nightlife",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Davidd",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good",
+            "review_content": "Nhan vien rat de thuong, nhiet tinh giup do trong thoi gian luu tru tai khach san. Rat cam on ban vicky, kai da ho tro giu hanh ly, huong dan cac dia diem an uong vui choi. Phong sach dep,bua an sang tuyet voi, nhieu lua chon",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Mol0101",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhìn viên thân thiện",
+            "review_content": "Gia tốt phu hop,gan dia diem du lich than quan, phuc vu tốt,  bua an sang ngon. Phong trang trí  đẹp, nhân  viên  thân  thiện,  cảm ơn ban le tan ten kai,   lana và  vicky da giup  dỡ  nhiệt tình  trong thời  gian lưu tru tại khách sạn.  Sẽ quay lại",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Missado128",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chăm sóc khách hàng tốt",
+            "review_content": "Nằm vị trí trung tâm, có nhiều nhà hàng và bar ở gần đây, buổi tối khá ồn, nhưng trong phòng có sẵn tai nghe cho bạn nên cũng ok hơn. Bữa ăn sáng ngon, nhiều món lựa chon, các bạn nhân viên rất nhiệt tình hỗ trợ khách.đặc biệt cảm ơn bạn lễ tân tên Vicky, đã hỗ trợ thông tin các địa điểm ăn uống và hỗ trợ đặt xe.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Alex B",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "C Central Bùi Viện",
+            "review_content": "Phòng sạch sẽ, view phố khá đẹp. Tuy chia 2 toà nhà Đề Thám với Bùi Viện nhưng khá gần nhau nên cũng ko có nhiều bất tiện. Staff rất là thân thiện, đặc biệt là chị Julie phụ trách ăn sáng. Khá hài lòng vì khách sạn đã hạn chế sử dụng đồ nhựa, bình nước trong phòng là bình thuỷ tinh xinh xắn, túi rác sử dụng giấy báo.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Anh T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vị trí thuận lợi",
+            "review_content": "Phòng sạch sẽ, nhân viên Julie nhiệt tình, thân thiện. Vị trí thuận tiện gần các khu trung tâm. Ăn sáng ngon, menu hơi ít món. Gần Bùi Viện nên đêm ồn, nhà có người già hoặc trẻ nhỏ cần lưu ý. Lần sau sẽ quay lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "bui linh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hotel so good",
+            "review_content": "Phòng sạch sẽ, các bạn nhân viên rất đáng yêu, take care khách hàng tốt. Bữa sáng thật ấn tượng, ngon, đẹp mắt. Check in, check out nhanh, hỗ trợ cho khách nhiệt tình. Nằm vị trí thuận lợi, nhiều địa điểm ăn uống xung quanh",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Eri nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá khách sạn",
+            "review_content": "Bửa ăn sáng rất ngon và phục vụ nhiệt tình chu đáo.Không gian ấm cúng và sang trọng, phù hợp cho gia đình và bạn bè. Phòng ở thì sạch sẽ, thoáng mát mặc dù hơi nhỏ . Ostin tư vấn nhiệt tình và rất dễ thương. Sẽ quay lại và giới thiệu cho bạn bè.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Johan Y",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "nhân viên dễ thương , nhiệt tình",
+            "review_content": "bạn Ostin , Tina , Vicky rất dễ thương và nhiệt tình , bửa sáng ngon, phòng đẹp và sạch voi day du trang thiet bi tien nghi,  tiện lợi gần trung tâm chợ Bến Thành. Sẽ quay lại vào một ngày gần nhất. Thank you",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "MyAnh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên cực dễ thương !!",
+            "review_content": "Lâu lắm mới đi 1 khách sạn mà nhân viên chăm sóc khách Việt như khách tây vậy luôn. Nếu không có mấy bạn Lana, Vicky, nhất là bạn Ostin giúp đỡ tận tình thì chắc kỳ nghỉ lễ của 2 vợ chồng không đc best như vậy. Sorry vì không có nhớ tên thật của các bạn nha. Phòng sạch, đẹp, nội thất mới. Chắc chắn sẽ quay lại !",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Marco_Cu2014",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn sạch sẽ vị trí bùi viện street",
+            "review_content": "Khách sạn tuy nhỏ nhưng phòng ốc và dịch vụ rất tốt. Vị trí khu bùi viện thuận tiện cho đi lại và nhiều dịch vụ vui chơi giải trí. Một trong số những khách sạn 3 sao tốt nhất khu vực bùi viện. Chắc  chắn tôi sẽ quay lại ở tiếp",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Thanh Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất tốt",
+            "review_content": "Nơi ở sạch đẹp, phong cách sang trọng, hiện đại. Nhất là nhân viên lễ tân và phục vụ quá dễ thương. Cảm ơn các bạn Ostin, Tina, Vicky, và một bạn nữa cũng rất dễ thương và nhiệt tình. Đồ ăn ngon, gần trung tâm rất tiện lợi.Hãy yên tâm khi đến với Ccentral hotel",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Voyager817885",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Nhân viên tận tình.",
+            "review_content": "Nhân viên khách sạn rất nhanh nhạy và chu đáo. Lễ tân tư vấn nhiệt tình. Lúc nhận được phòng, cảm nhận ban đầu thì phòng vừa ở, không to. Nội thất trang trí hài hòa hợp với phong cách hiện đại. Phòng còn khá mới và sạch sẽ. Vị trí khách sạn nằm ngay trung tâm nên thuận tiện để đi lại, gần nhiều nhà hàng, địa điểm vui chơi giải trí. Lần tới sẽ ghé khách sạn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Linh H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn nhỏ nhưng cách phục vụ 5*",
+            "review_content": "Với vị trí ngay trung tâm phố đi bộ, dành cho bạn nào thích dạo chơi quanh đây rất OK nhé. Tuy nhiên ban đêm tiếng ồn bar pub sẽ hơi ảnh hưởng đến bạn đấy. C Central có nhà hàng The Garlik, đồ ăn ngon, không mới lạ nhưng biết cách làm cho nó đặc biệt và sang trọng. Mình rất có cảm tình với các bạn bell, luôn tươi cười và hỗ trợ khách. Chị Jully hay Jolie Duty nữa, chị í rất dễ thương luônnnnnn! À, phòng ốc thì khá nhỏ, nhưng phải chịu thôi vì ngay trung tâm đất chật người đông mà nhỉ T__T\" Nếu có dịp vào SG mình vẫn sẽ book ở đây :)",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Fearless825800",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá",
+            "review_content": "Được một người bạn giới thiệu, ban đầu ko được tin tưởng lắm nhưng khi trải nghiệm cảm thấy rất hài lòng khách sạn mới tinh và cơ sở vật chất thì hoàn toàn tốt  đặc biệt nhân viên nhiệt tình , tận tâm chỉ dẫn tôi vs bạn rất nhiều  Chắc chắn có dịp sẽ ghé thăm ❤️❤️❤️  hẹn gặp dịp gần nhất ❤️❤️❤️",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hai N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi rồi nhưng vẫn còn vấn vương E Central Đề Thám!",
+            "review_content": "Lúc hai Chi em mình về Việt Nam chơi , mình không biết nên chọn Hotel nào . Nhưng khi mình được biết E Cental Đề Thám  mình rất thích.  Vì khi ở đây hai Chi em mình cảm thấy rất thoải mái , dễ chịu :       ‼️Vị tríHotel  thì tiện lợi đi đâu cũng gần, phòng đẹp & ấm cúng.      ‼️Nhân viên thì rất ân cần lịch sự ( tạo cho khách một cảm giác như đang ở cùng gđình) .        ‼️Phòng sạch sẽ , đẹp , thoáng đầy đủ tiện nghi .        ‼️Hotel E Central chăm sóc khách hàng rất chu đáo , khi khách hàng cần hỗ trợ , nhân viên giúp đỡ rất tận tình .      ‼️Buổi sáng ở đây chuẩn bị cho khách rất chu đáo , đồ ăn rất ngon .      ‼️ Buổi trưa và buổi trang trí rất đẹp mắt. ( Thức ăn ngon , nước uống rất ngon , vừa miệng) 💥Đặc biệt ở Hotel E Central Đề Thám có món cafe trứng rất ngon .       Và",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Erik",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời !",
+            "review_content": "Cùng bạn từ Hà Nội bay vào , vì đã nghe bạn bảo đến đây khách sạn mới , đúng như mong đợi khách sạn mới tinh và cơ sở vật chất thì hoàn toàn tốt vì mới , nhân viên nhiệt tình , tận tâm giúp đỡ chúng tôi rất nhiều trong việc đi lại  Lần sau có đến SG thì vẫn sẽ ở đây",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Miduva",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên thân thiện.",
+            "review_content": "Gia đình chúng tôi đã có một kỳ nghỉ đáng nhớ tại khách sạn An An. Chúng tôi thật sự thoải mái, phòng rộng và sạch sẽ, mọi thứ ở trong phòng là tốt, thiết bị hiện đại. Nhân viên tại khách sạn là dễ thương, nhiệt tình phục vụ khách, chỉ dẫn và đưa ra những gợi ý hay cho chuyến tham quan của gia đình tôi. Chúng tôi sẽ trở lại khách sạn khi có dịp đến thành phố Hồ Chí Minh.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Trang M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn An An là một nơi lí tưởng để trải nghiệm!",
+            "review_content": "Khách sạn nằm ở vị trí trung tâm, thuận tiện đi lại và đầy đủ tiện nghi. Mọi thứ đều sạch sẽ và tiện lợi. Thủ tục nhanh chóng, nhân viên nhiệt tình giúp đỡ và luôn niềm nở với khách. Tôi cảm thấy rất hài lòng và vui vẻ khi ở đây.  Dịch vụ buồng phòng rất chu đáo và lịch sự khi tôi ra khỏi khách sạn, nhân viên dọn buồng sau khi vệ sinh phòng còn để lại vị trí những đồ dùng của tôi lại chỗ cũ, điều đó khiến tôi cảm thấy yên tâm. Tôi có quên đồ ở khách sạn sau khi check out nhưng vẫn tìm lại được, nhân viên lễ tân rất nhiệt tình giúp tôi. Khách sạn An An 2 đã cho tôi một kì nghỉ tuyệt vời, chắc chắn tôi sẽ quay lại nơi này mỗi lần đi công tác.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Dylan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Bảo vệ môi trường",
+            "review_content": "Nhân viên rất thân thiện, giúp tôi tải xuống một vài ứng dụng cần thiết ở Việt Nam, tôi thấy một vật nhỏ trong phòng cho thấy khách sạn đang tham gia chiến dịch bảo vệ môi trường, đánh giá cao rằng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Henk-Jan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đáng yêu với đội ngũ nhân viên thân thiện và hữu ích nhất!",
+            "review_content": "Ở lại hai đêm tại khách sạn C Central Sai gon. Các phòng và giường rất tốt cho giá. Khi đến Việt Nam, đây là khách sạn đầu tiên của chúng tôi và chúng tôi được chào đón bởi đội ngũ nhân viên thân thiện và hữu ích nhất! Thật không may, chúng tôi đã mất hành lý của chúng tôi và cần phải quay lại 5 ngày sau để nhận nó tại khách sạn này. Một lần nữa, các nhân viên có mặt (Ostin, Tina và Vicky) ở đây đã hỗ trợ chúng tôi rất hân hạnh thực hiện các ủy ban với Lost và tìm thấy quầy tại sân bay và cho chúng tôi biết chúng tôi nên làm gì. Một giờ sau chúng tôi được đoàn tụ với những chiếc túi của mình vì vậy chúng tôi rất hạnh phúc! Sau tất cả những căng thẳng, chúng tôi thậm chí đã nhận được một món quà nhỏ từ các nhân viên! :) Hơn nữa, bữa sáng thực sự rất ngon và chúng tôi đã nhận được",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "NickyKerry",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khách sạn ấm cúng ở trung tâm thành phố",
+            "review_content": "Vị trí thuận tiện ở trung tâm thành phố với điều kiện dễ dàng đến tất cả các điểm tham quan chính. Phòng ấm cúng với trang trí đẹp. Nhân viên thân thiện luôn mỉm cười và sẵn sàng trả lời bất kỳ câu hỏi nào. Có thể là một chút ồn ào vào ban đêm với một quán rượu và các bữa tiệc, nhưng nút tai được cung cấp đã giúp đỡ và chỉ cho thấy thành phố sôi động như thế nào!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kim",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời!",
+            "review_content": "Tất cả mọi thứ về khách sạn này là một ngón tay cái lên. Chắc chắn không dành cho những người già, truyền thống, những người đang tìm kiếm một nơi để ở vì nó có thể khá ồn ào vào ban đêm và rất hay xảy ra do khu vực tiệc tùng nổi tiếng và bận rộn nhất ở TP HCM; Bùi Viện. Và tôi muốn ca ngợi tất cả các nhân viên khách sạn vì niềm đam mê và sự giúp đỡ của họ bất cứ khi nào tôi cần sự giúp đỡ. Đặc biệt, cô Jenny từ quầy lễ tân. Siêu thân thiện với một nụ cười tuyệt vời, cô ấy sẽ giúp bạn bất cứ điều gì bạn cần giúp đỡ. Cảm ơn C rất nhiều. Chắc chắn sẽ đến và ở lại đây một lần nữa. Không còn nghi ngờ gì nữa, một nơi hoàn hảo, đang diễn ra, giá cả phải chăng, thuận tiện nhất cho đến nay! - Mustaqim",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Veronica ❀",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kinh ngạc! Chất lượng 5 * với một phần nhỏ của giá",
+            "review_content": "Chúng tôi yêu thích ở C Central, ban đầu có nghĩa là ở lại 2 đêm và chúng tôi kéo dài đến 5! Các nhân viên rất thân thiện và vị trí là tuyệt vời, ngay bên cạnh đường phố bận rộn nhất cho các quán bar và câu lạc bộ. (Nếu bạn không thích tiếng ồn thì hãy ở lại đây, nhưng nó có thể chịu được, đặc biệt là khi họ cung cấp nút tai). Phòng đẹp, rất đáng để nâng cấp lên phòng lớn Bùi Viện. Nó có một đầu giường và phòng tắm đẹp. Chúng tôi yêu tất cả mọi thứ về kỳ nghỉ của chúng tôi! Giống như một phòng 5 * với một phần nhỏ của giá.",
+            "reviewer_location": "Colney Hatch, Vương quốc Anh"
+        },
+        {
+            "name": "Phien Yen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cảm giác như ở nhà",
+            "review_content": "Giường của tôi quá thoải mái. Các nhân viên họ đã giúp tôi bất cứ điều gì tôi hỏi với nụ cười trên khuôn mặt của họ Điều duy nhất tôi không thích là tiếng ồn từ các thanh xung quanh nhưng nút tai mà họ đã cho tôi có thể xử lý vấn đề. Chắc chắn sẽ ở lại đây một lần nữa khi tôi trở về Sài Gòn.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Trille",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ngày lễ",
+            "review_content": "Khách sạn này nằm ở khu vực ồn ào nhất của trung tâm thành phố. Nhưng đừng ngại đặt nó, ngay cả khi bạn đang ở thời Trung Cổ. Bởi vì khách sạn này là một viên ngọc trai nhỏ. Một khách sạn đáng yêu với một bầu không khí tuyệt vời. Các nhân viên được như vậy dịch vụ minded và họ sẽ làm hết sức mình cho tất cả các khách hàng của họ. Chúng tôi đã có một tuần tuyệt vời. Bữa sáng đặc biệt trong một lớp học tuyệt vời. Tươi và tốt. Chúng tôi rất thích. Các vị trí cho khách sạn là tuyệt vời bởi vì nó rất dễ dàng để đạt được tất cả mọi thứ. Chúng tôi rất muốn giới thiệu khách sạn C Central. Và như một tiền thưởng nhỏ: Họ cung cấp cho bạn nút tai rất tốt, vì vậy bạn có thể có một giấc ngủ ngon. Hy vọng nó sẽ có thể đến thăm khách sạn một lần nữa. Lời chúc mừng tốt đẹp nhất từ Gry và Glenn",
+            "reviewer_location": "Jyllinge, Đan Mạch"
+        },
+        {
+            "name": "Kelclen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt nhất",
+            "review_content": "3 tuần trước tôi và bạn tôi đến khách sạn này. Tôi nói với nhân viên rằng tôi là một người ngủ nhẹ nên rất khó ngủ. Do đó, nhân viên tiếp tân đã cố gắng giúp tôi tìm một phòng cao hơn để ở. Họ đã cắm EARS vào phòng của tôi. Cô gái tiếp tân cho chúng tôi thấy rất nhiều nơi để ghé thăm và bánh là thức ăn tốt nhất mà tôi đã thử.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "marianne s",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Cơ bản tốt!",
+            "review_content": "Rất thân thiện với nhân viên phòng sạch ja. Đường phố lớn nhưng không bận tâm. Sài Gòn - bữa sáng với súp gà thật tuyệt vời! Vị trí ở trung tâm, nếu bạn muốn trải nghiệm những con phố trung tâm thành phố thì đây là nơi bạn ở. Rất nhiều quán bar và các quán ăn đường phố đang khơi dậy khách sạn.",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "216 Đề Thám Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh 700000 Việt Nam",
+        "name": "Khách Sạn C Central",
+        "geo_data": {
+            "latitude": 10.767587661743164,
+            "longitude": 106.69397735595703
+        },
+        "room_number": "54",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/a1/c2/b5/room-with-extra-bed--v18170474.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/4d/90/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/38/fc/d5/e-central-hotel-bui-vien.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/53/be/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/53/a7/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/4f/17/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/4e/f9/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/4e/ef/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/38/fc/81/e-central-hotel-bui-vien.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/53/fe/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/53/f4/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/53/a3/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/53/85/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/53/5e/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/53/53/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/53/17/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/52/bb/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/52/91/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/52/85/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9e/52/77/e-central-hotel-de-tham.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

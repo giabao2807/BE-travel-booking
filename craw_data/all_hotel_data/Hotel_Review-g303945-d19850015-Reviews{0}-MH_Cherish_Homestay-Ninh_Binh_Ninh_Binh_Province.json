@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "name": "Huỳnh N",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khách sạn nhỏ xinh, giá tốt, nhân viên nhiệt tình hỗ trợ khách",
+            "review_content": "Mình tình cờ thấy MH Cherish khi tìm khách sạn ở khu vực trung tâm thành phố Ninh Bình cho gia đình 4 người (có em bé 9 tháng). Khách sạn nằm ở khu vực yên tĩnh, mang lại cảm giác dễ chịu. Nhân viên cực kỳ nhiệt tình và sẵn sàng hỗ trợ khách. Các phòng đều sáng, thoáng mát. Giá phòng khá tốt, phù hợp với chất lượng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vietnamese Dinner Experience in Tam Coc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi ở lý tưởng cho kỳ nghỉ cùng gia đình hoặc nhóm bạn tại Ninh Bình",
+            "review_content": "Cảm giác như ở chính ngôi nhà của mình vậy: bình yên, thanh thản và giản dị. Chủ nhà rất thân thiện, yêu khách như người thân, đặc biệt với gian bếp ấm cúng và hiện đại bạn có thể sử dụng để tự nấu những món mình thích.",
+            "reviewer_location": "Ninh Bình, Việt Nam"
+        }
+    ],
+    "hotel": {
+        "location": "05 Tuệ Tĩnh, Ninh Bình 08000 Việt Nam",
+        "name": "MH Cherish Homestay",
+        "geo_data": {
+            "latitude": 20.24631118774414,
+            "longitude": 105.95806121826172
+        },
+        "room_number": "11",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/3b/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/87/e6/7c/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/87/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/82/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/7e/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/79/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/6f/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/5c/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/4a/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/45/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/26/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/20/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/1b/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/13/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/11/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/0e/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8d/06/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8c/fd/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8c/fa/mh-cherish-homestay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5f/8c/f6/mh-cherish-homestay.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

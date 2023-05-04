@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "name": "Thành T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn lưu trú có giá rẻ, dịch vụ tốt tại Ninh Bình",
+            "review_content": "Khách sạn nằm nay khu trung tâm thành phố gần các tuyến đường lớn nên thuận tiện di chuyển, chất lượng phòng và dịch vụ rất ổn so với giá phòng. Mức giá phòng phù hợp cho những đối tượng khách muốn thuê phòng giá rẻ. Lần sau sẽ quay lại đây.",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "65 Chiến Thắng, Ninh Bình 430000 Việt Nam",
+        "name": "Khách sạn Vân Giang",
+        "geo_data": {
+            "latitude": 20.26205825805664,
+            "longitude": 105.97811889648438
+        },
+        "room_number": "30",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/fc/99/37/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/9f/ec/94/khu-v-c-l-tan.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/2e/73/0f/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/96/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/92/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/91/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/8d/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/88/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/81/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/7e/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/7a/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/78/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/3e/de/74/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/9f/ed/91/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/9f/ed/72/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/9f/ed/65/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/9f/ed/5b/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/9f/eb/f9/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/9f/eb/f3/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/9f/eb/d3/khach-s-n-van-giang.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

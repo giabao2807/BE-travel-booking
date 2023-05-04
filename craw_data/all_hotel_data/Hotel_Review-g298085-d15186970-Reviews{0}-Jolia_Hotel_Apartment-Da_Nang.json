@@ -1,0 +1,323 @@
+{
+    "content": [
+        {
+            "name": "Chu Hải Đăng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên jolia thân thiện và cởi mở",
+            "review_content": "Rất bất ngờ với mọi dịch vụ hoàn hảo ở khách sạn jolia, phòng ốc rộng rãi và xinh xắn, vị lí gần biển rất dễ dàng để tắm biển. Nhân viên chăm sóc khách hàng và nhân viên lễ tân dễ thương thân thiện.Tôi rất hài lòng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Tiến Đức",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm jolia",
+            "review_content": "Khách sạn có nhiều điểm đặc biệt mà tôi rất thích. Nhân viên chăm sóc khách hàng và nhân viên lễ tân rất nhiệt tình đến nỗi mà tôi cứ tưởng nhe mình đang ở nhà. Đồ ăn sáng buffet và hồ bơi tầng thượng khiến tôi rất hài lòng. I will come back.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Yen Le",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất gần biển, nhân viên nhiệt tình",
+            "review_content": "Khách sạn rất đẹp, giá phòng rất hợp lý, đi tắm biển rất gần. Có nửa sáng buffet món đa dạng thay đổi theo ngày, có món súp và cháo bò cho trẻ ăn rất hợp lý. Nhân viên lễ Tân thân thiện, bạn Lĩnh chăm sóc khách hàng rất chu đáo và mến khách. Chắc chắn sẽ quay lại vào dịp khác trong tương lai.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Cường Lê",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt",
+            "review_content": "Nhân viên vui vẻ, nhiệt tình, ăn sáng ngon, hợp khẩu vị, sạch sẽ... rất hài lòng về dịch vụ và cách tiếp đón của nhân viên cũng như của khách sạn Jolia Đà Nẵng. Nhất định sẽ quay lại khi trở lại ở lần sau.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Đặng Thu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi dạo chơi tại jolia",
+            "review_content": "Thành thật mà nói thì tôi sẽ quay trở lại khách sạn trong thời gian sắp tới, mọi dịch vụ tôi đều rất ưng ý, từ phòng ốc đến buffet thật sự khiên tôi hài lòng, thái độ phục vụ của nhân viên rất thân thiện và chú đáo",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trần Thị Huyền",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ghé thăm ks jolia",
+            "review_content": "Tôi rất hài lòng với tất cả các dịch vụ của khách sạn jolia, nhân viên rất nhiệt tình và chu đáo đặc biệt là nhân viên chăm sóc khách hàng và nhân viên lễ tân, đồ ăn buffet thì rất đa dạng và ngon, tôi sẽ quay trở lại jolia",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Đoàn Hoàng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ghé thăm ks jolia",
+            "review_content": "Tôi khá hài lòng về cách bố trí của khách sạn. Phòng ốc khá rộng và tiện nghi thoải mái. Đặc biệt dịch vụ của khách sạn có buffet vào buổi sáng, đồ ăn khá ngon và đa dạng. Cách phục vụ của nhân viên nhiệt tình và thân thiện.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quỳnh anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ghé thăm jolia",
+            "review_content": "Tôi rất hài lòng về mọi loại dịch vụ của khách sạn jolia. Sự tận tình và chu đáo của nhân viên đã khiến tôi vô cùng thích. Đồ ăn và phòng ốc thì khá là thoải mái và tiện nghi, tầng thượng còn có hồ bơi để tôi có thể chill vào cuối ngày. Tôi sẽ ghé lại 1 lần nữa. Xin cảm ơn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Minh Duy Phan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Jolia hotel",
+            "review_content": "Khách sạn khiến tôi khá hài lòng về mọi thứ, nhân viên phục vụ tận tình và chu đáo, đồ ăn sáng buffet thì khá đa dạng và ngon, phòng ốc thì rất tiện nghi và sạch sẽ, phía tầng 10 còn có hồ bơi tôi có thể chill và nhìn ra biển tôi sẽ quay lại jolia một lần nữa.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Sịnh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tham quan và ghé jolia",
+            "review_content": "Tôi khá hài lòng khi được trải nghiệm tại khách sạn jolia. Tôi cảm thấy khá hài lòng về sự đa dạng thức ăn ở nhà hàng và thái độ phục vụ của nhân viên thực sự rất thân thiện và cởi mở. Tôi sẽ ghé lại đây một lần nữa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lieu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi tham quan đà nẵng và trải nghiệm ở jolia",
+            "review_content": "Tuyệt vời. Tôi đã có một trải nghiệm rất hoàn hảo với rất nhiều những điều thú vị ở khách sạn jolia. Đồ ăn rất đa dạng với rất nhiều món ăn, đặc biệt thái độ phục vụ của nhân viên làm tôi rất hài lòng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lĩnh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ghé thăm ks jolia",
+            "review_content": "Tuyệt vời. Bữa ăn sáng thực sự quá đa dạng, đồ ăn thực sự rất ngon. Phòng ốc thực sự làm tôi cảm thấy quá hài lòng, sự tận tình và thân thiện của nhân viên khiến tôi rất hài lòng. Tôi cảm thấy đây là ks quá tiềm năng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Rusi Chau",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sự lựa chọn tuyệt vời",
+            "review_content": "Mình thực sự rất thích khách sạn này vì các bạn có sự đầu tư tốt cho trang thiết bị, với một mức giá không thể nào tốt hơn. Mọi thứ được chăm sóc kỹ càng, đặc biệt là rất gần biển Mỹ Khê. Xung quanh khá nhiều chỗ ăn uống và giải trí",
+            "reviewer_location": "Pleiku, Việt Nam"
+        },
+        {
+            "name": "Donatello",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cảm ơn!",
+            "review_content": "Cảm ơn bạn Hoàng đã giúp mình chuẩn bị sinh nhật vợ trong bí mật, chất lượng khách sạn tốt. Vị trí rất thuận lợi trong việc đi lại tham quan như Hội An và Cầu Rồng. Chắc chắn sẽ quay lại trong chuyến đi Đà Nẵng tiếp theo. ",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "NgoLanMy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất hài lòng",
+            "review_content": "Lần đầu tiên đến Đà Nẵng và ở tại khách sạn Jolia. Chúng tôi cực kỳ ấn tượng về dịch vụ ở đây rất tốt, rất nhiệt tình. Các bạn lễ tân, nhân viên phục vụ rất lễ phép, dễ thương, nhanh nhẹn và thực sự bất ngờ khi nhận phòng, lễ tân báo đã nâng cấp miễn phí từ hạng phòng tôi đặt lên hạng cao cấp hơn. Vô cùng tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thảo Nguyên Đậu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chất lượng tuyệt vời",
+            "review_content": "Khách sạn cách sân bay tầm 3-4km nên đi lại rất tiện lợi. Nhân viên ở đây thân thiện, nhiệt tình và quan tâm giúp đỡ khách. Phòng ốc sạch sẽ, đầy đủ tiện nghi và một số vật dụng cần thiết như máy sấy tóc, ấm đun nước,... Khách sạn ở khu vực gần biển, gần nhiều nhà hàng, cà phê, siêu thị,... nên rất tiện lợi. Buổi sáng có phục vụ đồ ăn sáng chất lượng rất tốt, dễ ăn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thuy Tran Phuong",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khá ổn cho 1 chuyến đi ngắn",
+            "review_content": "Nhân viên phục vụ tốt. Phòng thoải mái, sạch sẽ. Có bể bơi nhưng mình chưa kịp lên. Đồ ăn sáng k có gì đặc biệt, k đặc sắc. Điểm trừ duy nhất. Trong phòng đc free cafe và nước lọc. Thiết kế vệ sinh hơi k thoải mái chút do hơi chật và vòi lắp bên trái, k tiện tay. Bình thường vẫn lắp bên phải. Xung quanh có 1 vài siêu thị nên tiện mua đồ. Đi xe máy vào trung tâm hay đi chơi loanh quanh cũng nhanh và dễ dàng. Với tầm giá 500k cho 1 đêm tại đây mình thấy khá ổn. Sẽ quay lại nếu có dịp tới Đà Nẵng lần sau.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngọc Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trên cả tuyệt vời",
+            "review_content": "Khách sạn đẹp, mọi thứ đều sạch sẽ. Nhân viên khách sạn nhiệt tình, thân thiện và luôn nở nụ cười trên môi. Phòng ốc sạch, đồ ăn sáng ngon. Nhân viên luôn giúp đỡ khách nhiệt tình. Sau này nhất định sẽ quay lại. Mãi yêu",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Phạm Thanh Mai",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Mọi thứ đều tốt",
+            "review_content": "Nhân viên của khách sạn rất thân thiện và nhiệt tình. Địa điểm của khách sạn cũng rất gần biển, đường ra biển dễ đi, đi bộ mất tầm 7 phút là ra đến Bãi biển Mỹ Khê. Mình ở phòng 201, phòng giường đôi, không gian không được rộng lắm, mình ở tầng thấp nên không có view, nhưng phòng sạch sẽ, đẹp và khá mới. Bữa sáng của khách sạn khá ngon, hợp khẩu vị mình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoang Cuong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tốt",
+            "review_content": "Nhân viên khách sạn xinh, rất thân thiện và luôn niềm nở. Phòng khá rộng, đẹp, sạch và khá thoải mái. Nhà tắm rộng và thoải mái. Đồ ăn sáng rất ổn cho một bữa sáng. Nhân viên có thể tư vấn các địa điểm thăm quan và ăn uống.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trần Duy Hưng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ rất tốt",
+            "review_content": "Nhà mình mới đi nghỉ đầu tháng 9/2019 (bắt đầu từ mùng 04/09/2019). Đến khách sạn rất ưng. Phòng sạch sẽ, đẹp có vẻ mới xây.  Về nhân viên: Nhân viên khá niềm nở nhiệt tình lễ phép. Ăn uống: trưa và tối nhà mình ăn ngoài. Sáng thì buffer kèm trong gói dịch vụ. Đồ ăn sáng khá phù hợp và ngon. Dịch vụ khác: Nhà mình ở 3 ngày có sử dụng dịch vụ giặt là. Giá cả khá phù hợp làm mình giật mình khi thanh toán.  Ngoài ra khách sạn có dịch vụ cho thuê xe máy để các gia đình thuê xe vivu khám phá quanh thành phố và đi hội an.  Tổng kết: Khách sạn sạch đẹp, dịch vụ tốt. Giá cả khá phù hợp.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tuongvi29",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tuyệt vời",
+            "review_content": "Đồ ăn sáng ở đây cực ngon, món ăn đa dạng. Khách sạn cực kì sạch sẽ, phòng ốc được thiết kế rất đẹp, nhân viên thân thiện nhất là nhân viên lễ tân. Mọi người tư vấn rất nhiệt tình. Cực kì hài lòng với dịch vụ ở đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngoc N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất hài lòng",
+            "review_content": "Mình đi đầu tháng 8/2019. Khách sạn mới xây, nội thất mới, sạch, nhân viên nhiệt tình và dễ thương, giá hợp lý. Đồ ăn sáng cũng ổn. Khách sạn vẫn xuất được hóa đơn cho mình mặc dù mình đặt phòng qua Booking.com. Nói chung mình thấy hài lòng và chắc sẽ quay lại trong thời gian tới.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Pha Le",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good.",
+            "review_content": "Khách sạn đẹp, thoáng mát, sạch sẽ, tiện nghi đầy đủ và giá cả phải chăng, gần biển, nhân viên lẽ phép rất lịch sự và niềm nở, lễ tân Vịnh anh ta rất chu đáo phục vụ tận tình nói chung rất hài lòng 👍👍👍",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Nguyên Lê",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cực kỳ hài lòng",
+            "review_content": "Mình và bạn đến Đà Nẵng du lịch trong vòng 6 ngày 5 đêm và thật may là chọn được khách sạn vừa ý. Phòng ốc sạch sẽ, thoáng, nhân viên khách sạn cực kỳ nhiệt tình, nhẹ nhàng. Buffet sáng rất vừa miệng, sạch sẽ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "nguyenquoctrieu650",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn mới và rẻ!",
+            "review_content": "Mình đến đây vào giờ rất khuya. Chỉ muốn tìm được sự yên tĩnh. Nhưng khi vào đến khách sạn này thì mọi việc đều như mong đợi. Phòng được trang bị và bố trí tuyệt vời. Đặc biệt nhân viên lễ tân Vinh. Cậu ấy rất nhiệt tình với mình mặc dù giờ đó đã trễ. Chắc chắn rằng những lần công tác lần sau mình sẽ ở lại nơi đây và giới thiệu cho đồng nghiệp một nơi tuyệt vời.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "tanghongchau",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cảm thấy tuyệt vời",
+            "review_content": "Khách sạn tuy không được ơ trục đường chính . Nhưng ra biển rất gần và thuận lợi khách sạn mới đầy đủ, trang thiết hiện đại . Đội ngũ nhân viên phục vụ rất ân cần và chu đáo . Đặc biệt nữa nhân viên Lễ tân Lang rất niềm nỡ, tiếp đon ân cần với khách làm người người đến một lần và muốn đến lần nữa",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "phuongta479",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ đi chơi tuyệt vời",
+            "review_content": "Tôi vô đà nẵng với sự thích thú. Điều đó được tăng thêm thì ở ngay khách sạn Jolia này. Khách sạn rất sạch và thoáng . Nhân viện rất vui vẻ đón tôi rất nhiệt tình. Đến các nhân viên buồng phòng, phục vụ cũng chu đáo.  Phòng khá là ok. Đồ ăn khá ngon. Và hợp vị. Kỳ đi chơi rất vui. Cảm ơn các bạn nhân viên Jolia. Tôi sẽ giới thiệu tới với bạn bè và gia đình. Cảm ơn các bạn",
+            "reviewer_location": "Thái Bình, Việt Nam"
+        },
+        {
+            "name": "Flyer825473",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Jolia",
+            "review_content": "Khách sạn sạch sẽ, cảnh đẹp, nhân viên lịch thiệp, gần biển. Khách thuận tiện cho việc tham quan, du lịch tại Đà Nẵng. Một chuyến du lịch tại Đà Nẵng thật ý nghĩa và thú vị.  Tôi sẽ giới thiệu cho bạn bè, đồng nghiệp và sẽ ghé lại khách sạn này với dịp đi Đà Nẵng năm sau.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "bacsoongkieccc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Very good",
+            "review_content": "Khách sạn quá thuận lợi , nhân viên rất thân thiện, chu đáo ân cần Phòng cũng rộng rãi. Khách sạn rất sạch sẽ..đồ ăn rất ngon Gần biển,ra biển rất thuận tiện. Những lần sau vẫn sẽ ở khách sạn này. Bình hẵn 5* nhé....",
+            "reviewer_location": "Gia Lai, Việt Nam"
+        },
+        {
+            "name": "my van p",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời",
+            "review_content": "Các bạn nhân viên rất thân thiện, hoà đồng. Khi tôi bước vào khách sạn tôi có cảm giác như được ở trong nhà mình vậy, rất thoải mái. Đồ ăn sáng rất ngon, phong sạch sẽ, sang trọng, thoáng mát. Đầy đủ các tiện nghi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Sharan",
+            "avatar": "",
+            "review_rating": "1",
+            "review_title": "Đừng ở khách sạn này",
+            "review_content": "Khách sạn không tốt, cơ sở vật chất chỉ ổn. Nhân viên nên tìm hiểu ý nghĩa của lòng hiếu khách. Tôi đã yêu cầu trả phòng trễ và họ đã đồng ý. Chỉ trễ 20 phút so với thời gian tôi đề cập và họ tính tiền cho tôi. Tôi đồng ý nếu tôi gây ra bất kỳ sự bất tiện nào cho những khách khác, nhưng khách sạn hoàn toàn trống rỗng và tôi kéo dài thêm 20 phút không phải là vấn đề. Sẽ không bao giờ ở đây và cũng không giới thiệu bất cứ ai.  Phòng trông đẹp hơn trong hình ảnh, nhưng thực tế không tuyệt vời lắm. Tìm kiếm tốt hơn cho các khách sạn khác nếu bạn muốn có một kỳ nghỉ tốt.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Liee J",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Yêu nơi này!",
+            "review_content": "Đã ở lại đó vào đầu tháng Tư cho chuyến đi nghỉ của chúng tôi và nơi này thật tuyệt, gần bãi biển n FYI u Có thể sử dụng xe đạp của họ MIỄN PHÍ. Các bữa ăn sáng là tuyệt vời và chúng tôi yêu nó! . Tôi chắc chắn sẽ ở lại đó một lần nữa nếu đến thăm Năng trong tương lai và sẽ giới thiệu cho bạn bè của gia đình tôi. Đừng quên, các nhân viên rất hữu ích và thân thiện ??",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Experience825001",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ Excel",
+            "review_content": "Khách sạn nằm gần bãi biển. Phòng sạch sẽ và thức ăn ngon. Tôi thật sự ngạc nhiên khi ở đây, chúng tôi đã trải nghiệm mọi thứ có thể và cảm thấy thực sự hạnh phúc ở đây. Các nhân viên thân thiện và tận tụy. Chắc chắn sẽ quay lại lần sau.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Maya",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Great khách sạn gần bãi biển",
+            "review_content": "Tôi ở lại đây trong 2 đêm. Everythings là hoàn hảo: các cơ sở thương hiệu mới, ăn sáng ngon, gần bãi biển. Các nhân viên thân thiện và được đào tạo tốt mặc dù họ là người mới với khách sạn. Tôi sẽ quay lại lần sau.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thao Le",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hoàn hảo!",
+            "review_content": "Một khách sạn suite gần bãi biển Mỹ Khê, cách bãi biển khoảng 2 phút đi bộ. Thức ăn ngon. Tất cả nhân viên đều thân thiện và hữu ích! Tôi cảm thấy rất thoải mái và thư giãn khi sống ở đây. Tôi thích nó và sẽ trở lại một lần nữa! ?",
+            "reviewer_location": "Pleiku, Việt Nam"
+        }
+    ],
+    "hotel": {
+        "location": "18,19 An Thượng 29 Mỹ An, Ngũ Hành Sơn, Đà Nẵng 550000 Việt Nam",
+        "name": "Khách sạn Jolia",
+        "geo_data": {
+            "latitude": 16.052278518676758,
+            "longitude": 108.24662017822266
+        },
+        "room_number": "40",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0e/01/cc/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/d0/8f/2d/swimming-pool.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/d0/8e/16/swimming-pool.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0e/02/ba/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/fb/6d/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/fb/3d/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/fb/13/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/fa/cb/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f8/aa/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f8/8e/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f8/51/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f6/4b/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f4/42/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f4/22/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f3/f4/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f3/d7/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f3/ad/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f3/93/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f3/53/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0d/f3/1a/jolia-hotel-apartment.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

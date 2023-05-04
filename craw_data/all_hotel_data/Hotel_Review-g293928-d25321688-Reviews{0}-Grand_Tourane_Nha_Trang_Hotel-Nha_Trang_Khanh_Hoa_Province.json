@@ -1,0 +1,331 @@
+{
+    "content": [
+        {
+            "name": "John Dat",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá ",
+            "review_content": "Ks mới đẹp gần biển gần trung tâm nhân viên hàng tuyệt vời nhất là bạn đạt đã phục vụ tận tình thật hài lòng khi ở khách sạn giường bồn tắm sạch sẽ bf đa dạng thay đổi món theo ngày rất ngon miệng và đẹp mắt ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoàng Anh du lịch",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Khách sạn ngay trung tâm thành phố, gần biển, rất thuận tiện cho việc di chuyển. Nhà hàng sang trọng, nhân viên thân thiện vui vẻ, hồ bơi vô cực với thiết kế đặc biệt trên tầng thượng giúp nhìn ngắm hết toàn cảnh thành phố. Sẽ quay lại nếu có dịp.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Sen Phan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi đến tuyệt vời.",
+            "review_content": "Khách sạn nằm ngay trên đoạn đường trung tâm, ngoài đường rất nhộn nhịp nhưng về đến phòng lại rất yên tĩnh. Phòng rộng, sạch sẽ, wifi cực mạnh ko như các khách sạn, hồ bơi rất đẹp. Ấn tượng nhất là sự thân thiện, nhiệt tình của các bạn lễ tân. Rất tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tuấn Hồ",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Điểm đến ko thể quên.",
+            "review_content": "Khách sạn nằm ngay trên con đường trung tâm nên rất nhộn nhịp, đi bộ ra biển chỉ mất 3 phút. Khách sạn có quầy sky lounge đẹp và hồ bơi bao quát cả thành phố, ăn sáng đa dạng.. Nhân viên thì quá thân thiện.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thoại Diep",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Quá tuyệt vời.",
+            "review_content": "Một thiết kế độc đáo, hiện đại nhưng cũng cổ kính, phòng rộng sạch sẽ, trang thiết bị mới hiện đại, ăn sáng đa dạng, hồ bơi tuyệt vời. Các bạn nhân viên quá tuyệt vời, thân thiện, chứ đáo giới thiệu điểm ăn uống địa phương ngon rẻ. Sẽ ghé lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tuan N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đáng đồng tiền.",
+            "review_content": "Gia đình chúng tôi đến khách sạn khá sớm và được các bạn lễ tân tận tình hướng dẫn tới điểm ăn sáng địa phương rất ngon và rẻ, mới trở lại khách sạn thì được các bạn cho nhận phòng sớm nữa. Phòng rất đẹp và sạch sẽ. Hồ bơi tuyệt đẹp. Cảm ơn các bạn đã cho gia đình tôi kì nghỉ tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Miu Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Xuất sắc",
+            "review_content": "Khách sạn rất đẹp, thiết kế độc lạ, phòng ốc lớn sạch sẽ, nhà hàng món ăn sáng đa dạng, hồ bơi lớn trên tầng thượng rất đẹp. Nhân viên thân thiệt nhiệt tình. Khách sạn nằm ngay trung tâm, cách biển chỉ 3' đi bộ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vy Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi đến khó quên.",
+            "review_content": "Ấn tuợng đầu tiên khi ở Grand Tourane Nha Trang là thiết kế khá lạ vạ độc đáo. Chúng tôi đến sớm nhưng vẫn đc các bạn lễ tân cho nhận phòng sớm và nâng hạng phòng miễn phí, phòng rộng và trang thiết bị rất thời thượng. Sẽ giới thiệu cho bạn bè.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tâm Đinh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi đáng để đến.",
+            "review_content": "Khách sạn với kiến trúc mới lạ, thiết kế hài hòa. Phòng ốc rộng sạch sẽ, ăn sáng đa dạng. Gần các điểm ăn uống của địa phương, chỉ mất khoảng 3 phút để đi bộ ra biển, khách sạn có hồ bơi rất đẹp bao quát cả thành phố. Nhân viên rất thân thiện.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tam Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Điểm đến tuyệt vời.",
+            "review_content": "Một khách sạn bạn nên ở khi đến thành phố biển Nha Trang, khách sạn mới, phòng ốc sạch sẽ, hồ bơi view tuyệt đẹp, bao quát cả thành phố. Nhân viên quá là thân thiện nhiệt tình, sẽ tiếp tục ghé khi trở lại Nha Trang.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoai L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good hotel",
+            "review_content": "Khách sạn mới, chúng tôi đến nhận phòng khá sớm nhưng vẫn được các bạn lễ tân cho nhận phòng sớm và nâng hạng phòng miễn phí,  Phòng rất rộng rãi và đầy đủ trang thiết bị, ăn sáng đa dạng và hồ bơi rất đẹp và rộng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nhan Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một kỳ nghỉ đáng nhớ.",
+            "review_content": "Lần này đến với Nha Trang, gia đình đã chọn ở tại Grand Tourane, khách sạn với kiến trúc mới lạ, thiết kế hài hòa, phòng ốc rộng rãi, wifi cực mạnh, bữa ăn sáng đa dạng. Nhân viên quá thân thiện và nhiệt tình.  Sẽ giới thiệu bạn bè và người thân.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Maps05516421051",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Fantastic",
+            "review_content": "Khách sạn rất đẹp, mới vào sảnh đã được welcome drink, được các bạn lễ tân cho nhận phòng sớm và giới thiệu các điểm vui chơi, ăn uống địa phương ngon rẻ. Phòng ốc sạch sẽ rộng rãi, ăn sáng buffer đa dạng, hồ bơi tầng thượng rất đẹp.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Mina Truong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời.",
+            "review_content": "Khách sạn mới xây, trang thiết bị sang trọng. Phòng óc rộng rãi, hồ bơi trên sân thượng rất lớn và bao quát toàn thành phố.  Nhà hàng rộng và thức ăn đa dạng. Nhân viên tiền sảnh rất thân thiện và nhiệt tình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "sky angel",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good hotel.",
+            "review_content": "Khách sạn mới khai trương nên nội thất mới tinh, phòng rất đẹp với view biển siêu đẹp, nhà mình đi bộ 5' là đến bãi biển luôn. Các bạn nhân viên rất nhiệt tình, đặc biệt là anh Định ở bộ phận lễ tân, vui tính và hỗ trợ nhà mình rất nhiều. Lần tới có quay lại Nha Trang chắc chắn mình sẽ tiếp tục chọn khách sạn này.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Nguyễn Thắng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good Hotel",
+            "review_content": "- Khách sạn mới, mọi thứ đều sạch sẽ, gần trung tâm đầy đủ mọi tiện ích : chợ , bệnh viện , tạp hoá , trung tâm mua sắm ..... vv - Nhân viên nhiệt tình thân thiện . - Các thông tin tour tuyến đảo , vui chơi đa dạng .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "VNHai",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Grand Tourane Nha Trang 4/2023",
+            "review_content": "Khách sạn mới, phòng rộng, phòng cách âm tốt, rất yên tĩnh, bể bơi rất đẹp nhưng không có lan can nên hơi nguy hiểm. Bữa sáng hợp khẩu vị tuy chưa có được nhiều món. Nhân viên hỗ trợ rất nhiệt tình và vui vẻ.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Fearless18087237037",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn chất lượng dịch vụ tốt",
+            "review_content": "Khách sạn mới chỉn chu thiết kế đẹp, vị trí thuận lợi ngay TTTP rất gần biển. Phòng sạch sẽ máy lạnh hoạt động tốt, nước mạnh nước nóng lạnh đầy đủ rất hài lòng. Nhà hàng đẹp, ăn sáng đa dạng món. Nhân viên thì thân thiện hữu ích. Mình sẽ quay lại cho những chuyến đi kế tiếp.",
+            "reviewer_location": "Vũng Tàu, Việt Nam"
+        },
+        {
+            "name": "chanellevy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Fantastic",
+            "review_content": "Khách sạn mới, thiết kế phòng đẹp, hiện đại. khi chúng tôi tới sớm nhân viên lễ tân cho nhận phòng, quá tốt. Đây là khách sạn tốt nhất ở Nha Trang mà chúng tôi từng ở, vị trí của khách sạn này cũng ngay trung tâm, thuận tiện",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "John T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Very good, nice new hotel",
+            "review_content": "Khách sạn mới, đẹp, thiết kế hài hoà. Phòng óc rộng rãi, sạch sẽ.  Hồ bơi ngoài trời lớn, view đẹp. Nhân viên rất thân thiện, nhiệt tình. Sẽ giới thiệu cho người thân và bạn bè đến lưu trú tại đây. Rất tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Susan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời ",
+            "review_content": "Tôi ở grand tourane 2 ngày 1 đêm và có trải nghiệm rất tuyệt vời. Khách sạn mới , nằm ở vị trí thuận lợi, cách biển chỉ 5p đi bộ, gần chợ đêm,nhiều quán ăn,nhiều quán cafe xung quanh. Khách sạn có đầy đủ tiện ích từ phòng gym cho đến spa ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tourist61610661257",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Best choice",
+            "review_content": "Tôi thấy khách sạn mọi thứ thật tuyệt, chúng tôi gồm bốn phòng tới khách sạn sớm lúc 8h sáng mà lễ tân cho nhận phòng sớm luôn, không có nhiều khách sạn tốt như vậy. Phòng mới đẹp, rộng rãi, wifi mượt mà. Ăn sáng buffet ok. Điểm đánh giá cao nhất ở khách sạn này là thái độ phục vụbcuar nhân viên, rất vui vẻ và thân thiện. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "NorthStar31958242442",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp",
+            "review_content": "Khách sạn mới thành lập nên yên tĩnh, cơ sở vật chất, nội thất đẹp, nhân viên chuyên nghiệp và thân thiện, view thành phố và biển đẹp, khách sạn nằm gần ngay biển, khá thuận tiện, sẽ có dịp quay lại trong thời gian gần nhất",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "FarAway35077766995",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Awesome",
+            "review_content": "Gia đình chúng tôi ở tại khách sạn này hai đêm nhân dịp nghỉ dưỡng tại Nha Trang và chúng tôi rất hài lòng về sự lựa chọn của mình. Khách sạn mới đẹp, nhân viên phục vụ tốt, view biển đẹp, sạch sẽ, phòng trang bị tiện nghi rộng rãi. Vị trí khách sạn lại ngay trung tâm. Nói chung mọi thứ rất tốt.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "BiBi",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "khACH SAN GAN BIỂN",
+            "review_content": "Kiểu dáng mới mẻ,nhân viên nhiệt tình vui vẻ ,đồ ăn buffet đa dạng,hồ bơi vô cực rộng ,gần biển và chợ đêm nên di chuyển thuận lợi, spa đẹp phong cách tinh tế,ấm cúng ,(spa raasrt nên trải nghiệm )...",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "John Lam 1",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Wow",
+            "review_content": "Mọi thứ tại khách sạn Grand Tourane ở Nha Trang này rất tốt, phục vụ của nhân viên vượt trội, chuyên nghiệp, chăm chút tới khách. Khách sạn mới mở nên phòng đẹp, sạch sẽ, tiện nghi. Vị tri khách sạn ngay trung tâm, tiện lợi. Nói chung OK, lần sau lại chọn ở.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Curious34470813268",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp, dịch vụ tuyệt vời",
+            "review_content": "Tôi đi hội nghị hai đêm tại khách sạn với tổng công ty. Khách sạn mới, đẹp, tổ chức hội nghị tuyệt vời, đồ ăn ngon. Phòng tôi có view biển, tiện nghi, rộng rãi, wifi mạnh. Nhân viên khách sạn rất thân thiện và chuyên nghiệp. Chúng tôi sẽ quay lại khi ra Nha Tranv",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "DAVID DANG",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn mới mẻ",
+            "review_content": "Khách sạn mới mở, sạch sẽ, nằm ngay trung tâm thành phố chỉ với 5p đi bộ ra biển. Nhân viên rất nhiệt tình, luôn quan tâm giúp đỡ khách khi khách lưu trú. Xứng đáng với tầm giá bỏ ra. Nếu có cơ hội tôi sẽ quay lại khách sạn trong chuyến công tác gần tới của mình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "DanhTruong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời tại Grand Tourane Nha Trang",
+            "review_content": "Tôi đã có một trải nghiệm tuyệt vời tại Khách sạn Grand Tourane🙂🙂🙂. Khách sạn nẳm tại khu trung tâm thành phố, khu vực đông đúc và nhộn nhịp, chỉ mất 3p đi bộ ra biển Nha Trang và chợ đêm thành phố.Khách sạn thiết kế hiện đại, nhà hàng Monstera sang trọng và hồ bơi vô cực tuyệt vời tại tầng 22.Nhân viên thân thiện và hiếu khách luôn hỏi thăm khi tôi di chuyển ra vào khách sạn.Đây là điều tôi ấn tượng nhất khi lưu trú tại đây.Tôi rất cảm ơn khách sạn và các bạn nhân viên đã giúp tôi có 1 kỳ nghĩ tuyệt vời tại đây. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nam Huỳnh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời!",
+            "review_content": "Tôi đã lưu trú tại khách sạn này và có sự trải nghiệm rất tuyệt vời khi ở tại đây. Phòng sang trọng, gọn gàng, nội thất cao cấp và đẹp, view hồ bơi không quá tuyệt vời và thích hợp cho ai thích diện và chụp hình. Đồ ăn ngon và vừa miệng. Chắc chắn tôi sẽ còn quay trở lại đây nhiều lần. Cảm ơn. !",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Sophie",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt, chất lượng",
+            "review_content": "Tôi đã có một chuyến công tác tại khách sạn, khách sạn mới, sạch sẽ, nhân viên nhiệt tình chất lượng, thân thiện luôn giúp đỡ khi tôi cần, đồ ăn khá chất lượng và ngon miệng. Xứng đáng để tôi quay lại 💯💯💯",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Relax38455205307",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời",
+            "review_content": "Chất lượng khách sạn rất tốt. Nhân viên hoà đồng thân thiện. Các món ăn được làm rất ngon, ấn tượng nhất với mình là các món ăn nấu dân dã giữ được phong cách vùng miền. Riêng về phong cảnh khỏi bàn. Đẹp như mong đợi nhé ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyen Duc T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời tại Khách sạn Grandtourane Nha Trang",
+            "review_content": "Khách nằm trung tâm thành phố, nhộn nhịp, gần khu vực chợ đêm, biển rất tiện lợi. Khách sạn mới rất đẹp, tôi thích nhất là hồ bơi vô cực trên tầng 22 của khách.Tôi sẽ quay lại với gia đình tôi trong lần du lịch sắp tới.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Như Ngân",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice, new hotel",
+            "review_content": "Chúng tôi đã có 1 trải nghiệm tốt về ks này, nó ở gần biển, gần tttp, có vẻ ks mới mở gần đây, mọi thứ đều đẹp và tiện nghi. Nhân viên rất thân thiện và nhiệt tình, có hồ bơi view ngắm toàn thành phố, chúng tôi rất thích, tôi sẽ giới thiệu bạn bè về ks nếu có dịp đến Nha Trang",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Gigi T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "So good",
+            "review_content": "Tôi ở khách sạn hai đêm, cảm nhận mọi thứ đều good. Khách sạn mới, đẹp, nhân viên thân thiện, chuyên nghiệp. Hồ bơi đẹp nhưng không có hồ bơi cho trẻ em. Phòng đẹp, rộng và tiện nghi nhưng nên có kệ đựng shampoo trong phòng tắm. Nhìn chung chúng tôi rất hài lòng và sẽ quay lại lần sau.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyenkaterine",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Xuất sắc",
+            "review_content": "Gia đình mấy phòng chúng tôi ở khách sạn này nhân dịp nghĩ dưỡng Nha Trang. Tôi rất thích khách sạn , mới , đẹp, phòng rộng có cảnh biển. Phòng còn có bồn tắm, tivi internet tụi nhỏ rất thích, wifi thì nhanh, tủ lạnh rất ok không giống các khách sạn khác. Điều chúng tôi hài lòng nhất ở khách sạn là nhân viên nơi đây , có một sự cố nhỏ là mất điện nhưng sự chăm sóc khách của khách sạn làm chúng tôi happy, nhất là anh quản lý buổi sáng hôm đó, super thân thiện và vui tính. Ngoài ra tôi còn nhận được thư và trái cây xin lỗi của giám đốc . Nói chung là quá hài lòng và sẽ quay lại khi có dịp",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "LTMTrang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời tại Ksan Grand Tourane Nha Trang",
+            "review_content": "Chuyện là 14/2 vừa qua mình được trải nghiệm đổi gió ở một khách sạn trung tâm thành phố với không gian hồ bơi cực chill với view nhìn toàn cảnh Thành phố... phòng tắm được set up hoa & nến rất khác biệt. Nét đặc trưng là Phòng ở & Nhà hàng mang phong cách hiện đại kiểu Âu... 👍🏻👍🏻 Ghé Nha Trang đừng quên bỏ lỡ Khách sạn Grand Tourane Nha Trang Hotel nhé mụi người... nhân viên dễ thương thân thiện hết mức... Nói chung là ưng cái bụng lắm ạ",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        }
+    ],
+    "hotel": {
+        "location": "23 - 25 Hùng Vương Lộc Thọ, Nha Trang 650000 Việt Nam",
+        "name": "Grand Tourane Nha Trang Hotel",
+        "geo_data": {
+            "latitude": 12.23641300201416,
+            "longitude": 109.1955795288086
+        },
+        "room_number": "162",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c9/f8/17/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/eb/0c/07/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c9/df/b8/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c9/f0/84/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c9/e1/00/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c9/df/47/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/eb/08/8f/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/eb/09/c9/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c9/dd/9c/grand-tourane-infinity.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/c9/dd/4e/grand-tourane-infinity.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/5a/5a/9f/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/6a/33/6c/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/6a/32/5a/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/6a/30/b7/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/5a/5a/83/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/35/a3/1b/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/35/a3/86/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/35/9e/94/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/35/9e/32/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/35/9c/81/grand-tourane-nha-trang.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

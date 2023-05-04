@@ -1,0 +1,267 @@
+{
+    "content": [
+        {
+            "name": "Henry",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách Sạn Tốt",
+            "review_content": "Đây là lần đầu tiên chúng tôi ở tại Khách Sạn này.Mức giá thì khá hợp lý và gần khu vực trung tâm.Nga đã giúp chúng tôi chuyến đi tham quan Vịnh Hạ Long 2 ngày 1 đêm với dịch vụ tuyệt vời. Chúng tôi nhất định quay trở lại và giới thiệu tới bạn bè.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Hanoi",
+            "review_content": "Cảm ơn đã cho chúng tôi khoảnh khắc tuyệt vời. Tàu Alisa thì quá đẹp với đa dạng món ăn và hoạt động vui chơi. Nga đã giúp chúng tôi trong suốt quá trình lưu trú tại Khách sạn Alisa Nơi mà gần trung tâm và thuận tiện ăn uống Chúng tôi nhất định sẽ giới thiệu với bạn bè và người thân.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Minh Lan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Alisa",
+            "review_content": "Chúng tôi đã đặt Massage tại đây và Nga đã cho chúng đặt dịch vụ.Phòng khá rộng và đẹp .Tàu thì đa dạng đồ ăn và nhiều hoạt động ngoài trời. Chúng tôi sẽ giới thiệu tất cả các người bạn và quay trở lại Khách Sạn này.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Marie",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Nga đã giúp tôi đặt chuyến đi Halong 2 ngày 1 đêm với tàu Alisa .Dịch vụ quá tuyệt vời .Đồ ăn đa dạng phong phú và rất nhiều món ăn ngon. Chúng tôi có thuê 1 đêm tại Khách sạn Alisa và được ở phòng rất rộng Sẽ giới thiệu tới nhiều người bạn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Connector763215",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Alisa Hotel",
+            "review_content": "Khách sạn có buffet ăn sáng và tour đi Hạ long 2 ngày. Dịch vụ tàu và Khách Sạn rất tốt.Đặc biệt Team Nga Lễ tân và tất cả nhân viên đều nhiệt tình. Chắc chắn sẽ quay lại và sử dụng thêm nhiều các dịch vụ khác",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Giang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Alisa ",
+            "review_content": "Chúng tôi đã ở đây 2 ngày và đặt tàu qua Ms Nga cho tàu Alisa Cruise . Trang trí khá đẹp đặc biệt là đồ ăn khá đa dạng và phong phú .  Chúng tôi chắc chắn sẽ quay lại đây và ở lâu hơn. Cảm ơn vì đax có 1 chuyến đi tuyệt vời!",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Anna",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách Sạn Tiêu Chuẩn",
+            "review_content": "Lần đầu ở Khách Sạn nhưng nhân viên làm việc rất nhiệt tình.Ấn tượng với Em Nga người đã giúp chúng tôi trong chuyến đi Ninh Bình.Chúng tôi được khuyên nhiều địa điển tuyệt xung quanh phố cổ.Sẽ chắc chắn quay trở lại đây.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Tom",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách Sạn Đẹp",
+            "review_content": "Khách sạn nằm ở vị trí trung tâm nhiều cửa hàng và khu mua sắm. Chúng tôi còn đặt dịch vụ tàu 5 sao của khách sạn. Nga đã giúp chúng tôi trong quá trình lưu trú. Nếu có dịp quay trở lại chúng tôi vẫn sẽ trở lại đây.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Thu Hương",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách Sạn Tuyệt Vời",
+            "review_content": "Kì nghỉ 2 ngày 1 đêm tại Khách Sạn và Hạ Long- Alisa Hotel và Alisa Cruise Em Nga đã giúp mình đặt tour trọn gói với giá cả rất hợp lý  Tôi sẽ sớm quay trở lại Hanoi vào dịp hè cùng gia đình mình.  Cảm ơn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ha Linh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Highly Recommend",
+            "review_content": "Phòng decor xinh xắn, sạch sẽ, có cửa sổ hướng phố rất thoáng, view đẹp. Nhân viên thân thiện. Bạn Trang lễ tân rất nhiệt tình. Vị trí đẹp. Đi bộ 5 phút ra đến hồ hoàn kiếm Nhưng chắc trong phố nên không có chỗ để ô tô, mình gửi bên ngoài hơi bất tiện 1 chút",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tommy Lee",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi lưu trú thoải mái",
+            "review_content": "Đến HN 1 chiều mùa đông đầy nắng, thời tiết chiều lòng người, lại chọn được 1 khách sạn đẹp, các bạn nhân viên rất dễ thương đặc biệt là Trang-Elsie lễ tân check in cho mình. Mình được xếp 1 phòng thoáng đãng, cửa sổ hướng phố rất thoải mái mà vẫn yên tĩnh.  Cảm ơn các bạn đã mang lại cho mình 1 chuyến đi hoàn hảo.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tom",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Ở đây 1 đêm khi ra Hà Nội chơi. Rất hài lòng về thái độ phục vụ của đội ngũ nhân viên, đặc biệt là bạn lễ tân Trang đã rất nhiệt tình hướng dẫn địa điểm ăn chơi tại HN. Sẽ quay lại và giới thiệu đến bạn bè.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Ha Vu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời!",
+            "review_content": "Mình cùng gia đình đã có trải nghiệm tuyệt vời ở Alisa hotel & Spa vào tháng 11/2019. Khách sạn ngay trung tâm phố cổ, cách khoảng 3-5 phút đi bộ ra Hồ Hoàn Kiếm, xung quanh có nhiều cửa hàng tiện ích & quán cafe. Nhân viên thân thiện & nhiệt tình giúp đỡ. Cảm ơn Ms. Nga đã upgrade phòng cho gia đình mình, chắc chắn mình sẽ sớm quay lại khách sạn!",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "hellocatus",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "chất lượng và đẳng cấp",
+            "review_content": "khách sạn rất hoàn hảo và chings tôi rất tự hào khi được đến ở ks đẳng cấp này  chắc chắn chúng toii sẽ quay trở lại và nhớ tới khách sạn bất cứ khi nào về hà noi cũng như giới thiệu bạn bè tới khách sạn alisa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Stephan Hoàng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt",
+            "review_content": "Khách sạn cách hồ gươm 5 phút đi bộ, vị trí trung tâm khá tiện lợi. Nhân viên thân thiện đặc biệt là lễ tân Trang đã gợi ý và giúp đỡ  chungs mình rất nhiều . Ăn sáng ngon nhưng hơi ít đồ. Nếu có cơ hội sẽ trở lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hello kitty v",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cám ơn spa 9 hang vôi",
+            "review_content": "Chúng tôi cùng các bạn học cùng lớp được mời dịch vu miến phí sau khi đi tàu về. Rat ấn tượng ệ chuyên nghiệp và đẳng cấp của chuỗi dịch vụ chúng tôi rất hài lòng và sẽ mời các bạn khác cùng tham gia trong thời gian tới",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "huonghung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "spa số 1 tại hà nội",
+            "review_content": "gia đình mình có dịp trải nghiệm spa ngay phố cổ, rất lãng mạn và chuyên nghiệp, giá cả phải chăng, có nhiều tiện ích và đặc biệt mới và rất đẳng cấp hơn như 5 sao. chắc chắn các bạn sẽ quay lại giống chúng tôi. đây là nơi mà chúng tôi sẽ tiếp tục giới thiệu cho bạn bè và người thân",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Calang445",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du thuyền và spa",
+            "review_content": "Sau khi đi du thuyền chúng tôi được chiêu đãi spa.  Rất tuyệt vời khi có spa ngay phố cổ số 9 Hàng vôi. Rất nổi tiếng và chuyên nghiệp không những mới mà còn rất hiện đại   Hy vọng dc quay trở lại nhiều hơn cám ơn các bạn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ramosvn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp",
+            "review_content": "Chúng tôi đã ở đây ba ngày và có vài đánh giá sau. Khách sạn đẹp , phòng sạch sẽ , nhân viên thân thiện , đồ ăn sáng ngon và phong phú theo từng ngày.... Vị trí đẹp gần hồ hoàn kiếm nên đi dạo bộ rất thuận tiện.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "lucky",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tiêu chuẩn và chất lượng",
+            "review_content": "Lần đầu tiên tôi ở một khách sạn đẹp và sang trọng đến thế. Tôi có vài nhận xét sau, phòng ốc sạch sẽ có ban công nên rất thoáng, đồ ăn sáng ngon và phong phú, nhân viên thân thiện, dịch vụ đưa đón sân bay là rất tốt đúng giờ và sang trọng.... Chúng tôi sẽ quay trở lại với Alisa với Hà Nội một ngày gần nhất. ",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Tấn D",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp",
+            "review_content": "Lần đầu tiên tôi ở khách sạn tại phố cổ hà nội và có một số nhận xét sau. Chất lượng dịch vụ tốt , phòng ốc sạch sẽ , nhân viên thân thiện. Đặc biệt đồ ăn sáng ngon và đa dạng  Tôi sẽ giới thiệu khách sạn với tất cả người. Hẹn gặp lại các bạn một ngày gần nhất. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Md Saifullah",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Alisa là khách sạn tốt nhất ở Hà Nội",
+            "review_content": "Alisa là khách sạn tốt nhất ở Hà Nội, vì khách sạn này có trăng, trăng rất xinh gái & cô ấy rất có trách nhiệm. Tôi đề nghị bạn nên thích khách sạn này trong khu phố cổ ở Hanson. Tôi là Saifullah đến từ Bangladesh, tôi đã ở tại khách sạn này vào ngày 05 - 08 tháng 10 năm 2019",
+            "reviewer_location": "Dhaka City, Bangladesh"
+        },
+        {
+            "name": "Roman",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tốt",
+            "review_content": "Khách sạn tuyệt vời với những dịch vụ tốt nhất của Ms Moon Cảm ơn tất cả sự sắp xếp tại khách sạn này. Chúng tôi chắc chắn sẽ trở lại điều này cho chuyến đi tiếp theo với đối tác của chúng tôi Vui lòng tìm kiếm Nga nếu bạn có bất kỳ yêu cầu",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "dandan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chào đón nồng nhiệt",
+            "review_content": "Chúng tôi đến thành phố hà nội và chúng tôi được chào đón nồng nhiệt nhất từ trăng khuyết ở khách sạn Alisa & spa. Do đến muộn, chúng tôi xuất hiện rất muộn và trăng đang chờ chúng tôi. Điều tốt nhất là cô ấy cung cấp cho chúng tôi một bản nâng cấp miễn phí từ cô ấy, chúng tôi có một căn phòng lớn hơn với tầm nhìn ra thành phố. Rất hoan nghênh. Cảm ơn rất nhiều",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Yulee",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thời gian tuyệt vời",
+            "review_content": "Khi chúng tôi đến khách sạn ,! chúng tôi được chào đón bởi Elsie, cô ấy rất tốt bụng và phục vụ chúng tôi trà đào. Các phòng được trang trí ấm cúng và tốt đẹp. Bữa sáng ngon miệng. Vị trí thuận tiện. ! ! ! Chúng tôi sẽ trở lại! ! ! .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Benyarat P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tốt",
+            "review_content": "Massage tốt trong 1 giờ tại khách sạn này. Dịch vụ tuyệt vời của Moon cho lời khuyên quanh Hà Nội. Tôi trở lại lần nữa vì Moon. Các phòng, Ăn sáng và vị trí là tốt, nằm ở trung tâm Cảm ơn đã sắp xếp.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Jc C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cảm ơn bà Moon",
+            "review_content": "Tôi thực sự rất thích sự hiếu khách của khách sạn - nhân viên đã thực sự chào đón, các phòng đều cực kỳ sạch sẽ và cảm ơn bà Moon rất hữu ích trong việc đưa ra lời khuyên khám phá Hà Nội, Vịnh Hạ Long và xung quanh. Tôi đề nghị vị trí này. Hơn bạn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Adventurer827133",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cảm ơn Ms Moon",
+            "review_content": "tôi rất khuyên bạn nên đặt dịch vụ với cô ấy từ khách sạn sang trọng đến hành trình 5 sao tốt nhất Cô ấy luôn chăm sóc gia đình của tôi từ đầu của chúng tôi cho đến khi kết thúc Đề nghị cô ấy",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Christina N C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Christi carlquist",
+            "review_content": "Nơi này thật tuyệt vời! Cô Moon rất hữu ích với mọi thứ từ việc đặt phòng để giúp tôi khám phá thành phố tuyệt vời này! Các nhân viên sẽ sớm được bạn bè của bạn vì lý do chính đáng! Khi tôi trở lại tôi sẽ tìm thấy mặt trăng MS và khách sạn này! :)",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "7&9 Hàng Vôi Hoàn Kiếm, Hà Nội 100000 Việt Nam",
+        "name": "Alisa Hotel & Spa",
+        "geo_data": {
+            "latitude": 21.030550003051758,
+            "longitude": 105.85638427734375
+        },
+        "room_number": "30",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/f4/b6/family-suite-private.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e9/22/26/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/f2/84/alisa-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/71/14/8e/alisa-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/71/13/8a/alisa-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/05/eb/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/05/3e/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/04/32/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/03/2d/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/02/a4/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/02/29/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/01/ea/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/01/b3/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/01/64/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/01/23/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/00/da/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/00/79/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/53/00/23/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/fa/07/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/f9/77/alisa-hotel-hanoi.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

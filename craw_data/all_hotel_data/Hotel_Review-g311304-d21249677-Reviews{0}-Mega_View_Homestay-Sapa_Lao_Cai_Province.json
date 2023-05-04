@@ -1,0 +1,539 @@
+{
+    "content": [
+        {
+            "name": "Dieu Hoa",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá phòng nghỉ cho khách sạn Megaview.",
+            "review_content": "Trang trí phòng nghỉ của khách sạn Megaview xinh xắn, nhiều màu sắc. Khách sạn có hướng nhìn ấn tượng, nhìn ra dãy Hoàng Liên Sơn. Dịch vụ khác hàng tuyệt vời, tư vấn nhiệt tình. Mình sẽ tiếp tục ủng hộ Megaview nếu có dịp quay trở lại Sapa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Dang H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Mọi thứ đều rất tốt theo ý kiến cá nhân tôi. Ông chủ bà chủ đều rất dễ thương, vui tính, giúp đỡ nhiệt tình. Ưu điểm là home ở gần ngay thị trấn nên rất tiện cho việc đi ăn đi chơi. Giá phòng rất hợp lý. Mình đã ở phòng vip của home và theo mình thì view rất đẹp. Nhược điểm của home là không có thang máy cộng thêm con dóc đi từ phố xuống home rất cao, làm mình rất dễ thấm mệt. Tuy nhiên, ai đến SaPa mà không muốn leo đèo, đi bộ thì thôi đừng đến Sapa. Nói chung, theo minh chỗ này xứng đáng 10 điểm. À mà ai thích cún thì mình trân trọng thông báo là tại home có em cún rất dễ thương luôn, hiếu khách nữa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Giáp Tuyển",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá mega view",
+            "review_content": "Anh chị chủ nhà thân thiện nhiệt tình, home có sảnh chờ cực kì ấm cúng, thiết kế phòng cực kì xịn sò sạch đẹp, view nhìn ra núi và ruộng bậc thang. Home gần trung tâm nên dễ dàng đi bộ để ra một số địa điểm đẹp ở trung tâm thị trấn.",
+            "reviewer_location": "Việt Nam"
+        },
+        {
+            "name": "Buuhiep",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homestay mang trải nghiệm bất ngờ, thoải mái",
+            "review_content": "Nằm ở ngay trung tâm cách nhà thờ đá chỉ 5 phút đi bộ, Homestay có sảnh chờ rộng và đẹp, mỗi phòng được thiết kế mang âm hưởng của núi rừng tây bắc. Phòng sạch sẽ, nhân viên ở đây nhiệt tình. Giá cả rất phải chăng!",
+            "reviewer_location": "Osaka, Nhật Bản"
+        },
+        {
+            "name": "Trúc Lâm",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "HOMESTAY MANG TRẢI NGHIỆM TUYỆT VỜI",
+            "review_content": "Phòng rất đẹp, kiến trúc và nội thất rất thông minh. Mình thuê phòng view núi và mây ngang tầm mắt, đã thế đi đúng ngày trời nắng đẹp nên cực kỳ thích. Chị chủ tiếp đón như người nhà, cực kỳ nhiệt tình và chu đáo. Trải nghiệm từ lúc đặt phòng đến lúc lên xe rời SAPA gắn liền với Mega View.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hieu Hana",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Siêu phẩm homestay tại Trung tâm Sapa",
+            "review_content": "Đi du lịch 1 mình là trải nghiệm đáng nhớ với minh. Tìm được Mega View là lựa chọn không thể tuyệt vời hơn khi dừng chân tại đây. Phòng view núi tuyệt đẹp với ban công hướng ra thung lũng Mường Hoa. Anh chị chủ nhà siêu  thân thiện , chỉ dẫn chu đáo và các điểm đi chơi siêu đáng nhớ.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "danh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi 1 mình",
+            "review_content": "View đẹp, ở trung tâm nên đi lại cũng rất tiện, anh chị chủ siêu thân thiện, lò sưởi siêu ấm cho mùa đông lạnh giá, mình đi một mình nên sợ lạnh và buồn,  may mắn là có sưởi, điều hoà 2 chiều và đặc biệt mn ở đây rất vui tính nên mình ko còn thấy cô đơn nữa. Có dịp chắc chắn sẽ quay lại ở đây.",
+            "reviewer_location": "Tỉnh Tiền Giang, Việt Nam"
+        },
+        {
+            "name": "HỒNG HELE",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "HOME SIÊU XINH, SIÊU XỊN",
+            "review_content": "Vừa mới đến mà anh chị chủ home tiếp đón rất nhiệt tình, mình đi vào Tết dương nên thời tiết khá lạnh, nhiều sương không nhìn được view từ home, nếu đi mùa hè sẽ nhìn được thung lũng mường hoa rất xịn sò. Phòng sạch sẽ, rộng, tiện nghi đầy đủ và có cả bữa sáng, cà phê siêu ấm lòng. Chỉ tội cái đi bộ hơi mệt nhưng cảm giác giống ở Đà Lạt, đáng để thử nha. Còn có chú chó bông hàng xóm siêu cute và hiền lành. Nói chung là cả chuyến đi thời gian mình ở home là chính vì thời tiết hơi tệ và mình khá thích home. Anh chủ nên lắp thêm thang máy nha để e đỡ phải xách vali hihi. Có dịp sẽ quay lại home 1 lần nữa ạ. Chúc anh chị đồng hương làm ăn phát đạt và home ngày càng đông khách ạ!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanh Tùng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ghé Mega View, chỉ việc chilll ~~",
+            "review_content": "Phòng rộng rãi, sạch sẽ, đầy đủ tiện nghi, giá cả hợp lý. Anh chị chủ nhà nhiệt tình, chu đáo. Dưới sảnh có quả lò sưởi cực ưng ý, rất phù hợp cho những ngày đông giá rét. Nếu có dịp ghé lại Sapa thì homestay này sẽ là lựa chọn hàng đầu của mình!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "hathu110",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sẽ quay lại Home khi về lại với Sapa",
+            "review_content": "Phòng sạch sẽ, ấm áp và view thì hết chê! Chủ nhà thân thiện và chiều khách vô cùng luôn, còn đốt lò sưởi và đợi tụi mình về để nướng ngô khoai và trò chuyện đến khuya nữa. Cảm ơn Home và mong sớm có dịp quay lại!",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Bắc Funny",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi không thể hoàn hảo hơn",
+            "review_content": "Homestay mà dịch vụ hơn cả khách sạn 5 sao. Đến và trải nghiệm rồi sẽ biết. Phòng đẹp view núi và trang trí ấm cúng, anh chủ nhật siêu thân thiện, nhiệt tình, con dốc nhỏ xinh siêu ảo diệu, ăn sáng ngon, rượu nho rừng đặc biệt. Sẽ sớm quay trở lại với gia đình Mega View.",
+            "reviewer_location": "Vịnh Hạ Long, Việt Nam"
+        },
+        {
+            "name": "Thao",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng mới, sạch đẹp, vị trí tốt",
+            "review_content": "Homestay mới xây, đồ đạc tiên nghi, view đẹp, vị trí tốt. Anh chị chủ thân thiện, nhiệt tình tư vấn và hỗ trợ bọn mình. Homestay có chú mèo rất ngoan và đáng yêu. Lần sau tới Sapa mình nhất định ghé qua nơi này để trải nghiệm những dịch vụ tốt nhất.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hiền",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sapa đi và yêu",
+            "review_content": "Home thật sự thân thiện, anh chị chủ rất nhiệt tình. nhóm mình đi 5 người lớn 01 trẻ em, được hỗ trợ tuyệt đối. Rất cảm ơn Home đã đón tiếp đoàn mình trong chuyến đi sapa vừa qua. Chỉ tiếc là thời tiết không ủng hộ nên không được đi nhiều nơi, chỉ quanh quanh ở Home ngủ nướng thôi ạ hihi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Cail Phương",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng sạch sẽ, đẹp, chủ rất nhiệt tình",
+            "review_content": "Phòng ốc rộng hơn so với ảnh nhiều,  Nhà mới, đẹp, thoáng, ngay tại trung tâm, đi đâu cũng tiện.  Anh Chủ nhà nhiệt tình rất thích. Chủ quán giới thiệu mấy quán ăn rất tuyệt.  Mình đã có một chuyến đi rất vui, Nhất định sẽ ghé lại.",
+            "reviewer_location": "Paris, Pháp"
+        },
+        {
+            "name": "Trung Hiếu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đáng đồng tiền bát gạo",
+            "review_content": "Homestay sạch sẽ, gần trung tâm, mùa này khá vắng khách nhưng hst vẫn mở cửa. Anh chủ rất thân thiện nhé, lần sau đến sapa nhất định sẽ ghé lại. Dù đường xuống hơi dốc nhưng đi bộ lên xuống cũng khá thú vị.",
+            "reviewer_location": "Kemenuh, Indonesia"
+        },
+        {
+            "name": "Lê Ngọc Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "thật tuyệt vời, phòng sạch sẽ, chủ nhà rất nhiệt tình.",
+            "review_content": "thật tuyệt vời, phòng sạch sẽ, chủ nhà rất nhiệt tình. Phòng ốc có view thoáng, vị trí ngay trung tâm, xung quanh có rất nhiều dịch vụ để khách hàng trải nghiệm, là một địa điểm đáng nhớ cho một chuyến đi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kienxu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "không khí Sapa nhẹ nhàng, homstay phong cách cổ điển tây phương ấm cúng, tuyệt vời",
+            "review_content": "- địa điểm: khá gần nhà thờ, trung tâm, chỉ cần đi bộ - phòng ốc: phong cách cổ điển, nhẹ nhàng, sạch sẽ, thoáng mát, view đẹp - tiện nghi: đầy đủ - thức ăn: rất ngon, sạch sẽ, đạm bạc - chủ nhà: rất thân thiện, dễ tính, hòa đồng, giản dị, hiếu khách",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyen Thang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Best homestay in sapa, without doubt",
+            "review_content": "phòng ốc trang trí đẹp ấm cúng, view nhìn sang thung lũng vườn hoa siêu chill , chủ nhà rất thân thiện nhiệt tình giúp đỡ khách, có một con mèo rất cuốn người nên +1 thêm 1 điểm nữa cho home stay tổng cộng là 11/10",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Giang Trần",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng trang trí độc đáo, view thung lũng mường hoa đẹp",
+            "review_content": "Phòng trang trí độc đáo với nột thất bằng tre, nền lát đá tự nhiên, view thung lũng mường hoa đẹp mộng mơ, nếu vào 1 sáng có sương mù dậy sớm nhìn qua ô cửa rộng sẽ tuyệt vời, chủ khách sạn nhiệt tình, thân thiện",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Zenny Pham",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homestay chuẩn cao cấp,dịch vụ 5 sao",
+            "review_content": "Xuất sắc với phòng độc lạ cùng với các chi tiết thổ cẩm,phòng tắm ốp đá tự nhiên sạch sex,view núi ngút ngàn,ăn uống trên cả tuyệt vời, anh chị chủ cực kỳ thân thiện hướng dẫn tỉ mỉ các dịch vụ tại Sapa. Hẹn Mega View ngày gần nhất để trải nghiệm những điều tuyệt vời nhất.",
+            "reviewer_location": "Ninh Bình, Việt Nam"
+        },
+        {
+            "name": "Hoang Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Không biết ghi tiêu đề gì nhưng mà mọi người đến Sapa nhớ ghé homestay này nhé",
+            "review_content": "Mình đã từng nghỉ ở nhiều homestay trong mức giá này và hơn nhưng đây là chiếc homestay mình hài lòng nhất. Anh chị chủ nhà rất nice, nhiệt tình, homestay gần trung tâm, phòng xinh, sạch sẽ đặc biệt có mấy chú mèo với chó gần nhà xinhhhh lắm hihi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Linette",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Trở lại với Sapa",
+            "review_content": "Phòng gọn gàng, sạch sẽ. Decor đậm nét núi rừng làng bản. View rất ổn áp, anh chị chủ Homestay rất nhiệt tình với khách. Cảm giác thân quen như ở nhà vậy. Nhưng nếu nhà có trồng thêm hoa hoét cho vui tươi mắt thì best.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "H Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi lần 2 tại Mega",
+            "review_content": "Mình đã 2 lần đi Sapa đều book phòng ở Mega, view phòng núi đẹp,yên tĩnh, không gian thoải mái, thiết bị tiện nghi, rộng rãi, chủ nhà hài hước vui tính. Chủ nhà hướng dẫn các địa điểm rất nhiệt tình, và có gợi ý những địa điểm ăn uống ngon. Nói chung là tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trương Thị Dung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "thoải mái",
+            "review_content": "phòng sạch sẽ, tiện nghi và đặc biệt là view rất đẹp. View từ ban công nhìn thẳng ra núi Fansipan và thung lũng Mường Hoa,decor chuẩn Sapa với nhiều tông màu ấm áp,Anh chị chủ siêu thân thiện, nhiệt tình. vẫn sẽ lựa chọn View cho lần tới ghé Sâp",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "TrangChu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến trải nghiệm không thể tốt hơn",
+            "review_content": "Trải nghiệm không thể tốt hơn với homestay nhưng tiêu chuẩn ngang với khách sạn 3sao. View từ ban công nhìn thẳng ra núi Fansipan và thung lũng Mường Hoa,decor chuẩn Sapa với nhiều tông màu ấm áp,Anh chị chủ siêu thân thiện . Đoàn xin chân thành cảm ơn và chắc chắn quay trở lại từ HHSVVN . Love you all :))",
+            "reviewer_location": "Lào Cai, Việt Nam"
+        },
+        {
+            "name": "dongocduc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Review",
+            "review_content": "Anh chị chủ nhà nói chuyện dễ thương cực, tạo điều kiện cho mình hết sức có thể. Còn tư vấn những địa điểm đẹp nên đi khi tới Sapa.  Phòng ở sạch đẹp, nóng lạnh, điều hoà đầy đủ. Lần sau tới Sapa mình sẽ tiếp tục ở đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Le Thuy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homestay số 1",
+            "review_content": "Với tất cả những trải nghiệm trên khắp Việt Nam thì Mega View Homestay là số 1 với view núi và trang trí độc đáo.Chọn phòng Fansipan để được view đẹp nhất homestay với làn gió mây bay qua cửa kính mỗi sáng. Chủ homestay siêu thân thiện. Highly Recommend !",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Hưng Bùi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chất lượng!!!",
+            "review_content": "Chất lượng tốt, đầy đủ tiện nghi, giá lại rẻ hơn mình tưởng nữa. Mình đến sớm quá, nhưng anh chủ vẫn đồng ý cho mình check in sớm, lại vui vẻ, nhiệt tình nữa. Sau này quay lại Sa Pa mình cũng sẽ ưu tiên chọn phòng ở đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoangnb",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homstey",
+            "review_content": "Anh chị chủ vui tính, nhiệt tình chu đáo, phòng nghỉ nhìn ra dãy núi hoàng liên sơn tuyệt đẹp, buổi sag thức dậy ra ban công hít thở ko khí trong lành, làm ly cafe phê tít. Lần sau có tgian nhất định pai ghé nơi đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Jenny Chun",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homestay số 1 Sapa",
+            "review_content": "Chuyến đi Sapa thật tuyệt vời khi lựa chọn tại Mega View . Phòng thoáng rộng rãi , view đẹp nhất trung tâm, đầy đủ đồ dùng vệ sinh, giường êm ái sau 1 ngày mệt mỏi,nhà vệ sinh ốp đá tự nhiên sang trọng hơn khách sạn 5* , chủ nhà thật sự là miễn chê tư vấn từ các điểm tham quan các điểm đến độc đáo, mới lạ , chăm sóc khách hàng như người thân. Highly recommend !",
+            "reviewer_location": "Singapore, Singapore"
+        },
+        {
+            "name": "Thu Trang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "\"Ấm cúng như ở nhà\"",
+            "review_content": "Với giá rẻ mà không nghĩ phòng lại tốt như vậy, mình đặt dorm ở chung chắc dính đợt dịch nên khá vắng, phòng bé nhưng rất gọn gàng sạch sẽ xinh xinh, có nhà tắm ở trong rồi mà bên ngoài còn có nhà tắm công cộng nữa. Homestay dưới dốc khá sâu so với đầu phố Cầu Mây nhưng mà rất hợp với những đứa thích đi bộ vãn cảnh như mình. Điểm cộng nữa là anh chị chủ cực kỳ nhiệt tình và hiếu khách, buổi tối còn nhắn hỏi mình có cần giúp đỡ gì không nữa. Tiếc là chưa thử ăn sáng ở đây, lần sau tới Sapa nhất định mình sẽ ghé lại đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Thanh Nga",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một chuyến đi đầy trải nghiệm thú vị",
+            "review_content": "Không gian Home Stay rất ấm cúng , phòng siêu xinh , ưng ý từ cách phục vụ , sự hài hước nhiệt tình của anh chị chủ , đến đồ ăn của Mega View , nếu muốn cười cả ngày thì hãy đến với Mega View nhé. Tuyệt Vời",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "DulichNB",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thiên đường nghỉ dưỡng",
+            "review_content": "Đoàn chúng tôi có kỳ nghỉ thật tuyệt vời tại homestay với không gian ấm cực, tầm nhìn núi Fansipan, đồ ăn ngon, rượu xin, đặc biệt ông bà chủ cực kỳ thân thiện giúp đỡ đoàn trong tất cả các ngày tại Sapa. Chắc chắn sẽ quay trở lại .",
+            "reviewer_location": "Ninh Bình, Việt Nam"
+        },
+        {
+            "name": "Megabus",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một chuyến đi tuyệt vời",
+            "review_content": "Phòng vô cùng ấm áp và hài hòa, thêm nữa cô chủ ở đây nấu ăn cực kỳ ngon, đi lẻ hoặc đi đoàn đều được anh chủ nhà siêu cute tư vấn cho thì yên tâm mà vi vu Sapa luôn. Sẽ đặt phòng tiếp vào các lần tới",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Hải Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "nơi ở quá tuyệt vời, dịch vụ quá tốt",
+            "review_content": "phòng rất rộng và đẹp , luôn tạo cảm giác như đang ở chính ngôi nhà của mình, tiện nghi trong phòng không hề thiếu 1 thứ gì cả, chăm sóc từng những thứ nhỏ nhất.Nếu có cơ hội mình sẽ vẫn chọn quay lại đây",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Cao Minh Đạt",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi của tôi tới SaPa được ở tại Mega View Homestay là một chải nhiệm đầy thú vị và hào hứng <3 <3",
+            "review_content": "Du lịch sapa tháng 1 có gì cho các bạn! Chào đón mình tới với sapa tháng 1 là bầu không khí huyền ảo và lạnh giá của thời tiết mù sương và hàng loạt những thích thú cũng hào hứng khi đặt chân tới sapa nhưng các bạn đừng lo lắng khi tới đây đặc biệt là khi các bạn đặt phòng tại Mega Wiew Homestay các bạn sẽ không cần lo lắng gì   - Không lo ăn => Anh chủ home rất chu đáo và nhiệt tình, anh sẽ giúp các bạn lựa chọn những quán ngon với giá cả tốt và những dịch vụ tốt nhất mà các bạn sẽ chải nhiệm ở SaPa  - Không lo mặc => con người nơi đây rất thân thiện chính vì vậy họ lo cho bạn kể cả khi bạn chỉ là khách của họ trong 1 đêm hay bao lâu nữa, nhắc nhở bạn ăn mặc ấm áp và quan tâm tới sức khỏe của bạn như những người thân trong gia đình tạo cảm giác rất ấm cúng    - Không lo ở =>",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nani",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Amazing",
+            "review_content": "Nằm trên ngõ Cầu Mây,rất thuận tuyệt cho di chuyển đến những địa điểm du lịch Sapa nổi tiếng .Bạn chỉ cần 5p là có thể di chuyển từ Homestay tới Sapa Station, Nhà thờ vv. Anh chị chủ homestay thì nhiệt tình chu đáo , còn gọi điện nhắc nhở tụi mình vì sợ quên thời gian . Cái tên MEGA View đã nói lên tất cả , nếu có quay lại chắc chắn mình sẽ tiếp tục chọn nơi đây làm điểm trú chân",
+            "reviewer_location": "Hà Tĩnh, Việt Nam"
+        },
+        {
+            "name": "Lê Tiến",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi Sapa một mình",
+            "review_content": "-Vị trí homestay ngay trung tâm Sapa rất thuận tiện đi lại. -Anh chị chủ homestay rất nhiệt tình chu đáo -Không gian sạch sẽ, thoáng mát và đầy đủ tiện nghi - Có chỗ thuê xe máy - Nên có rèm ở mỗi giường trong phòng dorm để không gian riêng tư hơn - Thêm 1 thùng rác bên ngoài phòng dorm",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Venus Locu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời ",
+            "review_content": "Tới home vào 1 ngày đẹp Trởi,với view núi và thung lũng Mường Hoa. Chủ nhà thân thiện,lịch sự,trải nghiệm không thể tốt hơn. Sẽ quay lại ngày sớm nhất để trải nghiệm những sản phẩm mới và ngồi nhâm nhi với lý táo mèo cùng với Mr Điều tại tầng thượng. Love U.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "minhtrantan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lần 1 là Litte View, đến lần 2 là Mega View",
+            "review_content": "Lần 1 là Litte View, đến lần 2 là Mega View Cả 2 lần đến Sapa đều ở chỗ của 2 anh chị chủ nhiệt tình, lần 2 được ưu ái book thẳng phòng King VIP nhất homestay. Nếu bạn muốn có một chuyến đi chơi vui vẻ, thoải mái và nhận được sự nhiệt tình của chủ homestay thì không nên bỏ qua chỗ này nhé!",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Moon",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Honey moon with Mega Homestay <3",
+            "review_content": "Phòng nghỉ chất lượng, sạch sẽ, tiện nghi, trang trí đẹp, view đẹp, mang bản sắc đặc trưng của sapa, anh chị chủ vui tính, cực nhiệt tình và chiều khách, nói chung là rất chim ưng, có dịp nhất định quay lại ❤",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Thu Thuy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời 👏",
+            "review_content": "Homestay mới, phòng thiết kế xinh xắn theo phong cách bản địa , đầy đủ tiện nghi. Anh nhân viên lễ tân rất nhiệt tình hỗ trợ tư vấn khách hàng. Rất hài lòng khi ở đây, Mình sẽ quay lại đây khi có dịp.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "ChiLe",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Mình đã có 2 đêm thật tuyệt tại Mega View Homestay. Lần thứ 2 quay lại Sapa, vẫn là anh chị chủ thân thiện và nhiệt tình tiếp đón mình. Thật vui và ấm áp. Bữa sáng tại đây cũng rất ngon. Mình sẽ còn quay lại Mega View nhiều lần nữa ❤️",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phạm Thoa",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cảm giác gần gũi với tự nhiên nhất...",
+            "review_content": "Homestay nhỏ xinh nằm ngay ở trung tâm thị trấn, trước khi đến homestay bạn sẽ phải đi xuống bậc thang 60m, mình có cảm giác như đang ở Hàn Quốc. Homestay mới, phong cách vintage đem lại cảm giác gần gũi tự nhiên, anh chủ đón bọn mình với nụ cười không thể tươi hơn. Phòng rộng rãi, thoáng mát, mình không book được phòng view núi, nhưng từ phòng mình nhìn ra ngoài cũng rất đẹp, chỉ cần ở trong phòng thôi, bạn có thể chụp dc rất nhiều ảnh sống ảo rồi. Đặc biệt home có khu sân thượng phải nói là rất lý tưởng để cả nhóm bạn lên làm trò con bò =))))",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tung Thi N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một nơi rất thú vị cho những người thích khám phá lãng mạn",
+            "review_content": "Phòng có view núi tuyệt đẹp, thoáng đãng. Thiết kế trang trí trong phòng ấm cúng và thân thiện. Phục vụ phòng sạch sẽ chu đáo và đặc biệt anh chủ nhà rất nhiệt tình giúp đỡ mọi nhu cầu của khách hàng! Nằm ngay gần trung tâm rất thuận tiện đi đến các địa điểm của Sapa. Bất tiện nhỏ duy nhất là cần phải đi 1 đoạn dốc ngắn để đến nhà. Rất hài lòng đã chọn ở lại đây!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "phuc sieu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chỉ có 2 từ là Tuyệt vời ",
+            "review_content": "Homestay nằm ngay trung tâm, dễ đi lại ,chủ nhà thân thiện mến khách,đặc biệt là view núi đẹp tuyệt vời với thung lũng Mường Hoa và dãy núi Fansipan cùng với mây núi hùng vĩ ,hãy đặt phòng sớm nhất để có phòng đẹp nhất.",
+            "reviewer_location": "Lào Cai, Việt Nam"
+        },
+        {
+            "name": "Duc241191",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nên trải nghiệm",
+            "review_content": "Chủ nhà đẹp trai, đẹp gái, phòng đẹp ok, giá ok từ 300k cả ngày đêm, phòng có máy nóng lạnh, ấm, gần trung tâm lắm... Sinh nhật giảm 30%, cặp đôi giảm 20%, cười bò luôn, dành cho người ở lần 2 chứ ko phải lần đầu nha",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Quang Huy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Tuyệt vời. Anh/chị chủ vui tính, nhiệt tình, phòng decor xinh xắn, ấm cúng tiện nghi. Lần đầu lên Sapa mà được giới thiệu chi tiết từ tuyến đi, địa điểm checkin, chỗ ăn ngon... đủ thấy sự hỗ trợ mọi phương diện từ anh chị chủ Home. Lần tới có dịp lên lại nhất định ở đây tiếp. ❤️",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Hiếu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "⭐⭐⭐⭐⭐",
+            "review_content": "View đẹp hết nấc. Phòng thiết kế cực kỳ đẹp, không gian ấm cúng, view nhìn ra thung lúng vút tầm mắt. Mà giá lại cực kỳ hợp lý. Mình nhânn phòng từ chiều t6 đến sáng cn trả phòng mà hết có 1.170.000đ. Đặc biệt anh chị chủ nhà cục kỳ vui tính và nhiệt tình. Tư vấn rất kỹ về các địa điểm đi chơi, đặt luôn cả vé cáp treo và tàu leo núi cho luôn. Rất tiện lợi. Thật sự là rất ưnggggg",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "LocPetite",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Best homestay in Sapa central",
+            "review_content": "Mình được 1 bạn người Pháp giới thiệu chỗ này. Rất hài lòng, khách sạn mới xây, sạch đẹp, ấm cúng, anh chị chủ cực kì nhiệt tình, dễ thương. Mới đặt phòng trên booking thành công, anh chủ đã liên lạc để hướng dẫn đường đi. Tới nơi trời mưa, thấy a cầm ô đứng đợi ngoài đường đón từ lâu. Lần sau tới Sapa nhất định sẽ quay lại đây.  A French friend introduced me this place and I was very satisfied during the time here. The hotel is newly built, clean, beautiful, cozy and the owner is very nice and helpful. When i just booked on booking successfully, the owner contacted me to guide the way to his hotel. I came there when it was raining and he was there with an umbrella waiting for me. Will come back next time i come to Sapa.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Trung Ha",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi tuyệt vời ở sapa",
+            "review_content": "Địa điểm rất thuận tiện. Phòng ốc sạch sẽ. Anh Chị Chủ rất thân thiện, nhiệt tình, vui vẻ. Hướng dẫn tất tần tật về nơi vui chơi, ăn uống. Sau một ngày dài đi loanh quang về lại được Anh Chị chia sẽ những câu chuyện rất vui và ấm áp. Một trải nghiệm tuyệt vời !!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "NDN Quân",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đẹp, cổ kính, thoải mái",
+            "review_content": "Phòng rất oki, ở rất thích và sẽ giới thiệu nhiều người nữa tới Những ngày thời tiết bắt đầu se lạnh này mọi người nghĩ nên đi đâu! 😎Còn mình thì #Mega_View_Homestay_SaPa !  😎Địa chỉ: 24 Ngõ Cầu Mây - SaPa - Một trong những homestay có View siêu đẹp được checkin nhiều nhất Sapa 😍😍 - Không những vậy ông chủ còn dễ tính và nhiệt tình hết mức có thể ❤",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoa Truong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homestay quá tuyệt !",
+            "review_content": "Vị trí của MegaView ngay trung tâm, gần nhà thờ đá. Thuận tiện vô cùng. Tuy nhiên, trải nghiệm làm mình ấn tượng sâu sắc là sự nhiệt tình, cảm giác thân thiện, gia đình mà homestay đem lại. Phòng rất sạch sẽ, rộng rãi, thiết kế đẹp và thoáng ba mặt kiếng với ban công view đồi. Mặc dù ngay trung tâm nhưng yên tĩnh và thấy hoà vào thiên nhiên. Cảm giác đang ở phòng khách sạn 5 sao.  Bạn chủ hướng dẫn từ đi lại, lên lịch trình du lịch và book tour trekking, etc... giúp mình một chuyến đi Sapa thật trọn vẹn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lệ Quyên",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Mega view homestay",
+            "review_content": "Phòng đẹp và sạch sẽ, có view nhìn ra núi rất tuyệt, còn có khu sân thượng để tha hồ sống ảo. Vị trí homestay rất gần trung tâm thị trấn, cách nhà thờ đá tầm 5' đi bộ. Anh chị chủ thì siêu dễ thương và nhiệt tình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Siêu nhân Top",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "View Núi đẹp tuyệt vời",
+            "review_content": "Với tất cả những gì tinh túy nhất cho 1 homestay ngay tại Trung tâm với điều hoà 2 chiều,ban công view núi đẹp không thể tả nổi, dễ dàng khi di chuyển vì cách trung tâm với 300m,có dorm siêu sạch và giá rẻ cho đoàn hay du lịch một mình. Hãy đến và trải nghiệm .",
+            "reviewer_location": "Ninh Bình, Việt Nam"
+        },
+        {
+            "name": "Annie V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi với nhiều điều vui vẻ",
+            "review_content": "Lần đầu tiên đến Sapa là năm 2017, và sự chú ý của ta đã rơi vào không gian của Little View Homestay. Vậy là 2018, 2019 năm nào tới dịp sinh nhật cũng tới Sapa du lịch, khám phá và để ở Homestay của anh chị siêu đẳng cấp đáng yêu dễ thương cùng không gian tuyệt đẹp với dịch vụ xịn sò nhất vịnh Bắc bộ. Tuần trước mới đây là lần thứ 4 mình tới Sapa, anh chị lại có thêm 1 Homestay mới \"Mega View Homestay\". Mọi thứ ở homestay làm chuyến đi của mình hoàn hảo hơn. View đẹp và thoáng, phòng ốc sạch sẽ, đồ ăn ngon, vẫn được anh chị chủ nhiệt tình hướng dẫn đi đâu ăn gì cho ngon đẹp và rẻ. Lại muốn quay lại Sapa thêm 1 lần nữa ấy. Các bạn hãy đến và trải nghiệm nhé, sẽ không làm mọi người thất vọng đâu. Thật đấy <3",
+            "reviewer_location": "Tỉnh Thanh Hóa, Việt Nam"
+        },
+        {
+            "name": "Noname2001",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Mega View Homestay",
+            "review_content": "View đẹp, phòng rộng thoáng, anh chủ vui tính, không có điểm gì để chê, cảm giác lần đầu tiên bước vào phòng là 1 mùi hương Quế nhẹ nhàng giữa trời Thu Sapa thấy rất ấm áp như đang ở nhà mình, lần tới đến với Sapa vẫn sẽ chọn Mega View Homestay.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Mai",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời tại Sapa",
+            "review_content": "Một không gian hết sức xinh xắn, dễ thương. Homestay có vị trí trung tâm, thuận tiện tham quan, mua sắm. Chủ nhà đã từng là HDV tại Sapa, rất nhiệt tình hướng dẫn khách các địa điểm ăn chơi :D. Nhất định mình và bạn bè sẽ quay lại nơi này.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Null",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homestay độc đáo, dễ thương",
+            "review_content": "Rất nhiều lần tới Sapa và luôn lựa chọn  Mega View Homestay làm nơi nghỉ ngơi. Phòng rất dễ thương, view ban công cực đẹp đặc biệt anh chủ cực nhiệt tình và chu đáo.  # Mega View Homestay Là lựa chọn tuyệt vời khi bạn đến Sapa ☺️☺️",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "HungBeo",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homestay sapa",
+            "review_content": "Một trải nghiệm hoàn toàn mới và cực hay khi đến sapa.phòng đẹp,view núi.nếu các bạn trẻ lên sapa hãy lựa chọn homestay này,và chắc chắn lựa chọn đó sẽ không làm các bạn thất vọng khi đến với sapa,,,,",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Alana",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dear",
+            "review_content": "Cảm ơn mega homestay đã cho chúng tôi trải nghiệm một kỳ nghỉ ý nghĩa, phòng sạch sẽ view đẹp , nhân viên nhiệt tình thân thiện , hướng dẫn viên vui tính hoà đồng năng động và nhiệt huyết hy vọng những chuyến đi sau chúng tôi sẽ được trải nghiệm nhiều điều thú vị hơn nữa cảm ơn rất nhiều ạ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phương Du Lịch",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": " Mega View Homestay - số 1 Sapa ",
+            "review_content": "Homestay đẹp nhất với view và ban công siêu đẹp,dịch vụ hoàn hảo,phòng thiết kế độc đáo,không khí gia đình ama cúng,chủ nhà siêu thân thiện nên mua combo để tiết kiệm chi phí. Sẽ quay lại mọi lần kho đến Sapa xinh đẹp .",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Lê Khánh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homestay ngay trung tâm, view đẹp tại Sapa",
+            "review_content": "Homestay View rất đẹp và anh chủ Điều rất thoải mái, vị trí nằm ngay tại trung tâm Sapa rất thuận tiện, đi lại phòng ốc sạch sẽ và thoáng mát, Từ phòng sẽ có ban công nhìn thẳng ra ngoài núi rất đẹp  sẽ còn quay lại vào những dịp lần sau. ",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "24 Ngõ Cầu Mây, Sapa 333101 Việt Nam",
+        "name": "Mega View Homestay",
+        "geo_data": {
+            "latitude": 22.332006454467773,
+            "longitude": 103.8433609008789
+        },
+        "room_number": "15",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/42/21/e6/vip-room-with-best-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/42/22/44/vip-room-with-best-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/42/cc/eb/view-from-king-deluxe.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/44/d5/69/triple-room-with-balcony.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/44/d5/5f/queen-room-with-balcony.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/42/ce/8d/view-from-king-deluxe.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/44/d5/63/twin-room-with-balcony.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/42/ca/39/view-from-our-vip-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/e6/57/08/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/68/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/67/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/66/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/65/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/64/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/63/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/62/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/61/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/60/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/5f/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/aa/b3/5e/caption.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

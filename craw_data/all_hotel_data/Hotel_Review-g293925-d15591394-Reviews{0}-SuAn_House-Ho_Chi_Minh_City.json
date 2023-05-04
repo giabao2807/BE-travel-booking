@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "name": "Trịnh Nguyễn Khải",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi lý tưởng chi những ai muốn thuê homestay dài ngày ở TP HCM!",
+            "review_content": "Ở đây khá yên tĩnh, rất dễ tìm. Đặc biệt anh chị nhân viên cực kì thân thiện luôn! Phòng thì chất lượng miễn bàn: có khóa thông minh, nhà tắm riêng tư với bồn tắm rộng rãi. Đặc biệt giờ giấc thoải mái, có thể ra vào 24/7 nhé!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "An Nhiên",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hồ Chí Minh trong tôi",
+            "review_content": "Tuấn vừa rồi tôi có chuyến di lịch đến TP HCM, được bạn bè giới thiệu mà tôi mới biết đến Suan House. Tìm được một căn phòng cho thuê ưng ý, giá tốt, view đẹp, giải đáp thắc mắc và chăm sắc khách hàng tận tình không hề là điều dễ dàng nhưng Suan House đã có tất cả những điều ấy. Tôi thấy mình thật may mắn khi tìm đến Suan House, nó góp phần giúp t có những trải nghiệm thật tuyệt vời khi đến Tp.HCM.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hien",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một trong những trải nghiệm tuyệt vời nhất tôi từng có",
+            "review_content": "Tôi đã đến đây cùng gia đình vào tháng trước và tôi thực sự ngạc nhiên với cảnh đẹp và tất nhiên dịch vụ cũng rất tốt. Giá cả khá hợp lý. Chắc chắn, tôi sẽ nói với bạn tôi cũng đến đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Dog G",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi tuyệt vời cho khách du lịch",
+            "review_content": "Tôi thích ở lại đây. Cảm giác như tôi được chào đón ở Việt Nam. Nó ở quận 1 nên tôi dễ dàng khám phá thành phố hơn. Nhà bếp cũng được trang bị rất tốt và tôi có thể tự chuẩn bị bữa ăn một cách dễ dàng. Tôi sẽ ở lại lần sau khi tôi ở trong khu vực.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Jamie",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chỗ ở tốt nhất tôi từng có.",
+            "review_content": "Tôi đã có một chuyến đi đến TP HCM trong 6 ngày và tôi đã tìm thấy cái này. Nó có một cái nhìn tốt đẹp, dịch vụ tốt và giá cả hợp lý. Nó sẽ làm cho bạn cảm thấy như ở nhà của bạn. Tôi sẽ trở lại đây khi tôi ghé thăm TP HCM một lần nữa. Hen khoảng cách lai",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Taylor",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trung tâm, chủ nhà đáng yêu và phòng lớn",
+            "review_content": "Vị trí rất tuyệt vời ngay tại Quận 1, rất thuận tiện khi bạn đi du lịch. Họ cũng có một nhà bếp được trang bị tốt để tôi có thể tiết kiệm một số tiền bằng cách tự nấu ăn. Andy, chủ nhà rất hữu ích với những câu hỏi của tôi về Việt Nam và giá cả ở TP HCM. Phòng và phòng tắm sạch sẽ và thoải mái. Nhìn chung, nơi này là một giá trị tốt cho tiền của bạn, chắc chắn đề nghị!",
+            "reviewer_location": "London, Vương quốc Anh"
+        }
+    ],
+    "hotel": {
+        "location": "18A/103 Nguyen Thi Minh Khai, Thành phố Hồ Chí Minh 700000 Việt Nam",
+        "name": "SuAn House",
+        "geo_data": {
+            "latitude": 10.786703109741211,
+            "longitude": 106.69989776611328
+        },
+        "room_number": "3",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/dc/da/quiet-sunny-room-with.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/dc/f1/fresh-room-with-big-window.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/dc/e3/green-balcony-of-sunny.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/dc/ea/comfortable-sofa-in-fresh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/dc/fc/view-from-fresh-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/e5/27/free-tea-electric-kettle.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/e2/d5/shower.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/dd/5d/en-suite-bathroom-with.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/e8/87/suan-house-ho-chi-minh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/e8/33/little-sweet-things-in.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/eb/05/simple-clean-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/eb/90/well-equipped-shared.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/dd/00/cozy-living-room-on-the.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/dd/05/simple-but-clean-and.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/dc/e4/double-bed-wth-all-things.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/e7/df/sweet-room-with-queen.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/e3/38/clean-en-suite-bathroom.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/e1/44/clean-private-en-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/ef/af/tan-dinh-church-5-minutes.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ae/f0/06/tan-dinh-and-ben-thah.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

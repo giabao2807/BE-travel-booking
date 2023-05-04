@@ -1,0 +1,507 @@
+{
+    "content": [
+        {
+            "name": "Madboy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất chi là vui vẻ",
+            "review_content": "Tôi có cơ hội ghé đây nhân dịp bạn tôi du lịch đà nẵng 3 ngày, vào altara thăm bạn , tuy ko ở đây nhưng khi vào tôi được nhân viên đây tiếp đón rất chi là niềm nở, đặc biệt Mr Sanh pham  - bell men  , chào đón, hướng dẫn rất nhiệt tình vui vẻ, nếu có bạn bè đến đây  tôi sẽ giới thiệu đến đây trải nghiệm. ",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Yen N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice hotel, good staff",
+            "review_content": "Tôi đến khách sạn sớm và rất cảm ơn bạn Phát và An đã hỗ trơ nhận phòng sớm và giới thiệu các dịch vụ khách sạn cũng như vui chơi giải trí tại đây. Khách sạn thoáng gần biển, đáng để trải nghiệm. Cảm ơn Altara",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nam V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ rất tốt, nhân viên tốt bụng",
+            "review_content": "Tôi có đánh rơi điện thoại của mình trên đường đi chơi về ở gần biển. Bạn nhân viên Altara - Phát đã tìm thấy và trả nó lại cho tôi, tôi thực sự rất biết ơn các bạn ấy vì điện thoại này rất quan trọng đối với tôi. Nếu có cơ hội quay lại Đà Nẵng du lịch, tôi sẽ chọn nơi đây vì dịch vụ và nhân viên rất tuyệt",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hanh P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi tuyệt vời",
+            "review_content": "Phòng rất mới và gần biển. Căn 2 phòng ngủ 3 giường rất tiện chi gia đình tôi. Trang thiết bị đầy đủ và mới mẻ. Bạn Phát lễ tân rất nhiệt tình tư vấn phòng và hỗ trợ tôi rất nhiều ngoài giờ làm việc qua điện thoại, rất chu đáo",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Khoi.PH98",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ đáng nhớ",
+            "review_content": "Khách sạn nằm gần biển, có nhiều quán hải sản ngon ở xung quanh. Nội thất trong phòng hiện đại và còn rất mới, có cả máy giặt- sấy áo quần, bếp nấu ăn. Nước, cafe và trà miễn phí. Nhân viên Phát lễ tân lễ phép, lịch sự và hỗ trợ khách nhanh chóng và nhiệt tình. Lần sau quay lại Đà Nẵng, tôi sẽ chọn Altara cho kì nghỉ tiếp theo của tôi.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "nguyen Nga",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng",
+            "review_content": "Phòng ốc thoáng và sạch sẽ, nhân viên lễ phép và nhiệt tình. Mình đến Đà Nẵng sớm được bạn Phát và bạn An đã hỗ trợ gia đình mình nhận phòng. Rất phù hợp với gia đình có trẻ nhỏ. Khách sạn gần bãi biển. Tuy nhiên hôm mình đi sảnh bị nhỏ nước nhang ko ảnh hưởng nhiều lắm",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Khoa Nguyen Thai",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Altara suite",
+            "review_content": "Phòng rất sạch sẽ và đẹp. Căn 2 phòng ngủ đầy đủ tiện nghi có cả máy giặt và máy sấy phù hợp cho cả gia đình đi du lịch dài ngày. Quản lý và Lễ Tân rất nhiệt tình chu đáo. Mình có đến sớm và được các bạn Phat và An hỗ trợ cho check in rất sớm do có con nhỏ. Rất ưng ý và sẽ quay lại Altara Suite vào lần du lịch Đà Nẵng tới.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "DivingScience P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch khám phá",
+            "review_content": "Rất tốt từ tiện nghi ks, đến pcach phục vụ, view biển đẹp, đồ ăn buffe đa dạng && chất lượng ổn chuẩn 5 sao. Đặc biệt anh lễ tân tên Sanh làm việc chu đáo, hỗ trợ tận tình. Xứng đáng đồng tiền và sẽ quay lại nếu đến ĐN",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Văn C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Căn hộ gần biển, trải nghiệm dịch vụ tốt",
+            "review_content": "Khách sạn căn hộ vị trí gần biển, di chuyển đến các địa điểm khác khá gần. Các tiện ích trong phòng khá tốt, có máy giặt, sấy và bếp, ko có nồi cơm điện. Nhân viên rất thân thiện và nhiệt tình tư vấn cho khách, rất cảm ơn bạn Phát lễ tân đã hỗ trợ nhận phòng sớm và giới thiệu thuê xe máy.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hai1",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi tuyệt vời",
+            "review_content": "Gia đình tôi chọn Altara Suites vì khách sạn có đầy đủ tiện nghi như lò vi sóng, máy giặt máy sấy áo quàn rất tiện. Cảm ơn bạn Phát lễ tân hỗ trợ nhận phòng sớm và di chuyển hành lý lên phòng và giới thiệu dịch vụ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngan N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "chuyến đi tuyệt vời",
+            "review_content": "Tôi cùng gia đình đi nhóm du lịch tại đây. chất lượng dịch vụ cũng như cơ sở vật chất rất tất. nhân viên rất thân thiện và niềm nở. đặc biệt cảm ơn bạn Phát vì đã hỗ trợ gia định tôi nhiều, gia đình tôi sẽ quay lại đây đợt sau",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanh Uynn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyên đi tuyệt vời",
+            "review_content": "Tôi cùng gia đình du lịch đà nẵng. Tôi rất thích khách sạn căn hộ như vầy rất tiện nghi, nhân viên thì rất thân thiện. Cảm ơn bạn Phát lễ tân đã hỗ trợ tôi và gia đình thuế xe đi chơi, nếu quay lại đà nẵng tôi vẫn sẽ chọn altara suites",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Bean Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi tuyệt vời",
+            "review_content": "Sau 2 năm dịch tôi đã trở lại Đà Nẵng và lần này tôi chọn khách sạn kiểu căn hộ. Tôi rất thích nơi lưu trú có trang trị các thiết bị bếp, máy giặt máy sấy như ở đây. Phòng ốc mới và sạch sẽ và rất rộng rãi. Nhân viên ở đây thân thiện và tốt bụng. Cảm ơn bạn lễ tân nam tên Phát đã chỉ cho tôi quán hải sản rất ngon và chất lượng, cũng như nhiệt tình hỗ trợ tôi dùng máy sấy khi ko biết dùng. Nếu lần sau quay lại Đà Nẵng tôi vẫn sẽ chọn ở đây vì các dịch vụ tiện lợi ở đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Fiorina",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Căn hộ tiện nghi, view đẹp. Nhân viên nhiệt tình",
+            "review_content": "Phòng ốc rất mát, rộng, đẹp và cực đầy đủ tiện nghi. View tầng cao rất đẹp. Bạn Hưng Trần Concierge đem lại ấn tượng vô cùng vô cùng tốt và cực kì hài lòng. Bạn rất nhiệt tình, thân thiện và support. Bạn gợi ý cho khách các trải nghiệm, chương trình phù hợp với nhu cầu cũng như quỹ thời gian.  Cảm ơn Hưng rất nhiều nhé 🤩.  Một số chi tiết nhỏ: - Sảnh nhỏ và nóng. - Đồ ăn sáng ít món. Vài món bị khô.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Dung N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhà bếp tuỵet vời",
+            "review_content": "Hài lòng rất nhiều về phục vụ của altara, nhất là nhà bếp. Con mình ốm nhưng đã support rất nhiệt tình Giá phù hợp và gia đình có con nhỏ ở rất tuyêth vời Lễ tân và bảo vệ khách sạn cungz nhiệt tình lắm",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "binh minh T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghĩ đáng nhớ cùng gia đình thân yêu.",
+            "review_content": "Căn hộ nghỉ dưỡng rất tuyệt vời, đầy đủ tiện nghi, sạch sẽ Lễ tân nhiệt tình, thân thiện Chỉ một câu: Rất tuyệt vời  Nếu có dịp quay lại gđ mình vẫn lựa chọn Altara suites Mr.Sanh nhiệt tình và dễ thương❤️❤️❤️",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Long D",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời!!!!",
+            "review_content": "quầy Lễ Tân không ấn tượng nhưng nhân viên rất thân thiện, phòng đẹp và tiện ích thoải mái hơn mong đợi.mình báo đi kỉ niệm ngày cưới nên được decor phòng miễn phí rất đẹp.  Thật sự ưng ý.  Nhất định sẽ book lại nếu có dịp trở lại đà nẵng",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Quyen Hoang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng rộng, đẹp, đầy đủ tiện nghi. Nhân viên thân thiện và nhiệt tình",
+            "review_content": "Mình có book 2 căn ở Altara Suites đợt tháng 6 vừa rồi cho chuyến du lịch 4 ngày, 3 đêm và cảm thấy vô cùng ưng ý khi ở đây.   Trước hết nói về vị trí, khách sạn ở gần trung tâm, gần biển, rất dễ di chuyển ra biển Mỹ Khê tắm hoặc đến các địa điểm ăn uống và vui chơi giải trí khác.  Về phòng thì mình phải nói chưa từng book được khách sạn nào ưng ý đến thế. Phòng rộng theo kiểu căn hộ, có phòng khách, phòng ngủ và khu bếp trong phòng, trong phòng có có cả máy giặt, mấy sấy, bàn là luôn, siêu tiện. Quần áo đi chơi cả ngày về tối cho vào máy giặt và máy sấy là lại khô cong, sạch sẽ, đến ngày về là chỉ cần xách vali đồ sạch về, không lách cách phải mang quần áo bẩn về hoặc mất tiền giặt ủi siêu đắt như các khách sạn khác.   Phòng mình ở có 2 phòng, 1 phòng giường King và wc trong",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vincent Hien",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "chuyến công tác tốt đẹp tại Altara",
+            "review_content": "Do công việc nên tôi thường xuyên bay ra Đà Nẵng công tác, mỗi lần đến tôi đều chọn Altara Suites vì rất nhiều lý do: - Các bạn tiếp tân nhiệt tình, thân thiện - Căn hộ rộng rãi, có bếp với các vật dụng đầy đủ để tự nấu ăn, lò vi sóng, máy giặt, ... căn hộ nhiều phòng ngủ nên đi gia đình lại càng tốt, khách Nhật đi cùng tôi cũng rất thích, khách nước ngoài khác cũng vậy. - Cảm ơn các bạn phục vụ nhà hàng bữa sáng thân thiện, nhiệt tình và chu đáo như bạn Hoàng người Bình Định, Ms. Thuy và các bạn nữ nhiệt tình, liên tục thêm món và dọn bàn, nhiều món ăn ngon miệng. Khi tự nấu ăn, thường xuyên thiếu gia vị nên tôi hay quấy rầy là hỏi xin ít gia vị đều được rất vui vẻ và nhiệt tình. Sắp tới nghe nói Đà Nẵng hủy lịch bắn pháo hoa vi dịch CoVid-19 nên tôi cũng buồn vì mọi năm tôi",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Trần Hải",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng đẹp , nhân viên nhà hàng chuyên nghiệp và thân thiện",
+            "review_content": "Phongf khach san dep va phu hop vs gia dinh . nhân viên phục vụ ở nhà hàng. rất thân thiện chuyên nghiệp . mặc dù rất đông khách ăn sáng nhưng từ quản lý đến nhân viên ai cũng cười tươi và rất nhiệt tình",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ha L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ thú vị, trải nghiệm tuyệt vời!",
+            "review_content": "Tôi và gia đình đã có những khoảnh khắc cực kỳ thư giãn ở đây. Cơ sở vật chất ở đây cực kỳ tốt, ngay cả những thứ chén, dĩa muống cũng được set up sẵn trong phòng. Bữa sáng được phục vụ Buffet, đồ ăn rất phong phú. Các bạn nhân viên thì rất nhiệt tình và thân thiện. Tôi rất ấn tượng với các bạn nhân viên ở bộ phận tiền sãnh. Các bạn rất nhiệt tình tư vấn những địa điểm vui chơi ở đây. Một lời cảm ơn chân thành đến bạn Phát đã giúp tôi giữ hành lý của tôi trong lúc chờ chuyến bay và giúp tôi đặt xe Grab! Tôi sẽ giới thiệu cho bạn bè đến đây và lần tới quay trở lại Đà Nẵng tôi vẫn sẽ chọn Altara Suites.",
+            "reviewer_location": "Huế, Việt Nam"
+        },
+        {
+            "name": "hunghuc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": " Một nơi đáng sống",
+            "review_content": "Vị trí thuận lợi, view đẹp, tiện nghi tốt và quan trọng là dịch vụ rất chu đáo, nhân viên nhiệt tình, thân thiện. Đặc biệt cảm ơn nhóm phục vụ hồ bơi-khu sauna, Mr. Trần Văn Châu và Mr. Nguyễn Quốc Nguyên, các bạn đã giúp chúng tôi có một kỳ nghỉ với những trải nghiệm tuyệt vời và đáng nhớ. Tôi muốn đưa cả gia đình đến đây để chia sẻ với mọi ng về cảm giác thoải mái, thư giãn với dịch vụ chuyên nghiệp như thế này.",
+            "reviewer_location": "Vũng Tàu, Việt Nam"
+        },
+        {
+            "name": "Henry Tran",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi nghỉ ngơi thoải mái",
+            "review_content": "Khách sạn mới, đầy đủ tiện nghi, sang trọng và hiện đại. Gia  đình tôi thích buổi ăn sáng tại đây với nhiều món ăn ngon, phong phú. Dịch vụ hồ bơi, phòng tập gym và phòng sauna rất tốt với nhân viên hướng dẫn thân thiện (vd: Mr Châu). Nhìn chung, với dịch vụ 5 sao, giá cả hợp lý, Altara suites xứng đáng là nơi nghỉ ngơi thoải mái. ",
+            "reviewer_location": "Perth, Úc"
+        },
+        {
+            "name": "Yến Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ thoải mái",
+            "review_content": "Khách sạn đẹp, an toàn và đầy đủ tiện nghi Nhân viên thân thiện đặc biệt là nhân viên nhà hàng Hoàng & Hạnh Có bếp nấu ăn, máy giặt và máy sấy quần áo trong phòng Ngoài ra, nơi đây còn có hồ bơi vô cực, phòng gym và sauna đã tạo nên một kỳ nghỉ đáng nhớ cho chúng tôi Khuyến khích booking  Chúng tôi sẽ trở lại lần tới",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Ruby",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất đẹp",
+            "review_content": "Tôi đã đặt 1 phòng tại khách sạn này cho kì nghỉ của tôi. Khách sạn rất đẹp, nhân viên thân thiện,và nhiệt tình giúp đỡ tôi trong những ngày ở tại khách sạn (Bạn Diễm FO) Bữa sáng rất tuyệt vời, nhân viên nhà hàng phục vụ chu đáo Tôi sẽ quay trở lại khách sạn này",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tín",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "Đánh giá altara hotel qua kì nghỉ vừa rồi",
+            "review_content": "Thật sự nhìn tổng thể thì altara là ks tốt. Sạch sẽ. Nhân viên thân thiện. Nhưng có vài điểm trừ khá là cao và thuộc về phần ăn sáng. Món ăn rất bình thường. Thực đơn không phong phú. Cà phê thì uống như hoá chất(vì tôi là dân uống cf) nên có thể cảm nhận được ngay lần chạm môi đầu tiên. Nói chung là thực đơn khá là chán. Không biết ăn cái gì luôn.  Còn lại thì mọi thứ ổn. Tuy không xuất sắc nhưng cũng không quá tệ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Amaya N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Excellent",
+            "review_content": "Tất cả mọi thứ đều rất tốt từ lúc check in đến lúc check out. Các bạn nhân viên phục vụ rất tốt, quan tâm khách hàng đặc biệt là Hoàng và An. Giao tiếp với khách hành tốt. Bữa sáng phong phú với nhiều món ăn!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngọc Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ của tôi",
+            "review_content": "Phòng đẹp, sạch sẽ.  Không gian nhà hàng rộng, view biển.  Ăn sáng nhà hàng ngon miệng.  Nhân viên phục vụ tận tình, chu đáo.  Bạn Hằng - nv nhà hàng phục vụ tốt, chuyên nghiệp.  Chúng tôi sẽ quay lại trong thời gian sắp tới.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thật sự rất tốt",
+            "review_content": "Chúng tôi đã đi rất nhiều nơi, trong nước và cả nước ngoài. Nhưng dịch vụ ở đây là tốt nhất. Tất cả nhân viên đều rất thân thiên, nhà hàng sạch sẽ, món ăn ngon. Đặc biệt là cháu Thảo, rất vui vẻ, thân thiện và chuyên nghiệp",
+            "reviewer_location": "Quảng Ngãi, Việt Nam"
+        },
+        {
+            "name": "Le Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tốt tại altara suites Đà Nẵng",
+            "review_content": "Tôi đã ở đây 2 ngày mọi thứ thật tuyệt vời, view đẹp đồ ăn sáng rất ngon. Hồ bơi sạch sẻ, bạn Châu ở hồ bơi rất thân thiện bạn đã giới thiệu các dịch vụ của hồ bơi, phòng gym, sauna làm tôi cảm thấy rất hài lòng. Nếu có dịp tôi sẻ quay trở lại.",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "s0fiac5",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời",
+            "review_content": "Đi du lịch mà thoải mái như ở nhà: tủ lạnh,lò vi sóng, bếp từ,máy giặt,máy sấy quần áo,bàn là....căn hộ 2 phòng ngủ làm gia đình tôi rất hài lòng - 1 sự lựa chọn cho các gia đình có nhu cầu nghỉ dưỡng Đà nẵng để thay đổi không khí",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Tường vi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi tuyệt vời",
+            "review_content": "Sau ba ngày ở phòng 1105 khách sạn altara suites.tôi cảm thấy mọi thứ rất tốt, con người rất thân thiện dễ mến, Hồ bơi sạch sẽ,nhân viên phục vụ tốt, tôi có nói chuyện với anh Việt là nhân viên ở hồ anh rất thân thiện và nhiệt tình  Tôi sẽ quay lại nơi này một ngày sớm nhất.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lưu Trúc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "CHUYẾN ĐI TUYỆT VỜI",
+            "review_content": "không thử ở đây 1 lần khi tới ĐN thì quả thực PHÍ, Mình và nhóm bạn có book chuyến đi ĐN và ở tại khách sạn Altara, ở đây mọi thứ đều tuyệt vời, từ nhân viên đến phòng ốc, tạo cảm giác thoải mái đến mức chỉ muốn ở khách sạn chứ chẳng cần đi chơi, bể bơi ngoài trời view biển tha hồ sống ảo. Mình ở phòng dạng căn hộ 2 Pn, nên rất tiện, ngủ riêng mà ăn chơi nấu nướng chung hết ý. Anh nhân viên nhiệt tình, thân thiện.  À có máy giặt + máy sấy quần áo nữa chứ. Tiện hết ý. Tóm lại, mình muốn quay lại...",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tham h",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "TUYỆT VỜI",
+            "review_content": "Phục vụ tốt,chu đáo, các bạn nhân viên rất nhiệt tình dễ thương như bạn Hoàng, bạn Thảo bộ phận nhà hàng thân thiện chuyên nghiệp. Vị trí khách sạn nằm gần biển, thuận lợi cho việc đi lại và ăn uống.  Lần sau có dịp tôi sẽ quay lại với Altara Suite",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Global02093808517",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cực kỳ hài lòng",
+            "review_content": "Tôi và gia đình vừa có kỳ nghỉ tại Altara vào dịp đầu tháng 8. Cả gia đình tôi rất hài lòng với các dịch vụ tại đây. Tôi ấn tượng rất tốt với các bạn phục vụ trên quầy ăn sáng, rất chú ý đến khách hàng. Tôi có một cô con gái nhỏ, năm nay hơn 4 tuổi. Khi tôi lấy đồ ăn ra cho con tôi, các bạn phục vụ đã rất chú ý và có ra hỏi cháu có muốn đổi bộ đồ ăn rất dễ thương của trẻ con không, và khi biết con gái tôi chỉ thích đồ màu tím, các bạn phục vụ đã nhiệt tình lấy nguyên 1 bộ đồ ăn màu tím theo nguyện vọng của con gái tôi. Chỉ là một chi tiết nhỏ, nhưng thực sự tôi rất hài lòng với Altara Suites. Chắc chắn tôi sẽ còn quay lại Altara :)",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hà Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một kỳ nghỉ hoàn hảo",
+            "review_content": "Sang trọng, tiện nghi, thuận tiện và vew đẹp là những cảm nhận của gia đình tôi khi chọn Altara Suites cho những ngày ở tại Đà Nẵng. Nhân viên nhiệt tình, thân thiện; bể bơi đẹp bao trọn tâm nhìn biển và thành phố; bữa sáng ngon và đa dạng món; du khách có thể tự chế biến món ăn trong phòng bếp của căn hộ... Sẽ quay trở lại nơi này nhiều lần nữa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn chất lượng",
+            "review_content": "Phòng ốc rất tiện nghi với đầy đủ thiết bị, từ đồ dùng bếp cho tới máy giặt và sấy đồ. Có khu xông hơi đá nóng, bể bơi rất thích. Mình ở đợt giáng sinh còn được các bạn nhân viên đến gõ cửa phòng, tặng bánh cookie. Đồ ăn sáng ngon, đa dạng và phục vụ đến khoảng 10h30 11h cơ. Tuy nhiên thì chỗ để xe không tiện, khách du lịch đi xe máy như mình thì cứ để trước khách sạn và không có người trông xe nên cũng hơi có chút lo lắng :))",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Thành Tấn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chỉ có thể nói là \"Sang Trọng và Đẳng Cấp",
+            "review_content": "phòng thiết kế gọn gàn mát mẻ, View thành phố rất đẹp và View nào cũng ok hết , nhân viên nhiệt tình,... Bể bơi vô cực rất hấp dẫn, phòng gym tiện lợi khi không cần phải ra khỏi tòa nhà nhưng vẫn có thể sử dụng tất cả các dịch vụ tiện ích cần thiết",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hồ Hiền",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đẳng cấp chuẩn 5 sao- Altara Suites",
+            "review_content": "Căn hộ tại Altara Suites thật tuyệt vời, với thiết kế sang trọng và tinh tế đã để lại cho tôi một ấn tượng khó quên: là những dịch vụ tiện ích đẳng cấp quốc tế và nhất là sự thân thiện, nhiệt tình của nhân viên Altara Suites ở Đà Nẵng. Hy vọng trong thời gian tới tôi sẽ được ghé lại đây lần nữa!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Mỹ Dung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "1 chuyến công tác cho 2 ngày trải nghiệm tại Altara Suites thật tuyệt vời. Xứng đáng đẳng cấp 5 sao",
+            "review_content": "Phòng được chăm chút tới từng chi tiết nhỏ, sạch và mùi hương dễ chịu View City đêm đẹp mê ly.  Nhân viên chuyên nghiệp, phục vụ tận tình Cầu thang máy siêu nhanh, tiện ích 5 sao Sẽ quay lại 1 ngày không xa!. Cám ơn Altara",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Mỹ Phượng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sitetour Altara Suites",
+            "review_content": "Đi sitetour với anh chị em trong công ty và được trải nghiệm tại đây. Mình cảm thấy rất rất hài lòng về toàn bộ sản phẩm bên này. Từ nhân viên cho đến phòng ốc. Cảm ơn Altara đã đem đến cho mình những thời gian tuyệt vời như vậy",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "huyền nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "dịch vụ quá  tốt trên cả tuyệt vời",
+            "review_content": "qua chuyến đi 2 ngày tại chuỗi khách sạn ALTARA SUITES ĐÀ NẴNG tôi được nghỉ dưỡng và tận hưởng những tiện ích ở đây tôi thấy thật tuyệt vời với vị trí đẹp, view biển ,cách bài trí và nội thất đầy đủ tiện ích như đang ở nhà vậy không thiếu  những dụng cụ cần thiết nào tại   ALTARA SUITES thật tuyệt vời,đồ ăn rất ngon, tiện ích đầy đủ... lấn sau ghé lại đà nẵng nhất định tôi sẽ nghỉ dưỡng tại ALTARA SUITES và giới thiệu cho bạn bè tới đây nghỉ dưỡng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thi Thơ",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Teambuilding",
+            "review_content": "Chúng ta nên hưởng thụ kỳ nghỉ tại Altara Suites Đà Nẵng.   Một kỳ nghỉ đáng nhớ cùng đại gia đình Khang Thịnh land. Quá tuyệt vời! Khách sạn đúng tiêu chuẩn 5*, phục vụ nhiệt tình, phòng sạch sẽ gọn gàng. #teambuilding #khang_thinh_land",
+            "reviewer_location": "Quy Nhơn, Việt Nam"
+        },
+        {
+            "name": "Nguyen xuan Thanh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tham quan Đà Nẵng",
+            "review_content": "Trải nghiệm tuyệt vời, altara suites Đà Nẵng xứng đáng hơn 5*  Căn hộ với 2 phòng ngủ, 2 view biển Mỹ Khê và Vịnh Đà Nẵng,, đẹp mê ly.   Các tiện ích đầy đủ, chắc chắn bạn sẽ hài lòng khi ở đây.   Dịch vụ và thái độ niềm nở của nhân viên khiến bạn không muốn rời.",
+            "reviewer_location": "Quy Nhơn, Việt Nam"
+        },
+        {
+            "name": "hieu t",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi chơi Đà Nẵng đáng nhớ",
+            "review_content": "Nhân viên nhiệt tình, phục vụ chu đáo, phòng ở gọn gàng, sạch sẽ đủ mọi tiện nghi rất thích hợp để đi chơi cùng gia đình và bạn bè, món ăn ngon và nhiều dịch vụ bổ ích đủ mọi tiện ích, thật sự là chuyến đi ý nghĩa, sẽ quay lại khi có dịp",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Suong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt",
+            "review_content": "View đẹp, nội thất tinh tế, nhà hàng ăn sáng thoáng & sang trọng, đồ ăn khá ổn, nhân viên nhiệt tình, Vị trí gần biển, giao thông thuận tiện, xứng đáng là nơi nghỉ dưỡng tuyệt vời nhất khi du lịch tại Đà Nẵng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Minh lộc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chất lượng rất tốt",
+            "review_content": "Chất lượng hơn cả tuyệt vời , hơn cả một thiên đường . Quản lý và điều hành quá tuyệt vời . Nhân viên rất nhiệc tình và thân thiện, nếu đến đà Nẵng Nhất định sẽ đến Altara suites . Tất cả các dịch vụ điều tốt , tôi rất hài lòng",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Nghị Nguyễn KTL",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Verygood",
+            "review_content": "Phòng sạch sẽ, nhân việt nhiệt tình vui vẻ, tiện ích quá tuyệt vời, đón tiếp khách nồng hậu nhiệt tình vui vẻ, không một từ ngữ nào có thể diễn tả được đẳng cấp của Altara Suite Đà Nẵng, i love u altara",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hiền móm",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Feedback",
+            "review_content": "Quá tuyệt vời, trên cả tuyệt vời, ngoài sức tưởng tượng. View đẹp. Mọi thứ trên cả tuyệt vời từ nhân viên đến dịch vụ. Từ nhân viên công cộng không đụng khách hàng cũng thân thiện chào hỏi, tôi chắc chắn sẽ quay trở lại trong thời gian sớm nhất",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phuong Ngo",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Thích hợp với gia đình",
+            "review_content": "Phòng rộng rãi, sạch sẽ, vệ sinh dọn dẹp thường xuyên. Tuy nhiên, đường thoát nước trong toilet chính bị thoát mùi ngược lại vào phòng, đã báo Lễ tân 2 ngày không lên xử lý. Hồ bơi rooftop nên quá lạnh Ăn sáng thức ăn nghèo nàn, bắp luộc bị ôi thiu (2 ngày)",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "dangquang",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Tương đối thoải mái, phòng sạch. Gần tòa nhà đang xây.",
+            "review_content": "Khách sạn kiểu các căn hộ du lịch được bán và cho thuê lại, có đủ bếp và các tiện nghi trong gia đình. Altara là đơn nguyên bên trong của tổ hợp 120 Võ Nguyên Giáp (bên ngoài là khách sạn Sheraton). Sảnh lễ tân tầng 1 khá nhỏ. Bể bơi tầng thượng có thể ngắm toàn cảnh bãi biển Đà Nẵng. Các phòng phía thành phố có thể ngắm cầu Thuận Phước, bán đảo Sơn Trà, sông Hàn (cách hơn 1km). Các phòng phía biển (nhìn về phía Đông Nam, bãi tắm Mỹ Khê), có công trình đang xây dựng chắn mất một phần.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Alexis F",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi công tác rất thoải mái",
+            "review_content": "Tôi đến Đà Nẵng để công tác và tôi đã nghỉ tại khách sạn Altara Suites. Thật sự nơi này phục vụ rất là chuyên nghiệp và tận tình với khách hàng. Tôi rất cảm ơn nhân viên phục vụ phòng, bạn là người cẩn thận và tỉ mỉ điều đó khiến tôi vô cùng hài lòng. Thật tuyệt khi tôi đã đến nơi đây",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "nganguyen83",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thích hợp với các gia đình đi du lịch",
+            "review_content": "Khách sạn sạch sẽ,phòng rộng, thích hợp với các gia đình có trẻ nhỏ vì có đầy đủ tiện nghi trong phòng. Nhân viên rất thân thiện,luôn tươi cười và luôn sẵn sàng giúp đỡ khi tôi yêu cầu.Nhất định tôi sẽ quay trở lại.  P/s: Khách sạn này là khách sạn không hút thuốc nên tôi cảm thấy rất thoải mái khi ở đây. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "minh l",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ở Khách sạn mà tiện nghi như ở nhà",
+            "review_content": "Lần đầu tiên đi du lịch cùng gia đình và con nhỏ gần 2 tuổi tôi vô cùng lo lắng cho việc ăn uống của con. Nhưng khi đến tại Altara Suites thì mọi việc đều được giải quyết vì căn bếp đầy đủ chức năng và không gian của căn hộ thì rộng rãi và nội thất cao cấp. Đây là khách sạn căn hộ đầu tiên tôi đến có đủ máy giặt và máy sấy. Đặc biệt là bể bơi vô cực rất tuyệt vời tại tầng thượng. Tôi sẽ tiếp tục quay lại cho những chuyến nghỉ dưỡng tiếp theo của gia đình. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Chiêu L",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Chuyến đi kinh doanh đầu tiên trong năm",
+            "review_content": "Tôi có chuyến đi kinh doanh đầu tiên vào năm 2019 tại Altara. Về đồ đạc và xem là hoàn toàn hoàn hảo. Bữa sáng không quá popurlar nhưng chấp nhận được, nước trong hồ rất lạnh nhưng lại rộng rãi để bơi lội. Tất cả đều ổn trừ thái độ của nhân viên với người Việt Nam và những người khác (Trung Quốc và Hàn Quốc), kém đối với chủ sở hữu vì họ bị đánh bại trên sân nhà của họ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "0401wsze",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Nhân viên thân thiện, khách sạn đẹp và môi trường",
+            "review_content": "Phòng sạch sẽ, rộng rãi với tầm nhìn tuyệt vời. Yêu cầu của tôi đã được thực hiện (yêu cầu sắp xếp đặc biệt vì có một cặp vợ chồng trong nhóm của tôi kỷ niệm 2 năm của họ).  Nhân viên rất thân thiện và hữu ích, đặc biệt là Nguyễn và một phụ nữ tóc ngắn với thông số có thể nói tiếng Trung / tiếng Quảng Đông. Cả hai đều giúp tôi rất nhiều trong chuyến đi ở DaNang đặc biệt là Nguyễn. Cô ấy đang làm nhiều hơn những gì cô ấy phải làm. Altara thực sự nên trao giải cho cô ấy.  Mọi thứ đều tốt ngoại trừ thang máy siêu chậm vì đôi khi chúng ta cần đợi trong 5 phút. Ngoài ra, trong bữa sáng, nên bố trí thêm nhân viên để giúp dọn bàn.",
+            "reviewer_location": "Kuala Lumpur, Malaysia"
+        },
+        {
+            "name": "officer son",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Xuất sắc",
+            "review_content": "Căn phòng rất tuyệt và đẹp. Các nhân viên đã tốt đẹp với chúng tôi. Bữa sáng miễn phí cũng không tệ để ăn. Bạn có thể ở trong khách sạn rất thoải mái. Nhà bếp đã được thiết lập đầy đủ, vì vậy bạn có thể nấu cho bữa ăn hoặc bữa ăn nhẹ của bạn.  Tuy nhiên, thang máy rất chậm. Đó là thời gian rất khó khăn để chờ thang máy. Đôi khi cánh cửa của căn phòng không dễ dàng mở ra.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "George Tan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một trong những khách sạn tốt nhất mà tôi từng ở",
+            "review_content": "Ở tại Altara Suites từ 26 - 28. Kiểm tra là phiền phức vì nhân viên rất hiệu quả. Chúng tôi được chỉ định một phòng trên tầng 30 rất rộng rãi và sạch sẽ. Giường cũng cực kỳ thoải mái đến mức khó thức dậy vào buổi sáng.  Nói chung tất cả các nhân viên tại khách sạn đều có thể giao tiếp tốt bằng tiếng Anh và rất chủ động cộng với việc đáp ứng yêu cầu của chúng tôi. Chúng tôi cần giúp đỡ một đêm với bếp để nấu ăn và ai đó đã được gửi đến phòng của chúng tôi trong vòng 5 phút để hỗ trợ chúng tôi.  Đặc biệt cảm ơn đầu bếp Tuấn, người đã truyền đạt kiến thức của mình về cách nấu bánh pan truyền thống Việt Nam (Bánh xèo) và phở (phở) trong lớp học 1 giờ của chúng tôi. Anh ấy là một chàng trai hài hước, rất quen thuộc với các món ăn địa phương và chúng tôi rất thích lớp học của anh ấy",
+            "reviewer_location": "Singapore"
+        },
+        {
+            "name": "Ellie N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tầm nhìn tuyệt vời và giường siêu thoải mái",
+            "review_content": "Tôi có một căn hộ 2 phòng ngủ trên tầng cao nhìn ra đại dương cho kỳ nghỉ của tôi ở Đà Nẵng. Quan điểm là bất khả chiến bại với một cái nhìn toàn cảnh của bãi biển yên bình, hài hòa với quá trình đô thị hóa đang phát triển. Chúng tôi cũng dành riêng việc vận chuyển để đưa chúng tôi từ Hội An đến căn hộ, đó là một liên lạc đáng yêu như người lái xe là siêu đẹp và hiểu biết về thành phố.  Cái giường, tuy nhiên, chắc chắn là điểm nhấn. Chắc chắn là một trong những giấc ngủ ngon nhất mà tôi đã có trong một thời gian, tôi từ chối ra khỏi giường, cho rằng phòng ngủ cũng có tầm nhìn toàn cảnh đại dương. Thực phẩm trong phòng là tốt, nhưng bạn có thể muốn kiểm tra F & được cung cấp bên cạnh, tại Sheraton.  Vị trí khôn ngoan, với tôi nó đã được hoàn hảo. Chúng tôi đã ăn tối tại một nhà",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "120 Võ Nguyên Giáp, Đà Nẵng 550000 Việt Nam",
+        "name": "Altara Suites",
+        "geo_data": {
+            "latitude": 16.077394485473633,
+            "longitude": 108.24407196044922
+        },
+        "room_number": "151",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2c/75/e9/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2c/75/cd/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2c/75/ca/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/d6/05/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/d6/01/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/d6/27/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/d6/06/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2c/75/d4/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2c/75/d8/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/d6/17/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/00/8e/e9/sauna-steam-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/d5/fe/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/d6/03/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2c/75/e3/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2c/75/c5/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/78/5e/2e/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2c/75/dd/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2c/75/d2/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e4/d6/28/altara-suites.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/00/8e/ed/sauna-steam-room.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

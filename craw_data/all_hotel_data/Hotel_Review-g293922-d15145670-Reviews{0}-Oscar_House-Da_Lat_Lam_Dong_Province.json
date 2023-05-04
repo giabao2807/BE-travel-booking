@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "name": "Băng Hồ",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Giá rẻ và nằm ngay trung tâm Đà Lạt",
+            "review_content": "Ấn tượng nhất là giá rẻ và phòng ốc rất OK. Lại gần chợ Đà Lạt. Đoàn mình ở 20 người, được khuyến mãi giá tốt hơn niêm yết nữa! Chỉ có phòng đơn là hơi cũ, còn lại các phòng đếu mới (đoàn mình ở 1 phòng đơn,2 phòng đôi, 1 phòng ba). Sẽ quay lại ủng hộ chỉ chủ nhà thân thiện.  Cảm ơn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Gia Hân",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Homestay giá rẻ, gần chợ đêm Đà Lạt.",
+            "review_content": "Mình ở OSCAR House 3 đêm. Nhóm 4 người, ở phòng gia đình 2 giường, rất rộng rãi. Ngay đợt khuyến mãi nên giá chỉ có 250k/đêm. Nhân viên khá ok, đặc biệt là chỉ quản lý rất nhiệt tình, và hỗ trợ rất nhiều từ chỗ ăn uống đến mua quà cáp!",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "85 Nguyen Thi Nghia, Ward 2, Đà Lạt 670000 Việt Nam",
+        "name": "Oscar House",
+        "geo_data": {
+            "latitude": 11.9481201171875,
+            "longitude": 108.43692016601562
+        },
+        "room_number": "Việt NamTỉnh Lâm ĐồngĐà Lạt",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/cc/7e/view-nhin-t-san-thu-ng.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/87/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/ce/0e/n-i-th-t-kha-sang-tr.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/cd/35/c-u-thanh-len-cac-phong.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/cc/e8/san-r-ng-d-u-xe-o-to.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/cc/b0/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/cc/67/phong-doi-nay-co-2-giu.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/89/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/88/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/86/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/84/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/83/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/82/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/77/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/74/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d5/73/oscar-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d3/f2/phu-t-th-ch-p-nh-checkin.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d3/f1/ngu-i.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d3/ee/homestay-da-l-t-gia-r.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/99/d3/ed/phu-t-th-ch-p-nh-checkin.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

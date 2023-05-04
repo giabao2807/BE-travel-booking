@@ -1,0 +1,59 @@
+{
+    "content": [
+        {
+            "name": "Alexa",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Mình đi công tác Ninh Bình dài ngày, đi làm về có 1 chỗ nghỉ ngơi ấm cúng, đồ ăn ngon, sạch sẽ cảm thấy rất thân thuộc và gần gũ",
+            "review_content": "Khách sạn rất sạch sẽ, phục vụ chu đáo, nhiệt tình. Đồ ăn ở đây rất đáng để thử, cực kỳ ngon luôn. Mình ở dài ngày, không khí ấm cúng như 1 gia đình. Khách sạn ở gần hang Múa, đi phố cổ Hoa Lư cũng nhanh, ngay đường lớn đi lại khá tiện. Sẽ quay lại lần tới nếu có dịp công tác ninh bình. ",
+            "reviewer_location": "Ninh Bình, Việt Nam"
+        },
+        {
+            "name": "Alexa",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn mới, sạch sẽ ",
+            "review_content": "Khách sạn mới, sạch sẽ, đồ ăn sạch, thích hợp với chuyến đi cùng gia đình, trẻ nhỏ. Gần hang Múa, sáng dậy đi xe ra hang Múa chụp ảnh bình minh cực ảo diệu. Buffet sáng ngon. Có xe đạp mượn free, nói tóm lại rất thoải mái khi ở đây.",
+            "reviewer_location": "Ninh Bình, Việt Nam"
+        },
+        {
+            "name": "trang nguyen 92",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Điểm đến lý tưởng",
+            "review_content": "Khách sạn sạch sẽ, tiện nghi, đồ ăn ngon. Dịp sau nhất định sẽ quay lại. Mọi người rất nhiệt tình, được mượn váy, xe đạp miễn phí, giá phòng quá rẻ so với dịch vụ. Địa điểm khá đẹp để di chuyển đến các khu du lịch 👌.",
+            "reviewer_location": "Ninh Bình, Việt Nam"
+        }
+    ],
+    "hotel": {
+        "location": "Nguyễn Hữu An, Ninh Bình 430000 Việt Nam",
+        "name": "Golden Season Hotel",
+        "geo_data": {
+            "latitude": 20.24472427368164,
+            "longitude": 105.95598602294922
+        },
+        "room_number": "32",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/9e/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/78/36/04/caption.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/fb/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/f0/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/e6/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/cb/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/8d/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/86/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/7f/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/7d/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/79/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/6e/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/68/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/56/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/48/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/37/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/27/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/21/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/1a/golden-season-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ef/a7/14/golden-season-hotel.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

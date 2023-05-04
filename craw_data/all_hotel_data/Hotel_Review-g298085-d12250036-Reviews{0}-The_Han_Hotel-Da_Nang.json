@@ -1,0 +1,34 @@
+{
+    "content": [],
+    "hotel": {
+        "location": "22 Morrison An Hai Bac Son Tra, Đà Nẵng 550000 Việt Nam",
+        "name": "Khách Sạn The Han",
+        "geo_data": {
+            "latitude": 16.07145118713379,
+            "longitude": 108.242431640625
+        },
+        "room_number": "19",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/4b/b5/b8/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/60/91/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/60/36/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/5f/b4/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/5f/29/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/5e/e0/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/5e/8f/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/5e/1c/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/5d/a3/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/5b/f2/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/5b/2b/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/5a/77/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/59/e3/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/58/ff/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/4b/b5/b5/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/4b/b5/b7/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/4b/8f/f5/khach-s-n-the-han.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/0e/2c/92/the-han-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/0e/29/c9/the-han-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/0e/26/43/the-han-hotel.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

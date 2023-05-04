@@ -1,0 +1,883 @@
+{
+    "content": [
+        {
+            "name": "Daydream402121",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Khách sạn đẹp, nhân viên thân thiện nhiệt tình Giá phòng hợp ký trong phân khúc ks 3 sao Nằm trong trung tâm sapa, di chuyển tiện lợi  Bữa sáng buffet đầy đủ với rất nhiều món ăn Phòng ốc sạch sẽ Trải nghiệm tuyệt vời ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "hennry",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ok",
+            "review_content": "Khách sạn đẹp, view xịn, nhân viên thân thiện nhiệt tình, đồ ăn hợp khẩu vị nên thấy khá ngon phục vụ nhanh . Có dịp sẽ quay lại lần nữa....................tới đây mjnhf ko biết viết gì nữa, rất cảm ơn khách sạn đã phục vụ hết mình. Làn sau quay lại nhất định sẽ rủ bạn bè đi cùng nhiều hơn",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Nguyễn Hương Giang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "đánh giá Sapa Relax Hotel & Spa",
+            "review_content": "chất lượng phục vụ tốt, đồ ăn ngon, vệ sinh sạch sẽ, phòng đẹp, khách sạn gần trung tâm tiện. nhưng cần lưu ý chỗ đỗ xe hơi bất tiện nên có wifi cho từng tầng ! sẽ còn quay lại ủng hộ khách sạn nhiều !",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn thị quỳnh anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Relax",
+            "review_content": "Tình cờ được người quen giới thiệu đến khách sạn Relax.  Dịch vụ ở đây rất tốt, phòng ốc sạch sẽ, khách sạn gần ngay trung tâm dễ đi lại.  Xung quanh khách sạn có nhiều nhà hàng và các spa.  Hy vọng được ghé lại trong dịp sau",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ánh Ngọc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Perfect hotel to come ❤️",
+            "review_content": "Quán đẹp, nhân viên nhiệt tình phục vụ tốt 🥰 phòng rộng rãi, tiện nghi, đồ ăn ngon và vừa miệng ❤️ Có cơ hội sẽ đến lần nữa ạ 🙆🏻‍♀️ Cảm ơn các anh chị nhân viên đã phục vụ tốt cho đoàn em ạaaaa 🥰🥰",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanh Thao",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch tự túc",
+            "review_content": "Phòng sạch, đẹp, rộng rãi và tiện nghi. Có trang bị dụng cụ vệ sinh cá nhân đầy đủ, phòng được vệ sinh hằng ngày và được thay mới sạch . Khách sạn nằm ngay trung tâm nên tiết kiệm được 1 khoảng lớn tiền xe. Tuyệt 😍",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanh Tuyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tham quan du lịch",
+            "review_content": "Lần đầu tiên đến Sapa cực kì ưng khách sạn, phòng đẹp sạch sẽ, view đỉnh, nhân viên khách sạn nhiệt tình cực kì thân thiện. Khách sạn nằm ngay trung tâm thành phố cực tiện việc đi lại và tiết kiệm được 1 khoảng lớn luôn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quynhanhshin",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Relax hotel",
+            "review_content": "Khách sạn đẹp, view đẹp, nhân viên phục vụ ,tốt anh quản lý thân thiện, dễ gần, vui tính, đồ ăn của khách sạn rất là ngon. Nếu có dịp mọi người hãy đến với sapa và ghé qua đặt phòng ở relax hotel nhé !",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trang Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chất lượng phục vụ tốt",
+            "review_content": "Nhân viên nhiệt tình chu đáo, em rất cám ơn quản lý Trung đã tư vấn và hỗ trợ nhiệt tình cho chuyến du lịch của chúng em được trọn vẹn. View núi đẹp tuyệt vời, phòng ốc sạch sẽ khang trang, gần trung tâm thị trấn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nhv",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Hài lòng",
+            "review_content": "Nhân viên ở đây mọi người đều thân thiện và nhiệt tình.   Vì đặt phòng khá sát ngày đi nên không săn được phòng ngắm view núi nhưng chụp từ ngoài ban công ảnh vẫn khá đẹp. Nếu có dịp quay lại Sapa sẽ tiếp tục ủng hộ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Phương Linh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên thân thiện nhiệt tình, nếu có dịp chắc chắn sẽ quay lại ^^",
+            "review_content": "Khách sạn ở ngay trung tâm thị trấn Sapa nên đi bộ ra Quảng Trường, Nhà Thờ gì đều tiện hết.  Nhà mình đặt view city vì hết phòng view núi, nhưng vẫn thấy núi nên rất ưng luôn. Phòng thiết kế sang trọng, giường cực êm ái, ngủ thì bao phê luôn ạ.     Khách sạn phục vụ Buffet ăn sáng đa dạng, khá ngon.   Đặc biệt điểm cộng lớn nhất là nhân viên phục vụ rất niềm nở, tận tình, lại toàn anh chị trai xinh gái đẹp haha.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Milena T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng ",
+            "review_content": "Khách sạn tiện nghi cơ bản , giá cả hợp lý , phòng ốc sạch sẽ, đồ ăn sáng không có nhiều món nhưng chất lượng ! Gần trung tâm, tiện đi lại ! Gần các điểm thăm quan vui chơi !  Lần sau đến mình sẽ ghé !",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Huyền My",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Khách sạn đẹp, nhân viên nhiệt tình thân thiện, bữa sáng rất ok, giá cả hợp lí cho phòng deluxe view thành phố, ngoài 1 số kỷ niệm không vui tại Sapa thì có lẽ Sapa Relax Hotel là 1 kỷ niệm tuyệt vời trong suốt chuyến đi của mình, lần tới có dịp quay lại Sapa mình nhất định sẽ book lại Sapa Relax Hotel & Spa view núi để tận hưởng vẻ đẹp hùng vĩ của Sapa 1 cách trọn vẹn. À bonus là bạn nhân viên khách sạn rất đáng yêu còn gọi điện thoại bảo bọn mình xuống ăn sáng, very good",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Linh Lê",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng!",
+            "review_content": "Khách sạn đẹp, view phòng deluxe nhìn được cảnh vườn phố, giá cả hợp lý, bữa sáng ok, đặc biệt là rất hài lòng với sự nhiệt tình và phục vụ của nhân viên khách sạn. Sẽ tiếp tục chọn khách sạn khi đến sapa lần sau",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Loan Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sapa Relax hotel very good",
+            "review_content": "Sapa vào những ngày cuối năm rất lạnh, nhưng khi đến Sapa Relax Hotel Tôi thấy rất ấm áp, vui vẻ vì cách phục vụ tận tâm, chuyên nghiệp, lịch sự của đội ngũ nhân viên. Ngoài ra phòng óc sạch sẽ, tiện nghi, thức ăn ngon, cảnh đẹp sát bên trung tâm và thật bất ngờ Khi trả phòng Tôi còn được tặng quà nữa đấy... Hihi, thích quá. Nếu có dịp quay lại Sapa Tôi sẽ chọn khách sạn này cho các lần tiếp theo.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Anahong0806",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nhiệm độc đáo",
+            "review_content": "Lần đầu tiên mình có cơ hội đến Sapa, trải nghiệm mùa thu ý nghĩa hơn khi chọn Sapa Relax!!  Phòng cực đẹp, view núi tuyệt vời, bữa nào cũng ngon!! A.Kendy to cao,đẹp trai, nhiệt tình mà còn đang Ế!!!! Các bạn phục vụ chu đáo lắm ý!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lệ Chi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch",
+            "review_content": "Tôi đã có một kỳ nghỉ thật tuyệt vời khi chỉ một mình tới đây . Nhân viên ở ks rất thân thiện và nhiệt tình. Buffet sáng rất ngon , đồ ăn ở đây rất ngon , phòng sạch sẽ views đẹp, tôi đã có những trải nghiệm rất thú vị giống như gia đình vậy không giống như cảm giác alone , các bạn hãy đến nơi đây để nghỉ dưỡng nhé tin chắc lần sau các bạn sẽ muốn quay lại relax , ks gần chợ gần nhà thờ chỉ mất 5p để tới nhà thờ đá, các bạn có thể liên hệ vs nhân viên ở ks trước khi có dự định tới sapa và chọn nơi nghỉ dưỡng. Very good . See you again",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Henry Hua",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá tốt",
+            "review_content": "Ăn uống và nghỉ dưỡng tốt nhé cả nhà. Nhà mình có đặt cơm ở đây, đồ ăn khá ngon miệng, nhân viên tư vấn nhiệt tình. Mọi người có thể đến trải nghiệm xem. Địa chỉ khó tìm chút thì liên hệ khách sạn hỗ trợ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "anh đào",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Great ",
+            "review_content": "Phòng đẹp. Vị trí gần trung tâm, chỉ mất 4-5p đi bộ.  Buffet phong phú, và cực ngon Các anh chị nhân viên đẹp trai, xinh gái siêu thân thiện, và nhiệt tình hỗ trợ.  Lần sau quay trở lại nhất định sẽ lại lựa chọn nơi này",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Tuyet L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đẹp, sạch, rẻ",
+            "review_content": "View rất đẹp, giá cả hợp lý, thuận tiện đi lại. Nhân viên có cả người địa phương. Phòng view núi đẹp, có thể cảm nhận đc sương sớm, ánh nắng mới đầu ngày & cái se se lạnh sau hoàng hôn.  Sẽ quay lại nơi này nhiều lần nữa.  ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Mikhoa2019",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời",
+            "review_content": "Mình và mấy người bạn đã có một chuyến du lịch sapa với trải nhiệm tuyệt cho kỳ nghỉ của bọn mình tại sapa relax. Rất ấn tượng từ khi bước chân vào cửa khách sạn các nhân viên tưoi cười niềm nở, chào đón và giúp đỡ hành lý và mời một tách trà welcome. Khá nổi bật hơn từ căn phòng spa cho tới bữa sáng. Đặc biệt là anh kenny ( trung nguyên) luôn tưoi cười niềm nở và sẵn sàng trợ giúp cung cấp các thông tin về những địa điểm nổi bật ở sapa khi chúng tôi yêu cầu. Cảm ơn anh và các bạn nhân viên khách sạn đã cho chúng tôi một kỳ nghỉ đầy ý nghĩa. Nhât định chúng tôi sẽ quay trở lại cho những kỳ nghỉ tiếp theo.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quỳnh Sữa",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Qua người bạn giới thiệu chúng tôi đặt phòng tại khadch sạn Relax ở 19A phố Đồng Lợi. Chúng tôi hoàn toàn ngạc nhiên về",
+            "review_content": "phòng sạch se, view đẹp, nhân viên và mọi người ở đây rất thiên thiện và nhiệt tình, lần sau chắc chắn sẽ quay lại, Khách sạn ngay trung tâm gần quảng trường và nhà thờ đá. Món lẩu cá tầm bữa tối rất ngon, giá cả phải chăng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tuan N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sapa thành phố du lịch",
+            "review_content": "Lần nào đến Sapa cũng vậy, rất yêu thích khí hậu và những ng bạn Sapa ở đây. Hiền hậu, nhiệt tình và mến khách. Sapa Relax Hotel & Spa luôn như vậy mặc dù tôi đã ở nhiều lần. Địa điểm trung tâm, nhân viên niềm nở, chu đáo, phòng ở sạch sẽ với phong cảnh tuyệt đẹp nhìn ra thung lũng Mường Hoa, những thửa ruộng bậc thang và dãy núi mây phủ xa xa. Luôn thích lưu trú tại Sapa Relax mỗi khi đến Sapa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Olala69",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tránh nắng Hà Nội",
+            "review_content": "Chúng tôi tránh nắng Hà Nội bằng cách tự lái xe lên Sapa. Bạn tôi đặt phòng tại Sapa Relax ở 19A Đồng Lợi bởi vì khách sạn nằm ngay cạnh phố Tây Cầu Mây và nhà thờ đá. Cá nhâ tôi nhận xét đây là khách sạn rất vừa túi tiền mà trang thiết bị trong phòng rất mới. Nhân viên niềm nở thân thiện, bữa sáng phù hợp cho cả ng lớn và trẻ em nếu bạn đi du lịch cùng gia đình. Khách sạn tiếp đón cả khách nước ngoài. Tôi ưng ý với dịch vụ tại đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoa V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch Sapa",
+            "review_content": "Tôi và những người bạn học cấp 3 rủ nhau lên Sapa. Chúng tôi sử dụng xe riêng nên hoàn toàn chủ động về thời gian. Qua người bạn giới thiệu chúng tôi đặt phòng tại khadch sạn Relax ở 19A phố Đồng Lợi. Chúng tôi hoàn toàn ngạc nhiên về trang thiết bị nội thất ở đây. Rất mới, phòng có 2 cửa sổ nhìn ra thung lũng Mường Hoa và thị trấn. Ăn sáng OK cho cả người lớn và trẻ con. Chúng tôi thấy khách sạn còn có cả người nước ngoài. Nhân viên vui vẻ, niềm nở đặc biệt là bạn Huy. Khách sạn ngay trung tâm gần quảng trường và nhà thờ đá. Món lẩu cá tầm bữa tối rất ngon, giá cả phải chăng. Lần tới du lịch Sapa tôi sẽ lại đặt ở Relax.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "curious13338472068",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lưu trú",
+            "review_content": "Công ty đặt phòng cho tôi lưu trú tại khách sạn Relax ở phố Đồng Lợi. Vị trí của khách sạn thuận tiện, ngay cạnh quảng trường trung tâm và nhà thờ đá. Nếu các bạn nghỉ tại khách sạn vào cuối tuần sẽ có cơ hội đi chợ đêm. Sẽ không lạ nếu thấy các em bé người Mông bán các đồ lưu niệm của Sapa quanh khu vực quảng trường. Phòng ở khách sạn ấm cúng, nhân viên niềm nở nhiệt tình. Các trang thiết bi còn rất mới do khách sạn mới mở cửa được hơn một năm. Đồ ăn sáng tại nhà hàng đa dạng cho cả khách nước ngoài và khách Việt Nam. Với tôi dịch vụ KS OK. Tôi sẽ giới thiệu với bạn bè và đồng nghiệp nếu họ có kế hoạch viếng thăm Sapa và Fansipan.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Xuannguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá",
+            "review_content": "Mình với 1ng bạn có ở lại 3n2d tại khách sạn, nhân viên khách sạn ai cũng niềm nở hộ trợ bọn mình rất nhiệt tình. Phòng rất đẹp và đầy đủ ( mình ở phòng hạng superior) view ban công khá là đẹp. Buffet sáng siêu thịnh soạn còn ngon nữa😊 bọn mình đã có 1 kì nghỉ tuyệt vời tại đây 💚  Mọi mặt 10/10d k chê vào đâu được 😊",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "@thuphuong212",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "An amzing experence ...",
+            "review_content": "Mình đã có trải nghiệm hay ho 2n1d ở sapa.Điều thú vị là lần đầu ở ksan này rất tốt.phòng ở sạch sẽ,nvien hướng dẫn nhiệt tình,thân thiện,chỉ dẫn đi chơi r địa điểm ăn uống ở đây nữa.mình lên vào lần sapa đang mất nước, anh/chị cũng dặn là dùng tiết kiệm nước nữa. Gọi xe đi chơi giúp nữa. bữa sáng đầy đủ đồ ăn,phở, bánh,trà, nước uống,...ksan cũng có view chụp ảnh đẹp. Ncl rất hài lòng , nếu có dịp quay lại chắc vẫn sẽ ở đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tamluu2015",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời !",
+            "review_content": "Phải nói là khi bước tới ks đã có sự nhiệt tình tiếp đón của lễ tân và sales. Khách sạn cho check in sớm hoặc check out muộn khi có phòng trống. Phòng sạch sẽ hiện đại. View đẹp ra đồi núi. 1 sự lựa chọn đúng đắn khi tới sapa. Cảm ơn khách sạn đã hỗ trợ cho tụi mình 1 kỳ nghỉ tuyệt vời.",
+            "reviewer_location": "Vinh, Việt Nam"
+        },
+        {
+            "name": "Nguyễn Phương Dung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi vui vẻ và ấn tượng",
+            "review_content": "- Khách sạn đẹp và sạch sẽ, nội thất mới, khách sạn gần trung tâm thị trấn Sapa. - Ấn tượng với anh quản lý thân thiện nhiệt tình giúp đỡ và chỉ dẫn các địa điểm tham quan trong thị trấn. - các bạn nhân viên thân thiện, lịch sự.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tiep",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Những ngày cuối tuần đầu tháng tư thật tuyệt vời tại Sapa Relax Hole & Spa",
+            "review_content": "Sự nhiệt tình, chu đáo của tất cả các bạn thật khiến tôi rất hài lòng. Hy vọng sẽ được quay trở lại đây vào một ngày gần nhất có thể, để được tận hưởng những ngày nghỉ thật ý nghĩa. Cảm ơn tất cả các bạn!❤️❤️❤️",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "jen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Perfect ",
+            "review_content": "Khách sạn gần trung tâm, đi lại thuận tiện. Ra ga cáp treo và núi hàm rồng rất gần. Phòng thoáng, rộng, nhân viên nhiệt tình, chu đáo. Bữa sáng phong phú, ngon miệng. Có dịp lên lại sapa nhất định sẽ quay lại ",
+            "reviewer_location": "Thành phố Hải Phòng, Việt Nam"
+        },
+        {
+            "name": "Kara Tran",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thăm quan Sapa",
+            "review_content": "Sau nhiều ngày bàn bạc và chọn lựa, tôi đã chọn đặt phòng cùng bạn bè tại khách sạn Relax ở 19A phố Đồng Lợi. Khách sạn quy mô vừa tuy nhiên dịch vụ ở đây rất tốt. Lễ tân vui vẻ, niềm nở, phòng ốc sạch sẽ ấm cúng. Vì đặt trước nên chúng tôi đã đặt được phòng rất đẹp có view núi nhìn ra thung lucng Mường Hoa. Ăn sáng ở nhà hàng đa dạng phong phú cho cả người Việt và người nước ngoài. Nhân viên nhà hàng lễ phép ngoan ngoãn đặc biệt có rất nhiều nhân viên là người dân tộc Mông. Với giá phòng phải chăng, nếu lần tới du lịch Sapa tốiex lại đặt phòng ở khách sạn này.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Bình V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Gần trung tâm, khách sạn sạch sẽ thuận tiện",
+            "review_content": "Khách sạn sạch sẽ nằm ngay trung tâm gần quảng trường nên thuận tiện đi lại cho tôi trong chuyến công tác. Phòng đầy đủ tiện nghi và có ban công view ra thung lũng nên rất thoáng và đẹp. Ngoài ra còn có khu Spa với giá hợp lý. Nhất định trong chuyến công tác tới tôi sẽ quay lại",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tuan N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Công tác",
+            "review_content": "Khách sạn Sapa Relax là nơi tôi đã từng lưu trú khi công tác tại Sapa. Đội ngũ lễ tân các bạn rất niềm nở là bạn Thuỷ, bạn Trang và bạn Oanh. Đội ngũ chăm sóc khách hàng cũng rất tốt đặc biệt là bạn Huy. Nhà hàng đồ ăn sáng phong phú cho cả khách Âu và khách Á. Buồng phòng sạch sẽ, ngăn nắp, tôi được gặp rất nhiều bạn nhân viên dân tộc Mông làm việc ở đây. Tôi thích xông hơi và tắm lá Dao đỏ ở khu vực Spa của khách sạn. Vị trí lại ở trung tâm nên Sapa Relax luôn là sự lựa chọn hàng đầu của tôi. Cảm ơn khách sạn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Paradise51314946810",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn mới, gần trung tâm, thuận tiện cho việc đi lại",
+            "review_content": "Khách sạn sạch sẽ, dịch vụ tốt, nhưng giá cả rất hợp lý !!! Đây là nơi lý tưởng cho các cặp đôi, gia định, bạn bè, thậm chí cho doanh nghiệp với những đợt du lịch tập thể. Sapa Relax Hotel hay tiếp tục phát huy !!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Roving826884",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "khách sạn mới đẹp gần trung tâm",
+            "review_content": "khách sạn cách trung tâm rất gần , câc điểm du lịch như hàm rồng , cát cát chỉ mất ít phút đi bộ mới vào hoạt động nên rất mới và đẹp chúng tôi rất hài lòng chắc chắn đây sẽ là nơi chúng tôi quay lại vào thời gian tới",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Bình Lê",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khá tốt",
+            "review_content": "Mình đã ghé qua đây, ở đây quả là một nơi lý tưởng dành cho các cặp đôi đang yêu nhau. Có một không gian thật ấm cúng. Nhà hàng tại khách sạn, hơi đắc, nhưng nấu ăn cũng ngon lắm và lại nhiều. Còn về dịch vụ phòng, vì lượng khách đông, nên khách sạn dọn phòng thiếu, nên luca nhận phòng tôi phải đợi chờ.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Michael Nam",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cực kỳ hài lòng",
+            "review_content": "Cám ơn khách sạn Sapa Relax Hotel đã đem lại cho vợ chồng mình một kỳ nghỉ tuyệt vời! Khách sạn đẹp, yên tĩnh mà giá cả hợp lý phòng ốc sạch sẽ, đầy đủ tiện nghi, view núi cực thú vị, nằm ngay trung tâm, gần Sun Plaza nên thuận lợi di chuyển bất kỳ đâu (vợ chồng mình đi Fansipan, Hàm Rồng, Cát Cát, Ô Quý Hồ, Lao Chải - Tả Phìn). Nhân viên + Quản lý niềm nở, nhiệt tình, chăm sóc khách hàng vô cùng chu đáo, hỗ trợ mua vé cáp treo tại chỗ, thuê xe máy, đặt vé xe khách cũng như tư vấn lộ trình tất tần tật. Thêm nữa là bufet sáng cực ngon + nhiều món (mình còn được khách sạn tặng 01 bữa ăn tối rất lãng mạn). Dưới tầng hầm còn có Spa, đi chơi mệt về thư giãn là chuẩn. Chắc chắn mình sẽ quay lại trong một ngày gần nhất...",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Traveler831458",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Great hotel .",
+            "review_content": "Good Service , Good Price , Nice Room , Very Friendly . You must try 😍   Quản lý khách sạn rất tốt khi tạo điều kiện cho chúng tôi được dời lịch book phòng vì vài lí do cá nhân . Khách sạn rất đẹp . Nếu có cơ hội quay lại sapa sẽ trở lại với Relax Hotel . Hẹn gặp lại .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "nguyenhuong610hn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "TUYỆT VỜI",
+            "review_content": "Lần đầu tiên đặt chân đến Sapa. Và mình đã chọn combo khách sạn Sapa Relax and Spa. Khách sạn nằm ngày trung tâm huyện, vị trí thuận lợi để đi đến các điểm du lịch tại đây. Dịch vụ ở khách sạn rất tuyệt, chăm sóc chu đáo, sạch sẽ, phòng đẹp, trang thiết bị đầy đủ.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Traveler825314",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Relax hotel ",
+            "review_content": "1 phòng đẹp, sạch sẽ   2 dịch vụ tốt  3 vị trí đắc địa 4 giá cả hợp lý  5 đồ ăn sáng ngon nhiều  món hấp dẫn 6 sapa rất tốt tôi rất hài lòng về dịch vụ của khách sạn. Thank you for take care off us and give us very nice gift we will come back and staying there again and again. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "trinhquanglinh190420",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời !!!!",
+            "review_content": "Mình vừa trải qua kỳ nghỉ 2 ngày 1 đêm tại Khách sạn Relax Hotel ở Đà Nẵng. Thực sự mình rất ấn tượng và cực kỳ happy vì đã gặp được những con người Sapa thân thiện và khách sạn Relax Hotel hoàn toàn hoàn hảo theo ý muốn của mình. Từ Lễ Tân tới Quản lý, tất cả đều quá chuyên nghiệp, phòng ốc cực kỳ sạch sẽ và làm mình cùng bạn bè rất hài lòng. Nếu có quay lại, nhất định sẽ chọn Relax Hotel làm nơi nghĩ dưỡng. Thân chào!",
+            "reviewer_location": "Tỉnh Quảng Ninh, Việt Nam"
+        },
+        {
+            "name": "Vacationer819845",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Gửi chút review cho Sapa Relax Hotel and Spa",
+            "review_content": "Lần đầu tới với Sapa hơi bị choáng ngợt vs cách tiếp khách tận tình từ cửa đã có người sách dùm hành lý. Đến bạn lễ tân rất dễ thương. Phòng khá mới và sạch sẽ. Đặt trễ nên ko còn phòng view hướng ra núi. Hẹn gặp lại một lần khác. Cảm ơn Relax Hotel rất nhiều ^^",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Global819366",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một khách sạn tuyệt vời",
+            "review_content": "Không thể nói gì hơn , gia đình chúng tôi đã có một kỳ nghỉ tuyệt vời tại một khách sạn tuyệt đẹp và mới. Từ nhân viên tới quản lý đều vô cùng thân thiện. Đặc biệt anh quản lý mà tôi không nhớ tên ...chắc chắn lần tới đây sẽ là nơi tôi quay lại . Và mong răng đây cũng sẽ la lựa chọn của mọi người",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "duy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tuyệt vời",
+            "review_content": "Khách sạn đẹp, sang trọng, phòng rộng, có ban công nhìn ra núi, giá cả hợp lý. Gần với các điểm du lịch. Nhân viên thân thiện, tận tình và chu đáo với khách hàng. Có thời gian nhất định sẽ quay trở lại khách sạn",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Peter S",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn vị trí trung tâm gần Nhà Thờ Đá, Chợ đêm, phòng đẹp, ăn ngon miệng!",
+            "review_content": "Ở hai đêm tại Sapa Relax thấy ngạc nhiên với giá tốt mà phòng đẹp như khách sạn 4 Sao, vị trí rất tiện vừa được cả gần Nhà Thờ Đá, Chợ Đêm vừa có cả view thung lũng Mường Hoa như tranh 3D. Ăn uống cũng rất rẻ, hợp lý, sẽ quay lại nơi đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Dieu N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất thích",
+            "review_content": "Khách sạn mới, sạch sẽ, đầy đủ tiện nghi.Quản lý và nhân viên đều siêu nhiệt tình và đáng yêu.Tư vấn, hướng dẫn tỉ mỉ.Chúc khách sạn luôn làm ăn phát đạt.Nếu có dịp quay lại Sapa mình sẽ lại ủng hộ khách sạn😁",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hai T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "ghé thăm khách sạn Sapa Relax Hotel & Spa",
+            "review_content": "Ghé thăm khách sạn chuyến đi 3 ngày 2 đêm gói combo Khách sạn có nhiều dịch vụ tốt, nhân viên khách sạn chu đáo, nhiệt tình, đồ ăn sáng khá đa dạng.. Nếu có dịp chắc chắn sẽ quay lại khách sạn một lần nữa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lưu Chí Đ",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good Hotel",
+            "review_content": "Khách sạn mới, sạch sẽ, hiện đại, có phòng view núi thung lũng rất đẹp :) nhà hàng ngon, anh quản lý khá thân thiện và chiều khách. Mình đi 3 ngày 2 đêm mà cảm thấy như ở nhà :)  Nói chung mọi thứ đều ok :)",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "hoangphuoc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ thú vị",
+            "review_content": "Tôi và bạn gái có đặt phòng tại khách sạn sapa relax hotel & spa qua trang Agoda khi đến khách sạn chúng tôi được đội ngũ nhân viên khách sạn tiếp đón rất chu đáo từ khâu nhận phòng đến những hướng rất chi tiết cho các dịch vụ, khi lên phòng chúng tôi không khỏi ngạc nhiên về sự sạch sẽ ấm cúng và cách bài trí trong phòng, view hướng thung lũng Mường hoa rất đẹp, về đồ ăn của nhà hàng tại khách sạn thì cũng rất tuyêt có buffet miễn phí cho bữa sáng còn bữa trưa và bữa tối món ăn rất đa dạng, thái độ nhân viên thật dễ thương. Nhất định tôi quay lại với khách sạn này mỗi khi đến với sapa. ",
+            "reviewer_location": "Phú Thọ, Việt Nam"
+        },
+        {
+            "name": "Phuong D",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Wonderful hotel",
+            "review_content": "Một chuyến du lịch tuyệt vời cùng cảnh đẹp và con người nơi đây làm tôi thực sự quý mến. Đặc biệt khách sạn nơi tôi và gia đình ở rất tuyệt. Quản lý và nhân viên lễ tân rất nhiệt tình để tư vấn cho gia đình tôi chỗ đi chơi. Đặc biệt view rất đẹp. Tôi có một vài bức ảnh đẹp về khách sạn. Nhất định tôi sẽ quay lại khách sạn tuyệt vời này",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn S",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sapa những ngày mưa",
+            "review_content": "Gia đình tôi dành 3 ngày để lên sapa du lịch... có lẽ là không may vì thời tiết chưa được thuận lợi, trời mưa nhiều nhưng bù lại đó chúng tôi được có cảm giác thật ấm áp và tuyệt vời với khách sạn sapa relax. Vì trời mưa nên phần lớn thời gian chúng tôi không được đi chơi thay vào đó là những lần trò chuyện và ăn uống trong nhà hàng của khách sạn. Anh Hiệu và toàn bộ nhân viên đều tiếp đãi chúng tôi như gia đình . Dù thời tiết không tốt nhưng bù lại chúng tôi đã chọn được một khách sạn tốt và thân thiện . Sapa relax sẽ là điều chúng tôi không thể quên",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Duy N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trăng mật",
+            "review_content": "Khách sạn mới xây còn rất mới và sạch sẽ. Nhân viên tư vấn nhiệt tình, thân thiện và có mấy anh quản lý vui vẻ, thân thiện. Phòng có view khá đẹp. Ăn sáng món ăn chưa phong phú nhưng ngon và hợp khẩu vị.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Pham L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ đáng để nhớ của hai vợ chồng",
+            "review_content": "Kỷ niệm 10 năm ngày cưới của chúng tôi cũng gần với kỳ nghỉ lễ của cả nước nên cứ ngỡ là sẽ rất khó khăn trong việc chọn nơi đi chơi hay là khách sạn vì vợ tôi không thích đi những nơi đông đúc.  Qua một người bạn có tư vấn nên đi sapa vì thời tiết rất đẹp và bạn ấy có quen biết một người bạn vừa khai trương một khách sạn trên sapa.  Vợ chồng tôi đã quyết định và gọi cho người bạn mà được bạn tôi giới thiệu đó là A. Hiệu.  Qua trao đổi trên điện thoại chúng tôi thấy được sự nhiệt tình và chu đáo. Và thật bất ngờ khi hai vợ chồng tôi đặt chân tới khách sạn,  rất mới và sang trọng . sự tiếp đón nhiệt tình và nồng hậu như những gì tôi cảm nhận khi gọi điện đặt phòng .  không biết nói gì hơn.  Hài lòng là câu chúng tôi muốn nói ra.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tran t",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn mới nhân viên thân thiện",
+            "review_content": "Kỳ nghỉ dịp lễ công ty mình có tổ chức cho cán bộ nhân viên đi thăm quan du lịch . Và sapa là nơi bon mình lựa chọn, thông qua vài người bạn vừa đi sapa dịp trước nên công ty mìn đã được tư vấn lựa chọn một khách sạn mới khai trương gần phố trung tâm . khi đoàn mình vừa tới thì thời tiết rất đặc biệt khác hẳn thời tiết tại thành phố. Mây mù và se lạnh ...thật tuyệt vời khi đoàn mình cũng khá đông nhưng được nhân viên khách sạn đón tiếp nhiệt tình , nhân viên hành lý rồi được các bạn lễ tân cùng quản lý khách sạn mời nước , dưới cái se lạnh ngồi thưởng thức vị trà nóng cá nhân tôi cũng như anh em trong công ty cảm thấy hài lòng . tôi đi du lịch cũng khá nhiều nhưng đến với sapa relax hotel & spa tôi cảm thấy mìn được chiều chuộng. Phòng ốc của khách sạn cũng tuyệt vời như nhân",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "vipphuong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "28/04 kỳ nghỉ lễ quốc khách tuyệt vời tại SapaRelaxHotel",
+            "review_content": "Gia đình chúng tôi lên Sapa lúc 5h30 sáng. Một đêm  dài trên chuyến xe buýt các con nhỏ của toi rất mệt mỏi. Một nhân viên lễ tân đã cho chúng tôi Nhận phòng sớm. Đó là điều tuyệt vời, các nhân viên vô cùng thân thiện và tốt bụng. Đây là khách sạn mới, phòng rất đẹp và view nhìn ra đỉnh fansipan. Chúng toi rất hài lòng khi ở đây. Chắc chắn sẽ giới thiệu SâpRelaxHotel cho bạn bè và người thân. Cảm ơn Mr Huy lễ tân tốt bụng.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Trang Phục B",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đáng nhớ",
+            "review_content": "Khách sạn gần trung tâm, trong lòng phố cổ rất thuận tiện đến các điểm vui chơi nhưng đặc biệt là ở trong phòng mình được ngắm trọn vẹn thung lũng Mường Hoa, tay chạm mây bay. Dịch vụ chuyên nghiệp, anh quản lý tuyệt với với đội ngũ nhân viên nhiệt tình. Gia đình mình đã có một kỳ nghỉ tuyệt vời. Cảm ơn Sapa Relax Hotel & Spa hẹn gặp lại!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyen T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "STAFF tuyệt vời",
+            "review_content": "Mình được biết đến khách  sạn saparelaxhotel qua tripadvior. Thấy có nhiều đánh giá tốt. Nên mình có đặt 2 đêm tại khách  sạn. Bước đến cửa khách sạn các nhân viên tiếp  đón rất tận tình chu đáo. Dịch vụ tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanh N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sapa thân thiện",
+            "review_content": "Tôi cùng gia đình đã có một chuyến đi hoàn hảo tại sapa. Tôi đặt phòng family của khách sạn sapa relax qua facebook. Khách sạn rất mới, sạch sẽ, đối diện chợ sapa.thời tiết sapa rất đẹp, từ khách sạn tôi có thể nhìn thấy biển mây lưng chừng núi. Tôi có đặt 2 bữa ăn tại khách sạn, đồ ăn tươi ngon, nhân viên phục vụ thân thiện. Tôi có thông báo check out muộn 1 tiếng vì chuyến xe muộn nhưng nhân viên lễ tân k tính phí. Tôi rất hài lòng vì điều đó.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Đông Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ thú vị tại SaPa",
+            "review_content": "Trong chuyến đi SaPa từ 20/4 đến 24/4 vừa rồi gia đình tôi đã ở khách sạn Sapa Relax Hotel & Spa. Đây là một khách sạn còn rất mới, phòng sạch sẽ, trang trí đẹp, có view tuyệt đẹp về hướng núi Fanxipan. Buổi sáng, khi nhìn về phía núi Fanxipan các bạn sẽ thấy sương mù và từng đám mây bồng bềnh uốn lượn phía trên bản Cat Cat. Khách sạn gần trung tâm thị trấn SaPa, cách nhà thờ đá khoảng 300m, gần khu phố ẩm thực, nơi có rất nhiều đồ nướng đặc sản địa phương. Thức ăn khách sạn phục vụ cho bữa sáng đa dạng và rất ngon. Các bạn nhân viên nhiệt tình và dễ mến. Đặc  biệt, ông chủ khách sản trẻ trung, đẹp trai và cực kỳ chu đáo với khách.",
+            "reviewer_location": "Uong Bi, Việt Nam"
+        },
+        {
+            "name": "Tran P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Excilent for service",
+            "review_content": "Tôi có tìm hiểu và book phòng khách sạn qua trang fanpage của khách sạn. Mr tuấn anh là người contact trực tiếp với tôi. A ấy rất nhiệt tình và tư vấn cho tôi mọi điểm du lịch tại sapa . Thời tiết ở sapa rất dễ chịu. Con người khá thân thiện và đặc biệt dịch vụ và phòng tại khách sạn làm tôi rất ưng ý. Nhân viên rất nhiệt tình và chuyên nghiệp. Đồ ăn sáng khá ngon và phù hợp. Chắc chắn tôi sẽ giới thiệu khách sạn với bạn bè và người thân.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thắng P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Woonderfull hotel",
+            "review_content": "Một kỳ nghỉ cuối tuần rất thú vị. Chúng tôi đến sapa cũng rất nhiều lần . Nhưng đây có lẽ là lần đầu tiên cảm nhận được thời tiết tuyệt vời ở sâp và cũng chắc chắn phải kể tới sapa relax hotel . Khách sạn mới nằm tại trung tâm cách nhờ thờ vài phút đi bộ trên phố trung tâm cầu mây. Thật bất ngờ với thái độ của quản lý và nhân viên đối với khách hàng. Tronng đầu tôi cứ nghĩ với khách sạn hạng sang như thế này họ sẽ có sự phân biệt giữa khách nước ngoài và khách việt nam , nhưng chúng tôi đã được sapa relax hotel đón tiếp rất nhiệt tình và thân thiện. Phòng mới trang thiết bị hiện đại, có ban công nhìn ra thung lũng núi non... thật sự rất hài lòng . Chắc chắn sẽ là nơi tôi chọn cho nhưng lần lên sapa kế tiếp",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kien P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn ấn tượng tuyệt vời",
+            "review_content": "Rất may mắn cho gia đình tôi khi có một dịp thăm quan tại sapa và được lưu trú tại sapa relax hotel. Thông qua một người bạn thân vừa lewn sapa tư vấn tôi đã quyết định lưu trú tại khách sạn  Thật bất ngờ vì khách sạn vừa vào khai trương được hơn một tháng , nhân viên vô cùng thân thiện và nhiệt tình, nhà hàng rộng rãi và có hướng nhìn về phía núi và thung lũng . Gia đình tôi được ưu tiên phòng có hướng đó, ra ban công tôi có thể thoả mãn tầm nhìn tuyệt đẹp. Một kỳ nghỉ thật đáng nhớ và đây sẽ là nơi tôi sẽ quay lại cùng với bạn bè tôi trong dịp hè sắp tới. Hẹn gặp lại sapa relax hotel hẹn gặp lại sapa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyenhoang1967",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất mới Nhân viên vô cùng thân thiện",
+            "review_content": "Gia đình chúng tôi đã có một kỳ nghỉ tuyệt vời trên sapa vào những ngày tháng 4 nắng nóng.  Khác hẳn với thời tiết ở hà nội. Sapa là nơi có khí hậu thật tuyệt vời. Nơi chung tôi dừng chân và lưu trữ tại khách sạn sapa relax hotel. Khách sạn rất mới và Nhân viên thật thân thiện. Từ quan ly đến Nhân viên đều chu đáo từ việc chào đón tới việc hướng dẫn các điểm tham quan du lịch. Phòng khách sạn đều mới sạch sẽ hiện đại. Có ban công và nhìn  về hướng nui. Gia đình tôi rất thoả mãn với thời gian ở tại khách sạn. Chắc chắn đây sẽ là nơi tôi giới thiệu cho người thân và bạn bè khi Lên sapa. Cảm ơn sapa  relax hotel và chúc khách sạn ngày một phát triển hơn nữa...",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "duy p",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tại Sapa",
+            "review_content": "Tôi cùng gia đình đã có 1 kỳ nghỉ đáng nhớ tại Sapa từ ngày 14-16/4/2018. Trước khi đi tôi đã rất đắn đo khi chọn khách sạn, tuy nhiên tôi đã rất hài lòng khi chọn khách sạn Sapa Relax Hotel & Spa. Khách sạn mới, phòng đẹp, nhân viên phục vụ niềm nở, khách sạn cách quảng trường trung tâm khoảng 100 m nên rất yên tĩnh khi nghỉ ngơi. thời gian tới lên Sapa tôi sẽ sắp xếp gia đình tiếp tục ở lại ks Sapa Relax hotel & Spa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vũ Đức T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Anh nhân viên bếp khá đáng yêu",
+            "review_content": "Tôi  mới có chuyến nghỉ dưỡng ở khách sạn vào dịp cuối tuần vừa rồi. Khách sạn mới vị trí ngay trung tâm thuận tiện đi lại, nhân viên lễ phép niềm nở, đồ ăn ổn chỉ có 1 vấn đề là mạng hơi chậm. Tôi khá hài lòng với chất lượng và dịch vụ ở đây",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Lam V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một khách sạn tuyệt vời",
+            "review_content": "Tôi cùng gia đình có một kỳ nghỉ tại sapa vào ngày 12/04/2018.  Được Mr. Hiệu chia sẻ và tới khách sạn sapa relax hotel. Thật tuyệt vời khi được nghỉ tại đây .  nhân viên thân thiện khách sạn mới .  mọi thứ đều tuyet vời **** chắc chắn đây sẽ là nơi tôi sẽ quay lại vào kỳ nghỉ tới .  cảm ơn sapa relax cảm ơn Mr. Hiệu",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Pham Quoc H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời cả chất lượng và dịch vụ",
+            "review_content": "Gia đình mình có chuyến đi nghỉ ở Sapa vào dịp cuối tuần vừa rồi 07-08/04/2018, đã nghỉ tại khách sạn Sapa Relax Hotel & Spa tiêu chuẩn (4*),   Khách sạn mới xây, tọa lạc tại vị trí gần trung tâm rất tiện đi lại thăm quan thị trấn Sapa, phòng đẹp sạch sẽ và tiện nghi, dịch vụ từ tiếp đón check in, tư vấn các điểm vui chơi ở sapa rất nhiệt tình, đồ ăn sáng ngon  Nếu có dịp quay lại Sapa gia đình mình sẽ tiếp tục chọn khách sạn Sapa Relax Hotel là nơi nghỉ ngơi.   Gia đình mình rất hài lòng về nơi đây. Chúc Sapa Relax Hotel ngày càng đông khách và thành công  Cám ơn các bạn và hẹn gặp lại!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trung n",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ thú vị",
+            "review_content": "Tôi rất hài lòng về dịch vụ của khách sạn này.Chất lượng đồ ăn rất ngon và giá cả rất bình dân.Wifi mạnh,nhân viên phục vụ rất nhiệt tình và thân thiện,lễ phép.Phòng ốc đẹp,sạch sẽ,đầy đủ tiện nghi . Vị trí khách sạn ngay gần trung tâm, tiện đi lại , tiện đi chơi. Xung quanh khu vực khách sạn đầy đủ mọi thứ từ đồ ăn đến các hình thức giải trí.Muốn đi chơi bằng xe máy thì khách sạn sẽ cho thuê xe voi giá là 150 nghìn/ngày.Nói chung tôi rất hài lòng và sẽ quay lại khách sạn này nếu đi du lịch Sapa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tôi sẽ quay trở lại",
+            "review_content": "Tôi được bạn bè giới thiệu khách sạn Sapa Relax Hotel là khách sạn mới nên rất sạch sẽ, được chăm sóc tận tình. Quả thật khi đến và được trải nghiệm thấy rất hài lòng. Taxi dừng là có anh lễ tân ra nhận đồ và mang lên tận phòng cho.  Nhận phòng xong thấy rất hài lòng, cũng không nghĩ được phòng view đẹp thế, nhìn thấy cả mây và núi vờn nhau :)). Phòng sạch sẽ, tiện nghi đầy đủ. Đặc biệt giường nằm rất êm ái  Khách sạn có cả buffet ăn sáng. Con gái mình thuộc thành phần kén ăn mà còn khen ngon hihi Bạn ý đặc biệt rất thích chơi ở sảnh vì có máy đánh giầy, bạn ý chỉ mong ai đưa giầy cho mình để bạn ý phục vụ Khách sạn rất gần trung tâm, đi bộ ra nhà thờ đá, chợ tình, chợ cây cảnh chỉ vài phút. Mà nó gần ngay chợ cũ đó  Lần sau, nếu đến sapa tôi sẽ tiếp tục ở đây. Và sẽ nhờ bạn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trần Y",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lưu trú và ăn uống",
+            "review_content": "Khách sạn mới phòng ốc sạch đẹp và rất thoáng. Mọi dịch vụ từ ăn uống đến ngủ nghỉ đi lại rất ok. Nhân viên phục vụ nhiệt tình chu đáo. Nếu có dịp lên sapa nhất định sẽ lại ở đây và giới thiệu bạn bè đến đây",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "ho_ngy568",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đáng yêu ❤️",
+            "review_content": "Mình tìm thấy khách sạn xinh đẹp này trong kì nghỉ cuối tuần với bạn trai 😘 khách sạn mới khai trương được 2 tháng thôi , tất cả những chi tiết nhỏ xinh trong khách sạn khiến mình cảm thấy rất ưng ý ! Ban công ngập nắng và vị trí trung tâm, có thể đi dạo tới nhà thờ đá mất tầm 2 phút đi bộ!  Buổi sáng có phục vụ buffet sáng cho những ngừoi thích ngủ nướng như bọn mình 😜 Các anh chị ở staff rất thân thiện và luôn sẵn sàng giúp đỡ mọi nhu cầu của khách 💙 Highly recommend 😘",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "kien b",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi tuyệt vời",
+            "review_content": "Tôi book phòng qua trang facebook của khách sạn. Mr tuấn anh là người contact trực tiếp với tôi. A ấy nhận đặt giúp tôi xe limousine từ hà nội - Sapa Di chuyển bằng xe limousine mất khoảng 5 tiếng là đến khách sạn.Khách sạn thật sự đẹp. Nhân viên rất nhiệt tình cởi mở. Chúng tôi được hướng dẫn đi một số điểm du lịch rất đẹp. Đây chắc chắn là khách sạn mà tôi sẽ quay lại trong lần kế tiếp đến sapa .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tuananhneo",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ ở sapa",
+            "review_content": "Khách sạn nhìn về bên ngoài ko thể đánh giá đc dịch vụ bên trong, phòng ốc rộng dãi, sạch sẽ và hiện đại, không gian ok, có phòng nhìn hướng núi, thái độ phục vụ thân thiện và rất dễ gần, sẽ quay lại nơi đây thêm nhiều lần nữa",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "227mayb",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "kỳ nghỉ thú vị",
+            "review_content": "chỉ biết gửi lời cảm ơn tới khách sạn sapa relax hotel & spa . kỳ nghỉ của chúng toii được trọn vẹn. khách sạn mới , sang trọng , nhân viên thân thiện . anh Hiệu ( quản lý) đã rất nhiệt tình chỉ dẫn chúng tôi từ ăn uống , đi chơi ... cảm ơn . tôi rất mong vào dịp gần nhất sẽ lại được lên sapa. và chắc chắn tôi sẽ chọn sapa relax hotel & spa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phuongg88",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lưu trú",
+            "review_content": "Qua bạn bè trên facebook , tôi được giới thiệu đặt phòng tại khách sạn Sapa Relax Hotel & Spa. Khách sạn nằm gần trung tâm, chúng tôi có cơ hội ra phố chợ đêm Cầu Mây và nhà thờ Đá. Phòng ở sạch sẽ, đẹp và hiện đại. Ban công có view đẹp nhìn ra núi Fansipan và thung lũng . Ăn sáng buffet tự chọn đa dạng. Nhân viên lễ phép, lịch sự và chuyên nghiệp. Chúng tôi đánh giá cao về khách sạn này về dịch vụ và sự chuyên nghiệp. Sẽ là sự lựa chọn hàng đầu khi lưu trú tại Sapa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyen Hoang P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thăm quan",
+            "review_content": "Chúng tôi gồm đoàn 21 người từ Nghệ An lên thăm Sapa. Lần đầu tiên lưu trú tại Sapa Relax Hotel & Spa. Nhận xét về khách sạn là tốt, khách sạn mới, phòng ốc  đẹp.  Nhà hàng đồ ăn ngon, đặc biệt là món gỏi cá hồi,  cá tầm nướng và lẩu cá tầm.  Đồ ăn rất tươi ngon và vừa miệng. Nhân viên thân thiện,  chuyên nghiệp và lịch sự.  Chúng tôi hài lòng dịch vụ ở đây. Sẽ giới thiệu cho bạn bè và công ty lưu trú những lần tới Sapa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Cường Mạnh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ khách sạn rất tốt !",
+            "review_content": "Tôi thường xuyên lên Sapa có công việc, tôi và gia đình thường nghỉ tại khách sạn này, phòng rất đẹp, dịch vụ tốt, nhân viên rất nhiệt tình.  Đồ ăn sáng ngon, đa dạng !  Hi vọng khách sạn luôn giữ được chất lượng dịch vụ như hiện nay ! Tôi sẽ ghé thăm nhiều !",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Thu Trang N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời tại ks sapa relax",
+            "review_content": "Mình có nhờ một người bạn đặt khách sạn saparelax hotel. Khách sạn rất mới giá cả hợp lý. Chỉ mất 2p để đi bộ lên phố cầu mây. Phòng setup rất hợp lý với view ngắm ra thung lung mường hoa. Bữa sáng rất ngon với món địa phương ở sapa. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hồng A",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "🙏 5 Stars for everything.",
+            "review_content": "Best day ever at Sapa Relax hotel ❤️ Cách đây 1 tháng e có lên sapa và ở chapa valley nhưng k được ok cho lắm, lần này đặt bên sapa relax, là khách sạn mới mở nhưng a sell bên relax có tư vấn, gửi ảnh cho e và e thấy khá đc và muốn thử dịch vụ bên mình. Là một hotel mới mở e thấy dịch vụ bên mình rất ưng ý, từ đón khách chào khách đến thái độ phục vụ của các e nhân viên. Buffe sáng có đồ ăn vừa miệng, bữa tối lẩu thập cẩm rất nhiều và ngon. Phòng ks rất đẹp, sạch sẽ, đáng tiền. Chờ đợi relax sapa hoàn thành nốt sky bar & phòng matxa vì bọn e sẽ quay trở lại ☺️🙏🙏🙏",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lịch N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Gặp đối tác khách hàng",
+            "review_content": "Chúng tôi lên Sapa được đối tác đặt phòng tại khách sạn này. Với tôi là OK, phòng ở mới và sạch, trang thiết bị nội thất đẹp. Vị trí cạnh phố chợ đêm Cầu Mây và nhà thờ Đá. Tiện lợi khi họp hành và ăn trưa cùng đối tác. Trưa nay chúng tôi sẽ tham dự sinh nhật của một đối tác khách hàng và sẽ được thưởng thức món Thắng Cố trứ danh của Sapa và sẽ di chuyển về Hà Nội vào buổi chiều. Sẽ trở lại đây vào các dịp tổng kết của công ty.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Ngọc H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi lễ",
+            "review_content": "Chúng tôi đầu năm đi lễ ông Hoàng Bảy và ghé qua Sapa. Được giới thiệu, chúng tôi đăng ký phòng tại Sapa Relax Hotel & Spa. Khách sạn mới, phòng ốc và trang thiết bị trong phòng hiện đại. Phòng chúng tôi có ban công nhìn ra dãy núi Fansipan và thung lũng Mường Hoa có nhiều ruộng bậc thang. Cảnh vật là một bức tranh sinh động. Nhà hàng ăn sáng đa dạng, nhân viên là các bạn người dân tộc dễ thương và hiền lành. Khách sạn nằm khu trung tâm thuận tiện di chuyển. Những lần ghé tới tôi vẫn chọn khách sạn này.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "LeD3",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi du lịch",
+            "review_content": "Khách sạn dịch vụ tốt, mới khai trương, trang thiết bị hiện đại. Phòng ở sạch sẽ, nhân viên khách sạn niềm nở, chuyên nghiệp. Vị trí khách sạn trung tâm, cạnh phố Cầu Mây. Là địa điểm lý tưởng khi lưu trú tại Sapa. Là sự lựa chọn của tôi và gia đình cho những lần tới ghé Sapa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Viet C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi công tác",
+            "review_content": "Lần đầu tiên du lịch đến Sapa, tôi cảm thấy con người Sapa rất thân thiện. Phong cảnh rất đẹp, không khí trong lành. Tôi vô tình tìm kiếm được khách sạn này trên mạng. Khách sạn rất mới, không gian ở đây tạo cho tôi sự thoải mái. Nhân viên phục vụ chu đáo và tận tình. Các thiết bị trong phòng hiện đại và mới.Khách sạn toạ lạc ngay trung tâm nên chúng tôi di chuyển rất thuận tiện. Tôi đánh giá cao về chất lượng phục vụ và sự sạch sẽ ở khách sạn này. Đúng như sự lựa chọn của tôi. Nếu có lần sau quay lại Sapa thì tôi vẫn lựa chọn lưu trú tại Sapa Relax Hotel & Spa. Tôi nghĩ đây là sự lựa chọn tốt nhất của tôi. Các bạn nên thử một lần để cảm nhận và trải ngiệm những gì tôi nói.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Linnh P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Vừa rồi mình đã đến sapa cùng với các bạn của mình và đã nghỉ tại ksan Sapa Relax Hotel 2 đêm và rất hài lòng với dịch vụ ở đây. Khách sạn mới đẹp, nằm ngay trung tâm thi trấn, rất tiện khi tối đến đi bộ vãn cảnh quanh t.tran.  Phòng đẹp, đồ ăn ngon, giá cả hợp lý đặc biệt nhân viên rất thân thiện và nhiệt tình. Nhất định sẽ trở lại Sapa vào ngày gần nhất và sẽ vẫn lựa chọn Relax Hotel 👍👍",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hung M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Công việc",
+            "review_content": "Lên Sapa để chốt ký kết hợp đồng, chúng tôi được công ty đặt phòng ở tại Sapa Relax Hotel & Spa. Ấn tượng của chúng tôi về khách sạn này là mới, phòng ốc đẹp, các phòng đều có ban công. Từ ban công chúng tôi có thể nhìn thấy mây trắng bay qua núi và thung lũng cùng ruộng bậc thang ở dưới chân. Nhà hàng ăn sáng đa dạng cho cả khách Á và Âu. Ăn trưa chúng tôi thích các món của Sapa như cá tầm, cá hồi và lợn bản. Bản Cát Cát, Fansipan và Ô Quý Hồ không quá xa. Tôi khuyên các bạn nên di chuyển bằng taxi. Với khách nước ngoài thì họ thích thuê xe máy tự đi. Nhân viên hiền lành, thâb thiện. Chúng tôi sẽ trở lại khách sạn cùng gia đình trong kỳ nghỉ hè này khi lũ trẻ được nghỉ học.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyen V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch",
+            "review_content": "Khách sạn mới hoạt động, dịch vụ tốt. Nhân viên niềm nở, lịch sự, chuyên nghiệp. Vợ chồng tôi được xếp phòng nhìn ra hướng núi Fansipan, chân núi là thung lũng  Mường Hoa. Cảnh vật buổi sáng thật đẹp. Nhà hàng Relax của khách sạn lúc nào cũng đông khách. Đồ ăn ngon, giá cả hợp lý. Nhân viên thân thiện và lịch sự. Chúng tôi sẽ quay lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lâm Trieu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thăm quan",
+            "review_content": "Chúng tôi là những doanh nghiệp đã viếng thăm Sapa một vài lần.  Lần này đến lưu trữ tại Sapa Relax Hotel thấy khách sạn mới đẹp,  nằm ngay trung tâm thi trấn,  phòng đẹp,  nhà hàng thiết kế ưa nhìn,  đồ ăn ngon,  giá cả hợp lý.  Chúng tôi sẽ quay lại vào các dịp cuối tuần những lần tới. Cảm ơn khách sạn.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Tien C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ấn tượng Sapa",
+            "review_content": "Qua một người bạn giới thiệu chúng tôi biết đến Sapa Relax Hotel & Spa. Trước tiên tôi muốn nói đến tổng thể khách sạn set up đồng bộ, phòng ốc sạch sẽ, nhân viên nhiệt tình thân thiện. Thiết kế phòng ngủ rất đẹp, hài hòa. Đồ ăn ở nhà hàng giá cả phải chăng, chúng tôi đã được thưởng thức món Thắng Cố rất ngon. Vị trí khách sạn ngay trung tâm, đi ra chợ đêm Cầu Mây và nhà thờ Đá khoảng 1 phút đi bộ. Hôm qua chúng tôi đã được đi tham quan đỉnh Fansipan, thời tiết và khung cảnh tuyệt đẹp. Chúng tôi sẽ đi thăm Đèo Ô Quý Hồ và sẽ quay lại ăn trưa tại khách sạn và sẽ di chuyển về Hải Phòng tối nay. Chúng tôi rất ưng ý về dịch vụ khách sạn và sẽ quay lại Sapa trong những dịp tới.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tour Guide T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ngành du lịch",
+            "review_content": "Xét về góc độ là tour guide thì đây là 1 sự lựa chọn đúng tầm trong tương lai. Đối với khách tiêu chuẩn 3☆.4☆ trở lên. nhưng dịch vụ là 5*. Phòng ốc mới, hiện đại, nhân viên hiền lành, thân thiện. Vị trí khách sạn ở trung tâm rất thân thiện. Đồ ăn sáng buffet nhà hàng đa dạng, ăn trưa giá cả phải chăng. Chúng tôi sẽ quay lại với khách sạn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Le Kim Anh L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nghỉ cuối tuần",
+            "review_content": "Chúng tôi xắp xếp được thời gian và quyết định đi chơi ở Sapa. Qua người nhà giới thiệu chúng tôi quyết định chọn khách sạn Sapa Relax Hotel & Spa ở 19A Đồng Lợi. Khách sạn này vừa khai trương được hơn 1 tháng, phòng ốc hoàn toàn mới được thiết kế theo dòng Boutuque. Chúng tôi được người quản lý khách sạn chọn cho những phòng ở rất đẹp có hướng phòng và ban công nhìn ra thung lũng Mường Hoa và đỉnh núi Fansipan. Vị trí khách sạn ngay trung tâm thị trấn cạnh chợ đêm phố Cầu Mây và nhà thờ Đá rất thuận tiện khi di chuyển. Bữa trưa ở nhà hàng hôm qua chúng tôi rất ưng ý. Các món rất đơn giản như thịt rang cháy cạnh, ngọn xu xào tỏi và canh chua nóng hổi đã hoàn toàn thuyết phục chúng tôi. Bữa sáng bufet sáng nay cũng rất đa dạng và phù hợp cho cả khách Âu và khách Á. Nhân viên",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "NguyenNgocLe",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nghỉ dưỡng và du lịch",
+            "review_content": "Khách sạn rất đẹp, sang trọng. Tôi thấy dịch vụ ở đây khá tốt, chưa kể đến nhân viên vô cùng thân thiện và nhiệt tình với tôi cũng như bạn bè của tôi. Đồ ăn thì đa dạng, phong phú và ngon. Ngoài ra view từ khách sạn ra núi và những nơi khác đều đẹp, khá gần trung tâm và nhà thờ đá, thuận tiện đi lại. Nếu có dịp quay lại Sapa, tôi sẽ quay lại đây và sẽ giới thiệu cho bạn bè biết đến khách sạn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Minh Khoa P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tốt!",
+            "review_content": "Khách sạn mới xây, đẹp, sạch sẽ, nhân viên thân thiện; vị trí khách sạn gần trung tâm và nhà thờ Đá, rất tiện đi bộ dạo phố đêm. Từ khách sạn cũng rất tiện để đi Fansipan, Thác Bạc và các bản Cát Cát... Sẽ quay lại lần sau!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Chandon M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "du lịch",
+            "review_content": "Khách sạn mới khai trương, phòng rất đẹp, ấm áp & sạch, phòng có ban công nhìn ra thung lũng, nhân viên khách sạn rất dễ thương, khách sạn năm ở vị trí thuận lợi gần trung tâm thị trấn,giá phòng và đồ ăn rất hợp lý. Lần sau đi sa pa mình sẽ quay lại ở khách sạn này. Cảm ơn Sapa Relax Hotel & Spa đã cho mình một trải nghiệm thú vị",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hải T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thăm quan",
+            "review_content": "Nhân dịp người thân của chúng tôi từ Mỹ về thăm gia đình, qua giới thiệu của bạn bè về khách sạn, chúng tôi đã đặt phòng tại Sapa Relax Hotel & Spa. Ấn tượng của chúng tôi khi đến khách sạn đó là đội ngũ nhân viên làm việc tại đây. Khác với Hà Nội và thành phố Hồ Chí Minh sôi động, các bạn nhân viên rất lễ phép và hiền lành và hầu hết các bạn là người dân tộc. Phòng ốc mới, sang trọng và lịch sự. Đồ ăn dưới nhà hàng Relax tối qua rất ngon. Chúng tôi đã được thưởng thức món cá tầm đặc trưng của Sapa với món nướng và lẩu. Giá cả phải chăng và hợp lý. Khách sạn ngay trung tâm rất thuận tiện cho việc viếng thăm các danh lam thắng cảnh như Fansipan và bản Cát Cát. Khách sạn có bãi để xe ô tô miễn phí rất thuận tiện khi du lịch cuối tuần. Chúng tôi sẽ trở lại với gia đình và bạn bè",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "trandailien",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sapa tuần trước !",
+            "review_content": "Một khách sạn hoàn toàn mới theo lối kiến trúc gothic không lẫn vào đâu được bởi những họa tiết gỗ trang trí màu nâu sẩm đặc trưng của núi rừng Tây Bắc.  View thì quá tuyệt ! nhìn xuống là thung lũng Mường hoa, nhìn lên là đỉnh Phăng Xi phăng sừng sững !  Tuyệt vời nhất là đội ngũ phục vụ ở đây, đa số là các em, các cháu dân tộc Mông. Không sắc sảo như các khách sạn 5 sao ở Hà Nội song bù lại là sự nhiệt thành chất phát mà không phải nơi nào cũng có.  Hẹn gặp lại Sapa Relax Hotel & Spa vào tháng 5 tới.  Thank you",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "933lyn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tuyệt",
+            "review_content": "Khách sạn mới khai trương, phòng ốc sang trọng và sạch sẽ. Nhân viên lễ phép, nhiệt tình và lịch sự. Khách sạn ở vị trí trung tâm, đi ra nhà thờ đá khoảng 1 phút đi bộ. Nếu bạn lên Sapa vào cuối tuần sẽ có cơ hội đi thăm khu chợ đêm tại phố Cầu Mây nằm cách khách sạn khoảng 50m. Bản Cát Cát, Ô Quý Hồ và Phansipan là nơi mà các bạn nên đi thăm viếng vì có rất nhiều cảnh đẹp.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Duong D",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nghỉ dưỡng",
+            "review_content": "Khách sạn vừa khai trương, thiết bị mới sạch sẽ, tầm nhìn thoáng đãng, view nhìn xuống thung lũng Violet. Nhân viên nhiệt tình thân thiện. Đồ ăn ngon. Giá cả rất hợp lý với tiêu chuẩn tương đương 4**** . Cảm ơn các bạn. Tôi sẽ quay lại khi có dịp trở lại Sa pa. (Good view and relax like the name of the hotel)",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hùng N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn",
+            "review_content": "Gia đình tôi đã có ngày nghỉ cuối tuần thật tuyệt vời. Khách sạn đẹp, tầm nhìn thoáng đẹp, nằm trên  giường có thể nhìn thấy mây bay ngang qua cửa sổ. Nhân viên thân thiện, nhiệt tình, đồ ăn ngon với các món ăn đa dạng. Giá cả phù hợp. Hẹn gặp lại một dịp gần nhất.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Flyer693216",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp, sang trọng",
+            "review_content": "Chúng tôi đã có kỳ nghỉ rất tuyệt vời tại đây khi mà khách sạn vừa mới khai trương. Mọi thứ đều mới và sạch sẽ. Nhân viên rất chu đáo và thân thiện, luôn sẵn sàng giúp đỡ và hướng dẫn, cung cấp thông tin cho chúng tôi về các điểm đến thú vị. Con người và cảnh sắc của Sapa thật tuyệt!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Cao C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp, nhân viên thân thiện",
+            "review_content": "Khách sạn mới khai trương, sạch đẹp, nội thất sang trọng, ấn tượng. Tôi được nhân viên bố trí phòng ở tầng 4, phòng có ban công hướng ra thung lũng. Buổi sáng ngắm mặt trời mọc cùng cảnh đồi núi, thung lũng, mây trên đỉnh núi thật tuyệt vời. Nhân viên khách sạn rất nhiệt tình và chu đáo. Tôi sẽ quay lại ở khách sạn này nếu có dịp quay lại Sapa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phuong N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất tốt",
+            "review_content": "Chúng mình đã ở đây 2 đêm và thấy khách sạn này rất tốt. Phòng sang trọng và sạch sẽ. Nhân viên thân thiện và nhiệt tình. Mình thấy rất phù hợp với giá tiền.  Khách sạn gần nhà thờ đá nên rất tiện.  Có dịp sẽ cùng gia đình lên Sapa lần nữa. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ta H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp, phòng sạch sẽ",
+            "review_content": "Nhà mình ở đây 2 đêm rất thích.  Khách sạn mới, phòng đẹp, rộng rãi lại có ban công rất thoáng. Nhân viên thân thiệt, nhiệt tình. Đặc biệt là Mr. Tuấn hỗ trợ và tư vấn rất nhiệt tình. Hy vọng sẽ có cơ hội quay lại Sapa vào mua hè để thấy sự khác biệt của thời tiết nơi đây",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "carl191086",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tại sao phải ở bất cứ nơi nào khác",
+            "review_content": "Chỗ ở tuyệt vời trong trung tâm của sapa, không có vấn đề gì có thể đặt bạn vào bất kỳ điểm thu hút nào bạn có thể cần kenny và nhân viên của anh ta chỉ là những người đẹp để đối phó. Bữa sáng rất tươi và ngon miệng và quang cảnh nhìn ra những ngọn núi thật đáng yêu. Nếu bạn cần bất cứ điều gì ngay cả để thuê một chiếc xe đạp, bộ sạc điện thoại của tôi đã bị hỏng, không có vấn đề gì, tôi chỉ cần đưa tôi lên xe tay ga sau khi làm việc trong thời gian riêng của mình để giúp đỡ như tôi đã nói với những người đẹp. Đánh giá cao kỳ nghỉ tại khách sạn xinh xắn này",
+            "reviewer_location": "Hội An, Việt Nam"
+        },
+        {
+            "name": "Travel1000",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ở tuyệt vời",
+            "review_content": "Sapa Relax Hotel & Spa tọa lạc tại thị trấn Sapa. Các nhân viên vui lòng nâng cấp chúng tôi lên một bộ với tầm nhìn tuyệt đẹp của những ngọn núi. Chúng tôi đặc biệt muốn cảm ơn Kenny, người đã sắp xếp một tour du lịch có hướng dẫn tuyệt vời cho chúng tôi và một chiếc taxi khi khởi hành. Kenny thậm chí còn chuẩn bị đồ ăn nhẹ để chúng tôi tham gia vào cuộc hành trình vô cùng chu đáo. Nếu bạn đang tìm kiếm một khách sạn thuận tiện, sạch sẽ và giá cả phải chăng ở Sapa, đây là nơi của bạn!",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "19A Đồng Lợi, Sapa 333100 Việt Nam",
+        "name": "Sapa Relax Hotel & Spa",
+        "geo_data": {
+            "latitude": 22.333284378051758,
+            "longitude": 103.84146881103516
+        },
+        "room_number": "58",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ac/19/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/c4/66/7a/excutive-twin-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/62/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/51/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/3b/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/37/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/30/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/28/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/20/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/15/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/0e/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/05/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/04/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ae/00/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ad/fc/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ad/f9/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ad/f3/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ad/ed/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ad/e2/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b3/ad/dd/sapa-relax-hotel-spa.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

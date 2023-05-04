@@ -1,0 +1,347 @@
+{
+    "content": [
+        {
+            "name": "Hanh N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên nhiệt tình chu đáo, dịch vụ hoàn hảo.",
+            "review_content": "Vị trí gần hồ Gươm rất thuận lợi cho việc đi chơi phố cổ. Nhân viên nhiệt tình chu đáo, phòng sạch sẽ, bữa sáng nhiều món rất hợp khẩu vị. Phòng GYM trên tầng 7 mở cửa thường xuyên. Bên cạnh có khu sân vườn ngoài trời rất đẹp được chăm chút tỉ mỉ, rất hợp với những ai thích sống ảo.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Jokerr",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice place",
+            "review_content": "Mình đã có những trải nghiệm tuyệt vời khi ở tại khách sạn. Phòng luôn gọn gàng và sạch sẽ. Các bạn lễ tân cũng vô cùng nhiệt tình. Bên cạnh đó đồ ăn tại đây rất đa dạng và hợp khẩu vị. Vị trí gần trung tâm thành phố cũng là một điểm cộng khiến mình sẽ quay lại vào lần sau.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "duc nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ thú vị",
+            "review_content": "Khách sạn nằm gần Hồ Gươm, rất thuận tiện cho việc mua sắm gần khu phố cổ.Khách sạn rất sang trọng lịch sự, trang thiết bị hiện đại tiện ích, nhân viên thân thiện nhiệt tình chu đáo, phục vụ ăn sáng nhiều món ăn phong phú đa dạng, tôi rất hài lòng và có ấn tượng tốt về khách sạn và sẽ giới thiệu bạn bè người thân đến lưu trú tại đây",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "minh vu hong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp và dịch vụ tốt",
+            "review_content": "Địa điểm thuận tiện, đội ngũ nhân viên thân thiện. Tới Hà Nội nhiều, nhưng mình chọn Thăng Long Opera cho 80% các chuyến đi của mình. Cùng ông xã thăm Hà Nội, cám ơn đội ngũ lễ tân nhiệt tình linh hoạt, tạo thoải mái cho KH. Thuận tiện việc cho KH! Chúng tôi cảm thấy gần gũi và hài lòng với cách phục vụ đặc biệt là cô Tùng, luôn nhẹ nhàng nhưng dứt khoát và nhanh, thiện cảm nhiều!!!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Giáp Huy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Mr Huy",
+            "review_content": "Vị trí địa lý thuận tiện cho công việc và du lịch, thái độ phục vụ của lễ tân tận tình, thân thiện, luôn nắm bắt nhu cầu nhanh nhất của KH. Riêng tôi và vợ rất ấn tượng cách phục vụ check in và linh hoạt của lễ tân chị Tùng! Tôi rất thoải mái, rất thích đến Thường xuyên mỗi khi có dịp. Thuận lợi mọi thứ  Cảm ơn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vu Phong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhận xét",
+            "review_content": "Phòng rộng rãi đẹp đẽ, đội ngũ nhân viên nhiệt tình và rất thân thiện, vị trí cách lại rất gần trung tâm, 300n là đến bờ hồ, tựu chung lại phải nói là 5 sao cho khách sạn !!!! Rất đáng nhé mọi người^^",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Do Tung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất hài lòng với dịch vụ của khách sạn",
+            "review_content": "Nhân viên nhiệt tình đons chào khách, check in nhanh và thân thiện. Phòng ở yên tĩnh cho dù gần đường. Tôi thích phòng ngủ với nhiều gối và thoải mái. Bữa sáng phong phú, nhân viên nhà hàng nhiệt tình với cà phê Việt ngon. Wifi mạnh và ổn định. Đặc biệt nhân viên Khánh chăm sóc khách hàng tận tình, chuyên nghiệp và thân thiện. Rất hài lòng với dịch vụ và sẽ quay lại",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Curiosity23575283970",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good hotel, Good Service",
+            "review_content": "Khách sạn có dịch vụ rất tốt, có khu nước uống miễn phí, các anh chị nhân viên phục vụ rất nhiệt tình. Dịch vụ lễ tân rất nhanh và gọn gàng. Nhiều loại phòng có thể lựa chọn cho từng khách khách nhau. Very Recommended 👍🏻👍🏻👍🏻👍🏻",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Vietmanh V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Không gian đẹp, thức ăn ngon",
+            "review_content": "Tôi đã đôi lần đến đây dự tiệc cùng gia đình và bạn bè. Lần này trở lại, thấy khách sạn có thêm nhiều không gian xanh và đẹp mắt. Nhân viên rất hồ hởi và  thân thiện. Khách sạn ở vị trí trung tâm, rất thuận lợi để đến với các điểm vui chơi như phố đi bộ quanh Hồ Gươm và chợ đêm. Bữa sáng nhiều món lạ và ngon. Còn nhiều dịp trở lại",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thăng Huy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời",
+            "review_content": "Phòng ốc đẹp, tiện nghi, không gian ấm cúng, nhà hàng phục vụ buffet sáng khá đa dạng và hợp khẩu vị , cơm trưa set menu cũng ngon miệng. Và điều tôi ấn tượng nhất là đội ngũ nhân viên trẻ chung rất niềm nở, thân thiện và nhiệt tình giúp đỡ. Chắc chắn rằng, lần tới có dịp tôi sẽ quay trở lại và giới thiệu cho bạn bè, người thân.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Adventurer636719",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ha Noi stay",
+            "review_content": "Tôi ở khách sạn Thăng Long Opera thời gian từ 19-22/7, tôi rất hài lòng với cách phục vụ của đội ngũ khách sạn( lễ tân, bảo vệ...). Phòng khách sạn đẹp, sạch sẽ, dịch vụ tốt và sẽ là khách sạn cho bạn bè tôi ở trong thời gian tới.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Halo",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Họp nghiệm thu dự án",
+            "review_content": "Phòng họp bày trí đẹp, âm thanh ánh sáng chất lượng, hoa qua trà nước đầy đủ, nhân viên phục vụ nhiệt tình, trẻ đẹp, niềm nở. Vị trí khách sạn gần trung tâm, thuận tiện đi lại. Chúng tôi đã đang và sẽ tiếp tục sử dụng dịch vụ trong thời gian tới",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Ngọc Khánh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Conference",
+            "review_content": "Phòng họp sang trọng, tiện nghi với đầy đủ các trang thiết bị hiện đại, đội ngũ nhân viên cởi mở, nhiệt tình, chu đáo cùng với sự chuyên nghiệp...Sẽ mang đến cho Quý khách hàng doanh nghiệp, quý vị và các bạn những trải nghiệm tuyệt vời và hài lòng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lý T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt, nhân viên chuyên nghiệp",
+            "review_content": "Luôn được chào đón, khách sạn đẹp. Phòng hội thảo tiện nghi, các bữa ăn ngon, nhân viên phục vụ nhiệt tình. Phòng ngủ ổn. Rất phù hợp cho khách du lịch và công tác. Vị trí khách sạn trung tâm, gần Hồ Gươm và chợ đêm. Tôi đã có chuyến đi đáng nhớ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "GrandTour27009600569",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lựa chọn thông minh ",
+            "review_content": "Bữa sáng hợp khẩu vị ,phong phú. Nhân viên phục vụ rất rất nhiệt tình và chu đáo ,và chuyên nghiệp . Khách sạn xứng tầm 4* . bố trí rất đẹp mắt . Lần sau ra HN vợ chồng tôi sẽ quay lại . Cảm ơn các bạn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoangha",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "Trung bÌnh khá (3 sao)",
+            "review_content": "Nhìn chung, khách sạn có 2 điểm trừ lớn cần khắc phục:  1). Ăn sáng chưa phong phú các món chính, thực đơn lặp đi lặp lại hàng ngày, chủ yếu là thịt lợn, gà, vịt, không thấy có thịt bò. Ngoài ra, khâu vệ sinh ở khu vực ăn sáng chưa được sạch sẽ, nhân viên dọn dẹp chưa kỹ, khi khách ăn xong cần dọn sạch lau chùi kỹ khu vực chỗ khách ngồi, thu dọn thức ăn rơi vãi, thay miếng lót bàn mới.. để đảm bảo khi khách mới ngồi vào sẽ được sạch sẽ vệ sinh, còn không thì trông rất kinh tởm và bẩn thỉu.  2). Mùi măng ngâm rất hăng và kinh khủng, khi đứng ở sảnh khách sạn hoặc kể cả khi vào thang máy, lên tầng... thì ngửi thấy mùi măng ngâm lan tỏa khắp nơi rất khó chịu. Hỏi nhân viên nhà hàng thì họ bảo là do nhà hàng đang làm măng nên có mùi. Thiết nghĩ một khách sạn 4 sao thì không thể sử",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "quang a",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Điểm đến tuyệt vời",
+            "review_content": "Tôi rất hài lòng với các dịch vụ của Thăng Long Opera. Phòng ốc rộng rãi và sạch sẽ. Nhân viên rất thân thiện và chuyên nghiệp. Khách sạn rất gần Hồ Gươm và khu phố cổ. Bữa sáng rất nhiều món để lựa chọn. Tôi sẽ trở lại trong chuyến đi công tác tới đây!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Daisy Vũ",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice Hotel",
+            "review_content": "Khách sạn nằm trong khu phố cổ, thuận tiện cho việc đi lại, tham quan. View đẹp, Lobby rộng. Đội ngũ nhân viên rất nhiệt tình, chu đáo và vui tính. Meeting room rộng, tiện nghi. Có món chocolate được nhiều người khen là rất ngon. Là địa điểm lưu trú đáng được lưu tâm khi đến với Hà Nội.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "huong d",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "1 điểm đến tuyệt vời",
+            "review_content": "Có dịp ra hà nội nhất định tôi phải quay lại khách sạn này , nằm ngay giữa trung tâm thành phố , đi lại thuận tiện ,bữa sáng hợp khẩu vị , tôi rất có ấn tượng với mấy bạn trẻ đây rất nhiệt tình chu đáo ... điểm 10 .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phương Thùy N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Great Hotel In Ha Noi",
+            "review_content": "Một vài cảm nhận của mình về khách sạn Thăng Long Opera: khách sạn rất rộng rãi và thoáng mát, nhân viên của khách sạn rất thân thiện, nhiệt tình. Ah, còn đồ ăn thì cực phong phú nhé mà cũng ngon lắm. Đến với Hà Nội thì đến với Thăng Long Opera để có những kỳ nghỉ trọn vẹn nhé!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "My Dung L",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Đẹp và tốt",
+            "review_content": "Khách sạn đẹp, nằm ở vị trí ngay trung tâm Hà Nội nên thuận tiện cho việc đi lại, mua sắm và tham quan. Dịch vụ tốt, nhân viên thân thiện, chu đáo và lịch sự. So với cách đây 3 năm thì khách sạn đã được sửa sang lại đẹp hơn rất nhiều. Tôi sẽ quay lại khi có dịp.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyen H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Review ve ksan",
+            "review_content": "Bữa sáng ngon phù hợp khẩu vị, phục vụ chu đáo, lễ tân lịch sự. Địa điểm gần các nơi thăm quan nổi tiếng của hà nội. Thuận tiện giao thông, tham quan phố cổ, ăn các món ăn nổi tiếng của hà nội. Điểm 9,5",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lien N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good",
+            "review_content": "Tôi đã đến đây cùng bạn tôi. Khách sạn đẹp lịch sự sang trọng , nhân viên thân thiện phục vụ tốt , đồ ăn ngon . Khách sạn gần phố cổ. Rất thuận tiện cho việc thăm quan du lịch của chúng tôi. Tôi nhất định sẽ quay lại nếu có dịp .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phạm T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn thân thiện .",
+            "review_content": "Đã lưu trú tại Khách sạn Thăng Long Opera 2 ngày. Khách sạn thân thiện, nhân viên nhiệt tình .Dịch vụ khá tốt. Đồ ăn sáng  đa dạng và ngon. Phòng sử dụng khá thoải mái. Sẽ trở lại trong dịp gần nhất . Thanks!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Connector713360",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thang Long Opera Ha Noi",
+            "review_content": "Tôi được đặt lịch công tác vào trung tuần tháng 4/2017 vừa qua và nghỉ tại Thang Long Opera HaNoi . Cảm giác đầu tiên là đội ngũ nhân viên chuyên nghiệp, thân thiện, nhiệt tình, tạo cho khách hàng một ấn tượng rất tốt . Khách sạn nằm tại phố Tông Đản, vị trí rất thuận tiện để di chuyển vào khu trung tâm thành phố Hà Nội . Mọi thứ đều thuận tiện, lần sau nếu có dịp công tác, tôi sẽ tiếp tục nghỉ ở đây . Cảm ơn !",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Zuko F",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt với",
+            "review_content": "Khách sạn nằm ngay gần trung tâm, đi lại thuận tiện, đội ngũ nhân viên chuyên nghiệp, phục vụ nhiệt tình . Cảm giác thật thoải mái, khách sạn phòng đẹp, sạch sẽ . Giá cả hợp lý, vừa túi tiền cho 1 khach sạn nằm sát khu trung tâm",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "makeupkimanh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cám ơn hotel Thanh Long Opera HàNội, sắp xếp cho gia đình mình 1 chổ nghỉ thật lý tưởng và nhân viên phụ vụ chu đáo.",
+            "review_content": "Gia đình mình có kỳ nghỉ ở Hà Nội, khi đến khách sạn Thăng Long Opera, cảm giác thật thoải mái, khách sạn đẹp phòng sạch sẽ. Đội ngũ nhân viên phục vụ tốt . Khách sạn gần phố cổ, nhiều nhà hàng với những món ăn ngon đặc biệt của Hà Nội. Gần trung tâm không cần phải di chuyển nhiều, thật tuyệt khi bạn đến với hotel Thăng Long Opera Hà Nội.",
+            "reviewer_location": "Bà Rịa, Việt Nam"
+        },
+        {
+            "name": "nghiphuongnguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "ĐỘI NGŨ NHÂN VIÊN CHUYÊN NGHIỆP, TRUNG THỰC",
+            "review_content": "Vào ngày 01 tháng 4 năm 2017, tôi và gia đình tôi từ miền nam ra Hà Nội do công việc. Chúng tôi đã nghỉ tại Khách sạn Thăng Long Opera. Điều đầu tiên chúng tôi nhận thấy ở đây là thái độ và phong cách phục vụ của đội ngũ nhân viên ở đây rất chuyên nghiệp. Nhân viên ở đây hỗ trợ cho khách mọi việc từ hướng dẫn đến phục vụ tại phòng. Phòng ốc sạch sẽ, tiện nghi.  Đặc biệt là chúng tôi rất hoan nghênh khách sạn này là đào tạo được một đội ngũ chuyên nghiệp, tuyệt vời. Điển hình là một sự việc đã xảy ra đến với chúng tôi và đã được nhân viên khách sạn hỗ trợ tốt nhất. Gia đình tôi do công việc nhiều, căng thẳng nên có để quên 6.000 USD trong một phòng tổ chức sự kiện của khách sạn. Nhờ ông Phạm Minh Quang, quản lý khách sạn phát hiện và mang đến tiếp tân lập biên bản để giữ hộ cho",
+            "reviewer_location": "Tỉnh Bến Tre, Việt Nam"
+        },
+        {
+            "name": "Dieu Linh B",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một chuyến công tác tuyệt vời!!!",
+            "review_content": "Cảm ơn Ks Thăng Long opera đã đem tới cho tôi một chuyến công tác tuyệt vời. Khách sạn ấm cúng, thân thiện. Đội ngũ phục vụ không thể tuyệt vời hơn. Tôi đã có cảm giá như ở gia đình khi lưu trú tại đây. Tôi rất thích ban công ks, ngồi đó uống cf mà có cảm giác như đang ở Rome. Đặc biệt, trong chuyến công tác của mình, tôi đã tiết kiệm được nhiều tiền taxi khi đi xe đạp của ks với tấm bản đồ Hà nội do Ks cung cấp. Cảm ơn Thăng Long Opera Hotel, hẹn gặp các bạn vào kỳ công tác tiếp theo của tôi tại Hà Nội",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanula Gunawardana",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một khách sạn tuyệt vời ở việt nam",
+            "review_content": "Chúng tôi ở 4 đêm trong khách sạn. 2 đêm đầu tiên chúng tôi ở lại đây và đêm thứ 3 chúng tôi đã đi đến vịnh dài để tham quan du lịch. Và 2 ngày tiếp theo chúng tôi trở về khách sạn. Phòng là tuyệt vời và thực phẩm cũng tốt. Chúng tôi đã có một bữa ăn sáng phong phú vào buổi sáng. Các nhân viên rất hữu ích. Có một công viên cách khách sạn 2 km và vào ban đêm rất đẹp để đi bộ.",
+            "reviewer_location": "Polonnaruwa, Sri Lanka"
+        },
+        {
+            "name": "SumantJadhav",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Ở tuyệt vời .....",
+            "review_content": "Nhóm 20 chúng tôi ở lại 3 đêm, vị trí trung tâm thành phố tốt, dịch vụ tổng thể, phòng, bữa sáng, nhân viên rất hài lòng, thực sự chúng tôi rất vui. Phòng là đủ sạch sẽ thích nó. Chắc chắn tình yêu sẽ đến lần nữa.",
+            "reviewer_location": "Pune, Ấn Độ"
+        },
+        {
+            "name": "avnits",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất tốt",
+            "review_content": "Khách sạn nằm ở một vị trí tốt ở trung tâm thành phố hà nội. Ăn sáng là tốt. Căn phòng rất đẹp. Nhân viên tại quầy lễ tân rất tự do và rất rất hữu ích! ???? ???? ???? ??? ??????? ???? ???? ?? ???????? ???? ??? ????? ????? ???? ?????",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Curiosity59360556227",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vị trí đẹp và xanh, xứng đáng để giới thiệu",
+            "review_content": "Vị trí trung tâm, không khí xanh. Bữa sáng thật tuyệt. Khách sạn có hình ảnh đẹp, bức tranh và kiểu dáng. Phòng sạch sẽ và lớn. Nhân viên rất thân thiện và hữu ích, đặc biệt là cung cấp tour du lịch. Tốt để giới thiệu. Chúng tôi sẽ trở lại!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Anna Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ở tuyệt vời",
+            "review_content": "Nhân viên đáng yêu, vị trí tuyệt vời, chào đón nồng nhiệt và dịch vụ tuyệt vời. Đây là lần đầu tiên tôi ở đây nhưng chắc chắn tôi sẽ quay lại nhiều hơn nữa cho những chuyến công tác của mình. Nó cảm thấy như ngôi nhà thứ hai của tôi thực sự.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "LDBC86",
+            "avatar": "",
+            "review_rating": "2",
+            "review_title": "Nhà hàng cũ, khủng, ồn ào.",
+            "review_content": "Tôi ở trong khách sạn này với gia đình và tôi sẽ không ở lại đó một lần nữa. Khách sạn có vẻ cũ, mặc dù nó vẫn không quá tệ. Các bữa ăn sáng rất đơn giản từ những gì sẽ được mong đợi trong một khách sạn như vậy. Trên hết, chúng tôi đặt thức ăn tại sảnh và đó là trải nghiệm tồi tệ nhất ở Hà Nội: (Cuối cùng, có những công trình xây dựng trong đó gây ra nhiều tiếng ồn.",
+            "reviewer_location": "Bang Sao Paulo"
+        },
+        {
+            "name": "RuthS529",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khách sạn tốt",
+            "review_content": "Ở trong khách sạn hoàn hảo này cho 5 đêm. Đó là sạch sẽ, nhân viên rất hữu ích, bữa ăn sáng có một mảng lớn của cả hai loại thực phẩm phương Tây và châu Á. Tính năng tốt nhất phải là vị trí, chỉ cách hồ 2 dãy nhà, cách một quãng đi bộ ngắn đến tất cả các điểm tham quan, đủ xa để không bị ảnh hưởng bởi việc đóng cửa vào cuối tuần.  Bạn phải đi bộ xuống hồ vào buổi tối vào cuối tuần, và cũng vào sáng sớm, điều này mang lại một cái nhìn rất tốt về cuộc sống ở Hà Nội. Yêu các quý cô nhảy múa vào buổi sáng sớm, và những người đàn ông chơi trò chơi. Đó là một tổ chức hoạt động.  Có một lựa chọn các siêu thị mua sắm gần kề để đáp ứng mọi nhu cầu của bạn, và nhiều nhà hàng, quán cà phê và cơ hội mua sắm.  Sự sụp đổ lớn nhất hiện nay là công trường xây dựng trên đường có vẻ hoạt động 24",
+            "reviewer_location": "Two Wells, Úc"
+        },
+        {
+            "name": "vgamenut",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tuyệt vời, nhân viên và vị trí trong Khu Phố Cổ.",
+            "review_content": "Dịch vụ tuyệt vời, nhân viên và vị trí trong Khu Phố Cổ. Cơ sở vật chất đang hiển thị tuổi của họ nhưng nhóm làm việc ở đó sẽ đi thêm dặm để giúp bạn với nhu cầu đi lại của bạn. Dễ dàng đi bộ đến hồ Hoàn Kiếm, phố bia, chợ đêm và khu phố Pháp. Giá trị lớn cho giá.",
+            "reviewer_location": "Saint Louis, Missouri"
+        },
+        {
+            "name": "AndrewF76",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Vị trí tốt, phòng đẹp",
+            "review_content": "Khách sạn nằm cách hồ và trung tâm khu phố cổ một quãng đi bộ ngắn. Phòng của chúng tôi đã được sạch sẽ và một tiêu chuẩn phong nha. Vấn đề duy nhất của chúng tôi là chiếc giường cứng như tấm ván, khó ngủ. Chúng tôi là bên đường và phòng do đó ồn ào - dường như là cách ở Việt Nam! Hãy cắm tai - đó cũng là một trang web xây dựng lớn đối diện bắt đầu lúc 6 giờ sáng và vẫn đi vào lúc 10 giờ tối. Nhìn chung không làm giảm 2 đêm của chúng tôi tại Hà Nội",
+            "reviewer_location": "Great Dunmow, Vương quốc Anh"
+        },
+        {
+            "name": "RealKangarooCafe",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một khách sạn thực sự tuyệt vời",
+            "review_content": "Đối với khách của chúng tôi, gia đình và bạn thân nhất, đây là nơi chúng tôi luôn khuyên họ nên ở lại.  Không chỉ là một địa điểm tuyệt vời mà khách sạn thực sự là một người đam mê.  Các cửa sổ kính đôi là lạ một chút hiếm ở Hà Nội ngay cả ở những nơi đắt tiền hơn nhưng 3 thang máy cũng vậy.  Họ thực sự đã đặt một số suy nghĩ vào việc tân trang lại hoàn toàn mà họ đã làm chỉ một hoặc hai năm trước đây và nó đã được đền đáp, trong cuộc diễu hành.  Đặc biệt cảm ơn cô Hồng Hạnh đáng yêu trong bộ phận bán hàng đang là một trong những ông chủ ở khách sạn nhưng bạn không bao giờ đoán được, cô ấy luôn rất ngọt ngào, dễ gần và xuống đất.  Điều này nghe có vẻ hơi băn khoăn nhưng đó là sự thật và chúng tôi thực sự thích & biết ơn toàn bộ đám đông tại Nhà hát Thăng Long.",
+            "reviewer_location": "Ha Noi"
+        }
+    ],
+    "hotel": {
+        "location": "1C Tông Đản, Hoàn Kiếm, Hà Nội 100000 Việt Nam",
+        "name": "Khách sạn Thăng Long Opera",
+        "geo_data": {
+            "latitude": 21.02836036682129,
+            "longitude": 105.85726928710938
+        },
+        "room_number": "101",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a2/f6/fe/junior-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/2c/73/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a2/b7/58/hotel-exterior.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a2/f9/04/opera-suite-honeymoon.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/30/55/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/2f/18/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a2/f9/dc/thang-long-suite-family.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/2c/94/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/2d/6e/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/2c/f2/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/2f/71/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a2/f6/ea/junior-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a2/f5/b3/deluxe-triple.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/2c/9d/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/2e/8a/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/2b/d0/thang-long-opera-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a2/b8/eb/balcony.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a2/f5/bc/deluxe-triple.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e1/fd/e2/khach-s-n-thang-long.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e1/f4/7d/khach-s-n-thang-long.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

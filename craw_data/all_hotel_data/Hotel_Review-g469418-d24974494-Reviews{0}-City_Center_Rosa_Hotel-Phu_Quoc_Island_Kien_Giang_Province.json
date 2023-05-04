@@ -1,0 +1,91 @@
+{
+    "content": [
+        {
+            "name": "Gấu nâu",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Ks mới xây dựng, gần trung tâm, giá cả phù hợp, lễ tân nhiệt tình",
+            "review_content": "Ks mới xây dựng, phòng ốc sạch sẽ. Phòng tiêu chuẩn diện tích khiêm tốn nhưng giá cả phù hợp, có view nhìn rộng thoáng. Vị trí tốt, khu phố mới mở, nằm gần trục đường chính Trần Hưng Đạo, gần sát khu trung tâm thị trấn Dương Đông, chợ đêm, các địa điểm ăn uống địa phương. 10 bước đi bộ đến cà phê Trung Nguyên Legend duy nhất ở PQ. Lễ tân (bạn nam trực ca tối) rất nhiệt tình hỗ trợ, hướng dẫn giới thiệu các địa điểm tham quan du lịch địa phương. Ks có hỗ trợ xe đưa đón từ sân bay, giá cả hợp lý, 150 nghìn cho 1 chuyến/2 khách",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Trang N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất tốt.",
+            "review_content": "Khách sạn sạch sẽ, tiện nghi, giá cả rất hợp lý, nhân viên dễ thương và tốt bụng, nhiệt tình. Mình tự đi du lịch với em gái, lơ ngơ ko biết gì nhưng vô khách sạn thì thấy yên tâm thoải mái. Khách sạn rất gần chợ đêm Phú Quốc, có thể đi bộ ra bờ biển, chợ đêm, Dinh Bà, Dinh Cậu, rất tiện lợi, gần quán cà phê Chuồn Chuồn ngắm hoàng hôn. Đặt các tour đi chơi rất rẻ vì gần trung tâm.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nhung V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyen di phu quoc",
+            "review_content": "Nhân viên phục vụ tận tình, dễ thương, phòng đầy đủ tiện nghi có ban công  sạch sẽ. Hỗ tro khách nhận phòng sớm , tra sua ngon . Neu co thoi gian quay lai Nhất định sẽ quay lại rosa.  Cảm ơn Rôsa hotel rất nhiều",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phương H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Phòng sạch sẽ. Nhân viên nhiệt tình. KS có trang trí honey moon miễn phí luôn.  Chị lễ tân làm buổi sáng nc nhẹ nhàng, hỗ trợ nhiệt tình.  Nếu đi lại sẽ đến đây 1 lần nữa. Cảm ơn Rosa rất nhiều.  Sẽ giới thiệu bạn bè đến đây để trải nghiệm",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nghĩa T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Resort hân thiện, nhân viên nhiệt tình sẽ quay lại",
+            "review_content": "Phú Quốc đang ở khoảng thời gian đẹp nhất trong năm tuy có hơi nắng chút, vừa đến resort là được các bạn lễ tân chào đón nồng nhiệt và tiếp đón mình bằng 1 ly nước mát. Phòng mình là hạng phòng nhỏ nhất nhưng ấn tượng bởi cái ban công nhỏ xinh, được hôm buổi chiều đi chơi về vừa hóng gió, vừa ngắm hoàng hôn. Nói chung là phòng tuy đơn giản nhưng rất sạch và đầy đủ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "TocoToco Milktea Phu Quoc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tốt",
+            "review_content": "Rất tốt,  Nhân viên thân thiện Phòng sạch sẽ, thoáng mát, có bản công Ngay trung tâm thuận lợi đi ăn uống và đi chơi Cho thuê xe máy, book tour, Vinwonder, Safari, cáp treo Sunworld  Cảm ơn rosaraats  nhiều",
+            "reviewer_location": "Đảo Phú Quốc, Việt Nam"
+        },
+        {
+            "name": "hoen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Best choice when I choose Rosa Hotel",
+            "review_content": "Rosa không ngay gần sát biển nhưng ngắm nhìn biển từ xa thật thú vị. Chiếc ban công nhỏ cùng ly cà phê mỗi sáng. Nhân viên thân thiện, giúp mình tìm ra quán cháo ngon cho bé con 😍 cảm ơn Rosa rất nhiều",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "KhốI DV 2, Số 69B Đường Trần Hưng Đạo Khu phố 7, Đảo Phú Quốc 920000 Việt Nam",
+        "name": "City Center Rosa Hotel",
+        "geo_data": {
+            "latitude": 10.210084915161133,
+            "longitude": 103.96278381347656
+        },
+        "room_number": "10",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/31/b0/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/31/ca/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/01/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/39/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/36/4f/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/36/3a/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/36/10/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/13/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/1b/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/31/ef/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/f2/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/e5/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/a3/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/33/0f/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/d5/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/b3/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/36/03/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/36/27/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/31/f4/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/a0/32/0a/city-center-rosa-hotel.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

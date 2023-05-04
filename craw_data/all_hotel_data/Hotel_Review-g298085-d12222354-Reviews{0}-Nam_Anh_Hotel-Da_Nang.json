@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "name": "Cuong C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đà Nẵng thân yêu",
+            "review_content": "Tôi thường hay đi công tác tại Đà Nẵng, sau một lần được giới thiệu tới khách sạn Nam Anh, tôi đã ở và rất hài lòng về vị trí, chất lượng, dịch vụ nơi đây và quan trọng nhất giá cả rất phù hợp. Tôi đã chọn Nam Anh là nơi nghỉ ngơi trong mỗi chuyến công tác tại Đà Nẵng, vị trí gần biển là 1 lợi thế của Nam Anh, bởi tôi rất thích chạy bộ dọc bãi biển và bơi lội, các bạn lễ tân rất nhiệt tình chỉ cho tôi địa điểm các món ăn ngon của Đà Nẵng, các địa điểm tham quan ở Hội An. ",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Jackieandmark123",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khách sạn giá trị tốt ở Đà Nẵng",
+            "review_content": "Đây là một khách sạn nhỏ, do gia đình điều hành, trải rộng trên 5 tầng (có thang máy). Phòng có kích thước tốt với một hoặc hai giường. Rất nhiều nước nóng. Wifi chất lượng tốt. Chỉ có tiêu cực là giường hơi cứng. Không có bữa ăn sáng nhưng rất nhiều lựa chọn gần đó. Bãi biển chỉ là một đoạn đi bộ ngắn. Xe máy có sẵn để thuê.",
+            "reviewer_location": "England, Vương quốc Anh"
+        },
+        {
+            "name": "IERITCHIE",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Nghỉ ngắn. Đá quý ẩn đáng yêu",
+            "review_content": "Chúng tôi ở trong khách sạn này trong hai đêm và chúng tôi mong đợi nhiều với mức giá nhỏ mà chúng tôi đã trả. Căn phòng sạch sẽ và bộ đồ giường không tì vết. Các nhân viên rất thân thiện và họ cố gắng nhưng họ nói ít tiếng Anh mà không làm phiền chúng tôi vì họ rất có sức chứa.  Chỉ cách bãi biển 5 phút đi bộ và ngay tại trung tâm của một thị trấn lớn sắp tới.  Chắc chắn sẽ khuyên bạn nên.",
+            "reviewer_location": "Chesterfield, Vương quốc Anh"
+        },
+        {
+            "name": "Thai",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Nice khách sạn, nhân viên tốt đẹp",
+            "review_content": "Tôi đặt phòng cho 3 đêm, các nhân viên đã chủ động để cho chúng ta thấy làm thế nào để có được con đường đến khách sạn của họ một cách dễ dàng khi chúng tôi đã ở sân bay, điểm tốt. Phòng sạch sẽ và riêng tư. Các nhân viên rất đẹp. Giá tốt. Chúng tôi sẽ trở lại lần sau chắc chắn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tony K",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice Hotel và Nice chủ nhân và nhân viên",
+            "review_content": "Ở lại đây trong 3 đêm ở Nang chỉ là một chuyến thăm ngắn với mục tiêu thử tất cả các loại thực phẩm khác nhau trong thành phố đáng yêu này. Các phòng đều mới, sạch sẽ và khá. Giá cả hợp lý. Nó nằm gần bãi biển. Các nhân viên chủ sở hữu abd là thân thiện và tốt đẹp. Tôi sẽ quay lại chắc chắn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Martin N",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Trải nghiệm rất tốt",
+            "review_content": "Chúng tôi ở đây ba đêm, căn phòng khá lớn và sạch sẽ. Các nhân viên khách sạn không nói tiếng Anh rất tốt, nhưng họ cố gắng hiểu. Chúng tôi thuê một chiếc xe máy với một mức giá tốt và tất cả mọi thứ chúng tôi cần là không có vấn đề gì cả. Nó rất gần với bãi biển.",
+            "reviewer_location": "Mratin, Cộng hòa Séc"
+        }
+    ],
+    "hotel": {
+        "location": "49 Dương Đình Nghệ, Đà Nẵng Việt Nam",
+        "name": "Khách Sạn Nam Anh",
+        "geo_data": {
+            "latitude": 16.06877326965332,
+            "longitude": 108.24302673339844
+        },
+        "room_number": "Việt NamĐà Nẵng",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/4a/family-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/a4/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/bb/11/f4/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/30/c7/view-from-nam-anh-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/c0/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/ac/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/9b/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/93/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/8d/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/83/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/79/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/6d/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/62/city-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/38/partial-sea-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/24/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/10/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2d/04/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2c/fd/khach-s-n-nam-anh.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2c/e2/twin-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/de/2c/de/city-view.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

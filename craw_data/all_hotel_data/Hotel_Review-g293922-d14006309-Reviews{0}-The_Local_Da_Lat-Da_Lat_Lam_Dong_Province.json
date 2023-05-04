@@ -1,0 +1,59 @@
+{
+    "content": [
+        {
+            "name": "ThanhHK123",
+            "avatar": "",
+            "review_rating": "1",
+            "review_title": "Tự ý đổi phòng khi kh đã book phòng và cọc tiền trước 2 tuần. Lễ tân thái độ không tôn trọng khách",
+            "review_content": "Nói chuyện xem thường Khách hàng (kh), ko chuyên nghiệp, khi kh khiếu nại thì ko trung thực trong giải quyết vấn đề. Khách sạn (ks) tự ý lấy phòng kh đã cọc tiền trước 1 đêm để đổi cho khách khác đến sau. Lễ tân liên tục gọi làm phiền và ép kh phải đổi phòng theo ý KS trong khi kh đã thông báo đang di chuyển trên xe đường đèo. Khi đến ks và yêu cầu gặp chị chủ thì nhận được câu trả lời ko tiếp được vì mắc tắm cho em chó. Rất bức xúc.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Hoàng Khải",
+            "avatar": "",
+            "review_rating": "1",
+            "review_title": "Rất tệ - Tự ý đổi phòng của Khách khi chưa được phép.",
+            "review_content": "- Rất tệ 🤬🤬🤬 Thái độ The Local House rất tệ, không tôn trọng khách hàng, đặt phòng trước nữa tháng, đến ngày nhận phòng thì được báo lại \"Phòng đã đổi cho Khách Thái - nếu không chấp nhận thì sẽ trả lại cọc\". - Sẽ không bao giờ quay lại",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "KRM",
+            "avatar": "",
+            "review_rating": "2",
+            "review_title": "Không có gì giống như hình ảnh",
+            "review_content": "Thật không may, nơi này trông không giống như những bức ảnh. Căn phòng chúng tôi kiểm tra rất nhỏ, không đủ lớn cho hai người lớn và hai vali.  Các bức tường bẩn thỉu, phủ đầy những vết đen và trầy xước, và phòng tắm có mùi thoát nước khủng khiếp.  Nếu bạn thích những nơi rẻ tiền, và vui vẻ xù xì thì tôi cho rằng sẽ ổn cho một vài đêm.   Tôi thường không thích những nơi xấu miệng, nhưng tôi cảm thấy cần phải cho những khách du lịch khác biết trước khi họ đặt phòng và bị lừa bởi những bức ảnh như chúng tôi đã làm.",
+            "reviewer_location": "Newcastle upon Tyne, Vương quốc Anh"
+        }
+    ],
+    "hotel": {
+        "location": "29B Phan Bội Châu Số mới 99/2 Phan Bội Châu, Phường 1, Đà Lạt 670000 Việt Nam",
+        "name": "The Local Da Lat",
+        "geo_data": {
+            "latitude": 11.943949699401855,
+            "longitude": 108.43872833251953
+        },
+        "room_number": "13",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b8/0f/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b8/35/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b8/26/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b8/1a/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b8/14/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b8/12/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/ff/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/fb/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/f5/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/ee/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/eb/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/dd/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/d2/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/c9/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/c0/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/89/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/7f/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/65/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/57/the-local-da-lat.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/25/b7/4f/the-local-da-lat.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

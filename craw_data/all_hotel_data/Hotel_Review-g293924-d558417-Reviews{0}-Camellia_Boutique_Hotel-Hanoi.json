@@ -1,0 +1,443 @@
+{
+    "content": [
+        {
+            "name": "David",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp vị trí trung tâm quận hoàn kiếm phù hợp đi công tác",
+            "review_content": "Vị trí tuyệt vời phòng rộng rãi, thoáng mát,  ăn sáng khá ngon. Nhân viên thân thiện cảm giác thoải mái như ở nhà.  Lần sau đi công tác chắc chắn sẽ quay lại ở tại khách sạn Camellia boutique.  Nên bổ sung thêm khăn tắm cho phòng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ms Rose",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tốt",
+            "review_content": "Nhân viên thân thiện, nhiệt tình, ăn sáng khá nhiều lựa chọn. Phòng rộng view đẹp, yên tĩnh. Có dịch vụ massage tại khách sạn và tôi rất hài lòng khi trải nghiệm nó. Nếu có dịp quay lại tôi sẽ vẫn chọn Camellia.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thuhang262",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Nhân viên khách sạn rất nhiệt tình, thân thiện giúp. đỡ mọi người. Đồ ăn sáng buffee ở khách sạn ngon, đa dạng, sạch sẽ. Không gian sang trọng, yên tĩnh. Địa điểm thuận lợi, tôi chỉ mất mấy phút đi bộ để có thể dạo quanh phố cổ, hồ hoàn kiếm và rất nhiều địa điểm mua sắm xung quanh. Camellia thật sự là một điểm dừng chân đáng trải nghiệm",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trần",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt, dịch vụ tốt",
+            "review_content": "Phù hợp cho chuyến công tác và ở dài ngày, phòng rộng rãi nhân viên thân thiện,rất gần đại sứ quán Pháp, xung quanh là trung tâm của các khu thương mại như Bà triệu Vincom center , Trang Tien Plaza. xung quanh có quán bún chả Obama tại phố Lê Văn Hưu và Quán Mc donald tại Hàng bài cách ks không xa, cà phê Mai cũng rất nổi tiếng có thể mua về làm quà.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Linh Sam",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Khách sạn có vị trí khá gần hồ gươm, xung quanh có rất nhiều cửa hàng thời trang và mua sắm. Phòng rộng rãi có bồn tắm. Ăn sáng khá ngon nhiều món để lựa chọn. Có dịch vụ spa tại khách sạn. Phòng khá yên tĩnh nên trang bị thêm phòng tập thể dục và chạy cho khách ở dài ngày.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trang N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nghỉ lễ",
+            "review_content": "Hài Lòng! Quay lại khách sạn lần thứ hai, vẫn không hề thất vọng, nhân viên  thân thiện, nhiệt tình, phòng luôn sạch sẽ, thoáng mát. Đầy đủ tiện nghi, phòng tắm có cả bồn tắm. Sẽ vẫn quay lại nếu có dịp. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Duykha173",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Trước hết là tôi ấn tượng bởi cách đón tiếp của khách sạn rất nhiệt tình và chu đáo, phong cách rất chuyên nghiệp, vị trí khách sạn khá thuận tiện cho việc đi lại vui chơi quanh khu trung tâm. Đây sẽ là lựa chọn hàng đầu cho lần  công tác tiếp theo của tôi tại Hà Nội.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Trang N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Công tác",
+            "review_content": "Khách sạn phục vụ tốt, nhân viên thân thiện, phòng sạch sẽ, phù hợp cho các chuyến công tác, khách sạn gần trung tâm chỉ 5p đi bộ. Sẽ quay lại nếu có dịp đi công tác và du lịch.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Linh D",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Công tác",
+            "review_content": "Khách sạn nằm ở vị trí trung tâm thành phố, chỉ 5 phút đi bộ ra Hồ Gươm, nhân viên rất thân thiện nhiệt tình khi chúng tôi đến khách sạn. Khách sạn có nhà hàng dưới tầng 1 , thức ăn phong phú và rất ngon, lần sau ra công tác tôi sẽ quay lại!!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Duy K",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi công tác",
+            "review_content": "Nhìn viên khách sạn nhiệt tình,  vui vẻ,  thân thiện.  Cơ sở vật chất,  phòng ở phù hợp với nhu Cầu Đi công tác của bản thân.  Phòng ốc sạch sẽ,  dịch vụ chu đáo. Vị trí khách sạn thuận lợi khi di chuyển tới nơi làm việc. Cũng rất thuận tiện khi Đi mua sắm hàng hóa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Truong V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ rất tốt",
+            "review_content": "Khách sạn dịch vụ tốt, nhân viên thân thiện, lịch sự và chuyên nghiệp. Thủ tục nhận phòng nhanh chóng. Khách sạn ở khu trung tâm tiện lợi khi mua sắm, viếng thăm các danh lam thắng cảnh . Sẽ quay lại khi ra Hà Nội.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hung P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Làm việc",
+            "review_content": "Phòng ốc sạch sẽ, đẹp đẽ OK. Giá phòng hợp lý.  Khách sạn ở vị trí Trung tâm rất thuận tiện khi lưu trú và giải quyết công việc. Hướng phòng ở nhìn ra mặt đường phố Huế sang sủa,  rộng rãi.  Nhân viên thân thiện.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Đức T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch",
+            "review_content": "Khách sạn ấm cúng, gần trung tâm mua sắm. Phòng ở sạch sẽ, gọn gàng và yên tĩnh. Nhân viên khách sạn nhiệt tình, mến khách. Ăn sáng nhà hàng đa dạng, phong phú. Cuối tuần có thể đi chơi chợ đêm tại khu phố cổ chỉ mất khoảng 5 phút đi bộ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Anh N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hội họp",
+            "review_content": "Khách sạn gần trung tâm, rất thuận lợi cho việc di chuyển khi họp hành và team party vào buổi tối. Nhà hàng ăn sáng rất ấm cúng, dung dị. Nhân viên khách sạn thân thiện, chuyên nghiệp. Phòng ốc sạch sẽ, yên tĩnh. Nếu ra Hà Nội công tác sẽ quay lại lưu trú tại khách sạn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Duong M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "di cong tác",
+            "review_content": "Khách sạn này nằm ngay tại trung tâm thành phố chỉ cách bờ hồ hoàn kiếm 5p đi bộ.nhân viên khách sạn thân thiện,nhiệt tình dể thương.phục vụ khách hàng.phòng ở yên tĩnh,ấm áp.rất thuận tiện khi mua sắm và tham quan các khu di tích lịch sử.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hạnh H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi công việc",
+            "review_content": "Khách sạn dịch vụ tốt. Nhân viên làm việc chuyên nghiệp chu đáo ân cần với khách hàng. Phòng ở sạch sẽ ấm cúng và yên tĩnh. Rất tiện lợi khi đi mua sắm vì vị trí ngay trung tâm. Sẽ quay lại khách sạn trong lần công tác tới.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tuankhai L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Công tác",
+            "review_content": "Khách sạn nằm ngay trung tâm thành phố, rất thuận tiện cho việc di chuyển tới nơi làm việc và đi mua sắm. Có nhiều quán ăn và spa quanh khách sạn. Nhân viên thân thiện, nhiệt tình và chu đáo. Rất gần khu phố cổ và các danh lam thắng cảnh như Hồ Gươm và đền Ngọc Sơn. Sẽ trở lại khách sạn nếu công tác tại Hà Nội.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vietnam package",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tham Quan",
+            "review_content": "Khách sạn sạch sẽ, gần trung tâm khu phố cổ và hồ Hoàn Kiếm, nhân viên phục vụ nhiệt tình- đặc biệt là Hote Manager - Mr Tuấn - Phòng có Bathtub, nội thất rất tốt. Ăn sáng tuy ít món nhưng rất ngon - nhân viên nha hàng rất chu đáo - tôi sẽ quay lại khách sạn khi có diệp ra Hà Nội!!!",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "huynh c",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cong viec",
+            "review_content": "Khach san dich vu rat tot. Nhan vien KS than thien, nhiet tinh phuc vu giup khach. Vi tri khach san o Quan Trung tam, Giao thong thuan tien. Co rat nhieu nha hang va Quay bar xung quanh Khach san, phong o sach se va am cung, yen tinh. Toi se quay lai khach san trong dip den.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tran H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi họp",
+            "review_content": "Nhìn chung là ổn. Đón tiếp nhiệt tình. Phòng ốc sạch. Vị trí đi lại thuận tiện. Di chuyển qua các nhà hàng, các Spa rất gần. Gần các tiệm nha khoa, đi bộ ra Hồ Gươm chỉ mất khoảng 5 phút đi bộ. Lần tới đi công tác sẽ quay lại lưu trú ở đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quang Duc N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ",
+            "review_content": "Vị trí khách sạn rất thuận lợi, thuận tiện cho việc đi du lịch, tham quan, mua sắm tại Hà Nội. Nhân viên phục vụ nhiệt tình, tận tâm và chu đáo. Được nhận phòng hạng cao hơn so với mức tiền đặt phòng. Là sự lựa chọn hợp lý cho những ai đang có nhu cầu đi du lịch tại thủ đô Việt Nam!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Julie P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vote 5*",
+            "review_content": "Khách sạn đẹp, sạch sẽ. Nhân viên ân cần phục vụ chu đáo. Vị trí ngay trung tâm cách Hồ Gươm rất gần, tiện lợi, xung quanh có nhiều hàng quán rất ngon, đậm chất Hà Nội. Lần ghé tiếp theo chắc chắn sẽ đến đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phung H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Công tác",
+            "review_content": "Khách sạn nằm tại trung tâm thành phố. Rất thuận tiện cho việc đi chơi, thăm viếng danh lam thắng cảnh. Nhân viên khách sạn thân thiện nhiệt tình. Phòng ở rộng rãi, thoáng mát có view đẹp. Khách sạn full phòng nên tôi được nâng hạng lên phòng cao cấp hơn mà không phải trả thêm phí.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lam K",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "hội thao",
+            "review_content": "khách sạn nằm ở trung tâm thành phố, rất thuận lợi cho việc tham quan danh lam thắng cảnh, cũng như là mua bán. Phòng ở thì rộng rãi, ấm cúng và yên tĩnh. Đoàn chúng tôi đến sáng sớm ngày hôm nay tuy chưa được nhận phòng nhưng bên phía khách sạn sắp xếp cho chúng tôi sử dụng phòng họp để nghĩ ngơi. Quanh khách sạn có rất nhiều nhà hàng và quán bar.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Diệu T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dã ngoại cơ quan",
+            "review_content": "Đi thăm Hà Nội mùa chớm thu, camellia bao đẹp mà nhân viên nhiệt tình hết sức. KS nằm ngay Phố Huế, đi bộ 5p là ra đến Hồ Gươm, loanh quanh một hồi cũng về đến nơi, rất dễ tìm đường. Xung quanh nhà hàng, bar cao cấp bình dân có đủ, thoải mái quẩy với bạn bè.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyen P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lần đầu ghé Hà Nội",
+            "review_content": "Phòng sạch sẽ Nhân viên khách sạn nhiệt tình giúp đở khách hàng. Vị trị khách sạn nằm ngay trung tâm thành phố, rất thuận lợi cho việc đi lại cũng như tham quan mua sắm  Khách sạn có thang máy tiện cho việc lên xuống, chất lượng wifi rất tốt",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thị Thuỷ P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ hotel tuyệt vời",
+            "review_content": "Tôi rất ngạc nhiên khi ở phố Huế đắt đỏ lại có 1 hotel giá cả bình dân tới vậy, phòng thì đẹp và sang trọng đầy đủ tiện nghi, được chăm chút cả những chi tiết nhỏ từ đôi dép đi trong phòng cũng rất đáng yêu. Phục vụ thái độ rất nhiệt tình nhẹ nhàng nên mình cảm thấy rất thoải mái. Lần sau về hà nội chắc chắn sẽ lại ghé đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "thanh tung n",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Great...",
+            "review_content": "Tuyệt vời. Nhân viên thân thiện,hữu ích. Không có gì để chê trách. Phòng ốc sạch sẽ, rộng rãi thoải mái hơn mong đợi và đầy đủ tiện nghi, giá cả tương đối hợp lý. Bữa sáng buffet ngon và phong phú. Thêm nữa là khách sạn ở gần hồ gươm, chỉ mất tầm 5,7 phút đi bộ là đến.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tunglam n",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Khách sạn có vị trí thuận lợi tiện cho việc tham quan.  Nhân viên rất nhiệt tình và thân thiện.  Phòng ở tiện nghi và rất yên tĩnh.  Mình đặt phòng thường nhưng lại được nâng hạng lên phòng hạng sang mà không phải thêm phí.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phuc N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Công tác",
+            "review_content": "Nhân viên dễ thương.  Phòng ốc ổn, rộng rãi.  Vị trí ở thuận tiện cho việc đi lại cũng như dạo phố ăn uống. Chất lượng wifi ok. Đồ ăn sáng tương đối đa dạng. Món trứng nếu muốn ăn nóng nhớ order bác phụ vụ nhé.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "미 사",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng ks sạch sẽ, vị trí thuận lợi, nhân viên thân thiện",
+            "review_content": "Khách sạn có vị trí thuận lợi, đi bộ đến các điểm du lịch như Phố Cổ, hồ Gươm dễ dàng. Phòng sạch sẽ, wifi sử dụng tốt, nhân viên thân thiện, bữa sáng đa dạng, ngon miệng. Sẽ quay lại ks lưu trú những chuyến đi sau!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Đào A",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn không chê được điểm nào.",
+            "review_content": "KS ở trung tâm. Vào bờ hồ mất 5 phút đi bộ. Vừa bước vào khách sạn. Nhân viên lễ tân rất nhiệt tình. Cảm giác rất gần gủi.  Phòng ốc thì rộng. Chắc phải ở 4 người 1 phòng đơn. Mọi thứ đều đầy đủ cả. Nói chung là chưa chê đc điểm nào.",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Dao M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vị trí khách sạn rất tốt cho chuyến công tác",
+            "review_content": "Khách sạn có vị trí tốt, nhiều chỗ ăn ngon quanh đó như phở thì,, bún cá hàm long, bún chả, và một vài hầm rượu vang, nhà hàng Pháp, rất tiện để tiếp khách. Phòng rộng và sạch sẽ, có người vệ sinh phòng hàng ngày. Ăn sáng ngay tầng dưới, ăn xong gọi uber đi làm rất tiện.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Explore733822",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chất lượng",
+            "review_content": "Phòng sạch sẽ, thoáng mát, chất lượng dịch vụ và nhân viên thân thiện , vị trí khách sạn gần nhiều khu vực nổi tiếng khá thuận lợi cho việc đi lại, tôi rất hài lòng khi ở đây. Khách sạn gần khu phố đi bộ rất thuận tiện cho chúng tôi tới chơi.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nam N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi công tác rất ưng ý",
+            "review_content": "Khách sạn ở ngay trung tâm, phòng rộng rãi, sạch sẽ. Vị trị khách sạn đẹp, dể di tham quan phố cổ Hà Nội, các địa điểm vui chơi. Nhân viên khách sạn rất nhiệt tình, tận tình với khách, phục vụ hết mình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "ariqg",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chất lượng dịch vụ",
+            "review_content": "Chất lượng dịch vụ rất tốt. Khách sạn gần khu trung tâm, nhiều cửa hàng ăn uống vui chơi giải trí. Giao thông thuận lợi , có chỗ gửi xe ô tô và xe máy. Phòng sạch sẽ rộng rãi. Đồ ăn sáng tự chọn rất ngon. Phòng có đầy đủ tiện nghi.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hương L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Xứng đáng 10 điểm",
+            "review_content": "Chúng tôi chọn khách sạn qua lời giới thiệu của người quen,thật tuyệt vời,khách sạn rất tiện nghi,sang trọng,nhân viên rất thân thiện,từ đây ra phố đi bộ quanh Hồ Hoàn Kiếm chỉ 5 phút đi bộ,vào phố cổ uống bia thật vui,tôi khuyên các bạn nên đến đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Pham Vien",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng 100%",
+            "review_content": "Dịch vụ khách sạn rất tốt.nhân viên thân thiện và hữu ích. Bữa sáng buffe khá là ngon và phong phú. khách sạn ở 1 vị trí tốt, rất gần hồ gươm. Đi bộ 5 ph là đến rồi.  Lần sau công tác sẽ ở đây nữa. Really good",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Duy Mạnh P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng",
+            "review_content": "Chất lượng phòng và dịch vụ rất tôt. Nhân viên chăm sóc khách nhiệt tình, chu đáo Vì khách sạn nằm ngay trung tâm thành phố nên rất thuận tiện cho việc thăm quan những địa điểm nổi tiếng Tôi rất hài lòng khi đến và sử dụng dịch vụ ở đây,.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Anh B",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Điểm đến tin cậy",
+            "review_content": "Tôi rất hài lòng khi nghỉ ở khách sạn Nhân viên ở đây chăm sóc khách rất nhiệt tình và chu đáo. Phòng ốc rất sạch sẽ và đẹp Nằm trong trung tâm của thành phố nên rất thuận tiện cho việc thăm quan những địa điểm nổi tiếng của Thủ Đô. Tôi sẽ chọn đây là điểm đến cho những lần nghỉ sau.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "hao v",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Điểm đến tin cậy",
+            "review_content": "Dịch vụ của khách sạn trên cả sự tuyệt vời. Nằm ngay giữa trung tâm của thành phố Hà Nội rất thuận tiện cho việc thăm quan các địa điểm nổi tiếng. Nhân viên phục vụ rất nhiệt tình, chăm sóc khách chu đáo. Có thể nói đây là một địa chỉ tin cậy cho các bạn có nhu cầu nghỉ ngơi và thăm quan Thủ Đô. Không chỉ vậy ở khách sạn  còn có cả nhà hàng với các món ăn độc đáo mang đậm nét văn hoá của người Hà Nội. Có phòng giành cho khách hội nghị, hội thảo",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Soibentho",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng",
+            "review_content": "Khách sạn rất đẹp, chất lượng phục vụ tốt, anh quản lý rất phong độ và tâm lý!:)). Nhân viên khá lịch sự và chu đáo, mình sẽ luôn lựa chọn khách sạn này khi đến Hà nội. Các khách sạn nếu có chất lượng thế này sẽ có giá khá cao nhất là khu vực trung tâm nhưng khách sạn này có giá rất phải chăng!",
+            "reviewer_location": "Tỉnh Quảng Ninh, Việt Nam"
+        },
+        {
+            "name": "Trinh n",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng",
+            "review_content": "Khách sạn Camellia Hotel nằm trên đường phố Huế, có chất lượng phục vụ tốt. Khách sạn ở khu trung tâm gần phố cổ rất tiện cho việc thăm thú hà nội. Giá cả phòng với mức giá phù hợp. Tôi rất hài lòng trong thời gian ở tại khách sạn Camellia hotel.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tuan N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng",
+            "review_content": "Tôi đã nghỉ một đêm tại khách sạn này. Cái để lại ấn tượng tốt với tôi đó là sự quan tâm, niềm nở của nhân viên. Vị trí của khách sạn khá thuận lợi, ngay trung tâm nơi có rất nhiều quán ăn Nhật và dịch vụ Spa là nơi tôi hay đến thư giãn sau giờ làm việc. Tuy không lưu trú dài ngày tại khách sạn nhưng tôi hài lòng với dịch vụ ở đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tuyet L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Gần, tiện, gọn, sạch & thân thiện",
+            "review_content": "Tôi chọn tù mù khách sạn này khi tìm kiếm phòng cho tôi & người nhà. Mới đầu chỉ nghĩ là không xa quá & không bị ồn. Xong khi đến ở thì thấy phòng rất rộng & thoáng. Cửa sổ to, phòng lớn, giường lớn, bàn làm việc,..đầy đủ trang thiết bị cần thiết. Tôi cũng thích phong cách thiết kế, khá truyền thống & không gian lớn. Đồ ăn ngon, đa dạng. Nhân viên không vồ vập như nhiều khách sạn thương mại khác, họ nhẹ nhàng, thân thiện vừa đủ & để tôi có cảm giác đây là nhà tôi. Hàng ngày tôi có thể đi bộ ra hồ Hoàn Kiếm bất cứ lúc nào tôi thích. Chỉ mất có 3 hay 4 phút đi thẳng.  Cám ơn khách sạn. Tôi sẽ quay lại.  Bonus: nếu ai muốn view đẹp có thể chọn phòng từ hạng Deluxe trở lên.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Jasmine",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một khách sạn tuyệt vời!",
+            "review_content": "Đây là lần đầu tiên tôi đến thăm tại Hà Nội. Tôi đã thực sự may mắn khi chọn Camellia Boutique Hotel. Tôi đã gặp nhiều người bạn tuyệt vời ở đây. Cho đến bây giờ, tôi vẫn giữ liên lạc với họ. Họ là những nhân viên thân thiện và chu đáo, luôn sẵn sàng giúp đỡ tôi mọi thứ. Hà Nội trở thành một trong những thành phố đáng yêu và đáng nhớ nhất mà tôi từng đến. Hơn nữa, Camellia nằm ở trung tâm của khu phố cổ, nơi rất gần với hồ Hoàn Kiếm. Đặc biệt, được loại bỏ một chút khỏi sự hối hả và nhộn nhịp là hoàn hảo để thư giãn và ngủ vào ban đêm. Căn phòng rất sạch sẽ, thuận tiện và thoải mái và tôi thích khung cảnh tuyệt đẹp từ cửa sổ tại Camellia. Nhìn chung, tôi có một thời gian tuyệt vời tại Camellia, rất khuyến khích. Đặc biệt cảm ơn Quản lý và nhóm của bạn đã chăm sóc chúng tôi tốt.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Soulat Damien",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Điểm tuyệt vời trong trung tâm thành phố. Tất cả mọi thứ là khoảng cách đi bộ và các nhân viên là tuyệt vời! Phòng lớn và tắm tốt: -) Judi đã giúp chúng tôi tham quan và cô ấy khuyên chúng tôi về nơi có cà phê và bánh mì ngon nhất. Dịch vụ tuyệt vời nói chung!",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Jason G",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt nhất ở Đông Nam Á",
+            "review_content": "Mọi thứ đều tuyệt vời bắt đầu từ các nhân viên rất hữu ích và chu đáo. Các phòng rất đẹp, rất sạch sẽ và lớn. Giường thoải mái. Phòng tắm có một bồn tắm. Tất cả các tiện nghi cần thiết nếu có sẵn. Bfast cũng tốt với nhiều thực phẩm để lựa chọn từ nước trái cây, trà và cà phê. Sory cho căn phòng lộn xộn nhưng chúng tôi thực sự cảm thấy như ở nhà.",
+            "reviewer_location": "Istanbul, Thổ Nhĩ Kỳ"
+        },
+        {
+            "name": "Matt T",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "Nhân viên tốt, vấn đề với phòng",
+            "review_content": "Rất muốn cung cấp cho khách sạn này một đánh giá tốt hơn tuy nhiên có quá nhiều vấn đề với phòng của tôi để biện minh. Ánh sáng trong phòng tôi được điều khiển từ một chiếc hộp lạ từ những chiếc 80 và dường như không hoạt động. Không thể tiếp nhận cuộc gọi vì không có âm quay số trên điện thoại phòng. Phải đi xuống và yêu cầu hỗ trợ. Phải quay lại tiếp tân lần thứ hai vì điều khiển từ xa AC không có pin. Các nhân viên tiếp tân đều rất dễ chịu nhưng khách sạn thiếu một con mắt tổng thể về chi tiết có thể bắt gặp một số vấn đề này.",
+            "reviewer_location": "Vancouver, Canada"
+        },
+        {
+            "name": "Mizuho Toyoda",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "hiệu suất chi phí tốt hơn",
+            "review_content": "Tôi đã thử 3 hoặc 4 khách sạn với ngân sách $ 40 một đêm trước khi khách sạn này ở Hà Nội. khách sạn này là sự lựa chọn tốt nhất cho chuyến đi Hà Nội của tôi. rẻ hơn, phòng sạch sẽ, tiện nghi và vị trí, tất cả mọi thứ đã được chấp nhận cho tôi. Khách sạn này là đủ để làm hài lòng bạn ở tại Hà Nội Nếu bạn là người độc thân. Tôi sẽ chọn ở đây lần sau.",
+            "reviewer_location": "Phnom Penh, Campuchia"
+        },
+        {
+            "name": "Sander F",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời!",
+            "review_content": "Họ nâng cấp phòng của chúng tôi, nhân viên siêu thân thiện và khách sạn tuyệt vời tổng thể! Họ đã giúp chúng tôi với xe đạp, hành lý của chúng tôi và bất cứ khi nào chúng tôi gặp vấn đề, họ chỉ đơn giản là đến và giúp chúng tôi ngay lập tức. Vị trí cũng tuyệt vời. Hầu như ở giữa khu phố cổ",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        }
+    ],
+    "hotel": {
+        "location": "12 Hue Street, Hoan Kiem District, Hà Nội 84 Việt Nam",
+        "name": "Camellia Boutique Hotel",
+        "geo_data": {
+            "latitude": 21.019399642944336,
+            "longitude": 105.85176849365234
+        },
+        "room_number": "40",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/68/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/67/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/25/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/2c/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/8c/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/73/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/8b/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/83/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/30/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/46/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/88/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/85/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/77/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/59/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/5d/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/6b/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/6a/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/69/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8c/08/87/camellia-boutique-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e1/8f/e7/spa-and-wellness.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

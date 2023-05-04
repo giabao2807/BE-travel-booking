@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "name": "SamSam_BL",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "^___^ Sinh nhậtt 18 tuổi lần thứ 7 tuyệt zờiiii....... tại Khách sạn Hoa Lư >___<",
+            "review_content": "Sinh nhật đúng vào cuộc hành trình du xuân khi đặt chân đến Ninh Bình, và chúng tôi nghỉ tại Ks Hoa Lư Khách sạn sang trọng và hiện đại, hội trường đẹp lung linh luôn, tổ chức tiệc ở đây là hài lòng hết ý ý ý...... lại còn được khách sạn tặng bánh kem :p Em cảm ơn Khách sạn ạ, các anh chị rất nhiệt tình và chu đáo ạ. Hẹn gặp lại anh chị ở sinh nhật 18 tuổi lần thứ 8 của em ạ ^______^",
+            "reviewer_location": "Bac Lieu, Việt Nam"
+        },
+        {
+            "name": "Thu N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Very good",
+            "review_content": "Khách sạn này view đẹp gần Bái Đính, Tràng An lại thuận tiện cho việc đi lại, đồ ăn lại ngon nữa. Phòng đẹp mà ấm cúng lắm luôn, thực đơn phong phú, chuẩn dê Ninh Bình Nhân viên thì nhiệt tình đón đoàn từ khi đến",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tunghoangnb9",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "tuyệt",
+            "review_content": "vị trí thuận lợi để đi dạo quanh NB, ks hiện đại, nhân viên nhiệt tình, tôi thích nhất là quán cafe ven hồ Kỳ lân, view & ko khí rất tuyệt để thưởng thức đồ uống. Núi kỳ lân có thời gian mở cửa hơi muộn với khách du lịch, nhưng nếu tour của bạn ko quá vội vã, có thể lên thưởng ngoạn và \"selfie với cả Ninhbinh\" từ trên đỉnh núi!",
+            "reviewer_location": "Ninh Bình, Việt Nam"
+        },
+        {
+            "name": "Christy",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "Một đêm",
+            "review_content": "Tôi đến khách sạn lúc 7:00 sáng sau khi được thả xuống từ một chiếc xe buýt ngay bên cạnh khách sạn. Tôi đã kiệt sức sau khi hầu như không ngủ được trên một chiếc xe buýt qua đêm. Tôi bước vào và hỏi họ có phòng trống nào để tôi có thể nhận phòng ngay lúc đó không. Họ nói với tôi phòng duy nhất có sẵn là phòng VIP của họ. Tôi lấy nó để tôi có thể nghỉ ngơi. Có một số đứa trẻ lớn tiếng đóng sầm cửa và cách âm rất tốt.  Phòng rất rộng, rất có thể là vì nó là VIP. Sau khi ngủ một lát, tôi hỏi quầy lễ tân những gì họ khuyên tôi nên làm trong ngày và họ không có nhiều gợi ý. Tôi cũng hỏi họ có thể giúp đặt vé tàu đi Huế không và họ có thể giúp đỡ không. Họ không nói tiếng Anh nhiều, và họ có vẻ rất quan tâm đến việc giúp đỡ tôi.  Các bữa ăn sáng đều ổn và hầu như không được dọn dẹp",
+            "reviewer_location": "Bãi biển Long, California"
+        }
+    ],
+    "hotel": {
+        "location": "1 Trần Hưng Đạo Núi Kỳ Lân, Ninh Bình 430000 Việt Nam",
+        "name": "Khách Sạn Hoa Lư",
+        "geo_data": {
+            "latitude": 20.263092041015625,
+            "longitude": 105.9684066772461
+        },
+        "room_number": "75",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/63/c1/bf/khach-s-n-hoa-lu.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d2/e1/73/nh-toan-c-nh.jpg?w=200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/5b/60/33/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/4e/c3/9a/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/4c/93/6d/getlstd-property-photo.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e4/ed/88/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e4/ec/5b/restaurant.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e4/ec/4c/restaurant.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/95/e3/3b/time-coffee.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/95/e3/20/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/95/e3/0d/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/f1/74/b9/kho-ng-cach-t-hoa-lu.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/f1/73/5d/nui-k-lan-vien-ng-c-c.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/63/c1/e7/khach-s-n-hoa-lu.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/63/c1/e0/khach-s-n-hoa-lu.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/63/c1/da/khach-s-n-hoa-lu.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/63/c1/d8/khach-s-n-hoa-lu.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/63/c1/d5/khach-s-n-hoa-lu.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/63/c1/d3/khach-s-n-hoa-lu.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/63/c1/d2/khach-s-n-hoa-lu.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

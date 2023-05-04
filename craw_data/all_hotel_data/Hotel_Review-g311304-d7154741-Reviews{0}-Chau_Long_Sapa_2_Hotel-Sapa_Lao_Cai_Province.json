@@ -1,0 +1,539 @@
+{
+    "content": [
+        {
+            "name": "Mai",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhà hàng đẹp, đồ ăn ngon",
+            "review_content": "Rất ấn tượng với phong cách thiết kế nhà hàng, đồ ăn tươi ngon, đặc biệt món lẩu cá tầm và gỏi cá hồi, trang trí rất bắt mắt, nhân viên thân thiện. cách dịch vụ hoàn hảo, tôi không có gì phàn nàn cả. Ở khách sạn, ăn bữa tối luôn trên nhà hàng thật tuyệt. Vừa ngon, đảm bảo chất lượng mà không phải ngồi các quán lẩu bên ồn ào bên ngoài.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Ngân",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời với thời tiết lạnh ở Sapa",
+            "review_content": "Một trải nghiệm tuyệt vời ở Sapa, thời tiết thay đổi chóng mặt, lần đầu được trải nghiệm cái lạnh như vậy. Dịch vụ khách sạn rất tuyệt, nhà hàng thiết kế theo phong cách dân bản địa, đồ ăn cũng rất ngon. View từ nhà hàng thì quá đỉnh luôn. Hy vọng năm sau lại quay lại.",
+            "reviewer_location": "Việt Nam"
+        },
+        {
+            "name": "Nguyễn Ân",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng đẹp, view đẹp, thuận tiện đi lại",
+            "review_content": "Khách sạn đẹp, giá tốt, phòng decor rất đẹp, lãng mạn. Mình thích nhà hàng của khách sạn, nhiều đồ ăn ngon, thiết kế đẹp, view từ nhà hàng thì siêu siêu đẹp. Khách sạn có cả bể bơi nước nóng nhưng mình không dùng. Nhân viên thân thiện, hỗ trợ đặt tour và vé đi Fan. Vị trí cũng tiện đi lại, vài phút ra đến nhà thờ đá, phố Cầu Mây thì ngay đó, thích ăn chơi gì cũng có. Khách sạn nên tham khảo khi bạn lên sapa!!!",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Hạnh N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt ở sapa",
+            "review_content": "Khách sạn đẹp, nhân viên hỗ trợ tốt. Đi cuối tuần nên sapa hơi đông nhưng lên đúng thời gian trên Fan lạnh nên cảm giác thích lắm. Phòng mình đẹp, view núi. Nhà hàng trên tầng thượng cũng đẹp lắm. Vị trí khách sạn tốt, đi bộ 5 phút là ra nhà thờ đá, điểm mua vé Sun rồi.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Thanh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt ở sapa",
+            "review_content": "Khách sạn phục vụ tốt, phòng double màu hồng vô cùng lãng mạn và đẹp - gọi là phòng tình yêu thì đúng hơn :)) giờ đi Sapa cũng rất dễ dàng và nhanh hơn, lên xe giường nằm làm giấc là đến nơi. Khách sạn có vị trí rất tuyệt, ngay gần quảng trường trung tâm, lại gần phố cổ Cầu Mây. View từ phòng cũng đẹp mà trên khách sạn lại càng đẹp. Giá cả mềm, phục vụ tốt, vị trí tốt. 5* cho khách sạn.",
+            "reviewer_location": "Việt Nam"
+        },
+        {
+            "name": "Lộc Bình",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn view đẹp ở Sapa",
+            "review_content": "Tôi đi cặp đôi, nghỉ khách sạn 3 đêm, các dịch vụ rất hoàn hảo, phòng rộng, thoải mái, các trang thiết bị đầy đủ, điều hoà hai chiều, có bể bơi nước nóng, đồ ăn và phong cách nhân viên phục vụ rất chuyên nghiệp và hiếu khách. Tận tình tư vấn các điểm tham quan du lịch. Thực sự là kỳ nghỉ tuyệt vời.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Duyên",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thuận tiện đi lại",
+            "review_content": "Khách sạn rất gần trung tâm, đi bộ vài phút đến nhà thờ đá, phòng ốc rộng rãi, thoải mái, yên tĩnh có hướng nhìn ra núi, đầy đủ trang thiết bị, nhân viên thân thiện và nhiệt tình giúp đỡ khách, chúng tôi không có gì phàn nàn cả.",
+            "reviewer_location": "Việt Nam"
+        },
+        {
+            "name": "Lâm Thy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi Sapa bất ngờ cùng 5 thằng em",
+            "review_content": "Lần trc đi ở nhà nghỉ bình dân nên lần này đi đặt ks xịn xò hơn chút chút thì chọn đặt ở đây, xem giới thiệu trên này xong mn nên gọi điện lại nv để check cho chắc chắn nhé. Cá nhân m cảm thấy hài lòng khi ở đây, dịch vụ phù hợp với giá cả",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Pink",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời",
+            "review_content": "Lần này là lần thứ hai cơ quan mình đến nghỉ tại khách sạn Châu Long với số phòng là 21. Nhà hàng đẹp, đồ ăn ngon, nhân viên thân thiện nhiệt tình. Nếu có dịp mình sẽ cùng người thân trở lại Châu Long trong những lần tới.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Van Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ks gần trung tâm nhg vẫn thoáng, view đẹp. Đúng tiêu chuẩn ngon bổ rẻ. Nên thử",
+            "review_content": "Lnay là lần t2 ở Châu Long r. 2 lần đều book 3-5 phòng cho cả gia đình. Nhà đông người. Nhg ai cũng ưng ý. Bản thân mình là ng trực tiếp book. Cũng rất hài lòng. Khi các mong muốn của m đều đc các bạn nvien hỗ trợ 1 cách tối đa. Ks thì gần trung tâm. Đi đâu cũng tiện. Tiện nghi xịn xò hay ho phết. Đbiet là toilet. Sưởi ấm. Massage các kiểu kkk",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phương N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Khách sạn đẹp, sạch sẽ nằm trong trung tâm, mất 3 phút đi bộ ra nhà thờ đá. Mình nghỉ ở đây 2 đêm thật sự rất ưng, Nhà hàng trên tầng 7 view trọn ra Fasipan, đồ ăn sáng cũng phong phú, đặc biệt nhân viên rất nhiệt tình. Nếu có dịp chắc chắn sẽ quay trở lại Châu Long trong những kì nghỉ tới.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thoa",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Mọi thứ đều thuận tiện",
+            "review_content": "Mình thấy phòng ốc ở đây cung cấp  rất khang trang và sạch sẽ. Nhân viên đón tiếp khách lễ phép và tận tình hỗ trợ.  Đồ ăn nhà hàng không đắt như mọi người nghĩ, mình đã thử giá lại rất rẻ . nên sử dụng dịch vụ tại khách sạn khi sapa đông khách, đỡ xô bồ mà còn chu đáo. Vị trí cũng dễ tìm kiếm và đi lại. Hài lòng với chất lượng dịch vụ này.",
+            "reviewer_location": "Việt Nam"
+        },
+        {
+            "name": "Mai bảo",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng về mọi thứ",
+            "review_content": "Tôi đã ở hơn chục lần trong vài năm trở lại đây và đều rất hài lòng. Từ lời chào của nhân viên bảo vệ, các nhân viên ở quầy, dịch vụ tại khách sạn Châu Long thật sự ấm áp và nồng nhiệt. Các phòng lớn và thoải mái. Khay tiện nghi trong phòng tắm trong đó có tất cả mọi thứ người ta cần. Và một lần nữa thật sự khen ngợi cho sự tận tụy của nhân viên buồng phòng. Bữa sáng buffet rất ấn tượng và pha trộn giữa hương vị Việt và Tây. Nhìn chung đến khách sạn châu long thực sự như trở về nhà.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Hồng Nhung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đẹp và lãng mạn theo cảm nhận của tôi",
+            "review_content": "Tôi đã chọn một trong những khách sạn tốt nhất ở Sapa, khách sạn nằm ở trung tâm và khoảng cách đi bộ đến các điểm tham quan khác. Các dịch vụ tại lễ tân, các nhà hàng và các khu vực khác là thực sự tuyệt vời và thái độ phục vụ của nhân viên là rất tốt. Các con tôi rất thích bơi và ăn sáng theo kiểu âu. Khu vực bên ngoài bể bơi có rất nhiều các ảnh đẹp, khung cảnh thật sự lãng mạn, các phòng đều được trang trí độc đáo theo hương vị Tây Bắc, phòng thoáng đầy đủ tiện nghi, không có gì phải phàn nàn cả.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Nguyễn Quốc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt ở sapa",
+            "review_content": "Mình đánh giá đây là một khách sạn rất tốt ở sapa: 1. Giá khá hợp lý, chưa đầy 1 triệu mà bao gồm các xe từ Hà Nội 2. Dịch vụ tốt, khách sạn có cả bể bơi nước nóng. Phòng sạch đẹp. 3. Khách sạn cổ kính, khá to, vị trí thuận tiện. 4. Khách sạn có 1 nhà hàng ở tầng thượng, view rất đẹp. Đồ ăn rất ngon.  Với mức giá và dịch vụ như vậy thì không còn gì để chê nữa cả.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Hà Hoàng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thuận tiện đi lại, dịch vụ tốt",
+            "review_content": "Xe đi chuyển vào khách sạn khá dễ dàng, đi bộ vài phút đến trung tâm, phòng ốc khang trang, sạch sẽ và đầy đủ tiện nghi, nên chọn phòng cao viên núi, sáng sớm ngắm núi là điều tuyệt vời nhất, nhân viên nhiệt tình giúp đỡ, đồ ăn sáng đầy đủ cả Âu lẫn Á nhiều món. Nói chung dịch vụ rất là ok. Có nhà hàng trên tầng 7 rất đẹp nhiều hoa Hồng cổ🌹�🌹� c Thiết kế mộc mạc, hành lang ngồi uống cafe view núi thì thôi rồi. Nếu có dịp hãy qua cảm nhận.",
+            "reviewer_location": "Việt Nam"
+        },
+        {
+            "name": "Phương Lê",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Muốn quay lại khách sạn Châu Long",
+            "review_content": "Trong những ngày căng thẳng chống dịch lại thèm nhớ những ngày đầy yêu thương ở Khách Sạn Châu Long. May mắn đặt được phòng tình yêu 💓 và nó trở thành một kỷ niệm khó quên nhất.  Hy vọng dịch bệnh bớt căng thẳng để bọn mình còn sớm quay lại.",
+            "reviewer_location": "Thành phố Hải Phòng, Việt Nam"
+        },
+        {
+            "name": "Thảo Trang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời ở Sapa",
+            "review_content": "Chúng tôi ơi khách sạn Châu Long theo lời khuyên của chị bạn cùng phòng. 2 đêm ở khách sạn quả thực rất tuyệt vời. Phòng view núi, thích nhất là những lúc sương mờ bao phủ cả ban công của phòng. Giá cả khả rẻ, dịch vụ tốt, nhà hàng trên sân thượng thì khỏi nói, view đẹp tuyệt vời. Vị trí thì thuận tiện, đi bộ ra phố cổ, quảng trường, chợ đêm chỉ vài phút. Lần sau quay lại nhất định sẽ ở Châu Long.  Nhà hàng ảnh ở dưới nhé :))",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Vivian Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Great Service, Best Hotel",
+            "review_content": "Gia đình mình tình cờ đi ngang qua khách sạn và book phòng trong sự khẩn trương của một chiều cuối tuần đông đúc.  Cảm nhận đầu tiên là khách sạn Châu Long II đẹp, đẹp về thị giác, kiến trúc đặc biệt độc đáo, decor đẹp, khu vườn đẹp, view toàn cảnh nhìn ra núi rất đẹp,...  Nhân viên đều rất thân thiện và helpful. Phòng ở sạch sẽ, hằng ngày nhân viên phòng đều chuẩn bị khăn tắm mới, refill nước uống. Khách sạn rất gần trung tâm, đi lại thuận tiện, có chỗ đỗ xe ô tô gia đình.  F&B của Châu Long II rất tốt. Bữa sáng buffet với đa dạng món, rất hợp khẩu vị. Nhà hàng có phục vụ cả bữa trưa và bữa tối, rất ngon miệng. Các món uống từ quầy bar cũng rất ổn.  Mình không may để quên chiếc pin dự phòng và sau khi mình rời Sapa được 1 tiếng thì nhân viên khách sạn đã contact ngay để hỏi địa",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Khánh Lê",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sapa dạo này khác quá",
+            "review_content": "Sau 2 năm không quay lại sấp thấy có một sự thay đổi rất lớn. Các con đường đã hoàn thiện, đẹp đẽ, sạch sẽ. Tình trạng các bé người dân tộc chèo kéo khách cũng hạn chế đi rất nhiều. Các con đường chăng cờ hoa khắp nơi.  Châu Long cũng khác quá, phòng ốc đc làm lại quả là đẹp, đặc biệt là mấy phòng tình yêu hihi. ☺️💕💕💕 Đây là sự đổi mới nên có của châu long và mình rất ủng hộ.",
+            "reviewer_location": "Thành phố Hải Phòng, Việt Nam"
+        },
+        {
+            "name": "Quang Toản",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ trên cả tuyệt vời",
+            "review_content": "Tôi ở đây nhiều lần, có thế nói là biết từ khoảng năm 2008 về khách sạn này, khi lần đầu lên sapa đã đặt phòng nghỉ ở đây, rất ấn tượng với kiến trúc này, dịch vụ hoàn hảo, thời đấy tôi ở khách sạn này toàn thấy khách nước ngoài ở chứ ít khách nội địa như bây giờ, phòng ốc các thứ đều ổn cả. Dịch vụ hoàn hảo, riêng cá nhân tôi cảm nhận, nhân viên tư vấn tốt mọi thứ.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Mong Thanh Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng với dịch vụ ở đây",
+            "review_content": "Chúng tôi rất hài lòng với dịch vụ của khách sạn, chăm sóc khách hàng tốt , phòng view đẹp, hướng ra núi fansipan , sạch sẽ, rộng rãi và thoải mái, nhân viên thân thiện, thủ tục nhận phòng và trả phòng rất nhanh gọn. Đồ ăn sáng trên nhà hàng rất hợp khẩu vị , chúng tôi sẽ quay trở lai.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Đinh Mạc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "HOÀN HẢO",
+            "review_content": "Dịch vụ phòng rất tuyệt vời, sạch sẽ và ấm cúng, chúng tôi nghỉ tại khách thật may mắn vào ngày đẹp trời, từ phòng có thể nhìn thấy rõ dãy núi trung trùng điệp điệp và thung lũng mường hoa, nhân viên thân thiện, hết lòng giúp đỡ khách, tư vấn các điểm tham quan chi tiết , cảm ơn khách sạn nhiều.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Thanh Quỳnh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "5* cho Châu Long",
+            "review_content": "Gia đình tôi đi xe riêng từ Hà Nội vẫn mua gói combo của khách sạn vì combo này có nhiều ưu đã như tặng vé tàu hỏa lên ga cáp treo, ăn lẩu hay tư vấn giảm giả các điểm check in, dịch vụ phòng cực kỳ ổn, sạch sẽ thoáng mát và view núi rất đẹp, nhân viên thân thiện, thấy cậu nhân viên nói. Gia đình cô đi mùa này là tuyệt vời vì giá phòng thì ưu đãi, Sapa mùa này rất đẹp nhiều hoa. Chúng tôi rất ưng ý về phòng và các dịch vụ ăn uống ở đây. Tôi sẽ giới thiệu cho mấy đứa cháu , chúng nó cũng đang có ý định lên sapa.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Vũ Hồng Ngọc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "View đẹp, vị trí thuận tiện",
+            "review_content": "Khách sạn này rất gần trung tâm vài phút ra nhà thờ, dù không đặt gói combo nhưng vẫn được hưởng những dịch vụ giảm giá tốt như phòng và đồ ăn, vì mình tự đi xe riêng, bãi đỗ xe ngay cạnh khách sạn. thuận tiện đường xá các điểm tham quan. Phòng khách sạn view đẹp, rất thích uống café sáng ở ban công hay hành lang trên nhà hàng, mê ơi là mê. Nếu đi cứ gọi điện thoại cho khách sạn mà check, mất vài nghìn điện thoại tiếc gì. Đi mà cảm nhận các bạn à !",
+            "reviewer_location": "Thành phố Hải Phòng, Việt Nam"
+        },
+        {
+            "name": "Lưu Đoàn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Xịn xò, sang trọng và view đẹp",
+            "review_content": "Đã đặt combo và trải nghiệm. nhanh gọn lẹ và tiết kiệm, khách sạn trong combo xịn xò, mình thấy combo rất tiện lợi, mọi chi phí gần như đã bao gồm hết, xe cộ, khách sạn chỉ cần mang theo chi phí đi chơi và ăn uống thôi. Nói chung lần này mua combo không thất vọng, Sapa là lần đầu tiên đi nên vẫn còn bỡ ngỡ. nhưng book được combo khách sạn cao cấp mọi dịch vụ perfect, tư vấn mọi thứ rất chi tiết. từ thuê xe máy, đến các điểm nên và không đi vì mình thích sống ảo J . đánh giá 5 sao cho khách sạn này và gói combo này .",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Ly Vuong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt ở Sapa",
+            "review_content": "Cảm thấy yên tâm khi đặt dịch vụ ở đây vì thật ra mình có rất nhiều bạn bè đã từng ở đây, họ rất hài lòng và lần này đến đây cũng là do bạn bè giới thiệu, khách sạn đang có khuyến mại theo combo rất rẻ nên mình đi luôn, các dịch vụ ổn, nên đúng dịp thời tiết đẹp nên trải nghiệm rất nhiều nơi, cáp treo, thác bạc, thác tình yêu, cát cát còn mỗi Tả Phìn với Tả Van chắc là lần sau vậy hihi. Dịch vụ phòng ốc chỉnh chu, sạch sẽ, đồ ăn rất tươi ngon. Nhân viên lễ phép đúng như bạn bè tôi đã giới thiệu, tôi đánh giá cao về cách phục vụ ở đây và chúng tôi sẽ trở lại nếu có dịp đến sapa.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Dgquynh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ấn tượng đặc biệt",
+            "review_content": "Phòng nhỏ nhắn, đầy đủ tiện nghi và có view nhìn ra núi rất xinh. Nhân viên nhiệt tình và chu đáo. Nhà hàng cùng bar có view trên cao rất đẹp vào buổi sáng, đây là điều mình thích nhất tại Châu Long. Vị trí gần với trung tâm nên tiện đi lại, chỉ cần đi bộ một chút gọi là vừa tập thể dục vừa ngắm đường phố Sapa là có rất nhiều sự lựa chọn các nhà hàng hoặc quán cafe tốt. Châu Long là có nét cổ kính nhất định, rất ưng ý mình cũng như những du khách khác nếu cùng sở thích.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Như Phương L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt",
+            "review_content": "Nhân viên nhiệt tình, dịch vụ khách sạn tốt. Bữa sáng nhiều bánh ngọt ngon, tuy nhiên nên bổ sung thêm đồ ăn nóng cho buffet sáng. Phòng sạch sẽ và nhà vệ sinh hiện đại. Nói chung là 1 trong khách sạn đáng trải nghiệm ở Sapa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Dgquynh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt đỉnh nghỉ dưỡng",
+            "review_content": "Tôi đã lưu trú tại khách sạn Châu Long 2 đêm cuối tuần. Phải nói là các dịch vụ tại đây tốt, nhân viên nhiệt tình. Đặc biệt chiếc giường tại đây đem lại một giấc ngủ thực sự rất êm ái. Nếu không đặt chuông báo thức, tôi đã có khả năng ngủ đến 10 giờ sáng mất.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Vietplus",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "NƠI ĐÁNG ĐỂ ĐẾN",
+            "review_content": "phong cảnh và cách thiết kế khách sạn rất độc đáo, thật  tuyệt vời,  nhân viên thân thiện và tư vấn nhiệt tình từ lúc nhận phòng đến lúc trả phòng, tôi và gia đình thật sự tận hưởng kỳ nghỉ tuyệt vời tại đây, sẽ quay trở lại",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nam N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lựa chọn hoàn hảo",
+            "review_content": "Châu Long, một trong những khách sạn lâu năm nhất tại Sapa, có kinh nghiệm vận hành chuyên nghiệp bao gồm lưu trú, lữ hành, vận tải, ăn uống... rát chuyên nghiệp, thaan thiện nhiều món ngon và espsso tuyệt vời. Khách sạn ở ngay trung tâm thị trấn có chỗ đỗ xe có view thoáng đẹp không nơi nào có. Đặc biệt trên tầng thượng của khách sạn là nhà hàng Sky View với lối kiến trúc độc lạ chủ nhân lấy cảm hứng từ thiên nhiên và văn hóa bản địa. Cũng tại Sky View, chúng ta có thể quan sát toàn cảnh dãy Hoàng Liên có đỉnh Fansipan hũng vỹ và ôm chọn thung lũng Violet, Mường Hoa vào ống kính máy ảnh còn phía sau lưng là lò sưởi ấm đủ để mặc áo phông giữa những ngày mưa tuyết. Giá phòng hợp lý cho một khách sạn đẳng cấp, nhà hàng tôi ấn tượng bufet sáng và món lợn bản ăn tối. Nhân viên thân",
+            "reviewer_location": "Sapa, Việt Nam"
+        },
+        {
+            "name": "Dream35627045106",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": " trên cả tuyệt vời.",
+            "review_content": "Tiễn đưa năm cũ, chào đón năm mới. Tôi và gia đình có 1 kỳ nghỉ 3ng2 đêm tại ks Châu long 2 thật tuyệt vời. Cảm ơn ks CL 2 và đội ngũ phục vụ rất nhiệt tình, chu đáo và thân thiện.  Hẹn 1 ngày không xa. Sẽ quay trở lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vũ Hiếu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Sự lựa chọn tuyệt vời cho bạn và người thân!!! View đẹp, dịch vụ tốt. Sự lựa chọn làm hài lòng cả những vị khách khó tính nhất. Tin tưởng và lựa chọn đồng hành cùng những ngày tuyệt vời nhất!! Xin cảm ơn!!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Đặng Hai",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng nghỉ lịch sự, trang nhã",
+            "review_content": "Không gian nghỉ ngơi phòng lịch sự gần gũi rất phù hợp cho chuyến nghỉ dài của gia đình, view đẹp có thể bao quát tận hưởng không gian xung quanh tp Sapa, khách sạn có nhiều món ăn ngon hợp túi tiền với gia đình mình. ",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Thitheu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi đáng nghỉ dưỡng",
+            "review_content": "Tôi đi theo đoàn và nghỉ tại khách sạn này.Phòng đẹp. Dịch vụ tốt, đặc biệt có cái kiến trúc rất cổ kính kiểu châu âu, nhân viên rất nhiệt tình chăm sóc khách. Rất gần với trung tâm tiện việc đi lại và tham quan.",
+            "reviewer_location": "Tỉnh Quảng Ninh, Việt Nam"
+        },
+        {
+            "name": "Thị thảo N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Không còn gì đẹp hơn",
+            "review_content": "Khách sạn thật sự rất lớn và đẹp. Phòng và giường rất thoải mái. Sạch sẽ, ấm cúng. Có cái nhà hàng trên tầng 7 đồ ăn sáng rất ngon và phong phú. Kiến trúc rất sáng tạo với nhiều loại gỗ và thổ cẩm trang trí.",
+            "reviewer_location": "Huế, Việt Nam"
+        },
+        {
+            "name": "ngocgiap",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "CUỐN HÚT TÔI BỞI ẨM THỰC ĐỊA PHƯƠNGChúng tôi tìm đến nhà hàng qua mạng du lịch Tripadvisor, một trong những nhà hàng nổ",
+            "review_content": "https://www.tripadvisor.com.vn/Restaurant_Review-g311304-d14450712-Reviews-Sapa_Sky_View_Restaurant_Bar-Sapa_Lao_Cai_Province.htmlCUỐN HÚT TÔI BỞI ẨM THỰC ĐỊA PHƯƠNG Chúng tôi tìm đến nhà hàng qua mạng du lịch Tripadvisor, một trong những nhà hàng nổi tiếng được du khách trong và ngoài nước đánh giá cao về dịch vụ và cách phục vụ, nhân viên rất niềm nở từ khi chúng tôi bước vào nhà hàng, qua một hồi lâu xem thực đơn chúng tôi đã quyết định chọn món lẩu cá tầm và gỏi cá hồi cho ngày lạnh giá, thật sự vượt qua quảng cáo, đồ ăn ở đây rất tươi ngon, được anh chủ mời thử ly rượu táo mèo ngọt ngọt chua chua lại càng ấn tượng. chúng tôi thật sự hài lòng về dịch vụ của nhà hàng này. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Transon33",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lich sapa",
+            "review_content": "RẤT HÀI LÒNG VỀ DỊCH VỤ👌👌👌  Tôi không có gì phàn nàn về dịch vụ ở đây cả, kể cả việc di chuyển ở Sapa, mọi thứ thật sự rất dễ dàng với tôi, tôi chọn khách sạn này bởi tôi rất thích kiểu kiến trúc này, nó thật sự rất gần gũi và hòa quyện với thiên nhiên, khách sạn rất đẹp khi nhìn thấy núi rừng từ của ban công ra, phòng ốc đến cách phục vụ của nhân viên rất tuyệt vời, con người nơi đây rất thân thiện. khác xa với thành phố đông đúc mà chúng tôi đã từng đi du lịch qua. Chắn chắn là tôi sẽ quay lại và chọn ở đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "ЛыонгТхиен",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ấn tượng sapa!",
+            "review_content": "Khách sạn được bạn giới thiệu ❤️❤️❤️  Do thời gian có hạn, gia đình tôi chỉ ở sapa có 2 ngày 1 đêm, tôi thật sự rất ấn tượng với khách sạn Châu Long, có một kiến trúc kiểu pháp cổ tuyệt vời,  kiểu thiết kế thật sự rất thân thiện với thiên nhiên Tây Bắc, phòng đẹp và rất tiện nghi, đặc biết nhìn ra hướng núi rất tuyệt vời , nhân viên nhiệt tình lễ phép, luôn niềm nở với khách đặc biệt tư vấn tốt các điểm tham quan tại Sapa, gia đình tôi rất không có gì phàn nàn và rất ưng ý khách sạn này, chúng tôi sẽ chọn khách sạn này cho các kỳ nghỉ tiếp theo khi đến với Sapa.",
+            "reviewer_location": "Moscow, Nga"
+        },
+        {
+            "name": "ANNIE",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "WOW TUYỆT VỜI",
+            "review_content": "sau 3 năm du học mới quay trở lại Việt Nam, chuyến đi đầu tiền là Sapa, phong cảnh núi rừng rất hùng vĩ, tôi cùng bạn trai đã lựa chọn Chau long cho kỳ nghỉ tại đây, khách sạn cổ kính và rất đẹp, nhân viên chăm sóc khách hàng rất chu đáo, vì đã lên Sapa rồi nhưng lâu không còn nhớ, may mắn được tư vấn rất đầy đủ thông tin, chúng tôi đã có những trải nghiệm thành công mỹ mãn, cũng may mắn thêm là đi đúng hôm thời tiết đẹp , cáp treo fansipan đúng là đẹp như thiên đường vậy",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Khánh băng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ấm cúng cho tuần trăng mật",
+            "review_content": "Lần đầu tiên biết đến tripavisor khi nghỉ ở khách sạn. Khách sạn rất cổ kính. Phòng view núi đặc biệt bố trí honeymoon cho vợ chồng mình. Nhân viên tư vấn nhiệt tình các điểm đi chơi ở sapa.các dịch vụ không có gì phàn nàn cả.thật tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngọc Hà",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng đẹp, view đẹp, phục vụ tận tình chu đáo",
+            "review_content": "Khách sạn ở trung tâm thị trấn Sapa, đi lại rất thuận tiện, phòng đẹp và sạch sẽ, cửa sổ phòng nhìn xuống thung lũng Mường Hoa rất đẹp, nhân viên tiếp đón và phục vụ tận tình chu đáo, đồ ăn ngon chỗ ngồi thoải mái.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Đỗ Sơn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thiết kế cổ kính, view núi mê ly!! Giá cả hợp lý",
+            "review_content": "Mình rất thích những nơi có phong cách cổ điển,cổ kính của phương tây và mình đã chọn Chaulong hotel bởi vì đây là một trong những khách sạn có thể nói là được xây dựng sớm nhất tại Sapa. Nhân viên phục vụ chu đáo,có đủ các service như tắm thuốc,xông hơi,massage, đặc biệt là có bể bơi.Cảm ơn khách sạn đã cho mình những trải nghiệm thú vị!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quang Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "view đẹp giá phải chăng đồ ăn ngon",
+            "review_content": "lên sapa rất nhiều lần nhưng đây là chỗ ở đẹp nhất mình từng đi. view đẹp như chốn bồng lai tiên cảnh. nhà hàng trang trí rất đẹp. phục vụ tận tình. rất tiếc là chỉ cho được 5 sao tối đa. rất mong có ngày đc quay lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Traveler57737064399",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "View đẹp... giá hợp lý👌",
+            "review_content": "Khách sạn trang trí theo phong cách cổ điển phương tây, view trước và sau ban công đều đẹp với nhiều chậu hoa và tường rêu tạo không gian cổ kính và lãng mạn... phòng đủ rộng cho các cặp đôi và ấm áp... nói chung là cực kỳ hài lòng❤️❤️❤️",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Odyssey19818160066",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Chúng tôi đã chọn sapa là nơi hưởng tuần trăng mật va châu long hotel là nơi nghỉ chân.ấn tượng đầu tiên là châu long hotel có khung cảnh quá lãng mạn,nhân viên phục vụ thân thiện khi gặp tôi ở sảnh họ đều niềm nở chào,đồ ăn rất ngon hợp khẩu vị.hẹn gặp các bạn vào dịp gần nhất, về Việt nam tôi sẽ quay trở lại đây 1 lần nữa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Pioneer03087500365",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ hè",
+            "review_content": "Khách sạn Châu  long  có vị trí đẹp ở trong trung tâm Sapa, view núi tuyệt đẹp. Phòng rộng trang trí với những cấu trúc độc và lạ .mang lại cảm giác thoải mái   và tiện nghi,đầy đủ  với đội ngũ nhân viên thân thiện . Đặc biệt có bể bơi nước nóng trong nhà nữa. Chắc chắn sẽ chọn Châu long cho lần du lịch tới ở Sapa .... 👌",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Sapa Châu Long chuyến đi tuyệt vời",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời !",
+            "review_content": "Châu Long II là một khách sạn đẹp với lối kiến trúc vô cùng độc đáo, con người nơi đây thực sự thân thiện và gần gũi, cách bài trí không gian nội thất tinh tế, tiện nghi, ấm áp và vô cùng thơ mộng, tầm nhìn đẹp vị trí rất thuận lợi cho việc di chuyển thăm quan... Thú vị nhất là được ngồi tựa ghế tầng thượng hòa mình cùng mây trời và nhâm nhi tách cafe thơm nức, hướng mắt xa xa đắm mình cùng thơ cảnh hữu tình mà hiếm có nơi nào trên trái đất này có được. Cảm ơn tất cả.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Peter Cuong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Khách sạn thật tuyệt,đồ ăn ngon và quan trọng là đội ngũ nhân viên được đào tạo để làm dịch vụ rất chuyên nghiệp.Tôi rất hài lòng về dịch vụ ở đây,chúng tôi sẽ quay lại vào dịp gần nhất,xin cảm ơn tất cả dịch vụ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "TheKneipe",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cuối tuần ở ks Châu long Sapa",
+            "review_content": "Khách sạn có vị trí đẹp trung tâm Sapa, view núi tuyệt đẹp. Phòng rộng và tiện nghi, nhân viên rất thân thiện. Đặc biệt có bể bơi nước nóng trong nhà nữa. Chắc chắn sẽ chọn Châu long cho lần du lịch tới ở Sapa",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Maidast",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Perfect!!!!",
+            "review_content": "Khách sạn xứng đáng đứng thứ 1 tại đây.  Chúng tôi có một trải nghiệm tuyệt vời tại sapa và tại khách sạn. Khi trên ô tô rời khỏi Sapa chúng tôi đã hẹn nhau ngày trở lại và ở khách sạn một lần nữa. Tôi đã chọn Châu Long II cho đoàn của mình vì những chậu hoa xinh xắn trang trí ngoài khách sạn. Đơn giản đó là thiện cảm từ cái nhìn ban đầu. Chúng tôi đặt 19 phòng và chúng tôi rất hài lòng với tiện nghi phòng ốc, vệ sinh tuyệt hảo cũng như tầm nhìn từ phòng ngủ. Bữa ăn được phục vụ tại tầng 7, Sapa Sky View Restaurant and Bar, đó là nơi tuyệt đẹp về bài trí và có tầm nhìn ra núi rất đẹp. Đồ ăn ngon và đầy đặn. Tôi thích nhất bữa sáng buffe tại đây với món phở có thể nói ngon hơn rất nhiều Hà Nội. Một người trong đoàn chúng tôi đã ăn tới hai bát. Tuy nhiên điều chúng tôi ấn tượng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Maps47796002148",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "khách sạn 5 sao",
+            "review_content": "khách sạn sạch sẽ,nhân viên nhiệt tình ,chu đáo ,không gian thoáng mát ,view đẹp tuyệt vời.rất thích đồ uống trên tầng thượng vì vừa uống vừa nhìn thấy cảnh đẹp ,có nhiều chỗ để check in sống ảo .bể bơi  nước nóng làm tôi có thể thư giãn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "VonTe",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chúng tôi thực sự rất thích ở đây",
+            "review_content": "Khách sạn được trang trí đẹp mắt và có cảm giác rất ấm cúng, vị trí tuyệt vời và dịch vụ tuyệt vời! Họ thật tốt bụng đến nỗi cảm thấy như về nhà mỗi tối, Các nhân viên đều rất xuất sắc. . căn phòng rất tốt và thoải mái với tầm nhìn ra thung lũng, chúng tôi chắc chắn sẽ giới thiệu cho bất kỳ bạn bè / gia đình nào đến thăm Sapa và sẽ trở lại trong tương lai.",
+            "reviewer_location": "Naples, Ý"
+        },
+        {
+            "name": "Rachriah",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Khách sạn này là rất tốt đẹp và các nhân viên là đặc biệt. Họ luôn đi thêm một dặm cho khách của họ. Họ cho phép nhận phòng sớm và trả phòng trễ để phù hợp với kế hoạch du lịch của chúng tôi. Tất cả nhân viên nói tiếng Anh khá tốt nên dễ dàng giao tiếp nhu cầu của chúng tôi và cũng hỏi họ về khu vực. Hồ bơi rất đẹp, ấm áp và rất thư giãn sau một ngày với rất nhiều đi bộ và mua sắm. Chúng tôi có một phòng gia đình và rất ấn tượng với nó lớn như thế nào, giường cũng rất thoải mái.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Rodolfo Beck",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Giá trị khách sạn tốt nhất ở sapa?",
+            "review_content": "Chau Long Hotel cung cấp dịch vụ đặc biệt với bữa sáng miễn phí chất lượng tốt nhất. Các phòng rất thoải mái và được bổ nhiệm với nội thất mới. Sảnh chứa đầy những nét đẹp, Sẽ khuyên bạn nên ở lại đây khi đến Sapa.",
+            "reviewer_location": "Montreal, Canada"
+        },
+        {
+            "name": "truly",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "tuyệt vời như ở nhà",
+            "review_content": "Tôi trở lại đây với người yêu đã ở lại một vài ngày, tất cả những người làm việc ở đây luôn làm tôi hạnh phúc. Nó thật đẹp quan điểm giống như một cái gì đó từ một giấc mơ. Thức ăn và đồ uống thực sự tốt và nhân viên rất thân thiện và hữu ích. Chúng tôi đã có một ngày thực sự tuyệt vời.",
+            "reviewer_location": "London, Vương quốc Anh"
+        },
+        {
+            "name": "Konrad A",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vị trí tuyệt vời, phòng rộng",
+            "review_content": "Tôi đã dành ba đêm tại khách sạn ChauLong, được giới thiệu bởi những người bạn sống ở thành phố quê hương của tôi. Các nhân viên lễ tân rất thân thiện và hữu ích. Căn phòng rộng hơn và yên tĩnh hơn tôi mong đợi. Nó có tất cả các tiện nghi và tiện nghi bạn có thể muốn. Bữa sáng thật tuyệt vời, rất nhiều thức ăn và trái cây tươi. Vị trí của khách sạn là tuyệt vời. Rất nhiều nhà hàng và mua sắm và gần thị trấn. Tôi chắc chắn sẽ ở lại đây trong chuyến đi tiếp theo tới Sapa!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Karine",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lưu trú đáng yêu ở Sapa",
+            "review_content": "Khách sạn tốt! Chúng tôi là một ban công khá lớn với một viễn cảnh tuyệt vời! Phòng của chúng tôi cực kỳ sạch sẽ. Bữa sáng rất tuyệt, họ có tất cả những gì bạn cần cho một khởi đầu tuyệt vời trong ngày. Tôi chắc chắn sẽ trở lại khi tôi trở lại Sapa!",
+            "reviewer_location": "Coventry, Vương quốc Anh"
+        },
+        {
+            "name": "jeff an",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi tuyệt vời, khách sạn tuyệt vời",
+            "review_content": "Kỳ nghỉ của chúng tôi tại khách sạn Châu Long thật tuyệt vời, dịch vụ khách hàng cực kỳ thân thiện. Chúng tôi sẽ có một ngày cuối tuần kéo dài tại làng Sapa và hạnh phúc với các dịch vụ khách sạn như địa điểm, quan điểm, phòng, nhân viên. Chúng tôi đặt một phòng Deluxe đôi đó là tuyệt đẹp với một giường cỡ vua và các cơ sở hiện đại, Phòng tắm là lớn, sạch sẽ với bồn tắm và đặc biệt là ban công riêng với tầm nhìn tuyệt vời.",
+            "reviewer_location": "England, Vương quốc Anh"
+        },
+        {
+            "name": "C.Blande",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chế độ xem tuyệt vời",
+            "review_content": "Vị trí tốt với tầm nhìn tuyệt vời trên đường phố phụ, tuy nhiên, điều kiện đường xá không tốt. Phòng có các tiện nghi cần thiết, nhà vệ sinh với tủ quần áo hiện đại. Nhân viên thân thiện. Thức ăn ngon. Nói chung, vui với kỳ nghỉ này",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "dac n",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chúc bạn vui vẻ",
+            "review_content": "Khách sạn Châu Long đã được chọn cho chuyến đi này vì chúng tôi đã nghe nói rằng khách sạn đã có một sự đổi mới lớn thông qua trang web của khách sạn. Phòng mới với các tiện nghi cần thiết. Phòng ăn sáng trên tầng 7 với tầm nhìn ra quang cảnh. Tuyệt diệu. Hạnh phúc với kỳ nghỉ của chúng tôi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "hung N",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "sapa một đêm",
+            "review_content": "hình ảnh khách sạn trên web là tốt nhưng thực sự khách sạn cũ, có thể là khách sạn 4 sao tôi đã đặt 3 phòng tiêu chuẩn & 1 phòng suite cho một đêm (7 - 8 tháng 7) và họ đã cho chúng tôi ở tầng dưới, hầu như không nhìn ra núi như hàng xóm đang xây dựng, - Nhà hàng có tầm nhìn tốt vì nó nằm trên đỉnh (tầng 7) nhưng việc phá vỡ nhanh không phù hợp với 4 sao một. Tiện nghi phòng không mới (nhà vệ sinh chỉ mới) và không làm việc tốt (hộp an toàn & tủ quần áo), khóa cửa sổ là hư hại trong phòng suite của tôi: (. số tiền đã trả.",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "24 Phố đồng Lợi, Sapa 333101 Việt Nam",
+        "name": "Khách sạn Châu Long II",
+        "geo_data": {
+            "latitude": 22.332778930664062,
+            "longitude": 103.84182739257812
+        },
+        "room_number": "87",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/a6/6a/c-nh-nhin-t-ngoai.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/bc/ac/a2/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/bc/ad/82/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4e/b4/c1/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/af/9e/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/af/08/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/99/10/nha-hang-an-u-ng-trong.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/50/05/b1/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/a6/ee/view-khach-s-n.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/af/aa/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/3f/10/18/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/bc/ad/6e/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/9a/98/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/98/85/nha-hang-an-u-ng-trong.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/bc/ad/d4/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/5b/33/b7/it-s-nice-view-from-our.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6b/27/ee/amazing-view-from-here.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/9f/cc/phong-h-i-ngh-h-i-th.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/af/80/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/af/70/khach-s-n-chau-long-ii.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

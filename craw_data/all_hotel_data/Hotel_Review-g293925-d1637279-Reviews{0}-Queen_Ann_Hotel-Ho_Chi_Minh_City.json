@@ -1,0 +1,411 @@
+{
+    "content": [
+        {
+            "name": "Ha D",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng tốt",
+            "review_content": "Rất tuyệt vời, chất lượng phòng tốt,chất lượng phục vụ tốt, nhân viên phucu vụ nhiệt tình thân thiện cởi.mở giúp khách hàng tìm hiểu về địa điểm du lịch thăm quan toàn thành phố, đồ đạc trong phòng tiện nghi sạch sẽ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thân H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng tốt",
+            "review_content": "Chất lượng phục vụ tốt Sạch sẽ. Phục vụ nhiệt tình thân thiện. Đồ nội thất đẹp trang trọng, lịch sự sạch sẽ, dọn phòng kịp thời. Tạo điều kiện cho khách đi lại thăm quan vòng quanh thành phố. Có đồ ăn sáng ngon tiện lợi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nhy Đặng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn thân thiện",
+            "review_content": "Mình đi du lịch nhưng vẫn muốn ở khu yên tĩnh, may mắn chọn được khách sạn ưng ý- Sang trọng, yên tĩnh, thân thiện. Các bạn nhân viên rất nice và chuyên nghiệp Mình sẽ ở đây thường xuyên và sẽ là khách hàng thân thiết",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Khanh Linh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt nhất SG",
+            "review_content": "Sở dĩ tôi đánh giá khách sạn này tốt nhất bởi vì họ có đội ngũ nhân viên phục vụ khách rất có tâm họ chăm sóc người lớn tuổi và trẻ em cực kỳ tốt ông bà cha mẹ tôi rất thích ở đây vì họ không bao giờ ngó lơ chúng tôi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vu Thang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Excellence",
+            "review_content": "Nằm trên đường Bùi Thị Xuân khách sạn được xây dựng theo lối kiến trúc hiện đại và sang trọng với vị trí đắc địa tại trung tâm thành phố phố du lịch của miền Nam Việt Nam đây là nơi lưu trú thuận tiện cho khách hàng doanh nghiệp và khách du lịch thiết kế phòng theo tiêu chuẩn châu Âu được trang thiết bị đầy đủ tiện nghi tất cả các phòng đều có phòng cháy chữa cháy điện thoại riêng điều hòa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Khanh Van",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Xuất sắc",
+            "review_content": "Khách sạn nằm ngay chợ bến thành, khu trung tâm thương mại, việc đi lại rất thoải mái và nhanh chóng, nhân viên khách sạn phục vụ rất chuyên nghiệp, thân thiện, tận tụy.  Tôi và gia đình sẽ quay lại đây vài lần nữa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "LIEM HO",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời",
+            "review_content": "Chúng tôi có 1 kỳ nghỉ thật tuyệt vời Queen Ann hotel cách chợ Bến Thành 10 phút đi bộ cách sân bay quốc tế Tân Sơn Nhất 20 phút lái xe các phòng ngủ của Bình An được trang bị tủ lạnh tủ mini và máy pha cà phê quầy lễ tân hỗ trợ 24 giờ có cái an toàn khách sạn cung cấp các dịch vụ thu đổi ngoại tệ và đưa đón sân bay du khách có thể thư giãn với đồ uống và cà phê tại quầy lobby. Xin cảm ơn Queen Ann",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Mimi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn hiện đại sang trọng",
+            "review_content": "Phòng sạch sẽ ấm cúng nhất là nằm đối diện với bãi biển đi bộ ra bãi biển rất gần chừng vài bước chân ăn nhân viên rất thân thiện thích các bác tuổi lớn tuổi vì bác rất hiền các cô nhân viên lễ tân giúp đỡ khách hết mình nói chung là rất tốt",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanh Trực",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đổi Ngủ nhân viên tốt",
+            "review_content": "Không gian xanh xanh mát nhân viên tôi tôi ngày mười lăm về phòng ngủ hai phòng rồi sẽ được đầy buffet sags rất ngon và đa dạng hồ bơi nhiều trò chơi  nhiêu loại hồ bơi khác nhau Nhân viên luôn thân thiện và nhiệt tình",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tram Tran",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn chuẩn 3 sao",
+            "review_content": "Nhân viên rất vui vẻ, nhiệt tình. Phòng sach sẽ, gọn gàng. Nhà hàng đầy đủ các món ăn châu á và châu âu. Nhân viên lễ tân làm thủ tục check in và check out nhanh chóng, tôi sử dụng quầy mini bar nhưng chịu phí rất rẻ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Diem Pham",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "TOT",
+            "review_content": "Tôi có dịp cũng gia đình trãi nghiêm dịch vụ tại khách sạn Queen Ann. Nhân viên ở đây khá thân thiện và nhiệt tình giúp đỡ chúng tôi, mọi thứ ở đây thật tuyệt vời từ phòng ốc, mọi thứ ở trong phòng đều rất tốt và mới, dịch vụ đạt chuẩn chất lượng, nhà hàng ăn sáng cũng rất tốt các món ăn ngon và phong phú Nếu có dịp tôi vẫn sẽ chọn khách sạn Queen Ann cho kỳ nghỉ của mình",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tuan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên thân thiện",
+            "review_content": "Nhân viên ở đây khá thân thiện họ luôn vui vẻ nhiệt tình với chúng tôi làm cho chúng tôi khá bất ngờ về cách phục vụ ở đây tôi sẽ quay lại đaya vào tháng sau để tận hưởng lại cảm giác tuyệt vời mà không ở đâu có được",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tam Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp, sang trọng",
+            "review_content": "Tôi và gia đình đã có một chuyến đi thú vị vào sài gòn, khách sạn queen ann tuyệt đẹp với đội ngũ nhân viên phục vụ tận tình chu đáo, mọi người trong gia đình tôi rất hạnh phúc khi ở đây như chính trong ngôi nhà của mình",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phúc minh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhan viên chuyên nghiệp",
+            "review_content": "Nhan viên ở đây rất nhiệt tình vui vẻ khi đon tiếp khách cũng như chăm sóc khách trong thời gian lưu tru người quản lý ở đây cũng rất tuyệt vời họ luôn hướng dẫn khách tham quan những nơi hữu ích,  cảm ơn khách sạn và Nhân viên ở đây đã cho tôi ky nghi tuyệt vời",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "le dat",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn sang trọng",
+            "review_content": "Tôi cùng vợ sắp cuóiw vào Sài Gòn thăm nguoìw thân đã ở khách sạn Queen Ann 2 ngày 1 đêm cảm giác ở đây rất ấm cúng nhân viên nhiệt tình chuyên nghiệp tôi Hy vọng khách sạn sẽ  đuợc nhiều nguoìw ủng hộ trong thoìw gian toíw",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Duong Huynh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tiêu chuẩn",
+            "review_content": "Khách sạn đạt chuẩn 3 sao có phòng rất đẹp có đầy đủ dịch vụ như khách sạn 4 sao,  nhân viên có tay nghề cao,  khách sạn nằm ngay mặt đường nên việc đi lại rất thuaanj lợi và tiết kiệm khá nhiều thời gian cho tôi,  tôi sẽ giới thiệu bạn bè khi đến nơi này",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngô Trà",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chỗ ở tốt",
+            "review_content": "Tôi vào Sài Gòn công tác 7 ngày gặp khách hàng và tôi chọn khách sạn này làm nơi nghỉ ngơi cảm giác ở đây rất thoải mái phòng rất yên tĩnh và thoáng đãng giữa trời nắng nóng oi bức khách sạn có nhà hàng với các loại nước uống ngon và rẻ hơn ở ngoài rất nhiều",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lien_vo95",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Nhân viên thân thiện, phòng sạch đẹp, giá cả hợp lí. Ở đây thật sự thoải mái như ở nhà khi mọi thứ đều được nhân viên hỗ trợ nhiệt tình. Cảm ơn các bạn, lần sau quay lại chắc chắn ga đình mình lại chọn Queen Ann.",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Linh Thao",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khach san hien dai",
+            "review_content": "Phong co nhieu tien ich va vat dung rat hien dai, nhan vien lam phong rat chuyen nghiep va phuc vu chu dao, nhan vien le tan lam thu tuc nhanh chong, nhan vien bep nau an rat ngon, nhan vien bao ve co nhieu thong tin huu ich, moi thu rat tot",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "my trang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "nhan vien tot bung",
+            "review_content": "nguoi chu cua toi bi cao huyet ap nhung quen mang thuoc theo de uong, rat may la nhan vien lam phong da kip thoi phat hien chu toi co trieu chung la nen da goi cho bac sy den xu ly, sau do con cap thuoc uong cho chu cua toi, toi rat cam on doi ngu nhan vien cua khach san",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thao Uyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khach san tot nhat",
+            "review_content": "Chung toi da o day 2 ngay 1 dem moi thu that tuyet voi gia phong o day rat re nhung phong cach phuc vu cua khach san rat chuyen nghiep hon nhung gi chung toi mong doi hy vong sap toi toi co dip quay lai day de o khach san nay them lan nua",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phi Truong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phong sach se",
+            "review_content": "Phong sang trong sach se nen o rat thoai mai. Khong gian rat thoang dang va yen tinh du khach san nam ngay trung tam thanh pho. Nhan vien phuc vu phong don dep rat chu dao. Ho thay ga giuong moi ngay nen toi rat hai long chat luong dich vu noi nay",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "thanh đài",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Viet Nam tuoi dep",
+            "review_content": "Tôi đã có 1 kỳ nghỉ cùng gia đình tại khách sạn Queen Ann. Tôi xin gửi lời cảm ơn đến toàn thể nhân viên khách sạn đặc biệt là bạn Loan lễ tân, bạn đã cung cấp cho tôi nhiều thông tin hữu ích để tôi có thể tiết kiệm thời gian tìm kiếm nơi vui chơi. Tôi sẽ quay lại đây nhiều lần nữa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Xuan Duc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cho o tien nghi",
+            "review_content": "Noi day co rat nhieu thu de khien toi co the ngac nhien, dau tien la anh bao ve rat tan tinh, chu dao khi mo cua xe taxi cho toi va dung o che nang. Nhan vien le tan rat xinh dep va tuoi tan. Phong o sach se, thong thoang, noi that sang trong. Toi se o lai day them vai tuan nua.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Le Ha",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khach san hien dai",
+            "review_content": "Toi va ban be da o day 3 ngay 2 dem, khach san rat sach se, cach nhan vien phuc vu rat chuyen nghiep, nhanh chong. Cac diem vui choi giai tri deu nam trong ban kinh 1 km nen viec di lai rat de dang va thuan tien. Wifi o day rat on dinh nen chung toi co the vua lam viec vua thu gian",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Le truong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ky nghi am ap",
+            "review_content": "Toi va vo moi cuoi co mot ky trang mat tuyet voi tai trung tam sai son, cac quan an o day rat ngon va gia ca rat hop ly, buoi toi rat nhon nhip tren cac con duong dac biet la ve dem pho di bo bui vien rat soi dong, toi cam on khach san da cho toi ky nghi tuyet voi ben vi hon the cua toi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Chichi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khach san tien nghi va sang trong",
+            "review_content": "Khach san nam ngay trung tam thanh pho nen viec di lai rat thuan loi va tiet kiem. Toi an tuong voi cach phuc vu cua nhan vien dac biet la nhan vien bao ve. Ho chao hoi rat nhe nhang lich su toi thay ho co the giao tiep bang tieng anh voi nguoi ngoai quoc. That la tuyet voi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Bao bao",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trai nghiem tuyet voi",
+            "review_content": "Chua bao gio toi o khach san 3 sao nao tot nhu o day, moi thu rat thuan loi va dap ung tat ca yeu cau cua toi. Tu cach nhan vien le tan noi chuyen den cach nhan vien don phong rat chuyen nghiep. Khach san co dich vu dua don san bay mien phi va nhanh chong. Toi rat cam on khach san da cho toi trai nghiem thu vi nay",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "beckham",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khach san tuyet voi",
+            "review_content": "khach san o vi tri thuan loi, gan nhieu dia diem du lich, nhan vien than thien, cham soc tan tinh. Phong o sach se, sang trong. Bua an day du cac mon Au, A. Toi se quay tro lai Queen Ann o nhung ky nghi sau",
+            "reviewer_location": "London, Vương quốc Anh"
+        },
+        {
+            "name": "Colin R",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên tuyệt vời",
+            "review_content": "Vì vậy, đây là một trong những khách sạn tốt nhất tôi từng ở. Các phòng đều tuyệt vời và đội ngũ nhân viên rất đặc biệt. Con ruồi trong thuốc mỡ là  tiếng ồn giao thông. Nhưng này là thành phố Hồ Chí Minh và tiếng ồn giao thông ở khắp mọi nơi. Nếu tôi quay trở lại, tôi chắc chắn sẽ ở lại đây một lần nữa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "robertc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn GooD",
+            "review_content": "Tôi có thể bắt đầu từ đâu? Queen Ann Hotel trông nhỏ nhưng tốt cho kỳ nghỉ ngắn. Căn phòng sạch sẽ và thơm tho. Nhân viên thân thiện và niềm nở. Họ nói ít tiếng Anh nhưng đủ rõ ràng để hiểu.",
+            "reviewer_location": "Sydney, Úc"
+        },
+        {
+            "name": "Tracy Tyler",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Vị trí tốt",
+            "review_content": "Chúng tôi đã đến thăm vào tháng 12 năm 2017, như một phần của tour du lịch và Thành phố Hồ Chí Minh là điểm dừng chân cuối cùng của chúng tôi. Khách sạn ở một vị trí tốt và phòng của chúng tôi có kích thước tốt, hiện đại và sạch sẽ với tầm nhìn tuyệt vời của thành phố. Chúng tôi có một căn phòng góc để chúng tôi có tầm nhìn toàn cảnh thật tuyệt vời. Nhược điểm của chúng tôi là kích thước của phòng ăn, không thể di chuyển xung quanh, một căn phòng nhỏ như vậy với rất nhiều bàn bị nhồi nhét, sự lựa chọn cũng kém. Tuy nhiên tôi nghe nói khách sạn đã được tân trang lại nên tôi hy vọng cách bố trí và không gian của phòng ăn đã được trang điểm.",
+            "reviewer_location": "Nottingham, Vương quốc Anh"
+        },
+        {
+            "name": "BC Q",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lần đầu tiên ở việt nam",
+            "review_content": "Đi trên một chuyến đi gia đình đến Việt Nam.  Nhân viên thân thiện và mến khách, phòng sạch sẽ và rộng rãi.  Thức ăn rất ngon.  Phòng tắm là tốt với một vòi hoa sen thác nước đẹp.  Khách sạn rất gần với mọi thứ khách du lịch cần.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kim Chi T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Queen Ann",
+            "review_content": "Tôi luôn thích ở khách sạn Queen Ann khi tôi ở trong đội ngũ nhân viên luôn hữu ích và thân thiện, các phòng luôn thoải mái và luôn được trình bày tốt khi bạn mới đến và khi bạn trở về sau một ngày, vị trí cũng phù hợp với tôi.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "IanVezy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vị trí trung tâm tốt.",
+            "review_content": "Được tiếp cận bởi một cầu thang lớn, Q Ann tọa lạc tại trung tâm thành phố Hồ Chí Minh (TP HCM). Nhân viên của nó rất hữu ích và thân thiện. Chúng tôi đã được kiểm tra một cách hiệu quả nhưng sau đó cung cấp một sự lựa chọn của các phòng. Rất đáng để có một cái nhìn như khung cảnh là bốn trên tầng 3 nhưng những khung cảnh đáng yêu trên toàn thành phố, đặc biệt là vào lúc hoàng hôn và lên cao. Phòng là một kích thước tốt - sạch sẽ và mọi thứ hoạt động tốt. Ăn sáng theo kiểu tự chọn. Sự kết hợp thông thường của ẩm thực phương Tây và địa phương. Thức ăn rất ngon & phong phú.  Nhân viên bên ngoài sẽ giúp bạn có một chiếc taxi. Tôi không biết nếu họ nhận được một kickback. Họ nên dường như luôn luôn có được những chiếc taxi thân yêu. Vinh taxi từ! Vấn đề này không phải chỉ có ở đây!",
+            "reviewer_location": "Birmingham, Vương quốc Anh"
+        },
+        {
+            "name": "Yasmin",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Căn phòng rất sạch sẽ và dễ chịu. Các bữa ăn sáng là nổi bật, bởi sự đa dạng, chất lượng và chất lượng của nó. Mọi người rất thân thiện và hữu ích. Giá phòng rất hợp lý và vị trí rất tuyệt. Và tổng thể tôi rất muốn giới thiệu khách sạn này.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "alottarocco",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ và kinh doanh",
+            "review_content": "Tôi đã đến khách sạn và khu vực Hồ Chí Minh này trong 4 năm qua khi tôi đi du lịch qua châu Á để đi công tác và nghỉ lễ và đó là một trong những sở thích của tôi! Các nhân viên là không thể tin được! Luôn sẵn sàng giúp tôi bất cứ điều gì tôi cần và đưa ra các khuyến nghị tuyệt vời cho thực phẩm, mua sắm, xem trang web và làm bất cứ điều gì thêm để đảm bảo rằng kỳ nghỉ của tôi là dễ chịu và chào đón. Họ vừa hoàn thành một cuộc cải tạo lớn trong khách sạn này trong 3 - 6 tháng qua và trước đây thì rất tuyệt nhưng giờ thì nó rất đẹp! Phòng kiểu dáng hiện đại và tất cả đồ đạc mới. Có Địa điểm là trung tâm để đi lại và trong khoảng cách đi bộ đến hầu hết các địa điểm chính. Tôi giới thiệu khách sạn này cho tất cả bạn bè và đối tác kinh doanh của tôi. Tôi vừa kết thúc chuyến đi và sẽ",
+            "reviewer_location": "Calgary, Canada"
+        },
+        {
+            "name": "Bluebell_Mel",
+            "avatar": "",
+            "review_rating": "2",
+            "review_title": "Không ấn tượng",
+            "review_content": "Ở đây như một phần của chuyến du lịch cuối cùng của chuyến đi du lịch Intrepid của tôi vào tháng Giêng.  Trong số tất cả các khách sạn tôi đã ở lại với họ, điều này có lẽ là tồi tệ nhất. Các phòng đều là những vấn đề nhỏ, ngày và thực sự với tiếng ồn đường phố HCM mặc dù gần như ở trên đỉnh.  Mọi người phàn nàn về chất lượng thức ăn vào bữa sáng. Thường thì không có gì còn lại, hoặc lạnh không quan trọng thời gian bạn đi xuống. . . ngay cả khi nó đã được ngay sau khi họ đã mở. Thật tệ là tất cả những gì tôi có là cà phê trong 2 ngày.  Điều duy nhất cho nó là vị trí và nhân viên.  Đi đâu đó khác.",
+            "reviewer_location": "Berkshire"
+        },
+        {
+            "name": "JO B",
+            "avatar": "",
+            "review_rating": "1",
+            "review_title": "Nữ hoàng Ann rất thất vọng.",
+            "review_content": "Chúng tôi ở lại đây như là một phần của một nhóm du lịch Intrepid và rất thất vọng với khách sạn nói chung. Sau khi yêu cầu nhiều lần cho máy điều hòa không khí được xem xét bởi vì nó không hoạt động, cuối cùng chúng tôi đã chuyển đến một phòng khác. Chúng tôi được yêu cầu đến và lấy chìa khóa mới từ quầy tiếp tân mà chúng tôi đã làm với tất cả đồ đạc của chúng tôi trong tow từ phòng cấp 8 của chúng tôi. Sau đó chúng tôi được giao chìa khóa cho chìa khóa phòng mới của chúng tôi cho cấp 9. 3 nhân viên đứng và nhìn chúng tôi đấu tranh với hành lý của chúng tôi và nói với chúng tôi để đi đến phòng mới của chúng tôi với hành lý của chúng tôi. Không ai giúp đỡ. Phòng mới giống như cũ nhưng với điều hòa không khí làm việc. Thiết yếu ở nhiệt độ 36 độ. Ăn sáng rất cơ bản với ít sự lựa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "cburk33",
+            "avatar": "",
+            "review_rating": "1",
+            "review_title": "Thực sự, thực sự tổng.",
+            "review_content": "Khách sạn này tha hồ nếu không một chuyến đi tuyệt vời đến Việt Nam. Có rất nhiều vấn đề ngay từ đầu.   1. Chúng tôi được cho một căn phòng nhỏ ngay từ đầu. Họ đồng ý di chuyển chúng tôi nếu chúng tôi trả tiền để nâng cấp. Điều đáng kinh ngạc là sau đó chúng tôi thấy rằng những người độc thân trong nhóm của chúng tôi đã được cung cấp các phòng lớn hơn đáng kể mà không mất thêm chi phí.  2. Phòng tắm được bao phủ trong khuôn.  3. Phòng rất bụi bặm.  4 . Windows đã bẩn thỉu.  5. Toàn bộ tầng hầm. . . khi chúng tôi phàn nàn giải pháp là tiếp tục phun bằng chất làm mát không khí khiến mọi thứ trở nên tồi tệ hơn.  6. Sau khi bị bệnh một đêm, tôi yêu cầu một người dọn dẹp phòng tắm. Điều này đã được thực hiện với khăn khách của chúng tôi (được thay thế nhưng, tổng).  7. Không có dịch",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Fran M",
+            "avatar": "",
+            "review_rating": "1",
+            "review_title": "Đáng sợ, bỏ chạy!",
+            "review_content": "Bẩn, có mùi, ồn ào, phòng nhỏ. Ăn sáng là khủng khiếp, vị trí là ok nhưng không tuyệt vời. Không có dịch vụ phòng, quầy bar hoặc nhà hàng sau buổi trưa. Tính năng mua lại duy nhất là cửa hàng tiện lợi Circle K trên đường! Có nhiều nơi đẹp hơn để ở lại TP HCM. Làm cho bạn một ưu và tránh điều này!",
+            "reviewer_location": "Brisbane, Úc"
+        },
+        {
+            "name": "JWalker610",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Tốt khách sạn của một tiêu chuẩn trung bình nhưng vị trí tốt",
+            "review_content": "Tôi ở lại đây trong 3 đêm trên một chuyến đi gần đây đến thành phố Hồ Chí Minh và nó đã được khá tốt. Các phòng đều khá lớn và đẹp nhưng với một tấm nệm cứng, nhưng điều đó có vẻ ngang bằng với khóa học ở Việt Nam. Nhân viên đã được tốt đẹp và thân thiện. Khách sạn nằm cách Phố Bùi Viện khoảng 3 dãy nhà. Có một cửa hàng tiện lợi 24 giờ trên đường phố rất thuận tiện. Wifi là khá mạnh mẽ xung quanh. Ăn sáng trên mức trung bình. Tôi nghĩ đó là Quận 1 vốn là một quận đắt giá hơn cho mọi thứ nhưng nó vẫn còn khá rẻ ở khắp mọi nơi theo tiêu chuẩn phương Tây. Chỉ có một thang máy để bị trúng hoặc bỏ lỡ nếu bạn đợi 10 giây hoặc 10 phút. Tôi sẽ ở lại đây một lần nữa vì nó đánh dấu rất nhiều hộp cho một khách sạn thành phố tốt.",
+            "reviewer_location": "Liverpool, Vương quốc Anh"
+        },
+        {
+            "name": "Jesshaun",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "Vị trí tốt nhưng chỉ có khách sạn trung bình",
+            "review_content": "Chúng tôi ở lại đây trong hai đêm vào cuối một tour du lịch Intrepid 10 ngày. Thật không may, đây là yêu thích của chúng tôi ít nhất của các khách sạn chúng tôi ở tại Việt Nam.  Khách sạn tọa lạc tại một vị trí thuận tiện và có hiệu thuốc, một vòng tròn k và nhiều nhà hàng cũng như quán bar gần đó. Nó cũng là khoảng cách đi bộ hoặc đi taxi ngắn từ nhiều điểm tham quan chính của thành phố Hồ Chí Minh. Các phòng được rộng rãi và sạch sẽ với một kết nối WiFi tốt. Ngoài sự chào đón nồng nhiệt từ người gác cửa, các thành viên khác của đội ngũ nhân viên không quá thân thiện hoặc hữu ích.  Tuy nhiên, chỉ có một thang máy nhỏ và thường mất một thời gian dài để nó đến tầng có liên quan, đôi khi nó vẫn còn đầy hoặc đưa chúng ta đến tầng sai!  Các bữa ăn sáng là dưới trung bình so với các",
+            "reviewer_location": "London, Vương quốc Anh"
+        },
+        {
+            "name": "sonaloswal",
+            "avatar": "",
+            "review_rating": "1",
+            "review_title": "Khách sạn tồi tệ nhất để ở",
+            "review_content": "Chúng tôi đã đi cho chuyến đi Việt Nam từ ngày 10 tháng 3 - 16 tháng 3 năm 2018 (hanoi, vịnh halong và thành phố Hồ Chí Minh) như một kỳ nghỉ gia đình. chúng tôi đã đặt một chuyến tham quan riêng cho chúng tôi. chúng tôi là 4 người lớn và 2 trẻ em. Đã có thời gian tuyệt vời cho đến khi chúng tôi đến thành phố Hồ Chí Minh khách sạn Queen Ann vào ngày 13 tháng 3 năm 2018. Dưới đây là tất cả các điểm:  1) các phòng nệm rất cứng và nếu bạn biến nó làm cho tiếng ồn rất nhiều. AC đã không làm mát trong 1 phòng của chúng tôi khi chúng tôi gọi là tiếp nhận họ thực hiện những câu chuyện và vấn đề vẫn giữ nguyên cho toàn bộ thời gian của chúng tôi (13 tháng 3 - 16 tháng ba). Sau khi tiếp tục gọi cho họ, họ cuối cùng đã cho fan hâm mộ bàn vào đêm 15 tháng 3.  2) 1 phòng tắm của phòng có",
+            "reviewer_location": "Singapore, Singapore"
+        },
+        {
+            "name": "AlyJ105",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Ngay tại trung tâm",
+            "review_content": "Chỉ cần ra khỏi con đường chính nhưng vẫn rất bận rộn. Chúng tôi đã có thể đi bộ đến bưu điện cho một chuyến đi đến các đường hầm nhưng như thường lệ mà không phải là điểm dừng duy nhất của chúng tôi, chúng tôi gọi là tại một trang trại lợn rực rỡ. Khách sạn là rất tốt đẹp và chúng tôi đã may mắn có một góc phòng trên nhìn những con đường bận rộn mà là hấp dẫn nhưng không thể nghe thấy bất cứ điều gì. Khách sạn tự nó là khá hiện đại spotless và các nhân viên đều rất thân thiện và hữu ích",
+            "reviewer_location": "Port Talbot, Vương quốc Anh"
+        },
+        {
+            "name": "N Heal",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Nice khách sạn nhưng thiếu một quán bar",
+            "review_content": "Đã ở lại vài ngày ở đây trong khi lưu diễn. Trên một con đường rất bận rộn (nhưng tất cả các con đường đều bận rộn!) Phòng đẹp rất nhiều không gian. Phòng tắm đẹp nhưng tắm trên bồn tắm spa khá cao để bước vào. Nhân viên rất thân thiện và lịch sự. Sạch sẽ trong suốt khách sạn không có dấu hiệu của lỗi bất cứ nơi nào! Giặt là giá rẻ để được thực hiện trong khách sạn quá thả ra vào buổi sáng và trở lại trong phòng của bạn vào buổi tối! ATM ngay bên kia đường bên cạnh trạm xăng.",
+            "reviewer_location": "Paphos, Síp"
+        },
+        {
+            "name": "Nat B",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "khách sạn nhỏ ở vị trí yên tĩnh",
+            "review_content": "Ở đó chỉ 1 đêm trước khi vào Campuchia. Đó là khách sạn bình dân khá đẹp, không quá xa, không quá gần các điểm tham quan chính của Sài Gòn. Nơi rất yên tĩnh. Nhân viên rất thân thiện. Chưa bao giờ thử ăn sáng vì chúng tôi phải đi rất sớm để băng qua Campuchia. Nhưng tôi tin rằng khách sạn này không phải là một nơi tồi tệ để ở lại trong khi ở Sài Gòn.",
+            "reviewer_location": "Perth"
+        }
+    ],
+    "hotel": {
+        "location": "86-88 Bùi Thị Xuân Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh 70000 Việt Nam",
+        "name": "Queen Ann Hotel",
+        "geo_data": {
+            "latitude": 10.771101951599121,
+            "longitude": 106.68942260742188
+        },
+        "room_number": "57",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/b2/7e/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/96/56/e9/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/96/57/5b/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/96/57/5a/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/f3/05/b2/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/f3/02/06/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/b2/a3/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/96/57/58/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/cf/97/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/f3/05/d9/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/f3/05/81/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/f3/04/6b/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/b3/6d/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/b3/6b/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/b2/9e/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/b2/94/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/b2/8d/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/b2/78/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/6e/b2/75/queen-ann-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/de/6d/14/caption.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

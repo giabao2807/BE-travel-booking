@@ -1,0 +1,379 @@
+{
+    "content": [
+        {
+            "name": "Trang N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời",
+            "review_content": "Khách sạn nằm gần phố cổ, thuận tiện đi lại và tham quan Hà Nội. Phòng sạch sẽ đầy đủ tiện nghi, nhân viên lễ tân chu đáo nhiệt tình, đầu bếp nấu món ngọt và món mặn rất ngon. Mình sẽ quay lại cho lần công tác và nghỉ dưỡng những lần sau",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Luong H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Địa điểm tốt, phục vụ tuyệt vời",
+            "review_content": "Chúng tôi ngụ tại Là Siesta Mã Mây ba đêm vào đầu tháng 12. Khách sạn ở giữa phố cổ, thuận tiện để tham quan, mua sắm cũng như khám phá thức ăn ngon Hà Nội. Phòng ngủ thiết kế nhã nhặn, hài hòa, thức ăn sáng sạch sẽ, ngon miệng và nhiều món để chọn lựa. Chúng tôi rất ngưỡng mộ tinh thần hợp tác phục vụ của toàn thể nhân viên trong khách sạn và tài năng điều hành, huấn luyện của ban giám đốc. Cám ơn và chúc tất cả nhân viên của La Siesta Mã Mây thành công và an vui.",
+            "reviewer_location": "San Francisco, California"
+        },
+        {
+            "name": "Tuyết H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn giữa phố cổ",
+            "review_content": "Khách sạn thiết kế rất đẹp, vị trí thuận lợi ơi ngay trung tâm phố cổ gần Hồ Hoàn Kiếm... Nhân viên lễ tân rất chuyên nghiệp, nhiệt tình và chu đáo, ai cũng xinh. Trong khách sạn có nhà hàng Red Bean phục vụ đồ ăn rất đa dạng, nhân viên phục vụ rất tận tình. Mình nhất định sẽ quay lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trek65433286032",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất tuyệt vời !! ",
+            "review_content": "Lần đầu mình ở khách sạn Lasiesta với gia đình. Phòng gia đình rất rộng , có 2 tầng riêng biệt, đẹp và sạch sẽ . View thoáng, có đầy đủ dịch vụ spa gym ,nhà hàng và sky Bar rất đẹp. Khách sạn ở trung tâm phổ cổ, gần ngay các điểm du lịch nên rất tiện lợi. Giá hơi cao nhưng dịch vụ rất tốt. Phòng rộng mình rất thích. Nhân viên thân thiện và lịch sự , dịch vụ tốt , đặt biệt cảm ơn bạn lễ tân Hương đã giúp tôi chuẩn bị đồ ăn dù nó không có trong thực đơn nhà hàng. Những dịp ra Hà Nội sau này, chắc chắn mình sẽ lại ở đây",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "thdong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "tuyệt vời",
+            "review_content": "Nguyễn Thành Biên Tôi rất thích và hài lòng với dịch vụ bện khách sạn! Từ nhân viên lễ tân đến nhân viên phục vụ rất nhiệt tình với khách hàng .Đặc biệt  là bạn lễ tân tên Hương. Bạn ấy đã giúp tôi có chuyến đi Hạ Long và Sapa tuyệt vời. Khách sạn và phòng sạch sẽ, lịch sự . Địa chỉ khách sạn ở trung tâm phố cổ , dễ đi lại tham quan . Những chuyến đi sau tôi sẽ tiếp tục lựa chọn khách sạn này.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trinh Phan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch Hà Nội",
+            "review_content": "Tất cả các nhân viên của khách sạn mà gia đình tôi tiếp xúc đều rất nhiệt tình, chu đáo, đặc biệt là hai cô Doan và Hương. Chúng tôi nói với nhau rằng, nếu lần sau đến HN, nhất định sẽ quay lại khách sạn này để lưu trú.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Don D",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất tốt khu vực phố cổ",
+            "review_content": "- Khách sạn nằm ngay trung tâm phố cổ, gần nhiều địa điểm ăn uống.  - Nhân viên lịch sự, nhiệt tình.  - Phòng ốc tốt.  - Có thể đi/đến bằng ô tô/taxi/grab  - Quán bar roof-top rất đẹp.  - Buffet sáng ngon, nhiều lựa chọn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Panda B",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất nhiệt tình",
+            "review_content": "Đầu tiên ở đây thì mình thấy facility rất tốt, hợp với giá tiền. Các bạn nhân viên rất nhiệt tình luôn giúp đỡ hết mức với các yêu cầu của khách hàng. Ngoài ra các bạn reception cũng rất dễ thương và tận tâm như bạn Hằng. Tóm chung, mình hơn cả hài lòng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trần Thiện Khuyến",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất tuyệt ở khu vực Phố cổ",
+            "review_content": "Lần thứ 2 quay lại lưu trú tại khách sạn này và những ấn tượng tuyệt vời về khách sạn vẫn giữ nguyên không có gì thay đổi. Vị trí tuyệt vời,  Thái độ nhân viên tuyệt vời, Phòng ốc tuyệt vời, Các cam kết ưu đãi cho khách hàng được thực hiện tuyệt vời, 1 cảm giác rất ấm cúng, thân thiện khi lưu trú tại đây. Đây sẽ là Khách sạn ưu tiên hàng đầu của tôi trong các chuyến đi đến Hả Nội của tôi trong tương lai.",
+            "reviewer_location": "Biên Hòa, Việt Nam"
+        },
+        {
+            "name": "Jane",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Khách sạn đẹp, vị trí ngay giữa phố cổ, thuận tiện đi lại, có thể tận hưởng không khí Bờ Hồ buổi sớm, dạo quanh phố cổ ăn vặt… Dịch vụ và phục vụ của khác sạn rất tốt. Nhân viên nhiệt tình, thân thiện, hỗ trợ khách hết mình Rất thích hệ thống của La Siesta.  Mình tin chắc khác ở La Siesta một lần đều muốn quay lại",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Nhật Tân",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "HÀ NỘI - MÙA HOA LOA KÈN",
+            "review_content": "Ngoài vị trí cực kỳ đẹp: trung tâm khu vực Phố cổ Hà Nội, gần các điểm nổi tiếng như bờ hồ Hoàn Kiếm, quảng trường Đông Kinh Nghĩa Thục, Tạ Hiện - Lương Ngọc Quyến, v.v.. Mình đánh giá rất cao decor cũng như dịch vụ, phục vụ của Khách sạn này. Đặc biệt là bạn sales - Hoàn Phạm rất chu đáo, tư vấn cặn kẽ. Những dịp công tác tại Hà Nội sau này, chắc chắn mình sẽ lại ở đây.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "BunBun2014",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Đây là lần đầu tiên tôi được ở khách sạn La Siesta, và trải nghiệm hơn cả sự mong đợi. Đội ngũ nhân viên từ Lễ tân, nhà hàng đều rất chuyên nghiệp. Ngoài ra, quầy bar Moon Light is a MUST TRY Destination :) Chắc chắn tôi sẽ quay lại khách sạn trong thời gian sớm nhất",
+            "reviewer_location": "Tỉnh Quảng Nam, Việt Nam"
+        },
+        {
+            "name": "yeoneeee",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "깔끔 맛있는조식 관광지와 가까운거리 친절한 직원",
+            "review_content": "1.거의 모든 관광지와 거리가 가까움 2.프론트 데스크 직원 분을 포함한 모든 직원이  친절함 3.맛있는조식 4.깔끔한 룸 컨디션 5.마지막날 비행기 타기전 샤워 서비스 30분 제공 ㅠㅠㅠ 6.마지막날 공항갈때 그랩택시 타는 곳까지 짐 들어줌 ㅠㅠㅠ 비행기에서 먹으라고 도시락도 주셨어요!!!! 7. 주요 맛집 관광지 지도에 체크해주시며 잘 설명해주심 ㅋㅋ 저는 하노이 미용실도 추천받아서 머리도 예쁘게 잘 잘랐어요 ㅎㅎ 8. 청소도 매일 잘해주심 (3박 했어요)  특히 친절했던 Anh Quynh에게 감사합니다 ♡♡♡  Đặc biệt là nhân viên khách sạn Anh Quynh đã giúp đỡ rất nhiều!  Cảm ơn Anh Quynh rất nhiều !!♡♡♡♡",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "laitrannguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tôi rất thích khách sạn này, rất đẹp và sạch sẽ, sang trọng",
+            "review_content": "Khi có dịp đi Hà Nội mình hay ghé khách sạn này, nhân viên rất lịch sự, thoải mái. Phòng đẹp và sạch. View thoáng, đẹp. Giá hơi cao nhưng dịch vụ tốt. Phòng rộng mình rất thích. Nhân viên thân thiện và lịch sự.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Mr Nguyễn Thành Nam",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ hoàn hảo",
+            "review_content": "Khách sạn có cách trang trí nội ngoại thất đẹp. Dịch vụ cũng rất hoàn hảo. Tiện đi lại chơi các địa điểm phố cổ. Dịch vụ đưa đón sân bay rất hữu ích cho những người từ xa đến. Một kỳ nghỉ tuyệt vời tại Hà Nội",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Jet768191",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tuyệt",
+            "review_content": "Khách sạn nằm ở trong phố cổ, rất tiện lợi để đi dạo, mua sắm hay tham gia các hoạt động vui chơi. Phòng ốc thoáng sạch, sang trọng, giá cả hợp lý. Nhân viên phục vụ lễ phép, chuyên nghiệp. Tiếc là lại chỉ đi có 1 mình đến đây. 😃",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "MrQuy896",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất Tuyệt Vời",
+            "review_content": "Phòng khách sạn ở đây rất sạch sẽ. Nhân viên phục vụ cũng rất chu đáo, nhiệt tình. Đặc biệt bạn có thể ra vào bất cứ lúc nào, chứ không giống 1 số khách sạn có giờ ra vào cố định. Mình thấy rất bất tiện Dịch vụ đặt phòng online cũng rất nhanh chóng, dễ dàng",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Huynh Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp",
+            "review_content": "Khách sạn nằm tại trung tâm khu phố cổ. Rất thuận lợi cho mọi hoạt động vui chơi, giải trí. Phòng rộng rãi nhiều tiện ích. Tôi rất ấn tượng với sự tận tâm của nhân viên nơi đây. Họ làm cho tôi cảm thấy như đang ở nhà mình. Đội ngũ lễ tân chuyên nghiệp và luôn mỉm cười. Xin cảm ơn các bạn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nhim510",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một nơi tốt để nghỉ ngơi!",
+            "review_content": "Chúng tôi ghé thăm thủ đô vào dịp trăng mật :). Hai đứa đi vòng vòng quanh HN để tìm khách sạn ở lại trong chuyển thăm quan Thủ đô. và chúng tôi đã không phải thất vọng khi lựa chọn La Siesta ngay Phố cổ. Khách sạn tương đối lớn, phòng rất thoáng và đẹp. Nhân viên phục vụ rất chu đáo, anh quản lý rất thân thiện và nhiệt tình. Chúng tôi chắc chắn sẽ lựa chọn La Siesta nếu có dịp quay lại Hà Nội.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Thuy N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ấn Tượng Nhất Màn Tiễn Khách",
+            "review_content": "Mình với ông xã ở khách sạn từ năm ngoái rồi nhưng mãi chưa có thời gian review. Phòng mình ở diện tích vừa phải, sạch sẽ, thiết kế phòng ok, dễ thương.  Anh tên Tường, hình như là quản lý, rất thân thiện và tư vấn nhiệt tình cho khách các địa điểm ăn uống ở HN.  Cuối cùng, màn tiễn khách rất Ấn Tượng! Hoan hô cho ngành hospitality của Việt Nam! Y chang như màn tiễn khách của những resort đẳng cấp nhất ở Maldives luôn nhé. 5 sao!!! ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "BellaLe1610",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt, san trọng, lịch sự",
+            "review_content": "Đây là một khách sạn rộng, đẹp, service tốt, giá cả phải chăng, đồ ăn ngon.  Khách sạn nằm trên con phố đi bộ, buổi tối cuối tuần rất nhộn nhịp với các hoạt động văn hóa đặc sắc. Tôi rất thoải mái. Tôi sẽ quay lại cho những chuyến công tác tiếp theo của mình.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "anbee",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "\"Khách sạn tốt nhất phố cổ\"",
+            "review_content": "Tôi đã ở hầu hết các khách sạn tốt nhất nằm trong top 10 trên tripadvisor năm 2014 và 2015 không gì bàn cãi La Siesta là khách sạn tốt nhất trong phố cổ hiện nay. Các khách sạn ở phố cổ rất nhỏ và thường không có cửa sổ, chỉ vài phòng có cửa sổ mà thôi. La Sieta là một khách lớn nằm ngay trên phố với quá nhiều sự lựa chọn về hàng ăn cũng như mua sắm ngay ngoài khách sạn. Nhưng điều đặc biệt có lẽ là khách sạn có nhiều cửa sổ nhất.   Ngoài phòng Suite Junior hai vợ chồng tôi ở, tất cả các phòng khác tôi xem nói chung  về mặt thẩm mỹ và tinh tế  là hơn những khách sạn khác. Các dịch vụ ăn sáng, ăn tối và spa đều thể hiện là tốt nhất.  Với 100 người phục vụ cho 50 phòng nghỉ tại đây, tiêu chuẩn này là rất cao so với quy mô của khách sạn. Họ là những người đam mê với mục đích mang",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Sunanda Das",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời nhất",
+            "review_content": "Đặt phòng Hà Nội La Siesta Hotel & Spa trong 2 đêm trong tháng 1 năm 2020. Chúng tôi đang đi du lịch khắp châu Âu và châu Á tại hơn 40 quốc gia và nhiều khách sạn ở mỗi quốc gia. Ở tại Hà Nội La Siesta nổi bật là trải nghiệm khách sạn tốt nhất của chúng tôi. Tôi đã nhận được một cuộc gọi từ khách sạn một ngày trước khi ở Bangalore xác nhận đặt phòng - chưa bao giờ trải nghiệm điều này trước đây từ một khách sạn ở nước khác. Việc kiểm tra rất được chào đón và suôn sẻ và cô Thu đã giải thích một cách ngoạn mục từng chi tiết và khiến chúng tôi cảm thấy như ở nhà. Sự kết hợp trà gừng nóng và quả mơ khô rất hấp dẫn đến nỗi chúng tôi đã đóng gói cả hai từ một cửa hàng trái cây khô vào ngày hôm sau. Cô Tiến được chào đón nhất từ ngày hôm sau trở đi từ bữa sáng và chăm sóc tất cả những",
+            "reviewer_location": "Bangalore District, Ấn Độ"
+        },
+        {
+            "name": "eatsleeprepeatblog",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thật đáng yêu",
+            "review_content": "Vào một ngày lạnh lẽo, mưa phùn, chúng tôi được chào đón nồng nhiệt đến khách sạn xinh xắn này. Nó có một ốc đảo bình tĩnh giữa khu phố cổ bận rộn và tôi rất vui vì chúng tôi đã chọn ở lại đây. Khi kiểm tra, chúng tôi được tặng trà và trái cây nóng trên ghế sofa thoải mái trong khi giấy tờ được chăm sóc sau đó là một tổng quan ngắn gọn nhưng kỹ lưỡng về khách sạn và xung quanh, tôi có ấn tượng rằng họ sẽ giúp đỡ và đặt câu hỏi hoặc vấn đề. Sau đó chúng tôi được đưa lên phòng rất sạch sẽ, rộng rãi và được bổ nhiệm. Vì vậy, nhiều khách sạn có thể tìm hiểu về một kiểm tra hoàn hảo từ khách sạn này!  Chúng tôi ở lại 4 đêm và không muốn rời đi. Nó được bao quanh bởi các quán bar, nhà hàng, cửa hàng, siêu thị, ATM, thợ cắt tóc, hiệu thuốc - tất cả mọi thứ bạn có thể cần. Chúng tôi rất",
+            "reviewer_location": "Thâm Quyến, Trung Quốc"
+        },
+        {
+            "name": "jevt2812",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "rất khuyến khích",
+            "review_content": "Các nhân viên đã tuyệt vời từ thời điểm chúng tôi đến! Chúng tôi ở lại 2 đêm chia nhau bởi hành trình 1 đêm đến vịnh Hạ Long và chúng tôi có thể để hành lý chính qua đêm. Các nhân viên rất niềm nở, có tiếng Anh rất tốt, và họ đã hộ tống chúng tôi đến phòng của chúng tôi cả hai lần. Tôi thậm chí đã gặp vấn đề với kính áp tròng của mình khi tôi đến và một trong những nhân viên đề nghị cho tôi thuốc nhỏ mắt. Vị trí rất tuyệt, đi bộ đến hồ và tất cả các cửa hàng. Ngay bên kia đường là nhà hàng duong 2 cũng rất tuyệt và tôi rất khuyến khích. Tôi chắc chắn ở lại đây một lần nữa và rất khuyến khích khách sạn này.",
+            "reviewer_location": "Brisbane, Úc"
+        },
+        {
+            "name": "SandieJM",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên tuyệt vời - khách sạn đẹp",
+            "review_content": "Chúng tôi đã dành ba tuần ở Việt Nam để đi du lịch với trẻ nhỏ và đây là khách sạn yêu thích của chúng tôi. Các nhân viên đều rất thân thiện, hữu ích và chủ động, điều mà chúng tôi đánh giá rất cao. Họ nhanh chóng sắp xếp mọi thứ chúng tôi cần với hiệu quả cao. Ngoài ra, thức ăn là tuyệt vời, khách sạn được trình bày đẹp mắt, và sạch sẽ với giường thoải mái. Các quán bar trên bầu trời đầy phong cách có tầm nhìn tuyệt vời ra thành phố. Chúng tôi chắc chắn giới thiệu khách sạn này cho những người khác và hy vọng một ngày nào đó sẽ trở lại chính mình. Cảm ơn bạn cho một kỳ nghỉ thú vị như vậy.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "David444",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời",
+            "review_content": "Tôi đã thực hiện nghiên cứu trực tuyến trong việc lựa chọn khách sạn này và rất vui mừng khi thấy rằng những đánh giá của khách du lịch là chính xác. Khách sạn tuyệt vời, phòng được thiết kế đẹp, thân thiện, nhân viên chào đón, quầy bar trên sân thượng mới mở - một trải nghiệm và bữa sáng ngon miệng. Khách sạn cũng có vị trí tuyệt vời trong khu phố cổ Hà Nội. Chúng tôi chắc chắn sẽ ở lại đó một lần nữa khi chúng tôi tới thăm Hà Nội.",
+            "reviewer_location": "USA"
+        },
+        {
+            "name": "leongchanfromnl",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Các khách sạn tốt nhất tôi từng có. Các nhân viên đối xử với tôi như thể tôi là người đặc biệt hơn đối với họ.",
+            "review_content": "Vị trí tuyệt vời. Trái tim của khu phố cổ. Bữa sáng thêm đặc biệt. AlCarte plusBuffet. Sở hữu nồi chè gang của hương vị yêu cầu của bạn. Không phải xếp hàng như ở hầu hết các khách sạn hàng đầu cho bữa sáng nấu chín. Chắc chắn sẽ giới thiệu cho bạn bè và gia đình.",
+            "reviewer_location": "Huế, Việt Nam"
+        },
+        {
+            "name": "Tim H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Giới thiệu tóm tắt tại La Siesta (Khách sạn và Spa) Hà Nội",
+            "review_content": "Du lịch một mình đến Việt Nam lần đầu tiên, tôi muốn dành một vài đêm thoải mái trước khi lặn vào cảnh ký túc xá của Hà Nội.  Khi đặt phòng, tôi được phân bổ một căn phòng không có cửa sổ, nhưng khách sạn đủ tử tế để chuyển tôi, không phiền phức, sang một cửa sổ có cửa sổ, điều mà tôi rất biết ơn. (Họ thực sự mô tả sự thay đổi phòng là một 'nâng cấp', có lẽ là như vậy).  Căn phòng thật xinh xắn, có một chiếc giường êm ái với những tấm vải trắng tinh, TV với một vài kênh tiếng Anh; tất cả đều tốt và phù hợp với những gì tôi mong đợi cho một khách sạn 4 *.  Trong bữa sáng là tuyệt vời. Một thực đơn nấu theo đơn đặt hàng nhỏ (tôi đã có một món trứng ốp la ngon cả hai lần) và một bữa tiệc buffet với một loạt các món ăn sáng kiểu lục địa và tiếng Anh, cùng với một số món phương Đông",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kapil S",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời là không đủ",
+            "review_content": "Từ lúc chúng tôi đến cho đến khi chúng tôi rời đi với một món quà trong tay từ khách sạn, đó là một trải nghiệm không giống bất kỳ ai khác. Cô Linh chịu trách nhiệm về chúng tôi từ trước khi chúng tôi đến WhatsApp và liên lạc cho đến khi chúng tôi cất cánh từ sân bay. Từ việc quản lý các chuyến bay và taxi thay đổi của chúng tôi đến nâng cấp lên một bộ gia đình vào tối qua của chúng tôi, không có gì quá bận tâm đối với cô ấy và các nhân viên gương mẫu. Nhà hàng đậu đỏ có thể hơi đắt tiền, nhưng thịt bò trong phở cũng ngon hơn 2 lớp. Vị trí tuyệt vời trong khu phố cổ chỉ cách hồ 5 phút và cách thức ăn tuyệt vời và mát-xa vài giây, thực sự không có gì là không thích. Thưởng thức!",
+            "reviewer_location": "Kuala Lumpur, Malaysia"
+        },
+        {
+            "name": "Mick C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên xuất sắc",
+            "review_content": "Nếu bạn muốn dịch vụ từ nhân viên thực sự biết thành phố và mọi thứ bạn có thể muốn làm trong đó, thì đây là khách sạn dành cho bạn. Khách sạn này có tất cả mọi thứ cho khách du lịch, dịch vụ tuyệt vời thức ăn tuyệt vời và nó ở một vị trí đắc địa ở giữa khu phố cổ. Cần nhớ ở trong một khách sạn thân thiện hơn bất cứ nơi nào. Khách sạn này là giá trị ghé thăm.",
+            "reviewer_location": "Albury, Úc"
+        },
+        {
+            "name": "Di M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Spa thiên đường",
+            "review_content": "Các gói nuông chiều là nổi bật. Massage tốt nhất bao giờ hết, dịch vụ trà và bầu không khí nổi bật. Chỉ cần những gì cần thiết sau khi khám phá các khu phố cổ. Nhân viên đặc biệt thân thiện và có sức chứa. Khuôn mặt khiến làn da tôi mềm mại và mê mẩn. Rất khuyến khích",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Alexandfi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt đẹp",
+            "review_content": "Chồng tôi và tôi ở lại đây như một phần của chuyến đi Việt Nam và chúng tôi không thể yêu cầu thêm.  Khách sạn có vị trí hoàn hảo trong khu phố cổ nhưng chính nhân viên của họ đã khiến nó trở nên đặc biệt. Chúng tôi đã may mắn ở lại một số khách sạn siêu hạng trong chuyến đi nhưng họ đã làm mọi thứ tốt hơn một chút so với phần còn lại.  Tôi không thể giới thiệu khách sạn này đủ cao và chúng tôi rất muốn quay lại nếu chúng tôi trở lại Việt Nam một lần nữa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "HeidiDale",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Điều trị 5 sao",
+            "review_content": "Chúng tôi đã đặt La Siesta dựa trên giá trị tốt và bị thổi bay bởi những gì chúng tôi nhận được. Chỗ ở, thực phẩm và dịch vụ đã vượt quá mong đợi của chúng tôi. Căn phòng sang trọng và bữa sáng xa hoa. Chúng tôi cũng đã ăn tối tại nhà hàng Red Bean trong khách sạn (điều mà chúng tôi không bao giờ làm) và cũng ấn tượng không kém. Quầy lễ tân đã đi phía trên và xa hơn để tổ chức các hoạt động và vận chuyển cho chúng tôi và thậm chí sắp xếp một buổi kiểm tra muộn để chúng tôi có thể tắm và chuẩn bị cho một chuyến khởi hành vào buổi tối muộn. Tôi sẽ tìm nhóm này ở mọi thành phố khi tôi đi du lịch.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "janicey356",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên phục vụ xuất sắc",
+            "review_content": "Đó là chuyến đi đầu tiên của tôi đến Hà Nội cùng với bạn tôi và kỳ nghỉ ở Hà Nội La Siesta Hotel & Spa thật tuyệt vời khi chúng tôi muốn trở về với gia đình. Cô Scarlett ở quầy lễ tân rất hữu ích và cô ấy khiến chúng tôi cảm thấy như ở nhà từ lúc chúng tôi đến nơi cho đến khi chúng tôi rời đi. Chắc chắn sẽ giới thiệu khách sạn này cho bạn bè vì vị trí của nó, ăn sáng tốt và cuối cùng nhưng không kém phần quan trọng, đội ngũ luôn ở đó để giúp bạn với một nụ cười chân thật.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "SCwestoz",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Steve",
+            "review_content": "Tôi đã không ở tại khách sạn, nhưng tôi đã ăn tại nhà hàng “nhà hàng Redbean”. Khung cảnh đẹp và không khí. Thức ăn thật đáng yêu, tôi có cà ri thịt bò dừa với gạo và rau thơm. Giá trị lớn. Tom, người phục vụ của tôi là một quý ông thực sự. Và anh ấy rất có sức chứa. Dinning thú vị như vậy.",
+            "reviewer_location": "Perth, Úc"
+        },
+        {
+            "name": "alexandra k",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt nhất tại Việt Nam!",
+            "review_content": "Chồng tôi và tôi dành vài ngày tại la siesta ở Hà Nội như một phần của tuần trăng mật của chúng tôi. Các nhân viên biết đó là tuần trăng mật của chúng tôi và đã cho chúng tôi giỏ trái cây và nâng cấp bộ miễn phí! Nhìn chung, một khách sạn rất đẹp, nhưng điều làm cho nó nổi bật là dịch vụ. Bất cứ điều gì chúng tôi yêu cầu, hai phút sau, chúng tôi đã có một ai đó từ các nhân viên tại cửa của chúng tôi tham dự vào nó! Chúng tôi cũng yêu cầu họ cất giữ túi của chúng tôi trong khi chúng tôi đi du lịch vòng quanh Việt Nam (tôi có một túi ván lướt sóng khổng lồ với 3 ván lướt sóng trong đó và một chiếc va li khác mà tôi để ở đó). Họ rất vui khi lưu trữ những thứ này trong 10 ngày cho đến khi chúng tôi trở về Hà Nội miễn phí! ! Nó chỉ có thể được đánh giá là một khách sạn 4 sao, nhưng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "katsha",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt nhất bao giờ hết!",
+            "review_content": "Có đọc các bài đánh giá trực tuyến, chúng tôi quyết định chúng tôi muốn ở lại đây, nhưng không có gói nào phù hợp với gói 7 đêm của chúng tôi. Chúng tôi gửi email trực tiếp với các ngày của chúng tôi và trong vòng một giờ, chúng tôi đã có một phản ứng đáng yêu với một gói được thiết kế riêng với mức giá rất hợp lý, bao gồm cả hành trình qua đêm Vịnh Hạ Long. Từ giây thứ hai, chúng tôi được đón tại sân bay, cho đến khi chúng tôi lại được thả ra một lần nữa với bữa sáng đóng gói đáng yêu của chúng tôi, chúng tôi cảm thấy bình tĩnh và chăm sóc tốt. Khách sạn có vị trí đẹp và đẹp, nhưng đó là nhân viên làm cho nó là gì. Mỗi thành viên duy nhất của nhân viên đi ra khỏi con đường của họ để đảm bảo rằng bạn có tất cả mọi thứ bạn có thể cần hoặc muốn mà không bị xâm nhập. Có rất nhiều",
+            "reviewer_location": "Bắc Kinh, Trung Quốc"
+        },
+        {
+            "name": "travellers5forever",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chúng tôi yêu La Siesta",
+            "review_content": "Chúng tôi đã dành hai tuần ở La Siesta. Chúng tôi là một gia đình 5 người có thanh thiếu niên và 9 tuổi. Khách sạn trên toàn thế giới nên dành thời gian ở đây và lưu ý. Các nhân viên có quyền sở hữu hoàn toàn và là một tín dụng tuyệt đối. Mỗi người một, từ nhân viên chờ đợi, quầy lễ tân, doormen để làm sạch. Chúng tôi đi du lịch rộng rãi và đây phải là dịch vụ khách hàng tốt nhất mà tôi đã gặp phải. Khách sạn là một ốc đảo yên tĩnh ở giữa Hà Nội nhộn nhịp. Chúng tôi hoàn toàn yêu Hà Nội. Con người, văn hóa, cảm giác. Đó là một kinh nghiệm của một đời.  Ở tại La Siesta đã cho chúng tôi rút lui bình tĩnh của chúng tôi là rất cần thiết. Khi bạn đi bộ lên các bậc thang doormen đã sẵn sàng, cửa mở để chào đón bạn trở lại. Chúng tôi thực sự cảm thấy như vinh dự khách ở tất cả các lần.",
+            "reviewer_location": "Sydney, Australia"
+        },
+        {
+            "name": "Debra Y",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ khách hàng tuyệt vời",
+            "review_content": "Khách sạn này nằm ở một vị trí tuyệt vời trong Khu Phố Cổ. . . . điên bận rộn bên ngoài nhưng thư giãn và thanh thản một khi bên trong của bạn. Các nhân viên sẽ đi trên và xa hơn để đảm bảo bạn có một kỳ nghỉ dễ chịu. Tôi để hành lý của mình ở đó trong khi tôi đi sang Campuchia cho một chuyến đi phụ và không có lo ngại về sự an toàn của đồ đạc của tôi. Các phòng đều đẹp và trong tình trạng tốt, nhà hàng có thức ăn tuyệt vời nếu bạn không cảm thấy thích mạo hiểm và thái độ của tất cả nhân viên ở trên mức trung bình. Rất thân thiện và sẵn sàng trợ giúp thông tin về các trang web địa phương và thông tin du lịch. Tôi chắc chắn sẽ ở lại khách sạn này một lần nữa, và rất khuyên bạn nên nó cho bất cứ ai có ý định đến thăm Hà Nội.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "marykelson",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Fabulous La Siesta",
+            "review_content": "Ở đây là một điều trị cho tôi và em gái tôi, chúng tôi yêu thời gian ở đó. Nơi này là thanh lịch và phong cách, các nhân viên rất chào đón, chuyên nghiệp, đơn giản là một nơi đáng yêu để ở lại khi ở Hà Nội. Các thực phẩm, dịch vụ và spa là không ai sánh kịp. Tôi sẽ nói với bạn bè và gia đình về La Siesta. Cảm ơn tất cả các nhân viên tuyệt vời.",
+            "reviewer_location": "Dublin, Ireland"
+        },
+        {
+            "name": "breenk5",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kinh ngạc",
+            "review_content": "La Siesta là một khách sạn xinh đẹp với đội ngũ nhân viên tuyệt vời, bữa sáng tự chọn ngon nhất và vị trí tuyệt vời! Các nhân viên đã rất hữu ích và thậm chí nâng cấp chúng tôi đến một phòng lớn hơn, tốt hơn trong chuyến thăm thứ hai của chúng tôi! Họ sắp xếp dịch vụ đưa đón sân bay và tour thực phẩm. . . phải làm! Nếu bạn có thể, hãy ở lại đây!",
+            "reviewer_location": "Denver, Colorado"
+        },
+        {
+            "name": "Adrian Clarke",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Fabulous",
+            "review_content": "Một khách sạn tuyệt vời ở một vị trí tuyệt vời với đội ngũ nhân viên tuyệt vời. Nằm trong khu phố cổ, một ốc đảo của không khí yên tĩnh sau sự hỗn loạn và nhộn nhịp của các đường phố Hà Nội. Căn phòng rộng rãi với một cái giường rất thoải mái. Các bữa ăn sáng đã có một sự lựa chọn tuyệt vời của thực phẩm với một đầu bếp trên tay để nấu trứng trong mọi cách tưởng tượng. Các nhân viên rất thân thiện và lịch sự. Một viên ngọc thực sự của nó.",
+            "reviewer_location": "Desenzano Del Garda, Ý"
+        }
+    ],
+    "hotel": {
+        "location": "94 Ma May St. Old Quarter, Hoan Kiem Dist., Hà Nội Việt Nam",
+        "name": "La Siesta Classic Ma May",
+        "geo_data": {
+            "latitude": 21.03432846069336,
+            "longitude": 105.85327911376953
+        },
+        "room_number": "65",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/59/4c/d3/hanoi-la-siesta-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/82/cd/cd/hanoi-la-siesta-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/82/cd/c3/hanoi-la-siesta-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d0/37/6e/entrance--v11780561.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d0/37/5b/lobby--v11780611.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d0/37/64/lobby--v11780654.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d0/37/47/red-bean-restaurant--v11780632.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d0/37/4f/red-bean-restaurant--v11780421.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/d0/36/b7/family-suite--v11780456.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/82/99/fe/hanoi-la-siesta-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/b2/dd/77/hotel-entrance.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/b2/dd/3a/gym.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/b2/dc/fe/hotel-entrance.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/b2/dc/c7/gym.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/b2/dc/b6/lobby.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/b2/dc/99/gym.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/b2/dc/69/red-bean-restaurant.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/a6/da/b1/lobby.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/a6/d9/40/overview-at-red-bean.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/a6/d6/5a/overview-at-la-spa.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

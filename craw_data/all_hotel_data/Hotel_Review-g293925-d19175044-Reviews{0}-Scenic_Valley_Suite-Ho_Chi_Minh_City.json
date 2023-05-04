@@ -1,0 +1,51 @@
+{
+    "content": [
+        {
+            "name": "Suidan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Căn hộ dành cho gia đình với hồ bơi",
+            "review_content": "Căn hộ yên tỉnh, rộng rãi, thoải mái dành cho gia đình, gần bệnh viện và siêu thị rất thuận tiện khi duy chuyển chỉ cần 15 phút đi bộ, căn hộ ở tầng cao, yên tĩnh không có tiếng ồn, nhân viên niềm nở vui vẻ đón khách dù chúng tôi ở 1 đêm nhưng vẫn muốn ở thêm, hy vọng lần khác gia đình chúng tôi sẽ chọn ở nơi này.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vân Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng lớn và sạch sẽ",
+            "review_content": "Chúng tôi ở 3 đêm tại Scenic Valley Suite với ba phòng ngủ, phòng quá rộng và sạch sẽ, thoải mái cho con cái, chúng tôi sống ở can tho và thỉnh thoảng chúng tôi đi du lịch cùng gia đình ở Hồ Ch? Thành phố Minh. Chúng tôi sẽ trở lại bộ thung lũng danh lam thắng cảnh, Cảm ơn bạn.",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "Block F, Scenic Valley 1, Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh 700000 Việt Nam",
+        "name": "Scenic Valley Suite",
+        "geo_data": {
+            "latitude": 10.730376243591309,
+            "longitude": 106.71691131591797
+        },
+        "room_number": "20",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/e6/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/66/03/ca/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/66/03/b8/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/66/03/aa/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/66/03/9f/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/66/03/75/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cf/7b/69/one-bedroom-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cf/7b/2a/one-bedroom-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cf/7a/df/one-bedroom-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/ce/7e/73/three-bedroom-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/ce/7b/cf/three-bedroom-apartment.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/f3/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/e1/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/de/kitchen.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/db/living-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/d8/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/d6/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/d4/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/d0/scenic-valley-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cc/4e/cf/scenic-valley-suite.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

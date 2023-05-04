@@ -1,0 +1,699 @@
+{
+    "content": [
+        {
+            "name": "Roberto",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một trải nghiệm mộc mạc & gần gũi với thiên nhiên",
+            "review_content": "Mọi thứ đều tốt. Đội ngũ cán bộ nhân viên ở đây rất nhiệt tình và yêu nghề & ai cũng hiểu rõ từng ngóc ngách chi tiết của khu nghỉ dưỡng. Sau khi nhận phòng, có một trải nghiệm khá thú vị là được nghe nhân viên kể về những câu chuyện của rừng dương đã trên 40 năm tuổi của nơi này trong lúc lái xe điện chở cả nhà về phòng. Tất cả đều rong rêu, toát lên vẻ đẹp gần gủi với thiên nhiên pha lẫn chút màu của thời gian.",
+            "reviewer_location": "Vinh"
+        },
+        {
+            "name": "Kenny Le",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ Nghỉ Đáng Nhớ ",
+            "review_content": "Cảm ơn Stelia Beach Resort đã đem lại cho cho tụi mình một kì nghỉ đáng nhớ hơn bao giờ hết. Từ khoảnh khắc bọn mình vừa chạm ngõ đến sảnh lễ tân đã có nhân viên mở cửa và chào đón tụi mình rất nồng hậu. Hơn hết welcome drink mang hương vị rất ngon và tuyệt vời. Thủ tục cũng cực nhanh chóng. Tụi mình được dẫn đi tham quan một vòng resort trước khi nhận phòng. Trong lúc đó tụi mình cũng được mách thêm về cái góc sống áo siêu xinh tại nơi đây. Hơn nữa du lịch Phú Yên trở nên dễ dàng hơn bao giờ hết khi tụi mình được các bạn nhân viên chỉ dẫn một cách tường tận về các ngóc ngách của mọi con đường. Và những điều hay ho nhất mà chỉ người dân Phú Yên mới biết. Xuyên suốt cả thời gian lưu trú từ khi tụi mình nhận phòng đến khi rời đi. Vẫn một nụ cười vô cùng nồng hậu và ấm áp đến từ",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Phú",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Stelia Resort room 204",
+            "review_content": "Trải nghiệm tuyệt vời, hài lòng với mọi thứ. Resort có khuôn viên rộng rãi, không khí trong lành và các thứ hạn phòng đa dạng. Trải nghiệm tuyệt vời cho hạng phòng cặp đôi  Đặc biệt là nhân viên Hổ rất nhiệt tình và hướng dẫn mọi thứ chi tiết",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Compass24900165053",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm cùng gia đình tại Stelia Beach Resort",
+            "review_content": "Không gian khách sạn thoáng đãng, nhiều cây xanh, thiết kế phòng và nội thất đều có phòng cách và tỷ mỷ. Các góc tường, góc bàn ghế, nội thất đều được bo tròn nên an toàn cho trẻ em và tạo được cảm giác mềm mại, thư thái. Buffet sáng tuy không quá nhiều món nhưng món nào cũng có hương vị tốt, trình bày cẩn thận, đẹp mắt. Nhà hàng không gian rộng rãi, mát mẻ, thoáng đãng, góc bàn ghế cũng được bo tròn nên an toàn cho bé. Các bạn nhân viên từ quàn lý đến lễ tân, lái xe điện, nhân viên dọn phòng, tưới cây,... đều thân thiện, luôn cúi chào và cười mỗi khi gặp khách. Xe điện thì gọi là gần như đến ngay lập tức. Đặc biệt có bạn Hổ hỗ trợ, tư vấn rất có tâm cho mình nhiều về các quán ăn địa phương và các địa điểm du lịch.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trần Thọ",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ resort",
+            "review_content": "Dịch vụ tại resort stelia rất tốt, bạn Hổ nhiệt tình, nhanh nhẹn và các nhân viên lễ tân đến bác bảo vệ thân thiện, đồ ăn tại các nhà hàng trong khu resort ngon, phục vụ tốt tận phòng, xứng đáng để tiếp tục nghỉ dưỡng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Climber57945844069",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Resort lý tưởng Phú Yên",
+            "review_content": "Phòng đẹp, cực kì rộng rãi và sạch sẽ, đâu đâu cũng thấy hoa . Nhân viên ai cũng thân thiện, bạn Hổ tiếp đón rất chu đáo và nhiệt tình. Bể bơi nông, nước ấm, thích hợp gia đình có cả trẻ nhỏ. Sẽ quay lại vào lần tới",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thao Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Stelia Beach Resort",
+            "review_content": "Khách sạn stelia phòng đẹp, sạch sẽ, rộng rãi, thoáng mát.Nhân viên thì cực kì nhiệt tình vs khách. Hồ bơi view đẹp, đặc biệt là nhân viên Hổ hướng dẫn khách tận tình các dich vụ. Điểm tham quan, an uống…..",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lien luu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi đáng nhớ và nhiều kỉ niệm",
+            "review_content": "Dịch vụ và chất lượng phòng của Stelia rất tốt. Đồ ăn và bia ở Gozo tươi ngon. Đặc biệt chúng tôi có bạn quản gia tên Hổ phụ trách rất nhiệt tình. Chúng tôi nghĩ Stelia là lựa chọn tốt nhất để nghỉ dưỡng tại Tuy Hoà lúc này.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nomad26487357684",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đến Phú Yên, hãy trải nghiệm ở Stelia Beach Resort một lần trong đời...",
+            "review_content": "ĐâylàlầnđầutôiđếnPhúYênvớigiađình,tôiđãlựachọnSteliaBeachResortchokỳnghỉdưỡngcủagiađình.Resortvịtríđẹp,sátbiển,gầntrungtâmthànhphố,lạisátbênthápNghinhPhong.Giađìnhtôiởcănvilla2phòngngủ,phòngrấtrộngrãi,thoángmát,tạocảmgiácrấtdễchịukhibướcchânvàoở.Giườngngủrấtêm,gốikhôngbịcứngvàcaoquánhưcácresorttrướcđâytôitừngởqua,Buổitốiđichơivềđếnphòngcòncósẵntráicâyvàbánhmacaroonrấtngonresortchuẩnbịchokhách.Đồănsángởđâykhôngnhiềunhưngrấtchấtlượng,mónnàocũngngon.vàđặcbiệtnhânviêntừlễtânchođếnphụcvụthìrấtnhiệttìnhvànhẹnhàng.BạnHổnhânviênxeđiệncòntậntìnhgiớithiệucácđịađiểmvuichơivàănuốngchogiađìnhkhilầnđầugiađìnhmớiđếnđây.Nóichunglầntrảinghiệmnàygiađìnhmìnhtừngườigiàđếntrẻnhỏđềurấthàilòngvềdịchvụvàphòngnghỉởđây,chắcchắnlầnsauquaylạiPhúYênsẽlạilựachọnSteliaBeachResort.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thoa  N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Stelia beach resort",
+            "review_content": "Dịch vụ resort rất tốt. Nhân viên nhiệt tình, chu đáo . Đặc biệt là bạn Hổ rất chu đáo và tận tình . Mình nhất định sẽ quay lại để trãi nghiệm thêm 1 lần nữa cùng với gia đình của mình . Mình chân thành cảm ơn đội ngũ nhân viên đây . Đồ ăn rất ngon  và hợp khẩu vị của mình",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Stay60059288520",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good",
+            "review_content": "Trải nghiệm tuyệt vời, Bell man Ngọc Hổ rất thân thiện, đã hỗ trợ team nhiệt tình. Các bạn ở Lễ tân và Spa đều rất tuyệt vời Đồ ăn sáng ngon, phòng sạch sẽ, nội thất mới, mùa hoa giấy nở đẹp và không khí trong lành",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Voyage17175705410",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm Phú Yên",
+            "review_content": "Khách sạn sạch sẽ, nhiều dịch vụ tốt, nhân viên nhiệt tình, nhiều khuyến nghị tốt cho khách, đặc biệt có bạn nhân viên tên Hổ hỗ trợ khá nhiều. Có dịp sẽ quay trở lại và giới thiệu với bạn bè về địa điểm này",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Explore29257391312",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời cho kỳ nghỉ của gia đình. Tôi đánh giá cao chất lượng dịch vụ ở đây. Sẽ sắp xếp thời gian để trở l",
+            "review_content": "Resort ở đây rất đẹp. Yên bình dễ chịu. Thức ăn ngon. Nhân viên ở đây rất chu đáo, thân thiện. Phòng rộng rãi sạch sẽ. Có 2 khu vực hồ bơi. Có khu vui chơi cho trẻ em ngoài trời và trong nhà. Nhà hàng view biển, uống bia ở đây rất thú vị.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Xuyen T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một nơi đáng để trải nghiệm",
+            "review_content": "Không gian xanh mát, yên tĩnh, chuông gió ngân vang cả ngày. Ngay đối diện tháp Nghinh Phong, thuận tiện di chuyển. Phòng rộng rãi, không gian mở, sạch sẽ, tiện nghi. Nhân viên thân thiện, nhiệt tình, niềm nở tư vấn. Gđ tôi bị delay, các bạn hỗ trợ trả phòng muộn đến 1h30 mà không phải trả phí thêm. Đồ ăn ngon, bể bơi sạch sẽ, không có mùi hoá chất, riêng tư. Tôi sẽ giới thiệu bạn bè đến đây và sẽ quay trở lại ngày gần nhất.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Claudia Q",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Excellent experiences",
+            "review_content": "Trải nghiệm tuyệt vời với những con người thân thiện, dịch vụ chuyên nghiệp, không gian đẹp mộng mơ với những dàn hoa giấy tuyệt đỉnh! Chắc chắn tôi sẽ quay lại và giới thiệu bạn bè :) Một cảm giác rất thú vị",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tivi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "TRẢI NGHIỆM TUYỆT VỜI",
+            "review_content": "Mình cũng đã có dịp đi nhiều nơi để du lịch tuy nhiên đây là lần đầu mình khám phá du lịch tại chính địa điểm mà mình đang sinh sống và thật bất ngờ khi có những trải nghiệm thật tuyệt vời - Phòng ốc: Không gian rất rộng rãi, WC rất rộng ---> cảm giác có thể ngủ trong đó luôn cũng được nữa =)) - Nhân viên: niềm nở, cực kỳ thân thiện và nhiệt tình. Đặc biệt là chị quản lý ở nơi này - Đồ ăn: rất ngon và đa dạng, có thể gọi theo sở thích, ngoài ra cũng có món bia Crew thủ công mà mình yêu thích Chắc chắn sẽ quay lại trong thời gian sắp tới vì mình chưa có đủ thời gian để khám phá hết ^^",
+            "reviewer_location": "Tỉnh Phú Yên, Việt Nam"
+        },
+        {
+            "name": "Duy T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một nơi đáng thay thế cho Đà Lạt",
+            "review_content": "[All about #Stelia] Đến với Tuy Hòa lần 2 trong 1 hoàn cảnh cực khác Lần này mình chọn Stelia cho nơi ở, mình đặt phòng Premium Deluxe King và mình nhận được hoàn toàn hơn mong đợi Phòng rộng với sân hiên cực chill, mình order ly cacao nóng (thích nhất món này) và nằm nghe tiếng chim hót Một không khí \"Đà Lạt\" với chút gió biển, tiết trời se lạnh làm mình nhớ tới Nồi Lẩu Cá Chình Lị nóng hổi, hay tô Mắt Cá Ngừ đặc sắc của địa phương, tất cả xóa đi cái buồn của một thành phố chuyển sang nhịp đông Ẩn mình trong tán rừng dương, Resort lại càng thu hút mình bởi sự trong lành tại đây, nơi hệ sinh thái còn được giữ vẹn nguyên, xóa tan mọi áp lực bộn bề tồn tại trong bản thân bấy lâu nay  Và sau cùng, mình ",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Thuy Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm tuyệt vời",
+            "review_content": "Resort thiết kế theo phong cách địa trung hải, gam màu tươi mát, không gian thân thiện, mát mẻ, trong lành, đầy đủ các dịch vụ, thích hợp gia đình có trẻ nhỏ, nhân viên siêu dễ thương, nhiệt tình. Sẽ còn quay lại với bạn bè và người thân 🥰",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Văn Linh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "chuyển trải nghiệm tại stelia",
+            "review_content": "Tôi đã có một trải nghiệm tuyệt vời ở đây trong chuyến công tác tại thành phố Tuy Hòa - Phú Yên. Nhân viên ân cần,chu đáo, phòng sạch sẽ thoáng mát, hồ bơi rộng, đồ ăn tương đối ngon, có buffe buổi rất tuyệt vời. tôi sẽ quay lại vào lần tới cùng gia đình mình nhé. Thank mọi người😄😄",
+            "reviewer_location": "Nottingham, Vương quốc Anh"
+        },
+        {
+            "name": "Travel V",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Resort thơ mộng",
+            "review_content": "Phải nói đây là khách sạn có thiết kế Địa Trung Hải rất độc đáo. Mọi thứ đều mộc mạc, đơn giản nhưng hết sức tinh tế, có thể thấy được tâm huyết rất lớn của chủ đầu tư nơi đây. Nhân viên thân thiện, chu đáo và được đào tạo tốt. Phòng villa rất đẹp và sang trọng. Đồ ăn khá ổn. Nói chung là highly recommend cho những ai muốn có trải nghiệm mộc mạc, gần gũi với thiên nhiên và được phục vụ chu đáo!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "uyn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "rất thú vị , không gian thoải mái , nhân viên rất thân thiện",
+            "review_content": "Nhân viên thân thiện, chuyên nghiệp, khách sạn thiết kế độc đáo, nghỉ ngơi thật thoải mái, đồ ăn ngon, vị trí thuận lợi, sát biển và gần trung tâm, một mùa nghĩ dưỡng trên cả tuyệt vời , một chuyến đi đáng nhớ nv thì quá nhiệt tình , hẹn gặp lại một ngày gần nhất",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phan Đ",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một chút review về trải nghiệm tuyệt vời tại Stelia Beach Resort",
+            "review_content": "Stelia Beach Resort là một điểm nhấn tuyệt vời của Phú Yên. Không gian yên tĩnh, lắng đọng, đẳng cấp và độc đáo để bạn có một trải nghiệm nghỉ dưỡng xứng tầm. Đặc biệt sự thân thiện và hiếu khách của đội ngũ nhân viên tại đây rất ấn tượng đối với tôi.  Luôn là lựa chọn của tôi khi tới Mảnh đất Phú Yên, đến đây cứ ngỡ tới Hy Lạp 🥰",
+            "reviewer_location": "Hà Tĩnh, Việt Nam"
+        },
+        {
+            "name": "Hao Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Excellent Experience",
+            "review_content": "Địa điểm nghỉ dưỡng thú vị, nên đi 1 lần để cảm nhận. Phong cách thiết kế độc đáo, Vị trí gần biển, gần trung tâm, đi lại rất thuận tiện. Đặc biệt là đồ ăn ngon, nhân viên niềm nở thân thiện. Chuyến đi của gia đình mình cảm thấy ngoài sự mong đợi. Hẹn gặp lại!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lyna",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến nghỉ dưỡng tuyệt vời",
+            "review_content": "Chuyến nghỉ dưỡng tại đây đã đem lại cho tôi những trải nghiệm trọn vẹn.  Nhân viên thân thiện, hỗ trợ khách hàng nhiệt tình, chuyên nghiệp, khách sạn thiết kế độc đáo, nghỉ ngơi thật thoải mái, đồ ăn ngon, vị trí thuận lợi, sát biển và gần trung tâm. Chắc chắn tôi sẽ quay trở lại vào thời gian sớm nhất.",
+            "reviewer_location": "Hà Tĩnh, Việt Nam"
+        },
+        {
+            "name": "Nguyễn Tiến Phúc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kì nghỉ tuyệt vời với nửa kia",
+            "review_content": "Nếu lựa chọn 1 kì nghỉ thật trọn vẹn cùng với người thương tôi tin đây sẻ là 1 nơi cực kì tuyệt vời,Từ lúc Checkin đến lúc Check out thì Các bạn Nhân viên rất thân thiện, chuyên nghiệp, khách sạn thiết kế độc đáo, nghỉ ngơi thật thoải mái, đồ ăn ngon, vị trí thuận lợi, sát biển và gần trung tâm Chắc chắn tôi sẻ trở lại đây thêm 1 lần nửa ❤",
+            "reviewer_location": "Hà Tĩnh, Việt Nam"
+        },
+        {
+            "name": "nga p",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good trip",
+            "review_content": "Khách sạn thiết kế rất độc đáo, nhân viên thân thiện, nhiệt tình và chuyên nghiệp. Đồ ăn ngon, phục vụ tốt. Vị trí thuận lợi, sát biển và gần trung tâm. Tôi thấy nghỉ ngơi ở đây rất thoải mái. Hứa hẹn ngày quay lại gần nhất. Cảm ơn các bạn rất rất nhiều !!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tu Vo",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Resort đẹp, thân thiện!",
+            "review_content": "Resort rất đẹp, nhiều cây xanh. Nhân viên thân thiện, nhiệt tình.  Resort có cả cụm cà phê, nhà hàng Âu Á nên gia đình không cần phải đi ra ngoài. Rất tiện cho những gia đình đi với con nhỏ như gia đình mình.  Có khu vui chơi cho trẻ em cả vận động ngoài trời và trong phòng. Hồ bơi lớn có view Tháp Nghinh Phong vừa bơi vừa ngắm cảnh, kế bên là nhà hàng bia tươi Gozo nên gọi sẵn vài món snack gia đình vừa bơi vừa nghỉ mệt nhâm nhi cũng vui nữa ạ.  Nhà mình rất thích ở đây và hẹn sẽ quay lại khi có dịp đi đến Phú Yên.  Cảm ơn Stelia và các bạn nhân viên vô cùng thân thiện đã cho gia đình mình một kỳ nghỉ gắn kết tuyệt vời!",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Cerender",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "High recommend 👌",
+            "review_content": "Resort nằm ngay mặt biển, được nghe tiếng sóng cả ngày đúng là thỏa lòng đi biển. Phòng pool villa rộng bao la, thêm vườn và bể bơi nên nhà có trẻ con sẽ rất thích, không muốn ra ngoài chơi luôn.  Phòng ngủ và phòng khách rộng rãi thoải mái, ghế và gối quá nhiều...lại thêm lí do để không muốn ra khỏi phòng.  Phòng sạch sẽ, buồng tắm rộng, bồn tắm to đẹp, gia đình 3 người chui vào cũng vừa, rất thích luôn.  Resort dọn dẹp ngày 2 lần, suốt ngày tặng bánh với nước, lại được thẻ free massage chân, ăn uống suốt nên rất mệt.  Bể bơi chung đẹp, bar có nhiều đồ để chơi như bi a, bi lắc, bàn cờ...la cà chơi thoải mái. Cạnh đó còn có 1 phòng cho trẻ em chơi, rất nhiều đồ hấp dẫn cho mấy bé luôn.  Nhân viên dễ thương, tận tình, đặc biệt bạn Butler nhà mình (bạn Nguyên). Rất cảm ơn bạn",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "ThaoPhuongCT",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kì Nghỉ Rất Tuyệt",
+            "review_content": "KS và phòng rất đẹp, dịch vụ chu đáo, sẽ dẫn GĐ trở lại vào dịp gần nhất Nhân viên từ Lễ Tân đến phục vụ phòng rất nhiệt tình và thân thiện. Thức ăn rất ngon được thưởng thức tại nhà hàng GOZO được biết là nhà hàng bằng tre lớn nhất Việt Nam.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "MR Thang - Dusi... T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "THIÊN ĐƯỜNG NGHỈ DƯỠNG HÀNG ĐẦU VIỆT NAM",
+            "review_content": "Stelia resort một nơi dừng chân để nghỉ dưỡng tuyệt vời bên bờ biển tp Tuy Hòa , một resort đẳng cấp 5 sao với dịch vụ hàng đầu Phú Yên mà bất kỳ ai cũng muốn một lần trải nghiệm . Nhân viên nhiệt tình với nụ cười tỏa nắng và làm say lòng người cùng với sự chu đáo tận tình là một nét cộng cho Stelia resort . Món ăn thật sự phong phú và đa dạng với các món như mắt cá ngừ AROMA đặc biệt với hương vị kết hợp với các loại thảo mộc tạo nên món ăn thật độc đáo và mùi vị tuyệt vời phải nói không ngoa rằng tại nhà hàng AROMA có món mắt cá ngừ ngon nhất Việt Nam mà ai đến cũng phải một lần nếm thử , ngoài ra còn các món ăn như bò một nắng Sông Hinh kết hợp với muối kiến vàng tạo nên điểm chấm phá tuyệt vời , món cồi sò mai cocktail kết hợp ẩm thực Âu - Á là món tạo nên thương hiệu cho",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "VoBienThuy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "CHUYẾN ĐI MẦU HỒNG",
+            "review_content": "Lỡ hẹn với Phú Yên rất nhiều bận. Cuối cùng cũng đến được với mảnh đất hoa vàng cỏ xanh đáng yêu này. Phải nói là lâu lắm rồi, mình không rì viu rì viếc gì về những chỗ nhà mình đi. Bởi trên mạng giờ thiếu gì, với cả cái cách đi của nhà mình ( có bạn Min be bé) thì cũng không có gì gọi là đáng để share với mọi người cả. Nhưng chuyến đi này.... Thực sự, bị cảm mến và phải lòng quá nhiều thứ, nên sẽ dài dòng 1 chút.   Điều đầu tiên muốn note lại đó chính là Stelia. Mình biết đến resort này qua trải nghiệm của 1 đứa bạn thân mấy năm trước. Yêu ngay từ cái nhìn đầu tiên vì những giàn hoa giấy ngập resort. Mỗi 1 căn villa đều sẽ có 1 cổng hoa giấy trước hiên rực rỡ hồng. Mình chưa từng thấy 1 resort nào nhỏ nhỏ mà xinh yêu như vậy. Cái cảm giác càng ở càng yêu. Trong quá trình xây",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Hoang Nhu Thao",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Không gian tuyệt vời, kiến trúc độc đáo, đồ ăn ngon",
+            "review_content": "Phòng rất đẹp và rộng, vườn cây xanh mát thích hợp với nghỉ dưỡng và tránh dịch. Kiến trúc nhiều đường cong, độc đáo, lên ảnh cực đẹp, đồ ăn ngon đa dạng và nhiều dịch vụ tiện ích khi đi cùng bé. View ra biểu tượng mới tháp Nghinh Phong cực cool. Mình check in được nhiều góc rất xịn. Nhân viên dễ thương và chuyên nghiệp",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quỳnh Như",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch , nghỉ dưỡng",
+            "review_content": "View hương biển có hồ bơi.Phòng nào củng đẹp củng yên tĩnh.Nên đặt phòng trước để có giá tốt.Cảnh đẹp thoải mái.Hãy ghé stelia beach resort một nơi nghỉ dưỡng tuyệt vời cho bạn vè gia đình.Nhân viên phục vụ thân thiện chuyên nghiệp, từ luac tới resort tới lúc đi nhân viên cực tốt , rất hài lòng với các dịch vụ tại nơi này.Mà mùa này biển động nên không tắm được, nên lần sau sẽ đi vào mùa hè.",
+            "reviewer_location": "Tuy Hòa, Việt Nam"
+        },
+        {
+            "name": "Phong Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch",
+            "review_content": "Khung cảnh đẹp, phòng và nội thất tuyệt vời, tôi chọn Stelia làm nơi để gia đình có thể thư giãn sau một thời gian dài. Nhân viên thân thiện, nhiệt tình. Các món ăn ngon, đậm chất Phú Yên. Sẽ quay lại khi có thời gian.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thu Thủy Bùi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Những ngày tuyệt vời tại Stelia 😍",
+            "review_content": "Dịch vụ chuyên nghiệp. Không gian yên tĩnh, lãng mạn. Phòng ngủ tiện nghi. Quầy bar phục vụ chu đáo. Bể bơi ngoài trời rất đẹp. Khu nghỉ có nhiều nơi chụp ảnh rất chill. Chúng tôi đã có những ngày tuyệt vời tại nơi đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoa Do Thanh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Luôn là lựa chọn số 1 của tôi khi đến Phú Yên",
+            "review_content": "Stelia luôn là lựa chọn số 1 của tôi mỗi khi đến với thành phố Tuy Hoà xinh đẹp. Resort mang phong cách Địa trung hải nhẹ nhàng mà hiệu quả hình ảnh quá tốt. Tôi đã có những bức hình chill nơi đây Service tốt, các bạn phục vụ nhẹ nhàng và quan tâm đến nhu cầu của khách hàng. Tôi hoàn toàn hài lòng khi ở nơi đây.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Yen Huynh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trãi nghiệm tuyệt vời",
+            "review_content": "Cảm ơn Mr Hưng và Stelia đã cho chúng tôi một kỳ nghỉ thú vị và vui vẻ nhân dịp sinh nhật của tôi. Resort đẹp và xanh. Dịch vụ tốt. Đồ ăn ngon. Nhân viên nhiệt tình - thân thiện. Con người Phú Yên dễ thương, đồ ăn ngon và rẻ. Sẽ quay lại trong thời gian sớm nhất.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Red Cherry",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sweet Trip.",
+            "review_content": "Stelia như một nàng Thơ với không gian yên tĩnh và cỏ xanh,gió biển mơ màng.Chuyến đi của chúng tôi kỷ niệm sinh nhật của một người bạn . Buổi tối,sau bữa ăn chúng tôi tổ chức sinh nhật với Chiếc bánh sinh nhật của Mr Hưng và sự phục vụ,hỗ trợ chu đáo của các bạn phục vụ khiến cho bữa tiệc nhỏ càng thêm ấm áp. Chọn một không gian Stelia để nghỉ dưỡng cùng nhau và lưu dấu kỷ niệm quả là quá tuyệt vời. Hẹn sớm gặp lại Stelia Beach Rẻot🥰",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Ly Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi trên cả tuyệt vời!!!!",
+            "review_content": "Cảm ơn Stelia Beach Resort đã giúp tôi có một chuyến đi trên cả tuyệt zời, tràn ngập niềm vui cùng với những người bạn thân thiết của tôi. Resort mang phong cách rất độc đáo, tôi rất thích phong cách này vừa sang trọng nhưng lại rất hòa hợp với thiên nhiên. Các bạn nhân viên ở đây đều rất thân thiện đặc biệt là các bạn nhân viên Lễ tân rất chuyên nghiệp, rất good. Cảm ơn tất cả các bạn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kiều Trương",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vờiiiiii",
+            "review_content": "Cảm ơn Stelia đã mang đến cho tôi một kì nghỉ thật tuyệt vời với những trải nghiệm dịch vụ cao cấp. Đặc biệt cảm ơn đội ngũ nhân viên của resort đã tận tâm trong việc cung cấp dịch vụ cho chúng tôi 😍😍",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ly Na",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kì nghỉ tuyệt vời",
+            "review_content": "Mình rất ấn tượng với kiến trúc, khuông viên của resort hài hòa với thiên nhiên tạo giang thoáng mát. Điều mình nhớ mãi là con người nơi đây, các bạn nhân viên rất thân thiện và dễ thương, tận tâm <3.  Chất lượng dịch vụ tốt, menu đa dạng, các món ăn ngon",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "KID",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trên cả tuyệt vời ❤️",
+            "review_content": "Cảm ơn vì tất cả ❤️  Thực sự là một kì nghỉ dưỡng tuyệt vời, nhân viên cực kỳ thân thiện, vui vẻ. Dịch vụ tốt, nhà hàng đa dạng món ăn. Chất lượng phục vụ tốt. Cách trung tâm thành phố không xa và một số điểm du lịch hơi xa nhưng rất tuyệt cho bạn nào thích đi phượt. Là một nơi lý tưởng để nghỉ ngơi, thư giãn.",
+            "reviewer_location": "Pleiku, Việt Nam"
+        },
+        {
+            "name": "Bell Huynh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lovely trip",
+            "review_content": "chuyến đi đầy ý nghĩa bên những người bạn, khu nghĩ dưỡng tuyệt vời nhất Phú yên mà tôi đã từng ghé, phong cách thiết kế địa trung hải với gam trắng xanh bên bờ biển. Món ăn tuyệt vời được đầu bếp trứ danh THÁI TÔN phục vụ. Nhân viên thân thiện và chu đáo từ khi đến và chào tiễn. Tôi sẽ quay lại trong kỳ nghĩ tới.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "dimple_checks",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Great trip with friends",
+            "review_content": "Nơi nghỉ dưỡng tuyệt vời ở Phú Yên từ không gian đến dịch vụ, kiến trúc ở đây đặc biệt xen kẽ giữa hiện đại với gam màu trắng, xương rồng và  cỏ cây, màu xanh bao trùm cả resort, phong cảnh không hề sến súa như những resort truyền thống. Đặc biệt khi trải nghiệm với bạn bè nó lại là 1 kỉ niệm không quên. Bên cạnh đó nhân viên rất nhiệt tình, Mr. Hưng FOM thân thiện và vui tính. Nếu có dịp quay trở lại Phú Yên thì nơi đây sẽ là nơi mình chọn đầu tiên để nghỉ dưỡng. Cảm ơn tất cả 😍",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Alolove Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi đáng nghỉ dưỡng ở Phú Yên",
+            "review_content": "Chuyến đi của tôi rất hài lòng về khu nghỉ dưỡng gần biển ở Tuy Hòa. Phong cách thiết kế ảnh hưởng mạnh mẽ của Santorini, màu trắng xanh dịu mắt và nội thất ấn tượng đã giúp cho tôi khá thoải mái, chụp ảnh rất đẹp. Đầu bếp nhà hàng nấu ăn rất ngon, nhiều món độc đáo.",
+            "reviewer_location": "Tỉnh Phú Yên, Việt Nam"
+        },
+        {
+            "name": "Doan Tram",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi dừng chân tuyệt vời và sang trọng",
+            "review_content": "Mình rất hài lòng về tất cả dịch vụ tại Stelia Beach Resort mang lại. Trải nghiệm tiện ích tại Resort vô cùng tuyệt vời. Từ phòng ngủ, nhà hàng, hồi bơi, quầy bar,...view biển. Đặc biệt, bạn Hưng (FOM) đã rất nhiệt tình và thân thiện, hỗ trợ chúng mình rất nhiều trong thời gian nghỉ dưỡng. Mình sẽ còn quay lại Phú Yên, và sự lựa chọn sẽ vẫn là Stelia Beach Resort! Seeya!!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phamtramk57cdl2@gmail.com",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Happy Trip w loves",
+            "review_content": "Tuy không phải là lần đầu tiên đến với Phú Yên nhưng đây là lần đầu tiên tớ và chúng bạn đến với Stelia Beach resort.  Stelia quả thật là điểm đến lý tưởng với không khí trong lành cùng đội ngũ nhân viên nhiệt tình Cảm ơn mr.Hưng FOM đã đưa mọi người tham quan khu resort cũng như được trải nghiệm các tiện nghi tại đây. Hẹn gặp lại Stelia trong mùa hè này nhé. L.o.v.e",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Thanh Tòng",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời",
+            "review_content": "Lần đầu tiên mình đến với Phú Yên, và thật sự bị cuốn hút bởi Stelia Beach Resort. Không khí ở đây trong lành, phòng rất đẹp và dịch vụ ở đây cũng tốt. Thật sự không biết phải diễn tả ntn nào. Cảm ơn Stelia Beach Resort đã cho mình và gia đình một kỳ nghỉ tuyệt vời.",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Hongle83",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khu nghĩ đẹp chỉn chu, cảnh quan rất tuyệt vời",
+            "review_content": "Tôi đã có 1 kỳ nghỉ thật thư giản tại khu nghĩ, toàn khu nghỉ có cảnh quan rất xanh mát và giữ lại được số lượng sự tự nhiên của vùng biển. Dịch vụ tốt nhân viên thân thiện. Cơ sở vật chất tốt. Tôi sẽ quay trở lại",
+            "reviewer_location": "Phan Rang-Tháp Chàm, Việt Nam"
+        },
+        {
+            "name": "NorthStar785284",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Amazing resort",
+            "review_content": "Chúng tôi đã có 3 ngày trải nghiệm tại Stelia resort Phú yên. Resort có không gian rộng rãi, cây xanh và hoa tràn ngập khiến không khí thêm mát mẻ và thơm ngát mùi hoa. Thức ăn do đầu bếp nấu rất ngon, đa dạng và giá phải chăng, thích nhất là bể bơi vô cực vô cùng sạch sẽ. Nhân viên thân thiện đặc biệt bạn Hưng FOM rất nhiệt tình hướng dẫn và giúp đỡ khi khách yêu cầu. Tóm lại chúng tôi đã có trải nghiêm tuyệt vời tại Stelia Resort. Hẹn gặp lại vào ngày gần nhất.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Mika Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khám phá điều mới lạ",
+            "review_content": "Trong vòng 2 ngày sau khi nghe tên và tìm hiểu về resort Stelia Phú Yên qua web thì tôi đã bước chân vào khu nghỉ dưỡng cao cấp nằm sát bên bờ biển thành phố Tuy Hòa vào một ngày nắng đẹp. Một cảm giác mới lạ kích thích trí tò mò của tôi. Từng chút một, từng chút một trong từng góc nhỏ ở Stelia khiến tôi cảm thấy thích thú. Mọi thứ được chăm chút kĩ càng, gam màu Địa Trung Hải cùng cảnh quan xung quanh khiến tôi như bỏ quên tất cả để đắm chìm trong không gian ấy.  Nhân viên của Stelia thực sự rất nhiệt tình và xinh đẹp. Từ cách họ chăm chút cho công việc của mình, chăm chút cho khách hàng đều toát lên nét đẹp tự nhiên, không phô trương và gần gũi... Cảm ơn vì đã được mọi người phục vụ tại Stelia, cảm ơn vì cơ hội tình cờ mà quý giá được gặp gỡ và trải nghiệm. Hẹn một ngày không",
+            "reviewer_location": "Dốc Lết, Việt Nam"
+        },
+        {
+            "name": "nguyencuudat",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Địa điểm nên ở khi đi Phú Yên!!!",
+            "review_content": "Tụi mình đến PHú Yên 3 ngày, chủ yếu để nghỉ dưỡng nên cũng không đi đâu nhiều, toàn ở khách sạn và đi ăn uống vào buổi tối. Ở đây khá hài lòng, tụi mình đi vào mùa vắng khách nhưng nhân viên cũng khá đông và rất lịch sự thân thiện. Đồ ăn rất ngon nhé mọi người.",
+            "reviewer_location": "Đà Lạt, Việt Nam"
+        },
+        {
+            "name": "Mai",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "🥰",
+            "review_content": "Phòng đẹp, đầy đủ tiện nghi. Dịch vụ tốt nhân viên dễ thương, nhiệt  tình. Nhiều view sống ảo đẹp cực. Có buffet ăn sáng miễn phí đồ ăn đa dạng lắm luôngg. So good!!!!  Nếu có dịp ghé lại Phú Yên thì mình vẫn sẽ chọn ở đây làm điểm nghỉ dưỡng .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tran vinh phat",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Amazing place",
+            "review_content": "Mình đi vào dịp thời tiết bất chợt ko tốt do áp thấp của bão nên không đi tham quan được đâu. Nhưng mình vô cùng bất ngờ về Stelia Beach Resort. Một không gian thiết kế theo phong cách địa trung hải, san trọng , sạch sẽ vad dịch vụ cực kì tốt. Nhân viên chăm sóc chu đáo và nhiệt tình. Chắc chắc mình sẽ quay lại Phú Yên vào thời gian đẹp hơn và vẫn chọn Stelia Beach Resort  là nơi nghỉ ngơi.  I went to the occasion when the weather was suddenly not good due to the low pressure of the storm, so I couldn't go sightseeing. But I was extremely surprised about Stelia Beach Resort. A space designed in the Mediterranean style, luxurious, clean and extremely good service. Attentive and enthusiastic staff. Surely I will return to Phu Yen at a better time and still choose Stelia Beach",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Lê Nhung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm ấn tượng",
+            "review_content": "Gia đình mình vừa có kỳ nghỉ 3 ngày 2 đêm ở stelia, thực sự vô cùng hài lòng với dịch vụ của resort, phòng đẹp và đặc biệt cả gia đình đều mê các món ăn ở nhà hàng Aroma. Chắc chắn sẽ quay lại stelia vào một ngày nắng đẹp hơn để tận hưởng trọn vẹn!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kent H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một kỳ nghỉ đáng nhớ",
+            "review_content": "Khu nghỉ với phong cách địa trung hải , nhưng căn villa được thiết kế sang trọng và tiện nghi. nhân viên phục vụ chu đáo và nhiệt tình. villa tôi có hồ bơi riêng trong villa tạo được sự riêng tư cho cả gia đình Chắc chắn gia đình tôi sẽ quay lại trong thời gian tới.",
+            "reviewer_location": "Việt Nam"
+        },
+        {
+            "name": "Huyền Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nghỉ Dưỡng",
+            "review_content": "Rất tuyệt vời, dịch vụ và phòng rất tốt, sạch sẽ, sang chảnh, nhân viên phục vụ rất nhiệt tình, sẽ quay lại lần nữa. Đây là chuyến nghỉ dưỡng tuyệt vời cho cả gia đình Có khu vui chơi trẻ em Gần sát biển Dịch vụ trên cả 5 sao",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Roca",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nghỉ dưỡng cùng gia đình",
+            "review_content": "Nơi nghỉ dưỡng lý tưởng cho gia đình  Phòng sạch đẹp chuẩn 5* Nhân viên chu đáo nhiệt tình dễ thương  Khuôn viên đẹp và có khu vui chơi cho các bé. Con mình với các bé khác rất thích khu vui chơi này  Hồ bơi sạch đẹp và mình thấy có hồ bơi lớn trên cao đang xây chuẩn bị đưa vào hoạt động đẹp lắm luôn  Quay phim cho bà chị bên Hàn xem resort này thì chỉ thích lắm luôn bảo là khi nào về nước được mình phải tổ chức cho gia đình chỉ đi ra đây  Sẽ ghé lại nếu có dịp đi Phú Yên",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quỳnh Dao",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trên cả tuyệt vời",
+            "review_content": "View cực đẹp, check in cả ngày ở resort không hết luôn .  Phòng rộng, sạch sẽ và sang chảnh.  Nhân viên thân thiệt và cute.  Đồ ăn ngon, hợp khẩu vị người Việt. Lần sau quay lại chắc chắn sẽ chọn Stelia làm nơi nghỉ dưỡng.  Quá chuẩn 5*!!",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Thuy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến công tác tuyệt vời",
+            "review_content": "Tôi có chuyến công tác ngắn hạn tại Phú Yên. Nhìn chung resort rất sạch sẽ, lớp cỏ bên  ngoài trong khuôn viên resort rất xanh, vẫn giữ được cây cối trong khu nghỉ. Phòng sang trọng và đầy đủ tiện nghi. Đồ ăn rất ngon và phong phú. Đặc biệt là  khu nghỉ rất yên tĩnh, phù hợp với tính chất công việc của tôi. 5 sao cho chất lượng dịch vụ!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Bichhanh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Resort xinh xắn",
+            "review_content": "Phòng đẹp,rộng rãi,khung cảnh mát mẻ,có nhiều hoa giấy và cỏ xanh,nhân viên thì nhiệt tình, dễ thương và thân thiện,đồ ăn sáng ngon và đa dạng,1 kỳ nghỉ rất tuyệt vời,có dịp tôi nhất định sẽ quay lại đây",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Doan Thi Bich Duyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đêm an lành",
+            "review_content": "Khu nghỉ yên tĩnh, không khí trong lành sạch đẹp và rất yên bình Phòng đẹp với phong cách địa trung hải, cảnh nào trong khu nghỉ cũng có thể check in  Món ăn tươi ngon, nhân viên cực kỳ chu đáo và nhiệt tình",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hungtruong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ lãng mạn",
+            "review_content": "Thật sự đây là khu nghỉ mát tôi vừa ý nhất với phong cảnh thiên nhiên rất đẹp, phòng ốc sang trọng, nhân viên hết sức thân thiện, phong cách phục vụ rất chuyên nghiệp. Cám ơn Stelia Beach Resort đã giúp chúng tôi có 1 kỳ nghỉ đáng nhớ. Tôi sẽ quay trở lại đây và giới thiệu cho bạn bè cùng tham quan",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Tình",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghĩ tuyệt vời",
+            "review_content": "Stelia beach resort là nơi tốt nhất tôi từng đến , cảnh quan rất đẹp , phòng chất lượng , đồ ăn ngon , nhân viên phục vụ nhiệt tình,rất nhiều địa điểm tham quan , có nhiều dịch vụ tại đây,  nếu có dịp tôi sẽ quay lại nghỉ dưỡng tại stelia beach resort .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trọng Qui",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến Nghĩ Dưỡng Tại Stelia Resort Beach.",
+            "review_content": "Nhân viên lễ tân vui tính hòa đồng.  Phòng nơi đây mang phong cách địa trung hải, có một chút cổ điển xen lẫn hiện đại. Không gian nơi đây không khí trong lành, thân thiện với thiên nhiên.  Đồ ăn hải sản ở nhà hàng của resort rất tươi và ngon giá hợp lý.",
+            "reviewer_location": "Tỉnh Phú Yên, Việt Nam"
+        },
+        {
+            "name": "Cam",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tuyệt vời",
+            "review_content": "thật bất ngờ, đây là resort đẹp nhất mà tôi từng đi ở Phú Yên. Villa rất đẹp rộng rãi và yên tĩnh. Dịch vụ ở đây rất tuyệt vời, nhân viên thân thiện, chuyên nghiệp chu đáo. Ngoài ra các món ăn rất ngon, không gian nhà hàng thoáng mát rộng rãi. Sẽ quay lại resort trong chuyến đi PY lần sau",
+            "reviewer_location": "Tỉnh Phú Yên, Việt Nam"
+        },
+        {
+            "name": "Season",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "AMAZING",
+            "review_content": "Stelia Beach Resort là một khách sạn tuyệt đẹp với nhiều tính năng và tiện nghi. NƠI TUYỆT VỜI. . . . . Các nhân viên luôn ân cần, dọn dẹp phòng rộng rãi và dễ chịu, phòng tắm đẹp. Resort rất OK và nhiều tiêu chuẩn tốt , cứ tưởng như 5 sao. Nhà hàng rộng rãi với thực đơn không biết chọn gì vì mọi thứ đều nổi bật, trước bãi biển và cũng có bơi, tối cuối tuần còn có ca nhạc. Lần sau nếu đi tôi chắc chắn sẽ quay trở lại Stelia Beach Resort vào kỳ nghỉ của tôi vào năm tới. Hihi",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Bích",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Resort đẹp, yên tĩnh",
+            "review_content": "Villa đẹp, thoáng mát, diện tích các villa rộng, tạo cảm giác thoải mái. phòng mới, sạch sẽ, gần trung tâm. Bãi bển đẹp, Tuy nhiên chưa có các dịch vụ đi kèm, vẫn dang hoàn thiện, Nhân viên nhiệt tình, thân thiện. Thức ăn đa dạng.",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Hạ Vi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Resort quá đẹp,nhân viên nhiệt tình",
+            "review_content": "Mình đến ở 2 đêm và thấy thật sự thỏa mái, các bạn lễ tân nhiệt tình vui vẻ, đáp ứng nhanh yêu cầu của gia đình mình. Đặc biệt cảm ơn anh Hưng bộ phận Lễ tân đã rất nhiệt tình và thân thiện. Nội thất và phòng tuyệt vời, tông màu xanh mát, đẹp tạo cảm giác sang, sạch, yên bình, Hi mình lại thích nhất cái bồn tắm nữa. Nhất định Mình sẽ quay lại đây lần nữa. Cảm ơn các bạn nhân viên ressort cho gia đình mình một kỳ nghỉ đẹp đáng nhớ. Love!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanhdoan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kì nghỉ đáng nhớ",
+            "review_content": "Gia đình tôi về tuy hoà du lịch. Tôi chon ks stelia resort là nơi nghỉ dưỡng của gia đình tôi. Thức ăn đồ uống ở đay rất đa dạng và ngon hợp khẩu vị của tôi, hồ bơi tại villas rất đẹp và sạch sẽ. Đội ngủ nhân viên lễ tân thân thiện và tốt với khách hàng. Tôi rất thích khu nghỉ dưỡng này, năm sau gia đình tôi sẽ quay lại khu ks stelia này",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hien Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Resort siêu xinh",
+            "review_content": "Không khí rất trong lành, nhiều cây xanh, nhiều góc sống ảo ^^. Phòng mới, sạch sẽ. Nhân viên thân thiện, nhiệt tình. Gần biển và ở trung tâm thành phố thuận tiện đi lại. Mình sẽ quay lại khi có dịp đến Phú Yên.",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Thanh Kiều",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "The best memories",
+            "review_content": "Mình rất ít khi viết review về trải nghiệm du lịch, nhưng đến với Stelia Resort, mình thực sự \"ưng cái bụng\" bởi sự yên tĩnh với khung cảnh xung quanh nơi đây cùng với đội ngũ nhân viên thân thiện ở xứ \"nẫu\" này. Rất cảm ơn bạn Hưng quản lí đã nhiệt tình trò chuyện và giúp đỡ gia đình tôi quá trình nhận phòng. Mình rất nghiện món mì mắm nêm mà bạn Hưng giới thiệu. Đi PY các bạn nhất định thử món đấy nhé. Many thanks !",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quyên90",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kì nghỉ rất thích",
+            "review_content": "Gia đình tôi gồm 2vc và 2 con nhỏ. Tôi ở khu villas stelia beach resort rất là đẹp và thoải mái. Bãi biển rất đẹp. Nhưng do mưa ảnh hưởng thời tiết nên vợ chồng tôi ko dám tắm. Đội ngủ nhân viên rất thân thiện với vc tôi. Đặt biệt là bạn hưng quản lý lễ tân. Hổ trợ tôi lúc check in-out rất chuyên nghiệp và nhanh nhẹn. Cảm ơn mấy bạn lễ tân nhé. Năm sau gia đình tôi sẽ quay lại nơi này nghỉ dưỡng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Đặng Thanh Lan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ dưỡng tuyệt vời",
+            "review_content": "Gia đình mình đã từng ghé qua khu resort này, dịch vụ ở đây rất tốt và nhân viên rất chuyên nghiệp, Phong cách trang trí rất đẹp, phù hợp với mình, chọn resort này để trái nghiệm nghỉ dưỡng, mình và gia đình rất là hài lòng, có dịp thời gian tới, mình sẽ trở lại đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sự lựa chọn tốt nhất cho kỳ nghỉ của bạn",
+            "review_content": "Đã rất nhiều lần tới đây và sẽ là sự lựa chọn hàng đầu cho những kỳ nghỉ sau này Chất lượng phục vụ ở đây trên cả tuyệt vời.  Các món ăn ở hai nhà hàng đều rất rât ngon.  Đây sẽ là sự lựa chọn hoàn hảo nhất nếu bạn muốn kỳ nghỉ của mình thật sự ý nghĩa.",
+            "reviewer_location": "Quy Nhơn, Việt Nam"
+        },
+        {
+            "name": "Vân Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi tuyệt vời.",
+            "review_content": "Stelia Beach Resort có phòng đẹp, tiện nghi và không gian rộng rãi, điểm cộng là thật sự yên tĩnh để thư giản cùng gia đình, người thân. Ngoài ra tôi rất ấn tượng với Stelia, ở đây có khuôn viên xanh, thoáng mát thư thái, nhiều góc nhỏ checkin quá xịn xò. Về món ăn phong phú, mới lạ và ngon miệng. Nhân viên rất chuyên nghiệp và thân thiện. Đặc biệt cảm ơn anh Hưng Nguyễn FOM đã rất nhiệt tình giúp đỡ tôi trong kỳ nghỉ.",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "trihung24",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghĩ tuyệt vời",
+            "review_content": "Cảm nhận đầu tiên của tôi khi đặt chân tới resort là nơi đây thật sự tuyệt vời. Về mọi cảnh quan thiên nhiên, đồ ăn, phòng ốc thật sự rất đẹp , sạch sẽ và rộng rãi. Resort có tới 3 nhà hàng để ăn uống, hồ bơi rất đẹp. Chụp hình cả ngày cũng không hết cảnh đẹp.  Ngoài ra còn có khu ngoài trời dành cho các bạn nhỏ, khá nhiều trờ chơi. Một sự kết hợp tuyệt vời cho nghĩ dưỡng cao cấp, cần sự thư giản tuyệt đối hay cho các cặp honeymoon.",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Khanh Doan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch Tuy Hoà - Phú Yên ( Stelia beach resort )",
+            "review_content": "Resort Stelia beach tuyệt vời với tất cả dịch vụ , nhân viên nhiệt tình chu đáo , khung cảnh với mảng xanh khắp resort . Phòng villa sang với bài trí đẹp , smart TV to với nhiều chương trình giải trí . WC rất sạch sẽ tạo cảm giác dễ chịu vô cùng . Buffet sáng ngon . Nhà hàng nhân viên phục vụ chu đáo vui vẻ nhiệt tình . Đúng đẳng cấp 4 sao rưỡi . Tuyệt vời .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kim",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chỉ 1 từ [Tuyệt vời]",
+            "review_content": "Resort 4* nhưng chất lượng còn hơn cả những resort 5* tôi đã từng đi. Đẹp từ ngoài vào trong, đẹp từ ảnh mạng đến cảnh thực, đẹp mọi góc từ sảnh lễ tân đến khu cà phê nhà hàng, hồ bơi chung và đến cả trong phòng.  Chúng tôi gia đình 3 người lớn 2 trẻ em đặt căn villa sở hữu hồ bơi riêng, hồ bơi có hệ thống làm ấm nước cho nên có thể bơi bất cứ lúc nào bất chấp thời tiết. Con của chúng tôi đã rất thích thú khi được bơi vào cả ban đêm mà nước vẫn rất ấm ko sợ bệnh. Thích hơn nữa là bồn tắm trong phòng tắm, bồn tắm rộng vừa cho cả 4-5 người, có hệ thống nước massage rất hiện đại.  Resort nằm ngay trung tâm thành phố, tiện đi lại nếu thích ra ngoài ăn hoặc tham quan thành phố. Đối diện biển, nhưng tôi nghĩ biển chỉ để ngắm chứ sóng lớn và biển quá rộng khó tắm.  Chỉ có 1 góp ý nhỏ",
+            "reviewer_location": "Quy Nhơn, Việt Nam"
+        },
+        {
+            "name": "Quỳnh Mai",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời , nhiều view post hình đẹp , nên đến một lần để trải nghiệm",
+            "review_content": "Tôi đã đi qua và trải nghiệm về resort rất đẹp và nhiều tiêu chuẩn tốt , cứ tưởng như 5 sao và có phục vụ cực tốt , tôi săn phòng giá rẻ nhưng được nhận ưu đãi rất tốt từ khách sạn , lần sau nếu đi tôi vẫn chọn Stelia beach resort, tối cuối tuần còn có ca nhạc , nói chung phong cảnh tuyệt vời , phù hợp với các bạn cần view đẹp post hình như châu âu, rất yên tĩnh.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Discover321277",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đúng là sang trọng",
+            "review_content": "Đây hoàn toàn là khu nghỉ mát tốt nhất mà tôi đã từng đến, về giá cả / chất lượng và mặt khác. Biệt thự với hồ bơi riêng là sự sang trọng thực sự. Các nhân viên rất thân thiện và mến khách. Khu nghỉ dưỡng vẫn đang trong giai đoạn mở cửa mềm, vì vậy mọi thứ đều hoàn toàn mới.",
+            "reviewer_location": "Helsinki, Phần Lan"
+        },
+        {
+            "name": "Leo Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi tuyệt vời!",
+            "review_content": "Stelia Beach Resort là một khách sạn tuyệt đẹp với nhiều tính năng và tiện nghi. Khu nghỉ mát có thể sử dụng thêm một vài ghế hồ bơi, nếu không sẽ không có khiếu nại. Tôi chắc chắn sẽ quay trở lại Stelia Beach Resort vào kỳ nghỉ của tôi vào năm tới",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Federico K",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi không có",
+            "review_content": "NƠI TUYỆT VỜI. . . . . Các nhân viên luôn ân cần và sẵn sàng chăm sóc tôi, dọn dẹp phòng rộng rãi và dễ chịu, phòng tắm đẹp, nhà hàng rộng rãi với thực đơn không biết chọn gì vì mọi thứ đều nổi bật, trước bãi biển và cũng có bơi. hồ bơi. . . . . tốt hơn không thể",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "location": "Lô C1 Đường Độc Lập, Tuy Hòa 620000 Việt Nam",
+        "name": "Stelia Beach Resort",
+        "geo_data": {
+            "latitude": 13.127260208129883,
+            "longitude": 109.29890441894531
+        },
+        "room_number": "48",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/7b/77/ec/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/75/34/2a/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/ca/01/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/ce/06/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/cd/f3/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/cd/e5/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/03/d1/0a/there-bedroom-villa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/08/80/61/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/ce/2f/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/ce/14/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/cb/67/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/99/8c/45/dua-don-san-bay.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/cb/63/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/cd/fb/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/ce/57/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/ca/54/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/ce/47/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/aa/7c/c9/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/74/ca/3e/stelia-beach-resort.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/08/7b/ad/stelia-beach-resort.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

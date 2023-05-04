@@ -1,0 +1,531 @@
+{
+    "content": [
+        {
+            "name": "NyNguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Mia resort",
+            "review_content": "Phòng rộng và thoải mái với ban công rất lớn. Resort ngay cạnh bãi biển và phía sau là vách núi. Nhân viên lễ tân và lái xe điện rất tinh tế và nhiệt tình Có các gói lựa chọn đồ ăn phù hợp với gia đình Nước trái cây bữa sáng rất giá trị, toàn nước tươi. Có kid club và chỗ chơi ngoài trời cho gia đình có thời gian cùng nhau.",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Quan Ho",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "đươc",
+            "review_content": "Nhân viên chu đáo nhiệt tình. phòng thoáng sạch chất lượng khá ổn. View đẹp.  Bất tiện nhất là khá xa trung tâm thành phố nên di chuyển vào thành phố phải mất thời gian. Nhưng bù lại có bãi biển khá đẹp. sẽ quay lại lần sau",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ha R",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tốt",
+            "review_content": "Nhân viên thân thiện phục vụ chu đáo, chất lượng tốt, nhiều tiện ích cho khách hàng Không gian khách sạn sang trọng và hiện đại, một sự lựa chọn hoàn hảo cho gia đình và các cặp đôi để du lịch nghỉ dưỡng",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Thư M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Phòng sạch sẽ, thoáng mát, view đẹp, đầy đủ các tiện nghi, giá cả hợp lí Các anh chị nhân viên ở đây rất nhiệt tình, vui vẻ và xinh đẹp Buffet sáng nhiều món thuần việt, rất ngon, ăn ngon miệng. Tôi cảm thấy tôi bỏ tiền ra cho kì nghỉ dưỡng ở đây rất hợp lí và thoải mái nhất",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Hoài P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ dưỡng tuyệt vời",
+            "review_content": "Ở đây rất đẹp, villa khá là sang trọng và hiện đại. Để di chuyển chúng ta có xe đưa đón. Khu vui chơi rất nhiều trò chơi và thú vị, nơi ở có hồ bơi. Rất mong Vinpearl sẽ phát triển và thành công hơn trong tương lai",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Duy Tuan L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "vinpear resort",
+            "review_content": "dịch vụ bên khách sạn tốt , nhân viên thân thiện , nhiệt tình. Nhờ sự tư vấn của Thoa tôi và gianđình đã vui chơi và nghỉ dưỡng vô cùng tốt. tôi và gia điình rất thích khi ở đây. Và sẽ quay lại vào Một ngày không xa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phong H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vinpear resort NhaTrang",
+            "review_content": "Trong khoảng thời gian lưu trú tại khách sạn tôi rất hài lòng với các dịch vụ của khách sạn. Từ nhân viên đến lễ tân đến những tiện ích dịch vụ trong phòng đều ok. Tôi rất thích sau này nếu có cơ hội tôi sẽ quay lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thành huyền",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ rất tốt",
+            "review_content": "Dịch vụ tốt, nhân viên nhiệt tình vui vẻ, view đẹp, nhiều trải nghiệm thú vị , bãi biển đẹp với nhiều cảnh đẹp. Hồ bơi rất đẹp, nhà hàng nhiều món ngon, đa dạng, phục vụ tận tình chu đáo . Khách sạn có đầy đủ phương tiện đưa đón liên tục ra khu vui chơi vinwonder rất tiện lợi.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Như Huyền",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch",
+            "review_content": "Thái độ phục vụ của nhân viên nhiệt tình , phòng sạch sẽ thoáng mát , đồ ăn ngon , chất lượng. Khu vui chơi rộng rãi , công viên nước đẹp , có nhiều trò chơi mạo hiểm . Xứng đáng là một nơi để đến tham quan",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Duong H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vinpearl vui ve",
+            "review_content": "Gia đình chúng tôi lựa chọn vinpearl làm nơi nghi dưỡng, cho mấy bé đi chơi. Rất hài lòng về dịch vụ,, don tiep nhiet tinh, ban Trang da ho tro gia dinh raat nhieu. Do an ngon vua mieng. Chung toi se quay lai dip gan nhat de trai nghiem dich vu",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "タンタン",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời!",
+            "review_content": "Phong cảnh đẹp, phòng đẹp, lễ tân nhiệt tình, thân thiện. Vì mình đi trúng ngày lễ nên chờ xe hơi lâu một xíu, nhưng ngày thường chắc sẽ nhanh hơn. Buffet sáng cũng ngon với các món Việt và Tây. Duy chỉ có 1 điểm trừ là wifi buổi tối rất yếu, và sóng điện thoại cũng k có nên hơi bất tiện.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phuong Tran",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất hài lòng với dịch vụ Mia Resort",
+            "review_content": "Ba mẹ mình gần 80t, đi chơi được phục vụ rất tận tình, nhất là 2 nhân viên Sơn và Dếnh. Cảnh quan đẹp, thích hợp nghỉ dưỡng. Món ăn vừa miệng, giá cả chấp nhận được với KS 5*. Lần sau nếu có du lịch Nha Trang vẫn tiếp tục chọn Mia",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Ruby Bee",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất hài lòng",
+            "review_content": "Không có gì để chê ở resort này cả. Tất cả đều đẹp từ phong cảnh, cây cối, sảnh chờ, phòng ốc, nhà hàng, hồ bơi... Nhân viên thì rất thân thiện. Cảm ơn Mia đã cho tôi 1 kì nghỉ dưỡng vô cùng thoải mái sau những tháng ngày mệt mỏi vì covid 😊",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vo T",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "không thoải mái",
+            "review_content": "Phòng tolet và tắm nhỏ xíu, không có vòi xịt rất khó chịu.mình đi 3 resort trong chuyến vừa rồi thì cảnh quan ở đây đẹp, bải biển lài đẹp, tắm rất đã, đây là một trong nhưng bải tắm tốt trong chuyến đi vừa rồi của mình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "phamthanhtung98hn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất hài lòng với dịch vụ của MIA Resort",
+            "review_content": "Mọi thứ đều rất tốt, chỉ có 1 thiếu sót nho nhỏ, không biết do chủ ý hay do văn hóa ở trong như vậy, nhưng toilet không có vòi xịt thực sự là vấn đề nếu lưu trú dài ngày. Mong Mia bổ xung điều này để phù hợp hơn với nhiều người.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "thuyanhtran1208",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "Phản ánh",
+            "review_content": "Phòng và nhân viên ok! Điểm trừ và thất vọng nhất là hấp 4 con ghẹ nhỏ tính phí 50k/con… trong khi khách vẫn ăn uống tại nhà hàng!!! Còn lại đều ok. Nhưng sẽ ko qay lại vì nhà hàng qá là ko hợp lí……..",
+            "reviewer_location": "Tan Phu, Việt Nam"
+        },
+        {
+            "name": "dinhthihoamai124",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi nghỉ dưỡng lý tưởng",
+            "review_content": "Villa có thiết kế rất đẹp, tiện nghi, không gian thoải mái; view biển trên cả tuyệt vời; thái độ của nhân viên thân thiện và chuyên nghiệp, đồ ăn ngon, các dịch vụ khác rất nhanh và chu đáo, hồ bơi riêng tại villa không sử dụng chất khử trùng (hoặc rất ít?) nên bơi rất thoải mái đặc biệt với trẻ em;",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "phihoang2021",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "KHÔNG GIAN NGHỈ DƯỠNG ĐÍCH THỰC",
+            "review_content": "Resort Mia có thiết kế độc đáo, không gian hoà quyện với thiên nhiên.....Đội ngũ nhân viên thân thiện, nhiệt tình. Chúng tôi may mắn đến đây trong khoảng thời tiết nắng đẹp, mát mẻ. Mong có thể quay trở lại để trải nghiệm được nhiều khoảnh khắc hơn nữa tại nơi đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "hanhnguyen1410",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "cảm giác y như lúc đầu. vì quay lại vào mùa vắng và đợt lạnh nên không tắm biển được thật tiếc.",
+            "review_content": "yêu tất cả mọi thứ của Mia từ cách phục vụ chuyên nghiệp đến món ăn cực kỳ ngon. thời gian lưu lại thật sự đáng nhớ. sẽ quay lại nữa vào một dịp gần nhất. sễ giới thiệu cho nhiều người đến Mia. Đây là nơi thích hợp để nghỉ dưỡng. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "hoalethi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Company trip",
+            "review_content": "Chúng tôi đã có một kì nghỉ 3 ngày 2 đêm tại Mia, đó là một kỳ nghỉ trên cả tuyệt vời. Chúng tôi được đón tiếp một cách tận tình bởi tất cả mọi người từ nhân viên tới quản lý của khu Resort. Phong cảnh ở Mia đẹp một cách bình yên, hài hòa và thực sự ấn tượng. Phòng ốc và nội thất đúng với đẳng cấp của một khu resort tầm cỡ quốc tế. Thực sự tôi hoàn toàn bị thuyết phục và không thể có một lời nào phàn nàn về mọi dịch vụ tại Resort. Bữa sáng đầy đủ và phù hợp với tất cả mọi người trong đoàn. Chúng tôi rất vui và hài lòng với sự lựa chọn của mình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trang Vuong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Mia nơi này thật khó để quên",
+            "review_content": "Tôi chọn Mia cho chuyến nghĩ dưỡng cho gia đình 3 ngày 2 đêm. Mia cảnh đẹp còn hơn trên hình ảnh. Phong cảnh hữu tình không khí rất trong lành. Nhân viên cực kỳ nhiệt tình niềm nở và chu đáo. Tôi đặc biệt rất ấn tượng với sự chu đáo và nhiệt tình của Mr Sơn. Chúng tôi tổ chức một buổi ăn tối tại phòng riêng được sự trợ giúp của nhân viên nơi đây chúng tôi có một buổi ăn tối rất ấm áp và cực vui. Đồ ăn Việt hay món Âu đều rất ngon luôn. Nhất định tôi sẽ vẫn chọn Mia cho chuyến đi tiếp theo tại Nha Trang.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vo Hoang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt Vời !!!",
+            "review_content": "Mình chọn Mia cho chuyến đi gia đình hàng năm. Tổng quan cả gia đình đều rất hài lòng.  Địa điểm cách thành phố 15p đi xe rất thích hợp cho gia đình nghĩ dường vì ít ồn ào. Bữa ăn: Ăn sáng tuy hơi hạn chế nhưng vẫn rất ngon và đảm bảo 1 phần ăn là bao no ( nên chọn cơm tấm, thiếu Bì nữa là chuẩn vị Sài Gòn). Bữa tối thì gia đình mình có chuẩn bị đồ nướng cho tiệc gia đình, Khách sạn có chuẩn bị chén đũa cho 10 ng, nhưng nhà mình có con nít nên đã chuẩn bị đồ nhựa sơ cua từ nhà mang theo. Bữa tối thì say ngất ngư. Dịch vụ: Gia đình mình thích đi bộ nên ít khi gọi xe điện. Nhưng có lần gọi, thì xe đến rất nhanh chóng và kịp thời. Resort có sân tennis và sân bóng rổ, cho mấy đứa chơi bao phê. Nhân viên thì thân thiện,có thắc mắc gì thì cứ liên hệ các bạn lễ tân sẽ giải đáp.  nếu có",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Phuongtung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hoan hao",
+            "review_content": "Tôi rất hài lòng khi ở đây. Đi lai rất tiện vì gần sân bay, ngoài ra còn có xe đi Nha Trang hàng ngày Các món ăn ngon, Lễ tân rất thân thiện, đặc biệt Mr.Sơn Nhất định tôi sẽ quay lại Chúc resort sẽ ngày càng đẹp hơn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Thu Thảo",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Du Lịch Nha Trang",
+            "review_content": "Resort rất đẹp.  Nhân viên thân thiện nhiệt tình.  Các món ăn phong phú đa dạng.  Nhận phòng nhanh.  Gần sân bay nên di chuyển nhanh và thuận tiện  Sẽ quay lại 1 ngày sớm nhất có thể cùng gia đình và bạn bè",
+            "reviewer_location": "Vũng Tàu, Việt Nam"
+        },
+        {
+            "name": "Nguyễn T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Best choice",
+            "review_content": "Cảnh quan đẹp với nhiều mảng xanh nhìn tươi mát , các món ăn hợp khẩu vị, đa dạng và đẹp mắt , nhân viên thân thiện và nhiệt tình , nếu có cơ hội sẽ quay lại , và giới thiệu cho bạn bè và người thân .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Chinh v",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một nơi rất đáng để lưu lại những kỹ niệm tuyệt vời bên người thân",
+            "review_content": "Tôi có dịp nghỉ tại Resort này vào một dịp tình cờ, book 01 khách sạn khác nhưng lại bị full phòng nên tôi book thử Resort này, và thật sự là tôi đã không chọn nhầm, Mia có lợi thế khác hẳn so với các resort khác là về địa hình, vị trí của resort quá đẹp, đội ngũ nhân viên rất thân thiện, tôi thấy giống như đang ở nhà khi nghỉ tại đây. Best choice, cảm ơn Mia. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Việt Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một kỷ niệm đáng nhớ với Mia Nha Trang Resort",
+            "review_content": "Mia đẹp dịu dàng, đắm mình ở vị trí đắc địa, phía đông là đại dương bao la, phía tây là vách núi. Vì thế mà tụi mình chọn căn villa đẹp nhất, nằm trên vực cao có view tuyệt vời ngắm bình minh và hoàng hôn, mà lại còn có thể dạo bộ, đặt những bước chân từ bãi cỏ xanh mướt được các cô chú làm vườn chăm mỗi ngày của villa để đi ra bãi cát và đá sỏi. Khu vực biển trước villa tụi mình là nơi Mia bảo tồn rạn san hô, tảo, nhiều loài cá và các sinh vật biển khác. Vì thế mà tụi mình thử book 1 buổi đi Snorkel với anh tour guide vô cùng thân thiện và hài hước. Dè đâu tụi mình thích vô cùng. Giá chỉ có 231k/ người lớn. Ở villa mình gọi đồ ăn uống có nhân viên đem đến tận phòng phục vụ, các bạn rất chuyên nghiệp và nhiệt tình. Tụi mình có mua hải sản và thịt ở ngoài đem vô villa để làm BBQ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Norikjiang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good",
+            "review_content": "Tôi và ck tôi đã có một kỳ nghỉ tuyệt vời tại Mia Resort vào T2.2020. Ấn tượng đầu tiên phải nói là Resort rất đẹp, cách sân bay ko quá xa nên rất tiện cho việc đi lại . Nhân viên thân thiện, mọi người đều chào hỏi vc mình.Cảm ơn Mr Sơn bp Lễ Tân đã quan tâm và nhiệt tình tư vấn các đặc sản cũng như các địa điểm tham quan tại nt. Tuy chỉ ở Resort 1 thời gian ngắn và đồ ăn chỉ ở điểm 8 nhưng vc mình thấy rất vui và thú vị. Nếu có cơ hội sẽ quay lại Mia 1 lần nữa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thiên Lang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá",
+            "review_content": "Mia resort quả là một nơi nghỉ dưỡng đẳng cấp. Tôi rất thích đến đây và tôi đã quay lại nhiều lần cho các kì nghỉ. Một trong những điểm du lịch tuyệt vời, hoàn hảo từ dịch vụ ăn uống, nghỉ dưỡng đến mỹ quang. Bạn bè và gia đình tôi cũng cực kỳ yêu thích resort này.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Roam523970",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Resort tuyệt vời",
+            "review_content": "Resort rất đẹp, villa 5 phòng ngủ beachfront phong cảnh biển rất đẹp, hồ bơi to. Có khu BBQ rất tiện cho gia đình quây quần ăn uống. Nhân viên thân thiện Cảnh đẹp Phòng rất rộng, sạch sẽ, trang trí đẹp, tiện nghi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Isabella P",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Du lịch nghỉ dưỡng",
+            "review_content": "Là một nơi tuyệt vời để nghỉ ngơi dành cho các bạn không thích chổ đông đúc.  còn nếu bạn muốn đi du lịch khám phá thì bạn nên chọn option khác. vì nơi đây khá xa trung tâm và các tụ điểm du lịch. Nơi gần nhất là Mỹ Ca, từ Mỹ ca bạn có thể đến các đảo nhanh hơn. Nên hỏi dân địa phương để biết thêm chi tiết. ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "MaiHuyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá",
+            "review_content": "Tôi rất hài lòng với chất lượng và phục vụ của khách sạn, đặc biệt là chị Xuân Hương- lễ tân. Phục vụ chu đáo, thân thiện, cởi mở, nhiệt tình . Khách sạn sạch sẽ, rất tuyệt vời . Tuy nhiên điểm 7 cho bảo quản đồ ăn và chất lượng chưa được tốt . Rau củ salat tươi ngon hơn sẽ rất tuyệt . Tôi rất hài lòng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Le Thi T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nghi ngoi tại  Mia Cam ranh",
+            "review_content": "Moi thử trên cả tuyệt vời. Đồ ăn cực chất. Tinh tế sang chảnh. Phục vụ nhiệt tình, vui vẻ. Phòng sạch đẹp. Phù hợp cho việc cả gia đình. Nhóm bạn hội họp nghi dưỡng . Ước mo đuoc trở lại nghi ngoi tai Mia.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trangbee",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Very good",
+            "review_content": "1. về khung cảnh chung: rất đẹp, thích nhất là lúc mới thức dậy mở cửa ngắm biển, ngắm cây xanh và nghe tiếng sóng! điều đó làm cho mình thêm hưng phấn cho một ngày mới! thích nữa là bể bơi của Villa, rất rộng và view đẹp! 2. Về chất lượng phục vụ: - ăn uống: ngon! hợp với khẩu vị của gia đình tuy rằng có món hơi đậm đà hơn một chút xíu - dọn dẹp phòng: trung bình! có những phòng ko được dọn dẹp, ko thay khăn, ko thêm bàn chải đánh răng khi có người phát sinh ở thêm - khu vui chơi trẻ con: kém! (so với những resort 5 sao khác mình đã đến: Naman retreat Đà Nẵng, Intercontinental Đà Nẵng, hay thậm chí là Vinpearl...) - xe đưa đón trong resort: khá tốt! có mặt kịp thời - về tư vấn giới thiệu: Resort nên tư vấn cho khách khi book villa về việc villa có những gì, và khách lưu ý có",
+            "reviewer_location": "Tỉnh Quảng Ninh, Việt Nam"
+        },
+        {
+            "name": "Tony Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Go with my friend",
+            "review_content": "Vì là resort nên View siêu đẹp, tụi mình chỉ đi trải nghiệm, hưởng thụ, ngăm cảnh. Chất lượng phục vụ thì rất là tốt. Thích hợp với những cặp đôi hưởng tuần trang mật, hưởng thụ các kiểu. Cảm ơn & hẹn gặp lại.",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "thatlatuyetvoi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "vacation",
+            "review_content": "Một chuyến đi du lịch thú vị, đây là một hòn đảo rất thiên nhiên, không khí trong lành mát mẻ, tôi cùng gia đình nghỉ tại một Villa có hướng biển đẹp, dịch vụ tốt, buffet sáng phong phú, khẩu vị ngon. Mỗi 1h đồng hồ có chuyến tàu chở gia đình chúng tôi ra đất liền và quay về, buổi tối chúng tôi thích ở tại hòn đảo này thưởng thức các món ăn Hải sản tươi sống. Không gian yên tĩnh. Nhân viên luôn tươi cười. Quản lý chuyên nghiệp",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Tran Quoc Khanh",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "View đẹp, hồ bơi tràn ngay trong villa nhưng ăn sáng thì chưa tốt",
+            "review_content": "Mình đi họp với công ty. Cả team book một villa lớn cho 10 người. View các phòng đều hướng biển, sáng dạy đón bình minh rất tuyệt. Hồ bơi tràn ngay trong villa rất tiện, vừa đủ rộng, chỉ sâu 1m6. Phòng đẹp, sạch, nội thất tinh tế. Nói chung mọi thứ đều ổn, chỉ có ăn sáng thì chuẩn bị chưa tốt và mái hiên ở nhà hàng che nắng sáng ko tốt, trong khi bên trong nhà hàng thì hơi ít bàn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "phungphuongthao1988",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một kỳ nghỉ vô cùng tuyệt vời cùng người thân & gia đình",
+            "review_content": "Toi ở phòng Family condo , view biển vô cùng tuyệt đẹp giá cả phải chăng. Nhà Hàng Ý vô cùng tuyêt vời với đồ ăn và amazing seaview và hồ bơi nhìn toàn bộ cảnh biển vô cùng tuyêt vời. Nhân vien vô cùng thân thiện. Đặc biêt ở đây còn có xe bus đưa đón ra trung tâm thành phố miễn phí. Gia đình mình đã có một bữa tối vô cùng tuyệt vời tại Sailing Club.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Hồ Ly Đại Tiên",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "Mia đẹp nhưng Mia chưa hoàn mỹ",
+            "review_content": "Gia đình mình trải nghiệm ở Mia 1 tuần lễ vào dịp Tết dương lịch 2017 với 3 đêm ở Garden villa và 3 đêm ở beach front pool villa. Đồ ăn ở Mia khá ngon nhưng ngay ngày thứ 2 cả nhà mình ăn tối tại nhà hàng Sandals 02/01/2017 thì bị ngộ độc. Chồng mình nôn thốc nôn tháo, mình thì đau bụng quằn quại và sự trợ giúp y tế đến từ Mia khá là vô dụng. Gia đình mình phải bắt taxi vào thành phố để mua thuốc. Cảnh Mia đẹp nhưng villa khá bé mà nhân viên từ dọn vườn đến phục vụ cứ lượn qua lại trong khi rèm cửa mỏng manh nên thiếu đi sự riêng tư. Mia không có đưa đón sân bay nên dù là resort 5* mình vẫn đánh giá Mia chưa thật sự là tốt. Dịch vụ gia đình mình hài lòng nhất ở Mia lại là dịch vụ giặt là, giá cả dễ chịu và hợp lý.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "ngoctrinh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Một trong những resort mà tôi thích nhất về mọi mặt, từ dịch vụ cho đến phòng ốc. Một nơi tránh những ồn ào và tất bật, và có thể tận hưởng được một cách trọn vẹn nhất ngày nghỉ của mình. Thức ăn sáng cũng rất tuyệt, đặc biệt là các loại bánh. Hồ bơi rất đẹp vào buổi tối. Hầu như năm nào mà tôi có kế hoạch nghỉ dài ngày ở Nha Trang thì đều sẽ ghé lại mia.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Lan_Dam-thi-Huong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ thú vị cùng Việt kiều Thụy Sĩ",
+            "review_content": "Mia là resort tôi đã cân nhắc lựa chọn cho kỳ nghỉ cùng với gia đình người bạn thân là Việt Kiều Thụy Sỹ về thăm quê. Đã từng ở một số resort có tên tuổi ở Nha Trang nên lần này tôi đã chọn một điểm đến nằm ngoài thành phố, hoàn toàn cách biệt để thực sự thư giãn, tránh xa sự ồn ào của đô thị. Mia gây thiện cảm cho chúng tôi ngay từ sảnh đón tiếp, chỗ nghỉ chờ check-in thật đẹp với hồ nước và view biển. Những ly nước mía gừng ngọt mát thơm lừng và nụ cười tươi trẻ của các bạn lễ tân khiến chúng tôi muốn ngồi thật lâu để cảm nhận sự nhẹ nhàng, tinh tế từ cảnh quan đến dịch vụ nơi đây.  Mia không rộng nhưng là resort tuyệt vời, phong thủy hữu tình, một bên áp núi, phía kia liền biển, trên đường xuống nhận phòng, những con đường nhỏ uốn lượn mềm mại đầy hoa giấy làm chúng tôi không",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "HanoiJW",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "Chỉ phù hợp nghỉ dưỡng, loanh quanh trong resort",
+            "review_content": "Khu resort nằm gần Bãi Dài, cách xa trung tâm Thành phố, trải dài trên một dải đất ven đường từ sân bay về Nha Trang. Thiết kế và nội thất mang phong cách hiện đại, khá nhiều mảng xanh, kể cả trên nóc nhà của các Villa. Khu Villa có bể bơi riêng ở gần biển thì trước mặt là bãi đá lớn, trông lởm chởm (có thể là phong cách gì đó, giống kiểu vài bãi biển bên Châu Âu chăng), Villa có bể bơi riềng nằm trên cao là nơi có tầm nhìn đẹp nhất, ngắm một phần Vịnh Nha Trang, tầm nhìn rất rộng. Các phòng Condo giá vừa phải nhưng kém riêng tư. Dịch vụ rất tốt, nhân viên thân thiện và nhiệt tình. Bữa sáng ngon nhưng mục tiêu chủ yếu phục vụ khách Tây nên khách Việt sẽ chóng ngán nếu ở 3-4 ngày. Nếu đi gia đình tới đây thì cũng không biết cho bọn trẻ chơi gì ngoài bể bơi. Muốn đi vào Thành phố",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Khoapda",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một trong những resort tôi thích",
+            "review_content": "Một trong những resort tôi thích Nhất. Có xe đưa đón từ sailor club. Cảnh vô cùng đẹp. Ban đêm đi spa xong, đi cầu thang xuống biển rất đẹp. Spa rất tốt. Phòng rộng rãi và tiện nghi. Có thể ăn tối bãi biển.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Lax_LeHoang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Yên tĩnh, hoàn toàn tách biệt. Khung cảnh lãng mạng",
+            "review_content": "Hoàn toàn tách biệt với cuộc sống ồn ào của thành phố - Khung cảnh tuyệt vời , lựa tựa núi, trước mắt là biển cả bao la. Bãi tắm nhỏ nhưng sạch sẽ, an toàn cho trẻ nhỏ vì cát lài, nước cạn. Hồ bơi lớn & đẹp.Thức ăn ở đây đắt nhưng ngon & khung cảnh nhà hàng lãng mạng !   Từ sân bay về Resort gần .Nhân viên tất cả rất vui vẽ, thân thiện.    Điểm trừ duy nhất có lẻ là xa trung tâm thành phố & xung quanh không có nhà hàng ăn uống. Muốn ăn thì có thể đi Taxi khoảng 10km ăn hải sản Cầu Mới khá ngon & rẻ !",
+            "reviewer_location": "Nha Trang, Việt Nam"
+        },
+        {
+            "name": "Ken P",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Lãng mạn, lịch sự",
+            "review_content": "Nằm theo triền đồi, nhưng Mia thiết kế rất độc đáo, tôi thật sự thích nơi này, không gian sang trọng nhưng rất lãng mạn, phòng ngủ rất trang nhã, phục vụ rất chuyên nghiệp, bãi biển nhỏ nhưng thật thoải mái!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Sang N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuần trăng mật",
+            "review_content": "Rất thích nơi này ! Dịch vụ thật sự tốt và mọi người ở đó gồm cả người làm vườn, lau dọn và người nam nữ phục vụ tất cả đều rất thân thiện luôn luôn nói chào. Ưu: phong cảnh tuyệt vời (nhất trong số các khu nghỉ dưỡng ở Việt Nam chúng tôi từng ở, Hồ bơi lớn, Thức ăn và các phần rất lịch sự, Dịch vụ xe con đi vòng quanh khu nghỉ dưỡng, spa rất tốt, phòng gym nhã nhặn (cần phải quảng cáo cái này vì chúng tôi đã không biết là có), Hẻo lánh và thanh bình. Khuyết: không có sự riêng tự khi tắm, Cần phải có màn che cửa sổ vì người làm công luôn tỉ cây và tưới nước bãi cỏ và có thể nhìn vào trong, Bãi biển xoàng xĩnh và hơi bẩn, thức ăn hơi cao giá, cần thêm nhiều lựa chọn. Trên hết thì vấn đề lớn nhất là sự riêng tư ở phòng tắm.",
+            "reviewer_location": "Sydney"
+        },
+        {
+            "name": "Charlie Long",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thật là một khách sạn đẹp!",
+            "review_content": "Chúng tôi ở tại Mia Resort trong 3 đêm và điều đó thật tuyệt vời. Chúng tôi được bao quanh bởi tầm nhìn tuyệt vời, nhân viên thân thiện và những người tốt. Phòng của chúng tôi là một ‘Căn hộ ở phía bên phải của khu nghỉ mát và nó có một tầm nhìn tuyệt vời ngay trên biển, khu nghỉ mát này rất lớn, bạn sẽ đi du lịch bằng‘ Golf Buggy Lỗi từ nơi này đến nơi khác. Hồ bơi rất lớn, một lần nữa nhìn ra biển, tuy nhiên hơi lạnh. Cá nhân tôi cảm thấy rằng thức ăn khá đắt đối với những gì nó có nhưng vẫn là một nơi tuyệt vời để uống và ngắm mặt trời mọc. Nói chung tôi yêu Mia Resort và hy vọng sẽ quay lại sớm.",
+            "reviewer_location": "York, Vương quốc Anh"
+        },
+        {
+            "name": "Catherine M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuần trăng mật tại khu nghỉ dưỡng Mia",
+            "review_content": "Chồng tôi và tôi gần đây đã ở trong khu nghỉ mát Mia như một phần của tuần trăng mật của chúng tôi. Chúng tôi đã có một kỳ nghỉ tuyệt vời trong khu nghỉ mát kín đáo, xinh đẹp này. Hai nhà hàng trong khu nghỉ mát rất đáng yêu và dịch vụ, đặc biệt, là đặc biệt. Chúng tôi chắc chắn sẽ trở lại! ! !",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ed S",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một lựa chọn 5 sao hoàn hảo",
+            "review_content": "Vợ tôi và tôi đã dành 3 đêm tại khu nghỉ mát Mia vào tháng 1 năm 2020. Khi chúng tôi kiểm tra, chúng tôi buồn bã nhận ra chuyến thăm nên dài hơn. Khu nghỉ mát thật ngoạn mục. Khung cảnh của nó dọc theo một đại dương rộng 2 km mang đến tầm nhìn tuyệt vời cho tất cả mọi người. Các nhà hàng rất tuyệt. Các dịch vụ spa rất phong phú và đội ngũ có khá nhiều kinh nghiệm. Các tính năng tốt nhất của khu nghỉ mát này là nhân viên. Đừng hiểu sai ý tôi, mọi tính năng của việc điều hành một tài sản cao cấp đã được xem xét nhưng điều thực sự làm nên sự khác biệt là đội ngũ nhân viên am hiểu, hữu ích và thực sự thân thiện. Họ đã thực hiện chuyến đi của chúng tôi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "MauriceAdam",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt nhất!",
+            "review_content": "Vì điều kiện thời tiết rất xấu, tôi không may phải hủy chuyến thăm tới Mia Resort. Mia resort sẵn sàng cấu trúc và giúp đặt lại hành trình của tôi đến khu nghỉ mát tuyệt vời của họ. Đối với bản thân tôi, tôi không thể quay lại Việt Nam trong một thời gian ngắn, nhưng tôi đã gửi cho bố mẹ tôi và họ bị thổi bay bởi Vẻ đẹp, sự hiếu khách của đội và Thức ăn ngon. Cảm ơn tất cả các thành viên của khu nghỉ dưỡng Mia đã cho bố mẹ tôi một khoảng thời gian khó quên tại Nha Trang. Tôi chắc chắn trở về với gia đình một ngày! !",
+            "reviewer_location": "Amsterdam"
+        },
+        {
+            "name": "atpartnership",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ đáng yêu, thực phẩm và quan điểm!",
+            "review_content": "Khu nghỉ mát thật tuyệt vời: dịch vụ rất tuyệt vời và nhân viên thực sự thân thiện. Nó gần như không có lỗi, với cảnh quan và phòng tuyệt đẹp. Các món ăn rất đáng yêu và chân thực, và mặc dù không có các lựa chọn ăn chay trong nhà hàng, đầu bếp rất thích nghi và làm cho tôi một món phở đậu phụ đặc biệt rất ngon. Các biệt thự được bố trí tốt ở rìa vách đá, với hồ bơi vô cực, khung cảnh ngoạn mục (được đề cập hai lần vì chúng xứng đáng được ghi nhận!) Cũng như trang trí hiện đại. Ồ",
+            "reviewer_location": "Stroud, United Kingdom"
+        },
+        {
+            "name": "Mary UK",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ dài ngày thư giãn",
+            "review_content": "Bạn tôi và tôi vừa trở về sau 13 đêm nghỉ tuyệt vời tại Mia Resort. Trong thời gian đó, chúng tôi đã gặp nhiều nhân viên chuyên nghiệp và thiên thần ở nhiều khu vực khác nhau của khu nghỉ mát, tất cả đều rất hữu ích và dễ chịu.  Xe buýt đưa đón 8 giờ tối vào Nha Trang đã làm việc hoàn hảo cho chúng tôi. Chúng tôi rất thích những món ăn xinh xắn trong cả hai nhà hàng tại Mia Resort nhưng cũng đã lấy mẫu khá nhiều nhà hàng ở Nha Trang, cũng như một số quán bar trên bãi biển và những quán được giấu ở các con đường bên cạnh, khi chúng tôi đã tìm ra cách tốt nhất để băng qua đường tấp nập. Biểu tượng cảm xúc  Cảm ơn Chris vì đã dành thời gian viết cho chúng tôi một danh sách những chiếc taxi đáng tin cậy mà chúng tôi có thể sử dụng từ Nha Trang trở lại khu nghỉ mát. Chúng tôi tận",
+            "reviewer_location": "Chesterfield, Vương quốc Anh"
+        },
+        {
+            "name": "Mini Monster",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đặt nó ! Nếu không bạn sẽ hối hận.",
+            "review_content": "Tôi cố gắng không viết nhiều thì càng đơn giản tôi càng viết tốt. Làm thế nào tôi nói về Mia Resort? ! Một nơi mát mẻ để đến. Với người dân & dịch vụ. Bạn sẽ không hối tiếc nếu bạn không hối tiếc nếu bạn không đặt nó. Từ kinh nghiệm của tôi. MIA RESORT bạn thật tuyệt vời và cảm ơn vì đã cho chúng tôi tận hưởng khung cảnh của bạn mọi thứ. Điều này làm cho chuyến đi của tôi đến NHA TRANG là chuyến đi tốt nhất. Sẽ trở lại quá! ! ! .",
+            "reviewer_location": "Dublin, Ireland"
+        },
+        {
+            "name": "Washington White",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đáng yêu mà giá trị lớn!",
+            "review_content": "Chúng tôi đã đi du lịch khắp thế giới và tôi đấu tranh để tìm một khách sạn đại diện cho giá trị tốt hơn thế này! Phòng khách sạn cung cấp, tầm nhìn ra biển không bị gián đoạn, hồ bơi vô cực cá nhân, dịch vụ tuyệt vời và thức ăn ngon với giá 150 USD mỗi đêm - rực rỡ. Vâng, thức ăn có thể tốt hơn và bãi biển nổi bật hơn NHƯNG mức độ dịch vụ nhiều hơn bất kỳ thiếu sót nào.  Với tất cả sự phát triển đang diễn ra xung quanh Nha Trang, tôi sẽ đến khách sạn này ngay bây giờ. Có rất nhiều vòng và về nhưng khi khách sạn tốt như vậy thì không có lý do gì để rời đi!",
+            "reviewer_location": "London, Vương quốc Anh"
+        },
+        {
+            "name": "Alec H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một ốc đảo",
+            "review_content": "Tôi đi du lịch một chút công bằng, nhưng tôi thường không viết đánh giá - nhưng trong trường hợp này, tôi sẽ hối tiếc nếu tôi không làm vậy. Vợ tôi và tôi đã trải qua 3 ngày tuyệt vời tại Mia Resort, và nếu tôi biết nó sẽ rất tuyệt, tôi sẽ đặt phòng lâu hơn. Chúng tôi có một biệt thự sân vườn (ban đầu tôi muốn có một biệt thự bên vách đá với một hồ bơi riêng, nhưng chúng tôi đã đặt phòng trễ) và điều đó thật tuyệt vời. Một phút đi bộ qua khu đất được điêu khắc tuyệt đẹp đến hồ bơi vô cực và nhà hàng của Sandal, nhưng với cách bao quanh là thời trang (hàng rào cao, cây cối), nó vẫn có cảm giác như ốc đảo riêng của bạn. Căn phòng thật tuyệt vời và rất thoải mái và bãi biển thật hoàn hảo.  Nhà hàng Sandals xứng đáng được đề cập là tốt - thực phẩm hoàn toàn ngon. Bữa sáng lan truyền",
+            "reviewer_location": "Thượng Hải, Trung Quốc"
+        },
+        {
+            "name": "Penny O",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Bài ca hoàn hảo của chúng tôi",
+            "review_content": "Chúng tôi vừa rời đi. Tôi đã rơi nước mắt vì đơn giản là tôi không muốn đi. Chúng tôi ở trong một căn hộ Garden với tầm nhìn một phần biển và nó nằm ở vị trí hoàn hảo cho Sandals, một trong hai nhà hàng, và cho hồ bơi và bãi biển. Mọi nơi đều rất yên tĩnh và bầu không khí yên tĩnh và thanh bình mặc dù khách sạn đã đầy và T đang được tiến hành.  Chúng tôi không thể lỗi lỗi dịch vụ và nhân viên, không có ngoại lệ, xuất sắc.  Tôi bị dị ứng đáng kể với động vật có vỏ, đó là một vấn đề ở Việt Nam vì thực tế là nhiều món ăn sử dụng bột cá làm nguyên liệu. Tôi chưa bao giờ, nhận được sự chăm sóc như vậy liên quan đến điều này. Dường như tất cả mọi người đã được thông báo và mỗi lần chúng tôi ăn ở một hoặc một trong các nhà hàng, nhân viên đã sẵn sàng tư vấn cho tôi về những gì tôi có",
+            "reviewer_location": "Cambridge, Vương quốc Anh"
+        },
+        {
+            "name": "Sils55",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Một kỳ nghỉ đáng nhớ",
+            "review_content": "Mia Resort nằm trong khuôn viên tuyệt đẹp cách Nha Trang khoảng hai mươi phút. Xe buýt đưa đón khách sạn hoạt động bốn lần một ngày hoặc bạn có thể chọn đi bằng taxi. Cindy, người quản lý khách sạn thân thiện và hiệu quả thường xuyên được nhìn thấy, trò chuyện với khách (và nhân viên) và đưa ra lời khuyên khi cần thiết. Chúng tôi cảm thấy bàn tay của cô ấy - cách tiếp cận thực sự đã được đền đáp. Tất cả các nhân viên chúng tôi gặp trong thời gian lưu trú của chúng tôi thực sự xuất sắc. Bữa sáng tuyệt vời với cả các món ăn châu Á và phương Tây được cung cấp (một phần kiểu tự chọn nhưng với trà, cà phê và một số món nấu được phục vụ tại bàn của bạn). Hai nhà hàng (một người Ý) đã phục vụ những món ăn thú vị, được trình bày chất lượng cao. Các hồ bơi nằm bên cạnh bãi biển là tốt và",
+            "reviewer_location": "St. Albans, Vương quốc Anh"
+        },
+        {
+            "name": "BobB53",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời trong khuôn viên đẹp",
+            "review_content": "Nằm trong khuôn viên được bảo trì đẹp đẽ, đây là một khách sạn tuyệt vời. Hai nhà hàng phục vụ thức ăn ngon cả ngày. Nhân viên hoàn toàn thú vị - không thể thân thiện hơn hoặc hữu ích hơn. Người quản lý khu nghỉ mát, Cindy, luôn ở bên và luôn nói chuyện với khách (chính xác là những gì một người quản lý khách sạn nên làm). Bãi biển khá nhỏ nhưng mọi thứ đều hướng ra biển. Quán bar khách sạn xinh xắn. Vợ và các con gái của tôi đã sử dụng tốt và hoàn toàn thích spa. Xe buýt đưa đón khách sạn vào Nha Trang rất tốt - nhưng taxi không đắt nếu thời gian đưa đón không phù hợp với chúng tôi.",
+            "reviewer_location": "London, Vương quốc Anh"
+        },
+        {
+            "name": "smstephe",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khu nghỉ mát đẹp",
+            "review_content": "Chúng tôi ở lại Mia cho tuần trăng mật của chúng tôi trong một biệt thự trên đỉnh vách đá. Các biệt thự là tuyệt vời và hồ bơi riêng là tuyệt vời (chắc chắn phải). Chúng tôi yêu bãi biển và hai khu nghỉ mát. Dịch vụ này cũng rất tuyệt vời, với các chuyến xe buggy xung quanh khu nghỉ mát, xe đưa đón miễn phí vào thành phố, dịch vụ phòng nhanh, các tour du lịch thú vị và đội ngũ nhân viên thân thiện.  Lý do duy nhất tôi cho khu nghỉ mát này là 4/5 thay vì 5/5 là vì nó được đưa vào một con đường chính, và nếu bạn ở trong bất kỳ biệt thự nào trên đường (tức là vách đá) thì tiếng ồn từ đường khá ồn ào - đôi khi đủ to để nghe bên trong. Thật không may, không có nhiều họ có thể làm về việc này. Nếu tôi đã biết về điều này trước khi chúng tôi đến, có lẽ chúng tôi sẽ không đến, điều đó",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "lushangyin",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tốt nhất ở Nha Trang",
+            "review_content": "Khu nghỉ mát này là lựa chọn tốt nhất để tận hưởng bãi biển và biển ở Nha Trang và tránh xa đám đông khách du lịch và giao thông. Nơi nghỉ này chiếm một khu vực cây xanh rất lớn với các lựa chọn chỗ ở khác nhau. Chúng tôi ở trong căn hộ nhìn ra đại dương và nó thật tuyệt. Những thứ tuyệt vời, luôn tử tế và cười, sẵn sàng giúp đỡ. Có hai hồ bơi vô cực, nơi tốt đẹp để dành những giờ nóng nhất. Chúng tôi rất hài lòng. Những điều duy nhất để cải thiện là: cần có sự kiểm soát nhiều hơn trong hồ bơi vì mọi người không tắm vòi sen và một số khách du lịch tắm với quần áo thường xuyên của họ (mặc dù có dấu hiệu cho thấy bạn phải mặc đồ bơi thích hợp). Chúng tôi cũng thấy một vài người rửa đôi dép của họ trong hồ bơi. Điều này thật tệ và không nên xảy ra ở một nơi như vậy. Có một căn",
+            "reviewer_location": "Roma, Italia"
+        },
+        {
+            "name": "Foxlabrador",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khu nghỉ mát đẹp",
+            "review_content": "Đã ở 6 đêm trong biệt thự bên bãi biển với hồ bơi riêng. 2 hồ bơi nghỉ mát lớn, bãi biển tuyệt vời với cát trắng đáng yêu. Nhà hàng tuyệt vời tất cả với tầm nhìn tuyệt vời. Thực phẩm tuyệt vời như tất cả các nhân viên. Xe đẩy để vận chuyển bạn xung quanh khu nghỉ mát được trải ra với khu vườn tuyệt vời, biệt thự là tất cả riêng biệt với nhiều không gian xung quanh họ và rất đẹp, phòng tắm lớn với vòi sen bên ngoài mà là tuyệt vời. Không thể lỗi. Một nơi phải ở lại Nha Trang.",
+            "reviewer_location": "Vùng Auckland, New Zealand"
+        },
+        {
+            "name": "Mike C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tài sản tuyệt đẹp ..... nhà hàng tốt và bãi biển đáng yêu",
+            "review_content": "Ở lại đây trong ba ngày như là một phần của chuyến đi vòng quanh Việt Nam. Chúng tôi ở trong căn hộ gia đình - đi cùng hai đứa con. Quá cảnh từ sân bay tại Cam Ranh rất nhanh chóng và dễ dàng (khoảng 15 - 20 phút). Ấn tượng ban đầu khi đến tại lễ tân bị chi phối bởi tầm nhìn tuyệt đẹp ra Biển Đông. Khi chúng tôi đến nơi, chúng tôi được yêu cầu chờ trong một căn phòng bên cạnh quầy lễ tân và một người nào đó sẽ đến kiểm tra chúng tôi - họ không bao giờ làm và sau 10 - 15 phút chờ chúng tôi quay lại bàn làm việc. . . mà nấc cục ban đầu ngoài dịch vụ trong suốt là tuyệt vời. Chất lượng của các phòng đều rất tốt - chúng tôi có hai phòng ngủ lớn với phòng tắm riêng, khu vực phòng khách và hiên ngoài trời trực tiếp lên bờ đá của biển.  Khu nghỉ mát là quá lớn để đi bộ chiều dài (đặc",
+            "reviewer_location": "London, Vương quốc Anh"
+        }
+    ],
+    "hotel": {
+        "location": "Bai Dong, Cam Hai Dong, Cam Lam, Nha Trang Việt Nam",
+        "name": "Mia Resort Nha Trang",
+        "geo_data": {
+            "latitude": 12.134258270263672,
+            "longitude": 109.21202850341797
+        },
+        "room_number": "70",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/8a/8e/c7/sandals-s-swimming-pool.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/a0/0b/4f/villa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/60/f9/9f/la-baia-restaurant.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/72/28/cf/sandals-restaurant.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/bf/5f/yoga.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/b6/df/beachfront-villa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/b2/50/xanh-spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a4/43/spa.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a4/52/wedding-party.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a4/37/mia-resort-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a4/26/mia-resort-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a4/13/mia-resort-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a4/07/mia-resort-nha-trang.jpg?w=200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a4/00/mia-resort-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a3/e8/mia-resort-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a3/e2/mia-resort-nha-trang.jpg?w=200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/a3/95/breakfast.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/8a/8e/9c/mia-resort-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/8a/8e/db/mia-resort-nha-trang.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/8a/8e/b0/sandals-s-swimming-pool.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

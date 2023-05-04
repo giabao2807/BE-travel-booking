@@ -1,0 +1,635 @@
+{
+    "content": [
+        {
+            "name": "Quỳnh Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "địa điểm đáng giá",
+            "review_content": "Tôi cảm thấy đây là không gian tuyệt vời cho một kì nghỉ dưỡng, thái độ nhân viên chuyên nghiệp và lịch sự. Không gian phòng thoáng mát và sạch sẽ. Khung cảnh thì rất đẹp, rất phù hợp làm nơi dừng chân cho những gia đình như mình. Rất mong lần sau sẽ được quay lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kem",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch",
+            "review_content": "Mình đi du lịch đà nẵng 2 người, lựa chọn 1 phòng đôi. Thích nhất khoản thoải mái, sạch sẽ và view đẹp. nếu có cơ hội đi lần nữa, nhất định mình vẫn sẽ chọn chỗ này. Bạn nào đi du lịch đà nẵng mà chưa có chỗ dừng chân thì nên chọn chỗ này nhé.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hwang Yong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến nghỉ dưỡng tốt đẹp",
+            "review_content": "Đội ngũ nhân viên nhiệt tình, cởi mở, thân thiện. Bữa ăn đủ dinh dưỡng tuy nhiên cần cải thiện đa dạng món ăn. Phòng đẹp, tiện lợi không có thiết bị cũ hỏng. Mong khách sạn giữ vững chất lượng dịch vụ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tinnguyen91",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ks tuyệt với, thích hợp để ở trong thời gian du lịch",
+            "review_content": "Khoảng thời gian tuyệt vời khi đi chơi và nghỉ dưỡng cùng bạn gái. Không gian thích hợp, nhân viên thân thiện và giá cả phải chăng. Chúng tôi có thể ngắm sông Hàn từ khách sạn, có thể ngắm được những màn pháo hoa đặc sắc. Lần tới khi tới đây, tôi vẫn sẽ chọn Palmier Hotel làm nơi ở lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoai Thuong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Ví trí đẹp, nhân viên siêu dễ thương",
+            "review_content": "Đà Nẵng thì đẹp, thân thiện đúng tiêu chuẩn thành phố đáng sống, Khách sạn Palmier cũng siêu đẹp, siêu thân thiện luôn :)) không gian ấm cúng, sạch sẽ, nhân viên thân thiện, nhiệt tình, đồ ăn ngon  Nếu có dịp vào Đà Nẵng tôi vẫn sẽ chọn Palmier <3 <3 <3",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Bin Bin",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "2 ngày nghỉ dưỡng tuyệt vời",
+            "review_content": "Một điều mình đánh giá rất cao khách sạn này là nhân viên vô cùng thân thiện và phòng óc sạch sẽ, view đẹp. Mong khách sạn giữ vững chất lượng dịch vụ như này và ngày càng đông khách. Tuy nhiên nên thay đổi đồ ăn sáng nhiều hơn để tạo sự phong phú và ngon miệng hơn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "ĐÀI TRANG",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vị trí tuyệt vời",
+            "review_content": "Khách sạn Palmier có vị trí thật tuyệt vời, ban đêm tôi có thể ngắm nhìn bờ sông hàn thơ mộng, hơn nữa từ đây tôi có thể xem được những màn trình diễn pháo hoa quốc tế. các bạn nhân viên ở khách sạn thì hết sức tuyệt vời, thân thiện. Tôi sẽ đến vào lần tiếp theo...",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Sugar",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên dễ thương, nhiệt tình.",
+            "review_content": "Khách sạn vị trí tốt, view sông. Phòng sạch đẹp. Thủ tục đăng ký nhanh gọn. Buffet đa dạng, vừa miệng. Các bạn nhân viên rất thân thiện. Đặc biệt rất ấn tượng và cảm mến với bạn Vy và Linh của bộ phận lễ tân và chăm sóc khách hàng",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Thong N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn dễ thương",
+            "review_content": "Khách sạn Palmier không gian cảm giác rất ấm áp friendly, các bạn nhân viên rất dễ thương nhiệt tình. Buổi sáng ngon miệng. Địa điểm gần các dịch vụ: bar, quán ăn, siêu thị nên khá tiện lợi. Sẽ đến lần sau!",
+            "reviewer_location": "Helsinki, Phần Lan"
+        },
+        {
+            "name": "Hoàng Lan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá về dịch vụ khách sạn",
+            "review_content": "Khách sạn có view đẹp, từ đây có thể quan sát thành phố Đà Nẵng Bảo vệ tươi cười niềm nở Bữa sáng phục vụ hài lòng Lễ tân có thái độ làm việc nghiêm túc chuyên nghiệp, tác phong nhanh nhẹn, luôn nở nụ cười với khách và điều này làm tôi cảm thấy rất hài lòng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngọc Trung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Review về khách sạn",
+            "review_content": "Khách sạn view đẹp, nhìn ra thành phố Đà Nẵng Bữa sáng ngon miệng, phục vụ tốt và hợp khẩu vị Nhân viên lễ tân cực kì cởi mở, thân thiện, có phong thái làm việc chuyên nghiệp khiến tôi hài lòng Ngoài ra bác bảo vệ luôn nở nụ cười và thân thiện với khách",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thanh Ân",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Palmier hotel",
+            "review_content": "Thiết kế ấn tượng, tạo cảm giác thân thiện. View đẹp, nhìn ra sông Hàn, gần các địa điểm vui chơi, trung tâm thương mại. Gần cầu rồng và cầu sông Hàn. Nhân viên chu đáo, nhiệt tình. Buffet đa dạng, phong phú.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Băng Phương",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thân thiện, dịch vụ tốt",
+            "review_content": "Tôi ở khách sạn này rất nhiều lần. Tôi thích vì phòng ở rất sạch, nhân viên thân thiện, nhiệt tình và giá thì rất là oke, cũng rất gần trung tâm tiện cho việc đi lại ăn uống hay shoping. Tôi đã giới thiệu cho nhiều bạn bè đến và ai cũng hài lòng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Chau",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt",
+            "review_content": "Nhân viên tại khách sạn rất nhiệt tình, chu đáo, cần gì là các bạn nhân viên hỗ trợ ngay. Phòng sạch sẽ, cách bố trí phòng hiện đại và dễ thương. Không gian thoải mái và view đẹp. Đặc biệt là rất gần các địa điểm ăn uống và siêu thị.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "wanna one",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "du lịch",
+            "review_content": "Khách sạn nằm ngay vị trí trung tâm.  Nằm sát bên Sông Hàn, thuận tiện đi lại tham quan. Các anh chị nhân viên cực kì dễ thương, thân thiện và nhiệt tình! Có view nhìn ra Sông Hàn, . Phong trang trí rất đẹp, tạo cảm giác thoải mái và gần gũi nhưng ko kém phần sang trọng! Sẽ quay lại vào những lần sau!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Minhminh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sạch sẽ, giá rẻ",
+            "review_content": "Mặc dù đi vào mùa cao điểm nhưng giá phòng vẫn không bị tăng. Chất lượng phòng rất tốt. Phòng view sông có thể xem được pháo hoa. Đồ ăn ở nhà hàng có các set phù hợp cho gia đình. Nhân viên lễ tân rất nhiệt tình và dễ mến.  Hè năm sau sẽ quay lại",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "YuNo",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "chuyến đi của những người bạn",
+            "review_content": "phòng ốc được sắp xếp gọn gàng cách bài tri cũng đẹp, tiện nghi,...tất cả mọi thứ đều khiến tôi cảm thấy bất ngờ. nhân viên ân cần chu đáo và giúp đỡ bạn mọi vấn đề mặc dù đề nghị nằm ngoài dịch vụ của khách sạn,đồ ăn trong nhà hàng  ngon và giá rẻ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phi long",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice trip",
+            "review_content": "Khách sạn có view rất đẹp sạch sẽ và ăn ninh.  Nhân viên nhiệt tình, chu đáo, luôn luôn sẵn sàng để hỗ trợ mình khi mình cần giúp . Bữa sáng đầy đủ, ngon miệng. Mình sẽ chọn nơi này để ở vào lần tiếp theo.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngọc Huyền",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt",
+            "review_content": "Khách sạn tốt, phòng đẹp, sạch sẽ, phòng có view nhìn ra sông Hàn và gần các địa điểm tham quan, đi lại rất tiện. Nhân viên nhiệt tình, vui vẻ, trợ giúp khách tốt. Có dịp mình sẽ quay lại cùng gia đình",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Dũng N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice hotel",
+            "review_content": "Khách sạn view đẹp, nhìn ra thành phố Đà Nẵng Bữa sáng rất ngon miệng, phục vụ rất tốt Nhân viên lễ tân cực kì cởi mở và gần gũi với khách, thái độ phục vụ chuyên nghiệp Ngoài ra bác bảo vệ luôn nở nụ cười và thân thiện với khách",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "SafiaKhan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Palmier Hotel",
+            "review_content": "Gia đình mình đã quay lại đây vì khách sạn siêu sạch sẽ, vô cùng thoải mái, nhân viên nhiệt tình và rất dễ thương. Bữa sáng đa dạng, bé mình ăn rất ngon miệng. Quán cafe bên dưới cũng sạch sẽ, thức uống ngon cực nữa. Sẽ đưa gia đình quay lại đây.",
+            "reviewer_location": "Quảng Ngãi, Việt Nam"
+        },
+        {
+            "name": "Viet Cao",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "View đẹp, phòng sạch sẽ, nhân viên nhiệt tình.",
+            "review_content": "Khách sạn nằm ở trung tâm, view đẹp nhìn ra hướng sông Hàn, thoáng mát. Phòng gọn gàng, sạch sẽ. Nhân viên nhiệt tình, thân thiện. Sẽ giới thiệu thêm nhiều bạn bè tới đây. Chắc chắn sẽ quay lại vào lần sau.",
+            "reviewer_location": "Tỉnh Quảng Nam, Việt Nam"
+        },
+        {
+            "name": "Xuan Phung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên nhiệt tình, dịch vụ tốt",
+            "review_content": "Kỳ nghỉ: 4 ngày 3 đêm tại Palmier,  Apartment 2 phòng hướng sông. - Bộ phận đặt phòng: bạn Ly tư vấn rất rõ ràng từng loại phòng và hỗ trợ huỷ phòng khác với thoả thuận ban đầu mà không tính phí. - Phòng ở: sạch sẽ và thoáng mát, dễ thương view phòng ngủ và phòng khách nhìn ra sông, phòng tắm rộng rãi và đủ tiện nghi hết. Nói chung cảm giác ở khách sạn như ở nhà ấy. Tuy nhiên hơi xuống cấp một tí so với lần trước mình ở.  - Nhà hàng: món ăn hợp khẩu vị, có nhiều lựa chọn cho buổi sáng và nhân viên cực kì nice (tiếc là quên tên bạn rồi). Đặc biệt là nước ép tươi nha, caphe trong quán nước  của khách sạn chỉ có 19k mà siêu ngon. ",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Hoàng Tuấn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn giá tốt",
+            "review_content": "Khách sạn tuyệt vời, thiết kế ấn tượng, view nhìn ra sông Hàn rất đẹp, bên cạnh khách sạn còn có nhà hàng kiêm quán cf rất tiện lợi. Khách sạn gần với trung tâm thương mại Vincom nên rất thuận tiện trong việc mua sắm đi lại Nhân viên lễ tân chuyên nghiệp và nhiệt tình, luôn cởi mở với khách Phòng ốc và đồ ăn đều rất tuyệt vời.",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Locloc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phù hợp công tác",
+            "review_content": "Tôi thường ở Palmier Hotel Danang vào những đợt công tác. Khách sạn với bữa ăn sáng ngon miệng, phòng ở yên tĩnh và sạch sẽ, nhân viên rất chu đáo nhiệt tỉnh. Dịch vụ giặt là khá rẻ và tiện lợi. Có massage giá 250k.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quang Nguyễn",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khách sạn Cây Cọ",
+            "review_content": "Tôi chọn phòng có cửa sổ ở Palmier 05 ngày. Các bạn nhân viên ở Palmier rất nhiệt tình và thân thiện.Bạn có thể chọn vị trí ngoài trời để thưởng thức bữa điểm tâm sáng ở tầng 2 với các món ăn từ truyền thống đến Á - Âu.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thienphuoc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất đáng đồng tiền bát gạo",
+            "review_content": "Khách sạn đạt tiêu chuẩn 3 sao. Từ phòng ở, đồ ăn sáng đến dịch vụ đều đạt chất  lượng và chúng tôi cảm thấy rất hài lòng. Nhân viên rất thân thiện và chuyên nghiệp.  Cần gì có nấy. Thái độ làm việc cực kỳ cầu thị. Tôi sẽ quay lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nghianguyen2019",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách công tác",
+            "review_content": "Chuyến công tác tại Đà Nẵng 3 ngày trở nên tuyệt vời hơn bao giờ hết khi ở tại Palmier Hotel. Phòng sạch sẽ, yên tĩnh là tiêu chí hàng đầu cho những người đi công tác như chúng tôi. Đặc biệt bữa sáng chuẩn bị khá sớm và đầy đủ cho khách hàng. Tôi rất hài lòng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyễn Trọng H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice hotel",
+            "review_content": "Mình đặt phòng view sông ở Palmier 2 đêm. Bạn lễ tân rất dễ thương, lúc mình check in khách sạn là 9h30 tối được các bạn lễ tân rất nhiệt tình chỉ các địa điểm ăn uống tại Đà Nẵng. Phòng đẹp và sạch sẽ, buffet ăn sáng k quá nhiều món nhưng ngon, hợp khẩu vị. Rất hài lòng với Palmier !",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Ha11",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn view sông Hàn gần vincom",
+            "review_content": "Khách sạn xinh đẹp với view sông Hàn thơ mộng. Đồ ăn rất ngon đặt biệt món bún bò. Ngoài ra nhân viên rất thân thiện và tốt bụng. Luôn hỗ trợ chúng  tôi trong thời gian ở tại đây. Gửi lời cám ơn tới tập thể nhân viên Palmier Hotel",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thuan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tiêu chuẩn 3*",
+            "review_content": "Khách sạn ven sông Hàn xinh đẹp, tiêu chuẩn 3* nội thất đẹp, tiện nghi. Vị trí thuận lợi để đi tham quan các nơi khác ở Đà Nẵng. Đồ ăn của bữa sáng ngon và đầy đủ. Menu đồ ăn khác cũng rất ngon, giá cả hợp lý cho set gia đình. Nhất định giới thiệu bạn bè.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Điền",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn xinh đẹp bên sông",
+            "review_content": "Vị trí đẹp ngắm toàn cảnh sông Hàn. Đi bộ ra cầu Hàn và cầu Rồng cầu tình yêu rất gần. Trung tâm thương mại vincom ngay kế bên. Đi ra biển mất 7 phút taxi.  Chất lượng phòng ở hợp lý với giá tiền. Bữa sáng cơ bản ngon miệng và đầy đủ.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Phúc Phạm",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời.",
+            "review_content": "Mình cùng người yêu có kỳ nghỉ tuyệt vời khi nghỉ tại khách sạn, Được nhân viên lễ tân tư vấn những điểm nên đi và mình thấy rất hài lòng với dịch vụ của khách sạn, Đặc biệt là khách sạn rất gần trung tâm nên đi lại rất thuận tiện và sông Hàn thì ngay bên cạnh còn gì tiện hơn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Như Thao",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân viên nhiệt tình, phòng ốc an toàn sạch sẽ",
+            "review_content": "Nhân viên nhiệt tình thân thiện phục vụ chứ đáo, an toàn phòng sạch Sẽ, đầy đủ, vui vẻ.  Bữa sáng nhiều món ngon Sạch Sẽ trưng bày đẹp. Nhân viên bảo vệ giúp hỗ trợ hành lý của tôi. Đặc biệt nhân viên chăm sóc khách hàng Sương và lễ tân Hoàng Ni. Cảm ơn khách sạn rất nhiều Chúng tôi Sẽ quay lại vào lần tới",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Cucvo",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp - ấn tượng view sông Hàn",
+            "review_content": "Khách sạn view sông Hàn thơ mộng, phòng thiết kế thanh lịch và bắt mắt. Bữa ăn sáng đa dạng và ngon miệng, đặc biệt không gian sân vườn cực thoáng đãng. Nhân viên thân thiện và dễ mến. Hỗ trợ tư vấn khách hàng rất nhiệt tình. Nhất định sẽ quay lại và giới thiệu bạn bè.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Maianh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Giá cả hợp lý",
+            "review_content": "Khách sạn xinh đẹp ví trị ngay gần trung tâm tôi thường ghé mỗi lần đi công tác. Giá cả hết sức hợp lý với chất lượng mà tôi nhận được. Đồ ăn sáng rất ngon đặc biệt là món bò kho. Nhân viên thân thiện nhiệt tình. Đặc biệt là Susan",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nganguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn xinh đẹp bên sông Hàn",
+            "review_content": "Palmier Hotel nằm bên sông Hàn thơ mộng gần cầu Hàn và cầu Rồng. Vị trí đẹp nên Việc di chuyển sang trung tâm thành phố rất thuận lợi. Phòng ở được bài trí bắt mắt, giá rất tương xứng  với chất lượng. Bữa sáng đa dạng và rất ngon. Nhân viên cực kỳ thân thiện, đặc biệt cám ơn Mai Sương đã lên lịch trình và tư vấn chuyến đi cho chúng tôi. Chắc chắn sẽ giới thiệu cho bạn bè.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoang Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tốt",
+            "review_content": "Lần đầu tiên hai vợ chồng tôi đến Đà Nẵng tham quan du lịch. Thông qua Tripadvisor chúng tôi biết đến khách sạn Palmier Hotel & Apartment, chúng tôi đã ở đây ba ngày. Điều đầu tiên làm hài lòng chúng tôi đó là nhân viên rất vui vẻ và nhiệt tình. Phòng đẹp hướng nhìn ra sông Hàn, tạo không gian thoải mái, ấm cúng. Đồ ăn sáng ở đây rất ngon. Lần sau có dịp tham quan Đà Nẵng nhất định chúng tôi sẽ ghé chân nghỉ tại khách sạn này.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "ngucoc",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tiện nghi, giá ok",
+            "review_content": "Đến KS khá muộn, mình yêu cầu đặt đồ ăn và nhận được sự tư vấn và phục vụ rất tốt từ nhân viên. Phòng nhỏ nhưng sạch sẽ và đẹp. Rất ưng cách phối màu của KS. Buffet ăn sáng không quá đa dạng món, tầm giá tiền này thì vậy cũng tốt rồi, món ăn ok.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Thuymen",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Tháng 12 đáng nhớ",
+            "review_content": "Tháng 12 này. Tôi có dịp ghé vào khách sạn trong chuyến công tác của mình. Thật ấn tượng về thái độ nhân viên và cách phục vụ của các bạn. Khách sạn dễ thương, sạch sẽ. Tôi sẽ quay lại đây khi tôi ghé thăm đà nẵng cùng gia đình mình.  Cám ơn Palmier Hotel",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Leo",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đà Nẵng nơi đáng để đi-Palmier chỗ đáng để sống",
+            "review_content": "Khách sạn nằm ngay sông Hàn, cách cầu hàn 100m, cầu rồng 500m. Vị trí thuận lợi để đi ra biển và vào trung tâm thành phố Đà Nẵng. Vào đúng dịp mưa nên không đi chơi đâu được nên có thưởng thức vài món ăn ở đây. Toàn đồ âu nhưng dễ ăn, đầy đặn. Đồ uống ngon. Nhân viên khách sạn và nhà hàng rất ngoan và thái độ vui vẻ với khách. Đánh giá 9/10 và sẽ giới thiệu cho bạn bè.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hanali",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Công tác trong mưa ....",
+            "review_content": "Giường thoải mái phòng đẹp, art, sạch sẽ vị trí thuận tiện ngay cạnh sông Hàn, di chuyển có nhiều dịch vụ giải trí..phù hợp với giá tiền. Các bạn nhân viên rất nhiệt tình tư vấn cũng như giúp đỡ khách. Dịch vụ thuê xe máy cũng rất ổn, giá phải chăng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tin Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn đẹp, dịch vụ tốt",
+            "review_content": "Khách sạn rất tốt, phòng ốc sạch sẽ và đẹp. Nhân viên thân thiện, nhiệt tình luôn tươi cười với khách. Bữa sáng ngon miệng và đa dạng. Vị trí thuận lợi tới các điểm du lịch tại Đà Nẵng. Ngoài ra dịch vụ về phương tiện đi lại ở đấy mức giá rất tốt, chất lượng cao.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Adlenguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice service",
+            "review_content": "Chất lượng phòng ok, massage tốt với giá hợp lý Đồ ăn ngon và phục vụ cực kỳ nhiệt tình Buffet sáng khá đa dạng và chất lượng Nhà vệ sinh sạch sẽ đầy đủ tiện nghi Nhân viên nhiệt tình vui vẻ , phục vụ tận tình",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Huan Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn dễ thương",
+            "review_content": "Khách sạn dễ thương, nhân viên thân thiện nhiệt tình. Bữa sáng rất ngon và đầy đủ, đa dạng nhiều sự lựa chọn. Phòng ở sạch sẽ, tiện nghi và mới. Luôn được dọn dẹp thay ga  hàng ngày. Trải nghiệm rất tuyệt vời tại đây. Sẽ giới thiệu nhiều bạn bè tới đây nữa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Voyage05704965248",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Palmier Hotel Danang",
+            "review_content": "Tôi đến Đà Nẵng vào giữa tháng 11 nhưng thật may vì thời tiết quá đẹp, không còn nóng bức như mùa hè. Gợi ý cho các bạn nên đi vào thời điểm này trong năm vì trời mát hơn, giá vé máy bay rất rẻ vả đặc biệt là không ồn ào đông đúc như tháng 6. Khách sạn xinh đẹp nằm ngay sông Hàn, băng qua cầu là tới chợ Hàn, trung tâm thành phố, đặc biệt ở đây đối diện với Novotel bên kia sông. Phù hợp cho những ai thích chụp tòa nhà hành chính, Novotel mà ngại đi xa 😀 Khách sạn ngay gàn Vincom nên tiện xem phim, mua sắm và ăn uống. Nhà hàng ở đây cũng rất tốt với nhiều đồ ăn ngon Nhân viên thân thiện, nhiệt tình và chu đáo. Khách sạn 3* nhưng chất lương 5* High recommand 🙂",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Linda Ho",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "NICE HOTEL WITH GOOD SERVICE",
+            "review_content": "Tôi và nhóm bạn có chuyến ghé thăm thành phố Đà Nẵng tháng 11 năm 2018. Thật ấn tượng với khách sạn xinh đẹp nằm ngay cạnh sông Hàn với con đường lớn nhiều cây xanh. Phòng ở tiện nghi, cơ sở vật chất tương đối mới và cực kỳ sạch sẽ, trong quá trình ở đây bạn sẽ luôn cảm nhận được mùi thơm chanh sả từ sảnh tới phòng. Bưã sáng rất ngon, phù hợp với cả khách nước ngoài vì có rất nhiều loại nước uống, cà phê, bánh mì, bơ, sữa.. Nhân viên ở đây rất chu đáo và dễ thương  Đặc biệt giá phòng quá rẻ so với những gì mà tôi nhận được. Cám ơn các bạn rất nhiều, tôi hứa sẽ nhất định quay lại :D",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Global48523378637",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm Honeymoon Palmier đáng nhớ",
+            "review_content": "Tôi đặt gói Honeymoon tại khách sạn Palmier với giá hết sức hợp lý vào tháng 10. Cả tôi và chồng đều hài lòng khi lựa chọn nghỉ tại đây. Chúng tôi được miễn phí đưa đón từ sân bay về khách sạn và ngược lại. Ngoài ra còn được sử dụng miễn phí 1 chiếc xe tay ga đời mới mỗi ngày.  Khi đặt gói Honeymoon, tôi và chồng còn được thưởng thức tiệc dành cho 2 người tại tầng 2 nữa. Thật bất ngờ vì bữa tối rất tuyệt, món soup và thịt bò rất ngon.  Để đánh giá nhân viên, tôi mạnh dạn đề nghị ở mức Xuất sắc, từ lễ tân, chăm sóc khách hàng, nhân viên nhà hàng, đầu bếp, bellman đều làm rất tốt nhiệm vụ của họ. Trải nghiệm rất xứng đáng. Cám ơn Palmier Hotel",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "FarAway34481669171",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good service",
+            "review_content": "buớc đến nơi đây...  Bla... Bla ngắm em thật lâu con tim a yếu mềm...  Bla... Bla...  Em ngọc cute, best support! Em từ đâu buớc đến nơi đây...  Bla... Bla ngắm em thật lâu con tim a yếu mềm...  Bla... Bla...  Khách sạn view đẹp, gần trung tâm thành phố, thuận tiện cho việc di chuyển",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tra H",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Best service",
+            "review_content": "Phòng + view đẹp,lễ tân support rất nhiệt tình(dễ thương) đặt biệt là em Ngọc Bữa sáng rất tuyệt, buffet đa dạng, cis nhiều sự lựa chọn Khách sạn nằm gần trung tâm thành phố nên bạn cis thể tham quan và mua sắm mọi thứ tại tại đây Tôi sẽ quay lại",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Jet62534943435",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn sạch đẹp - thân thiện",
+            "review_content": "Khách sạn ở vị trị đẹp. Thuận lợi cho việc thăm quan tới các địa điểm ở Đà Nẵng.  View sông Hàn đẹp. Gần cầu sông Hàn. Cầu rồng. Cầu tình yêu Nhân viên thân thiện nhiệt tình và chăm sóc khách hàng tốt. Đặc biệt là bạn Sương. Nhất định sẽ quay lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hải L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice trip",
+            "review_content": "Khách sạn thật tuyệt, trên cả tuyệt vời Bữa sáng rất tuyệt, có nhiều món để lựa chọn, thực đơn thay đổi hằng ngày nên không bị ngán Khách sạn mang phong cách hiện đại,  tôi rất là thích thiết kế này. Nhân viên rất thân thiện, chăm sóc khách rất chu đáo đặt biệt là bạn Ngọc lễ tân Tôi sẽ quay lại vào thời gian gần nhất",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "tranthanhliem1992",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Review palmier",
+            "review_content": "View đẹp nhìn ra sông hàn, đặc biệt về đêm nếu đứng trên sân thượng có view nhìn rất rộng và thoáng Nhân viên lễ tân vui vẻ, dễ thương và thân thiện Phòng sạch sẽ, thoáng mát Dich vụ đầy đủ giá cả hợp lý cho người ở lâu Phụ vụ ăn sáng chu đáo sạch sẽ",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Maps829389",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Địa điểm lý tưởng",
+            "review_content": "Khách sạn view sông Hàn rất đẹp, phòng thoáng có người vệ sinh hàng ngày nên rất sạch đẹp. Nhân viên rất vui vẻ, phục vụ nhiêt tình Có phục vụ bữa sáng miễn phí, đồ ăn vệ sinh sạch sẽ chất lượng ok. Đáng để trải nghiệm.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vacationer825700",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Một nơi đáng để ở cho kỳ nghỉ của bạn. Không gian khách sạn rất đẹp với gam mầu xanh biển cả. Phòng đẹp và khá mới, wifi phủ sóng mọi ngóc ngách trong khách sạn.  Các bạn nhâm viên và lễ tân thân thiện, rất nhiệt tình giúp đỡ khi có yêu cầu. Thêm một điểm cộng là buffet sáng khá đa dạng và đồ ăn ngon, cộng với không gian phòng ăn rộng và đẹp, có sân vườn và view thẳng ra sông Hàn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Meander826152",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trai nghiem tuyet voi!",
+            "review_content": "Ít khi viết đánh giá về địa điểm hay đồ ăn gì nhưng chuyến đi lần này không thể không đánh giá. Ấn tượng với khách sạn nhỏ xinh, ở 1 người sẽ hợp lý hơn. Tuy nhiên phòng được dọn rất sạch và thơm. Có nước chanh sả khi checkin và được hỏi han tư vấn lịch trình chu đáo. Bạn nào mà mới đi đà nẵng lần đầu thì điều này rất tuyệt. Đừng e ngại khách sạn kiếm lợi từ những dịch vụ đó mà đấy là những gợi ý hết sức tử tế. Vì tôi đã trải nghiệm các quán ăn và thuê xe ở đây đều rẻ hơn nếu tôi book grab. Các bạn nhân viên ở đây thì luôn cười tươi khi gặp khách. Thái độ rất cầu thị và nhiệt tình - ít khi tôi thấy được ở nhưngz khách sạn tương tự 🙂 Đây là 1 gợi ý hay cho các bạn đang muốn tìm khách sạn khi tới đn với mức giá tầm trung.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thành Vũ",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khách sạn tốt",
+            "review_content": "Khách sạn phong cách trẻ, teen, khá thú vị vì nước welcome được đưa đến phòng khi vừa checkin, chưa có khách sạn nào có cái này, hay! Tuy nhiên nước welcome khá ngọt, nhưng là nước sả nên cũng khá ngon, mát. Mình ở phòng 2 giường đơn nó là phòng ngay giữa khách sạn nên khá là bí, xung quanh bao bọc bởi các phòng, một hướng thì lại sang toà nhà bên cạnh nên ánh sáng rất yếu, cảm giác hơi ngột ngạt. Nhưng bù lại chất lượng phục vụ nhân viên tốt!",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Road822494",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt",
+            "review_content": "Khách sạn với phong cách phục vụ tuyệt vời, phòng rất thoáng và sạch sẽ, đầy đủ tiện nghi. nhân viên hoà đồng view sông Hàn cực đẹp luôn. Khách sạn có buffe sáng và nhân viên sẽ hỗ trợ các địa điểm du lịch cho các bạn chưa có lịch trình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "quangle2018",
+            "avatar": "",
+            "review_rating": "3",
+            "review_title": "its okie!!!",
+            "review_content": "nói chung là mọi thứ đều được,,, mình chỉ muốn góp ý thêm về phòng tắm thôi... theo mình nghỉ là nên có một tấm màng che ngang bồn tắm, để mỗi khi tắm, nước không có bắn tung tóe ra bên ngoài... ^^ giữ cho phòng tắm lúc nào cũng khô ^^",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "ngolananhneu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "KHÁCH SẠN THẬT TUYỆT VỜI",
+            "review_content": "Xin chào, tôi đã có 1 kỳ nghỉ tuyệt vời tại Palmier Hotel Danang cùng với bạn bè. Với vị trí hết sức thuận lợi để đi ra biển lẫn vào trung tâm thành phố. Phòng mình đặt là phòng căn hộ, với 2 phòng ngủ, 1 phòng khách, 2 phòng vệ sinh, 1 gian bếp rất đầy đủ tiện lợi. View sông nhìn từ tầng cao đẹp tuyệt. Phòng ốc sạch sẽ và được dọn hàng ngày luôn thơm mùi chanh sả. Nhân viên hết sức chu đáo và thân thiện, các bạn hỗ trợ nhiệt tình. Vừa book tour vừa hướng dẫn các địa chỉ ăn uống tại Đà Nẵng.   1 kỳ nghỉ đáng nhớ cùng bạn tại đây. Cám ơn Palmier Hotel.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "hgiang87",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Sự hài lòng khi ở khách sạn",
+            "review_content": "Khách sạn cũng rất tốt, chất lượng phòng cũng ok nhưng cần lưu ý về vấn đề tinh dầu phòng nên để hằng ngày chứ không phải chỉ lúc khách đến thì châm. Còn lại thì dịch vụ của khách sạn rất tốt, nhân viên rất thân thiện, tôi rất ấn tượng về khách sạn. Nếu có dịp ra lại Đà Nẵng thì nhất định tôi sẽ ghé khách sạn mình.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nam Đ",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thật tuyệt khi quay trở lại",
+            "review_content": "Hơi bất ngờ khi trở lại Art đã đổi tên mới Palmier hotel . Nhưng dịch vụ ngày càng tốt hơn . Tôi đánh giá cao về điều này . Ks luôn có mùi thơm, đó là điều khiến tôi lưu luyến và thường ghé lại đây mỗi dịp ghé thăm đà nẵng . Nhân viên lễ tân luôn niềm nở . Và Xuyến luôn hỗ trợ khách hàng hết lòng . Đó là điều làm chúng tôi hài lòng khi đến đây",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "amytimo",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời, khách hàng khó tính nhất cũng sẽ hài lòng",
+            "review_content": "Nếu được trở lại Đà Nẵng, chắc chắn mình vẫn sẽ chọn Palmier ❤ Khách sạn rất xinh, hiện đại mà vẫn thật gần gũi. Từ  những chi tiết decor, đến vệ sinh, phòng ốc, tiện nghi, nhà ăn,... đều rất chỉn chu và dễ thương, đem lại cảm giác thoải mái và thư giãn. Khách sạn nằm ngay bên sông, nằm giữa bãi biển và sân bay, rất thuận tiện, có thể đi bộ lên cầu sông Hàn, cầu Rồng, cầu tình yêu,... đều rất gần ^^ Tại sảnh tầng 2 của khách sạn còn phục vụ cả bữa sáng, có view rất thoáng và đẹp, nên mọi người có thể thư thả ăn sáng xong rồi đi chơi, hoặc chưa biết chơi ở đâu thì có thể nhờ đặt tour ngay tại đây, được hỗ trợ từ a-z luôn. Điều đặc biệt nhất, là các chị nhân viên vô cùng thân thiện và tâm lý. Chuyến đi 1 mình là",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "thao m",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nhân  viên tư  vấn rất  nhiệt  tình  đặc biệt là  bạn Ly Ly",
+            "review_content": "Tôi có dịp ghé thăm ksan  , phòng ốc  tuy hơi nhỏ nhưng  được trang trí khá  đẹp  mắt,  khu wc  sạch sẽ  , phòng có view  nhìn  ra hướng  sông  hàn  rất thơ mộng,  thích nhất là  vào  buổi sáng, mọi thứ ở  đây  đều  ổn , có 1 quán  cafe  bên  cạnh  được  trang  trí  đơn  giản  nhưng  đồ uống  khá  ngon,  Nhân viên  rất thân  thiện đặc biệt la LY đã  hỗ trợ mình  rất kịp  thời,  chắc chắn  mình  sẽ quay lại.  :)",
+            "reviewer_location": "Việt Nam"
+        },
+        {
+            "name": "linhnguyensalesmozax",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nói đến dịch vụ khách sạn chuyên nghiệp - nhớ đến Art House!!!",
+            "review_content": "Mozax Việt Nam - là một thành viên trong đoàn đã có 1 đêm nghỉ ngơi tuyệt vời tại Art House, là những vị khách khó tính nhưng chúng tôi vẫn bị chinh phục và mê hoặc bởi khách sạn có 1 không 2 này, vì sao ư????đầu tiên ks tọa lac tại trung tâm thành phố Đà Nẵng một địa điểm vô cùng lý tưởng cho hành trình của chúng tôi. Tiếp đến là dịch vụ rất hoàn hảo: phòng nghỉ sang trọng với phong cách thiết kế Đương Đại - lãng mạn và tinh tế.Tới đây chúng tôi được tận hưởng những dịch vụ chu đáo nhất mà chưa nơi nào có được. Nhung trên hết là sự chuyên nghiệp, chu đáo, tận tình trong cách ứng xử, phục vụ khách hàng của cán bộ, nhân viên khách sạn. Người làm cả Mozax chúng tôi ấn tượng nhất phải nói đến Hồ Ngọc Mai Sương, một cô gái trẻ trung, năng động, duyên dáng, tận tình và chuyên nghiệp,",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Huyền T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đà Nẵng hè 2018",
+            "review_content": "Khách sạn đáng yêu. Phòng tương đối sạch đẹp.  View sông Hàn đẹp lung linh lắm.Mình k thích bữa sáng ở đây lắm. Chắc k hợp khẩu vị miền Nam. .Nhân viên cẩn thận, nhiệt tình, bạn CSKH Sương và nhân viên nhà hàng chu đáo. Và tờ note này trong phòng rất dễ thương nữa",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "mytxauxi89",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trên cả tuyệt vời ❤️❤️❤️",
+            "review_content": "Nhân viên thân thiện :bạn Xuyến FO, bạn Sương CSKH .  Nếu có dịp ghé chắc chắn sẽ quay lại Art House 👍🏼 Cảm ơn Art House đã cho chúng tôi dịp kỷ niệm 3 năm ngày cưới tuyệt vời 👌🏻👌🏻👌🏻❤️❤️❤️ Trên cả tuyệt vời ❤️❤️❤️❤️",
+            "reviewer_location": "Cam Pha, Việt Nam"
+        },
+        {
+            "name": "Ngheu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn thân thiện",
+            "review_content": "Ấn tượng đầu tiên khi đặt chân đến khách sạn đó là dịch vụ chăm sóc khách hàng rất tốt. Nhân viên dễ thương, nhanh nhẹn, đón khách hết sức nhiệt tình. Phòng ốc xinh xắn, sạch sẽ. Nhất định sẽ quay lại ạ!",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Thanh M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Không gian tổ chức sự kiện tuyệt vời",
+            "review_content": "Đợt vừa rồi trường em có tổ chức sự kiện tại khu Coffee của khách sạn, không gian rộng đủ sức chứa cho hơn 100 người. Điều đặc biệt là các anh chị ở đây rất tuyệt vơi, hết sức nhiệt tình hỗ trợ set up cũng như trong quá trình chạy chương trình đều đáp ứng đủ các phát sinh của bên em. Cám ơn khách sạn nhiều, sẽ tư vấn cho các đội khác tổ chức chương trình tại đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thu D",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch Đà nẵng",
+            "review_content": "Khách sạn Art rất sạch sẽ, sang trọng, ngay trung tâm thành phố nên  tiện để đi chơi cả ở biển và vào phố ăn vặt. Giá cả ok từ 500k - 1000k/ đêm, có nhiều sự lựa chọn phòng ở nếu đi gd thì có căn hộ rất thoải mái. Đồ ăn ngon và đảm bảo, đồ uống khá ổn nếu k nói xuất sắc :))) Phòng ở thơm mùi chanh sả và có hoa tươi rất ấn tượng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Gió G",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Massage Body",
+            "review_content": "Massage Body ở đây thích nhất trong tất cả các Spa khách sạn tôi từng ở tại Đà Nẵng, ai ghé khách sạn này nên thử.. Phòng spa nhỏ xinh, mùi tinh dầu sả chanh dễ chịu, nhân viên là 1 chị khá nhiều tuổi nên rất chắc tay, lúc đầu chưa quen hơi đau xíu nhưng về sau rất thoải mái. Sau 3 ngày lượn lờ, chơi khắp ĐN thì ngày cuối nên thử Spa cho thoải mái rồi quay trở lại với cv 😀",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "thương h",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Đáng để quay lại",
+            "review_content": "Tôi ở 2 đêm, phòng khá dễ chịu, giá cả rất hợp lý với tôi. không gian nhà hàng cà phê rộng rãi. Thái độ nhân viên rất tốt và chu đáo, sẵn sàng tư vấn tour nào hợp lý nhất. Mặc dù đồ ăn sáng k quá đa dạng nhưng rất vừa miệng. Trải nghiệm k gây thất vọng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Khoapda",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "View khách sạn nhìn ra sông",
+            "review_content": "Vị trí khách sạn nằm giữa Cầu Rồng và cầu sông Hàn. Mặt trước khách sạn hướng sông. Phòng thiết kế theo kiểu trẻ trung, tương đối rộng rãi. Khách sạn nằm trong phân khúc trung bình khá, đối tượng là các bạn trẻ. Nhân viên phục vụ khá. Chất lượng bữa ăn sáng hơi ít nhưng tạm ổn.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Hoài L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Art hotel Đà Nẵng thật tuyệt vời",
+            "review_content": "Khách sạn view đẹp, đoàn mình có 1 số phòng bị mất view , phòng mình thì nhìn thẳng ra sông Hàn. Ăn sáng thì hơi ít món một chút nhưng hợp khẩu vị của mình, dịch vụ phòng ốc quá ổn. Phòng nhỏ nhắn nhưng thiết kế bắt mắt nhẹ nhàng. Có khu cà phê decor khá hay ho nhưng nên để nhiệt độ mát hơn. Nói chung mọi thứ ok trừ thang máy đi hơi lâu chắc hôm pháo hoa đông khách.  Trải nghiệm thú vị nên thử",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "mitodo2011",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Tôi thích art",
+            "review_content": "Tôi thích art về cách thiết kế cũng như về giá cả hợp lý , nv nhiệt tình, art hotel là sự lựa chọn lý tưởng về giá cả, tôi đã ở 2 kỳ,tuy với tôi thì Art không có gì đặc biệt , nhưng nếu chuyến đi nào phải tính về kinh phí thì chắc chắn tôi sẽ chọn Art",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        }
+    ],
+    "hotel": {
+        "location": "305 Trần Hưng Đạo Quận Sơn Trà, Đà Nẵng 550000 Việt Nam",
+        "name": "Palmier Hotel & Apartment",
+        "geo_data": {
+            "latitude": 16.07491111755371,
+            "longitude": 108.22897338867188
+        },
+        "room_number": "30",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/d7/e2/art-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/34/d4/16/welcome-to-palmier-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/f6/4a/0e/palmier-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f6/04/01/2-bedrooms-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/da/99/deluxe-king-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f6/03/fd/one-bedroom-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/da/9f/2-bedrooms-han-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/da/a0/2-bedrooms-han-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/d7/e4/art-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/da/9d/2-bedrooms-han-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/da/9c/2-bedrooms-han-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b7/40/bb/sitting-room-of-2-bedroom.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/da/9e/kitchen-in-2-bedrooms.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/d7/e5/art-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/d7/e3/art-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/d7/e7/art-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f6/03/fe/one-bedroom-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f6/03/fc/one-bedroom-suite.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/da/98/deluxe-twin-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f5/da/97/deluxe-twin-room.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

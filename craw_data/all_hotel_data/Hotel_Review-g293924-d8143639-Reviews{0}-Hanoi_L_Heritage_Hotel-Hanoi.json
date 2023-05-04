@@ -1,0 +1,236 @@
+{
+    "content": [
+        {
+            "name": "Bi Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất hài lòng",
+            "review_content": "Khách sạn ở vị trí trung tâm phố cổ, thuận tiện đi lại, có nhiều cửa hàng xung quanh. Bữa sáng ổn, bao gồm trong giá phòng. Nhân viên thân thiện, sẵn sàng giải đáp mọi thắc mắc. Khách sạn cũng có quầy đặt tour giúp khách.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Bichtuyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Gần trung tâm",
+            "review_content": "Địa điểm gần trung tâm gần bờ hồ, có thể đi bộ ra hồ hoàng kiếm, phòng sạch sẽ, nhân viên hướng dẫn chân tình, dịch vụ tốt. Nếu đợt sau đi chơi ra hà nội sẽ tới thăm nơi này tiếp. Các bạn nên ghé ở khách sạn này nha.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Stay553609",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nice hotel",
+            "review_content": "Chúng tôi đã ở đây 1 đêm với trải nghiệm rất tốt, mọi người ở đây rất thân thiện. Phòng rata sạch sẽ và thoải mái. Vị trí là vô cùng thuận lợi . Ăn sáng rất tuyệt vời với nhiều sự lựa chọn . Chắc chắn sẽ quay lại",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Joyce Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Holidays",
+            "review_content": "Vį trí thuận lợi,sạch sẽ   nhân viên phục tận tình chu đáo Bữa sáng ngon sạch Nhân viên lễ tân vui vẻ hoà đồng, tận tình hướng dẫn nếu bạn có gì cần hỏi, hành lý cũng có nhân viên giúp mình,  Sẽ quay lại nếu có về Hà nội",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Sweetpotato1208",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hà Nội Mùa Thu",
+            "review_content": "Vị trí ngay phố cổ thuận tiện cho việc ăn uống, vui chơi. Tiện nghi khách sạn tốt, nhân viên thân thiện, nhiệt tình. Phục vụ dễ thương, ăn sáng cũng phong phú món. Chỉ có điều đôi khi wifi và sóng điện thoại hơi chập chờn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "LeLana87",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tuyệt vời",
+            "review_content": "Tôi rất hài lòng về dịch vụ tại đây, phòng đẹp sạch sẽ, và đặc biệt là thái độ nhân viên rất thân thiện, nhiệt tình. Địa điểm đi ra khu trung tâm thuận tiện và gần hồ Hoàn Kiếm. Bạn có thể ăn tại các nhà hàng ngon gần đây.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Minh N",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sự lựa chọn tốt ở khu phố cổ",
+            "review_content": "Một khách sạn khiến tôi hài lòng và thoải mái ở khu phố cổ. Nhân viên lễ tân, phục vụ, nhà hàng đều nhiệt tình và luôn nở cụ cười với khách. Thủ tục nhận phòng và trả phòng đều nhanh chóng. Phòng hơi nhỏ, nhưng không thể đòi hỏi nhiều hơn ở một khu vực \"tất đất tất vàng\" như phố cổ Hà Nội. Bữa sáng hơi ít món, nhưng cũng tạm ổn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Annette P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Annette và Daniel Giá từ Nam Phi",
+            "review_content": "Chúng tôi đã dành 2 đêm tại khách sạn Di sản ở Hà Nội. Một khách sạn tuyệt vời triệt để giới thiệu nó. Các phòng đã rất thoải mái. Tôi bị các vấn đề về lưng và chiếc giường này là một niềm vui cho lưng của tôi. Ngủ ngon quá. Các dịch vụ tuyệt vời và nhân viên hữu ích và thân thiện như vậy. Tình hình cũng thuận tiện. Không có gì là quá nhiều vấn đề đối với họ.",
+            "reviewer_location": "Trung tâm Cape Town, Nam Phi"
+        },
+        {
+            "name": "Kasun",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá cho ở lại",
+            "review_content": "Tôi ở trong phòng 103 trong ba ngày. Ngay cả điều này không phải là sự lựa chọn đầu tiên của tôi, nhưng đối với khách sạn lớn hơn hà nội thì khá tốt để ở - bữa sáng tuyệt vời - nhân viên thân thiện và giúp đỡ đầy đủ. Tôi sẽ quay lại lần sau.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Andyougo",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Nơi tốt",
+            "review_content": "Phòng rất sạch sẽ, nhân viên siêu đẹp và thân thiện, bữa sáng tự chọn là tuyệt vời. Chỉ có một điều lưu ý là mạng Wi-Fi thực sự là sh. . , ngắt kết nối tất cả thời gian và thực phẩm phục vụ phòng là tiêu chuẩn phụ. Điều này đang được nói, nó là một nơi tốt, đáng giới thiệu",
+            "reviewer_location": "Paris"
+        },
+        {
+            "name": "RSChandra",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Nhân viên cực kỳ hữu ích",
+            "review_content": "Các nhân viên tại khách sạn này là một tín dụng thực sự cho công ty. Không có ngoại lệ, mỗi thành viên của đội ngũ nhân viên đã hết lòng giúp đỡ chúng tôi - nhờ công ty du lịch đón chúng tôi tại khách sạn, hỏi về vé xem chương trình múa rối nước, nhà hàng Googling và nhiều hơn nữa. Chúng tôi đã có một bộ gia đình với hai phòng. Các phòng nhỏ gọn nhưng sạch sẽ và thoải mái với trang trí thư giãn. Có một lượng lớn thực phẩm có sẵn cho bữa sáng từ chả giò / mì / cơm chiên đến ngũ cốc, trái cây và bánh ngọt và nhiều, nhiều hơn nữa. Khách sạn nằm gần hồ và chợ đêm cũng như nhà hát múa rối. Đường phố nổi tiếng với bao (bánh hấp) với rất nhiều quầy hàng để lựa chọn.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Aykw",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Có một kỳ nghỉ rất tốt với nhân viên thân thiện và hữu ích",
+            "review_content": "Dịch vụ tốt và nhân viên thân thiện. Phản ứng nhanh và hữu ích trong việc hỗ trợ chúng tôi đặt tàu và chuyển đến vịnh dài. Phòng không phải là giá trị đồng tiền. Địa điểm là trên một con phố nhỏ bận rộn. Dễ tìm thức ăn nhưng khó cho xe dừng lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Bianca B",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Ở lại tốt đẹp",
+            "review_content": "Chúng tôi đã trải qua đêm đầu tiên của chúng tôi tại khách sạn này và chúng tôi đã có một kỳ nghỉ thú vị. Vị trí là tốt với một vài quán cà phê trong khoảng cách đi bộ. Với đêm thứ hai của chúng tôi, chúng tôi chuyển đến một phòng khác có ban công thậm chí còn tốt hơn. Khu vực ăn sáng có một chút chật chội nhưng nếu không thì bữa sáng tự chọn đã thỏa đáng.",
+            "reviewer_location": "Springbok"
+        },
+        {
+            "name": "Jeremy M",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hà Nội",
+            "review_content": "Giá trị tốt, vị trí tuyệt vời, nhân viên tuyệt vời. Khoảng cách đi bộ đến bất cứ nơi nào trong khu phố cổ - 1/2 khối đến đường phố. Nhà thờ Charles và một vài khối đến chợ và hồ. Gần các nhà hàng lớn của tất cả các món ăn, ở mọi mức giá. Người quản lý của Manuel rất chu đáo và Christina hướng dẫn viên rất hữu ích ngoài lời nói.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "travelformy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tất cả mọi thứ hoàn hảo!",
+            "review_content": "Tuyệt vời ở lại! Đây là một khách sạn ở một nơi tốt đẹp với một nhân viên (trẻ) rất thân thiện, phòng rất sạch sẽ và thoải mái ăn sáng rất tốt, nhà hàng rất tốt. Dịch vụ tuyệt vời! Mọi thứ đều tuyệt vời.",
+            "reviewer_location": "Dublin, Ireland"
+        },
+        {
+            "name": "Phantipa K",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Ở lại 8 đêm",
+            "review_content": "Khách sạn là một vị trí tốt, trung tâm của khu vực quảng trường cũ ở Hà Nội. Giá cả hợp lý với phòng. Lee, Phương và Hao tại buổi tiếp tân rất hữu ích, đặc biệt là Hải (người gác chuông). Bữa sáng là trung bình của nhiều loại thực phẩm nhưng Ngọc cũng thân thiện.",
+            "reviewer_location": "Melbourne, Úc"
+        },
+        {
+            "name": "Claudia C",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Nơi thoải mái trong khu phố cổ!",
+            "review_content": "Nơi rất đẹp ở vị trí trung tâm đặc biệt để tham quan Khu Phố Cổ Hà Nội. Các nhân viên là rất lớn, rất welocoming và thân thiện, họ đã chăm sóc của tất cả các nhu cầu của chúng tôi và thực hiện chuyến thăm thành phố một trong những đặc biệt!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ramesh D",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Xem xét lại",
+            "review_content": "Rất tuyệt vời, không có vấn đề gì. Nhân viên cũng rất tốt. Vị trí cũng tuyệt vời. giao dịch rất tốt của Mr, Emmanuel với khách hàng và chúng tôi luôn luôn nhớ và chúng tôi đến từ đất nước Nepal nơi sinh của Phật Cảm ơn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "JuanCasadoYBarton",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Great khách sạn, vị trí tuyệt vời và nhân viên tuyệt vời",
+            "review_content": "Đã dành một tuần ở Hà Nội tại L'Heritage. Ở trung tâm của khu phố cổ, một cú ném từ các nhà hàng và quán bar tuyệt vời và hồ nổi tiếng.  Phòng được đặt hàng tốt, sạch sẽ và giường, thoải mái.  Nhân viên trợ giúp đặc biệt sẽ hỗ trợ quý khách với bất kỳ vấn đề nào như tìm tem, giặt ủi, đặt chỗ nhà hàng hoặc đặt tour du lịch và xe hơi.  Đã có một thời gian tuyệt vời và thư giãn ở đây. Sẽ hạnh phúc ở lại một lần nữa.",
+            "reviewer_location": "Kakegawa, Nhật Bản"
+        },
+        {
+            "name": "Pamela P",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá cho kỳ nghỉ",
+            "review_content": "Các nhân viên khách sạn thân thiện và hữu ích, vị trí của khách sạn là nơi lý tưởng cho những du khách muốn tham quan các điểm tham quan. Kỳ nghỉ rất tốt vì nhân viên sẵn lòng giúp sắp xếp chuyến đi đến vịnh Hạ Long hoặc một số điểm tham quan nổi tiếng khác",
+            "reviewer_location": "Interlaken, Thụy Sỹ"
+        },
+        {
+            "name": "Manon R",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phòng hoàn hảo và những người đẹp nhất",
+            "review_content": "Từ thời điểm chúng tôi đi bộ, chúng tôi được giúp đỡ và đối xử tử tế. Đã có một kỳ nghỉ tuyệt vời, với mọi thứ chúng tôi cần. Chúng tôi lấy một chiếc taxi và họ chắc chắn nó đến đúng giờ. Căn phòng rất sạch sẽ và giường thật hoàn hảo. Nhưng chúng tôi đã mua bánh để ăn trong phòng của chúng tôi vào ban đêm, các nhân viên đã đánh giá chúng tôi một chút. . . Tôi nghĩ đây là một việc hoàn toàn bình thường.  Nếu tôi quay trở lại Hà Nội, tôi sẽ dành thời gian ở đây một lần nữa!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "SuezieSaunders",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Great phòng và nhân viên tuyệt vời!",
+            "review_content": "Khách sạn L'heritage tuyệt vời và thuận tiện nằm trong khu phố cổ và đi bộ đến Hồ cùng các nhà hàng và điểm du lịch địa phương. Chúng tôi không cần một xe taxi ở đây cộng với nó dễ dàng hơn nhiều để đi bộ anyway! ! ! Tôi chủ yếu đặt khách sạn này vì tôi cần một phòng phụ với 3 giường đơn cho 3 thanh thiếu niên của tôi và chúng tôi đã không thất vọng. Các phòng đều yên tĩnh và có kích thước tốt, rất sạch sẽ với phòng tắm đẹp cộng với giá trị tốt khi đặt 2 phòng. Điểm nổi bật chính của khách sạn này là tiêu chuẩn cao về dịch vụ của nhân viên - không có gì là phiền toái. Dịch vụ chúng tôi nhận được là 5 * + và bắt đầu từ phút bạn đi bộ trong cửa, đồ uống chào mừng và check-in với một cái nhìn tổng quan về khách sạn cộng với mô tả của bản đồ địa phương và phải làm gì xung quanh Hà",
+            "reviewer_location": "Tumbi Umbi, Úc"
+        },
+        {
+            "name": "Jenny T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Vị trí tuyệt vời và dịch vụ tốt",
+            "review_content": "Vị trí đáng yêu ở trung tâm Hà Nội. Chúng tôi nhận được dịch vụ tuyệt vời và phòng rất sạch sẽ và gọn gàng. Chắc chắn là một khách sạn 4 sao hoàn hảo được đề nghị. Có rất nhiều lựa chọn cho bữa sáng, thức ăn rất tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kiko_0821",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khu phố cổ Hà Nội",
+            "review_content": "Giá trị lớn cho giá của nó. Hanoi L’Heritage Hotel nằm ở vị trí trung tâm; nó chỉ là một khoảng cách đi bộ đến một số điểm du lịch như hồ Hoàn Kiếm. Ngoài ra, có rất nhiều nhà hàng giá rẻ xung quanh khu vực nơi bạn có thể thưởng thức các món ăn Việt Nam và bia địa phương khác nhau. Rất đẹp phòng và nhân viên có sức chứa, quá! Tôi thực sự rất thích ở đây!",
+            "reviewer_location": "Quezon City, Philippines"
+        },
+        {
+            "name": "Kelsey E",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Khách sạn 4 sao tuyệt vời",
+            "review_content": "Nếu bạn đang tìm kiếm một khách sạn 4 sao, đây là phòng sạch sẽ, lớn và ở một vị trí tốt trong khu phố cổ, cách Hồ Hoàn Kiếm một quãng đi bộ. Nhân viên rất lịch sự và cung cấp hỗ trợ tuyệt vời, chúng tôi thậm chí đã nâng cấp lên một phòng ban công. Ăn sáng là một chút trung bình.",
+            "reviewer_location": "Gold Coast, Úc"
+        },
+        {
+            "name": "Menno en Marije",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Những người rất thân thiện",
+            "review_content": "Các nhân viên trong khách sạn này là rất hữu ích và thân thiện. Các phòng được sạch sẽ spotlessly và wellicht duy trì. Thực sự là một lựa chọn tốt nếu bạn muốn có một khách sạn tốt ở trung tâm của Hà Nội esnt Menno từ Hà Lan",
+            "reviewer_location": "dumpxxx"
+        }
+    ],
+    "hotel": {
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/93/36/24/out-side.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/01/45/f1/hanoi-l-heritage-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/a1/9c/deluxe-twin.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/a1/49/deluxe-twin.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/a1/0b/deluxe-city-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/a0/e1/deluxe-city-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/a0/b3/deluxe-city-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/9f/fc/deluxe-city-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/9f/13/deluxe-city-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/9e/bd/deluxe-city-view.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/98/5c/executive-suite-1-living.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/94/fa/executive-suite-1-living.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/94/ac/executive-suite-1-living.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/94/5c/executive-suite-1-living.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/94/18/executive-suite-1-living.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/92/0b/deluxe-triple-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/91/e1/deluxe-triple-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/91/ba/deluxe-triple-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/91/8b/deluxe-triple-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/91/53/deluxe-triple-room.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

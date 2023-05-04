@@ -1,0 +1,339 @@
+{
+    "content": [
+        {
+            "name": "Hong cha",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good",
+            "review_content": "Khách sạn rất đẹp và có view ra biển rất đẹp phòng đẹp và nhân viên phục vụ phòng cũng rất nhiệt tình. Món ăn ngon đặc biệt là có nhân viên nhà hàng Hiển và Tiên rất nhiệt tình và chu đáo trong phục vụ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Jonh doe",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good",
+            "review_content": "Khách sạn Rosamia rất tuyệt vời, cách phục vụ và chào đón khách rất nhiệt tình và đặc biệt là Loan và Hiển. Loan thì chào đón khách rất nhiệt tình niềm nở, Hiển thì phục vụ chăm sóc khách rất chu đáo. Cảm ơn Rosamia đã phục vụ ân cần",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Love Y",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tốt",
+            "review_content": "Tôi đã sử dụng dịch vụ của rosamia và tôi cảm thấy dịch vụ rất tuyệt vời . Nhân viên ở đây rất tuyệt vời . Tôi cảm thấy rất yên tâm và vui vẻ ở đây . Cảm ơn các bạn nhân viên rất nhiều đặc biệt là bạn Hiển và Kỷ Linh . Cảm ơn 2 bạn và khách sạn rất nhiều",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ha9",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Lần đầu tiên tôi đến rosamia nhưng tôi rất hài lòng với chất lượng dịch vụ ở đây . Mọi người rất thân thiện và nhiệt tình . Tài và Tiên phục vụ rất tốt và giúp đỡ nhiệt tình cho tôi . Sky bar rất tuyệt vời và DJ đánh rất hay, đồ uống rất ngon . Thank you so much",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Souma",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good service",
+            "review_content": "Sky bar thứ 3, chương trình DJ rất tuyệt vời. Nhạc rất hay và sôi động,  thức uống rất là ngon , nhân viên nhiệt tình nhất là phạm thanh cường. Phòng thì rất là thoải mái,  đồ ăn sáng cũng rất ổn,  xin cảm ơn rosamia.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Jiho-ahn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "very nice place",
+            "review_content": "Nhân viên thật sự thân thiện , va Tuyet Nhung rat tot ,đồ ăn cũng ngon.  Ở trên sân thượng, có thể ngắm cảnh đẹp và có gió thổi nữa, thật tuyệt vời. Mình thật sự muốn giới thiệu sản phẩm này cho các bạn khác.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Louis",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Year and party",
+            "review_content": "Dịch vụ hoàn hảo Nhân viên nhiệt tình, nơi tổ chức tiệc đáng tin cậy. Đặc biệt nhân viên Nhung và các bạn khác phục vụ rất chu đáo. Sẽ tham gia ở đây nếu tiếp tục. Thức ăn khá ngon miệng. Thanks so much",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "Diem12",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "So so ...",
+            "review_content": "Ở đây các bạn phục vụ nhiệt tình( thuỵ và thi), sẳn sàng, rất lể phép .nhưng đồ ăn thì không ngon. Hy vọng trong thời gian tối các bạn khắc phục nha, mình vẫn ủng hộ mà, sẽ quay lại đây lần nữa với bạn bè để sử dụng hết dịch vụ",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tran ha",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tiệc cuối năm",
+            "review_content": "Tiệc liên hoan cuối năm của công ty được chuẩn bị rất tốt từ trang trí đến đồ ăn và phục vụ và nv tuyết nhung rất là nhiệt tình quan tâm mọi người, chúng tôi đã rất vui, xin cảm ơn khách sạn thật nhiều!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Thục Đoan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thanks Rosamia",
+            "review_content": "Dịch vụ ổn, sân khấu và sảnh tiệc sang trọng Nhân viên thân thiện và chuyên nghiệp. Bé thuỵ và thi nhà hàng rất tốt và gợi ý cho tôi nhiều dịch vụ của khách sạn như nàh hàng chính marina pool va sky bar. Toi thích âm nhạc nên chắc chắn thứ tư sẽ đến đây nghe nhạc sống",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vuuu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Party cuối năm",
+            "review_content": "Chúng tôi đã có một buổi party cuối năm rất vui vẻ tại khách sạn Rosamia , dịch vụ tốt, đồ ăn ngon, trang trí rất đẹp, và nhân viên Tuyết Nhung phục vụ rất chu đáo!!! Lần sau chúng tôi sẽ tiếp tục sử dụng dịch vụ, xin cảm ơn!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Kimhoho",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thanks you party",
+            "review_content": "Tiec party cuoi nam that vui ben nhung nguoi yeu dau. Thuc an ngon hop khau vi cua minh lam. Thy thuy that de thuong khi luon take care cho ban minh. Cam on cac ban. Lan sau neu co dip toi se quay lai day dat tiec nha",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "YaoYao123",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sky ở rosamia tuyệt vời",
+            "review_content": "Mình sẽ quay lại lần sau ^.^. Thuỳ Duyên và Thái Thuỵ rất thân thiện và nhiệt tình🥰🥰. Hot chocolate rất ngon. Nhưng tiếc là hôm nay là chủ nhật nên mình ko đc nge DJ và nhạc accoustic. Các bạn nhớ đến vào những ngày trong tuần để được nghe nhé. Trừ cn và thứ 2 nhé!!!!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hà Lê",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Tôi  đi du lịch cùng với gia đình ở đây. Phòng ngủ đẹp sạch sẽ , đồ ăn sáng phong phú ,  có sky bar và pool tuyệt vời. Gửi  lời cảm ơn đến nv thuỳ Duyên - rất chu đáo và thân thiện . Sẽ quay lại lần nữa.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Chuot C",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Sẽ quay lai lần nữa",
+            "review_content": "Khách sạn sạch- hồ bơi dễ thương- viêw đẹp. Thức ăn sáng phong phú với nhân viên phục vụ nhiệt tình; đặc biệt em Thuỳ duyên và kỷ linh rất nhiệt tình phục vụ và giúp đỡ khách  Tuy nhiên khâu thu đổi ngoại tệ ở đây rất thấp/ không hài lòng khi so sánh với giá Các ks khác (20,000/1 usd)",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Huong Nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng",
+            "review_content": "Tôi đã ở khách sạn vài lần rồi. Lúc nào củng cảm thấy relax khi ở đây. Mọi thứ rất tốt, từ bữa sáng cho đến phòng ốc, rộng rãi và tiện nghi. Các bạn nhân viên lúc nào cũng thân thiện, mỉm cười cúi chào vợ chồng tôi. Lần này quay lại, các bạn ấy vẫn nhớ tôi và thật bật ngờ, tôi được nâng hạng phòng mới đẹp hơn và có xe đưa đón miễn phí lúc về. Cũng cảm ơn hai bạn Linh lễ tân đã rất nhiệt tình với tôi. Lần sau đến Đà Nẵng nhất định chúng tôi vẫn sẽ chọn Rosami.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngọc Tran",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt",
+            "review_content": "khách sạn mới, đẹp, không gian thoải mái lại còn gần biển Mỹ Khê, tôi rất thích. Đặc biệt là hồ bơi trên tầng 6 thiết kế sang trọng và có tầm nhìn bát ngát ra biển. Nhân viên khách sạn luôn cười thân thiện, các bạn hành lý nhiệt tình và bạn lễ tân Phan Mỹ Linh đã tư vấn cho tôi nhiều địa điểm tham quan ở Hội an. Lần sau quay lại nhất định tôi vẫn chọn ks này :)",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Quỳnh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Rosamia Đà Nẵng",
+            "review_content": "Khách sạn rất tốt phục vụ tận tình phong cảnh đẹp .địa điểm thuận lợi đi mua sắm ăn uống ngắm cảnh .nhân viên thân thiện nhiwetj tình  Nhân viên NGUYỄN THẾ NHƠN và bạn PHAN THỊ MỸ LINH rất tận tình chu đáo hướng dẫn",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "An vy nguyen",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Thân thiện",
+            "review_content": "Tôi đã ở khách sạn Rosamia 2 đêm, khách sạn ở ngay đối diện biển rất đẹp. Tuy là chưa đặt phòng trước nhưng mà rất may là có phòng cho 2 vợ chồng tôi, lúc check in cậu nhân viên lễ tân rất dễ thương, ăn nói rất là lịch sự nhẹ nhàng phải nói là so sweet! Thấy trên bảng tên ghi là thien thì phải. Lúc nhận phòng thì phòng đẹp tuy có hơi nhỏ 1 tí, nhưng mà view nhìn ra biển và nhìn thấy cả bờ biển, đêm mình check in thì khách sạn có chương trình nhạc sống ở bar tầng thượng. Đồ ăn sáng ngon, thấy chủ yếu toàn là khách trung quốc với hàn quốc không à nên hơi ồn. Hồ bơi hơi lạnh nhưng mà có xông hơi miễn phí, thích nhất nhân viên ở đây lúc nào cũng chào và cười rất niềm nở cảm giá rất là được welcome  Cám ơn rosamia nhiều vì đã làm chuyến đi của chúng tôi trọn vẹn bởi sự hiếu khách của",
+            "reviewer_location": "Tỉnh Quảng Nam, Việt Nam"
+        },
+        {
+            "name": "Van Khoi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tôt",
+            "review_content": "Khach san gan bien rat la tien loi cho moi cong viec di lai va rat sach se ,yen tinh. Nhan vien rat than thien cam on hai bạn le tan Bui Y Quyen va Le Hoang Linh da huong dan chung toi rat tan tinh trong ky nghi",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Huong73",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lần đầu ở tại Rosamia Hotel Đà nẵng.",
+            "review_content": "Mới bước chân đến Rosamia, tôi vô cùng thích thú vì ks quá đẹp và lộng lẫy! Hai ngày ở đây, được trải nghiệm mọi dịch vụ, thấy rất hài lòng, không có thể phần nàn điều gì. Chắc chắn nếu còn đến Đà nẵng tôi sẽ lại ở Rosamia!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Hoacomay",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sự hài lòng",
+            "review_content": "Tôi bùa đến Rosamia, đã được nhân viên ra đón tại sảnh, rồi, xách đồ và hướng dẫn lên tận phòng thật nhiệt tình và trách nhiệm! Lúc tôi xuống các em còn chủ động dắt chúng tôi qua đường... Khách sạn quá đẹp, phòng đẹp, rộng rãi, sạch sẽ ... Chúng tôi với cùng hài lòng!",
+            "reviewer_location": "Đà Nẵng, Việt Nam"
+        },
+        {
+            "name": "TranThu",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Kỳ nghỉ tuyệt vời",
+            "review_content": "Tôi cảm thấy rất ks rất đẹp, sang trọng, lịch sự. Buffet sáng thì phong phú, ngon miệng. Ngoài ra, khách sạn còn có chương trình DJ Night vào mỗi tối 3, 5, 7 và chủ nhật hàng tuần ở Sky Bar tầng trên cùng khách sạn. Tôi rất thích.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Lisaphan15",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Good hotel",
+            "review_content": "Khach San tot. Le tan than thien, giup do toi rat nhieu tinh, Dac biet la Quyen va Hoang Linh.  Phong dep va sach se. Khach San gan bien rat tien loi.  Toi nhat dinh se quay lai vao lan sau cung voi gia dinh.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Linh T",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Too friendly and professional to be true / Thân thiện và chuyên nghiệp một cách bất ngờ",
+            "review_content": "My Mom and I stayed at Rosemia 28-30 July 19 and we are more than happy and satisfied with what we have experienced here. Excellent airport pick-up service with a great car. Friendly, easy-to-approach, professional staff with really good manners. New and clean room. Great TV and wifi reception. What surprised us the most is Mr Ngo Duc Cuong, one of the restaurant staff. He serves, pays attention to and remember us very well. He could even remember what we drink on our first breakfast and make us the same the next day although we don't even remember. We're also surprised when they even help me with my wet iphone by giving me heaps of rice to soak it in. Awesome!!!! Generally, 5 stars for the hotel and 5 star plus for its staff. Will come back next time ❤️ --------- Mẹ em và em đã",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Candy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Mình ở đây từ 25-28/6 và đặc biệt ấn tượng với các bạn ở quầy lễ tân, nhân viên phục vụ ở đây, rất nhiệt tình, thân thiện.  Khách sạn mới, sạch sẽ, vị trí đẹp; dịch vụ tốt, có xe đưa đón khách từ sân bay về ks.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tran Thao",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn mới và dịch vụ rất tốt",
+            "review_content": "Hồi đầu năm gia đình mình được bạn bè giới thiệu về khách sạn này. Phòng view biển rất đẹp, dịch vụ rất tốt và có quầy lưu niệm rất dễ thương. Gia đình mình rất hài lòng và chắc chắn sẽ quay lại lần sau.",
+            "reviewer_location": "Cần Thơ, Việt Nam"
+        },
+        {
+            "name": "Mai Luong Quynh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn mới và dịch vụ rất tốt",
+            "review_content": "Khách sạn nằm ngay đối diện bãi biển Mỹ Khê. Phòng mình có view nhìn ra cả biển và thành phố. Có thể đi bộ đến rất nhiều quán ăn ngon dọc bờ biển. Nhân viên rất nhiệt tình, cởi mở. Dịch vụ ở spa dễ chịu. Có một hôm trời mưa to và bọn mình phải ăn tại khách sạn, thấy đồ ăn rất ngon.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Javert Duong",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Lựa chọn lý tưởng cho kỳ nghỉ",
+            "review_content": "Mình tình cờ biết đến nơi này nhờ bạn bè giới thiệu. Đây là sự lựa chọn đáng để cân nhắc mỗi khi ghé thăm Đà Nẵng vì không gian phù hợp với mọi người. Tất cả những gì bạn mong đợi ở một khách sạn thì đều được đáp ứng một cách chu đáo.",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Havyy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời",
+            "review_content": "Mình đã dành hai ngày nghỉ cuối tuần vừa rồi ở Đà Nẵng tại khách sạn Rosamia Hotel trải nhiệm rất tuyệt vời. Khách sạn có bãi biển rất đẹp. View phòng rất tuyệt vời và đặc biệt là bữa sáng buffet nhiều món để lựa chọn. Thái độ nhân viên chu đáo. Nếu còn cơ hội trở lại Đà nẵng mình chắc chắn sẽ chọn Rosamia làm địa điểm nghỉ dưỡng",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Linh My",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tốt",
+            "review_content": "Phòng ốc hiện đại sạch sẽ,mình thấy rất ưng ý với view của phòng luôn. Nhân viên thân thiện, nhiệt tình, chuyên nghiệp. Mình đã giới thiệu khách sạn này cho bạn mình và cũng nhận được feedback khá tốt. Lần sau mình đi ĐN mình vẫn sẽ quay lại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Fernando",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tuyệt vời",
+            "review_content": "Khách sạn rất đẹp . Nhất là vào buổi tối , ánh sáng cực kì bắt mắt từ bên ngoài đến bên trong . Thái độ nhiên viên thân thiện .  Phòng ốc rộng rãi , gần như tất cả phòng nào cũng có view biển . dịch vụ Spa rất tốt , nhân viên spa có tay nghề . Đặc biệt đồ ăn và đồ uống ở đây rất dễ ăn dễ uống . hợp khẩu vị của kể cả những khách hàng khó tính . Đây là 1 nơi đang để ở tại Đà Nẵng .",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Keith Chan L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến thăm Đà Nẵng đầu tiên",
+            "review_content": "Khách sạn đầu tiên của tôi ở Rosamia là đáng nhớ nhất. Các nhân viên rất lịch sự và hữu ích. . . . . . muốn đề cập đặc biệt đến Christine, người đã thể hiện thái độ chăm sóc đặc biệt trong suốt thời gian tôi ở. . . . . . phòng của khách sạn rất rộng rãi, sạch sẽ và mới nhất. Phòng của tôi đã được nhìn ra biển không bị chặn và đã làm cho sinh nhật của tôi đáng nhớ nhất. Tôi chắc chắn sẽ quay trở lại một ngày nữa. . . . . . Tôi cũng thích bể bơi vô cực và chỉ khi nó sâu hơn mới vui",
+            "reviewer_location": "Singapore, Singapore"
+        },
+        {
+            "name": "Giuseppe Messina",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tuyệt vời tại Rosamia Hotel",
+            "review_content": "Rosamia Hotel là một lựa chọn tuyệt vời cho kỳ nghỉ trên bãi biển trắng của Đà Nẵng. Khách sạn mới, sạch sẽ và được trang bị tốt. Các nhân viên rất hữu ích và lịch sự. Các phòng đều rộng rãi với tầm nhìn tuyệt vời ra biển. Bữa sáng cung cấp tất cả các món ăn Việt Nam cũng như quốc tế. Hồ bơi và bầu trời mở rất ngoạn mục. Nhìn chung một trải nghiệm tuyệt vời. Tôi khuyến khích điều đó",
+            "reviewer_location": "Pomezia, Ý"
+        },
+        {
+            "name": "Jay L",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn mới được xây dựng tuyệt vời với đội ngũ nhân viên rất hữu ích.",
+            "review_content": "Vị trí tuyệt vời ngay cạnh bãi biển với tầm nhìn rộng lớn ra biển. Bể bơi nhìn ra bờ trên lv 6 và một quán bar trên tầng 24 trên lvl. Phòng sạch sẽ n giường thoải mái. Họ cung cấp dịch vụ đưa đón miễn phí đến sân bay nếu đặt qua Agoda. Phải ở lại với một mức giá hợp lý với dịch vụ tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ivy Burke",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "RAT KHUYEN KHICH",
+            "review_content": "Nhân viên thân thiện, dịch vụ tuyệt vời, phòng sạch sẽ. Khách sạn nằm ở trung tâm, do đó rất thuận tiện để tìm hiểu ẩm thực địa phương và trải nghiệm cuộc sống về đêm ở Năng, hoặc thậm chí có một chuyến đi bất ngờ đến Hội An <3",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "hoang30",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đơn giản là đặc biệt!",
+            "review_content": "Khách sạn mới và nằm ở một trong những vị trí đắc địa ở Năng. Bãi cát nằm ngay phía trước và có nhiều quán bar gần đó. Nhân viên rất có sức chứa và thân thiện trong suốt thời gian của chúng tôi. Chắc chắn sẽ ở lại Rosamia một lần nữa cho các chuyến thăm trong tương lai. Và, một điều nữa, bữa sáng thật tuyệt vời.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyen Mai Chi",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chắc chắn sẽ trở lại!",
+            "review_content": "Phòng có tầm nhìn tuyệt vời. Khách sạn mới và đội ngũ nhân viên luôn thân thiện và hữu ích. Vị trí tuyệt vời. Và bạn nên thử nhà hàng của họ, bạn sẽ không hối tiếc! Hoàn toàn hài lòng và chắc chắn sẽ đặt phòng ở đây thời gian tới khi tôi trở lại.",
+            "reviewer_location": "Paris"
+        }
+    ],
+    "hotel": {
+        "location": "282 Vo Nguyen Giap, My Khe Beach, Ngu Hanh Son District, Danang, Vietnam, Đà Nẵng 550000 Việt Nam",
+        "name": "Rosamia Da Nang Hotel",
+        "geo_data": {
+            "latitude": 16.0527400970459,
+            "longitude": 108.2477798461914
+        },
+        "room_number": "222",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c5/c3/1e/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cc/94/36/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cc/93/53/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cc/92/1b/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/53/bf/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c5/dc/4d/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/51/66/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c5/db/7f/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/53/e6/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/7f/8c/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/7f/7d/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/54/fe/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/53/b0/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c5/dc/8b/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/70/93/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/55/02/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/6e/30/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c5/f8/18/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c6/6b/8a/rosamia-da-nang-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/de/a6/57/deluxe-twin-ocean-view.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}

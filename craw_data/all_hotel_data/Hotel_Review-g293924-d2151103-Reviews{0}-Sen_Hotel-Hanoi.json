@@ -1,0 +1,251 @@
+{
+    "content": [
+        {
+            "name": "Kim Nguyễn",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tốt",
+            "review_content": "Chất lượng dịch vụ của khách sạn tốt. Phòng sạch sẽ, thoáng mát, đầy đủ tiện nghi. Khách sạn có cả dịch vụ Spa và Gym. Nhân viên nhiệt tình, niềm nở. Lần tới đến Hà Nội mình sẽ tiếp tục ở tại khách sạn Sen ❤.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Trần Tùng Nam",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Chuyến đi khám bệnh",
+            "review_content": "Khách sạn sạch sẽ, địa điểm có chỗ đỗ xe thoải mái. Tôi rất hài lòng với thái độ và cách phục vụ của các bạn nhân viên tại đây. Bell luôn mỉm cười, lễ tân có bạn nghĩa rất nhiệt tình và chu đáo với khách hàng.",
+            "reviewer_location": "Sapa, Việt Nam"
+        },
+        {
+            "name": "Hoamuoigio2019",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Giá cả tốt",
+            "review_content": "Nghỉ ở Sen nhiều lần nhưng chưa lần nào viết review.  Lựa chọn khách sạn Sen vì không khí ấm áp và gần gũi,  nhất là với cả gia đình có em be.  Không gian kha rộng rãi và thoáng,  ngay trên trực đường chính nhưng vẫn đam bảo yên tĩnh.  Khách sạn có nha hàng ở tầng 2 phục vụ bữa sáng có phở ngon. Phòng sạch sẽ,  Nhân viên nhiệt tình.",
+            "reviewer_location": "Thành phố Hải Phòng, Việt Nam"
+        },
+        {
+            "name": "vtuaan",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tốt",
+            "review_content": "Khách sạn tuy hơi cũ nhưng nhân viên phục vụ thân thiện và nhiệt tình. Giá cả rất phù hợp. Bữa sáng tự chọn phong phú và nóng hổi, cảm giác như ở nhà. Nhân viên trẻ trung và thân thiện, luôn giúp đỡ gọi xe, vận chuyển hành lý ...",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Hama2019",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Dịch vụ tốt",
+            "review_content": "Mình chỉ lựa chọn Sen hotel cho nghỉ ngắn nhưng rất hài lòng vì chất lượng dịch vụ của khách sạn. Phòng ốc rộng rãi và sạch sẽ. Nhân viên trẻ trung và thân thiện. Check out gặp bạn Ngọc sale hỏi han rất chu đáo. Mình sẽ tiếp tục ủng hộ.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Hòa Maxzy",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Phục vụ tốt",
+            "review_content": "Từng tới Hà Nội một vài lần, lần này chọn Sen Hotel. Vừa vào sảnh được bạn lễ tân Hà đón tiếp nhiệt tình. Sau đó tôi đã xuống tầng 2 nhà hàng để thưởng thức một ly cà phê, được một em gái nhà hàng tên Thanh phục vụ chu đáo. Sẽ còn quay lại!",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Khanhcuong99",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Trải nghiệm thú vị !",
+            "review_content": "Nhân viên cực kỳ thân thiện ân cần, chu đáo và check in nhanh gọn đặc biệt là nhân viên Nguyễn Thị Hạnh thái độ ân cần, nhiệt tình , xinh xắn , ngoài ra khách sạn view đẹp, chất lượng dịch vụ tốt. Nếu có cơ hội tôi sẽ quay lại khách sạn để tận hưởng dịch vụ chăm sóc tốt nhất !",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tuấn Nam",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đánh giá",
+            "review_content": "Cảnh quan khách sạn đẹp, phòng sạch sẽ phục vụ khách hàng tốt. Nếu có dịp quay trở lại chắc chắn sẽ tiếp tục ủng hộ khách sạn . Ấn tượng với bạn Nguyễn Hạnh vì rất chu đáo niềm nở, tận tình với khách hàng.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "linh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "..",
+            "review_content": "ks nhỏ, khoog gian yên tĩnh, đồ ăn ngon, hợp lý. phục vụ niềm nở, chu đáo, đặc biệt có em nhân viên Hạnh xinh xắn, đáng yêu rất quan tâm và luôn nhiệt tình phục vụ cho khách. nếu có dịp sẽ ghé lại nơi này nhé!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tranlam",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Du lịch",
+            "review_content": "Đã từng đi rất nhiều khách sạn. Nhưng khi đến Sen lại cho tôi 1 cảm nhận rất tốt. Khách sạn nhỏ. Đồ ăn không quá đắt đỏ. Phục vụ nhiệt tình. Rất ấn tượng với 2 bạn phục vụ  buffet buổi sáng. Bích và Hạnh . Nhiệt tình, vui tính. Sẽ quay lại vào 1 ngày sớm nhất",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Nguyên 99",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "chuyến đi ý nghĩa",
+            "review_content": "khách sạn view đẹp . chất lượng dịch vụ tốt . nhân viên thân thiện phục vụ chu đáo nhiệt tình , đặc biệt là nhân viên Nguyễn Thị Hạnh . nếu có dịp tôi sẽ quay trở lại khách sạn nếu như tôi đến Hà Nội a",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Ngọc MS",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "Đánh giá",
+            "review_content": "Lần trước có ghé khách sạn sử dụng dịch vụ Thấy không gian đẹp, buồng phòng ok, giá cả hợp lý Nhân viên nhiệt tình, chu đáo, ấn tượng với một bạn nhân viên nữ Nguyễn Hạnh, hỏi thăm quan tâm khách nhiệt tình Lần sau sẽ quay lại khách sạn nữa...",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Lpmanh53",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cảm nhận về dịch vụ",
+            "review_content": "Khách sạn nằm ngoài mặt đường, gần bảo tàng dân tộc học, thuận tiện đi lại. Khách sạn 3 sao, sảnh bày trí trang nhã lịch sự phòng ở hơi nhỏ nhưng được cái ngăn nắp thoáng mát. Đồ ăn ở đây khá ngon. Nhân viên nhiệt tình lễ phép. Em Thanh nhà hàng rất nhiệt tình tư vấn. Cảm ơn em!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Tuan minh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Hài lòng",
+            "review_content": "Khách sạn đẹp, ấn tượng. Chất lượng về khách tốt và cả chất lượng phục vụ rất hài lòng.  Nhân viên Nguyễn Hạnh vui tính, dễ thương 🌷  Niềm nở, nhiệt tình và chu đáo với khách hàng Sẽ quay lại vào lần tới. 😊",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Thập2301",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Cảm ơn khách sạn",
+            "review_content": "Tôi rất hài lòng về các dịch vụ của Sen Hotel. Buồng phòng tuy không được sang chảnh nhưng phù hợp với giá cả. Các bạn nhân viên phục vụ chu đáo. ĐẶC BIỆT LÀ EM THANH NHÂN VIÊN NHÀ HÀNG, em luôn nhiệt tình phục vụ.",
+            "reviewer_location": "Hà Nội, Việt Nam"
+        },
+        {
+            "name": "Tdat00999",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khám phá Hà Nội",
+            "review_content": "Lần đầu ra hà nội công tác . được đứa em giới thiệu cho sen hotel  Dịch vụ của khách sạn làm tôi thấy rất hài lòng các bạn nhân viên bell rất nhanh nhẹn mở cửa chào hỏi , các bạn bên nhà hàng phục vụ rất chu đáo , tôi thấy ấn tượng em tên thanh . đồ ăn được mang lên phòng rất nhanh và nhiệt tình , tác phong chuyên nghiệp. Là sự lựa chọn hàng đầu khi tôi công tác tại hà nội ,",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Mission Impossible",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn tốt",
+            "review_content": "Tôi đã dành 3 đêm tại khách sạn với bạn trai. Chúng tôi đã có một kỳ nghỉ tuyệt vời. Phòng khách sạn sạch sẽ, thiết kế đẹp, ăn sáng ngon. Giá phòng ở khá hợp lý và phù hợp với nhiều tầm khách hàng. Mặc dù khách sạn không nằm ở trung tâm thành phố Hà Nội nhưng việc đi lại về trung tâm cũng không quá khó khăn. Lễ tân khách sạn luôn luôn có mặt để hỗ trợ chúng tôi bắt taxi.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Duc Nam",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất thoải mái",
+            "review_content": "Địa điểm ở trong ngõ nên khá yên tĩnh. Phòng gọn gàng sạch sẽ, nhân viên rất chu đáo :D, bạn lễ tân Linh Chi hướng dẫn mình chọn phòng và tư vấn rất kỹ càng và nhiệt tình, hẹn gặp lại khách sạn nếu mình lại có dịp ra Hà Nội!",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Vũ Tuấn Anh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Đi Họp",
+            "review_content": "Đồ ăn sáng ngon, có nhiều món lựa chọn. Phòng ở sạch sẽ, các bạn nhân viên nhiệt tình. Đặc biết nhân viên nhà hàng, Em Thanh  cho tôi cảm thấy rất thoải mái, dễ chịu, ấn tượng khi gặp gỡ, phá đồ uống rất ngon. Chắc chắn sẽ còn quay lại là với sự phục vụ chu đạo tận tình từ nhân viên, đặc biệt như em Thành.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Anna Trinh",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sen Hotel where you trust !!!",
+            "review_content": "Mình ra Hà Nội chơi rồi sau đó đi các nơi khác miền Bắc, trước khi đi tìm mãi tìm mãi thì tìm được Khách sạn Sen. Đọc thấy nhiều review ổn mà GIÁ THÀNH RẺ quá trời đất, cứ nghĩ khách sạn ngoài Hà Nội là đắt đỏ lắm mà lại rẻ hơn rất nhiều so với trong tp HCM. Không đắt đỏ mà CHẤT LƯỢNG TỐT, nhân viên lễ tân tư vấn NHIỆT TÌNH giá các loại buồng phòng, mình thắc mắc là giải đáp tường tận. Mình book 1 phòng tiêu chuẩn ở 4 đêm, CƠ SỞ VẬT CHẤT ĐẦY ĐỦ TIỆN NGHI, buổi sáng thì ăn buffet ngay trên nhà hàng rất nhiều món ăn. Ngày cuối thì mình sang Sen Grand massage, bell-man thì đón tiếp tận cửa, lễ tân bên này cũng rất CHUYÊN NGHIỆP hướng dẫn mình lên tầng spa, rồi cũng tư vấn cả gói spa luôn. Lễ tân hỏi gì cũng biết ấy, GOOD SẺVICE. Lần tới mình sẽ quay lại đây và sẽ giới thiệu cho bạn",
+            "reviewer_location": "Thành phố Hồ Chí Minh, Việt Nam"
+        },
+        {
+            "name": "Dung",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Rất tuyệt voi",
+            "review_content": "Tôi cảm thấy rất thoải mái trong chuyến công tác tại hà nội của tôi khi lưu trú tại khách sạn Sen. Khách sạn có vị trí gần Cty của tôi.  Nhân viên luôn sẵn lòng giúp đỡ tôi khi cần. Khách sạn sạch sẽ thiết bị hiện đại.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "113",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Tôi rất hài lòng khi lưu trú tại khách sạn Sen",
+            "review_content": "Khách sạn sen là lưa chọn hàng đầu của tôi khi tôi có việc ở Hà Nội. Khách sạn có nhân viên rất thân thiện,phòng có trang thiết bị hiện đại sạch sẽ, vị trí trung tâm rất thuận tiện cho việc đi lại của tôi.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "yennd12019",
+            "avatar": "",
+            "review_rating": "4",
+            "review_title": "thái độ phục vụ và thức ăn",
+            "review_content": "thân thiện, linh động để khách hài lòng trong khả năng có thể nhất của khách sạn. Khu vực khách sạn Sen 2 nằm trong ngõ nhưng hóa ra lại đạt điểm cộng vì xung quanh là khu dân cư nên khi khách cần một vài tiện nghi thông thường sẽ dễ hơn là ở khu vực trung tâm lớn, ví dụ mua vài thứ cho sinh hoạt cá nhân, dịch vụ gội đầu, tìm món ăn vặt... ĐỀ NGHỊ NẾU MUỐN KHÁCH ĐÁNH GIÁ THÌ NÊN THIẾT KẾ SAO CHO ÍT MẤT THỜI GIAN NHẤT CỦA KHÁCH HÀNG. YÊU CẦU TỐI THIỂU 200 KÝ TỰ LÀ RẤT VÔ LÝ, KHÓ HỢP TÁC.",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "Deborahgiang",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Sen Hotel",
+            "review_content": "Khách sạn sạch sẽ, phòng gọn gang xinh xắn; lễ tân chu đáo với khách hang, an ninh đảm bảo. Buffet sang khá đa dạng để bạn có thể lựa chon phù hợp với sở thích và nhu cầu của mình. Giá cả cũng vừa phải hợp lý",
+            "reviewer_location": "Yên Bái, Việt Nam"
+        },
+        {
+            "name": "JangJang196",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn rất tuyệt",
+            "review_content": "Tôi rất ấn tượng khi bước vào không gian của khách sạn. Thật sự khiến tôi rất hài lòng. Nhân viên chu đáo, thân thiện, nhiệt tình, làm việc chuyên nghiệp. Vị trí khách sạn rất gần trung tâm thuận tiện cho việc đi lại",
+            "reviewer_location": "dumpxxx"
+        },
+        {
+            "name": "sunsetjive",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Bình luận",
+            "review_content": "Kể từ khi tôi ở khách sạn này từ năm 2015, tôi đã thực sự được đối xử tốt như một vị khách và một người bạn. Bầu không khí tốt với đội ngũ nhân viên thân thiện chăm sóc từng vị khách của khách sạn với sự tôn trọng và chăm sóc. Điều quan trọng là cử chỉ xuống đất mà họ thể hiện với du khách. Kể từ ngày đầu tiên của tôi, tôi luôn chọn khách sạn này là \"nhà\" và không bao giờ hối tiếc khi ở đây. Tôi khá đẹp cho thấy nhiều khách đã ở đây sẽ đồng ý với ý kiến của tôi. Có những thiếu sót tại thời điểm nhưng sự phục hồi là siêu nhanh trong cách họ quản lý tiền sảnh. Một lần nữa tôi đưa ngón tay cái lên cho Quản lý và nhân viên của khách sạn Sen. Tôi muốn nói sự đánh giá cao của tôi mỗi khi tôi đến đây và được đối xử tốt với sự tôn trọng tuyệt vời. Chúc mừng! ! !",
+            "reviewer_location": "Singapore, Singapore"
+        },
+        {
+            "name": "Gauvoi2019",
+            "avatar": "",
+            "review_rating": "5",
+            "review_title": "Khách sạn Peacefu, thuận tiện để đi lại giữa Nội Bài và Downtown",
+            "review_content": "Phòng sạch; giường ngủ thoải mái; quản lý khách sạn và nhân viên luôn hữu ích và thân thiện, sẵn lòng lắng nghe ý kiến ​​của khách hàng; Bữa sáng tự chọn cung cấp cho bạn một lựa chọn tốt về các món ăn Việt Nam khác nhau. Tỷ lệ này không rẻ nhưng hợp lý. Rat khuyen khich!",
+            "reviewer_location": "Giessen, Đức"
+        }
+    ],
+    "hotel": {
+        "location": "Số 26B Nguyễn Khánh Toàn, Q. Cầu Giấy, Hà Nội 100000 Việt Nam",
+        "name": "Khách sạn Sen",
+        "geo_data": {
+            "latitude": 21.036012649536133,
+            "longitude": 105.8039779663086
+        },
+        "room_number": "50",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/8f/a4/8d/family-suite-room.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e2/0c/49/s-nh-l-tan.jpg?w=200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/20/de/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/20/41/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1f/d9/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1f/9b/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1f/44/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1e/c2/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1e/33/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1d/d1/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1d/60/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1c/ea/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1c/88/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1c/34/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1b/e7/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1b/8d/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1b/34/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/1a/e4/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/18/ff/breakfast-buffet.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/92/17/97/breakfast-buffet.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+}
