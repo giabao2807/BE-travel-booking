@@ -11,7 +11,7 @@ class Hotel(TimeStampedModel):
     name = models.CharField(max_length=255)
     address = models.CharField(max_length=255)
     descriptions = models.TextField(null=True, blank=True)
-    group_size = models.IntegerField(null=True, blank=True)
+    room_size = models.IntegerField(null=True, blank=True)
     price = models.IntegerField(null=True, blank=True)
     rate = models.FloatField(null=True, blank=True)
     rules = models.TextField(null=True, blank=True)
