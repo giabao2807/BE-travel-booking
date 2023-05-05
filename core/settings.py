@@ -55,7 +55,8 @@ INSTALLED_APPS = [
     'api_user',
     'api_tour',
     'api_hotel',
-    'api_general'
+    'api_general',
+    'api_booking'
 ]
 
 MIDDLEWARE = [
