@@ -9,6 +9,10 @@ from api_user.services.token import TokenService
 
 
 class ProfileService:
+    RANDOM_AVATARS = [
+        "https://media-cdn.tripadvisor.com/media/photo-o/1a/f6/f0/48/default-avatar-2020-15.jpg",
+        ""
+    ]
     @classmethod
     @transaction.atomic
     def create_customer(cls, user_data: dict) -> Optional[Profile]:
@@ -72,3 +76,13 @@ class ProfileService:
     @classmethod
     def bulk_create_anonymous_users(cls) -> List[Profile]:
         pass
+
+    @classmethod
+    def create_dump_user_with_name(cls, reviewer_name: str):
+        names = reviewer_name.split(" ", 1)
+        if len(names) == 2:
+            first_name, last_name = names
+        else:
+            first_name = names
+            last_name = ""
+
