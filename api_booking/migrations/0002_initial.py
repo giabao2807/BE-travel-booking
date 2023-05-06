@@ -11,7 +11,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('api_booking', '0001_initial'),
-        ('api_hotel', '0003_roomtype_remove_hotel_group_size_remove_hotel_price_and_more'),
+        ('api_hotel', '0002_roomtype_remove_hotel_group_size_remove_hotel_price_and_more'),
         ('api_tour', '0002_migrate_tour'),
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
     ]

@@ -11,7 +11,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('api_general', '0002_migrate_cities'),
-        ('api_hotel', '0002_migrate_hotel_and_review'),
+        ('api_hotel', '0001_initial'),
     ]
 
     operations = [
