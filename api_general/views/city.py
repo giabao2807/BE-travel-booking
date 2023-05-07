@@ -45,6 +45,45 @@ class CityViewSet(BaseViewSet):
 
     @action(detail=True, methods=[HttpMethod.GET], url_path="top-hotels")
     def top_hotels(self, request, *args, **kwargs):
+        """
+        URL: api/v1/general/city/{id}/top-hotels/?page_size={int}&page={int}
+        Method: {GET}
+        Authentication: NoRequired
+        @param request:
+        - page_size(int - default is 12): Amount of records want to get each page
+        - page(int - default is 1): Page number
+        @param args:
+        @param kwargs:
+        @return: List of hotels by city
+        Example:
+        Request URL: http://localhost:8000/api/v1/general/city/21/top-hotels/?page_size=2&page=1
+        {
+            "links": {
+                "previous": null,
+                "next": "http://localhost:8000/api/v1/general/city/21/top-hotels/?page=2&page_size=2"
+            },
+            "current": 1,
+            "pageSize": 2,
+            "pageNumber": 2,
+            "count": 3,
+            "results": [
+                {
+                    "name": "Nhà Nghỉ Giang Sơn",
+                    "address": "Km3, Group 1 Cau Me Village, Phuong Thien Ward, Hà Giang 310000 Việt Nam",
+                    "priceRange": "",
+                    "coverPicture": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b1/6d/24/hien-khach-s-n.jpg?w=1200&h=-1&s=1",
+                    "rateAverage": 5.0
+                },
+                {
+                    "name": "H'Mong Village Resort",
+                    "address": "Khu Tráng Kìm Xã Đông Hà, huyện Quản Bạ, Hà Giang 20000 Việt Nam",
+                    "priceRange": "",
+                    "coverPicture": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/6e/23/e3/h-mong-village-resort.jpg?w=1200&h=-1&s=1",
+                    "rateAverage": 5.0
+                }
+            ]
+        }
+        """
         city = self.get_object()
 
         hotel_id_queryset = CityService.get_top_hotel_id_queryset(city)
