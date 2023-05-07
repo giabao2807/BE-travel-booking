@@ -6,7 +6,8 @@ from base.models import Review
 
 
 class HotelReview(Review):
-    hotel = models.ForeignKey(Hotel, on_delete=models.CASCADE)
+    hotel = models.ForeignKey(Hotel, on_delete=models.CASCADE, related_name="hotel_reviews")
+    owner = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name="hotel_reviews")
 
     class Meta:
         db_table = 'hotel_reviews'

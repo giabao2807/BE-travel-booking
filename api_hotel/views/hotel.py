@@ -1,9 +1,9 @@
 from api_hotel.models import Hotel
-from api_tour.serializers import TourSerializer
+from api_hotel.serializers import HotelSerializer
 from base.views import BaseViewSet
 
 
 class HotelViewSet(BaseViewSet):
     queryset = Hotel.objects.all()
-    serializer_class = TourSerializer
+    serializer_class = HotelSerializer
     permission_classes = []

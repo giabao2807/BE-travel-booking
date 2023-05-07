@@ -1,1 +1,1 @@
-from .tour import TourSerializer
+from .hotel import HotelSerializer

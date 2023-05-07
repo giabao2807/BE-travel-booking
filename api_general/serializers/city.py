@@ -1,10 +1,10 @@
 from rest_framework.serializers import ModelSerializer
 
-from api_hotel.models import Hotel
+from api_general.models import City
 
 
-class HotelSerializer(ModelSerializer):
+class CitySerializer(ModelSerializer):
 
     class Meta:
-        model = Hotel
+        model = City
         fields = "__all__"
