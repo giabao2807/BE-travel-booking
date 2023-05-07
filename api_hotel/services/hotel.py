@@ -1,5 +1,6 @@
 from typing import List, Dict
-from django.db.models import Avg, Count
+from django.db.models import Avg, Count, Min, Max, Value, CharField
+from django.db.models.functions import Concat
 
 from api_general.models import City
 from api_hotel.models import Hotel
@@ -29,3 +30,16 @@ class HotelService:
         city_values = list(City.objects.filter(id__in=top_cities).values("id", "name"))
 
         return city_values
+
+    @classmethod
+    def get_hotel_cards(cls, hotel_ids: List[int]):
+        hotel_card_values = Hotel.objects.filter(id__in=hotel_ids)\
+            .values("id")\
+            .annotate(
+                rate_average=Avg("hotel_reviews__rate"),
+                min_price=Min("room_types__price"),
+                max_price=Max("room_types__price")
+            )\
+            .values("id", "name", "cover_picture", "address", "rate_average", "min_price", "max_price")
+
+        return hotel_card_values

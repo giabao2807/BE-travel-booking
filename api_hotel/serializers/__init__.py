@@ -1,1 +1,1 @@
-from .hotel import HotelSerializer
+from .hotel import HotelSerializer, HotelCardSerializer
