@@ -6,7 +6,7 @@ from base.models import TimeStampedModel
 
 class RoomType(TimeStampedModel):
     name = models.CharField(max_length=255, null=True, blank=True)
-    beds = models.IntegerField(null=True, blank=True)
+    beds = models.CharField(max_length=255, null=True, blank=True)
     adults = models.IntegerField(null=True, blank=True)
     children = models.IntegerField(null=True, blank=True)
     description = models.TextField()
