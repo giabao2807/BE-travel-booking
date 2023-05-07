@@ -3,6 +3,7 @@ from rest_framework.response import Response
 
 from api_general.models import City
 from api_general.serializers import CitySerializer
+from api_general.services import Utils
 from api_hotel.services import HotelService
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
@@ -16,7 +17,7 @@ class CityViewSet(BaseViewSet):
     @action(detail=False, methods=[HttpMethod.GET], url_path="top-recommend-cities")
     def top_recommend_cities(self, request, *args, **kwargs):
         """
-        URL: api/v1/city/top-recommend-cities
+        URL: api/v1/general/city/top-recommend-cities
         Method: {GET}
         Authentication: NoRequired
         @param request:
@@ -33,7 +34,7 @@ class CityViewSet(BaseViewSet):
             {'id': 46, 'name': 'Quảng Nam'}
         ]
         """
-        amount = request.query_params.get("amount", 5)
+        amount = Utils.safe_int(request.query_params.get("amount", 5))
         recommend_cities = HotelService.get_top_recommend_cities(amount)
 
         return Response(recommend_cities)

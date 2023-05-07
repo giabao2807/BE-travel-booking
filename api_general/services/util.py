@@ -11,3 +11,13 @@ class Utils:
             raw_sql = cursor.db.ops.last_executed_query(cursor, sql, params)
         raw_sql = raw_sql[len('EXPLAIN '):]
         return raw_sql
+
+    @classmethod
+    def safe_int(cls, value, default_value: int = 0) -> int:
+        int_value = default_value
+        try:
+            int_value = int(value)
+        except ValueError:
+            pass
+
+        return int_value
