@@ -16,7 +16,8 @@ class CityViewSet(BaseViewSet):
     @action(detail=False, methods=[HttpMethod.GET], url_path="top-recommend-cities")
     def top_recommend_cities(self, request, *args, **kwargs):
         """
-        URL: api/v1/hotel/top-recommend-cities
+        URL: api/v1/city/top-recommend-cities
+        Method: {GET}
         Authentication: NoRequired
         @param request:
         - amount(int - default is 5): Amount of cities want to get
