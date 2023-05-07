@@ -9,7 +9,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('api_hotel', '0003_alter_roomtype_beds_and_more'),
+        ('api_hotel', '0003_alter_roomtype_beds_alter_roomtype_square_and_more'),
     ]
 
     operations = [
