@@ -11,7 +11,7 @@ class RoomType(TimeStampedModel):
     children = models.IntegerField(null=True, blank=True)
     description = models.TextField()
     price = models.IntegerField(null=False, blank=False)
-    square = models.IntegerField(null=True, blank=True)
+    square = models.CharField(max_length=255, null=True, blank=True)
     hotel = models.ForeignKey(Hotel, on_delete=models.CASCADE, related_name='room_types')
 
     class Meta:
