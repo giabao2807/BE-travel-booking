@@ -1,5 +1,6 @@
 import json
 import os
+import random
 from typing import List, Type
 
 from django.core.management import BaseCommand
@@ -7,7 +8,7 @@ from django.db import transaction
 from unidecode import unidecode
 
 from api_general.models import City, Image
-from api_hotel.models import Hotel, HotelImage
+from api_hotel.models import Hotel, HotelImage, RoomType, RoomTypeImage, Room
 from api_hotel.models.review import HotelReview
 from api_user.models import Profile
 from api_user.services import ProfileService
@@ -24,11 +25,16 @@ class Command(BaseCommand):
         parser.add_argument("--migrate_hotel_images_data",
                             action="store_true",
                             help="Migrate hotel images from crawled data", )
+        parser.add_argument("--migrate_roomtype_room",
+                            action="store_true",
+                            help="Migrate room_type room for hotel from crawled data", )
 
     def handle(self, *args, **options):
         if options.get("migrate_hotel_and_reviews_data"):
             self.initial_hotel_and_review_data()
         if options.get("migrate_hotel_images_data"):
+            self.migrate_hotel_images_data()
+        if options.get("migrate_room_type_room"):
             self.migrate_hotel_images_data()
 
     default_cover_image = "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20016842-3078abf5cf90a3ec8b59453f05737775.jpeg?_src=imagekit&tr=c-at_max,h-488,q-40,w-768"
@@ -180,3 +186,42 @@ class Command(BaseCommand):
         HotelImage.objects.bulk_create(bulk_hotel_images)
         print("Done!")
         print("Failed with file names: ", failed_file_names)
+
+
+    def migrate_room_type_room(self):
+        room_type_model = RoomType
+        room_model = Room
+        room_type_image_model = RoomTypeImage
+        image_model = Image
+        hotel_model = Hotel
+        hotels = hotel_model.objects.all()
+
+        with open('api_hotel/statics/room_type.txt', 'r', encoding='utf-8') as f:
+            list_data = json.load(f)
+
+        len_room_type = len(list_data)
+
+        for idx, hotel in enumerate(hotels):
+            print("Migrate for hotel: ", idx)
+            random_room_types = list_data[str(random.randint(0, len_room_type - 1))]
+
+            for room_type in random_room_types:
+                room_type_instance = room_type_model(name=room_type['name'], beds=room_type['beds'],
+                                                     adults=int(room_type['adults']),
+                                                     children=int(room_type['children']),
+                                                     description=room_type['description'], square=room_type['square'],
+                                                     price=int(room_type['price']), hotel=hotel)
+                list_room_type_image = []
+                room_type_instance.save()
+                for image in room_type['images']:
+                    image_instance = image_model(link=image)
+                    image_instance.save()
+                    room_type_image = room_type_image_model(image=image_instance, room_type=room_type_instance)
+                    list_room_type_image.append(room_type_image)
+                room_type_image_model.objects.bulk_create(list_room_type_image)
+
+                random_room_for_room_type = random.randint(1, 8)
+                for i in range(1, random_room_for_room_type + 1):
+                    room = room_model(room_type=room_type_instance)
+                    room.save()
+            print("------Done\n")

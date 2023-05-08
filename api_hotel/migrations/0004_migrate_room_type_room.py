@@ -6,41 +6,42 @@ import random
 
 
 def initial_roomtype_rooo_data(apps, schema_editor):
-    room_type_model = apps.get_model("api_hotel", "RoomType")
-    room_model = apps.get_model("api_hotel", "Room")
-    room_type_image_model = apps.get_model("api_hotel", "RoomTypeImage")
-    image_model = apps.get_model("api_general", "Image")
-    hotel_model = apps.get_model("api_hotel", "Hotel")
-    hotels = hotel_model.objects.all()
-
-    with open('api_hotel/statics/room_type.txt', 'r', encoding='utf-8') as f:
-        list_data = json.load(f)
-
-    len_room_type = len(list_data)
-
-    for idx, hotel in enumerate(hotels):
-        print("Migrate for hotel: ", idx)
-        random_room_types = list_data[str(random.randint(0, len_room_type-1))]
-
-        for room_type in random_room_types:
-            room_type_instance = room_type_model(name=room_type['name'], beds=room_type['beds'],
-                                        adults=int(room_type['adults']), children=int(room_type['children']),
-                                        description=room_type['description'], square=room_type['square'],
-                                        price=int(room_type['price']), hotel=hotel)
-            list_room_type_image = []
-            room_type_instance.save()
-            for image in room_type['images']:
-                image_instance = image_model(link=image)
-                image_instance.save()
-                room_type_image = room_type_image_model(image=image_instance, room_type=room_type_instance)
-                list_room_type_image.append(room_type_image)
-            room_type_image_model.objects.bulk_create(list_room_type_image)
-
-            random_room_for_room_type = random.randint(1,8)
-            for i in range(1, random_room_for_room_type+1):
-                room = room_model(room_type=room_type_instance)
-                room.save()
-        print("------Done\n")
+    pass
+    # room_type_model = apps.get_model("api_hotel", "RoomType")
+    # room_model = apps.get_model("api_hotel", "Room")
+    # room_type_image_model = apps.get_model("api_hotel", "RoomTypeImage")
+    # image_model = apps.get_model("api_general", "Image")
+    # hotel_model = apps.get_model("api_hotel", "Hotel")
+    # hotels = hotel_model.objects.all()
+    #
+    # with open('api_hotel/statics/room_type.txt', 'r', encoding='utf-8') as f:
+    #     list_data = json.load(f)
+    #
+    # len_room_type = len(list_data)
+    #
+    # for idx, hotel in enumerate(hotels):
+    #     print("Migrate for hotel: ", idx)
+    #     random_room_types = list_data[str(random.randint(0, len_room_type-1))]
+    #
+    #     for room_type in random_room_types:
+    #         room_type_instance = room_type_model(name=room_type['name'], beds=room_type['beds'],
+    #                                     adults=int(room_type['adults']), children=int(room_type['children']),
+    #                                     description=room_type['description'], square=room_type['square'],
+    #                                     price=int(room_type['price']), hotel=hotel)
+    #         list_room_type_image = []
+    #         room_type_instance.save()
+    #         for image in room_type['images']:
+    #             image_instance = image_model(link=image)
+    #             image_instance.save()
+    #             room_type_image = room_type_image_model(image=image_instance, room_type=room_type_instance)
+    #             list_room_type_image.append(room_type_image)
+    #         room_type_image_model.objects.bulk_create(list_room_type_image)
+    #
+    #         random_room_for_room_type = random.randint(1,8)
+    #         for i in range(1, random_room_for_room_type+1):
+    #             room = room_model(room_type=room_type_instance)
+    #             room.save()
+    #     print("------Done\n")
 
 
 def delete_all_data(apps, schema_editor):
