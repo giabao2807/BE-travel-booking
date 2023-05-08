@@ -38,8 +38,10 @@ class HotelService:
             .annotate(
                 rate_average=Avg("hotel_reviews__rate"),
                 min_price=Min("room_types__price"),
-                max_price=Max("room_types__price")
+                max_price=Max("room_types__price"),
+                num_review=Count("hotel_reviews__id")
             )\
-            .values("id", "name", "cover_picture", "address", "rate_average", "min_price", "max_price")
+            .values("id", "name", "cover_picture", "address",
+                    "rate_average", "min_price", "max_price", "num_review")
 
         return hotel_card_values
