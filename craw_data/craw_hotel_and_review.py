@@ -46,9 +46,10 @@ searched_page_urls = [
     # "https://www.tripadvisor.com.vn/Search?q=nha%20trang&searchSessionId=000822b055e36922.ssid&sid=FE038E2301404C21891BA4CBFD01EF171682315847299&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=1&o={0}",
     # "https://www.tripadvisor.com.vn/Search?q=ninh%20b%C3%ACnh&searchSessionId=000822b055e36922.ssid&sid=922AF968352C43848579E50530CD7E5F1682933858128&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=1&o={0}",
     # "https://www.tripadvisor.com.vn/Search?q=h%E1%BB%93&searchSessionId=000822b055e36922.ssid&sid=922AF968352C43848579E50530CD7E5F1682934000755&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=293925&o={0}",
-    "https://www.tripadvisor.com.vn/Search?q=%C4%91%C3%A0&searchSessionId=000822b055e36922.ssid&sid=9D1084172F784712ACADD3EEDD5F2A0A1682942939951&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=15334653&o={0}",
-    "https://www.tripadvisor.com.vn/Search?q=h%C3%A0%20n%E1%BB%99i&searchSessionId=000822b055e36922.ssid&sid=9D1084172F784712ACADD3EEDD5F2A0A1682942990310&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=1&o={0}",
-    "https://www.tripadvisor.com.vn/Search?q=ph%C3%BA%20qu%E1%BB%91c&searchSessionId=000822b055e36922.ssid&sid=9D1084172F784712ACADD3EEDD5F2A0A1682943049801&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=1&o={0}"
+    # "https://www.tripadvisor.com.vn/Search?q=%C4%91%C3%A0&searchSessionId=000822b055e36922.ssid&sid=9D1084172F784712ACADD3EEDD5F2A0A1682942939951&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=15334653&o={0}",
+    # "https://www.tripadvisor.com.vn/Search?q=h%C3%A0%20n%E1%BB%99i&searchSessionId=000822b055e36922.ssid&sid=9D1084172F784712ACADD3EEDD5F2A0A1682942990310&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=1&o={0}",
+    # "https://www.tripadvisor.com.vn/Search?q=ph%C3%BA%20qu%E1%BB%91c&searchSessionId=000822b055e36922.ssid&sid=9D1084172F784712ACADD3EEDD5F2A0A1682943049801&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=1&o={0}",
+    "https://www.tripadvisor.com.vn/Search?q=H%C3%A0%20Giang&searchSessionId=000822b055e36922.ssid&sid=12F5B71BCF6C4580BA5345EF272826371683524657316&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=1&o={0}"
 ]
 
 
@@ -81,12 +82,20 @@ def get_hotel_name(page_url):
     page_data = dict()
 
     try:
+        hotel_images = []
         chrome_executable = Service(executable_path=DRIVER_BIN, log_path='NUL')
         driver = webdriver.Chrome(service=chrome_executable)
         driver.get(page_url)
+        time.sleep(2)
         page = driver.page_source
         soup = BeautifulSoup(page, 'html.parser')
 
+        images_boxes = soup.find_all("img", {"class": "_Q t _U s l KSVvt"})
+        for images_box in images_boxes:
+            image_url = images_box["src"]
+            if image_url:
+                image_url = image_url.replace("w=100", "w=1200")
+                hotel_images.append(image_url)
         location_box = soup.find("div", {"class": "gZwVG H3 f u ERCyA"})
         location_text = location_box.find("span", {"class": "fHvkI PTrfg"}).text
         name_box = soup.find("h1", {"class": "QdLfr b d Pn"})
@@ -98,6 +107,8 @@ def get_hotel_name(page_url):
         page_data["name"] = hotel_name
         page_data["geo_data"] = get_geo_hotel(page_url)
         page_data["room_number"] = room_number
+        if hotel_images:
+            page_data["images"] = hotel_images
     except Exception as e:
         print(e)
         print(f"Error when fetch url: {page_url}")
@@ -198,33 +209,37 @@ def get_all_page_url_with_searched_page_url(search_page_url):
     offset = 30
     all_page_urls = []
 
-    while is_next:
-        real_page_url = search_page_url.format(offset)
-        chrome_executable = Service(executable_path=DRIVER_BIN, log_path='NUL')
-        driver = webdriver.Chrome(service=chrome_executable)
-        driver.get(real_page_url)
-        time.sleep(3)
+    try:
+        while is_next:
+            real_page_url = search_page_url.format(offset)
+            chrome_executable = Service(executable_path=DRIVER_BIN, log_path='NUL')
+            driver = webdriver.Chrome(service=chrome_executable)
+            driver.get(real_page_url)
+            time.sleep(3)
 
-        page = driver.page_source
-        soup = BeautifulSoup(page, 'html.parser')
+            page = driver.page_source
+            soup = BeautifulSoup(page, 'html.parser')
 
-        preview_object_containers = soup.find_all("div", {"class": "ui_columns is-mobile result-content-columns"})
-        for preview_object_container in preview_object_containers:
-            try:
-                preview_title = preview_object_container.find("div", {"class": "result-title"})
-                _page_url = preview_title["onclick"][50:]
-                _url_pattern = r"/(.*?)\'"
-                matches = re.findall(_url_pattern, _page_url)
-                _page_url = matches[0]
-                all_page_urls.append(_page_url)
-            except Exception as e:
-                print(e)
+            preview_object_containers = soup.find_all("div", {"class": "ui_columns is-mobile result-content-columns"})
+            for preview_object_container in preview_object_containers:
+                try:
+                    preview_title = preview_object_container.find("div", {"class": "result-title"})
+                    _page_url = preview_title["onclick"][50:]
+                    _url_pattern = r"/(.*?)\'"
+                    matches = re.findall(_url_pattern, _page_url)
+                    _page_url = matches[0]
+                    all_page_urls.append(_page_url)
+                except Exception as e:
+                    pass
 
-        next_button = soup.find("a", {"class": "ui_button nav next primary"})
-        disabled_next_button = soup.find("a", {"class": "ui_button nav next primary disabled"})
+            print(f"Fetched {len(all_page_urls)} urls ...")
+            next_button = soup.find("a", {"class": "ui_button nav next primary"})
+            disabled_next_button = soup.find("a", {"class": "ui_button nav next primary disabled"})
 
-        is_next = next_button and not disabled_next_button and len(all_page_urls) <= 120
-        offset += step
+            is_next = next_button and not disabled_next_button and len(all_page_urls) <= 53
+            offset += step
+    except Exception as e:
+        print(e)
 
     return all_page_urls
 
