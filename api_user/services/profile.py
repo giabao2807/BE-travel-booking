@@ -10,6 +10,9 @@ from api_user.models import Profile, Role
 from api_user.services import RoleService
 from api_user.services.token import TokenService
 from api_user.statics import RoleData
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class ProfileService:
@@ -88,6 +91,8 @@ class ProfileService:
         :return:
         """
         default_role = RoleService.get_role_customer()
+        user_data['password'] = make_password(user_data.pop('password',
+                                              os.getenv('DEFAULT_PASSWORD')))
         user = Profile(**user_data)
         user.role = default_role
         user.save()
