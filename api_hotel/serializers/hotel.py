@@ -8,8 +8,13 @@ class HotelSerializer(ModelSerializer):
 
     class Meta:
         model = Hotel
-        fields = "__all__"
-        exclude = ('owner', 'longitude', 'latitude')
+        exclude = ['is_active']
+
+    def to_representation(self, instance):
+        ret = super().to_representation(instance)
+        ret['num_review'] = instance.hotel_reviews.count()
+        ret['list_images'] = [i.image.link for i in instance.hotel_images.all()]
+        return ret
 
 
 class HotelCardSerializer(ModelSerializer):

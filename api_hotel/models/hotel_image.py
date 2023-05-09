@@ -6,8 +6,8 @@ from api_hotel.models import Hotel
 
 
 class HotelImage(models.Model):
-    image = models.ForeignKey(Image, on_delete=models.CASCADE)
-    hotel = models.ForeignKey(Hotel, on_delete=models.CASCADE)
+    image = models.ForeignKey(Image, on_delete=models.CASCADE, related_name="hotel_images")
+    hotel = models.ForeignKey(Hotel, on_delete=models.CASCADE, related_name="hotel_images")
 
     objects = Manager
 

@@ -18,7 +18,7 @@ def initial_des_rules_for_hotel(apps, schema_editor):
         rul = rul_path + '/rul' + str(random.randint(1, 2)) + '.html'
         description = read_content(des)
         hotel.descriptions = description
-        hotel.rules = rul
+        hotel.rules = read_content(rul)
         hotel.save()
         print("------Done\n")
 

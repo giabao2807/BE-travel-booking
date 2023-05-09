@@ -9,3 +9,7 @@ class HotelViewSet(BaseViewSet):
     serializer_class = HotelSerializer
     permission_classes = [UserPermission]
 
+    permission_map = {
+        "list": [],
+        "retrieve": []
+    }

@@ -13,7 +13,6 @@ class Hotel(TimeStampedModel):
     descriptions = models.TextField(null=True, blank=True)
     rate = models.FloatField(null=True, blank=True)
     rules = models.TextField(null=True, blank=True)
-    num_review = models.IntegerField(null=True, blank=True)
     city = models.ForeignKey(City, on_delete=models.CASCADE, null=True)
     owner = models.ForeignKey(Profile, on_delete=models.CASCADE, null=True)
     longitude = models.FloatField(blank=True, null=True)
