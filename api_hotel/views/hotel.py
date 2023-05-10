@@ -1,10 +1,12 @@
+from typing import List
+
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from api_general.consts import DatetimeFormatter
 from api_general.services import Utils
 from api_hotel.models import Hotel
-from api_hotel.serializers import HotelSerializer
+from api_hotel.serializers import HotelSerializer, AvailableRoomTypeSerializer
 from api_hotel.services import HotelService
 from api_user.permission import UserPermission
 from base.views import BaseViewSet
@@ -21,6 +23,9 @@ class HotelViewSet(BaseViewSet):
         "retrieve": [],
         "get_available_room_types": []
     }
+    serializer_map = {
+        "get_available_room_types": AvailableRoomTypeSerializer
+    }
 
     @action(detail=True, methods=[HttpMethod.GET], url_path="get-available-room-types")
     def get_available_room_types(self, request, *args, **kwargs):
@@ -36,18 +41,32 @@ class HotelViewSet(BaseViewSet):
         @param kwargs:
         @return: List of available room types amount
         Example:
-        {
-            "0567a1d8-9e55-4f37-b48b-63583e553344": 8,
-            "573bed90-dbe6-4812-ada0-a34922e36486": 7,
-            "638c149e-72e4-4b8d-a10c-370db4f210de": 1,
-            "801acbfd-b879-48ee-865a-3c392e470490": 3,
-            "861ff75c-d35e-4676-9f2b-19c3989a9592": 7,
-            "9b2f583d-98d8-4b6a-8f6f-c246067d0c19": 3,
-            "b1f32828-0d9c-4ce0-8869-62730958989e": 3,
-            "c096d852-7999-4353-ba3b-3b2ce7ac77a1": 8,
-            "c5fe1c15-27f4-4217-91ef-c962cda53c64": 6,
-            "fdc2508a-4d62-48bc-b0b9-28eeef7e10bd": 4
-        }
+        [
+            {
+                "id": "0567a1d8-9e55-4f37-b48b-63583e553344",
+                "name": "Superior Twin Room",
+                "beds": "2 double beds",
+                "adults": 2,
+                "children": 3,
+                "description": "<div class=\"ChildRoomsList-room-featurebucket ChildRoomsList-room-featurebucket-Benefits\"><span class=\"ChildRoomsList-room-bucketspan\">Your price includes:</span><div><div class=\"ChildRoomsList-roomFeature ChildRoomsList-roomFeature--green\" data-element-name=\"free-breakfast\" data-room-feature-type=\"0\" data-selenium=\"ChildRoomList-roomFeature\"><div data-element=\"room-feature\"><i class=\"RoomFeature__Icon ficon ficon-14 ficon-noti-check-mark-sharp\"></i><span class=\"RoomFeature__Title RoomFeature__Title--plain\"><span class=\"ChildRoomsList-roomFeature-TitleWrapper\"><span class=\"Spanstyled__SpanStyled-sc-16tp9kb-0 AeAps kite-js-Span\" data-element=\"room-feature-text\">Free breakfast for 2</span></span></span></div></div></div><div><div class=\"ChildRoomsList-roomFeature ChildRoomsList-roomFeature--green\" data-room-feature-type=\"0\" data-selenium=\"ChildRoomList-roomFeature\"><div data-element=\"room-feature\"><i class=\"RoomFeature__Icon ficon ficon-14 ficon-noti-check-mark-sharp\"></i><span class=\"RoomFeature__Title RoomFeature__Title--plain\"><span class=\"ChildRoomsList-roomFeature-TitleWrapper\"><span class=\"Spanstyled__SpanStyled-sc-16tp9kb-0 AeAps kite-js-Span\" data-element=\"room-feature-text\">Parking, Free WiFi, Free fitness center access</span></span></span></div></div></div><div><div aria-describedby=\"rc-tooltip-638\" class=\"ChildRoomsList-roomFeature ChildRoomsList-roomFeature--withHover ChildRoomsList-roomFeature--green\" data-room-feature-type=\"5\" data-selenium=\"ChildRoomList-roomFeature\" tabindex=\"0\"><div data-element=\"room-feature\"><i class=\"RoomFeature__Icon ficon ficon-14 ficon-noti-check-mark-sharp\"></i><span class=\"RoomFeature__Title RoomFeature__Title--plain\"><span class=\"ChildRoomsList-roomFeature-TitleWrapper\"><span class=\"Spanstyled__SpanStyled-sc-16tp9kb-0 AeAps kite-js-Span\" data-element=\"room-feature-text\">Extra low price! (non-refundable)</span><i class=\"ficon ficon-10 ficon-hover-details\"></i></span></span></div></div></div></div>",
+                "price": 2496000,
+                "square": "25 m²/269 ft²",
+                "totalRoomAmount": 8,
+                "availableRoomAmount": 8
+            },
+            {
+                "id": "573bed90-dbe6-4812-ada0-a34922e36486",
+                "name": "Deluxe Twin City View",
+                "beds": "2 single beds",
+                "adults": 4,
+                "children": 1,
+                "description": "<div class=\"ChildRoomsList-room-featurebucket ChildRoomsList-room-featurebucket-Benefits\"><span class=\"ChildRoomsList-room-bucketspan\">Your price includes:</span><div><div class=\"ChildRoomsList-roomFeature ChildRoomsList-roomFeature--green\" data-element-name=\"free-breakfast\" data-room-feature-type=\"0\" data-selenium=\"ChildRoomList-roomFeature\"><div data-element=\"room-feature\"><i class=\"RoomFeature__Icon ficon ficon-14 ficon-noti-check-mark-sharp\"></i><span class=\"RoomFeature__Title RoomFeature__Title--plain\"><span class=\"ChildRoomsList-roomFeature-TitleWrapper\"><span class=\"Spanstyled__SpanStyled-sc-16tp9kb-0 AeAps kite-js-Span\" data-element=\"room-feature-text\">Free breakfast for 2</span></span></span></div></div></div><div><div class=\"ChildRoomsList-roomFeature ChildRoomsList-roomFeature--green\" data-room-feature-type=\"0\" data-selenium=\"ChildRoomList-roomFeature\"><div data-element=\"room-feature\"><i class=\"RoomFeature__Icon ficon ficon-14 ficon-noti-check-mark-sharp\"></i><span class=\"RoomFeature__Title RoomFeature__Title--plain\"><span class=\"ChildRoomsList-roomFeature-TitleWrapper\"><span class=\"Spanstyled__SpanStyled-sc-16tp9kb-0 AeAps kite-js-Span\" data-element=\"room-feature-text\">Local breakfast, Vegetarian Breakfast, Parking, Car rental, Motorcycle rental, Bike rental, Hand sanitizer, Room sanitizing, Free Premium Wifi, Indoor gym access, Free pool access, Free fitness center access, Cable TV channels, Smart TV (with apps), Dumbbells, Treadmill</span></span></span></div></div></div><div><div class=\"ChildRoomsList-roomFeature ChildRoomsList-roomFeature--green\" data-room-feature-type=\"3\" data-selenium=\"ChildRoomList-roomFeature\"><div data-element=\"room-feature\"><i class=\"RoomFeature__Icon ficon ficon-14 ficon-noti-check-mark-sharp\"></i><span class=\"RoomFeature__Title RoomFeature__Title--plain\"><span class=\"ChildRoomsList-roomFeature-TitleWrapper\"><span class=\"Spanstyled__SpanStyled-sc-16tp9kb-0 AeAps kite-js-Span\" data-element=\"room-feature-text\">Pay at the hotel</span></span></span></div></div></div><div><div class=\"ChildRoomsList-roomFeature ChildRoomsList-roomFeature--green\" data-room-feature-type=\"0\" data-selenium=\"ChildRoomList-roomFeature\"><div data-element=\"room-feature\"><i class=\"RoomFeature__Icon ficon ficon-14 ficon-noti-check-mark-sharp\"></i><span class=\"RoomFeature__Title RoomFeature__Title--plain\"><span class=\"ChildRoomsList-roomFeature-TitleWrapper\"><span class=\"Spanstyled__SpanStyled-sc-16tp9kb-0 AeAps kite-js-Span\" data-element=\"room-feature-text\">Free Wi-Fi</span></span></span></div></div></div><div><div aria-describedby=\"rc-tooltip-602\" class=\"ChildRoomsList-roomFeature ChildRoomsList-roomFeature--withHover ChildRoomsList-roomFeature--green\" data-room-feature-type=\"5\" data-selenium=\"ChildRoomList-roomFeature\" tabindex=\"0\"><div data-element=\"room-feature\"><i class=\"RoomFeature__Icon ficon ficon-14 ficon-noti-check-mark-sharp\"></i><span class=\"RoomFeature__Title RoomFeature__Title--plain\"><span class=\"ChildRoomsList-roomFeature-TitleWrapper\"><span class=\"Spanstyled__SpanStyled-sc-16tp9kb-0 AeAps kite-js-Span\" data-element=\"room-feature-text\">Cancellation policy</span><i class=\"ficon ficon-10 ficon-hover-details\"></i></span></span></div></div></div></div>",
+                "price": 2041667,
+                "square": "25 m²/269 ft²",
+                "totalRoomAmount": 7,
+                "availableRoomAmount": 7
+            }
+        ]
         """
         params: dict = request.query_params.dict()
         start_date = params.get("start_date", "")
@@ -55,9 +74,11 @@ class HotelViewSet(BaseViewSet):
         start_date = Utils.safe_str_to_date(start_date, DatetimeFormatter.YYMMDD)
         end_date = Utils.safe_str_to_date(end_date, DatetimeFormatter.YYMMDD)
         hotel = self.get_object()
-        available_room_types = dict()
 
         if start_date and end_date:
             available_room_types = HotelService.get_available_room_types(hotel, start_date, end_date)
+        else:
+            available_room_types = HotelService.get_all_available_room_types(hotel.id)
+        data = self.get_serializer(available_room_types, many=True).data
 
-        return Response(available_room_types)
+        return Response(data)

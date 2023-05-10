@@ -21,7 +21,7 @@ class Utils:
         int_value = default_value
         try:
             int_value = int(value)
-        except ValueError:
+        except Exception:
             pass
 
         return int_value
