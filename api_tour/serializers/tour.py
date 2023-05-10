@@ -23,7 +23,7 @@ class SortTourSerializer(ModelSerializer):
 
     class Meta:
         model = Tour
-        fields = ('id', 'descriptions', 'cover_picture',
+        fields = ('id', 'name', 'descriptions', 'cover_picture',
                   'total_days', 'language_tour', 'price',
                   'rate', 'num_review', 'city')
 
