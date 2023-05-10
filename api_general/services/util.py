@@ -1,5 +1,9 @@
+from datetime import datetime
+
 from django.db import connection
 from django.db.models import QuerySet
+
+from api_general.consts import DatetimeFormatter
 
 
 class Utils:
@@ -21,3 +25,12 @@ class Utils:
             pass
 
         return int_value
+
+    @classmethod
+    def safe_str_to_date(cls, date_str: str, datetime_formatter: str = DatetimeFormatter.YYMMDD, default_value=None) -> datetime:
+        try:
+            converted_datetime = datetime.strptime(date_str, datetime_formatter)
+        except:
+            converted_datetime = default_value
+
+        return converted_datetime

@@ -1,3 +1,4 @@
+from django.db.models import Manager
 from django.utils import timezone
 
 from django.db import models
@@ -13,6 +14,8 @@ class Booking(TimeStampedModel):
     start_date = models.DateTimeField(default=timezone.now, null=True, blank=True)
     end_date = models.DateTimeField(default=timezone.now, null=True, blank=True)
     note = models.TextField(null=True, blank=True)
+
+    objects = Manager
 
     class Meta:
         db_table = 'bookings'

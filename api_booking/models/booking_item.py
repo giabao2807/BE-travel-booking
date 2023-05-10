@@ -13,7 +13,7 @@ class BookingItem(BaseSimpleModel):
                              on_delete=models.CASCADE, related_name="booking_item")
     room = models.ForeignKey(Room, null=True, blank=True,
                              on_delete=models.CASCADE, related_name="booking_item")
-    quality = models.IntegerField(null=False, default=1)
+    quantity = models.IntegerField(null=False, default=1)
 
     class Meta:
         db_table = 'booking_items'
