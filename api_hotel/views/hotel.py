@@ -27,7 +27,7 @@ class HotelViewSet(BaseViewSet):
         "get_available_room_types": AvailableRoomTypeSerializer
     }
 
-    @action(detail=True, methods=[HttpMethod.GET], url_path="get-available-room-types")
+    @action(detail=True, methods=[HttpMethod.GET], url_path="get_available_room_types")
     def get_available_room_types(self, request, *args, **kwargs):
         """
         URL: api/v1/hotel/{hotel_id}/get-available-room-types/?start_date={date}&end_date={date}
