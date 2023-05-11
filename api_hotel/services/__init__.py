@@ -1,2 +1,2 @@
 from .hotel import HotelService
-from .room_type import RoomTypeService
+from .room import RoomService

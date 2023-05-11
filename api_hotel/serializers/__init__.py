@@ -1,2 +1,2 @@
 from .hotel import HotelSerializer, HotelCardSerializer
-from .roomtype import RoomTypeSerializer, AvailableRoomTypeSerializer
+from .room import RoomSerializer, AvailableRoomSerializer

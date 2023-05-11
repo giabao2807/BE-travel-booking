@@ -1,17 +1,17 @@
 from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer, Serializer
 
-from api_hotel.models import RoomType
+from api_hotel.models import Room
 
 
-class RoomTypeSerializer(ModelSerializer):
+class RoomSerializer(ModelSerializer):
 
     class Meta:
-        model = RoomType
+        model = Room
         exclude = ['is_active', 'hotel']
 
 
-class AvailableRoomTypeSerializer(Serializer):
+class AvailableRoomSerializer(Serializer):
     id = serializers.UUIDField()
     name = serializers.CharField(max_length=255)
     beds = serializers.CharField(max_length=255, allow_null=True)
@@ -20,9 +20,9 @@ class AvailableRoomTypeSerializer(Serializer):
     description = serializers.CharField(allow_null=True)
     price = serializers.IntegerField()
     square = serializers.CharField(allow_null=True)
+    quantity = serializers.IntegerField()
 
     # extra fields:
-    total_room_amount = serializers.IntegerField(allow_null=True)
     available_room_amount = serializers.IntegerField(allow_null=True)
 
     MODEL_FIELDS = [
@@ -34,6 +34,7 @@ class AvailableRoomTypeSerializer(Serializer):
         "description",
         "price",
         "square",
+        "quantity"
     ]
 
     def update(self, instance, validated_data):

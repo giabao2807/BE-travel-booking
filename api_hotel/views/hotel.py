@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from api_general.consts import DatetimeFormatter
 from api_general.services import Utils
 from api_hotel.models import Hotel
-from api_hotel.serializers import HotelSerializer, AvailableRoomTypeSerializer
+from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer
 from api_hotel.services import HotelService
 from api_user.permission import UserPermission
 from base.views import BaseViewSet
@@ -21,14 +21,14 @@ class HotelViewSet(BaseViewSet):
     permission_map = {
         "list": [],
         "retrieve": [],
-        "get_available_room_types": []
+        "get_available_rooms": []
     }
     serializer_map = {
-        "get_available_room_types": AvailableRoomTypeSerializer
+        "get_available_rooms": AvailableRoomSerializer
     }
 
-    @action(detail=True, methods=[HttpMethod.GET], url_path="get_available_room_types")
-    def get_available_room_types(self, request, *args, **kwargs):
+    @action(detail=True, methods=[HttpMethod.GET], url_path="get_available_rooms")
+    def get_available_rooms(self, request, *args, **kwargs):
         """
         URL: api/v1/hotel/{hotel_id}/get-available-room-types/?start_date={date}&end_date={date}
         Method: {GET}
@@ -76,9 +76,9 @@ class HotelViewSet(BaseViewSet):
         hotel = self.get_object()
 
         if start_date and end_date:
-            available_room_types = HotelService.get_available_room_types(hotel, start_date, end_date)
+            available_rooms = HotelService.get_available_rooms(hotel, start_date, end_date)
         else:
-            available_room_types = HotelService.get_all_available_room_types(hotel.id)
-        data = self.get_serializer(available_room_types, many=True).data
+            available_rooms = HotelService.get_all_available_rooms(hotel.id)
+        data = self.get_serializer(available_rooms, many=True).data
 
         return Response(data)
