@@ -24,6 +24,7 @@ class AvailableRoomSerializer(Serializer):
 
     # extra fields:
     available_room_amount = serializers.IntegerField(allow_null=True)
+    image_links = serializers.ListField(required=False)
 
     MODEL_FIELDS = [
         "id",

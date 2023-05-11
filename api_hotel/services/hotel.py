@@ -7,6 +7,7 @@ from api_general.models import City
 from api_general.services import Utils
 from api_hotel.models import Hotel, Room
 from api_hotel.serializers import AvailableRoomSerializer
+from base.query import GroupConcat
 from common.constants.api_booking import BookingStatus
 
 
@@ -75,6 +76,8 @@ class HotelService:
                 available_room_amount -= booked_room_amount
 
             _room["available_room_amount"] = available_room_amount
+            image_links = _room.get("image_links", "")
+            _room["image_links"] = list(image_links.split(","))
 
         return rooms
 
@@ -128,6 +131,6 @@ class HotelService:
 
         rooms = Room.objects.filter(room_ft)\
             .values("id")\
-            .values(*room_fields)
-
+            .annotate(image_links=GroupConcat("room_images__image__link"))\
+            .values("image_links", *room_fields)
         return rooms
