@@ -63,7 +63,7 @@ class HotelService:
 
         """
         booked_room_amount_mapping = cls.get_booked_rooms_in_range(start_date, end_date, hotel.id)
-        rooms: List[dict] = list(cls.get_room_amount_mapping(hotel.id))
+        rooms: List[dict] = list(cls.get_room_amounts(hotel.id))
 
         for _room in rooms:
             _room_id = _room.get("id")
@@ -93,7 +93,8 @@ class HotelService:
         date_range = [start_date, end_date]
         valid_booking_status = [BookingStatus.PAID, BookingStatus.UNPAID]
         date_range_ft = Q(booking_item__booking__start_date__range=date_range) \
-            | Q(booking_item__booking__end_date__range=date_range)
+            | Q(booking_item__booking__end_date__range=date_range) \
+            | Q(booking_item__booking__start_date__lt=start_date, booking_item__booking__end_date__gt=end_date)
         booking_ft = date_range_ft & \
             Q(booking_item__room__isnull=False) & \
             Q(booking_item__booking__status__in=valid_booking_status) & \
@@ -111,7 +112,7 @@ class HotelService:
         return booked_room_amount_mapping
 
     @classmethod
-    def get_room_amount_mapping(cls, hotel_id: Optional[int] = None) -> QuerySet:
+    def get_room_amounts(cls, hotel_id: Optional[int] = None) -> QuerySet:
         """
         Get room amount by room type
 

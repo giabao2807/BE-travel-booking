@@ -27,7 +27,7 @@ class HotelViewSet(BaseViewSet):
         "get_available_rooms": AvailableRoomSerializer
     }
 
-    @action(detail=True, methods=[HttpMethod.GET], url_path="get_available_rooms")
+    @action(detail=True, methods=[HttpMethod.GET], url_path="get-available-rooms")
     def get_available_rooms(self, request, *args, **kwargs):
         """
         URL: api/v1/hotel/{hotel_id}/get-available-room-types/?start_date={date}&end_date={date}
@@ -78,7 +78,7 @@ class HotelViewSet(BaseViewSet):
         if start_date and end_date:
             available_rooms = HotelService.get_available_rooms(hotel, start_date, end_date)
         else:
-            available_rooms = HotelService.get_all_available_rooms(hotel.id)
+            available_rooms = HotelService.get_room_amounts(hotel.id)
         data = self.get_serializer(available_rooms, many=True).data
 
         return Response(data)
