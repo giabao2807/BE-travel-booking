@@ -32,7 +32,10 @@ class HotelService:
                           .filter(total_rate__gte=10) \
                           .order_by("-avg_rate") \
                           .values_list("city_id", flat=True)[:amount])
-        city_values = list(City.objects.filter(id__in=top_cities).values("id", "name"))
+        city_values = list(City.objects.filter(id__in=top_cities) \
+                           .annotate(total_hotel=Count('hotel__id')) \
+                           .order_by("-total_hotel") \
+                           .values("id", "name"))
 
         return city_values
 
