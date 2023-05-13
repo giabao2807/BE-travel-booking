@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 link = 'https://www.vietnambooking.com/du-lich-trong-nuoc.html'
 
-pages = [i for i in range(1, 11)]
+pages = [i for i in range(1, 60)]
 link_page = [(link + '/' + str(page)) for page in pages]
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -42,9 +42,9 @@ def get_detail_item(item, detail_link):
     return item
 
 
-def get_detail_tour_for_page(list_item):
+def get_detail_tour_for_page(real_items):
     list_rs = []
-    for idx, item in enumerate(list_item):
+    for item in list_item:
         item_data = dict()
         image = item.find('div', {'class': 'box-img'})
         content = item.find('div', {'class': 'box-content'})
@@ -58,13 +58,20 @@ def get_detail_tour_for_page(list_item):
             'td')[1].get_text(strip=True)
         price_content = content.find(
             'div', {'class': 'box-price-promotion-tour'})
+        item_data['departure'] = content.find('table').find_all(
+            'td')[3].get_text(strip=True).replace("Khởi Hành : ", "")
+        list_traffic = content.find('table').find_all(
+            'td')[2].find_all('img')
+        item_data['rate'] = random.randint(3, 5)
+        item_data['traffics'] = [item['alt'] for item in list_traffic]
+        item_data['sort_note'] = content.find(
+            'div', {"class": "box-tour-note-extra"}).get_text(strip=True)
         item_data['price'] = price_content.find('del').get_text(
             strip=True) if price_content.find('del') else price_content.find(
             'span').get_text(strip=True)
         item_data = get_detail_item(item_data, item_data['link_detail'])
         list_rs.append(item_data)
     return list_rs
-
 
 list_tour = []
 for idx, page in enumerate(link_page):

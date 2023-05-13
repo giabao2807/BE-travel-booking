@@ -25,7 +25,7 @@ class SortTourSerializer(ModelSerializer):
         model = Tour
         fields = ('id', 'name', 'descriptions', 'cover_picture',
                   'total_days', 'language_tour', 'price',
-                  'rate', 'num_review', 'city')
+                  'rate', 'num_review', 'city', 'departure', 'traffics')
 
     def to_representation(self, instance):
         ret = super().to_representation(instance)

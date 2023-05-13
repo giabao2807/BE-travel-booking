@@ -22,6 +22,8 @@ class Tour(TimeStampedModel):
     owner = models.ForeignKey(Profile, on_delete=models.CASCADE, null=True)
     longitude = models.FloatField(blank=True, null=True)
     latitude = models.FloatField(blank=True, null=True)
+    departure = models.CharField(max_length=255, null=True, blank=True)
+    traffics = models.CharField(max_length=255, null=True, blank=True)
 
     objects = TourManager()
 
