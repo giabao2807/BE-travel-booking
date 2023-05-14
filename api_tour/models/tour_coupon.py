@@ -1,6 +1,7 @@
 from django.db import models
 
 from api_general.models.coupon import Coupon
+from api_hotel.models import Hotel
 from api_tour.models import Tour
 from base.models import BaseSimpleModel
 
