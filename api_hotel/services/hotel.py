@@ -5,7 +5,7 @@ from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet
 
 from api_general.models import City
 from api_general.services import Utils
-from api_hotel.models import Hotel, Room
+from api_hotel.models import Hotel, Room, HotelReview
 from api_hotel.serializers import AvailableRoomSerializer
 from base.query import GroupConcat
 from common.constants.api_booking import BookingStatus
