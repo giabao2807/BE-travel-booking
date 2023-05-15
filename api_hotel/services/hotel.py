@@ -79,8 +79,8 @@ class HotelService:
                 available_room_amount -= booked_room_amount
 
             _room["available_room_amount"] = available_room_amount
-            image_links = _room.get("image_links", "")
-            _room["image_links"] = list(image_links.split(","))
+            image_links = _room.get("list_images", "")
+            _room["list_images"] = list(image_links.split(","))
 
         return rooms
 
@@ -134,6 +134,6 @@ class HotelService:
 
         rooms = Room.objects.filter(room_ft)\
             .values("id")\
-            .annotate(image_links=GroupConcat("room_images__image__link"))\
-            .values("image_links", *room_fields)
+            .annotate(list_images=GroupConcat("room_images__image__link"))\
+            .values("list_images", *room_fields)
         return rooms
