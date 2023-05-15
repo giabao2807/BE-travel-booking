@@ -11,8 +11,7 @@ class Coupon(TimeStampedModel):
     description = models.TextField(blank=True)
     start_date = models.DateTimeField()
     end_date = models.DateTimeField()
-    type = models.IntegerField(choices=CouponType.choices)
-    discount_percent = models.PositiveIntegerField(null=True)
+    discount_percent = models.PositiveIntegerField()
     for_all = models.BooleanField(default=True)
     created_by = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name="coupons")
 

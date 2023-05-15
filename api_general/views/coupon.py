@@ -13,3 +13,15 @@ class CouponViewSet(BaseViewSet):
         "create": CUCouponSerializer,
         "update": CUCouponSerializer
     }
+
+    def create(self, request, *args, **kwargs):
+        request_data = request.data
+        request_data["created_by"] = request.user.id
+
+        return super().create(request, *args, **kwargs)
+
+    def update(self, request, *args, **kwargs):
+        request_data = request.data
+        request_data["created_by"] = request.user.id
+
+        return super().update(request, *args, **kwargs)

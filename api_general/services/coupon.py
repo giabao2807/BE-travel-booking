@@ -30,7 +30,7 @@ class CouponService:
 
     @classmethod
     @transaction.atomic
-    def update(cls, coupon: Coupon, coupon_data: dict):
+    def update_related(cls, coupon: Coupon, coupon_data: dict):
         hotel_ids = coupon_data.pop("hotel_ids", [])
         tour_ids = coupon_data.pop("tour_ids", [])
         current_hotel_ids: List[str] = coupon.hotel_coupons.values_list("hotel_id", flat=True)

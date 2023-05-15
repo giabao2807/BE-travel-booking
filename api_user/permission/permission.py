@@ -11,7 +11,7 @@ class CustomerPermission(MyRolePermission):
 
 
 class PartnerPermission(MyRolePermission):
-    match_any_roles = [RoleData.PARTNER]
+    match_any_roles = [RoleData.PARTNER, RoleData.ADMIN]
 
 
 class UserPermission(MyRolePermission):

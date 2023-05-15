@@ -28,7 +28,7 @@ class Migration(migrations.Migration):
                 ('start_date', models.DateTimeField()),
                 ('end_date', models.DateTimeField()),
                 ('type', models.IntegerField(choices=[(1, 'Hotel'), (2, 'Tour')])),
-                ('discount_percent', models.PositiveIntegerField(null=True)),
+                ('discount_percent', models.PositiveIntegerField()),
                 ('created_by', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='coupons', to=settings.AUTH_USER_MODEL)),
             ],
             options={
