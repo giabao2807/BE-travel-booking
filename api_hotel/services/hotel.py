@@ -3,9 +3,9 @@ from typing import List, Dict, Optional
 
 from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F
 
-from api_general.models import City
+from api_general.models import City, Coupon
 from api_general.services import Utils
-from api_hotel.models import Hotel, Room, HotelReview
+from api_hotel.models import Hotel, Room, HotelCoupon
 from api_hotel.serializers import AvailableRoomSerializer
 from base.query import GroupConcat
 from common.constants.api_booking import BookingStatus
@@ -138,3 +138,20 @@ class HotelService:
             .annotate(list_images=GroupConcat("room_images__image__link"))\
             .values("list_images", *room_fields)
         return rooms
+
+    @classmethod
+    def get_current_coupon(cls, hotel_id: str):
+        current_date = datetime.now().date()
+        base_ft = Q(
+            is_active=True,
+            start_date__date__lte=current_date,
+            end_date__date__gte=current_date
+        )
+        for_all_coupon_ft = Q(for_all=True)
+        selected_hotels_coupon_ft = Q(for_all=False, hotel_coupons__hotel_id=hotel_id)
+        hotel_coupon_ft = base_ft & (for_all_coupon_ft | selected_hotels_coupon_ft)
+        coupon = Coupon.objects.filter(hotel_coupon_ft).order_by("-discount_percent").first()
+        x = Coupon.objects.filter(hotel_coupon_ft).order_by("-discount_percent")
+        print(Utils.get_raw_query(x))
+
+        return coupon

@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
+from api_general.serializers import CouponSerializer
 from api_hotel.models import Hotel
 
 
@@ -21,6 +22,7 @@ class HotelCardSerializer(ModelSerializer):
     price_range = serializers.SerializerMethodField()
     num_review = serializers.IntegerField()
     rate_average = serializers.FloatField(read_only=True)
+    coupon_data = serializers.SerializerMethodField()
 
     def get_price_range(self, instance):
         price_range = ""
@@ -32,7 +34,17 @@ class HotelCardSerializer(ModelSerializer):
 
         return price_range
 
+    def get_coupon_data(self, instance):
+        from api_hotel.services import HotelService
+
+        coupon = HotelService.get_current_coupon(instance.get("id"))
+        coupon_data = dict()
+        if coupon:
+            coupon_data = CouponSerializer(coupon).data
+
+        return coupon_data
+
     class Meta:
         model = Hotel
         fields = ("id", "name", "address", "num_review",
-                  "price_range", "cover_picture", "rate_average")
+                  "price_range", "cover_picture", "rate_average", "coupon_data")
