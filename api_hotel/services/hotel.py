@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import List, Dict, Optional
 
-from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet
+from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F
 
 from api_general.models import City
 from api_general.services import Utils
@@ -34,8 +34,9 @@ class HotelService:
                           .values_list("city_id", flat=True)[:amount])
         city_values = list(City.objects.filter(id__in=top_cities) \
                            .annotate(total_hotel=Count('hotel__id')) \
+                           .annotate(image=F('city_images__image__link')) \
                            .order_by("-total_hotel") \
-                           .values("id", "name"))
+                           .values("id", "name", "image"))
 
         return city_values
 
