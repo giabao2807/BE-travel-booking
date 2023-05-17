@@ -3,8 +3,9 @@ from typing import List, Dict, Optional
 
 from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F
 
+from api_general.consts import DatetimeFormatter
 from api_general.models import City, Coupon
-from api_general.services import Utils
+from api_general.services import Utils, CityService
 from api_hotel.models import Hotel, Room, HotelCoupon
 from api_hotel.serializers import AvailableRoomSerializer
 from base.query import GroupConcat
@@ -136,7 +137,8 @@ class HotelService:
         rooms = Room.objects.filter(room_ft)\
             .values("id")\
             .annotate(list_images=GroupConcat("room_images__image__link"))\
-            .values("list_images", *room_fields)
+            .annotate(available_room_amount=F('quantity')) \
+            .values("list_images", "available_room_amount", *room_fields)
         return rooms
 
     @classmethod
@@ -153,3 +155,60 @@ class HotelService:
         coupon = Coupon.objects.filter(hotel_coupon_ft).order_by("-discount_percent").first()
 
         return coupon
+
+    @classmethod
+    def get_filter_query(cls, request):
+        city_id = request.query_params.get("city_id", None)
+        start_date = request.query_params.get("start_date")
+        end_date = request.query_params.get("end_date")
+        start_date = Utils.safe_str_to_date(start_date, DatetimeFormatter.YYMMDD)
+        end_date = Utils.safe_str_to_date(end_date, DatetimeFormatter.YYMMDD)
+
+        top_hotel_ids = Hotel.objects.all() \
+                             .values("id") \
+                             .annotate(avg_rate=Avg("hotel_reviews__rate")) \
+                             .order_by("-avg_rate") \
+                             .values_list("id", flat=True)
+        if city_id:
+            city = City.objects.filter(id=city_id).first()
+            top_hotel_ids = CityService.get_top_hotel_id_queryset(city)
+
+        list_rs_hotel_id = []
+
+        for hotel_id in top_hotel_ids:
+            hotel = Hotel.objects.filter(id=hotel_id).first()
+            is_available_room = True
+            if start_date and end_date:
+                is_available_room = HotelService.check_available_rooms(hotel, start_date, end_date)
+            if is_available_room:
+                list_rs_hotel_id.append(hotel_id)
+        return list_rs_hotel_id
+
+    @classmethod
+    def check_available_rooms(cls, hotel: Hotel, start_date: datetime, end_date: datetime) -> bool:
+        """
+        Check available room types
+
+        @param hotel: (Hotel) hotel instance
+        @param start_date: (datetime) start date want to filter in range
+        @param end_date: (datetime) end date want to filter in range
+        @return: boolean
+        Example:
+
+        """
+        booked_room_amount_mapping = cls.get_booked_rooms_in_range(start_date, end_date, hotel.id)
+        rooms: List[dict] = list(cls.get_room_amounts(hotel.id))
+
+        for _room in rooms:
+            _room_id = _room.get("id")
+            _total_room_amount = _room.get("quantity", 0)
+
+            available_room_amount = Utils.safe_int(_total_room_amount)
+            booked_room_amount = Utils.safe_int(booked_room_amount_mapping.get(_room_id, 0))
+            if booked_room_amount:
+                available_room_amount -= booked_room_amount
+
+            if available_room_amount > 0:
+                return True
+
+        return False

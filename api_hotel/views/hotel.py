@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from api_general.consts import DatetimeFormatter
 from api_general.services import Utils
 from api_hotel.models import Hotel
-from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer, HotelReviewSerializer
+from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer, HotelReviewSerializer, HotelCardSerializer
 from api_hotel.services import HotelService
 from api_user.permission import UserPermission
 from base.views import BaseViewSet
@@ -23,9 +23,17 @@ class HotelViewSet(BaseViewSet):
         "get_reviews": []
     }
     serializer_map = {
+        "list": HotelCardSerializer,
         "get_available_rooms": AvailableRoomSerializer,
         "get_reviews": HotelReviewSerializer
     }
+
+    def list(self, request, *args, **kwargs):
+        hotel_id_queryset = HotelService.get_filter_query(request)
+        paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
+        hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids)
+        data = self.get_serializer(hotel_cards, many=True).data
+        return Response(self.get_paginated_response(data).data)
 
     @action(detail=True, methods=[HttpMethod.GET], url_path="get_available_rooms")
     def get_available_rooms(self, request, *args, **kwargs):
