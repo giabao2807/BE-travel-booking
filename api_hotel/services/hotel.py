@@ -151,7 +151,5 @@ class HotelService:
         selected_hotels_coupon_ft = Q(for_all=False, hotel_coupons__hotel_id=hotel_id)
         hotel_coupon_ft = base_ft & (for_all_coupon_ft | selected_hotels_coupon_ft)
         coupon = Coupon.objects.filter(hotel_coupon_ft).order_by("-discount_percent").first()
-        x = Coupon.objects.filter(hotel_coupon_ft).order_by("-discount_percent")
-        print(Utils.get_raw_query(x))
 
         return coupon
