@@ -55,10 +55,8 @@ def initial_tour_data(apps, schema_editor):
 
 def delete_all_data(apps, schema_editor):
     tour_model = apps.get_model("api_tour", "Tour")
-    image_model = apps.get_model("api_general", "Image")
     tour_image_model = apps.get_model("api_tour", "TourImage")
     tour_model.objects.all().delete()
-    image_model.objects.all().delete()
     tour_image_model.objects.all().delete()
 
 

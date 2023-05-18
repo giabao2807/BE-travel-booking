@@ -18,6 +18,29 @@ class CityViewSet(BaseViewSet):
         "top_hotels": HotelCardSerializer
     }
 
+    def list(self, request, *args, **kwargs):
+        """
+        URL: api/v1/general/city
+        Method: {GET}
+        Authentication: NoRequired
+        @param request:
+        @param args:
+        @param kwargs:
+        @return: List of all cities
+        Example:
+        [
+            {
+                "id": 1, "createdAt": "2023-05-06T21:52:58.429543+07:00",
+                "name": "An Giang", "zipcode": "880000",
+                "country": "Việt Nam",
+                "longitude": null,
+                "latitude": null
+            },
+        ]
+        """
+        data = self.get_serializer(self.queryset, many=True).data
+        return Response(data)
+
     @action(detail=False, methods=[HttpMethod.GET], url_path="top-recommend-cities")
     def top_recommend_cities(self, request, *args, **kwargs):
         """

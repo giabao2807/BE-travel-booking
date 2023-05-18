@@ -1,7 +1,6 @@
 from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
-from api_general.serializers import CouponSerializer
 from api_hotel.models import Hotel
 
 
@@ -36,6 +35,7 @@ class HotelCardSerializer(ModelSerializer):
 
     def get_coupon_data(self, instance):
         from api_hotel.services import HotelService
+        from api_general.serializers import CouponSerializer
 
         coupon = HotelService.get_current_coupon(instance.get("id"))
         coupon_data = dict()

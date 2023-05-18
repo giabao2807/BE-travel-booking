@@ -33,8 +33,12 @@ def get_detail_item(item, detail_link):
     item['description'] = str(page.find(
         'div', {'class': 'single-box-excerpt'}))
     group = page.find_all('div', {'class': "panel panel-tour-product"})
-    item['schedule_content'] =str(group[0].find(
-        'div', {"class": "panel-collapse collapse in"}).find_all('div')[0])
+    content = group[0].find(
+        'div', {"class": "panel-collapse collapse in"}).find_all('div')[0]
+    not_use_content = content.find('div', {"class": "box-sc-form-type-base"})
+    if not_use_content:
+        not_use_content.decompose()
+    item['schedule_content'] = str(content)
     item['note'] = str(group[2].find(
         'div', {"class": "panel-collapse collapse in"}).find_all('div')[0])
     item['num_review'] = str(random.randint(1, 1000))
@@ -55,7 +59,7 @@ def get_detail_tour_for_page(real_items):
         item_data['link_detail'] = content.find(
             'h3', {'class': 'title-h3'}).find('a').get_attribute_list('href')[0]
         item_data['total_days'] = content.find('table').find_all(
-            'td')[1].get_text(strip=True)
+            'td')[1].get_text(strip=True).replace("Trong ngày", "1 ngày")
         price_content = content.find(
             'div', {'class': 'box-price-promotion-tour'})
         item_data['departure'] = content.find('table').find_all(
