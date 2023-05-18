@@ -24,6 +24,13 @@ class CouponSerializer(ModelSerializer):
         return attrs
 
 
+class SimpleCouponSerializer(ModelSerializer):
+
+    class Meta:
+        model = Coupon
+        fields = ("id", "name", "start_date", "end_date", "discount_percent")
+
+
 class CUCouponSerializer(ModelSerializer):
     hotel_ids = serializers.ListField(allow_null=True, required=False, read_only=True)
     tour_ids = serializers.ListField(allow_null=True, required=False, read_only=True)

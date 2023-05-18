@@ -142,7 +142,7 @@ class HotelService:
         return rooms
 
     @classmethod
-    def get_current_coupon(cls, hotel_id: str):
+    def get_current_coupon(cls, hotel_id: str) -> Coupon:
         current_date = datetime.now().date()
         base_ft = Q(
             is_active=True,
