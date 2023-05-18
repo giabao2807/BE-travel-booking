@@ -9,7 +9,7 @@ from base.models import TimeStampedModel
 class Tour(TimeStampedModel):
     cover_picture = models.CharField(max_length=255, null=True, blank=True)
     name = models.CharField(max_length=255)
-    total_days = models.CharField(max_length=30, null=True, blank=True)
+    total_days = models.CharField(max_length=30, null=True, blank=True, db_index=True)
     language_tour = models.CharField(max_length=255, null=True, blank=True)
     descriptions = models.TextField(null=True, blank=True)
     group_size = models.IntegerField(null=True, blank=True)

@@ -19,11 +19,11 @@ class TourSerializer(ModelSerializer):
         return ret
 
 
-class SortTourSerializer(ModelSerializer):
+class CardTourSerializer(ModelSerializer):
 
     class Meta:
         model = Tour
-        fields = ('id', 'name', 'descriptions', 'cover_picture',
+        fields = ('id', 'name', 'cover_picture',
                   'total_days', 'language_tour', 'price',
                   'rate', 'num_review', 'city', 'departure', 'traffics')
 
