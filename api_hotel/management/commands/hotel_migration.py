@@ -34,8 +34,8 @@ class Command(BaseCommand):
             self.initial_hotel_and_review_data()
         if options.get("migrate_hotel_images_data"):
             self.migrate_hotel_images_data()
-        if options.get("migrate_room_type_room"):
-            self.migrate_hotel_images_data()
+        if options.get("migrate_roomtype_room"):
+            self.migrate_room_type_room()
 
     default_cover_image = "https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/20016842-3078abf5cf90a3ec8b59453f05737775.jpeg?_src=imagekit&tr=c-at_max,h-488,q-40,w-768"
 
@@ -186,6 +186,40 @@ class Command(BaseCommand):
         HotelImage.objects.bulk_create(bulk_hotel_images)
         print("Done!")
         print("Failed with file names: ", failed_file_names)
+
+
+    def migrate_room_type_room(self):
+        room_model = Room
+        room_image_model = RoomImage
+        image_model = Image
+        hotel_model = Hotel
+        hotels = hotel_model.objects.all()
+
+        with open('api_hotel/statics/room_type.txt', 'r', encoding='utf-8') as f:
+            list_data = json.load(f)
+
+        len_room_type = len(list_data)
+
+        for idx, hotel in enumerate(hotels):
+            print("Migrate roomtype for hotel: ", idx, hotel.name)
+            random_room_types = list_data[str(random.randint(0, len_room_type - 1))]
+
+            for room_type in random_room_types:
+                room_instance = room_model(name=room_type['name'], beds=room_type['beds'],
+                                           adults=int(room_type['adults']), children=int(room_type['children']),
+                                           description=room_type['description'], square=room_type['square'],
+                                           price=int(room_type['price']), hotel=hotel, quantity=random.randint(5, 10))
+                list_room_type_image = []
+                room_instance.save()
+                print("Migrate " + str(len(room_type['images'])) + "image for room")
+                for image in room_type['images']:
+                    image_instance = image_model(link=image)
+                    image_instance.save()
+                    room_type_image = room_image_model(image=image_instance, room=room_instance)
+                    list_room_type_image.append(room_type_image)
+                print(len(list_room_type_image))
+                room_image_model.objects.bulk_create(list_room_type_image)
+            print("------Done\n")
 
     #
     # def migrate_room_type_room(self):

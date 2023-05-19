@@ -16,8 +16,3 @@ class GeneralViewSet(BaseViewSet):
     serializer_map = {
         'list': CardTourSerializer,
     }
-
-    def list(self, request, *args, **kwargs):
-        data = GeneralService.get_filter_query(request)
-        page_data = self.paginate_queryset(data)
-        return Response(self.get_paginated_response(page_data).data)

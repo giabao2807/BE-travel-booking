@@ -35,6 +35,7 @@ class TourViewSet(BaseViewSet):
         @param request:
         - start_date: date_str (format: "YYYY-MM-DD") start date want to filter
         - end_date: date_str (format: "YYYY-MM-DD") end date want to filter
+        - city_id: int id of city want to filter
         - If start_date and end_date are None together -> Get all active tours
         @param args:
         @param kwargs:
@@ -70,12 +71,13 @@ class TourViewSet(BaseViewSet):
         request_params = request.query_params.dict()
         start_date = request_params.get("start_date", "")
         end_date = request_params.get("end_date", "")
+        city_id = request_params.get("city_id", None)
 
         if start_date or end_date:
             start_date, end_date = TourViewService.validate_filter_by_date_params(start_date, end_date)
             tour_qs = TourService.filter_by_date(start_date, end_date)
         else:
             tour_qs = Tour.objects.filter(is_active=True).order_by("-updated_at")
-        self.queryset = tour_qs
+        self.queryset = tour_qs.filter(city__id=city_id) if city_id else tour_qs
 
         return super().list(request, *args, **kwargs)

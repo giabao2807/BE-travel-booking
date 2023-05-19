@@ -1,2 +1,3 @@
 python manage.py hotel_migration --migrate_hotel_and_reviews_data
 python manage.py hotel_migration --migrate_hotel_images_data
+python manage.py hotel_migration --migrate_room_type_room
