@@ -5,10 +5,22 @@ from api_hotel.models import Hotel
 
 
 class HotelSerializer(ModelSerializer):
+    coupon_data = serializers.SerializerMethodField()
 
     class Meta:
         model = Hotel
         exclude = ['is_active']
+
+    def get_coupon_data(self, instance):
+        from api_hotel.services import HotelService
+        from api_general.serializers import SimpleCouponSerializer
+
+        coupon = HotelService.get_current_coupon(instance.id)
+        coupon_data = dict()
+        if coupon:
+            coupon_data = SimpleCouponSerializer(coupon).data
+
+        return coupon_data
 
     def to_representation(self, instance):
         ret = super().to_representation(instance)

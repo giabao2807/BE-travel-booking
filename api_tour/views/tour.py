@@ -26,9 +26,9 @@ class TourViewSet(BaseViewSet):
     }
 
     @action(detail=False, methods=[HttpMethod.GET])
-    def filter_by_date(self, request, *args, **kwargs):
+    def filter_by_date_city(self, request, *args, **kwargs):
         """
-        URL: api/v1/city/filter_by_date/?start_date={date}&end_date={date}
+        URL: api/v1/city/filter_by_date_city/?start_date={date}&end_date={date}&city_id={id}
         Method: {GET}
         Authentication: NoRequired
 

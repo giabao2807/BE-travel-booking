@@ -193,6 +193,10 @@ class Command(BaseCommand):
         room_image_model = RoomImage
         image_model = Image
         hotel_model = Hotel
+
+        # delete room and room image existed
+        room_model.objects.all().delete()
+        room_image_model.objects.all().delete()
         hotels = hotel_model.objects.all()
 
         with open('api_hotel/statics/room_type.txt', 'r', encoding='utf-8') as f:
@@ -211,13 +215,11 @@ class Command(BaseCommand):
                                            price=int(room_type['price']), hotel=hotel, quantity=random.randint(5, 10))
                 list_room_type_image = []
                 room_instance.save()
-                print("Migrate " + str(len(room_type['images'])) + "image for room")
                 for image in room_type['images']:
                     image_instance = image_model(link=image)
                     image_instance.save()
                     room_type_image = room_image_model(image=image_instance, room=room_instance)
                     list_room_type_image.append(room_type_image)
-                print(len(list_room_type_image))
                 room_image_model.objects.bulk_create(list_room_type_image)
             print("------Done\n")
 

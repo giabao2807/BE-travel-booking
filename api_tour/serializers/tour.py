@@ -8,10 +8,20 @@ from api_tour.services import TourService
 
 
 class TourSerializer(ModelSerializer):
+    coupon_data = serializers.SerializerMethodField()
 
     class Meta:
         model = Tour
         fields = "__all__"
+
+    def get_coupon_data(self, instance):
+        _id = instance.id if isinstance(instance, Tour) else instance.get("id")
+        coupon = TourService.get_current_coupon(_id)
+        coupon_data = dict()
+        if coupon:
+            coupon_data = SimpleCouponSerializer(coupon).data
+
+        return coupon_data
 
     def to_representation(self, instance):
         ret = super().to_representation(instance)
