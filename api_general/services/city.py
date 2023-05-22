@@ -2,6 +2,7 @@ from django.db.models import QuerySet, Avg
 
 from api_general.models import City
 from api_hotel.models import Hotel
+from api_tour.models import Tour
 
 
 class CityService:
@@ -14,3 +15,9 @@ class CityService:
                              .values_list("id", flat=True)
 
         return hotel_queryset
+
+    @classmethod
+    def get_top_tour_queryset(cls, city: City) -> QuerySet:
+        tour_queryset = Tour.objects.filter(city=city) \
+                             .order_by("-rate")
+        return tour_queryset
