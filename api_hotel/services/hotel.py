@@ -87,17 +87,21 @@ class HotelService:
         return rooms
 
     @classmethod
-    def get_booked_rooms_in_range(cls, start_date: datetime, end_date: datetime, hotel_id: Optional[int] = None) -> Dict[int, int]:
+    def get_booked_rooms_in_range(cls, start_date: datetime, end_date: datetime, hotel_id: Optional[int] = None, **kwargs) -> Dict[int, int]:
         """
         Get the booked room amount in range
 
         @param start_date: datetime
         @param end_date: datetime
         @param hotel_id: hotel id of room types you want to filter with
+        @param kwargs: additional params for filter
+        Accept:
+        - room_id: uuid
         @return: A dict
         Example:
 
         """
+        room_id = kwargs.get("room_id", "")
         date_range = [start_date, end_date]
         valid_booking_status = [BookingStatus.PAID, BookingStatus.UNPAID]
         date_range_ft = Q(booking_item__booking__start_date__range=date_range) \
@@ -109,6 +113,8 @@ class HotelService:
             Q(is_active=True)
         if hotel_id:
             booking_ft &= Q(hotel_id=hotel_id)
+        if room_id:
+            booking_ft &= Q(id=room_id)
 
         booked_room_amount_mapping = dict(
             Room.objects.filter(booking_ft)

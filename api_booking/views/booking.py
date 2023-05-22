@@ -4,7 +4,6 @@ from rest_framework.response import Response
 
 from api_booking.models import Booking
 from api_booking.serializers import BookingSerializer, CUBookingSerializer
-from api_hotel.serializers import AvailableRoomSerializer
 from api_user.permission import UserPermission
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
@@ -32,11 +31,11 @@ class BookingViewSet(BaseViewSet):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
     def create(self, request, *args, **kwargs):
-        request_body = request.data.dict()
+        request_body = request.data
 
         serializer = self.get_serializer(data=request_body)
         if serializer.is_valid(raise_exception=True):
             serializer.save()
 
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
+            return Response({"message": "Created success"}, status=status.HTTP_201_CREATED)
         return Response(status=status.HTTP_400_BAD_REQUEST)
