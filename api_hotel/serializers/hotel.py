@@ -30,20 +30,11 @@ class HotelSerializer(ModelSerializer):
 
 
 class HotelCardSerializer(ModelSerializer):
-    price_range = serializers.SerializerMethodField()
     num_review = serializers.IntegerField()
     rate_average = serializers.FloatField(read_only=True)
     coupon_data = serializers.SerializerMethodField()
-
-    def get_price_range(self, instance):
-        price_range = ""
-        min_price = instance.get("min_price")
-        max_price = instance.get("max_price")
-
-        if min_price and max_price:
-            price_range = "{:,}".format(min_price) + " - " + "{:,}".format(max_price) + " VNĐ"
-
-        return price_range
+    min_price = serializers.IntegerField()
+    max_price = serializers.IntegerField()
 
     def get_coupon_data(self, instance):
         from api_hotel.services import HotelService
@@ -59,4 +50,5 @@ class HotelCardSerializer(ModelSerializer):
     class Meta:
         model = Hotel
         fields = ("id", "name", "address", "num_review",
-                  "price_range", "cover_picture", "rate_average", "coupon_data")
+                  "min_price", "max_price",
+                  "cover_picture", "rate_average", "coupon_data")
