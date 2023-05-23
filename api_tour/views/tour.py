@@ -17,12 +17,12 @@ class TourViewSet(BaseViewSet):
     permission_map = {
         "list": [],
         "retrieve": [],
-        "filter_by_date": []
+        "filter_by_date_city": []
     }
 
     serializer_map = {
         'list': CardTourSerializer,
-        'filter_by_date': CardTourSerializer,
+        'filter_by_date_city': CardTourSerializer,
     }
 
     @action(detail=False, methods=[HttpMethod.GET])
