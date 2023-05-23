@@ -37,8 +37,17 @@ class CUBookingSerializer(ModelSerializer):
         if not booking_items:
             raise ValidationError("booking_items field must has value")
 
-        start_date = self.data.get("start_date", "")
-        end_date = self.data.get("end_date", "")
+        return booking_items
+
+    def create(self, validated_data):
+        booking: Booking = BookingService.create(validated_data)
+
+        return booking
+
+    def validate(self, attrs):
+        booking_items = attrs.get("booking_items", [])
+        start_date = attrs.get("start_date", "")
+        end_date = attrs.get("end_date", "")
 
         for _booking_item in booking_items:
             room_id = _booking_item.get("room_id", "")
@@ -50,9 +59,4 @@ class CUBookingSerializer(ModelSerializer):
             if tour_id:
                 BookingService.validate_tour_booking(tour_id, quantity, raise_exception=True)
 
-        return booking_items
-
-    def create(self, validated_data):
-        booking: Booking = BookingService.create(validated_data)
-
-        return booking
+        return attrs

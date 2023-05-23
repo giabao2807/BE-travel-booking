@@ -16,6 +16,8 @@ class Booking(TimeStampedModel):
     end_date = models.DateTimeField(default=timezone.now, null=True, blank=True)
     note = models.TextField(null=True, blank=True)
     bank_code = models.CharField(max_length=20, null=True, blank=True, choices=BankCodes.choices)
+    history_origin_price = models.FloatField(null=True)
+    history_discount_price = models.FloatField(null=True)
 
     objects = Manager
 

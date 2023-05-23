@@ -7,6 +7,8 @@ from api_booking.models import Booking, BookingItem
 from api_hotel.models import Room
 from api_hotel.services import HotelService
 from api_tour.models import Tour
+from base.exceptions import BoniException
+from base.exceptions.base import ErrorType
 
 
 class BookingService:
@@ -51,11 +53,11 @@ class BookingService:
             if quantity > current_tour.group_size:
                 is_valid = False
                 if raise_exception:
-                    raise ValidationError("The quantity for this tour is not available for now")
+                    raise BoniException(ErrorType.GENERAL, ["Số lượng chuyến không còn đủ"])
         else:
             is_valid = False
             if raise_exception:
-                raise ValidationError("This tour is not available!")
+                raise BoniException(ErrorType.DEACTIVATED_VN, ["Chuyến"])
 
         return is_valid
 
@@ -72,6 +74,7 @@ class BookingService:
         """
         is_valid: bool = True
         raise_exception: bool = kwargs.get("raise_exception", False)
+
         booked_room_amount: Dict[str, int] = HotelService.get_booked_rooms_in_range(start_date, end_date, room_id=room_id)
         booked_amount = booked_room_amount.get(room_id, 0)
         current_room = Room.objects.filter(id=room_id, is_active=True).first()
@@ -79,10 +82,10 @@ class BookingService:
             if quantity > current_room.quantity - booked_amount:
                 is_valid = False
                 if raise_exception:
-                    raise ValidationError("The quantity for this room is not available for now")
+                    raise BoniException(ErrorType.GENERAL, ["Số lượng phòng trống không còn đủ"])
         else:
             is_valid = False
             if raise_exception:
-                raise ValidationError("This room is not available!")
+                raise BoniException(ErrorType.DEACTIVATED_VN, ["Phòng khách sạn"])
 
         return is_valid

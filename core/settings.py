@@ -106,6 +106,7 @@ REST_FRAMEWORK = {
         'djangorestframework_camel_case.render.CamelCaseBrowsableAPIRenderer',
         # Any other renders
     ),
+    'EXCEPTION_HANDLER': 'base.exceptions.handler.custom_exception_handler',
 
     'DEFAULT_PARSER_CLASSES': (
         # If you use MultiPartFormParser or FormParser, we also have a camel case version
