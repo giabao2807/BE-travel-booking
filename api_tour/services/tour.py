@@ -1,10 +1,12 @@
 from datetime import datetime
 
-from django.db.models import Q, QuerySet
+from django.db.models import Q, QuerySet, Sum
 
+from api_booking.consts import BookingType
 from api_general.models import Coupon
 from api_general.services import Utils
 from api_tour.models import Tour
+from common.constants.api_booking import BookingStatus
 
 
 class TourService:
@@ -33,3 +35,21 @@ class TourService:
         coupon = Coupon.objects.filter(tour_coupon_ft).order_by("-discount_percent").first()
 
         return coupon
+
+    @classmethod
+    def get_booked_tour_amounts(cls, start_date: datetime, tour_id: str = ""):
+        valid_booking_status = [BookingStatus.PAID, BookingStatus.UNPAID]
+        tour_ft = Q(booking_item__booking__start_date__date=start_date.date()) & \
+                     Q(booking_item__booking__type=BookingType.TOUR) & \
+                     Q(booking_item__booking__status__in=valid_booking_status) & \
+                     Q(is_active=True)
+
+        if tour_id:
+            tour_ft &= Q(id=tour_id)
+        booked_tour_mapping = dict(
+            Tour.objects.filter(tour_ft).values("id")
+                .annotate(booked_tour_amount=Sum("booking_item__quantity"))
+                .values_list("id", "booked_tour_amount")
+        )
+
+        return booked_tour_mapping

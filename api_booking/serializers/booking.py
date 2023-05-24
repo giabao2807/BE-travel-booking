@@ -18,7 +18,8 @@ class BookingSerializer(ModelSerializer):
 class CUBookingSerializer(ModelSerializer):
     booking_items = CUBookingItemSerializer(required=True, many=True)
     start_date = serializers.DateTimeField(required=True)
-    end_date = serializers.DateTimeField(required=True)
+    end_date = serializers.DateTimeField(required=False)
+    type = serializers.IntegerField(required=True)
 
     class Meta:
         model = Booking
@@ -57,6 +58,6 @@ class CUBookingSerializer(ModelSerializer):
             if room_id:
                 BookingService.validate_room_booking(room_id, quantity, start_date, end_date, raise_exception=True)
             if tour_id:
-                BookingService.validate_tour_booking(tour_id, quantity, raise_exception=True)
+                BookingService.validate_tour_booking(tour_id, quantity, start_date=start_date, raise_exception=True)
 
         return attrs

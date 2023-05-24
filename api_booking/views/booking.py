@@ -32,6 +32,7 @@ class BookingViewSet(BaseViewSet):
 
     def create(self, request, *args, **kwargs):
         request_body = request.data
+        request_body["customer_id"] = request.user.id
 
         serializer = self.get_serializer(data=request_body)
         if serializer.is_valid(raise_exception=True):

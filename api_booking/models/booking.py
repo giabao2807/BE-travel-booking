@@ -3,6 +3,7 @@ from django.utils import timezone
 
 from django.db import models
 
+from api_booking.consts import BookingType
 from api_general.consts import BankCodes
 from api_user.models import Profile
 from base.models import TimeStampedModel
@@ -18,6 +19,7 @@ class Booking(TimeStampedModel):
     bank_code = models.CharField(max_length=20, null=True, blank=True, choices=BankCodes.choices)
     history_origin_price = models.FloatField(null=True)
     history_discount_price = models.FloatField(null=True)
+    type = models.IntegerField(choices=BookingType.choices, default=BookingType.HOTEL)
 
     objects = Manager
 

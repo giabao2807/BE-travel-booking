@@ -3,6 +3,7 @@ from typing import List, Dict, Optional
 
 from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F
 
+from api_booking.consts import BookingType
 from api_general.consts import DatetimeFormatter
 from api_general.models import City, Coupon
 from api_general.services import Utils, CityService
@@ -110,6 +111,7 @@ class HotelService:
         booking_ft = date_range_ft & \
             Q(booking_item__room__isnull=False) & \
             Q(booking_item__booking__status__in=valid_booking_status) & \
+            Q(booking_item__booking__type=BookingType.HOTEL) & \
             Q(is_active=True)
         if hotel_id:
             booking_ft &= Q(hotel_id=hotel_id)
