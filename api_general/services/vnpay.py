@@ -12,7 +12,7 @@ load_dotenv()
 class VNPayPayload:
 
     def __init__(self, amount, client_ip, bank_code, order_id, order_info):
-        self.amount = amount * 100
+        self.amount = amount
         self.create_date = datetime.now().strftime('%Y%m%d%H%M%S')
         self.return_url = os.getenv("VNPAY_RETURN_URL")
         self.client_ip = client_ip

@@ -136,7 +136,7 @@ class BookingService:
                 current_coupon = TourService.get_current_coupon(booking_item.tour_id)
 
             if current_price:
-                item_price = current_price
+                item_price = current_price * booking_item.quantity
             if current_coupon:
                 item_price = (100 - current_coupon.discount_percent) * item_price
 
