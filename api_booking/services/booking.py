@@ -5,6 +5,7 @@ from rest_framework.exceptions import ValidationError
 
 from api_booking.models import Booking, BookingItem
 from api_general.services import Utils
+from api_general.services.vnpay import VNPayTransaction
 from api_hotel.models import Room
 from api_hotel.services import HotelService
 from api_tour.models import Tour
@@ -109,3 +110,36 @@ class BookingService:
                 raise BoniException(ErrorType.DEACTIVATED_VN, ["Phòng khách sạn"])
 
         return is_valid
+
+    @classmethod
+    def create_payment_link(cls, booking: Booking, bank_code: str, client_ip: str) -> str:
+        total_price = cls.get_total_price_from_booking(booking)
+        order_info = "Thanh toán hóa đơn trên BoniTravel"
+        transaction = VNPayTransaction(total_price, client_ip, bank_code, booking.id, order_info)
+        transaction.build_payment_url()
+
+        return transaction.url
+
+    @classmethod
+    def get_total_price_from_booking(cls, booking: Booking) -> int:
+        booking_items: List[BookingItem] = list(booking.booking_item.all())
+        total_price = 0
+
+        for booking_item in booking_items:
+            item_price = 0
+            if booking_item.room:
+                current_price = booking_item.room.price
+                hotel_id = booking_item.room.hotel_id
+                current_coupon = HotelService.get_current_coupon(hotel_id)
+            else:
+                current_price = booking_item.tour.price
+                current_coupon = TourService.get_current_coupon(booking_item.tour_id)
+
+            if current_price:
+                item_price = current_price
+            if current_coupon:
+                item_price = (100 - current_coupon.discount_percent) * item_price
+
+            total_price += item_price
+
+        return round(total_price, -3)
