@@ -17,6 +17,7 @@ class BookingViewSet(BaseViewSet):
     permission_classes = [UserPermission]
 
     permission_map = {
+        "payment_callback": []
     }
     serializer_map = {
         "validate": CUBookingSerializer,

@@ -115,7 +115,7 @@ class BookingService:
     def create_payment_link(cls, booking: Booking, bank_code: str, client_ip: str) -> str:
         total_price = cls.get_total_price_from_booking(booking)
         order_info = "Thanh toán hóa đơn trên BoniTravel"
-        transaction = VNPayTransaction(total_price, client_ip, bank_code, booking.id, order_info)
+        transaction = VNPayTransaction(total_price, client_ip, bank_code, str(booking.id.hex), order_info)
         transaction.build_payment_url()
 
         return transaction.url
