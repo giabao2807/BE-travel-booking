@@ -61,31 +61,31 @@ class VNPayTransaction:
 
         self.url = self.base_url + "?" + query_string + '&vnp_SecureHash=' + hash_value
 
-    def validate_response(self, secret_key):
-        vnp_SecureHash = self.responseData['vnp_SecureHash']
-        # Remove hash params
-        if 'vnp_SecureHash' in self.responseData.keys():
-            self.responseData.pop('vnp_SecureHash')
-
-        if 'vnp_SecureHashType' in self.responseData.keys():
-            self.responseData.pop('vnp_SecureHashType')
-
-        inputData = sorted(self.responseData.items())
-        hasData = ''
-        seq = 0
-        for key, val in inputData:
-            if str(key).startswith('vnp_'):
-                if seq == 1:
-                    hasData = hasData + "&" + str(key) + '=' + urllib.parse.quote_plus(str(val))
-                else:
-                    seq = 1
-                    hasData = str(key) + '=' + urllib.parse.quote_plus(str(val))
-        hashValue = self.hmacsha512(secret_key, hasData)
-
-        print(
-            'Validate debug, HashData:' + hasData + "\n HashValue:" + hashValue + "\nInputHash:" + vnp_SecureHash)
-
-        return vnp_SecureHash == hashValue
+    # def validate_response(self, secret_key):
+    #     vnp_SecureHash = self.responseData['vnp_SecureHash']
+    #     # Remove hash params
+    #     if 'vnp_SecureHash' in self.responseData.keys():
+    #         self.responseData.pop('vnp_SecureHash')
+    #
+    #     if 'vnp_SecureHashType' in self.responseData.keys():
+    #         self.responseData.pop('vnp_SecureHashType')
+    #
+    #     inputData = sorted(self.responseData.items())
+    #     hasData = ''
+    #     seq = 0
+    #     for key, val in inputData:
+    #         if str(key).startswith('vnp_'):
+    #             if seq == 1:
+    #                 hasData = hasData + "&" + str(key) + '=' + urllib.parse.quote_plus(str(val))
+    #             else:
+    #                 seq = 1
+    #                 hasData = str(key) + '=' + urllib.parse.quote_plus(str(val))
+    #     hashValue = self.hmacsha512(secret_key, hasData)
+    #
+    #     print(
+    #         'Validate debug, HashData:' + hasData + "\n HashValue:" + hashValue + "\nInputHash:" + vnp_SecureHash)
+    #
+    #     return vnp_SecureHash == hashValue
 
     @staticmethod
     def hmacsha512(key, data):
@@ -100,7 +100,7 @@ class VNPayTransaction:
         secret_key = os.getenv("VNPAY_SECRET_KEY")
         query_string = "&".join(
             [
-                f"{_key}={_value}"
+                f"{_key}={urllib.parse.quote_plus(_value)}"
                 for _key, _value in query_params
             ]
         )

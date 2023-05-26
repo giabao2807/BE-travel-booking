@@ -136,7 +136,7 @@ class CityViewSet(BaseViewSet):
         city = self.get_object()
 
         tour_queryset = CityService.get_top_tour_queryset(city)
-        paginated_hotels= self.paginate_queryset(tour_queryset)
+        paginated_hotels = self.paginate_queryset(tour_queryset)
         data = CardTourSerializer(paginated_hotels, many=True).data
 
         return Response(self.get_paginated_response(data).data)

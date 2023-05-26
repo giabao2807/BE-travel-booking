@@ -1,11 +1,15 @@
+from django.db.models import F
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 from rest_framework.serializers import ModelSerializer
 
+from api_booking.consts import BookingType
 from api_booking.models import Booking
 from api_booking.serializers import CUBookingItemSerializer
 from api_booking.services.booking import BookingService
+from api_hotel.serializers import HotelCardSerializer, BookingHotelCardSerializer
 from api_hotel.services import HotelService
+from api_tour.serializers import CardTourSerializer
 
 
 class BookingSerializer(ModelSerializer):
@@ -13,6 +17,44 @@ class BookingSerializer(ModelSerializer):
     class Meta:
         model = Booking
         fields = "__all__"
+
+
+class ListBookingSerializer(ModelSerializer):
+
+    class Meta:
+        model = Booking
+        fields = ("id", "start_date", "end_date", "note", "history_origin_price", "history_discount_price", "status")
+
+    def to_representation(self, instance: Booking):
+        data = super(ListBookingSerializer, self).to_representation(instance)
+
+        history_origin_price = data.get("history_origin_price", 0)
+        history_discount_price = data.get("history_discount_price", 0)
+        booking_type = instance.type
+
+        if not history_origin_price:
+            history_origin_price, history_discount_price = BookingService.get_original_price_and_coupon_from_booking(instance)
+
+        if history_origin_price:
+            data["total_price"] = BookingService.get_total_price(history_origin_price, history_discount_price)
+
+        if booking_type == BookingType.HOTEL:
+            hotel_id = instance.booking_item.all().first().room.hotel_id
+            hotel = HotelService.get_hotel_cards([hotel_id])
+            if hotel:
+                hotel = hotel.first()
+                data["hotel"] = BookingHotelCardSerializer(hotel).data
+            booking_items = list(instance.booking_item.all().values("quantity", "room_id", "room__name").annotate(room_name=F("room__name")))
+        else:
+            booking_item = instance.booking_item.all().first()
+            if booking_item:
+                tour = booking_item.tour
+                data["tour"] = CardTourSerializer(tour).data
+            booking_items = list(instance.booking_item.all().values("quantity"))
+
+        data["booking_items"] = booking_items
+
+        return data
 
 
 class CUBookingSerializer(ModelSerializer):

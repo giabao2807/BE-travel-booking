@@ -3,7 +3,7 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from api_booking.models import Booking
-from api_booking.serializers import BookingSerializer, CUBookingSerializer
+from api_booking.serializers import BookingSerializer, CUBookingSerializer, ListBookingSerializer
 from api_booking.services.booking import BookingService
 from api_general.services import Utils
 from api_general.services.vnpay import VNPayTransaction
@@ -21,9 +21,15 @@ class BookingViewSet(BaseViewSet):
         "payment_callback": []
     }
     serializer_map = {
+        "list": ListBookingSerializer,
         "validate": CUBookingSerializer,
         "create": CUBookingSerializer,
     }
+
+    def list(self, request, *args, **kwargs):
+        self.queryset = Booking.objects.filter(customer=request.user)
+
+        return super().list(request, *args, **kwargs)
 
     @action(detail=False, methods=[HttpMethod.POST])
     def validate(self, request, *args, **kwargs):
@@ -37,7 +43,7 @@ class BookingViewSet(BaseViewSet):
     def create(self, request, *args, **kwargs):
         request_body = request.data
         bank_code = request_body.get("bank_code")
-        request_body["customer_id"] = request.user.id
+        request_body["customer"] = request.user.id
         client_ip = Utils.get_client_ip(request)
 
         serializer = self.get_serializer(data=request_body)

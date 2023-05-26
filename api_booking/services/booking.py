@@ -151,9 +151,15 @@ class BookingService:
 
     @classmethod
     def set_paid_booking(cls, booking_id: str):
-        booking = Booking.objects.filter(id=booking_id)
+        booking = Booking.objects.filter(id=booking_id).first()
         original_price, coupon_percent = cls.get_original_price_and_coupon_from_booking(booking)
         booking.history_origin_price = original_price
         booking.history_discount_price = coupon_percent
         booking.status = BookingStatus.PAID
         booking.save()
+
+    @classmethod
+    def get_total_price(cls, original_price, discount_percent) -> int:
+        total_price = original_price * (100 - discount_percent)
+
+        return round(total_price, -3)

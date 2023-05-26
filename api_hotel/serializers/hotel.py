@@ -52,3 +52,15 @@ class HotelCardSerializer(ModelSerializer):
         fields = ("id", "name", "address", "num_review",
                   "min_price", "max_price",
                   "cover_picture", "rate_average", "coupon_data")
+
+
+class BookingHotelCardSerializer(ModelSerializer):
+    num_review = serializers.IntegerField()
+    rate_average = serializers.FloatField(read_only=True)
+    min_price = serializers.IntegerField()
+    max_price = serializers.IntegerField()
+
+    class Meta:
+        model = Hotel
+        fields = ("id", "name", "address", "num_review",
+                  "min_price", "max_price", "cover_picture", "rate_average")
