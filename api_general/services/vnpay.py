@@ -92,3 +92,16 @@ class VNPayTransaction:
         byteKey = key.encode('utf-8')
         byteData = data.encode('utf-8')
         return hmac.new(byteKey, byteData, hashlib.sha512).hexdigest()
+
+    @classmethod
+    def validate_response(cls, query_params: dict) -> bool:
+        secret_hash = query_params.pop("vnp_SecureHash")
+        query_params = sorted(query_params.items())
+        secret_key = os.getenv("VNPAY_SECRET_KEY")
+        query_string = "&".join(
+            [
+                f"{_key}={_value}"
+                for _key, _value in query_params
+            ]
+        )
+        return cls.hmacsha512(secret_key, query_string) == secret_hash

@@ -6,6 +6,7 @@ from api_booking.models import Booking
 from api_booking.serializers import BookingSerializer, CUBookingSerializer
 from api_booking.services.booking import BookingService
 from api_general.services import Utils
+from api_general.services.vnpay import VNPayTransaction
 from api_user.permission import UserPermission
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
@@ -50,7 +51,11 @@ class BookingViewSet(BaseViewSet):
 
     @action(detail=False, methods=[HttpMethod.POST, HttpMethod.PUT, HttpMethod.GET])
     def payment_callback(self, request, *args, **kwargs):
-        print(request.data)
-        print(request.query_params)
+        query_params = request.query_params.dict()
+        booking_id = query_params.get("vnp_TxnRef")
 
-        return Response(status=status.HTTP_204_NO_CONTENT)
+        if VNPayTransaction.validate_response(query_params):
+            BookingService.set_paid_booking(booking_id)
+            return Response(dict(message="Changed the booking status to PAID"), status=status.HTTP_200_OK)
+        else:
+            return Response(dict(message="Invalid transaction"), status=status.HTTP_400_BAD_REQUEST)

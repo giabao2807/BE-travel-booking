@@ -12,6 +12,7 @@ from api_tour.models import Tour
 from api_tour.services import TourService
 from base.exceptions import BoniException
 from base.exceptions.base import ErrorType
+from common.constants.api_booking import BookingStatus
 
 
 class BookingService:
@@ -113,17 +114,21 @@ class BookingService:
 
     @classmethod
     def create_payment_link(cls, booking: Booking, bank_code: str, client_ip: str) -> str:
-        total_price = cls.get_total_price_from_booking(booking)
+        original_price, coupon_percent = cls.get_original_price_and_coupon_from_booking(booking)
+        total_price = original_price * (100 - coupon_percent)
+        total_price = round(total_price, -3)
         order_info = "Thanh toán hóa đơn trên BoniTravel"
+
         transaction = VNPayTransaction(total_price, client_ip, bank_code, str(booking.id.hex), order_info)
         transaction.build_payment_url()
 
         return transaction.url
 
     @classmethod
-    def get_total_price_from_booking(cls, booking: Booking) -> int:
+    def get_original_price_and_coupon_from_booking(cls, booking: Booking) -> (int, int):
         booking_items: List[BookingItem] = list(booking.booking_item.all())
-        total_price = 0
+        original_price = 0
+        coupon_percent = 0
 
         for booking_item in booking_items:
             item_price = 0
@@ -138,8 +143,17 @@ class BookingService:
             if current_price:
                 item_price = current_price * booking_item.quantity
             if current_coupon:
-                item_price = (100 - current_coupon.discount_percent) * item_price
+                coupon_percent = current_coupon.discount_percent
 
-            total_price += item_price
+            original_price += item_price
 
-        return round(total_price, -3)
+        return original_price, coupon_percent
+
+    @classmethod
+    def set_paid_booking(cls, booking_id: str):
+        booking = Booking.objects.filter(id=booking_id)
+        original_price, coupon_percent = cls.get_original_price_and_coupon_from_booking(booking)
+        booking.history_origin_price = original_price
+        booking.history_discount_price = coupon_percent
+        booking.status = BookingStatus.PAID
+        booking.save()
