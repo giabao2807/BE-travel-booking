@@ -3,7 +3,9 @@ from typing import List, Dict, Optional
 
 from rest_framework.exceptions import ValidationError
 
+from api_booking.consts import BookingType
 from api_booking.models import Booking, BookingItem
+from api_general.models import Coupon
 from api_general.services import Utils
 from api_general.services.vnpay import VNPayTransaction
 from api_hotel.models import Room
@@ -125,29 +127,48 @@ class BookingService:
         return transaction.url
 
     @classmethod
-    def get_original_price_and_coupon_from_booking(cls, booking: Booking) -> (int, int):
-        booking_items: List[BookingItem] = list(booking.booking_item.all())
+    def get_total_price_by_booking(cls, booking: Booking) -> int:
+        total_price = 0
+        booking_type = booking.type
+        history_origin_price = booking.history_origin_price
+        history_discount_price = booking.history_discount_price
+
+        related_fields = ["room"] if booking_type == BookingType.HOTEL else ["tour"]
+        if not history_origin_price:
+            history_origin_price, history_discount_price = BookingService.get_original_price_and_coupon_from_booking(
+                booking, related_fields=related_fields
+            )
+
+        if history_origin_price:
+            total_price = BookingService.get_total_price(history_origin_price, history_discount_price)
+        return total_price
+
+    @classmethod
+    def get_original_price_and_coupon_from_booking(cls, booking: Booking, **kwargs) -> (int, int):
+        select_related_fields = kwargs.get("related_fields", ["room", "tour"])
+
         original_price = 0
-        coupon_percent = 0
+        booking_type = booking.type
+        booking_items: List[BookingItem] = list(booking.booking_item.all().select_related(*select_related_fields))
+        current_coupon: Optional[Coupon] = cls.get_current_coupon_by_type(booking_type, booking_items)
+        coupon_percent = current_coupon.discount_percent if current_coupon else 0
 
         for booking_item in booking_items:
-            item_price = 0
-            if booking_item.room:
-                current_price = booking_item.room.price
-                hotel_id = booking_item.room.hotel_id
-                current_coupon = HotelService.get_current_coupon(hotel_id)
-            else:
-                current_price = booking_item.tour.price
-                current_coupon = TourService.get_current_coupon(booking_item.tour_id)
-
-            if current_price:
-                item_price = current_price * booking_item.quantity
-            if current_coupon:
-                coupon_percent = current_coupon.discount_percent
-
-            original_price += item_price
+            current_price = booking_item.room.price if booking_type == BookingType.HOTEL else booking_item.tour.price
+            original_price += (current_price * booking_item.quantity)
 
         return original_price, coupon_percent
+
+    @classmethod
+    def get_current_coupon_by_type(cls, booking_type, booking_items: List[BookingItem]) -> Optional[Coupon]:
+        if booking_type == BookingType.HOTEL:
+            hotel_id = booking_items[0].room.hotel_id
+            current_coupon: Optional[Coupon] = HotelService.get_current_coupon(hotel_id)
+        else:
+            tour_id = booking_items[0].tour_id
+            current_coupon: Optional[Coupon] = TourService.get_current_coupon(tour_id)
+
+        return current_coupon
 
     @classmethod
     def set_paid_booking(cls, booking_id: str):

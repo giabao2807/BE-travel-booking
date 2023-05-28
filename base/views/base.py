@@ -11,9 +11,12 @@ class BaseViewSet(viewsets.ModelViewSet):
     required_alternate_scopes = {}
     serializer_map = {}
     permission_map = {}
+    ignore_serializer_map_actions = []
     view_set_name = "base"
 
     def get_serializer_class(self):
+        if self.action in self.ignore_serializer_map_actions:
+            return self.serializer_class
         return self.serializer_map.get(self.action, self.serializer_class)
 
     def get_permissions(self):

@@ -4,10 +4,10 @@ from rest_framework.exceptions import ValidationError
 from rest_framework.serializers import ModelSerializer
 
 from api_booking.consts import BookingType
-from api_booking.models import Booking
+from api_booking.models import Booking, BookingItem
 from api_booking.serializers import CUBookingItemSerializer
 from api_booking.services.booking import BookingService
-from api_hotel.serializers import HotelCardSerializer, BookingHotelCardSerializer
+from api_hotel.serializers import BookingHotelCardSerializer
 from api_hotel.services import HotelService
 from api_tour.serializers import CardTourSerializer
 
@@ -27,17 +27,9 @@ class ListBookingSerializer(ModelSerializer):
 
     def to_representation(self, instance: Booking):
         data = super(ListBookingSerializer, self).to_representation(instance)
+        data["total_price"] = BookingService.get_total_price_by_booking(instance)
 
-        history_origin_price = data.get("history_origin_price", 0)
-        history_discount_price = data.get("history_discount_price", 0)
         booking_type = instance.type
-
-        if not history_origin_price:
-            history_origin_price, history_discount_price = BookingService.get_original_price_and_coupon_from_booking(instance)
-
-        if history_origin_price:
-            data["total_price"] = BookingService.get_total_price(history_origin_price, history_discount_price)
-
         if booking_type == BookingType.HOTEL:
             hotel_id = instance.booking_item.all().first().room.hotel_id
             hotel = HotelService.get_hotel_cards([hotel_id])
@@ -53,6 +45,51 @@ class ListBookingSerializer(ModelSerializer):
             booking_items = list(instance.booking_item.all().values("quantity"))
 
         data["booking_items"] = booking_items
+
+        return data
+
+
+class ListHotelBookingSerializer(ModelSerializer):
+
+    class Meta:
+        model = Booking
+        fields = ("id", "start_date", "end_date", "note", "history_origin_price", "history_discount_price", "status")
+
+    def to_representation(self, instance: Booking):
+        data = super(ListHotelBookingSerializer, self).to_representation(instance)
+        data["total_price"] = BookingService.get_total_price_by_booking(instance)
+
+        booking_items = list(
+            instance.booking_item.all()
+                .values("quantity", "room_id", "room__name", "room__hotel_id")
+                .annotate(room_name=F("room__name"), hotel_id=F("room__hotel_id"))
+        )
+        hotel_id = booking_items[0].get("hotel_id")
+        hotel = HotelService.get_hotel_cards(hotel_id)
+        if hotel:
+            hotel = hotel.first()
+            data["hotel"] = BookingHotelCardSerializer(hotel).data
+
+        data["booking_items"] = booking_items
+
+        return data
+
+
+class ListTourBookingSerializer(ModelSerializer):
+
+    class Meta:
+        model = Booking
+        fields = ("id", "start_date", "end_date", "note", "history_origin_price", "history_discount_price", "status")
+
+    def to_representation(self, instance: Booking):
+        data = super(ListTourBookingSerializer, self).to_representation(instance)
+        data["total_price"] = BookingService.get_total_price_by_booking(instance)
+
+        booking_item: BookingItem = instance.booking_item.all().select_related("tour").first()
+        if booking_item:
+            tour = booking_item.tour
+            data["tour"] = CardTourSerializer(tour).data
+            data["booking_items"] = dict(quantity=booking_item.quantity)
 
         return data
 

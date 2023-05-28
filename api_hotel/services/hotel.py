@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Iterable, Union
 
 from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F
 
@@ -43,8 +43,12 @@ class HotelService:
         return city_values
 
     @classmethod
-    def get_hotel_cards(cls, hotel_ids: List[int]):
-        hotel_card_values = Hotel.objects.filter(id__in=hotel_ids)\
+    def get_hotel_cards(cls, hotel_ids: Union[List[str], str]):
+        if isinstance(hotel_ids, Iterable):
+            ft = Q(id__in=hotel_ids)
+        else:
+            ft = Q(id=hotel_ids)
+        hotel_card_values = Hotel.objects.filter(ft)\
             .values("id")\
             .annotate(
                 rate_average=Avg("hotel_reviews__rate"),
