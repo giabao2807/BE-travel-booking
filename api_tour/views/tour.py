@@ -2,6 +2,8 @@ from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
+from api_booking.serializers import BookingReviewSerializer
+from api_booking.services import BookingReviewService
 from api_general.services import Utils
 from api_tour.models import Tour
 from api_tour.serializers import TourSerializer, CardTourSerializer
@@ -21,12 +23,14 @@ class TourViewSet(BaseViewSet):
         "list": [],
         "retrieve": [],
         "filter_by_date_city": [],
+        "get_reviews": [],
         "get_available_group_size": []
     }
 
     serializer_map = {
         'list': CardTourSerializer,
         'filter_by_date_city': CardTourSerializer,
+        'get_reviews': BookingReviewSerializer,
     }
 
     @action(detail=False, methods=[HttpMethod.GET])
@@ -83,6 +87,56 @@ class TourViewSet(BaseViewSet):
         else:
             tour_qs = Tour.objects.filter(is_active=True).order_by("-updated_at")
         self.queryset = tour_qs.filter(city__id=city_id) if city_id else tour_qs
+
+        return super().list(request, *args, **kwargs)
+
+    @action(detail=True, methods=[HttpMethod.GET])
+    def get_reviews(self, request, *args, **kwargs):
+        """
+        URL: api/v1/tour/{tour_id}/get_reviews/?page={int}&page_size={int}
+        Method: {GET}
+        Authentication: NoRequired
+
+        @param request:
+        params:
+        - hotel_id: (str - UUID format)
+        - page: (int) page number
+        - page_size: (int) page size
+        @param args:
+        @param kwargs:
+        @return:
+        Example:
+        {
+        "links": {
+            "previous": null,
+            "next": "https://bonitravel.online/api/v1/tour/2800076077e74363923b13bfa5acb1f0/get_reviews?page=2"
+        },
+        "current": 1,
+        "pageSize": 12,
+        "pageNumber": 18,
+        "count": 214,
+        "results": [
+            {
+                "id": "0db7893b-34ac-45d8-8e94-1c8f87ad2685",
+                "createdAt": "2023-05-06T23:07:02.174953+07:00",
+                "updatedAt": "2023-05-06T23:07:29.645367+07:00",
+                "isActive": true,
+                "title": "Kỷ niệm phú quốc",
+                "content": "Gia đình tôi để nghĩ dưỡng tại ks quá tuyệt vời tất cả các dịch vụ, cám ơn bạn giao và bạn công ,bạn phước,bạn thiện đã rất tận tình , chu đáo, gia đình sẽ quay lại dịp nữa.hi vọng vẩn gặp lại các bạn tại đây,",
+                "rate": 5.0,
+                "hotel": "28000760-77e7-4363-923b-13bfa5acb1f0",
+                "owner": {
+                    "id": "0023482c-c1d3-4859-ac48-09a0a77841db",
+                    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Faenza-avatar-default-symbolic.svg/2048px-Faenza-avatar-default-symbolic.svg.png",
+                    "name": "Minh tuấn"
+                }
+            },
+            ...
+        ]
+        """
+        tour = self.get_object()
+        queryset = BookingReviewService.get_tour_review(tour)
+        self.queryset = queryset
 
         return super().list(request, *args, **kwargs)
 

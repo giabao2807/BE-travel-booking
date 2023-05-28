@@ -1,6 +1,8 @@
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
+from api_booking.serializers import BookingReviewSerializer
+from api_booking.services import BookingReviewService
 from api_general.consts import DatetimeFormatter
 from api_general.services import Utils
 from api_hotel.models import Hotel
@@ -138,7 +140,14 @@ class HotelViewSet(BaseViewSet):
         ]
         """
         hotel = self.get_object()
-        queryset = hotel.hotel_reviews.all().prefetch_related("owner")
-        self.queryset = queryset
+        hotel_review_by_booking = BookingReviewService.get_hotel_review(hotel)
+        serializer_booking_review = BookingReviewSerializer(hotel_review_by_booking, many=True)
 
-        return super().list(request, *args, **kwargs)
+        queryset = hotel.hotel_reviews.all().prefetch_related("owner")
+        serializer_hotel_review = self.get_serializer(queryset, many=True)
+        serializer = serializer_booking_review.data + serializer_hotel_review.data
+
+        page = self.paginate_queryset(serializer)
+        data = self.get_paginated_response(page).data
+
+        return Response(data)
