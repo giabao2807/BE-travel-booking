@@ -20,7 +20,8 @@ class TourViewSet(BaseViewSet):
     permission_map = {
         "list": [],
         "retrieve": [],
-        "filter_by_date_city": []
+        "filter_by_date_city": [],
+        "get_available_group_size": []
     }
 
     serializer_map = {
