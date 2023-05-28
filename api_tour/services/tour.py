@@ -53,3 +53,10 @@ class TourService:
         )
 
         return booked_tour_mapping
+
+    @classmethod
+    def get_available_group_size(cls, tour: Tour, start_date: datetime) -> int:
+        booked_amount_mapping = cls.get_booked_tour_amounts(start_date, tour.id)
+        booked_amount = booked_amount_mapping.get(tour.id, 0)
+
+        return tour.group_size - booked_amount

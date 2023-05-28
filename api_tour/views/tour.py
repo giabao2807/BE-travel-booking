@@ -1,5 +1,8 @@
+from rest_framework import status
 from rest_framework.decorators import action
+from rest_framework.response import Response
 
+from api_general.services import Utils
 from api_tour.models import Tour
 from api_tour.serializers import TourSerializer, CardTourSerializer
 from api_tour.services import TourService
@@ -81,3 +84,14 @@ class TourViewSet(BaseViewSet):
         self.queryset = tour_qs.filter(city__id=city_id) if city_id else tour_qs
 
         return super().list(request, *args, **kwargs)
+
+    @action(detail=True, methods=[HttpMethod.GET])
+    def get_available_group_size(self, request, *args, **kwargs):
+        tour = self.get_object()
+        start_date = request.query_params.get("start_date")
+        start_date = Utils.safe_str_to_date(start_date)
+        if start_date:
+            available_group_size = TourService.get_available_group_size(tour, start_date)
+            return Response(dict(available_group_size=available_group_size))
+        else:
+            return Response(dict(error_message="Invalid start_date field"), status=status.HTTP_400_BAD_REQUEST)
