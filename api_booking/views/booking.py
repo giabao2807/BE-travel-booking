@@ -7,7 +7,9 @@ from api_booking.serializers import BookingSerializer, CUBookingSerializer, List
 from api_booking.services.booking import BookingService
 from api_general.services import Utils
 from api_general.services.vnpay import VNPayTransaction
+from api_user.models import Profile
 from api_user.permission import UserPermission
+from api_user.statics import RoleData
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
 
@@ -21,6 +23,7 @@ class BookingViewSet(BaseViewSet):
         "payment_callback": []
     }
     serializer_map = {
+        "retrieve": ListBookingSerializer,
         "list": ListBookingSerializer,
         "validate": CUBookingSerializer,
         "create": CUBookingSerializer,
@@ -30,6 +33,14 @@ class BookingViewSet(BaseViewSet):
         self.queryset = Booking.objects.filter(customer=request.user)
 
         return super().list(request, *args, **kwargs)
+
+    def retrieve(self, request, *args, **kwargs):
+        booking = self.get_object()
+        user: Profile = request.user
+        if user.role_id == RoleData.ADMIN.id or booking.customer == user:
+            return super().retrieve(request, *args, **kwargs)
+        else:
+            return Response(dict(message="Invalid booking!"), status=status.HTTP_400_BAD_REQUEST)
 
     @action(detail=False, methods=[HttpMethod.POST])
     def validate(self, request, *args, **kwargs):

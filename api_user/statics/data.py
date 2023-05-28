@@ -20,6 +20,10 @@ class RoleData(Enum):
         "description": "Partner",
     }
 
+    @property
+    def id(self):
+        return self.value.get("id")
+
 
 ProfileData = {
     "customer_account": [
