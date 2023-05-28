@@ -14,6 +14,7 @@ class Room(TimeStampedModel):
     square = models.CharField(max_length=255, null=True, blank=True)
     hotel = models.ForeignKey(Hotel, null=True, on_delete=models.CASCADE, related_name='rooms')
     quantity = models.IntegerField(default=1, null=False, blank=False)
+    benefit = models.CharField(max_length=1028, null=True, blank=True)
 
     class Meta:
         db_table = 'rooms'

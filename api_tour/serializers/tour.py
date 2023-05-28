@@ -37,7 +37,7 @@ class CardTourSerializer(ModelSerializer):
 
     class Meta:
         model = Tour
-        fields = ('id', 'name', 'cover_picture',
+        fields = ('id', 'name', 'cover_picture', 'group_size',
                   'total_days', 'language_tour', 'price',
                   'rate', 'num_review', 'city', 'departure', 'traffics', "coupon_data")
 

@@ -145,8 +145,7 @@ class HotelService:
         rooms = Room.objects.filter(room_ft)\
             .values("id")\
             .annotate(list_images=GroupConcat("room_images__image__link"))\
-            .annotate(available_room_amount=F('quantity')) \
-            .values("list_images", "available_room_amount", *room_fields)
+            .values("list_images", *room_fields)
 
         print(Utils.get_raw_query(rooms))
         return rooms
