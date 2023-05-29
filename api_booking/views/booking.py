@@ -14,7 +14,10 @@ from api_general.services.vnpay import VNPayTransaction
 from api_user.models import Profile
 from api_user.permission import UserPermission
 from api_user.statics import RoleData
+from base.exceptions import BoniException
+from base.exceptions.base import ErrorType
 from base.views import BaseViewSet
+from common.constants.api_booking import BookingStatus
 from common.constants.base import HttpMethod
 
 
@@ -89,3 +92,19 @@ class BookingViewSet(BaseViewSet):
             return Response(dict(message="Changed the booking status to PAID"), status=status.HTTP_200_OK)
         else:
             return Response(dict(message="Invalid transaction"), status=status.HTTP_400_BAD_REQUEST)
+
+    @action(detail=True, methods=[HttpMethod.GET])
+    def get_payment_link(self, request, *args, **kwargs):
+        booking = self.get_object()
+        bank_code = request.query_params.get("bank_code")
+        client_ip = Utils.get_client_ip(request)
+
+        if booking.status != BookingStatus.UNPAID:
+            raise BoniException(ErrorType.INVALID, ["booking status"])
+        if not bank_code:
+            raise BoniException(ErrorType.INVALID, ["bank_code"])
+        if booking.customer != request.user:
+            raise BoniException(ErrorType.INVALID, ["booking ID"])
+
+        payment_link = BookingService.create_payment_link(booking, bank_code, client_ip)
+        return Response(dict(payment_link=payment_link))
