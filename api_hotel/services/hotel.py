@@ -170,6 +170,31 @@ class HotelService:
         return coupon
 
     @classmethod
+    def get_current_discount_percent_mapping(cls, hotel_ids: List[str]) -> Dict[str, int]:
+        current_date = datetime.now().date()
+        base_ft = Q(
+            is_active=True,
+            start_date__date__lte=current_date,
+            end_date__date__gte=current_date
+        )
+        selected_hotels_coupon_ft = base_ft & Q(for_all=False, hotel_coupons__hotel_id__in=hotel_ids)
+        coupon_mapping = dict(
+            Coupon.objects.filter(selected_hotels_coupon_ft)
+            .values("hotel_coupons__hotel_id")
+            .annotate(max_discount_percent=Max("discount_percent"))
+            .values_list("hotel_coupons__hotel_id", "max_discount_percent")
+        )
+
+        for_all_coupon_ft = base_ft & Q(for_all=True)
+        for_all_coupon: Coupon = Coupon.objects.filter(for_all_coupon_ft).first()
+        for_all_discount_percent = for_all_coupon.discount_percent if for_all_coupon else 0
+        for hotel_id in hotel_ids:
+            max_discount_percent = coupon_mapping.get(hotel_id, 0)
+            coupon_mapping[hotel_id] = max(max_discount_percent, for_all_discount_percent)
+
+        return coupon_mapping
+
+    @classmethod
     def get_filter_query(cls, request):
         city_id = request.query_params.get("city_id", None)
         start_date = request.query_params.get("start_date")

@@ -184,3 +184,41 @@ class BookingService:
         total_price = original_price * (100 - discount_percent)
 
         return round(total_price, -3)
+
+    @classmethod
+    def add_extra_data_hotel(cls, booking_list: List[dict]):
+        booking_ids = [_booking.get("id") for _booking in booking_list]
+        cls.get_bulk_total_prices(booking_list)
+
+    @classmethod
+    def get_bulk_total_prices(cls, booking_list: List[dict]):
+        booking_ids = [_booking.get("id") for _booking in booking_list]
+        total_price_mapping = dict()
+        empty_price_booking_ids: List[str] = []
+
+        for booking in booking_list:
+            booking_id = booking.get("id")
+            history_origin_price = booking.get("history_origin_price")
+            history_discount_price = booking.get("history_discount_price")
+            if history_origin_price:
+                total_price = BookingService.get_total_price(history_origin_price, history_discount_price)
+                total_price_mapping[booking_id] = total_price
+            else:
+                empty_price_booking_ids.append(booking_id)
+
+        bookings: List[Booking] = list(Booking.objects.filter(id__in=empty_price_booking_ids).prefetch_related("booking_item__room"))
+
+        hotel_ids: List[str] = []
+        for _booking in bookings:
+            original_price = 0
+            hotel_id = _booking.booking_item.first().room.hotel_id
+            hotel_ids.append(hotel_id)
+
+            for _booking_item in _booking.booking_item:
+                original_price += (_booking_item.room.price * _booking_item.quantity)
+
+        current_discount_percent_mapping = HotelService.get_current_discount_percent_mapping()
+
+    @classmethod
+    def add_extra_data_tour(cls, booking_list: List[dict]):
+        pass
