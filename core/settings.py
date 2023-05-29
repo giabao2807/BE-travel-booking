@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
+    'django_crontab',
     'corsheaders',
     'base',
     'api_user',
@@ -227,3 +228,7 @@ DEFAULT_SCOPES: dict = read_scopes(DEFAULT_SCOPES_JSON_PATH)
 cloudinary.config(cloud_name=os.getenv('CLOUDINARY_NAME'),
                   api_key=os.getenv('CLOUDINARY_API_KEY'),
                   api_secret=os.getenv('CLOUDINARY_API_SECRET'))
+
+CRONJOBS = [
+    ('0 0 * * *', 'api_booking.cron.booking.sync_booking_status')
+]
