@@ -97,7 +97,7 @@ class ListTourBookingSerializer(ModelSerializer):
 class CUBookingSerializer(ModelSerializer):
     booking_items = CUBookingItemSerializer(required=True, many=True)
     start_date = serializers.DateTimeField(required=True)
-    end_date = serializers.DateTimeField(required=False)
+    end_date = serializers.DateTimeField(required=False, allow_null=True)
     type = serializers.IntegerField(required=True)
 
     class Meta:
@@ -108,7 +108,7 @@ class CUBookingSerializer(ModelSerializer):
         start_date = attrs.get("start_date", "")
         end_date = attrs.get("end_date", "")
 
-        if start_date > end_date:
+        if end_date and start_date > end_date:
             raise ValidationError("start_date must not greater than end_date")
 
         return attrs
