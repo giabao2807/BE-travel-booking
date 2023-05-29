@@ -189,8 +189,8 @@ class HotelService:
         for_all_coupon: Coupon = Coupon.objects.filter(for_all_coupon_ft).first()
         for_all_discount_percent = for_all_coupon.discount_percent if for_all_coupon else 0
         for hotel_id in hotel_ids:
-            max_discount_percent = coupon_mapping.get(hotel_id, 0)
-            coupon_mapping[hotel_id] = max(max_discount_percent, for_all_discount_percent)
+            discount_percent = coupon_mapping.get(hotel_id, 0)
+            coupon_mapping[hotel_id] = max(discount_percent, for_all_discount_percent)
 
         return coupon_mapping
 
