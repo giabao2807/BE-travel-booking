@@ -192,10 +192,11 @@ class BookingService:
         booking_ids = [booking_data.get("id") for booking_data in booking_data_list]
         bookings: List[Booking] = list(
             Booking.objects.filter(id__in=booking_ids).prefetch_related("booking_item__room"))
-        hotel_booking_mapping = {
-            _booking.id: _booking.booking_item.first().room.hotel_id
-            for _booking in bookings
-        }
+
+        _booking = None
+        hotel_booking_mapping = {}
+        for _booking in bookings:
+            hotel_booking_mapping[str(_booking.id)] = _booking.booking_item.first().room.hotel_id
 
         total_price_mapping = cls.get_bulk_total_prices(booking_data_list, bookings)
         hotel_ids = list(hotel_booking_mapping.values())
@@ -206,9 +207,10 @@ class BookingService:
             _hotel_id = hotel_booking_mapping.get(_booking_id)
             hotel_data = next(filter(lambda _hotel: _hotel.get("id") == _hotel_id, hotel_data_list))
             booking_instance = next(filter(lambda _booking: _booking.id == _booking_id, bookings))
+
             _booking_data["hotel"] = hotel_data
             _booking_data["total_price"] = total_price_mapping.get(_booking_id)
-            _booking_data["booking_items"] = booking_instance.booking_item.all().values("quantity", "room_id", "room__name").annotate(room_name=F("room__name"))
+            _booking_data["booking_items"] = cls.get_hotel_booking_item_list(booking_instance)
 
     @classmethod
     def get_bulk_total_prices(cls, booking_data_list: List[dict], bookings: List[Booking]):
@@ -229,7 +231,7 @@ class BookingService:
         original_price_mapping: Dict[str, dict] = []
         for _empty_price_booking_id in empty_price_booking_ids:
             original_price = 0
-            _empty_price_booking = next(filter(lambda _booking: _booking.id == _empty_price_booking_id, bookings))
+            _empty_price_booking = next(filter(lambda _booking: str(_booking.id) == _empty_price_booking_id, bookings))
             hotel_id = _empty_price_booking.booking_item.first().room.hotel_id
             hotel_ids.append(hotel_id)
 
@@ -245,6 +247,18 @@ class BookingService:
             total_price_mapping[booking_id] = cls.get_total_price(original_price, discount_percent)
 
         return total_price_mapping
+
+    @classmethod
+    def get_hotel_booking_item_list(cls, booking: Booking) -> List[dict]:
+        booking_item_list = []
+        for booking_item in booking.booking_item.all():
+            booking_item_list.append({
+                "quantity": booking_item.quantity,
+                "room_id": booking_item.room_id,
+                "room_name": booking_item.room.name,
+            })
+
+        return booking_item_list
 
     @classmethod
     def add_extra_data_tour(cls, booking_list: List[dict]):

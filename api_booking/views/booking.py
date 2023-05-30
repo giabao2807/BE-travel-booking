@@ -39,14 +39,24 @@ class BookingViewSet(BaseViewSet):
     def list(self, request, *args, **kwargs):
         _type = request.query_params.get("type")
         _type = Utils.safe_int(_type)
+        version = request.query_params.get("version", "v1")
 
         booking_ft = Q(customer=request.user)
         if _type:
             booking_ft = Q(type=_type)
-            self.serializer_class = ListHotelBookingSerializer if _type == BookingType.HOTEL else ListTourBookingSerializer
-        else:
-            self.serializer_class = ListBookingSerializer
         self.queryset = Booking.objects.filter(booking_ft).order_by("-created_at")
+
+        if version == "v1":
+            if _type:
+                self.serializer_class = ListHotelBookingSerializer if _type == BookingType.HOTEL else ListTourBookingSerializer
+            else:
+                self.serializer_class = ListBookingSerializer
+        else:
+            response = super().list(request, *args, **kwargs)
+            booking_data = response.data.get("results")
+            BookingService.add_extra_data_hotel(booking_data)
+            response.data["results"] = booking_data
+            return response
 
         return super().list(request, *args, **kwargs)
 
