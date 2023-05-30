@@ -5,12 +5,15 @@ from typing import Optional, List
 
 from django.contrib.auth.hashers import check_password, make_password
 from django.db import transaction
+from django.template.loader import render_to_string
 
 from api_user.models import Profile, Role
 from api_user.services import RoleService
 from api_user.services.token import TokenService
 from api_user.statics import RoleData
 from dotenv import load_dotenv
+
+from base.services.send_mail import SendMail
 
 load_dotenv()
 
@@ -82,6 +85,7 @@ class ProfileService:
         "Dương",
         "Lý"
     ]
+
     @classmethod
     @transaction.atomic
     def create_customer(cls, user_data: dict) -> Optional[Profile]:
@@ -91,12 +95,53 @@ class ProfileService:
         :return:
         """
         default_role = RoleService.get_role_customer()
-        user_data['password'] = make_password(user_data.pop('password',
-                                              os.getenv('DEFAULT_PASSWORD')))
+        password = user_data.pop('password')
+        user_data['password'] = make_password(password,
+                                              os.getenv('DEFAULT_PASSWORD'))
         user = Profile(**user_data)
         user.role = default_role
         user.save()
+        # cls.send_mail(email=user.email, name=f'{user.first_name} {user.last_name}',
+        #               send_email=True, password=password, base_link=os.getenv('FE_BASE_LINK'))
         return user
+
+    @classmethod
+    def send_mail(cls,
+                  email,
+                  name,
+                  password,
+                  send_email=False,
+                  base_link=""):
+        if send_email:
+            # TODO: Look at the link again
+            link = f"{base_link}"
+            content = render_to_string(
+                "invite_email.html",
+                {"name": name, "email": email, "password": password, "link": link},
+            )
+            SendMail.start(
+                [email], "Welcome to Boni Travel", content
+            )
+
+    @classmethod
+    def send_mail_reset_password(
+            cls,
+            email=None,
+            phone=None,
+            personal_email=None,
+            send_email=False,
+            base_link="",
+            password="",
+    ):
+        if send_email:
+            link = f"{base_link}"
+            content = render_to_string(
+                "reset_password.html",
+                {"email": email, "password": password, "link": link},
+            )
+            SendMail.start(
+                [email, personal_email], "[RESET PASSWORD] New generator password for your account", content
+            )
 
     @classmethod
     def login(cls, login_data) -> Optional[dict]:
