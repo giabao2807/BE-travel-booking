@@ -19,6 +19,7 @@ from base.exceptions.base import ErrorType
 from base.views import BaseViewSet
 from common.constants.api_booking import BookingStatus
 from common.constants.base import HttpMethod
+from common.constants.base_const import SupportEnv
 
 
 class BookingViewSet(BaseViewSet):
@@ -69,6 +70,8 @@ class BookingViewSet(BaseViewSet):
 
     def create(self, request, *args, **kwargs):
         request_body = request.data
+        env = request.query_params.get("env")
+        env = Utils.safe_int(env, SupportEnv.PROD)
         bank_code = request_body.get("bank_code")
         request_body["customer"] = request.user.id
         client_ip = Utils.get_client_ip(request)
@@ -76,7 +79,7 @@ class BookingViewSet(BaseViewSet):
         serializer = self.get_serializer(data=request_body)
         if bank_code and client_ip and serializer.is_valid(raise_exception=True):
             booking = serializer.save()
-            payment_link = BookingService.create_payment_link(booking, bank_code, client_ip)
+            payment_link = BookingService.create_payment_link(booking, bank_code, client_ip, env)
             print(payment_link)
 
             return Response({"payment_link": payment_link}, status=status.HTTP_201_CREATED)
@@ -97,6 +100,8 @@ class BookingViewSet(BaseViewSet):
     def get_payment_link(self, request, *args, **kwargs):
         booking = self.get_object()
         bank_code = request.query_params.get("bank_code")
+        env = request.query_params.get("env")
+        env = Utils.safe_int(env, SupportEnv.PROD)
         client_ip = Utils.get_client_ip(request)
 
         if booking.status != BookingStatus.UNPAID:
@@ -106,5 +111,5 @@ class BookingViewSet(BaseViewSet):
         if booking.customer != request.user:
             raise BoniException(ErrorType.INVALID, ["booking ID"])
 
-        payment_link = BookingService.create_payment_link(booking, bank_code, client_ip)
+        payment_link = BookingService.create_payment_link(booking, bank_code, client_ip, env)
         return Response(dict(payment_link=payment_link))

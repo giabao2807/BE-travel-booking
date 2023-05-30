@@ -1,3 +1,6 @@
+from enum import IntEnum
+
+
 class Const:
     class ConstError(TypeError):
         pass  # base error class
@@ -11,3 +14,8 @@ class Const:
         if not name.isupper():
             raise self.ConstCaseError("const name %r is not all uppercase" % name)
         self.__dict__[name] = value
+
+
+class SupportEnv(IntEnum):
+    LOCALHOST = 1
+    PROD = 2

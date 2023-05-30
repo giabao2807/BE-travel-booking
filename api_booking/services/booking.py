@@ -17,6 +17,7 @@ from api_tour.services import TourService
 from base.exceptions import BoniException
 from base.exceptions.base import ErrorType
 from common.constants.api_booking import BookingStatus
+from common.constants.base_const import SupportEnv
 
 
 class BookingService:
@@ -117,13 +118,13 @@ class BookingService:
         return is_valid
 
     @classmethod
-    def create_payment_link(cls, booking: Booking, bank_code: str, client_ip: str) -> str:
+    def create_payment_link(cls, booking: Booking, bank_code: str, client_ip: str, env: SupportEnv) -> str:
         original_price, coupon_percent = cls.get_original_price_and_coupon_from_booking(booking)
         total_price = original_price * (100 - coupon_percent)
         total_price = round(total_price, -3)
         order_info = "Thanh toán hóa đơn trên BoniTravel"
 
-        transaction = VNPayTransaction(total_price, client_ip, bank_code, str(booking.id.hex), order_info)
+        transaction = VNPayTransaction(env, total_price, client_ip, bank_code, str(booking.id.hex), order_info)
         transaction.build_payment_url()
 
         return transaction.url
