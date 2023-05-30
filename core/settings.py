@@ -232,3 +232,22 @@ cloudinary.config(cloud_name=os.getenv('CLOUDINARY_NAME'),
 CRONJOBS = [
     ('0 0 * * *', 'api_booking.cron.booking.sync_booking_status')
 ]
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': 'sql.log',
+        },
+    },
+    'loggers': {
+        'django.db.backends': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
