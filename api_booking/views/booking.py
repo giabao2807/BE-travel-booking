@@ -43,7 +43,7 @@ class BookingViewSet(BaseViewSet):
 
         booking_ft = Q(customer=request.user)
         if _type:
-            booking_ft = Q(type=_type)
+            booking_ft = Q(type=_type) & Q(customer=request.user)
             self.serializer_class = ListHotelBookingSerializer if _type == BookingType.HOTEL else ListTourBookingSerializer
         else:
             self.serializer_class = ListBookingSerializer
