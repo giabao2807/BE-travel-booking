@@ -92,7 +92,7 @@ class BookingViewSet(BaseViewSet):
 
         if VNPayTransaction.validate_response(query_params):
             BookingService.set_paid_booking(booking_id)
-            return Response(dict(message="Changed the booking status to PAID"), status=status.HTTP_200_OK)
+            return Response(dict(message="Booking đã được thanh toán."), status=status.HTTP_200_OK)
         else:
             return Response(dict(message="Invalid transaction"), status=status.HTTP_400_BAD_REQUEST)
 

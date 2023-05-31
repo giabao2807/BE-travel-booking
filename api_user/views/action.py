@@ -1,3 +1,4 @@
+from django.contrib.auth.hashers import make_password
 from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -5,6 +6,7 @@ from rest_framework.response import Response
 from api_user.models import Profile
 from api_user.serializers import LoginAccountSerializer, ProfileDetailSerializer, CreateProfileSerializer
 from api_user.services import TokenService, ProfileService
+from base.utils import Utils
 from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
 from base.views import BaseViewSet
 
@@ -52,3 +54,17 @@ class ActionViewSet(BaseViewSet):
             return Response(response_data)
         else:
             return ErrorResponse(ErrorResponseType.INVALID, params=["token"])
+
+    @action(methods=[HttpMethod.POST], detail=False)
+    def forgot_password(self, request, *args, **kwargs):
+        email = request.data.get('email')
+        if email:
+            profile = Profile.objects.by_email(email)
+            if profile:
+                password = Utils.gen_password()
+                profile.password = make_password(password)
+                profile.save()
+                ProfileService.send_mail_reset_password(email=profile.email,
+                                                        password=password, send_email=True)
+                return Response({"success": "Reset password!"}, status=status.HTTP_200_OK)
+        return Response({"error_message": "Email is incorrect!"}, status=status.HTTP_400_BAD_REQUEST)
