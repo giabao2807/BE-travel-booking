@@ -223,6 +223,7 @@ class HotelService:
                                 min_price=Min("rooms__price"),
                                 max_price=Max("rooms__price")
                                 ) \
+                             .order_by(order_by) \
                              .order_by("avg_rate") \
                              .values_list("id", flat=True)
         if city_id:
@@ -238,6 +239,7 @@ class HotelService:
                 is_available_room = HotelService.check_available_rooms(hotel, start_date, end_date)
             if is_available_room:
                 list_rs_hotel_id.append(hotel_id)
+
         return list_rs_hotel_id
 
     @classmethod

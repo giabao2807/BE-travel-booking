@@ -92,8 +92,8 @@ class BookingViewSet(BaseViewSet):
         vnp_response_code = query_params.get("vnp_ResponseCode", "01")
 
         if VNPayTransaction.validate_response(query_params) and vnp_response_code == "00":
-            booking = BookingService.set_paid_booking(booking_id)
-            BookingService.send_mail(booking)
+            BookingService.set_paid_booking(booking_id)
+            BookingService.send_mail(booking_id)
             return Response(dict(message="Booking đã được thanh toán."), status=status.HTTP_200_OK)
         return Response(dict(message="Đã xảy ra lỗi khi thanh toán"), status=status.HTTP_400_BAD_REQUEST)
 

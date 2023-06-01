@@ -184,12 +184,13 @@ class BookingService:
         booking.history_discount_price = coupon_percent
         booking.status = BookingStatus.PAID
         booking.save()
-        return booking
 
     @classmethod
-    def send_mail(cls, booking: Booking):
-        booking_name = booking.booking_item.tour.name if booking.type == 2 else booking.booking_item.hotel.name
-        hotel_name = booking.booking_item.hotel.address if booking.type == 1 else ""
+    def send_mail(cls, booking_id: str):
+        booking = Booking.objects.filter(id=booking_id).first()
+        booking_item = BookingItem.objects.filter(booking=booking).first()
+        booking_name = booking_item.tour.name if booking.type == 2 else booking_item.room.hotel.name
+        hotel_name = booking_item.room.hotel.address if booking.type == 1 else ""
         total_price = cls.get_total_price(booking.history_origin_price, booking.history_discount_price)
         cls.send_mail_booking_success(booking.customer.email, True, booking.type,
                                       f'{booking.customer.first_name} {booking.customer.last_name}',

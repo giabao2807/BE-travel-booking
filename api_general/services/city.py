@@ -1,4 +1,4 @@
-from django.db.models import QuerySet, Avg
+from django.db.models import QuerySet, Avg, Min
 
 from api_general.models import City
 from api_hotel.models import Hotel
