@@ -190,4 +190,3 @@ class CityViewSet(BaseViewSet):
         data = self.get_serializer(hotel_cards, many=True).data
 
         return Response(self.get_paginated_response(data).data)
-

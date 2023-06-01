@@ -57,7 +57,8 @@ class HotelService:
                 num_review=Count("hotel_reviews__id")
             )\
             .values("id", "name", "cover_picture", "address",
-                    "rate_average", "min_price", "max_price", "num_review")
+                    "rate_average", "min_price", "max_price", "num_review") \
+            .order_by("-rate_average")
 
         return hotel_card_values
 
