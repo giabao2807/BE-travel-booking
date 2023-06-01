@@ -53,7 +53,9 @@ class ListHotelBookingSerializer(ModelSerializer):
 
     class Meta:
         model = Booking
-        fields = ("id", "start_date", "end_date", "note", "history_origin_price", "history_discount_price", "status")
+        fields = ("id", "start_date", "end_date", "note",
+                  "history_origin_price", "history_discount_price",
+                  "status", "created_at")
 
     def to_representation(self, instance: Booking):
         data = super(ListHotelBookingSerializer, self).to_representation(instance)
@@ -79,7 +81,9 @@ class ListTourBookingSerializer(ModelSerializer):
 
     class Meta:
         model = Booking
-        fields = ("id", "start_date", "end_date", "note", "history_origin_price", "history_discount_price", "status")
+        fields = ("id", "start_date", "end_date", "note",
+                  "history_origin_price", "history_discount_price",
+                  "status", "created_at")
 
     def to_representation(self, instance: Booking):
         data = super(ListTourBookingSerializer, self).to_representation(instance)
