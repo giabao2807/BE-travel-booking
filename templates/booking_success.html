@@ -29,7 +29,7 @@
         overflow: hidden;
       "
     >
-      We're thrilled to thank you for your donate!
+      We're thrilled to infor you your booking!
     </div>
     ​
     <table style="border: 0; padding: 0; width: 100%; border-spacing: 0">
@@ -145,19 +145,27 @@
                       line-height: 25px;
                     "
                   >
-                    <p style="margin: 0">Dear <b>{{ name }}</b>,</p>
+                    <p style="margin: 0">Dear <b>{{ user_name }}</b>,</p>
                     <p>
-                        Thank you for your great generosity! We, at F4plus Orphanage Organization, greatly appreciate your
-                        donation, and your sacrifice. Your support helps to further our mission through general
-                        activity.
+                        Thank you for your booking! We, at Boni Travel Organization, greatly appreciate your
+                        booking, and your support.
                     </p>
-                    <p>Check for your donate:</p>
+                    <p>Check for your booking information:</p>
                     <ul>
-                        {% if activity_name != "" %}
-                        <li>Activity:  {{ activity_name }} </li>
+                        {% if type_booking == 1 %}
+                            <li>Type:  Hotel </li>
+                            <li>Hotel: {{ booking_name }}</li>
+                            <li>Hotel address: {{ hotel_address }}</li>
+                        {% else %}
+                            <li>Type: Tour</li>
+                            <li>Tour name: {{ booking_name }}</li>
                         {% endif %}
-                        <li>Donate: {{ amount }} .000 VND </li>
-                        <li>Note: {{ note }} </li>
+                        <li>Start_date: {{ start_date }} </li>
+                        <li>End_date: {{ end_date }} </li>
+                        {% if note != "" %}
+                            <li>Note:  {{ note }} </li>
+                        {% endif %}
+                        <li>Total price: {{ total_price }} VND</li>
                     </ul>
                   </td>
                 </tr>
@@ -165,8 +173,34 @@
                     <td style="background-color: white; text-align: -webkit-left; padding: 0 30px 20px 30px; color: #666666;
                     font-family: Avenir, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
                         <p style="margin: 0;">
-                            Your support is invaluable to us, thank you again! If you have specific questions about our
+                            Your booking is invaluable to us, thank you again! If you have specific questions about our
                             mission be sure to visit our website [link]! </p>
+                    </td>
+                </tr>
+                <!-- BULLETPROOF BUTTON -->
+                <tr>
+                    <td style="background-color: white; text-align: -webkit-left">
+                        <table style="border:0; padding: 0; width: 100%; border-spacing: 0">
+                            <tbody>
+                            <tr>
+                                <td style="padding: 20px 30px 60px; background-color: white; text-align: -webkit-center; ">
+                                    <table style="border:0; padding: 0; border-spacing: 0">
+                                        <tbody>
+                                        <tr>
+                                            <td style="border-radius: 3px; text-align: -webkit-center; background-color: #F2BED1">
+                                                <a href="{{ link }}" target="_blank"
+                                                   style="font-size: 18px; font-family: Avenir, sans-serif;
+                                                   color: white; text-decoration: none;
+                                                   padding: 12px 50px; border-radius: 2px; border: 1px solid #F2BED1;
+                                                   display: inline-block;">View your booking</a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </td>
                 </tr>
                 <!-- COPY -->
@@ -205,7 +239,7 @@
                     "
                   >
                     <p style="margin: 0">
-                      Cheers,<br />Orphanage Management Team
+                      Cheers,<br />Boni Travel Team
                     </p>
                   </td>
                 </tr>

@@ -199,13 +199,30 @@ class HotelService:
         city_id = request.query_params.get("city_id", None)
         start_date = request.query_params.get("start_date")
         end_date = request.query_params.get("end_date")
+        sort_by = request.query_params.get("sort_by", "asc")
+        price_range = request.query_params.get("price_range", None)  # "0-200000"
+
+        # _filter = None
+        # if price_range:
+        #     prices = price_range.split('-')
+        #     min_price_range = prices[0]
+        #     max_price_range = prices[1]
+        #     _filter = Q(room_price__gte=min_price_range) & Q(max_price__lte=max_price_range)
+        #     queryset = Hotel.objects.filter()
+
+        order_by = "min_price" if sort_by == "asc" else "-max_price"
+
         start_date = Utils.safe_str_to_date(start_date, DatetimeFormatter.YYMMDD)
         end_date = Utils.safe_str_to_date(end_date, DatetimeFormatter.YYMMDD)
 
         top_hotel_ids = Hotel.objects.all() \
                              .values("id") \
-                             .annotate(avg_rate=Avg("hotel_reviews__rate")) \
-                             .order_by("-avg_rate") \
+                             .annotate(
+                                avg_rate=Avg("hotel_reviews__rate"),
+                                min_price=Min("rooms__price"),
+                                max_price=Max("rooms__price")
+                                ) \
+                             .order_by("avg_rate") \
                              .values_list("id", flat=True)
         if city_id:
             city = City.objects.filter(id=city_id).first()
