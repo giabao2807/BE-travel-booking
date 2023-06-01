@@ -184,7 +184,7 @@ class BookingService:
 
     @classmethod
     def get_total_price(cls, original_price, discount_percent) -> int:
-        total_price = original_price * (100 - discount_percent)
+        total_price = original_price * (100 - discount_percent)/100
 
         return round(total_price, -3)
 

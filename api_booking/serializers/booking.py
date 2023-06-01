@@ -61,7 +61,7 @@ class ListHotelBookingSerializer(ModelSerializer):
 
         booking_items = list(
             instance.booking_item.all()
-                .values("quantity", "room_id", "room__name", "room__hotel_id")
+                .values("quantity", "room_id")
                 .annotate(room_name=F("room__name"), hotel_id=F("room__hotel_id"))
         )
         hotel_id = booking_items[0].get("hotel_id")
