@@ -31,9 +31,9 @@ class HotelViewSet(BaseViewSet):
     }
 
     def list(self, request, *args, **kwargs):
-        hotel_id_queryset = HotelService.get_filter_query(request)
+        [hotel_id_queryset, _order_by] = HotelService.get_filter_query(request)
         paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
-        hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids)
+        hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, _order_by)
         data = self.get_serializer(hotel_cards, many=True).data
         return Response(self.get_paginated_response(data).data)
 

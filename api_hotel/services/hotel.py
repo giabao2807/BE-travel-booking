@@ -43,7 +43,8 @@ class HotelService:
         return city_values
 
     @classmethod
-    def get_hotel_cards(cls, hotel_ids: Union[List[str], str]):
+    def get_hotel_cards(cls, hotel_ids: Union[List[str], str],
+                        _order_by: Union[str, None]= None):
         if isinstance(hotel_ids, Iterable):
             ft = Q(id__in=hotel_ids)
         else:
@@ -59,6 +60,9 @@ class HotelService:
             .values("id", "name", "cover_picture", "address",
                     "rate_average", "min_price", "max_price", "num_review") \
             .order_by("-rate_average")
+
+        if _order_by:
+            hotel_card_values = hotel_card_values.order_by(_order_by)
 
         return hotel_card_values
 
@@ -224,7 +228,7 @@ class HotelService:
                                 max_price=Max("rooms__price")
                                 ) \
                              .order_by(order_by) \
-                             .order_by("avg_rate") \
+                             .order_by("-avg_rate") \
                              .values_list("id", flat=True)
         if city_id:
             city = City.objects.filter(id=city_id).first()
@@ -240,7 +244,7 @@ class HotelService:
             if is_available_room:
                 list_rs_hotel_id.append(hotel_id)
 
-        return list_rs_hotel_id
+        return [list_rs_hotel_id, order_by]
 
     @classmethod
     def check_available_rooms(cls, hotel: Hotel, start_date: datetime, end_date: datetime) -> bool:
