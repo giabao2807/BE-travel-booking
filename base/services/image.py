@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-class ImageService:
+class CloudinaryService:
     @classmethod
     def upload_image(cls, image, folder):
         upload_avatar = cloudinary.uploader.upload(image, folder=folder)

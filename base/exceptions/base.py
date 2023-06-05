@@ -18,6 +18,7 @@ class ErrorType(Enum):
 
     # Custom for Vietnamese
     DEACTIVATED_VN = (4108, "{0} đã bị vô hiệu hóa")
+    EMPTY_VN = (4105, "{0} bị trống")
 
     def __init__(self, code: int, error_message: str):
         self.code = code

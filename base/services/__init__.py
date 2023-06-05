@@ -1,1 +1,1 @@
-from .image import ImageService
+from .image import CloudinaryService

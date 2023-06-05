@@ -7,7 +7,7 @@ from api_booking.consts import BookingType
 from api_general.consts import DatetimeFormatter
 from api_general.models import City, Coupon
 from api_general.services import Utils, CityService
-from api_hotel.models import Hotel, Room, HotelCoupon
+from api_hotel.models import Hotel, Room, HotelImage
 from base.query import GroupConcat
 from common.constants.api_booking import BookingStatus
 
@@ -280,3 +280,9 @@ class HotelService:
                 return True
 
         return False
+
+    @classmethod
+    def bulk_create_hotel_images(cls, hotel_images: list, hotel_id):
+        from api_general.services import ImageService
+
+        ImageService.bulk_create_related_model_images(hotel_images, HotelImage, "hotel_id", hotel_id)

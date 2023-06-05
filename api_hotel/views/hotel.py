@@ -14,7 +14,7 @@ from api_user.permission import UserPermission
 from base.consts.cloudinary import CloudinaryFolder
 from base.exceptions import BoniException
 from base.exceptions.base import ErrorType
-from base.services import ImageService
+from base.services import CloudinaryService
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
 
@@ -42,9 +42,11 @@ class HotelViewSet(BaseViewSet):
         data = request.data
         data["owner"] = request.user.id
         cover_picture = data.pop("cover_picture", None)
-        if cover_picture:
-            cover_picture_link = ImageService.upload_image(cover_picture[0], CloudinaryFolder.HOTEL_COVER_PICTURE.value)
-            data["cover_picture"] = cover_picture_link
+        if not cover_picture:
+            raise BoniException(ErrorType.EMPTY_VN, ["Hình ảnh bìa"])
+
+        cover_picture_link = CloudinaryService.upload_image(cover_picture[0], CloudinaryFolder.HOTEL_COVER_PICTURE.value)
+        data["cover_picture"] = cover_picture_link
 
         return super().create(request, *args, **kwargs)
 

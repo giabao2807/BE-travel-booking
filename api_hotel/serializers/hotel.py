@@ -1,3 +1,4 @@
+from django.db import transaction
 from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
@@ -31,13 +32,21 @@ class HotelSerializer(ModelSerializer):
 
 
 class CUHotelSerializer(ModelSerializer):
+    hotel_images = serializers.ListField(child=serializers.FileField(), required=True, write_only=True)
 
     class Meta:
         model = Hotel
         fields = [
             "id", "cover_picture", "name", "address",
-            "descriptions", "rules", "city", "owner", "longitude", "latitude"
+            "descriptions", "rules", "city", "owner", "longitude", "latitude", "hotel_images"
         ]
+
+    @transaction.atomic
+    def create(self, validated_data):
+        hotel_images = validated_data.pop("hotel_images")
+        hotel = super().create(validated_data)
+        HotelService.bulk_create_hotel_images(hotel_images, hotel.id)
+        return hotel
 
 
 class HotelCardSerializer(ModelSerializer):

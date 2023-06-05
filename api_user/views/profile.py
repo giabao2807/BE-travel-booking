@@ -11,7 +11,7 @@ from api_user.permission import UserPermission
 from api_user.serializers import ProfileDetailSerializer
 from api_user.serializers.profile import MyProfileSerializer
 from api_user.services import ProfileService
-from base.services import ImageService
+from base.services import CloudinaryService
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
 load_dotenv()
@@ -36,7 +36,7 @@ class ProfileViewSet(BaseViewSet):
         user = request.user
         avatar = request.FILES.get('avatar')
         if avatar:
-            avatar_link = ImageService.upload_image(avatar, os.getenv('CLOUDINARY_AVATAR_FOLDER'))
+            avatar_link = CloudinaryService.upload_image(avatar, os.getenv('CLOUDINARY_AVATAR_FOLDER'))
             request.data['avatar'] = avatar_link
         serializer = MyProfileSerializer(user, data=request.data, partial=True)
         if serializer.is_valid(raise_exception=True):

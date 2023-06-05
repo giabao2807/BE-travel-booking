@@ -9,7 +9,7 @@ from api_general.models import Coupon
 from api_general.services import Utils
 from api_tour.models import Tour
 from api_user.models import Profile
-from base.services import ImageService
+from base.services import CloudinaryService
 from common.constants.api_booking import BookingStatus
 from common.constants.api_tour import TourImage
 from dotenv import load_dotenv
@@ -37,13 +37,13 @@ class TourService:
         data['owner'] = owner_id
 
         if cover_picture:
-            image_link = ImageService.upload_image(cover_picture, os.getenv('CLOUDINARY_TOUR_FOLDER'))
+            image_link = CloudinaryService.upload_image(cover_picture, os.getenv('CLOUDINARY_TOUR_FOLDER'))
             data['cover_picture'] = image_link
         else:
             data['cover_picture'] = TourImage.tour_image_default
 
         if tour_images:
-            tour_images_link = ImageService.upload_list_image(tour_images, os.getenv("CLOUDINARY_TOUR_FOLDER"))
+            tour_images_link = CloudinaryService.upload_list_image(tour_images, os.getenv("CLOUDINARY_TOUR_FOLDER"))
         return data, tour_images_link
 
     @classmethod
