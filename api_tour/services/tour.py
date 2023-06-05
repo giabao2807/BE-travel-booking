@@ -8,6 +8,7 @@ from api_booking.models import BookingReview
 from api_general.models import Coupon
 from api_general.services import Utils
 from api_tour.models import Tour
+from api_user.models import Profile
 from base.services import ImageService
 from common.constants.api_booking import BookingStatus
 from common.constants.api_tour import TourImage
@@ -44,6 +45,11 @@ class TourService:
         if tour_images:
             tour_images_link = ImageService.upload_list_image(tour_images, os.getenv("CLOUDINARY_TOUR_FOLDER"))
         return data, tour_images_link
+
+    @classmethod
+    def list_tour_by_partner(cls, owner: Profile):
+        tour_ft = Q(owner=owner)
+        return Tour.objects.filter(tour_ft)
 
     @classmethod
     def count_num_review(cls, tour: Tour):

@@ -1,4 +1,5 @@
 from django.db import transaction
+from django.db.models import Q
 from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -23,6 +24,7 @@ class TourViewSet(BaseViewSet):
 
     permission_map = {
         "create": [PartnerPermission],
+        "list_tour": [PartnerPermission],
         "list": [],
         "retrieve": [],
         "filter_by_date_city": [],
@@ -33,6 +35,7 @@ class TourViewSet(BaseViewSet):
     serializer_map = {
         'create': CreateTourSerializer,
         'list': CardTourSerializer,
+        'list_tour': CardTourSerializer,
         'filter_by_date_city': CardTourSerializer,
         'get_reviews': BookingReviewSerializer,
     }
@@ -47,6 +50,12 @@ class TourViewSet(BaseViewSet):
                 created_serializer = TourSerializer(tour)
             return Response(created_serializer.data, status=status.HTTP_201_CREATED)
         return ErrorResponse(ErrorResponseType.CANT_CREATE, params=["tour"])
+
+    @action(detail=False, methods=[HttpMethod.GET])
+    def list_tour(self, request, *args, **kwargs):
+        user = request.user
+        self.queryset = TourService.list_tour_by_partner(user)
+        return super().list(request, *args, **kwargs)
 
     @action(detail=False, methods=[HttpMethod.GET])
     def filter_by_date_city(self, request, *args, **kwargs):
