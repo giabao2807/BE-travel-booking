@@ -1,3 +1,4 @@
+from django.db import transaction
 from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -175,13 +176,19 @@ class HotelViewSet(BaseViewSet):
         return Response(data)
 
     @action(detail=True, methods=[HttpMethod.POST])
+    @transaction.atomic
     def create_rooms(self, request, *args, **kwargs):
         hotel = self.get_object()
         if hotel.owner != request.user:
             raise BoniException(ErrorType.INVALID, ["Hotel"])
+
         room_data_list = request.data
         if room_data_list and isinstance(room_data_list, list):
-            for room_data in room_data_list:
+            for idx, room_data in enumerate(room_data_list):
+                room_images = request.data.get(f"list_room_image_{idx}")
+                if not room_images:
+                    raise BoniException(ErrorType.EMPTY_VN, ["Hình ảnh phòng khách sạn"])
+                room_data["room_images"] = room_images
                 room_data["hotel"] = hotel.id
             serializer = self.get_serializer(data=room_data_list, many=True)
             if serializer.is_valid(raise_exception=True):

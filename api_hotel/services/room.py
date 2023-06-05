@@ -1,4 +1,4 @@
-from api_hotel.models import Hotel, Room
+from api_hotel.models import Hotel, Room, RoomImage
 
 
 class RoomService:
@@ -12,3 +12,9 @@ class RoomService:
     def get_room_cards(cls, room_ids):
         room_cards = Room.objects.filter(id__in=room_ids)
         return room_cards
+
+    @classmethod
+    def bulk_create_room_images(cls, room_images: list, room_id):
+        from api_general.services import ImageService
+
+        ImageService.bulk_create_related_model_images(room_images, RoomImage, "room_id", room_id)

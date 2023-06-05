@@ -1,7 +1,9 @@
+from django.db import transaction
 from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer, Serializer
 
-from api_hotel.models import Room
+from api_hotel.models import Room, RoomImage
+from api_hotel.services import RoomService
 
 
 class RoomSerializer(ModelSerializer):
@@ -16,13 +18,22 @@ class CURoomSerializer(ModelSerializer):
     beds = serializers.CharField(max_length=255, required=True, allow_null=False, allow_blank=False)
     price = serializers.IntegerField(required=True, allow_null=False)
     square = serializers.CharField(max_length=255, required=True, allow_null=False, allow_blank=False)
+    room_images = serializers.ListField(required=True, write_only=True)
 
     class Meta:
         model = Room
         fields = [
             "id", "name", "beds", "adults", "children", "description",
-            "price", "square", "hotel", "quantity", "benefit"
+            "price", "square", "hotel", "quantity", "benefit", "room_images"
         ]
+
+    @transaction.atomic
+    def create(self, validated_data):
+        room_images = validated_data.pop("room_images", [])
+        room = super().create(validated_data)
+        RoomService.bulk_create_room_images(room_images, RoomImage, "room_id", room.id)
+
+        return room
 
 
 class AvailableRoomSerializer(Serializer):
