@@ -11,6 +11,20 @@ class RoomSerializer(ModelSerializer):
         exclude = ['is_active', 'hotel']
 
 
+class CURoomSerializer(ModelSerializer):
+    name = serializers.CharField(max_length=255, required=True, allow_null=False, allow_blank=False)
+    beds = serializers.CharField(max_length=255, required=True, allow_null=False, allow_blank=False)
+    price = serializers.IntegerField(required=True, allow_null=False)
+    square = serializers.CharField(max_length=255, required=True, allow_null=False, allow_blank=False)
+
+    class Meta:
+        model = Room
+        fields = [
+            "id", "name", "beds", "adults", "children", "description",
+            "price", "square", "hotel", "quantity", "benefit"
+        ]
+
+
 class AvailableRoomSerializer(Serializer):
     id = serializers.UUIDField()
     name = serializers.CharField(max_length=255)
