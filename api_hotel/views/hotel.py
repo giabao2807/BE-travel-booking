@@ -6,9 +6,12 @@ from api_booking.services import BookingReviewService
 from api_general.consts import DatetimeFormatter
 from api_general.services import Utils
 from api_hotel.models import Hotel
-from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer, HotelReviewSerializer, HotelCardSerializer
+from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer, HotelReviewSerializer, HotelCardSerializer, \
+    CUHotelSerializer
 from api_hotel.services import HotelService
 from api_user.permission import UserPermission
+from base.consts.cloudinary import CloudinaryFolder
+from base.services import ImageService
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
 
@@ -25,10 +28,21 @@ class HotelViewSet(BaseViewSet):
         "get_reviews": []
     }
     serializer_map = {
+        "create": CUHotelSerializer,
         "list": HotelCardSerializer,
         "get_available_rooms": AvailableRoomSerializer,
         "get_reviews": HotelReviewSerializer
     }
+
+    def create(self, request, *args, **kwargs):
+        data = request.data
+        data["owner"] = request.user.id
+        cover_picture = data.pop("cover_picture", None)
+        if cover_picture:
+            cover_picture_link = ImageService.upload_image(cover_picture[0], CloudinaryFolder.HOTEL_COVER_PICTURE.value)
+            data["cover_picture"] = cover_picture_link
+
+        return super().create(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
         [hotel_id_queryset, _order_by] = HotelService.get_filter_query(request)

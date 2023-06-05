@@ -29,6 +29,16 @@ class HotelSerializer(ModelSerializer):
         return ret
 
 
+class CUHotelSerializer(ModelSerializer):
+
+    class Meta:
+        model = Hotel
+        fields = [
+            "id", "cover_picture", "name", "address",
+            "descriptions", "rules", "city", "owner", "longitude", "latitude"
+        ]
+
+
 class HotelCardSerializer(ModelSerializer):
     num_review = serializers.IntegerField()
     rate_average = serializers.FloatField(read_only=True)
