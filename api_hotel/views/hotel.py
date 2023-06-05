@@ -108,7 +108,9 @@ class HotelViewSet(BaseViewSet):
         else:
             available_rooms = HotelService.get_room_amounts(hotel.id)
             for _room in available_rooms:
-                _room["list_images"] = _room.get("list_images", "").split(",")
+                list_room_images = _room.get("list_images", "")
+                if list_room_images:
+                    _room["list_images"] = list_room_images.split(",")
         data = self.get_serializer(available_rooms, many=True).data
 
         return Response(data)
