@@ -100,7 +100,7 @@ class ProfileService:
                                               os.getenv('DEFAULT_PASSWORD'))
         user = Profile(**user_data)
         user.role = default_role
-        # user.save()
+        user.save()
         cls.send_mail(email=user.email, name=f'{user.first_name} {user.last_name}',
                       send_email=True, password=password, base_link=os.getenv('FE_BASE_LINK'))
         return user

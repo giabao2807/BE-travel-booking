@@ -1,12 +1,19 @@
+import os
 from datetime import datetime
 
 from django.db.models import Q, QuerySet, Sum
 
 from api_booking.consts import BookingType
+from api_booking.models import BookingReview
 from api_general.models import Coupon
 from api_general.services import Utils
 from api_tour.models import Tour
+from base.services import ImageService
 from common.constants.api_booking import BookingStatus
+from common.constants.api_tour import TourImage
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class TourService:
@@ -19,6 +26,28 @@ class TourService:
         print(Utils.get_raw_query(tour_qs))
 
         return tour_qs
+
+    @classmethod
+    def init_data_tour(cls, request):
+        data = request.data.dict()
+        cover_picture = request.FILES.get('cover_picture')
+        tour_images = request.FILES.getlist("tour_images")
+        owner_id = request.user.id
+        data['owner'] = owner_id
+
+        if cover_picture:
+            image_link = ImageService.upload_image(cover_picture, os.getenv('CLOUDINARY_TOUR_FOLDER'))
+            data['cover_picture'] = image_link
+        else:
+            data['cover_picture'] = TourImage.tour_image_default
+
+        if tour_images:
+            tour_images_link = ImageService.upload_list_image(tour_images, os.getenv("CLOUDINARY_TOUR_FOLDER"))
+        return data, tour_images_link
+
+    @classmethod
+    def count_num_review(cls, tour: Tour):
+        return BookingReview.objects.filter(booking__booking_item__tour=tour).count()
 
     @classmethod
     def get_current_coupon(cls, tour_id: str) -> Coupon:

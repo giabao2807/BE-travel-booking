@@ -1,3 +1,4 @@
+from django.db import transaction
 from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -7,11 +8,12 @@ from api_booking.services import BookingReviewService
 from api_general.services import Utils
 from api_tour.models import Tour
 from api_tour.serializers import TourSerializer, CardTourSerializer
-from api_tour.services import TourService
+from api_tour.serializers.tour import CreateTourSerializer
+from api_tour.services import TourService, TourImageService
 from api_tour.services.view import TourViewService
-from api_user.permission import UserPermission
+from api_user.permission import UserPermission, PartnerPermission
 from base.views import BaseViewSet
-from common.constants.base import HttpMethod
+from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
 
 
 class TourViewSet(BaseViewSet):
@@ -20,6 +22,7 @@ class TourViewSet(BaseViewSet):
     permission_classes = [UserPermission]
 
     permission_map = {
+        "create": [PartnerPermission],
         "list": [],
         "retrieve": [],
         "filter_by_date_city": [],
@@ -28,10 +31,22 @@ class TourViewSet(BaseViewSet):
     }
 
     serializer_map = {
+        'create': CreateTourSerializer,
         'list': CardTourSerializer,
         'filter_by_date_city': CardTourSerializer,
         'get_reviews': BookingReviewSerializer,
     }
+
+    def create(self, request, *args, **kwargs):
+        data, tour_images_link = TourService.init_data_tour(request)
+        serializer = self.get_serializer(data=data)
+        if serializer.is_valid(raise_exception=True):
+            with transaction.atomic():
+                tour = serializer.save()
+                TourImageService.create_tour_image(tour, tour_images_link)
+                created_serializer = TourSerializer(tour)
+            return Response(created_serializer.data, status=status.HTTP_201_CREATED)
+        return ErrorResponse(ErrorResponseType.CANT_CREATE, params=["tour"])
 
     @action(detail=False, methods=[HttpMethod.GET])
     def filter_by_date_city(self, request, *args, **kwargs):

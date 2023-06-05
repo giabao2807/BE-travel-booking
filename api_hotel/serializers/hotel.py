@@ -2,6 +2,7 @@ from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
 from api_hotel.models import Hotel
+from api_hotel.services import HotelService
 
 
 class HotelSerializer(ModelSerializer):
@@ -24,7 +25,7 @@ class HotelSerializer(ModelSerializer):
 
     def to_representation(self, instance):
         ret = super().to_representation(instance)
-        ret['num_review'] = instance.hotel_reviews.count()
+        ret['num_review'] = HotelService.count_num_review(instance)
         ret['list_images'] = [i.image.link for i in instance.hotel_images.all()]
         return ret
 

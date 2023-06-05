@@ -7,6 +7,12 @@ from api_tour.models.tour_image import TourImage
 from api_tour.services import TourService
 
 
+class CreateTourSerializer(ModelSerializer):
+    class Meta:
+        model = Tour
+        exclude = ('rate', 'num_review', 'longitude', 'latitude')
+
+
 class TourSerializer(ModelSerializer):
     coupon_data = serializers.SerializerMethodField()
 
@@ -26,6 +32,7 @@ class TourSerializer(ModelSerializer):
     def to_representation(self, instance):
         ret = super().to_representation(instance)
         ret['city'] = instance.city.name if instance.city else 'Việt Nam'
+        ret['num_review'] = TourService.count_num_review(instance)
         ret['rate'] = 4.5
         tour_image = TourImage.objects.filter(tour=instance)
         ret['list_images'] = [image.image.link for image in tour_image]

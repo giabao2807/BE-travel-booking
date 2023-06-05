@@ -8,7 +8,6 @@ from api_general.consts import DatetimeFormatter
 from api_general.models import City, Coupon
 from api_general.services import Utils, CityService
 from api_hotel.models import Hotel, Room, HotelCoupon
-from api_hotel.serializers import AvailableRoomSerializer
 from base.query import GroupConcat
 from common.constants.api_booking import BookingStatus
 
@@ -146,6 +145,7 @@ class HotelService:
         Example:
 
         """
+        from api_hotel.serializers import AvailableRoomSerializer
         room_ft = Q(is_active=True)
         if hotel_id:
             room_ft &= Q(hotel_id=hotel_id)
@@ -198,6 +198,12 @@ class HotelService:
             coupon_mapping[hotel_id] = max(discount_percent, for_all_discount_percent)
 
         return coupon_mapping
+
+    @classmethod
+    def count_num_review(cls, hotel: Hotel):
+        from api_booking.models import BookingReview
+        return hotel.hotel_reviews.count() \
+               + BookingReview.objects.filter(booking__booking_item__room__hotel__id=hotel.id).count()
 
     @classmethod
     def get_filter_query(cls, request):
