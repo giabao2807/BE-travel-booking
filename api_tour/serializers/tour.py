@@ -46,7 +46,8 @@ class CardTourSerializer(ModelSerializer):
         model = Tour
         fields = ('id', 'name', 'cover_picture', 'group_size',
                   'total_days', 'language_tour', 'price',
-                  'rate', 'city', 'departure', 'traffics', "coupon_data")
+                  'rate', 'city', 'departure', 'traffics', "coupon_data",
+                  "is_active")
 
     def get_coupon_data(self, instance):
         _id = instance.id if isinstance(instance, Tour) else instance.get("id")

@@ -18,7 +18,7 @@ from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
 
 
 class TourViewSet(BaseViewSet):
-    queryset = Tour.objects.all()
+    queryset = Tour.objects.all().filter(is_active=True)
     serializer_class = TourSerializer
     permission_classes = [UserPermission]
 
@@ -56,6 +56,16 @@ class TourViewSet(BaseViewSet):
         user = request.user
         self.queryset = TourService.list_tour_by_partner(user)
         return super().list(request, *args, **kwargs)
+
+    @action(detail=True, methods=[HttpMethod.PUT])
+    def deactivate(self, request, *args, **kwargs):
+        tour = self.get_object()
+        user = request.user
+        if TourService.check_deactive_tour(tour, user):
+            tour.is_active = False
+            tour.save()
+            return Response({"message": "Vô hiệu hoá thành công tour!"}, status=status.HTTP_200_OK)
+        return Response({"message": "Tour đang được book, không thể deactive"}, status=status.HTTP_400_BAD_REQUEST)
 
     @action(detail=False, methods=[HttpMethod.GET])
     def filter_by_date_city(self, request, *args, **kwargs):

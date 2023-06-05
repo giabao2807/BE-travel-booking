@@ -4,7 +4,7 @@ from datetime import datetime
 from django.db.models import Q, QuerySet, Sum
 
 from api_booking.consts import BookingType
-from api_booking.models import BookingReview
+from api_booking.models import BookingReview, Booking
 from api_general.models import Coupon
 from api_general.services import Utils
 from api_tour.models import Tour
@@ -54,6 +54,17 @@ class TourService:
     @classmethod
     def count_num_review(cls, tour: Tour):
         return BookingReview.objects.filter(booking__booking_item__tour=tour).count()
+
+    @classmethod
+    def check_deactive_tour(cls, tour: Tour, partner: Profile):
+        is_valid = True
+        if tour.owner.id != partner.id:
+            return False
+        bookings = Booking.objects.filter(booking_item__tour=tour)
+        for booking in bookings:
+            if booking.status == BookingStatus.PAID:
+                return False
+        return is_valid
 
     @classmethod
     def get_current_coupon(cls, tour_id: str) -> Coupon:
