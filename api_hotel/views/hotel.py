@@ -176,24 +176,11 @@ class HotelViewSet(BaseViewSet):
         return Response(data)
 
     @action(detail=True, methods=[HttpMethod.POST])
-    @transaction.atomic
     def create_rooms(self, request, *args, **kwargs):
         hotel = self.get_object()
         if hotel.owner != request.user:
             raise BoniException(ErrorType.INVALID, ["Hotel"])
+        room_data = request.data
+        room_data["hotel"] = hotel.id
 
-        room_data_list = request.data
-        if room_data_list and isinstance(room_data_list, list):
-            for idx, room_data in enumerate(room_data_list):
-                room_images = request.data.get(f"list_room_image_{idx}")
-                if not room_images:
-                    raise BoniException(ErrorType.EMPTY_VN, ["Hình ảnh phòng khách sạn"])
-                room_data["room_images"] = room_images
-                room_data["hotel"] = hotel.id
-            serializer = self.get_serializer(data=room_data_list, many=True)
-            if serializer.is_valid(raise_exception=True):
-                serializer.save()
-
-            return Response(dict(message="Created successfully!"), status=status.HTTP_201_CREATED)
-
-        return Response(dict(error_message="Invalid room data"), status=status.HTTP_400_BAD_REQUEST)
+        return super().create(request, *args, **kwargs)

@@ -18,7 +18,7 @@ class CURoomSerializer(ModelSerializer):
     beds = serializers.CharField(max_length=255, required=True, allow_null=False, allow_blank=False)
     price = serializers.IntegerField(required=True, allow_null=False)
     square = serializers.CharField(max_length=255, required=True, allow_null=False, allow_blank=False)
-    room_images = serializers.ListField(required=True, write_only=True)
+    room_images = serializers.ListField(child=serializers.FileField(), required=True, write_only=True)
 
     class Meta:
         model = Room
@@ -31,7 +31,7 @@ class CURoomSerializer(ModelSerializer):
     def create(self, validated_data):
         room_images = validated_data.pop("room_images", [])
         room = super().create(validated_data)
-        RoomService.bulk_create_room_images(room_images, RoomImage, "room_id", room.id)
+        RoomService.bulk_create_room_images(room_images, room.id)
 
         return room
 
