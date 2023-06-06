@@ -3,6 +3,9 @@ from datetime import timedelta
 from django.db.models import Sum
 
 from api_booking.models import Booking
+from api_hotel.models import Hotel
+from api_tour.models import Tour
+from api_user.models import Profile
 from api_user.statics import RoleData
 from common.constants.api_booking import BookingStatus
 
@@ -55,3 +58,71 @@ class StatisticService:
             "details": date_statistic,
         }
         return response
+
+    @classmethod
+    def get_box_dashboard(cls, user):
+        if user.role.id.hex == RoleData.PARTNER.value.get('id'):
+            res = cls.get_partner_box_dashboard(user)
+        else:
+            res = cls.get_admin_box_dashboard()
+        return res
+
+    @classmethod
+    def get_admin_box_dashboard(cls):
+        accept_status = [BookingStatus.PAID, BookingStatus.COMPLETED]
+        error_status = [BookingStatus.UNPAID, BookingStatus.CANCELED]
+        booking_success = Booking.objects.filter(status__in=accept_status).count()
+        booking_error = Booking.objects.filter(status__in=error_status).count()
+        tour = Tour.objects.filter().count()
+        hotel = Hotel.objects.filter().count()
+        customer = Profile.objects.filter(role__id=RoleData.CUSTOMER.value.get('id')).count()
+        partner = Profile.objects.filter(role__id=RoleData.PARTNER.value.get('id')).count()
+
+        res = [
+            {"key": "booking_success", "title": "Booking", "color": "#ffa39e",
+             "value": booking_success, "rateString": "thành công"},
+            {"key": "booking_error", "title": "Booking", "color": "#91caff",
+             "value": booking_error, "rateString": "gián đoạn"},
+            {"key": "tour", "title": "Tổng số tour", "color": "#ff7a45",
+             "value": tour, "rateString": "hiện tại"},
+            {"key": "hotel", "title": "Tổng số hotel", "color": "#135200",
+             "value": hotel, "rateString": "hiện tại"},
+            {"key": "customer", "title": "Tổng khách hàng", "color": "#87CEFA",
+             "value": customer, "rateString": "hiện tại"},
+            {"key": "partner", "title": "Tổng đối tác", "color": "#87CEFA",
+             "value": partner, "rateString": "hiện tại"}
+        ]
+
+        return res
+
+    @classmethod
+    def get_partner_box_dashboard(cls, user):
+        accept_status = [BookingStatus.PAID, BookingStatus.COMPLETED]
+        error_status = [BookingStatus.UNPAID, BookingStatus.CANCELED]
+        booking_success = Booking.objects.filter(booking_item__tour__owner__id=user.id,
+                                                 status__in=accept_status).count() \
+                            + Booking.objects.filter(booking_item__room__hotel__owner__id=user.id,
+                                                     status__in=accept_status).count()
+        booking_error = Booking.objects.filter(booking_item__tour__owner__id=user.id,
+                                                 status__in=error_status).count() \
+                            + Booking.objects.filter(booking_item__room__hotel__owner__id=user.id,
+                                                     status__in=error_status).count()
+        tour = Tour.objects.filter(owner__id=user.id).count()
+        hotel = Hotel.objects.filter(owner__id=user.id).count()
+        tours = Booking.objects.filter(booking_item__tour__owner__id=user.id)
+        hotels = Booking.objects.filter(booking_item__room__hotel__owner__id=user.id)
+        total_cus = set([tour.customer.id for tour in tours] + [hotel.customer.id for hotel in hotels])
+        res = [
+            {"key": "booking_success", "title": "Booking", "color": "#ffa39e",
+             "value": booking_success, "rateString": "thành công"},
+            {"key": "booking_error", "title": "Booking", "color": "#91caff",
+             "value": booking_error, "rateString": "gián đoạn"},
+            {"key": "tour", "title": "Tổng số tour", "color": "#ff7a45",
+             "value": tour, "rateString": "hiện tại"},
+            {"key": "hotel", "title": "Tổng số hotel", "color": "#135200",
+             "value": hotel, "rateString": "hiện tại"},
+            {"key": "customer", "title": "Tổng khách hàng", "color": "#87CEFA",
+             "value": len(total_cus), "rateString": "hiện tại"}
+        ]
+
+        return res

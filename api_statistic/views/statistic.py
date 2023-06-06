@@ -15,16 +15,11 @@ from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
 
 
 class StatisticViewSet(BaseViewSet):
-    queryset = Tour.objects.all().filter(is_active=True)
-    serializer_class = TourSerializer
     permission_classes = [PartnerPermission]
 
     permission_map = {
         "revenue_by_date": [PartnerPermission],
-    }
-
-    serializer_map = {
-        'revenue_by_date': CardTourSerializer,
+        "revenue_by_date": [PartnerPermission],
     }
 
     @action(detail=False, methods=[HttpMethod.GET])
@@ -42,3 +37,8 @@ class StatisticViewSet(BaseViewSet):
 
         return Response(statistics, status=status.HTTP_200_OK)
 
+    @action(detail=False, methods=[HttpMethod.GET])
+    def box_dashboard(self, request, *args, **kwargs):
+        user = request.user
+        res = StatisticService.get_box_dashboard(user)
+        return Response(res, status=status.HTTP_200_OK)
