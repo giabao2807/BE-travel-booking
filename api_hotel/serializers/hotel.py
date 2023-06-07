@@ -4,6 +4,8 @@ from rest_framework.serializers import ModelSerializer
 
 from api_hotel.models import Hotel
 from api_hotel.services import HotelService
+from base.consts.cloudinary import CloudinaryFolder
+from base.services import CloudinaryService
 
 
 class HotelSerializer(ModelSerializer):
@@ -33,6 +35,7 @@ class HotelSerializer(ModelSerializer):
 
 class CUHotelSerializer(ModelSerializer):
     hotel_images = serializers.ListField(child=serializers.FileField(), required=True, write_only=True)
+    cover_picture = serializers.FileField(required=True, write_only=True)
 
     class Meta:
         model = Hotel
@@ -42,10 +45,22 @@ class CUHotelSerializer(ModelSerializer):
         ]
 
     @transaction.atomic
-    def create(self, validated_data):
+    def save(self, **kwargs):
+        validated_data = self.validated_data
         hotel_images = validated_data.pop("hotel_images")
-        hotel = super().create(validated_data)
+        cover_picture = validated_data.pop("cover_picture")
+        cover_picture_link = CloudinaryService.upload_image(
+            cover_picture,
+            CloudinaryFolder.HOTEL_COVER_PICTURE.value
+        )
+        validated_data["cover_picture"] = cover_picture_link
+
+        hotel: Hotel = super().save(**kwargs)
+
+        if self.instance:
+            hotel.hotel_images.all().delete()
         HotelService.bulk_create_hotel_images(hotel_images, hotel.id)
+
         return hotel
 
 

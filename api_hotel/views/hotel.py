@@ -33,6 +33,7 @@ class HotelViewSet(BaseViewSet):
     }
     serializer_map = {
         "create": CUHotelSerializer,
+        "update": CUHotelSerializer,
         "list": HotelCardSerializer,
         "get_available_rooms": AvailableRoomSerializer,
         "get_reviews": HotelReviewSerializer,
@@ -42,14 +43,17 @@ class HotelViewSet(BaseViewSet):
     def create(self, request, *args, **kwargs):
         data = request.data
         data["owner"] = request.user.id
-        cover_picture = data.pop("cover_picture", None)
-        if not cover_picture:
-            raise BoniException(ErrorType.EMPTY_VN, ["Hình ảnh bìa"])
-
-        cover_picture_link = CloudinaryService.upload_image(cover_picture[0], CloudinaryFolder.HOTEL_COVER_PICTURE.value)
-        data["cover_picture"] = cover_picture_link
 
         return super().create(request, *args, **kwargs)
+
+    def update(self, request, *args, **kwargs):
+        data = request.data
+        hotel = self.get_object()
+        data["owner"] = request.user.id
+        if hotel.owner != request.user:
+            raise BoniException(ErrorType.GENERAL, ["Bạn không là chủ khách sạn này"])
+
+        return super().update(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
         [hotel_id_queryset, _order_by] = HotelService.get_filter_query(request)

@@ -20,4 +20,3 @@ class GeneralService:
             hotel_cards = HotelService.get_hotel_cards(list_hotel_ids)
             data = HotelCardSerializer(hotel_cards, many=True).data
         return data
-
