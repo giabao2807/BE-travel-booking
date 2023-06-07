@@ -10,7 +10,7 @@ class ProfileDetailSerializer(ModelSerializer):
         exclude = ['password', 'is_active']
 
 
-class MyProfileSerializer(ModelSerializer):
+class BasicProfileSerializer(ModelSerializer):
     email = serializers.EmailField(read_only=True)
 
     class Meta:

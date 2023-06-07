@@ -10,17 +10,13 @@ from api_tour.models import Tour
 from api_tour.serializers import TourSerializer, CardTourSerializer
 from api_tour.services import TourService
 from api_user.permission import PartnerPermission
+from api_user.serializers import BasicProfileSerializer
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
 
 
 class StatisticViewSet(BaseViewSet):
     permission_classes = [PartnerPermission]
-
-    permission_map = {
-        "revenue_by_date": [PartnerPermission],
-        "revenue_by_date": [PartnerPermission],
-    }
 
     @action(detail=False, methods=[HttpMethod.GET])
     def revenue_by_date(self, request, *args, **kwargs):
@@ -42,3 +38,10 @@ class StatisticViewSet(BaseViewSet):
         user = request.user
         res = StatisticService.get_box_dashboard(user)
         return Response(res, status=status.HTTP_200_OK)
+
+    @action(detail=False, methods=[HttpMethod.GET])
+    def get_potential_customers(self, request, *args, **kwargs):
+        user = request.user
+        user = StatisticService.get_potential_customers(user)
+        data = BasicProfileSerializer(user, many=True).data
+        return Response(data, status=status.HTTP_200_OK)

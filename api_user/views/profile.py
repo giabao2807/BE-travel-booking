@@ -9,7 +9,7 @@ from rest_framework.response import Response
 from api_user.models.profile import Profile
 from api_user.permission import UserPermission
 from api_user.serializers import ProfileDetailSerializer
-from api_user.serializers.profile import MyProfileSerializer
+from api_user.serializers.profile import BasicProfileSerializer
 from api_user.services import ProfileService
 from base.services import CloudinaryService
 from base.views import BaseViewSet
@@ -22,14 +22,14 @@ class ProfileViewSet(BaseViewSet):
     queryset = Profile.objects.all()
     serializer_class = ProfileDetailSerializer
     serializer_map = {
-        "infor": MyProfileSerializer
+        "infor": BasicProfileSerializer
     }
     permission_classes = [UserPermission]
 
     @action(detail=False, methods=[HttpMethod.GET])
     def info(self, request, *args, **kwargs):
         user = request.user
-        serializer = MyProfileSerializer(user)
+        serializer = BasicProfileSerializer(user)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
     def update(self, request, *args, **kwargs):
@@ -38,7 +38,7 @@ class ProfileViewSet(BaseViewSet):
         if avatar:
             avatar_link = CloudinaryService.upload_image(avatar, os.getenv('CLOUDINARY_AVATAR_FOLDER'))
             request.data['avatar'] = avatar_link
-        serializer = MyProfileSerializer(user, data=request.data, partial=True)
+        serializer = BasicProfileSerializer(user, data=request.data, partial=True)
         if serializer.is_valid(raise_exception=True):
             self.perform_update(serializer)
             return Response(serializer.data, status=status.HTTP_200_OK)

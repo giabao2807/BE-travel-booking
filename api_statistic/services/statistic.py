@@ -8,6 +8,7 @@ from api_tour.models import Tour
 from api_user.models import Profile
 from api_user.statics import RoleData
 from common.constants.api_booking import BookingStatus
+import collections
 
 
 class StatisticService:
@@ -126,3 +127,42 @@ class StatisticService:
         ]
 
         return res
+
+    @classmethod
+    def get_potential_customers(cls, user):
+        if user.role.id.hex == RoleData.PARTNER.value.get('id'):
+            customers = cls.get_potential_customers_for_partner(user)
+        else:
+            customers = cls.get_potential_customers_sys()
+        return customers
+
+    @classmethod
+    def get_potential_customers_for_partner(cls, user):
+        accept_status = [BookingStatus.PAID, BookingStatus.COMPLETED]
+        tours = Booking.objects.filter(booking_item__tour__owner__id=user.id,
+                                       status__in=accept_status)
+        hotels = Booking.objects.filter(booking_item__room__hotel__owner__id=user.id,
+                                        status__in=accept_status)
+        return cls.get_potential_customer_by_tours_hotel(tours, hotels)
+
+    @classmethod
+    def get_potential_customers_sys(cls):
+        accept_status = [BookingStatus.PAID, BookingStatus.COMPLETED]
+        tours = Booking.objects.filter(status__in=accept_status)
+        hotels = Booking.objects.filter(status__in=accept_status)
+        return cls.get_potential_customer_by_tours_hotel(tours, hotels)
+
+    @classmethod
+    def get_potential_customer_by_tours_hotel(cls, tours, hotels):
+        customer_ids = [tour.customer.id for tour in tours] + [hotel.customer.id for hotel in hotels]
+        customer_count = collections.Counter(customer_ids)
+        customer_sorted = sorted(customer_count.items(), key=lambda x: x[1], reverse=True)
+        customer_ids_rs = [item[0] for item in customer_sorted]
+        customers = Profile.objects.filter(id__in=customer_ids_rs)
+        potential_customers = []
+        for cus_id in customer_ids_rs:
+            for cus in customers:
+                if cus.id == cus_id:
+                    potential_customers.append(cus)
+                    break
+        return potential_customers
