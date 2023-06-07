@@ -1,5 +1,3 @@
-from django.db import transaction
-from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
@@ -11,11 +9,9 @@ from api_hotel.models import Hotel
 from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer, HotelReviewSerializer, HotelCardSerializer, \
     CUHotelSerializer, CURoomSerializer
 from api_hotel.services import HotelService
-from api_user.permission import UserPermission
-from base.consts.cloudinary import CloudinaryFolder
+from api_user.permission import UserPermission, PartnerPermission
 from base.exceptions import BoniException
 from base.exceptions.base import ErrorType
-from base.services import CloudinaryService
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
 
@@ -27,14 +23,18 @@ class HotelViewSet(BaseViewSet):
 
     permission_map = {
         "list": [],
+        "create": [PartnerPermission],
+        "update": [PartnerPermission],
+        "belongs_to_partner": [PartnerPermission],
         "retrieve": [],
         "get_available_rooms": [],
-        "get_reviews": []
+        "get_reviews": [],
     }
     serializer_map = {
         "create": CUHotelSerializer,
         "update": CUHotelSerializer,
         "list": HotelCardSerializer,
+        "belongs_to_partner": HotelCardSerializer,
         "get_available_rooms": AvailableRoomSerializer,
         "get_reviews": HotelReviewSerializer,
         "create_rooms": CURoomSerializer,
@@ -59,6 +59,15 @@ class HotelViewSet(BaseViewSet):
         [hotel_id_queryset, _order_by] = HotelService.get_filter_query(request)
         paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, _order_by)
+        data = self.get_serializer(hotel_cards, many=True).data
+        return Response(self.get_paginated_response(data).data)
+
+    @action(detail=False, methods=[HttpMethod.GET])
+    def belongs_to_partner(self, request, *args, **kwargs):
+        order_by = "-created_at"
+        hotel_id_queryset = Hotel.objects.filter(owner=request.user).values_list("id", flat=True).order_by(order_by)
+        paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
+        hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, order_by)
         data = self.get_serializer(hotel_cards, many=True).data
         return Response(self.get_paginated_response(data).data)
 

@@ -43,7 +43,7 @@ class HotelService:
 
     @classmethod
     def get_hotel_cards(cls, hotel_ids: Union[List[str], str],
-                        _order_by: Union[str, None]= None):
+                        _order_by: Union[str, None] = None):
         if isinstance(hotel_ids, Iterable):
             ft = Q(id__in=hotel_ids)
         else:
