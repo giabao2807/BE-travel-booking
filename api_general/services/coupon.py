@@ -10,34 +10,39 @@ from api_tour.models import TourCoupon
 class CouponService:
     @classmethod
     @transaction.atomic
-    def create(cls, coupon_data: dict) -> Coupon:
-        hotel_ids = coupon_data.pop("hotel_ids", [])
-        tour_ids = coupon_data.pop("tour_ids", [])
-        hotel_coupons: List[HotelCoupon] = []
-        tour_coupons: List[TourCoupon] = []
+    def create(cls, coupon_data: dict, hotel_ids, tour_ids) -> Coupon:
+        for_all = coupon_data.pop("for_all", False)
 
         coupon = Coupon(**coupon_data)
         coupon.save()
-        for _hotel_id in hotel_ids:
-            hotel_coupons.append(HotelCoupon(hotel_id=_hotel_id, coupon=coupon))
-        for _tour_id in tour_ids:
-            tour_coupons.append(TourCoupon(tour_id=_tour_id, coupon=coupon))
 
-        HotelCoupon.objects.bulk_create(hotel_coupons)
-        HotelCoupon.objects.bulk_create(tour_coupons)
+        if not for_all:
+            cls.refresh_hotel_tour_coupons(coupon, hotel_ids, tour_ids)
 
         return coupon
 
     @classmethod
     @transaction.atomic
     def update_related(cls, coupon: Coupon, coupon_data: dict):
+        for_all = coupon_data.pop("for_all", False)
         hotel_ids = coupon_data.pop("hotel_ids", [])
         tour_ids = coupon_data.pop("tour_ids", [])
-        current_hotel_ids: List[str] = coupon.hotel_coupons.values_list("hotel_id", flat=True)
-        current_tour_ids: List[str] = coupon.tour_coupons.values_list("tour_id", flat=True)
 
-        cls.sync_object_coupons(coupon, current_hotel_ids, hotel_ids, model_class=HotelCoupon)
-        cls.sync_object_coupons(coupon, current_tour_ids, tour_ids, model_class=TourCoupon)
+        coupon.hotel_coupons.all().delete()
+        coupon.tour_coupons.all().delete()
+        if not for_all:
+            cls.refresh_hotel_tour_coupons(coupon, hotel_ids, tour_ids)
+
+    @classmethod
+    def refresh_hotel_tour_coupons(cls, coupon, hotel_ids, tour_ids):
+        hotel_coupons: List[HotelCoupon] = []
+        tour_coupons: List[TourCoupon] = []
+        for _hotel_id in hotel_ids:
+            hotel_coupons.append(HotelCoupon(hotel_id=_hotel_id, coupon=coupon))
+        for _tour_id in tour_ids:
+            tour_coupons.append(TourCoupon(tour_id=_tour_id, coupon=coupon))
+        HotelCoupon.objects.bulk_create(hotel_coupons)
+        TourCoupon.objects.bulk_create(tour_coupons)
 
     @classmethod
     def sync_object_coupons(cls, coupon, current_object_ids: List[str], request_object_ids: List[str], model_class):

@@ -24,6 +24,10 @@ class RoleData(Enum):
     def id(self):
         return self.value.get("id")
 
+    @classmethod
+    def is_partner(cls, user):
+        return user.role_id.hex == cls.PARTNER.id
+
 
 ProfileData = {
     "customer_account": [

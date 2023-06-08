@@ -47,8 +47,8 @@ class CUCouponSerializer(ModelSerializer):
 
     def validate(self, attrs):
         for_all = attrs.get("for_all", False)
-        hotel_ids = attrs.get("hotel_ids", [])
-        tour_ids = attrs.get("tour_ids", [])
+        hotel_ids = self.initial_data.get("hotel_ids", [])
+        tour_ids = self.initial_data.get("tour_ids", [])
         start_date = attrs.get("start_date", "")
         end_date = attrs.get("end_date", "")
 
@@ -60,13 +60,15 @@ class CUCouponSerializer(ModelSerializer):
         return attrs
 
     def create(self, validated_data):
-        coupon = CouponService.create(validated_data)
+        hotel_ids = self.initial_data.get("hotel_ids", [])
+        tour_ids = self.initial_data.get("tour_ids", [])
+        coupon = CouponService.create(validated_data, hotel_ids, tour_ids)
 
         return coupon
 
     def update(self, instance, validated_data):
-        hotel_ids = validated_data.pop("hotel_ids", [])
-        tour_ids = validated_data.pop("tour_ids", [])
+        hotel_ids = self.initial_data.get("hotel_ids", [])
+        tour_ids = self.initial_data.get("tour_ids", [])
         coupon_data = dict(hotel_ids=hotel_ids, tour_ids=tour_ids)
 
         instance = super().update(instance, validated_data)
