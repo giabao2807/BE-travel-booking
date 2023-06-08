@@ -29,7 +29,7 @@
         overflow: hidden;
       "
     >
-      We're thrilled to infor you your booking was canceled!
+      We're thrilled to remind you your upcoming travel!
     </div>
     ​
     <table style="border: 0; padding: 0; width: 100%; border-spacing: 0">
@@ -147,10 +147,10 @@
                   >
                     <p style="margin: 0">Dear <b>{{ user_name }}</b>,</p>
                     <p>
-                        Sorry for the inconvenience. We are sending this email to inform you that
-                        your booking has been canceled due to overdue payment time allowed by the system.
+                        Thank you for your booking! We, at Boni Travel Organization,
+                        send mail you to remind upcoming travel in the next day!
                     </p>
-                    <p>Check for your booking canceled:</p>
+                    <p>Check for your upcoming travel:</p>
                     <ul>
                         {% if type_booking == 1 %}
                             <li>Type:  Hotel </li>
@@ -164,7 +164,7 @@
                         {% else %}
                             <li>Total price: {{ total_price }}</li>
                         {% endif %}
-                        <li>Status: Canceled</li>
+                        <li>Status: PAID</li>
                     </ul>
                   </td>
                 </tr>

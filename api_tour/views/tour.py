@@ -65,7 +65,14 @@ class TourViewSet(BaseViewSet):
             tour.is_active = False
             tour.save()
             return Response({"message": "Vô hiệu hoá thành công tour!"}, status=status.HTTP_200_OK)
-        return Response({"message": "Tour đang được book, không thể deactive"}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({"message": "Tour đang được book, không thể vô hiệu hoá"}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(detail=True, methods=[HttpMethod.PUT])
+    def activate(self, request, *args, **kwargs):
+        tour = self.get_object()
+        tour.is_active = False
+        tour.save()
+        return Response({"message": "Kích hoạt hoá thành công tour!"}, status=status.HTTP_200_OK)
 
     @action(detail=False, methods=[HttpMethod.GET])
     def filter_by_date_city(self, request, *args, **kwargs):

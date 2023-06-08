@@ -220,6 +220,44 @@ class BookingService:
             )
 
     @classmethod
+    def send_mail_booking_error(cls, booking: Booking):
+        email, type_booking, user_name, booking_name, total_price = cls.get_sum_info_booking(booking)
+        content = render_to_string(
+            "booking_error.html",
+            {"type_booking": type_booking, "user_name": user_name, "booking_name": booking_name,
+             "total_price": total_price, "link": os.getenv('BOOKING_LINK')},
+        )
+        SendMail.start(
+            [email], "[BOOKING CANCELED] Information about your booking!", content
+        )
+
+    @classmethod
+    def send_mail_remind_booking(cls, booking: Booking):
+        email, type_booking, user_name, booking_name, total_price = cls.get_sum_info_booking(booking)
+        content = render_to_string(
+            "remind_booking.html",
+            {"type_booking": type_booking, "user_name": user_name, "booking_name": booking_name,
+             "total_price": total_price, "link": os.getenv('BOOKING_LINK')},
+        )
+        SendMail.start(
+            [email], "[REMIND BOOKING] Remind for your upcoming travel!", content
+        )
+
+    @classmethod
+    def get_sum_info_booking(cls, booking: Booking):
+        booking_item = BookingItem.objects.filter(booking=booking).first()
+        email = booking.customer.email
+        type_booking = booking.type
+        user_name = f'{booking.customer.last_name} {booking.customer.first_name}'
+        booking_name = booking_item.tour.name if booking.type == 2 else booking_item.room.hotel.name
+        if booking.history_origin_price and booking.history_discount_price:
+            total_price = cls.get_total_price(booking.history_origin_price, booking.history_discount_price)
+        else:
+            total_price = "Chưa xác định"
+        return email, type_booking, user_name, booking_name, total_price
+
+
+    @classmethod
     def get_total_price(cls, original_price, discount_percent) -> int:
         total_price = original_price * (100 - discount_percent)/100
 
