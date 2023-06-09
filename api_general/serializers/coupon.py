@@ -40,7 +40,7 @@ class CUCouponSerializer(ModelSerializer):
         fields = "__all__"
 
     def validate_start_date(self, start_date):
-        if start_date.date() <= datetime.datetime.now().date():
+        if start_date.date() < datetime.datetime.now().date():
             raise ValidationError("start_date must greater than current date")
 
         return start_date

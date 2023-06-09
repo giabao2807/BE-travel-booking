@@ -5,9 +5,19 @@ from django.db import transaction
 from api_general.models import Coupon
 from api_hotel.models import HotelCoupon
 from api_tour.models import TourCoupon
+from api_user.models import Profile
+from api_user.statics import RoleData
 
 
 class CouponService:
+    @classmethod
+    def get_coupon_by_user(cls, user: Profile):
+        if user.role.id.hex == RoleData.ADMIN.value.get('id'):
+            queryset = Coupon.objects.all().order_by("-created_at")
+        else:
+            queryset = Coupon.objects.filter(created_by=user)
+        return queryset
+
     @classmethod
     @transaction.atomic
     def create(cls, coupon_data: dict, hotel_ids, tour_ids) -> Coupon:

@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from api_general.models import Coupon
 from api_general.serializers import CouponSerializer
 from api_general.serializers.coupon import CUCouponSerializer
+from api_general.services.coupon import CouponService
 from api_user.permission import PartnerPermission
 from api_user.statics import RoleData
 from base.exceptions import BoniException
@@ -26,6 +27,12 @@ class CouponViewSet(BaseViewSet):
             request.data["for_all"] = False
 
         return super().create(request, *args, **kwargs)
+
+    def list(self, request, *args, **kwargs):
+        user = request.user
+        self.queryset = CouponService.get_coupon_by_user(user)
+
+        return super().list(request, *args, **kwargs)
 
     def update(self, request, *args, **kwargs):
         coupon = self.get_object()
