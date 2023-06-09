@@ -2,7 +2,7 @@ import os
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 
-from django.db.models import F
+from django.db.models import F, QuerySet, Q
 from django.template.loader import render_to_string
 from rest_framework.exceptions import ValidationError
 
@@ -16,6 +16,7 @@ from api_hotel.serializers import BookingHotelCardSerializer
 from api_hotel.services import HotelService
 from api_tour.models import Tour
 from api_tour.services import TourService
+from api_user.models import Profile
 from base.exceptions import BoniException
 from base.exceptions.base import ErrorType
 from base.services.send_mail import SendMail
@@ -323,5 +324,16 @@ class BookingService:
         return total_price_mapping
 
     @classmethod
-    def add_extra_data_tour(cls, booking_list: List[dict]):
-        pass
+    def get_bookings_qs_for_partner(cls, partner: Profile, booking_type: BookingType, status: str = None) -> QuerySet:
+        booking_ft = Q(type=booking_type)
+        if booking_type == BookingType.TOUR:
+            booking_ft &= Q(booking_item__tour__owner=partner)
+        else:
+            booking_ft &= Q(booking_item__room__hotel__owner=partner)
+
+        if status:
+            booking_ft &= Q(status=status)
+        unique_booking_ids = Booking.objects.filter(booking_ft).values_list("id", flat=True).distinct()
+        booking_qs = Booking.objects.filter(id__in=unique_booking_ids).order_by("-created_at")
+
+        return booking_qs

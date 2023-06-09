@@ -12,7 +12,7 @@ from api_booking.services.booking import BookingService
 from api_general.services import Utils
 from api_general.services.vnpay import VNPayTransaction
 from api_user.models import Profile
-from api_user.permission import UserPermission
+from api_user.permission import UserPermission, PartnerPermission
 from api_user.statics import RoleData
 from base.exceptions import BoniException
 from base.exceptions.base import ErrorType
@@ -28,14 +28,15 @@ class BookingViewSet(BaseViewSet):
     permission_classes = [UserPermission]
 
     permission_map = {
-        "payment_callback": []
+        "payment_callback": [],
+        "for_partner": [PartnerPermission]
     }
     serializer_map = {
         "retrieve": ListBookingSerializer,
         "validate": CUBookingSerializer,
         "create": CUBookingSerializer,
     }
-    ignore_serializer_map_actions = ["list"]
+    ignore_serializer_map_actions = ["list", "for_partner"]
 
     def list(self, request, *args, **kwargs):
         _type = request.query_params.get("type")
@@ -114,3 +115,15 @@ class BookingViewSet(BaseViewSet):
 
         payment_link = BookingService.create_payment_link(booking, bank_code, client_ip, env)
         return Response(dict(payment_link=payment_link))
+
+    @action(detail=False, methods=[HttpMethod.GET])
+    def for_partner(self, request, *args, **kwargs):
+        booking_type = Utils.safe_int(request.query_params.get("type", None))
+
+        if not booking_type or booking_type not in BookingType.values:
+            return Response({"error_message": "Thiếu type trong request params"}, status=status.HTTP_400_BAD_REQUEST)
+
+        self.serializer_class = ListHotelBookingSerializer if booking_type == BookingType.HOTEL else ListTourBookingSerializer
+        self.queryset = BookingService.get_bookings_qs_for_partner(request.user, booking_type)
+
+        return super().list(request, *args, **kwargs)
