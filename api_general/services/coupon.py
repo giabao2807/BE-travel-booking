@@ -11,7 +11,7 @@ class CouponService:
     @classmethod
     @transaction.atomic
     def create(cls, coupon_data: dict, hotel_ids, tour_ids) -> Coupon:
-        for_all = coupon_data.pop("for_all", False)
+        for_all = coupon_data.get("for_all", False)
 
         coupon = Coupon(**coupon_data)
         coupon.save()
@@ -24,9 +24,9 @@ class CouponService:
     @classmethod
     @transaction.atomic
     def update_related(cls, coupon: Coupon, coupon_data: dict):
-        for_all = coupon_data.pop("for_all", False)
-        hotel_ids = coupon_data.pop("hotel_ids", [])
-        tour_ids = coupon_data.pop("tour_ids", [])
+        for_all = coupon_data.get("for_all", False)
+        hotel_ids = coupon_data.get("hotel_ids", [])
+        tour_ids = coupon_data.get("tour_ids", [])
 
         coupon.hotel_coupons.all().delete()
         coupon.tour_coupons.all().delete()
