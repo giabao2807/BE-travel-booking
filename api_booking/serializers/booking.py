@@ -10,6 +10,7 @@ from api_booking.services.booking import BookingService
 from api_hotel.serializers import BookingHotelCardSerializer
 from api_hotel.services import HotelService
 from api_tour.serializers import CardTourSerializer
+from api_user.serializers import BasicProfileSerializer
 
 
 class BookingSerializer(ModelSerializer):
@@ -43,7 +44,6 @@ class ListBookingSerializer(ModelSerializer):
                 tour = booking_item.tour
                 data["tour"] = CardTourSerializer(tour).data
             booking_items = list(instance.booking_item.all().values("quantity"))
-
         data["booking_items"] = booking_items
 
         return data
