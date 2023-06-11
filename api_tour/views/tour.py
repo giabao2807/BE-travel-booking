@@ -24,6 +24,7 @@ class TourViewSet(BaseViewSet):
 
     permission_map = {
         "create": [PartnerPermission],
+        "activate": [PartnerPermission],
         "list_tour": [PartnerPermission],
         "list": [],
         "retrieve": [],
@@ -69,6 +70,7 @@ class TourViewSet(BaseViewSet):
 
     @action(detail=True, methods=[HttpMethod.PUT])
     def activate(self, request, *args, **kwargs):
+        self.queryset = Tour.objects.all()
         tour = self.get_object()
         tour.is_active = False
         tour.save()
