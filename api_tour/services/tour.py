@@ -1,10 +1,12 @@
 import os
 from datetime import datetime
 
-from django.db.models import Q, QuerySet, Sum
+from django.db.models import Q, QuerySet, Sum, Value, Avg, Min, Max
+from django.db.models.functions import Collate
 
 from api_booking.consts import BookingType
 from api_booking.models import BookingReview, Booking
+from api_general.consts import DatetimeFormatter
 from api_general.models import Coupon
 from api_general.services import Utils
 from api_tour.models import Tour
@@ -18,6 +20,47 @@ load_dotenv()
 
 
 class TourService:
+    @classmethod
+    def get_filter_query(cls, request):
+        name = request.query_params.get("name", "")
+        city_id = request.query_params.get("city_id", None)
+        start_date = request.query_params.get("start_date")
+        end_date = request.query_params.get("end_date")
+        sort_by = request.query_params.get("sort_by", "asc")
+        price_range = request.query_params.get("price_range", None)  # "0-200000"
+
+        order_by = "price" if sort_by == "asc" else "-price"
+
+        start_date = Utils.safe_str_to_date(start_date, DatetimeFormatter.YYMMDD)
+        end_date = Utils.safe_str_to_date(end_date, DatetimeFormatter.YYMMDD)
+
+        tour_queryset = Tour.objects.all()
+
+        if start_date and end_date:
+            tour_queryset = cls.filter_by_date(start_date, end_date)
+
+        if name:
+            name = Collate(Value(name.strip()), "utf8mb4_general_ci")
+
+        filter_args = dict()
+        filter_args.update(is_active=True)
+        if city_id:
+            filter_args.update(city__id=city_id)
+
+        if price_range:
+            prices = price_range.split('-')
+            min_price_range = int(prices[0])
+            max_price_range = int(prices[1])
+            filter_args.update(price__gte=min_price_range)
+            filter_args.update(price__lte=max_price_range)
+
+        top_tours = tour_queryset \
+            .filter(name__icontains=name, **filter_args) \
+            .order_by(order_by) \
+            # .order_by("-created_at")
+
+        return top_tours
+
     @classmethod
     def filter_by_date(cls, start_date: datetime, end_date: datetime) -> QuerySet:
         diff_dates = (end_date - start_date).days + 1

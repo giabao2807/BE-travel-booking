@@ -49,7 +49,7 @@ class TourViewSet(BaseViewSet):
         return Response(data)
 
     def list(self, request, *args, **kwargs):
-        self.queryset = Tour.objects.all().filter(is_active=True)
+        self.queryset = TourService.get_filter_query(request)
         return super().list(request, *args, **kwargs)
 
     def create(self, request, *args, **kwargs):

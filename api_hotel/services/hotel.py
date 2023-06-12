@@ -1,7 +1,8 @@
 from datetime import datetime
 from typing import List, Dict, Optional, Iterable, Union
 
-from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F
+from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F, Value
+from django.db.models.functions import Collate
 
 from api_booking.consts import BookingType
 from api_booking.models import Booking
@@ -219,38 +220,44 @@ class HotelService:
 
     @classmethod
     def get_filter_query(cls, request):
+        name = request.query_params.get("name", "")
         city_id = request.query_params.get("city_id", None)
         start_date = request.query_params.get("start_date")
         end_date = request.query_params.get("end_date")
         sort_by = request.query_params.get("sort_by", "asc")
         price_range = request.query_params.get("price_range", None)  # "0-200000"
 
-        # _filter = None
-        # if price_range:
-        #     prices = price_range.split('-')
-        #     min_price_range = prices[0]
-        #     max_price_range = prices[1]
-        #     _filter = Q(room_price__gte=min_price_range) & Q(max_price__lte=max_price_range)
-        #     queryset = Hotel.objects.filter()
-
         order_by = "min_price" if sort_by == "asc" else "-max_price"
 
         start_date = Utils.safe_str_to_date(start_date, DatetimeFormatter.YYMMDD)
         end_date = Utils.safe_str_to_date(end_date, DatetimeFormatter.YYMMDD)
 
-        top_hotel_ids = Hotel.objects.all() \
+        if name:
+            name = Collate(Value(name.strip()), "utf8mb4_general_ci")
+
+        filter_args = dict()
+        filter_args.update(is_active=True)
+        if city_id:
+            filter_args.update(city__id=city_id)
+
+        if price_range:
+            prices = price_range.split('-')
+            min_price_range = int(prices[0])
+            max_price_range = int(prices[1])
+            filter_args.update(min_price__gte=min_price_range)
+            filter_args.update(max_price__lte=max_price_range)
+
+        top_hotel_ids = Hotel.objects.all()\
                              .values("id") \
                              .annotate(
                                 avg_rate=Avg("hotel_reviews__rate"),
                                 min_price=Min("rooms__price"),
                                 max_price=Max("rooms__price")
                                 ) \
+                             .filter(name__icontains=name, **filter_args) \
                              .order_by(order_by) \
                              .order_by("-avg_rate") \
                              .values_list("id", flat=True)
-        if city_id:
-            city = City.objects.filter(id=city_id).first()
-            top_hotel_ids = CityService.get_top_hotel_id_queryset(city)
 
         list_rs_hotel_id = []
 
