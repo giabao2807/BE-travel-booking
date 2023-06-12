@@ -49,6 +49,35 @@ class ListBookingSerializer(ModelSerializer):
         return data
 
 
+class PartnerHotelBookingSerializer(ModelSerializer):
+
+    class Meta:
+        model = Booking
+        fields = ("id", "start_date", "end_date", "note",
+                  "history_origin_price", "history_discount_price",
+                  "status", "created_at")
+
+    def to_representation(self, instance: Booking):
+        data = super().to_representation(instance)
+        data["total_price"] = BookingService.get_total_price_by_booking(instance)
+
+        booking_items = list(
+            instance.booking_item.all()
+                .values("quantity", "room_id")
+                .annotate(room_name=F("room__name"), hotel_id=F("room__hotel_id"))
+        )
+        hotel_id = booking_items[0].get("hotel_id")
+        hotel = HotelService.get_hotel_cards(hotel_id)
+        if hotel:
+            hotel = hotel.first()
+            data["hotel"] = BookingHotelCardSerializer(hotel).data
+
+        data["booking_items"] = booking_items
+        data['customer'] = BasicProfileSerializer(instance.customer).data
+
+        return data
+
+
 class ListHotelBookingSerializer(ModelSerializer):
 
     class Meta:
@@ -73,6 +102,28 @@ class ListHotelBookingSerializer(ModelSerializer):
             data["hotel"] = BookingHotelCardSerializer(hotel).data
 
         data["booking_items"] = booking_items
+
+        return data
+
+
+class PartnerTourBookingSerializer(ModelSerializer):
+
+    class Meta:
+        model = Booking
+        fields = ("id", "start_date", "end_date", "note",
+                  "history_origin_price", "history_discount_price",
+                  "status", "created_at")
+
+    def to_representation(self, instance: Booking):
+        data = super().to_representation(instance)
+        data["total_price"] = BookingService.get_total_price_by_booking(instance)
+
+        booking_item: BookingItem = instance.booking_item.all().select_related("tour").first()
+        if booking_item:
+            tour = booking_item.tour
+            data["tour"] = CardTourSerializer(tour).data
+            data["booking_items"] = dict(quantity=booking_item.quantity)
+            data['customer'] = BasicProfileSerializer(instance.customer).data
 
         return data
 

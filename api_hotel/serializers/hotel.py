@@ -2,10 +2,17 @@ from django.db import transaction
 from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
-from api_hotel.models import Hotel
+from api_hotel.models import Hotel, Room
+from api_hotel.serializers.room import PartnerRoomHotelSerializer
 from api_hotel.services import HotelService
 from base.consts.cloudinary import CloudinaryFolder
 from base.services import CloudinaryService
+
+
+class HotelCouponSerializer(ModelSerializer):
+    class Meta:
+        model = Hotel
+        fields = ('id', 'name')
 
 
 class HotelSerializer(ModelSerializer):
@@ -62,6 +69,37 @@ class CUHotelSerializer(ModelSerializer):
         HotelService.bulk_create_hotel_images(hotel_images, hotel.id)
 
         return hotel
+
+
+class PartnerHotelCardSerializer(ModelSerializer):
+    num_review = serializers.IntegerField()
+    rate_average = serializers.FloatField(read_only=True)
+    coupon_data = serializers.SerializerMethodField()
+    min_price = serializers.IntegerField()
+    max_price = serializers.IntegerField()
+
+    def get_coupon_data(self, instance):
+        from api_hotel.services import HotelService
+        from api_general.serializers import SimpleCouponSerializer
+
+        coupon = HotelService.get_current_coupon(instance.get("id"))
+        coupon_data = dict()
+        if coupon:
+            coupon_data = SimpleCouponSerializer(coupon).data
+
+        return coupon_data
+
+    class Meta:
+        model = Hotel
+        fields = ("id", "name", "address", "num_review",
+                  "min_price", "max_price",
+                  "cover_picture", "rate_average", "coupon_data")
+
+    def to_representation(self, instance):
+        ret = super().to_representation(instance)
+        rooms = Room.objects.filter(hotel__id=instance.get('id'))
+        ret['rooms'] = PartnerRoomHotelSerializer(rooms, many=True).data
+        return ret
 
 
 class HotelCardSerializer(ModelSerializer):

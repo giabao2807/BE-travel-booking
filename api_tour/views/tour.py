@@ -9,7 +9,7 @@ from api_booking.services import BookingReviewService
 from api_general.services import Utils
 from api_tour.models import Tour
 from api_tour.serializers import TourSerializer, CardTourSerializer
-from api_tour.serializers.tour import CreateTourSerializer
+from api_tour.serializers.tour import CreateTourSerializer, TourCouponSerializer
 from api_tour.services import TourService, TourImageService
 from api_tour.services.view import TourViewService
 from api_user.permission import UserPermission, PartnerPermission
@@ -40,6 +40,13 @@ class TourViewSet(BaseViewSet):
         'filter_by_date_city': CardTourSerializer,
         'get_reviews': BookingReviewSerializer,
     }
+
+    @action(detail=False, methods=[HttpMethod.GET])
+    def tours_for_coupon(self, request, *args, **kwargs):
+        order_by = "-created_at"
+        tour_queryset = Tour.objects.filter(owner=request.user).order_by(order_by)
+        data = TourCouponSerializer(tour_queryset, many=True).data
+        return Response(data)
 
     def list(self, request, *args, **kwargs):
         self.queryset = Tour.objects.all().filter(is_active=True)

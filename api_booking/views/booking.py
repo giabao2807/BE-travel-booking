@@ -7,7 +7,8 @@ from api_booking.consts import BookingType
 from api_booking.models import Booking
 from api_booking.serializers import BookingSerializer, CUBookingSerializer, ListBookingSerializer, \
     ListHotelBookingSerializer
-from api_booking.serializers.booking import ListTourBookingSerializer
+from api_booking.serializers.booking import ListTourBookingSerializer, PartnerHotelBookingSerializer, \
+    PartnerTourBookingSerializer
 from api_booking.services.booking import BookingService
 from api_general.services import Utils
 from api_general.services.vnpay import VNPayTransaction
@@ -123,7 +124,7 @@ class BookingViewSet(BaseViewSet):
         if not booking_type or booking_type not in BookingType.values:
             return Response({"error_message": "Thiếu type trong request params"}, status=status.HTTP_400_BAD_REQUEST)
 
-        self.serializer_class = ListHotelBookingSerializer if booking_type == BookingType.HOTEL else ListTourBookingSerializer
+        self.serializer_class = PartnerHotelBookingSerializer if booking_type == BookingType.HOTEL else PartnerTourBookingSerializer
         self.queryset = BookingService.get_bookings_qs_for_partner(request.user, booking_type)
 
         return super().list(request, *args, **kwargs)

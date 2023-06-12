@@ -7,6 +7,12 @@ from api_tour.models.tour_image import TourImage
 from api_tour.services import TourService
 
 
+class TourCouponSerializer(ModelSerializer):
+    class Meta:
+        model = Tour
+        fields = ('id', 'name')
+
+
 class CreateTourSerializer(ModelSerializer):
     class Meta:
         model = Tour

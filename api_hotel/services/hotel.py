@@ -4,6 +4,7 @@ from typing import List, Dict, Optional, Iterable, Union
 from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F
 
 from api_booking.consts import BookingType
+from api_booking.models import Booking
 from api_general.consts import DatetimeFormatter
 from api_general.models import City, Coupon
 from api_general.services import Utils, CityService
@@ -13,6 +14,17 @@ from common.constants.api_booking import BookingStatus
 
 
 class HotelService:
+    @classmethod
+    def check_deactive_tour(cls, hotel, user):
+        is_valid = True
+        if hotel.owner.id != user.id:
+            return False
+        bookings = Booking.objects.filter(booking_item__room__hotel=hotel)
+        for booking in bookings:
+            if booking.status == BookingStatus.PAID:
+                return False
+        return is_valid
+
     @classmethod
     def get_top_recommend_cities(cls, amount: int = 5) -> List[Dict[int, str]]:
         """

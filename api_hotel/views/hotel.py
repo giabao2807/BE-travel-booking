@@ -1,3 +1,4 @@
+from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
@@ -7,7 +8,8 @@ from api_general.consts import DatetimeFormatter
 from api_general.services import Utils
 from api_hotel.models import Hotel
 from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer, HotelReviewSerializer, HotelCardSerializer, \
-    CUHotelSerializer, CURoomSerializer
+    CUHotelSerializer, CURoomSerializer, HotelCouponSerializer
+from api_hotel.serializers.hotel import PartnerHotelCardSerializer
 from api_hotel.services import HotelService
 from api_user.permission import UserPermission, PartnerPermission
 from base.exceptions import BoniException
@@ -26,6 +28,7 @@ class HotelViewSet(BaseViewSet):
         "create": [PartnerPermission],
         "update": [PartnerPermission],
         "belongs_to_partner": [PartnerPermission],
+        "hotels_for_coupon": [PartnerPermission],
         "retrieve": [],
         "get_available_rooms": [],
         "get_reviews": [],
@@ -34,7 +37,7 @@ class HotelViewSet(BaseViewSet):
         "create": CUHotelSerializer,
         "update": CUHotelSerializer,
         "list": HotelCardSerializer,
-        "belongs_to_partner": HotelCardSerializer,
+        "belongs_to_partner": PartnerHotelCardSerializer,
         "get_available_rooms": AvailableRoomSerializer,
         "get_reviews": HotelReviewSerializer,
         "create_rooms": CURoomSerializer,
@@ -70,6 +73,30 @@ class HotelViewSet(BaseViewSet):
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, order_by)
         data = self.get_serializer(hotel_cards, many=True).data
         return Response(self.get_paginated_response(data).data)
+
+    @action(detail=False, methods=[HttpMethod.GET])
+    def hotels_for_coupon(self, request, *args, **kwargs):
+        order_by = "-created_at"
+        hotel_queryset = Hotel.objects.filter(owner=request.user).order_by(order_by)
+        data = HotelCouponSerializer(hotel_queryset, many=True).data
+        return Response(data)
+
+    @action(detail=True, methods=[HttpMethod.PUT])
+    def deactivate(self, request, *args, **kwargs):
+        hotel = self.get_object()
+        user = request.user
+        if HotelService.check_deactive_tour(hotel, user):
+            hotel.is_active = False
+            hotel.save()
+            return Response({"message": "Vô hiệu hoá thành công khách sạn!"}, status=status.HTTP_200_OK)
+        return Response({"message": "Khách sạn đang được book, không thể vô hiệu hoá"}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(detail=True, methods=[HttpMethod.PUT])
+    def activate(self, request, *args, **kwargs):
+        hotel = self.get_object()
+        hotel.is_active = True
+        hotel.save()
+        return Response({"message": "Kích hoạt hoá thành công khách sạn!"}, status=status.HTTP_200_OK)
 
     @action(detail=True, methods=[HttpMethod.GET], url_path="get_available_rooms")
     def get_available_rooms(self, request, *args, **kwargs):
