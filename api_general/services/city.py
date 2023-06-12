@@ -8,7 +8,7 @@ from api_tour.models import Tour
 class CityService:
     @classmethod
     def get_top_hotel_id_queryset(cls, city: City) -> QuerySet:
-        hotel_queryset = Hotel.objects.filter(city=city) \
+        hotel_queryset = Hotel.objects.filter(city=city, is_active=True) \
                              .values("id") \
                              .annotate(avg_rate=Avg("hotel_reviews__rate")) \
                              .order_by("-avg_rate") \
@@ -18,6 +18,6 @@ class CityService:
 
     @classmethod
     def get_top_tour_queryset(cls, city: City) -> QuerySet:
-        tour_queryset = Tour.objects.filter(city=city) \
+        tour_queryset = Tour.objects.filter(city=city, is_active=True) \
                              .order_by("-rate")
         return tour_queryset

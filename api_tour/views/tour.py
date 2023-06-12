@@ -18,7 +18,7 @@ from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
 
 
 class TourViewSet(BaseViewSet):
-    queryset = Tour.objects.all().filter(is_active=True)
+    queryset = Tour.objects.all()
     serializer_class = TourSerializer
     permission_classes = [UserPermission]
 
@@ -40,6 +40,10 @@ class TourViewSet(BaseViewSet):
         'filter_by_date_city': CardTourSerializer,
         'get_reviews': BookingReviewSerializer,
     }
+
+    def list(self, request, *args, **kwargs):
+        self.queryset = Tour.objects.all().filter(is_active=True)
+        return super().list(request, *args, **kwargs)
 
     def create(self, request, *args, **kwargs):
         data, tour_images_link = TourService.init_data_tour(request)
@@ -70,9 +74,8 @@ class TourViewSet(BaseViewSet):
 
     @action(detail=True, methods=[HttpMethod.PUT])
     def activate(self, request, *args, **kwargs):
-        self.queryset = Tour.objects.all()
         tour = self.get_object()
-        tour.is_active = False
+        tour.is_active = True
         tour.save()
         return Response({"message": "Kích hoạt hoá thành công tour!"}, status=status.HTTP_200_OK)
 
