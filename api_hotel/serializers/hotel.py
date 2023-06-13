@@ -93,7 +93,7 @@ class PartnerHotelCardSerializer(ModelSerializer):
         model = Hotel
         fields = ("id", "name", "address", "num_review",
                   "min_price", "max_price",
-                  "cover_picture", "rate_average", "coupon_data")
+                  "cover_picture", "rate_average", "coupon_data", 'is_active')
 
     def to_representation(self, instance):
         ret = super().to_representation(instance)

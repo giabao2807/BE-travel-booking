@@ -17,7 +17,8 @@ class PartnerRoomHotelSerializer(ModelSerializer):
 
     class Meta:
         model = Room
-        fields = ('id', 'name')
+        fields = ["id", "name",
+                  "price", "square", "quantity"]
 
 
 class CURoomSerializer(ModelSerializer):
