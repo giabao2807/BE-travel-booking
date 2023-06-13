@@ -100,14 +100,20 @@ class StatisticService:
     def get_partner_box_dashboard(cls, user):
         accept_status = [BookingStatus.PAID, BookingStatus.COMPLETED]
         error_status = [BookingStatus.UNPAID, BookingStatus.CANCELED]
-        booking_success = Booking.objects.filter(booking_item__tour__owner__id=user.id,
-                                                 status__in=accept_status).count() \
-                            + Booking.objects.filter(booking_item__room__hotel__owner__id=user.id,
-                                                     status__in=accept_status).count()
+
+        unique_booking_ids = Booking.objects.filter(booking_item__room__hotel__owner__id=user.id,
+                                                    status__in=accept_status).values_list("id", flat=True).distinct()
+        booking_count_hotel_success = Booking.objects.filter(id__in=unique_booking_ids).count()
+        unique_booking_ids = Booking.objects.filter(booking_item__room__hotel__owner__id=user.id,
+                                                    status__in=error_status).values_list("id", flat=True).distinct()
+        booking_count_hotel_error = Booking.objects.filter(id__in=unique_booking_ids).count()
+
+        booking_success = booking_count_hotel_success \
+                          + Booking.objects.filter(booking_item__tour__owner__id=user.id,
+                                                   status__in=accept_status).count()
         booking_error = Booking.objects.filter(booking_item__tour__owner__id=user.id,
                                                  status__in=error_status).count() \
-                            + Booking.objects.filter(booking_item__room__hotel__owner__id=user.id,
-                                                     status__in=error_status).count()
+                            + booking_count_hotel_error
         tour = Tour.objects.filter(owner__id=user.id).count()
         hotel = Hotel.objects.filter(owner__id=user.id).count()
         tours = Booking.objects.filter(booking_item__tour__owner__id=user.id)
