@@ -2,9 +2,11 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from api_hotel.models import Room
-from api_hotel.serializers import RoomSerializer
-from api_hotel.services import HotelService, RoomService
-from api_user.permission import UserPermission
+from api_hotel.serializers import RoomSerializer, CURoomSerializer
+from api_hotel.services import RoomService
+from api_user.permission import PartnerPermission
+from base.exceptions import BoniException
+from base.exceptions.base import ErrorType
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
 
@@ -13,6 +15,12 @@ class RoomViewSet(BaseViewSet):
     queryset = Room.objects.all()
     serializer_class = RoomSerializer
     permission_classes = []
+    serializer_map = {
+        "update": CURoomSerializer
+    }
+    permission_map = {
+        "update": [PartnerPermission],
+    }
 
     @action(detail=False, methods=[HttpMethod.GET], url_path="get_room_for_hotel")
     def get_room_for_hotel(self, request, *args, **kwargs):
@@ -23,4 +31,10 @@ class RoomViewSet(BaseViewSet):
 
         return Response(data)
 
+    def update(self, request, *args, **kwargs):
+        room = self.get_object()
 
+        if room.hotel.owner != request.user:
+            raise BoniException(ErrorType.GENERAL, ["Bạn không là chủ khách sạn này"])
+
+        return super().update(request, *args, **kwargs)

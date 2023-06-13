@@ -35,10 +35,13 @@ class CURoomSerializer(ModelSerializer):
             "price", "square", "hotel", "quantity", "room_images"
         ]
 
-    @transaction.atomic
-    def create(self, validated_data):
+    def save(self, **kwargs):
+        validated_data = self.validated_data
         room_images = validated_data.pop("room_images", [])
-        room = super().create(validated_data)
+
+        room = super().save(**kwargs)
+        if self.instance:
+            room.room_images.all().delete()
         RoomService.bulk_create_room_images(room_images, room.id)
 
         return room
