@@ -7,19 +7,27 @@ from django.db.models.functions import Collate
 from api_booking.consts import BookingType
 from api_booking.models import BookingReview, Booking
 from api_general.consts import DatetimeFormatter
-from api_general.models import Coupon
+from api_general.models import Coupon, Image
 from api_general.services import Utils
-from api_tour.models import Tour
+from api_tour.models import Tour, TourImage
 from api_user.models import Profile
 from base.services import CloudinaryService
 from common.constants.api_booking import BookingStatus
-from common.constants.api_tour import TourImage
+from common.constants.api_tour import TourImage as ConstImage
 from dotenv import load_dotenv
 
 load_dotenv()
 
 
 class TourService:
+    @classmethod
+    def refresh_image(cls, tour):
+        tour_images = TourImage.objects.filter(tour=tour)
+        image_ids = [tour_image.image.id for tour_image in tour_images]
+        images = Image.objects.filter(id__in=image_ids)
+        for img in images:
+            img.delete()
+
     @classmethod
     def get_filter_query(cls, request):
         name = request.query_params.get("name", "")
@@ -76,15 +84,13 @@ class TourService:
         data = request.data.dict()
         cover_picture = request.FILES.get('cover_picture')
         tour_images = request.FILES.getlist("tour_images")
-        owner_id = request.user.id
-        data['owner'] = owner_id
         tour_images_link = []
 
         if cover_picture:
             image_link = CloudinaryService.upload_image(cover_picture, os.getenv('CLOUDINARY_TOUR_FOLDER'))
             data['cover_picture'] = image_link
         else:
-            data['cover_picture'] = TourImage.tour_image_default
+            data['cover_picture'] = ConstImage.tour_image_default
 
         if tour_images:
             tour_images_link = CloudinaryService.upload_list_image(tour_images, os.getenv("CLOUDINARY_TOUR_FOLDER"))

@@ -24,6 +24,7 @@ class TourViewSet(BaseViewSet):
 
     permission_map = {
         "create": [PartnerPermission],
+        "update": [PartnerPermission],
         "activate": [PartnerPermission],
         "list_tour": [PartnerPermission],
         "list": [],
@@ -61,6 +62,19 @@ class TourViewSet(BaseViewSet):
                 TourImageService.create_tour_image(tour, tour_images_link)
                 created_serializer = TourSerializer(tour)
             return Response(created_serializer.data, status=status.HTTP_201_CREATED)
+        return ErrorResponse(ErrorResponseType.CANT_CREATE, params=["tour"])
+
+    def update(self, request, *args, **kwargs):
+        tour = self.get_object()
+        data, tour_images_link = TourService.init_data_tour(request)
+        serializer = self.get_serializer(tour, data=data, partial=True)
+        if serializer.is_valid(raise_exception=True):
+            with transaction.atomic():
+                TourService.refresh_image(tour)
+                self.perform_update(serializer)
+                TourImageService.create_tour_image(tour, tour_images_link)
+                updated_serializer = TourSerializer(tour)
+            return Response(updated_serializer.data, status=status.HTTP_200_OK)
         return ErrorResponse(ErrorResponseType.CANT_CREATE, params=["tour"])
 
     @action(detail=False, methods=[HttpMethod.GET])
