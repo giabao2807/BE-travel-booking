@@ -16,7 +16,7 @@ class TourCouponSerializer(ModelSerializer):
 class CreateTourSerializer(ModelSerializer):
     class Meta:
         model = Tour
-        exclude = ('rate', 'num_review', 'longitude', 'latitude')
+        exclude = ('rate', 'longitude', 'latitude')
 
 
 class TourSerializer(ModelSerializer):

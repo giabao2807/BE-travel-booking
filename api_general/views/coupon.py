@@ -1,3 +1,4 @@
+from rest_framework import status
 from rest_framework.response import Response
 
 from api_general.models import Coupon
@@ -27,6 +28,14 @@ class CouponViewSet(BaseViewSet):
             request.data["for_all"] = False
 
         return super().create(request, *args, **kwargs)
+
+    def destroy(self, request, *args, **kwargs):
+        coupon = self.get_object()
+        if RoleData.is_partner(request.user):
+            if coupon.created_by != request.user:
+                raise BoniException(ErrorType.GENERAL, ["Bạn không là chủ mã giảm này"])
+        coupon.delete()
+        return Response({"message": "Xoá thành công coupon!"}, status=status.HTTP_200_OK)
 
     def list(self, request, *args, **kwargs):
         user = request.user

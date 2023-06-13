@@ -78,6 +78,7 @@ class TourService:
         tour_images = request.FILES.getlist("tour_images")
         owner_id = request.user.id
         data['owner'] = owner_id
+        tour_images_link = []
 
         if cover_picture:
             image_link = CloudinaryService.upload_image(cover_picture, os.getenv('CLOUDINARY_TOUR_FOLDER'))
