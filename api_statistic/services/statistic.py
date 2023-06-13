@@ -84,13 +84,13 @@ class StatisticService:
              "value": booking_success, "rateString": "thành công"},
             {"key": "booking_error", "title": "Booking", "color": "#91caff",
              "value": booking_error, "rateString": "gián đoạn"},
-            {"key": "tour", "title": "Tổng số tour", "color": "#ff7a45",
+            {"key": "tour", "title": "Tours", "color": "#ff7a45",
              "value": tour, "rateString": "hiện tại"},
-            {"key": "hotel", "title": "Tổng số hotel", "color": "#135200",
+            {"key": "hotel", "title": "Hotel", "color": "#135200",
              "value": hotel, "rateString": "hiện tại"},
-            {"key": "customer", "title": "Tổng khách hàng", "color": "#87CEFA",
+            {"key": "customer", "title": "Customers", "color": "#87CEFA",
              "value": customer, "rateString": "hiện tại"},
-            {"key": "partner", "title": "Tổng đối tác", "color": "#87CEFA",
+            {"key": "partner", "title": "Partners", "color": "#87CEFA",
              "value": partner, "rateString": "hiện tại"}
         ]
 
@@ -118,11 +118,11 @@ class StatisticService:
              "value": booking_success, "rateString": "thành công"},
             {"key": "booking_error", "title": "Booking", "color": "#91caff",
              "value": booking_error, "rateString": "gián đoạn"},
-            {"key": "tour", "title": "Tổng số tour", "color": "#ff7a45",
+            {"key": "tour", "title": "Tours", "color": "#ff7a45",
              "value": tour, "rateString": "hiện tại"},
-            {"key": "hotel", "title": "Tổng số hotel", "color": "#135200",
+            {"key": "hotel", "title": "Hotels", "color": "#135200",
              "value": hotel, "rateString": "hiện tại"},
-            {"key": "customer", "title": "Tổng khách hàng", "color": "#87CEFA",
+            {"key": "customer", "title": "Customers", "color": "#87CEFA",
              "value": len(total_cus), "rateString": "hiện tại"}
         ]
 
