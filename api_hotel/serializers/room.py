@@ -10,7 +10,7 @@ class RoomSerializer(ModelSerializer):
 
     class Meta:
         model = Room
-        exclude = ['is_active', 'hotel']
+        exclude = ['is_active', 'hotel', 'benefit']
 
 
 class PartnerRoomHotelSerializer(ModelSerializer):
@@ -32,7 +32,7 @@ class CURoomSerializer(ModelSerializer):
         model = Room
         fields = [
             "id", "name", "beds", "adults", "children", "description",
-            "price", "square", "hotel", "quantity", "benefit", "room_images"
+            "price", "square", "hotel", "quantity", "room_images"
         ]
 
     @transaction.atomic
