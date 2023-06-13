@@ -8,3 +8,10 @@ class RoleSerializer(ModelSerializer):
     class Meta:
         model = Role
         fields = "__all__"
+
+
+class SortRoleSerializer(ModelSerializer):
+
+    class Meta:
+        model = Role
+        fields = ('id', 'name')

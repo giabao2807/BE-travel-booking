@@ -2,12 +2,22 @@ from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
 from api_user.models.profile import Profile
+from api_user.serializers import RoleSerializer
+from api_user.serializers.role import SortRoleSerializer
 
 
 class ProfileDetailSerializer(ModelSerializer):
     class Meta:
         model = Profile
         exclude = ['password', 'is_active']
+
+
+class AdminProfileSerializer(ModelSerializer):
+    role = SortRoleSerializer()
+
+    class Meta:
+        model = Profile
+        exclude = ('password', 'longitude', 'latitude', 'last_login')
 
 
 class BasicProfileSerializer(ModelSerializer):

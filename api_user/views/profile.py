@@ -7,9 +7,9 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from api_user.models.profile import Profile
-from api_user.permission import UserPermission
+from api_user.permission import UserPermission, AdminPermission
 from api_user.serializers import ProfileDetailSerializer
-from api_user.serializers.profile import BasicProfileSerializer
+from api_user.serializers.profile import BasicProfileSerializer, AdminProfileSerializer
 from api_user.services import ProfileService
 from base.services import CloudinaryService
 from base.views import BaseViewSet
@@ -22,9 +22,14 @@ class ProfileViewSet(BaseViewSet):
     queryset = Profile.objects.all()
     serializer_class = ProfileDetailSerializer
     serializer_map = {
-        "infor": BasicProfileSerializer
+        "infor": BasicProfileSerializer,
+        "list": AdminProfileSerializer,
     }
     permission_classes = [UserPermission]
+
+    permission_map = {
+        "list": [AdminPermission]
+    }
 
     @action(detail=False, methods=[HttpMethod.GET])
     def info(self, request, *args, **kwargs):
