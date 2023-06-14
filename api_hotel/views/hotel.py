@@ -72,7 +72,7 @@ class HotelViewSet(BaseViewSet):
         queryset = Hotel.objects.all()
         if request.user.role.id.hex == RoleData.PARTNER.value.get('id'):
             queryset = queryset.filter(owner=request.user)
-        hotel_id_queryset = queryset.order_by(order_by)
+        hotel_id_queryset = queryset.values_list("id", flat=True).order_by(order_by)
         paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, order_by)
         data = self.get_serializer(hotel_cards, many=True).data
