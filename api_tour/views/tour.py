@@ -80,7 +80,7 @@ class TourViewSet(BaseViewSet):
     @action(detail=False, methods=[HttpMethod.GET])
     def list_tour(self, request, *args, **kwargs):
         user = request.user
-        self.queryset = TourService.list_tour_by_partner(user)
+        self.queryset = TourService.list_tour_manage(user)
         return super().list(request, *args, **kwargs)
 
     @action(detail=True, methods=[HttpMethod.PUT])

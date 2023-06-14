@@ -12,6 +12,7 @@ from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer, Hote
 from api_hotel.serializers.hotel import PartnerHotelCardSerializer
 from api_hotel.services import HotelService
 from api_user.permission import UserPermission, PartnerPermission
+from api_user.statics import RoleData
 from base.exceptions import BoniException
 from base.exceptions.base import ErrorType
 from base.views import BaseViewSet
@@ -68,7 +69,10 @@ class HotelViewSet(BaseViewSet):
     @action(detail=False, methods=[HttpMethod.GET])
     def belongs_to_partner(self, request, *args, **kwargs):
         order_by = "-created_at"
-        hotel_id_queryset = Hotel.objects.filter(owner=request.user).values_list("id", flat=True).order_by(order_by)
+        queryset = Hotel.objects.all()
+        if request.user.role.id.hex == RoleData.PARTNER.value.get('id'):
+            queryset = queryset.filter(owner=request.user)
+        hotel_id_queryset = queryset.order_by(order_by)
         paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, order_by)
         data = self.get_serializer(hotel_cards, many=True).data

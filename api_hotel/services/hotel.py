@@ -10,6 +10,7 @@ from api_general.consts import DatetimeFormatter
 from api_general.models import City, Coupon
 from api_general.services import Utils, CityService
 from api_hotel.models import Hotel, Room, HotelImage
+from api_user.statics import RoleData
 from base.query import GroupConcat
 from common.constants.api_booking import BookingStatus
 
@@ -18,6 +19,8 @@ class HotelService:
     @classmethod
     def check_deactive_tour(cls, hotel, user):
         is_valid = True
+        if user.role.id.hex == RoleData.ADMIN.value.get('id'):
+            return True
         if hotel.owner.id != user.id:
             return False
         bookings = Booking.objects.filter(booking_item__room__hotel=hotel)

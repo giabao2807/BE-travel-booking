@@ -11,6 +11,7 @@ from api_general.models import Coupon, Image
 from api_general.services import Utils
 from api_tour.models import Tour, TourImage
 from api_user.models import Profile
+from api_user.statics import RoleData
 from base.services import CloudinaryService
 from common.constants.api_booking import BookingStatus
 from common.constants.api_tour import TourImage as ConstImage
@@ -98,18 +99,23 @@ class TourService:
         return data, tour_images_link
 
     @classmethod
-    def list_tour_by_partner(cls, owner: Profile):
-        tour_ft = Q(owner=owner)
-        return Tour.objects.filter(tour_ft)
+    def list_tour_manage(cls, user: Profile):
+        queryset = Tour.objects.all()
+        if user.role.id.hex == RoleData.PARTNER.value.get('id'):
+            tour_ft = Q(owner=user)
+            queryset = queryset.filter(tour_ft)
+        return queryset
 
     @classmethod
     def count_num_review(cls, tour: Tour):
         return BookingReview.objects.filter(booking__booking_item__tour=tour).count()
 
     @classmethod
-    def check_deactive_tour(cls, tour: Tour, partner: Profile):
+    def check_deactive_tour(cls, tour: Tour, user: Profile):
         is_valid = True
-        if tour.owner.id != partner.id:
+        if user.role.id.hex == RoleData.ADMIN.value.get('id'):
+            return True
+        if tour.owner.id != user.id:
             return False
         bookings = Booking.objects.filter(booking_item__tour=tour)
         for booking in bookings:
