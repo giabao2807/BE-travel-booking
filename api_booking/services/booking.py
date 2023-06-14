@@ -17,6 +17,7 @@ from api_hotel.services import HotelService
 from api_tour.models import Tour
 from api_tour.services import TourService
 from api_user.models import Profile
+from api_user.statics import RoleData
 from base.exceptions import BoniException
 from base.exceptions.base import ErrorType
 from base.services.send_mail import SendMail
@@ -324,12 +325,13 @@ class BookingService:
         return total_price_mapping
 
     @classmethod
-    def get_bookings_qs_for_partner(cls, partner: Profile, booking_type: BookingType, status: str = None) -> QuerySet:
+    def get_bookings_qs_for_manage(cls, user: Profile, booking_type: BookingType, status: str = None) -> QuerySet:
         booking_ft = Q(type=booking_type)
-        if booking_type == BookingType.TOUR:
-            booking_ft &= Q(booking_item__tour__owner=partner)
-        else:
-            booking_ft &= Q(booking_item__room__hotel__owner=partner)
+        if user.role.id.hex == RoleData.PARTNER.value.get('id'):
+            if booking_type == BookingType.TOUR:
+                booking_ft &= Q(booking_item__tour__owner=user)
+            else:
+                booking_ft &= Q(booking_item__room__hotel__owner=user)
 
         if status:
             booking_ft &= Q(status=status)

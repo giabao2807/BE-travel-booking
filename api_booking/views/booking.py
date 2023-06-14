@@ -118,13 +118,13 @@ class BookingViewSet(BaseViewSet):
         return Response(dict(payment_link=payment_link))
 
     @action(detail=False, methods=[HttpMethod.GET])
-    def for_partner(self, request, *args, **kwargs):
+    def for_management(self, request, *args, **kwargs):
         booking_type = Utils.safe_int(request.query_params.get("type", None))
 
         if not booking_type or booking_type not in BookingType.values:
             return Response({"error_message": "Thiếu type trong request params"}, status=status.HTTP_400_BAD_REQUEST)
 
         self.serializer_class = PartnerHotelBookingSerializer if booking_type == BookingType.HOTEL else PartnerTourBookingSerializer
-        self.queryset = BookingService.get_bookings_qs_for_partner(request.user, booking_type)
+        self.queryset = BookingService.get_bookings_qs_for_manage(request.user, booking_type)
 
         return super().list(request, *args, **kwargs)

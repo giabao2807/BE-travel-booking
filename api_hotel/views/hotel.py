@@ -28,7 +28,7 @@ class HotelViewSet(BaseViewSet):
         "list": [],
         "create": [PartnerPermission],
         "update": [PartnerPermission],
-        "belongs_to_partner": [PartnerPermission],
+        "for_management": [PartnerPermission],
         "hotels_for_coupon": [PartnerPermission],
         "retrieve": [],
         "get_available_rooms": [],
@@ -38,7 +38,7 @@ class HotelViewSet(BaseViewSet):
         "create": CUHotelSerializer,
         "update": CUHotelSerializer,
         "list": HotelCardSerializer,
-        "belongs_to_partner": PartnerHotelCardSerializer,
+        "for_management": PartnerHotelCardSerializer,
         "get_available_rooms": AvailableRoomSerializer,
         "get_reviews": HotelReviewSerializer,
         "create_rooms": CURoomSerializer,
@@ -67,7 +67,7 @@ class HotelViewSet(BaseViewSet):
         return Response(self.get_paginated_response(data).data)
 
     @action(detail=False, methods=[HttpMethod.GET])
-    def belongs_to_partner(self, request, *args, **kwargs):
+    def for_management(self, request, *args, **kwargs):
         order_by = "-created_at"
         queryset = Hotel.objects.all()
         if request.user.role.id.hex == RoleData.PARTNER.value.get('id'):
