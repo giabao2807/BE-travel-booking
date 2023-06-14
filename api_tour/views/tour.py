@@ -36,6 +36,7 @@ class TourViewSet(BaseViewSet):
 
     serializer_map = {
         'create': CreateTourSerializer,
+        'update': CreateTourSerializer,
         'list': CardTourSerializer,
         'list_tour': CardTourSerializer,
         'filter_by_date_city': CardTourSerializer,
