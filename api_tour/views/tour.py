@@ -61,7 +61,7 @@ class TourViewSet(BaseViewSet):
                 tour = serializer.save()
                 TourImageService.create_tour_image(tour, tour_images_link)
                 created_serializer = TourSerializer(tour)
-            return Response(created_serializer.data, status=status.HTTP_201_CREATED)
+            return Response(created_serializer.data, status=status.HTTP_200_OK)
         return ErrorResponse(ErrorResponseType.CANT_CREATE, params=["tour"])
 
     def update(self, request, *args, **kwargs):

@@ -8,12 +8,13 @@ from rest_framework.response import Response
 
 from api_user.models.profile import Profile
 from api_user.permission import UserPermission, AdminPermission
-from api_user.serializers import ProfileDetailSerializer
-from api_user.serializers.profile import BasicProfileSerializer, AdminProfileSerializer
+from api_user.serializers import ProfileDetailSerializer, CreateProfileSerializer
+from api_user.serializers.profile import BasicProfileSerializer, AdminProfileSerializer, AdminCreatePartnerSerializer
 from api_user.services import ProfileService
 from base.services import CloudinaryService
 from base.views import BaseViewSet
-from common.constants.base import HttpMethod
+from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
+
 load_dotenv()
 
 
@@ -24,12 +25,27 @@ class ProfileViewSet(BaseViewSet):
     serializer_map = {
         "infor": BasicProfileSerializer,
         "list": AdminProfileSerializer,
+        "create": AdminCreatePartnerSerializer,
     }
     permission_classes = [UserPermission]
 
     permission_map = {
-        "list": [AdminPermission]
+        "list": [AdminPermission],
+        "create": [AdminPermission],
     }
+
+    def list(self, request, *args, **kwargs):
+        self.queryset = ProfileService.get_filter_query(request)
+        return super().list(request, *args, **kwargs)
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            user = ProfileService.create_partner(serializer.validated_data)
+            if user:
+                return Response({"message": "Tạo thành công đối tác mới!"}, status=status.HTTP_200_OK)
+            else:
+                return ErrorResponse(ErrorResponseType.CANT_CREATE, params=["partner"])
 
     @action(detail=False, methods=[HttpMethod.GET])
     def info(self, request, *args, **kwargs):

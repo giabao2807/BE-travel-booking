@@ -17,14 +17,14 @@ class RoleService:
         return role
 
     @classmethod
-    def get_role_employee(cls) -> Role:
+    def get_role_partner(cls) -> Role:
         """
         Get the employee role.
         Role model have to have a customer role. If not, pls contact your leader now!!!
 
         :return: The employee role.
         """
-        role = Role.objects.by_id(id=RoleData.EMPLOYEE.value.get('id'))
+        role = Role.objects.by_id(role_id=RoleData.PARTNER.value.get('id'))
         if not role:
-            raise Exception('Missing default role')
+            raise Exception('Missing partner role')
         return role

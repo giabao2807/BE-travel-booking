@@ -5,6 +5,8 @@ from typing import Optional, List
 
 from django.contrib.auth.hashers import check_password, make_password
 from django.db import transaction
+from django.db.models import CharField, Value
+from django.db.models.functions import Collate, Concat
 from django.template.loader import render_to_string
 
 from api_user.models import Profile, Role
@@ -14,6 +16,7 @@ from api_user.statics import RoleData
 from dotenv import load_dotenv
 
 from base.services.send_mail import SendMail
+from base.utils import Utils
 
 load_dotenv()
 
@@ -87,6 +90,22 @@ class ProfileService:
     ]
 
     @classmethod
+    def get_filter_query(cls, request):
+        queryset = Profile.objects.all()
+        filter_args = dict()
+        name = request.query_params.get("name", "")
+        role = request.query_params.get("role", None)
+
+        if role:
+            filter_args.update(role__id=role)
+        if name:
+            name = Collate(Value(name.strip()), "utf8mb4_general_ci")
+
+        queryset = queryset.annotate(full_name=Concat('last_name', Value(' '), 'first_name', output_field=CharField())) \
+            .filter(full_name__icontains=name, **filter_args)
+        return queryset
+
+    @classmethod
     @transaction.atomic
     def create_customer(cls, user_data: dict) -> Optional[Profile]:
         """
@@ -96,6 +115,25 @@ class ProfileService:
         """
         default_role = RoleService.get_role_customer()
         password = user_data.pop('password')
+        user_data['password'] = make_password(password,
+                                              os.getenv('DEFAULT_PASSWORD'))
+        user = Profile(**user_data)
+        user.role = default_role
+        user.save()
+        cls.send_mail(email=user.email, name=f'{user.first_name} {user.last_name}',
+                      send_email=True, password=password, base_link=os.getenv('FE_BASE_LINK'))
+        return user
+
+    @classmethod
+    @transaction.atomic
+    def create_partner(cls, user_data: dict) -> Optional[Profile]:
+        """
+        Create a new user with new account and default role
+        :param user_data:
+        :return:
+        """
+        default_role = RoleService.get_role_partner()
+        password = Utils.gen_password()
         user_data['password'] = make_password(password,
                                               os.getenv('DEFAULT_PASSWORD'))
         user = Profile(**user_data)

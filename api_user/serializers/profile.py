@@ -2,8 +2,13 @@ from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
 from api_user.models.profile import Profile
-from api_user.serializers import RoleSerializer
 from api_user.serializers.role import SortRoleSerializer
+
+
+class AdminCreatePartnerSerializer(ModelSerializer):
+    class Meta:
+        model = Profile
+        fields = ['email', 'last_name', 'first_name', 'address', 'phone']
 
 
 class ProfileDetailSerializer(ModelSerializer):
