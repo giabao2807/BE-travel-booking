@@ -84,7 +84,7 @@ class TourService:
         data = request.data.dict()
         cover_picture = request.FILES.get('cover_picture')
         tour_images = request.FILES.getlist("tour_images")
-        data['owner_id'] = request.user.id
+        data['owner'] = request.user.id
         tour_images_link = []
 
         if cover_picture:
