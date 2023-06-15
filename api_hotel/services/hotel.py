@@ -10,12 +10,20 @@ from api_general.consts import DatetimeFormatter
 from api_general.models import City, Coupon
 from api_general.services import Utils, CityService
 from api_hotel.models import Hotel, Room, HotelImage
+from api_user.models import Profile
 from api_user.statics import RoleData
 from base.query import GroupConcat
 from common.constants.api_booking import BookingStatus
 
 
 class HotelService:
+    @classmethod
+    def recommend_for_user(cls, user: Profile, limit):
+        from api_general.services import RecommendService
+        num = limit or 6
+        hotel_ids = RecommendService.get_recommend_hotel_for_user(user, num)
+        return Hotel.objects.filter(id__in=hotel_ids).values_list("id", flat=True)
+
     @classmethod
     def check_deactive_tour(cls, hotel, user):
         is_valid = True

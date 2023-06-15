@@ -38,6 +38,7 @@ class HotelViewSet(BaseViewSet):
         "create": CUHotelSerializer,
         "update": CUHotelSerializer,
         "list": HotelCardSerializer,
+        "recommend_for_user": HotelCardSerializer,
         "for_management": PartnerHotelCardSerializer,
         "get_available_rooms": AvailableRoomSerializer,
         "get_reviews": HotelReviewSerializer,
@@ -58,6 +59,16 @@ class HotelViewSet(BaseViewSet):
             raise BoniException(ErrorType.GENERAL, ["Bạn không là chủ khách sạn này"])
 
         return super().update(request, *args, **kwargs)
+
+    @action(detail=False, methods=[HttpMethod.GET])
+    def recommend_for_user(self, request, *args, **kwargs):
+        user = request.user
+        limit = request.query_params.get("limit", None)
+        hotel_ids = HotelService.recommend_for_user(user, limit)
+        paginated_hotel_ids = self.paginate_queryset(hotel_ids)
+        hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids)
+        data = self.get_serializer(hotel_cards, many=True).data
+        return Response(self.get_paginated_response(data).data)
 
     def list(self, request, *args, **kwargs):
         [hotel_id_queryset, _order_by] = HotelService.get_filter_query(request)

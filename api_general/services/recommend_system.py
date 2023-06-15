@@ -23,6 +23,14 @@ class RecommendService:
         return tour_ids
 
     @classmethod
+    def get_recommend_hotel_for_user(cls, user: Profile, num: int):
+        number = num or 6
+        response = requests.get(f'{API_RECOMMEND_URL}/user/{user.id.hex}/recommend-hotel?limit={number}')
+        recommend_hotels = response.json().get("data")
+        hotel_ids = [hotel.get("id") for hotel in recommend_hotels]
+        return hotel_ids
+
+    @classmethod
     def get_recommend_top_city(cls):
         response = requests.get(f'{API_RECOMMEND_URL}/city/top-city')
         recommend_cities = response.json().get("data")
