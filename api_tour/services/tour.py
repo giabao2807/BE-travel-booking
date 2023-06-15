@@ -8,7 +8,7 @@ from api_booking.consts import BookingType
 from api_booking.models import BookingReview, Booking
 from api_general.consts import DatetimeFormatter
 from api_general.models import Coupon, Image
-from api_general.services import Utils
+from api_general.services import Utils, RecommendService
 from api_tour.models import Tour, TourImage
 from api_user.models import Profile
 from api_user.statics import RoleData
@@ -21,6 +21,17 @@ load_dotenv()
 
 
 class TourService:
+    @classmethod
+    def get_top_tour_recommend_sys(cls):
+        tour_ids = RecommendService.get_recommend_top_tour(None)
+        return Tour.objects.filter(id__in=tour_ids)
+
+    @classmethod
+    def recommend_for_user(cls, user: Profile, limit):
+        num = limit or 6
+        tour_ids = RecommendService.get_recommend_tour_for_user(user, num)
+        return Tour.objects.filter(id__in=tour_ids)
+
     @classmethod
     def refresh_image(cls, tour):
         tour_images = TourImage.objects.filter(tour=tour)

@@ -48,7 +48,7 @@ class CUHotelSerializer(ModelSerializer):
         model = Hotel
         fields = [
             "id", "cover_picture", "name", "address",
-            "descriptions", "rules", "city", "owner", "longitude", "latitude", "hotel_images"
+            "descriptions", "rules", "city", "owner", "hotel_images"
         ]
 
     @transaction.atomic

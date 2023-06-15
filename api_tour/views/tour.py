@@ -31,7 +31,8 @@ class TourViewSet(BaseViewSet):
         "retrieve": [],
         "filter_by_date_city": [],
         "get_reviews": [],
-        "get_available_group_size": []
+        "get_available_group_size": [],
+        "top_tour": []
     }
 
     serializer_map = {
@@ -39,6 +40,8 @@ class TourViewSet(BaseViewSet):
         'update': CreateTourSerializer,
         'list': CardTourSerializer,
         'list_tour': CardTourSerializer,
+        'top_tour': CardTourSerializer,
+        'recommend_for_user': CardTourSerializer,
         'filter_by_date_city': CardTourSerializer,
         'get_reviews': BookingReviewSerializer,
     }
@@ -49,6 +52,18 @@ class TourViewSet(BaseViewSet):
         tour_queryset = Tour.objects.filter(owner=request.user).order_by(order_by)
         data = TourCouponSerializer(tour_queryset, many=True).data
         return Response(data)
+
+    @action(detail=True, methods=[HttpMethod.GET])
+    def top_tour(self, request, *args, **kwargs):
+        self.queryset = TourService.get_top_tour_recommend_sys()
+        return super().list(request, *args, **kwargs)
+
+    @action(detail=False, methods=[HttpMethod.GET])
+    def recommend_for_user(self, request, *args, **kwargs):
+        user = request.user
+        limit = request.query_params.get("limit", None)
+        self.queryset = TourService.recommend_for_user(user, limit)
+        return super().list(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
         self.queryset = TourService.get_filter_query(request)
