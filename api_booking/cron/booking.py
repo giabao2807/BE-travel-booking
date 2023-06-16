@@ -20,3 +20,7 @@ def sync_booking_status():
         BookingService.send_mail_remind_booking(booking)
     # complete booking
     Booking.objects.filter(status=BookingStatus.PAID, end_date__lt=current_date).update(status=BookingStatus.COMPLETED)
+
+    # sync_data
+    from api_general.services import RecommendService
+    RecommendService.sync_data()

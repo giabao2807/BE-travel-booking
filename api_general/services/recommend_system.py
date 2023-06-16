@@ -36,3 +36,8 @@ class RecommendService:
         recommend_cities = response.json().get("data")
         city_ids = [city.get("id") for city in recommend_cities]
         return city_ids
+
+    @classmethod
+    def sync_data(cls):
+        requests.post(f'{API_RECOMMEND_URL}/sync-dynamic-data')
+        requests.post(f'{API_RECOMMEND_URL}//sync-static-data')
