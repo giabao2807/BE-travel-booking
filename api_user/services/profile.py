@@ -90,6 +90,13 @@ class ProfileService:
     ]
 
     @classmethod
+    def check_deactive_user(cls, user, admin):
+        is_valid = True
+        if user.id == admin.id:
+            return False
+        return is_valid
+
+    @classmethod
     def list_partner(cls):
         partner_role_id = RoleData.PARTNER.id
         queryset = Profile.objects.filter(role__id=partner_role_id)

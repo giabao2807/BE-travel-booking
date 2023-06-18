@@ -34,7 +34,26 @@ class ProfileViewSet(BaseViewSet):
         "list": [AdminPermission],
         "list_partner": [AdminPermission],
         "create": [AdminPermission],
+        "deactivate": [AdminPermission],
+        "activate": [AdminPermission],
     }
+
+    @action(detail=True, methods=[HttpMethod.PUT])
+    def deactivate(self, request, *args, **kwargs):
+        user = self.get_object()
+        admin = request.user
+        if ProfileService.check_deactive_user(user, admin):
+            user.is_active = False
+            user.save()
+            return Response({"message": "Vô hiệu hoá thành công người dùng!"}, status=status.HTTP_200_OK)
+        return Response({"message": "Người dùng không thể vô hiệu hoá"}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(detail=True, methods=[HttpMethod.PUT])
+    def activate(self, request, *args, **kwargs):
+        user = self.get_object()
+        user.is_active = True
+        user.save()
+        return Response({"message": "Kích hoạt hoá thành công người dùng!"}, status=status.HTTP_200_OK)
 
     @action(detail=False, methods=[HttpMethod.GET])
     def list_partner(self, request, *args, **kwargs):
