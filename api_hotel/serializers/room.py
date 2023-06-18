@@ -12,6 +12,11 @@ class RoomSerializer(ModelSerializer):
         model = Room
         exclude = ['is_active', 'hotel', 'benefit']
 
+    def to_representation(self, instance):
+        ret = super().to_representation(instance)
+        ret['list_images'] = [i.image.link for i in instance.room_images.all()]
+        return ret
+
 
 class PartnerRoomHotelSerializer(ModelSerializer):
 

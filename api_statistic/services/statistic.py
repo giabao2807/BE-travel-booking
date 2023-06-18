@@ -1,4 +1,5 @@
 from datetime import timedelta
+from datetime import date, datetime, time
 
 from django.db.models import Sum
 
@@ -30,22 +31,26 @@ class StatisticService:
 
         date_statistic = []
         if start_date and end_date:
-            total_tour = tour_statistic.filter(created_at__date__range=[start_date, end_date]) \
+            total_tour = tour_statistic.filter(created_at__range=(datetime.combine(start_date, time.min),
+                                                                  datetime.combine(end_date, time.max))) \
                                         .aggregate(total_price=Sum("booking_item__tour__price"))
-            total_hotel = hotel_statistic.filter(created_at__date__range=[start_date, end_date]) \
+            total_hotel = hotel_statistic.filter(created_at__range=(datetime.combine(start_date, time.min),
+                                                                    datetime.combine(end_date, time.max))) \
                                          .aggregate(total_price=Sum("booking_item__room__price"))
-            date = start_date
-            while date <= end_date:
-                tour = tour_statistic.filter(created_at__date=date) \
-                    .aggregate(total_price=Sum("booking_item__tour__price"))
-                hotel = hotel_statistic.filter(created_at__date=date) \
+            _date = start_date
+            while _date <= end_date:
+                tour = tour_statistic.filter(created_at__range=(datetime.combine(_date, time.min),
+                                                                datetime.combine(_date, time.max))) \
+                        .aggregate(total_price=Sum("booking_item__tour__price"))
+                hotel = hotel_statistic.filter(created_at__range=(datetime.combine(_date, time.min),
+                                                                  datetime.combine(_date, time.max))) \
                     .aggregate(total_price=Sum("booking_item__room__price"))
                 date_statistic.append({
-                    "day": date,
+                    "day": _date,
                     "tour": tour['total_price'] or 0,
                     "hotel": hotel['total_price'] or 0
                 })
-                date = date + timedelta(days=1)
+                _date = _date + timedelta(days=1)
         else:
             total_tour = tour_statistic.aggregate(total_price=Sum("booking_item__tour__price"))
             total_hotel = hotel_statistic.aggregate(total_price=Sum("booking_item__room__price"))

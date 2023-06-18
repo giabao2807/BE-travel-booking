@@ -228,6 +228,7 @@ class ProfileService:
             'full_name': f"{profile.first_name} {profile.last_name}",
             'avatar': profile.avatar,
             'email': profile.email,
+            'phone': profile.phone,
             'role': role.name
         }
         data = {**token_data, **user_data}
