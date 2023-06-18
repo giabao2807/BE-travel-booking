@@ -32,8 +32,7 @@ class SimpleCouponSerializer(ModelSerializer):
 
 
 class CUCouponSerializer(ModelSerializer):
-    hotel_ids = serializers.ListField(allow_null=True, required=False, read_only=True)
-    tour_ids = serializers.ListField(allow_null=True, required=False, read_only=True)
+    partner_ids = serializers.ListField(child=serializers.UUIDField(), allow_null=True, required=False, read_only=True)
 
     class Meta:
         model = Coupon
@@ -47,31 +46,25 @@ class CUCouponSerializer(ModelSerializer):
 
     def validate(self, attrs):
         for_all = attrs.get("for_all", False)
-        hotel_ids = self.initial_data.get("hotel_ids", [])
-        tour_ids = self.initial_data.get("tour_ids", [])
+        partner_ids = self.initial_data.get("partner_ids", [])
         start_date = attrs.get("start_date", "")
         end_date = attrs.get("end_date", "")
 
-        if not for_all and not any([hotel_ids, tour_ids]):
-            raise ValidationError("Hotel ids or tour ids must not be null in the same time in case for_all is false")
+        if not for_all and not partner_ids:
+            raise ValidationError("Partner ids or for_all must has value")
         if start_date > end_date:
             raise ValidationError("start date must be less than or equal end date")
 
         return attrs
 
-    def create(self, validated_data):
-        hotel_ids = self.initial_data.get("hotel_ids", [])
-        tour_ids = self.initial_data.get("tour_ids", [])
-        coupon = CouponService.create(validated_data, hotel_ids, tour_ids)
+    def save(self, **kwargs):
+        partner_ids = self.initial_data.pop("partner_ids", [])
+
+        coupon = super().save(**kwargs)
+        if self.instance:
+            coupon.hotel_coupons.all().delete()
+            coupon.tour_coupons.all().delete()
+        if partner_ids:
+            CouponService.refresh_hotel_tour_coupons(coupon, partner_ids)
 
         return coupon
-
-    def update(self, instance, validated_data):
-        hotel_ids = self.initial_data.get("hotel_ids", [])
-        tour_ids = self.initial_data.get("tour_ids", [])
-        coupon_data = dict(hotel_ids=hotel_ids, tour_ids=tour_ids)
-
-        instance = super().update(instance, validated_data)
-        CouponService.update_related(instance, coupon_data)
-
-        return instance
