@@ -9,7 +9,8 @@ from rest_framework.response import Response
 from api_user.models.profile import Profile
 from api_user.permission import UserPermission, AdminPermission
 from api_user.serializers import ProfileDetailSerializer, CreateProfileSerializer
-from api_user.serializers.profile import BasicProfileSerializer, AdminProfileSerializer, AdminCreatePartnerSerializer
+from api_user.serializers.profile import BasicProfileSerializer, AdminProfileSerializer, AdminCreatePartnerSerializer, \
+    PartnerSortSerializer
 from api_user.services import ProfileService
 from base.services import CloudinaryService
 from base.views import BaseViewSet
@@ -31,8 +32,15 @@ class ProfileViewSet(BaseViewSet):
 
     permission_map = {
         "list": [AdminPermission],
+        "list_partner": [AdminPermission],
         "create": [AdminPermission],
     }
+
+    @action(detail=False, methods=[HttpMethod.GET])
+    def list_partner(self, request, *args, **kwargs):
+        self.queryset = ProfileService.list_partner()
+        self.serializer_class = PartnerSortSerializer
+        return super().list(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
         self.queryset = ProfileService.get_filter_query(request)

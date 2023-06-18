@@ -80,17 +80,23 @@ class StatisticService:
         partner = Profile.objects.filter(role__id=RoleData.PARTNER.value.get('id')).count()
 
         res = [
-            {"key": "booking_success", "title": "Booking", "color": "#ffa39e",
+            {"key": "booking_success", "icon": "mdi-package-variant-closed-check",
+             "title": "Booking", "color": "#ffa39e",
              "value": booking_success, "rateString": "thành công"},
-            {"key": "booking_error", "title": "Booking", "color": "#91caff",
+            {"key": "booking_error", "icon": "mdi-package-variant-closed-remove",
+             "title": "Booking", "color": "#91caff",
              "value": booking_error, "rateString": "gián đoạn"},
-            {"key": "tour", "title": "Tours", "color": "#ff7a45",
+            {"key": "tour", "icon": "mdi-compass-rose",
+             "title": "Tours", "color": "#ff7a45",
              "value": tour, "rateString": "hiện tại"},
-            {"key": "hotel", "title": "Hotel", "color": "#135200",
+            {"key": "hotel", "icon": "mdi-home-city-outline",
+             "title": "Hotel", "color": "#135200",
              "value": hotel, "rateString": "hiện tại"},
-            {"key": "customer", "title": "Customers", "color": "#87CEFA",
+            {"key": "customer", "icon": "mdi-card-account-details-star-outline",
+             "title": "Customers", "color": "#87CEFA",
              "value": customer, "rateString": "hiện tại"},
-            {"key": "partner", "title": "Partners", "color": "#87CEFA",
+            {"key": "partner", "icon": "mdi-handshake-outline",
+             "title": "Partners", "color": "#87CEFA",
              "value": partner, "rateString": "hiện tại"}
         ]
 
@@ -120,15 +126,20 @@ class StatisticService:
         hotels = Booking.objects.filter(booking_item__room__hotel__owner__id=user.id)
         total_cus = set([tour.customer.id for tour in tours] + [hotel.customer.id for hotel in hotels])
         res = [
-            {"key": "booking_success", "title": "Booking", "color": "#ffa39e",
+            {"key": "booking_success", "icon": "mdi-package-variant-closed-check",
+             "title": "Booking", "color": "#ffa39e",
              "value": booking_success, "rateString": "thành công"},
-            {"key": "booking_error", "title": "Booking", "color": "#91caff",
+            {"key": "booking_error", "icon": "mdi-package-variant-closed-remove",
+             "title": "Booking", "color": "#91caff",
              "value": booking_error, "rateString": "gián đoạn"},
             {"key": "tour", "title": "Tours", "color": "#ff7a45",
-             "value": tour, "rateString": "hiện tại"},
+             "value": tour, "icon": "mdi-compass-rose",
+             "rateString": "hiện tại"},
             {"key": "hotel", "title": "Hotels", "color": "#135200",
-             "value": hotel, "rateString": "hiện tại"},
-            {"key": "customer", "title": "Customers", "color": "#87CEFA",
+             "value": hotel, "icon": "mdi-home-city-outline",
+             "rateString": "hiện tại"},
+            {"key": "customer", "icon": "mdi-card-account-details-star-outline",
+             "title": "Customers", "color": "#87CEFA",
              "value": len(total_cus), "rateString": "hiện tại"}
         ]
 

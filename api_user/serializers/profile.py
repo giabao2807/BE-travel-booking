@@ -5,6 +5,12 @@ from api_user.models.profile import Profile
 from api_user.serializers.role import SortRoleSerializer
 
 
+class PartnerSortSerializer(ModelSerializer):
+    class Meta:
+        model = Profile
+        fields = ['email', 'id', 'last_name', 'first_name']
+
+
 class AdminCreatePartnerSerializer(ModelSerializer):
     class Meta:
         model = Profile

@@ -90,6 +90,12 @@ class ProfileService:
     ]
 
     @classmethod
+    def list_partner(cls):
+        partner_role_id = RoleData.PARTNER.id
+        queryset = Profile.objects.filter(role__id=partner_role_id)
+        return queryset
+
+    @classmethod
     def get_filter_query(cls, request):
         queryset = Profile.objects.all()
         filter_args = dict()
