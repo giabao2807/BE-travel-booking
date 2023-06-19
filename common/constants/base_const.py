@@ -17,5 +17,5 @@ class Const:
 
 
 class SupportEnv(IntEnum):
-    LOCALHOST = 2
-    PROD = 1
+    LOCALHOST = 1
+    PROD = 2

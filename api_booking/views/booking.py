@@ -126,5 +126,5 @@ class BookingViewSet(BaseViewSet):
 
         self.serializer_class = PartnerHotelBookingSerializer if booking_type == BookingType.HOTEL else PartnerTourBookingSerializer
         self.queryset = BookingService.get_bookings_qs_for_manage(request.user, booking_type)
-
+x
         return super().list(request, *args, **kwargs)
