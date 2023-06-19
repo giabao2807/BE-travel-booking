@@ -11,7 +11,7 @@ from base.views import BaseViewSet
 from common.constants.base import HttpMethod
 
 
-class BookingViewSet(BaseViewSet):
+class FavoriteViewSet(BaseViewSet):
     queryset = FavoriteBooking.objects.all()
     permission_classes = [UserPermission]
 
@@ -22,6 +22,6 @@ class BookingViewSet(BaseViewSet):
         booking_ft = Q(type=_type) & Q(customer=request.user)
         self.serializer_class = ListHotelFavoriteSerializer if _type == BookingType.HOTEL else ListTourFavoriteSerializer
 
-        self.queryset = Booking.objects.filter(booking_ft).order_by("-created_at")
+        self.queryset = FavoriteBooking.objects.filter(booking_ft).order_by("-created_at")
 
         return super().list(request, *args, **kwargs)

@@ -5,7 +5,7 @@ from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F, Value
 from django.db.models.functions import Collate
 
 from api_booking.consts import BookingType
-from api_booking.models import Booking
+from api_booking.models import Booking, FavoriteBooking
 from api_general.consts import DatetimeFormatter
 from api_general.models import City, Coupon
 from api_general.services import Utils, CityService

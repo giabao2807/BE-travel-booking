@@ -2,14 +2,15 @@ from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
+from api_booking.consts import BookingType
 from api_booking.serializers import BookingReviewSerializer
-from api_booking.services import BookingReviewService
+from api_booking.services import BookingReviewService, FavoriteBookingService
 from api_general.consts import DatetimeFormatter
 from api_general.services import Utils
 from api_hotel.models import Hotel
 from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer, HotelReviewSerializer, HotelCardSerializer, \
     CUHotelSerializer, CURoomSerializer, HotelCouponSerializer
-from api_hotel.serializers.hotel import PartnerHotelCardSerializer
+from api_hotel.serializers.hotel import PartnerHotelCardSerializer, HotelFavoriteCardSerializer
 from api_hotel.services import HotelService
 from api_user.permission import UserPermission, PartnerPermission
 from api_user.statics import RoleData
@@ -37,8 +38,8 @@ class HotelViewSet(BaseViewSet):
     serializer_map = {
         "create": CUHotelSerializer,
         "update": CUHotelSerializer,
-        "list": HotelCardSerializer,
-        "recommend_for_user": HotelCardSerializer,
+        "list": HotelFavoriteCardSerializer,
+        "recommend_for_user": HotelFavoriteCardSerializer,
         "for_management": PartnerHotelCardSerializer,
         "get_available_rooms": AvailableRoomSerializer,
         "get_reviews": HotelReviewSerializer,
@@ -74,7 +75,7 @@ class HotelViewSet(BaseViewSet):
         [hotel_id_queryset, _order_by] = HotelService.get_filter_query(request)
         paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, _order_by)
-        data = self.get_serializer(hotel_cards, many=True).data
+        data = self.get_serializer(hotel_cards, many=True, context={'request': request}).data
         return Response(self.get_paginated_response(data).data)
 
     @action(detail=False, methods=[HttpMethod.GET])
@@ -88,6 +89,22 @@ class HotelViewSet(BaseViewSet):
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, order_by)
         data = self.get_serializer(hotel_cards, many=True).data
         return Response(self.get_paginated_response(data).data)
+
+    @action(detail=True, methods=[HttpMethod.POST])
+    def add_favorite(self, request, *args, **kwargs):
+        user = request.user
+        hotel = self.get_object()
+        if FavoriteBookingService.add_favorite(hotel=hotel, user=user, _type=BookingType.HOTEL):
+            return Response({"message": "Đã thêm vào mục yêu thích!"})
+        return Response({"message": "Đã tồn tại khách sạn này ở mục yêu thích!"}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(detail=True, methods=[HttpMethod.DELETE])
+    def remove_favorite(self, request, *args, **kwargs):
+        user = request.user
+        hotel = self.get_object()
+        if FavoriteBookingService.remove_favorite(hotel=hotel, user=user, _type=BookingType.HOTEL):
+            return Response({"message": "Đã xoá khỏi mục yêu thích!"})
+        return Response({"message": "Khôg tồn tại khách sạn này ở mục yêu thích!"}, status=status.HTTP_400_BAD_REQUEST)
 
     @action(detail=False, methods=[HttpMethod.GET])
     def hotels_for_coupon(self, request, *args, **kwargs):

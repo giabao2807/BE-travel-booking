@@ -1,19 +1,16 @@
-from django.db.models import F
-from rest_framework import serializers
-from rest_framework.exceptions import ValidationError
 from rest_framework.serializers import ModelSerializer
 
 from api_booking.models import FavoriteBooking
 from api_hotel.serializers import BookingHotelCardSerializer
 from api_hotel.services import HotelService
-from api_tour.serializers import CardTourSerializer
+from api_tour.serializers.tour import CardTourSerializer
 
 
 class ListHotelFavoriteSerializer(ModelSerializer):
 
     class Meta:
         model = FavoriteBooking
-        fields = "__all__"
+        fields = ('id', 'type', "created_at")
 
     def to_representation(self, instance: FavoriteBooking):
         data = super().to_representation(instance)
@@ -29,7 +26,7 @@ class ListTourFavoriteSerializer(ModelSerializer):
 
     class Meta:
         model = FavoriteBooking
-        fields = "__all__"
+        fields = ('id', 'type', "created_at")
 
     def to_representation(self, instance: FavoriteBooking):
         data = super().to_representation(instance)

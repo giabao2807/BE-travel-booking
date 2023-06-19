@@ -127,6 +127,42 @@ class HotelCardSerializer(ModelSerializer):
                   "cover_picture", "rate_average", "coupon_data")
 
 
+class HotelFavoriteCardSerializer(ModelSerializer):
+    num_review = serializers.IntegerField()
+    rate_average = serializers.FloatField(read_only=True)
+    coupon_data = serializers.SerializerMethodField()
+    min_price = serializers.IntegerField()
+    max_price = serializers.IntegerField()
+
+    def get_coupon_data(self, instance):
+        from api_hotel.services import HotelService
+        from api_general.serializers import SimpleCouponSerializer
+
+        coupon = HotelService.get_current_coupon(instance.get("id"))
+        coupon_data = dict()
+        if coupon:
+            coupon_data = SimpleCouponSerializer(coupon).data
+
+        return coupon_data
+
+    class Meta:
+        model = Hotel
+        fields = ("id", "name", "address", "num_review",
+                  "min_price", "max_price",
+                  "cover_picture", "rate_average", "coupon_data")
+
+    def to_representation(self, instance):
+        from api_booking.models import FavoriteBooking
+        ret = super(HotelFavoriteCardSerializer, self).to_representation(instance)
+        user = self.context["request"].user
+
+        ret['is_favorite'] = False
+        if not user.is_anonymous:
+            favorite = FavoriteBooking.objects.filter(customer=user, hotel__id=instance.get("id")).first()
+            ret['is_favorite'] = True if favorite else False
+        return ret
+
+
 class BookingHotelCardSerializer(ModelSerializer):
     num_review = serializers.IntegerField()
     rate_average = serializers.FloatField(read_only=True)

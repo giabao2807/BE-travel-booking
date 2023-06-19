@@ -4,12 +4,13 @@ from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
+from api_booking.consts import BookingType
 from api_booking.serializers import BookingReviewSerializer
-from api_booking.services import BookingReviewService
+from api_booking.services import BookingReviewService, FavoriteBookingService
 from api_general.services import Utils
 from api_tour.models import Tour
 from api_tour.serializers import TourSerializer, CardTourSerializer
-from api_tour.serializers.tour import CreateTourSerializer, TourCouponSerializer
+from api_tour.serializers.tour import CreateTourSerializer, TourCouponSerializer, CardFavoriteTourSerializer
 from api_tour.services import TourService, TourImageService
 from api_tour.services.view import TourViewService
 from api_user.permission import UserPermission, PartnerPermission
@@ -38,13 +39,29 @@ class TourViewSet(BaseViewSet):
     serializer_map = {
         'create': CreateTourSerializer,
         'update': CreateTourSerializer,
-        'list': CardTourSerializer,
+        'list': CardFavoriteTourSerializer,
         'list_tour': CardTourSerializer,
-        'top_tour': CardTourSerializer,
-        'recommend_for_user': CardTourSerializer,
-        'filter_by_date_city': CardTourSerializer,
+        'top_tour': CardFavoriteTourSerializer,
+        'recommend_for_user': CardFavoriteTourSerializer,
+        'filter_by_date_city': CardFavoriteTourSerializer,
         'get_reviews': BookingReviewSerializer,
     }
+
+    @action(detail=True, methods=[HttpMethod.POST])
+    def add_favorite(self, request, *args, **kwargs):
+        user = request.user
+        tour = self.get_object()
+        if FavoriteBookingService.add_favorite(tour=tour, user=user, _type=BookingType.TOUR):
+            return Response({"message": "Đã thêm vào mục yêu thích!"})
+        return Response({"message": "Đã tồn tại tour này ở mục yêu thích!"}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(detail=True, methods=[HttpMethod.DELETE])
+    def remove_favorite(self, request, *args, **kwargs):
+        user = request.user
+        tour = self.get_object()
+        if FavoriteBookingService.remove_favorite(tour=tour, user=user, _type=BookingType.TOUR):
+            return Response({"message": "Đã xoá khỏi mục yêu thích!"})
+        return Response({"message": "Khôg tồn tại tour này ở mục yêu thích!"}, status=status.HTTP_400_BAD_REQUEST)
 
     @action(detail=False, methods=[HttpMethod.GET])
     def tours_for_coupon(self, request, *args, **kwargs):
@@ -55,8 +72,9 @@ class TourViewSet(BaseViewSet):
 
     @action(detail=True, methods=[HttpMethod.GET])
     def top_tour(self, request, *args, **kwargs):
-        self.queryset = TourService.get_top_tour_recommend_sys()
-        return super().list(request, *args, **kwargs)
+        queryset = TourService.get_top_tour_recommend_sys()
+        serializer = self._list(queryset, request)
+        return Response(serializer.data)
 
     @action(detail=False, methods=[HttpMethod.GET])
     def recommend_for_user(self, request, *args, **kwargs):
@@ -66,8 +84,18 @@ class TourViewSet(BaseViewSet):
         return super().list(request, *args, **kwargs)
 
     def list(self, request, *args, **kwargs):
-        self.queryset = TourService.get_filter_query(request)
-        return super().list(request, *args, **kwargs)
+        queryset = TourService.get_filter_query(request)
+        serializer = self._list(queryset, request)
+        return Response(serializer.data)
+
+    def _list(self, queryset, request):
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True, context={'request': request})
+        return serializer
 
     def create(self, request, *args, **kwargs):
         data, tour_images_link = TourService.init_data_tour(request)
@@ -96,8 +124,9 @@ class TourViewSet(BaseViewSet):
     @action(detail=False, methods=[HttpMethod.GET])
     def list_tour(self, request, *args, **kwargs):
         user = request.user
-        self.queryset = TourService.list_tour_manage(user)
-        return super().list(request, *args, **kwargs)
+        queryset = TourService.list_tour_manage(user)
+        serializer = self._list(queryset, request)
+        return Response(serializer.data)
 
     @action(detail=True, methods=[HttpMethod.PUT])
     def deactivate(self, request, *args, **kwargs):
