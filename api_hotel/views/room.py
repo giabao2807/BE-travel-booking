@@ -38,3 +38,10 @@ class RoomViewSet(BaseViewSet):
             raise BoniException(ErrorType.GENERAL, ["Bạn không là chủ khách sạn này"])
 
         return super().update(request, *args, **kwargs)
+
+    def destroy(self, request, *args, **kwargs):
+        room = self.get_object()
+        if RoomService.check_delete_room(room):
+            room.delete()
+            return Response({"message": "Xoá thành công phòng!"})
+        return Response({"message": "Phòng đang được book, không thể xoá!"})

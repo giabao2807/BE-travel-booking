@@ -10,7 +10,8 @@ from api_booking.services import BookingReviewService, FavoriteBookingService
 from api_general.services import Utils
 from api_tour.models import Tour
 from api_tour.serializers import TourSerializer, CardTourSerializer
-from api_tour.serializers.tour import CreateTourSerializer, TourCouponSerializer, CardFavoriteTourSerializer
+from api_tour.serializers.tour import CreateTourSerializer, TourCouponSerializer, CardFavoriteTourSerializer, \
+    TourFavoriteInfoSerializer
 from api_tour.services import TourService, TourImageService
 from api_tour.services.view import TourViewService
 from api_user.permission import UserPermission, PartnerPermission
@@ -37,6 +38,7 @@ class TourViewSet(BaseViewSet):
     }
 
     serializer_map = {
+        'retrieve': TourFavoriteInfoSerializer,
         'create': CreateTourSerializer,
         'update': CreateTourSerializer,
         'list': CardFavoriteTourSerializer,
@@ -46,6 +48,11 @@ class TourViewSet(BaseViewSet):
         'filter_by_date_city': CardFavoriteTourSerializer,
         'get_reviews': BookingReviewSerializer,
     }
+
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, context={'request': request})
+        return Response(serializer.data)
 
     @action(detail=True, methods=[HttpMethod.POST])
     def add_favorite(self, request, *args, **kwargs):

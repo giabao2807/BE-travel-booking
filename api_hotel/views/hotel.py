@@ -10,7 +10,8 @@ from api_general.services import Utils
 from api_hotel.models import Hotel
 from api_hotel.serializers import HotelSerializer, AvailableRoomSerializer, HotelReviewSerializer, HotelCardSerializer, \
     CUHotelSerializer, CURoomSerializer, HotelCouponSerializer
-from api_hotel.serializers.hotel import PartnerHotelCardSerializer, HotelFavoriteCardSerializer
+from api_hotel.serializers.hotel import PartnerHotelCardSerializer, HotelFavoriteCardSerializer, \
+    HotelFavoriteInfoSerializer
 from api_hotel.services import HotelService
 from api_user.permission import UserPermission, PartnerPermission
 from api_user.statics import RoleData
@@ -36,6 +37,7 @@ class HotelViewSet(BaseViewSet):
         "get_reviews": [],
     }
     serializer_map = {
+        "retrieve": HotelFavoriteInfoSerializer,
         "create": CUHotelSerializer,
         "update": CUHotelSerializer,
         "list": HotelFavoriteCardSerializer,
@@ -45,6 +47,11 @@ class HotelViewSet(BaseViewSet):
         "get_reviews": HotelReviewSerializer,
         "create_rooms": CURoomSerializer,
     }
+
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, context={'request': request})
+        return Response(serializer.data)
 
     def create(self, request, *args, **kwargs):
         data = request.data

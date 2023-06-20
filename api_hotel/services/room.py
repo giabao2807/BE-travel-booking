@@ -1,7 +1,17 @@
+from api_booking.models import Booking
 from api_hotel.models import Hotel, Room, RoomImage
+from common.constants.api_booking import BookingStatus
 
 
 class RoomService:
+    @classmethod
+    def check_delete_room(cls, room):
+        is_valid = True
+        bookings = Booking.objects.filter(room=room, status__in=[BookingStatus.PAID, BookingStatus.UNPAID])
+        if bookings:
+            return False
+        return is_valid
+
     @classmethod
     def get_room_ids_by_hotel(cls, hotel_id):
         hotel = Hotel.objects.get(id=hotel_id)

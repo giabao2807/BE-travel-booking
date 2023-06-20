@@ -20,6 +20,40 @@ class CreateTourSerializer(ModelSerializer):
         exclude = ('rate', 'longitude', 'latitude')
 
 
+class TourFavoriteInfoSerializer(ModelSerializer):
+    coupon_data = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Tour
+        fields = "__all__"
+
+    def get_coupon_data(self, instance):
+        _id = instance.id if isinstance(instance, Tour) else instance.get("id")
+        coupon = TourService.get_current_coupon(_id)
+        coupon_data = dict()
+        if coupon:
+            coupon_data = SimpleCouponSerializer(coupon).data
+
+        return coupon_data
+
+    def to_representation(self, instance):
+        ret = super().to_representation(instance)
+        ret['city'] = instance.city.name if instance.city else 'Việt Nam'
+        ret['num_review'] = TourService.count_num_review(instance)
+        ret['rate'] = 4.5
+        tour_image = TourImage.objects.filter(tour=instance)
+        ret['list_images'] = [image.image.link for image in tour_image]
+
+        from api_booking.models import FavoriteBooking
+        user = self.context["request"].user
+
+        ret['is_favorite'] = False
+        if not user.is_anonymous:
+            favorite = FavoriteBooking.objects.filter(customer=user, hotel__id=instance.id).first()
+            ret['is_favorite'] = True if favorite else False
+        return ret
+
+
 class TourSerializer(ModelSerializer):
     coupon_data = serializers.SerializerMethodField()
 

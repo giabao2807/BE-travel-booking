@@ -15,6 +15,38 @@ class HotelCouponSerializer(ModelSerializer):
         fields = ('id', 'name')
 
 
+class HotelFavoriteInfoSerializer(ModelSerializer):
+    coupon_data = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Hotel
+        exclude = ['is_active']
+
+    def get_coupon_data(self, instance):
+        from api_hotel.services import HotelService
+        from api_general.serializers import SimpleCouponSerializer
+
+        coupon = HotelService.get_current_coupon(instance.id)
+        coupon_data = dict()
+        if coupon:
+            coupon_data = SimpleCouponSerializer(coupon).data
+
+        return coupon_data
+
+    def to_representation(self, instance):
+        ret = super().to_representation(instance)
+        ret['num_review'] = HotelService.count_num_review(instance)
+        ret['list_images'] = [i.image.link for i in instance.hotel_images.all()]
+        from api_booking.models import FavoriteBooking
+        user = self.context["request"].user
+
+        ret['is_favorite'] = False
+        if not user.is_anonymous:
+            favorite = FavoriteBooking.objects.filter(customer=user, hotel__id=instance.id).first()
+            ret['is_favorite'] = True if favorite else False
+        return ret
+
+
 class HotelSerializer(ModelSerializer):
     coupon_data = serializers.SerializerMethodField()
 
