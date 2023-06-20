@@ -15,6 +15,7 @@ def sync_booking_status():
     for booking in canceled_booking:
         booking.status = BookingStatus.CANCELED
         BookingService.send_mail_booking_error(booking)
+        booking.save()
     # remind bookinng
     remind_bookings = Booking.objects.filter(status=BookingStatus.PAID,
                                              start_date__range=(datetime.datetime.combine(start_date_need_remind,

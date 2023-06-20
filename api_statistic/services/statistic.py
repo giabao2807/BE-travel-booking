@@ -180,7 +180,7 @@ class StatisticService:
         customer_count = collections.Counter(customer_ids)
         customer_sorted = sorted(customer_count.items(), key=lambda x: x[1], reverse=True)
         customer_ids_rs = [item[0] for item in customer_sorted]
-        customers = Profile.objects.filter(id__in=customer_ids_rs)
+        customers = Profile.objects.filter(id__in=customer_ids_rs)[0:50]
         potential_customers = []
         for cus_id in customer_ids_rs:
             for cus in customers:

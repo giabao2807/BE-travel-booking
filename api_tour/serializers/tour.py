@@ -49,7 +49,7 @@ class TourFavoriteInfoSerializer(ModelSerializer):
 
         ret['is_favorite'] = False
         if not user.is_anonymous:
-            favorite = FavoriteBooking.objects.filter(customer=user, hotel__id=instance.id).first()
+            favorite = FavoriteBooking.objects.filter(customer=user, tour__id=instance.id).first()
             ret['is_favorite'] = True if favorite else False
         return ret
 
