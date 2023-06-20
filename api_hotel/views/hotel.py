@@ -75,7 +75,7 @@ class HotelViewSet(BaseViewSet):
         hotel_ids = HotelService.recommend_for_user(user, limit)
         paginated_hotel_ids = self.paginate_queryset(hotel_ids)
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids)
-        data = self.get_serializer(hotel_cards, many=True).data
+        data = self.get_serializer(hotel_cards, many=True, context={'request': request}).data
         return Response(self.get_paginated_response(data).data)
 
     def list(self, request, *args, **kwargs):

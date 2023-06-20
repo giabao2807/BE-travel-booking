@@ -87,8 +87,9 @@ class TourViewSet(BaseViewSet):
     def recommend_for_user(self, request, *args, **kwargs):
         user = request.user
         limit = request.query_params.get("limit", None)
-        self.queryset = TourService.recommend_for_user(user, limit)
-        return super().list(request, *args, **kwargs)
+        queryset = TourService.recommend_for_user(user, limit)
+        serializer = self._list(queryset, request)
+        return Response(serializer.data)
 
     def list(self, request, *args, **kwargs):
         queryset = TourService.get_filter_query(request)
