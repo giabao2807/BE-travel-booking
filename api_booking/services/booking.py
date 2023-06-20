@@ -200,6 +200,31 @@ class BookingService:
                                       total_price, os.getenv('BOOKING_LINK'), hotel_name, booking.note)
 
     @classmethod
+    def send_mail_sync_data(cls, cancel_booking, complete_booking, remind_booking):
+        today = datetime.date.now()
+        admin = Profile.objects.filter(role__id=RoleData.ADMIN.id).first()
+        total_cancel = len(cancel_booking) or 0
+        total_complete = len(complete_booking) or 0
+        total_remind = len(remind_booking) or 0
+        cls.send_mail_to_admin_sync(admin.email,
+                                    f'{admin.first_name} {admin.last_name}',
+                                    total_cancel, total_complete, total_remind,
+                                    today)
+
+    @classmethod
+    def send_mail_to_admin_sync(cls, email, first_name, last_name, total_cancel,
+                                total_complete, total_remind, today):
+        user_name= f'{first_name} {last_name}'
+        content = render_to_string(
+            "job_for_admin.html",
+            {"total_cancel": total_cancel, "user_name": user_name, "today": today,
+             "total_complete": total_complete, "total_remind": total_remind},
+        )
+        SendMail.start(
+            [email], "[MANAGE SYSTEM] Information about your sync data today!", content
+        )
+
+    @classmethod
     def send_mail_booking_success(cls,
                                   email: str, send_mail: bool,
                                   type_booking: int,
