@@ -5,8 +5,10 @@ from api_general.models import City
 from api_general.serializers import CitySerializer
 from api_general.services import Utils, CityService
 from api_hotel.serializers import HotelCardSerializer
+from api_hotel.serializers.hotel import HotelFavoriteCardSerializer
 from api_hotel.services import HotelService
 from api_tour.serializers import CardTourSerializer
+from api_tour.serializers.tour import TourFavoriteInfoSerializer
 from base.views import BaseViewSet
 from common.constants.base import HttpMethod
 
@@ -16,8 +18,8 @@ class CityViewSet(BaseViewSet):
     serializer_class = CitySerializer
     permission_classes = []
     serializer_map = {
-        "top_hotels": HotelCardSerializer,
-        "top_tour": CardTourSerializer
+        "top_hotels": HotelFavoriteCardSerializer,
+        "top_tour": TourFavoriteInfoSerializer
     }
 
     def list(self, request, *args, **kwargs):
@@ -137,7 +139,7 @@ class CityViewSet(BaseViewSet):
 
         tour_queryset = CityService.get_top_tour_queryset(city)
         paginated_hotels = self.paginate_queryset(tour_queryset)
-        data = CardTourSerializer(paginated_hotels, many=True).data
+        data = CardTourSerializer(paginated_hotels, many=True, context={'request': request}).data
 
         return Response(self.get_paginated_response(data).data)
 
@@ -187,6 +189,6 @@ class CityViewSet(BaseViewSet):
         hotel_id_queryset = CityService.get_top_hotel_id_queryset(city)
         paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids)
-        data = self.get_serializer(hotel_cards, many=True).data
+        data = self.get_serializer(hotel_cards, many=True, context={'request': request}).data
 
         return Response(self.get_paginated_response(data).data)
