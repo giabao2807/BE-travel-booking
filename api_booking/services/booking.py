@@ -1,5 +1,5 @@
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from typing import List, Dict, Optional
 
 from django.db.models import F, QuerySet, Q
@@ -201,23 +201,20 @@ class BookingService:
 
     @classmethod
     def send_mail_sync_data(cls, cancel_booking, complete_booking, remind_booking):
-        today = datetime.date.now()
         admin = Profile.objects.filter(role__id=RoleData.ADMIN.id).first()
         total_cancel = len(cancel_booking) or 0
         total_complete = len(complete_booking) or 0
         total_remind = len(remind_booking) or 0
         cls.send_mail_to_admin_sync(admin.email,
                                     f'{admin.first_name} {admin.last_name}',
-                                    total_cancel, total_complete, total_remind,
-                                    today)
+                                    total_cancel, total_complete, total_remind)
 
     @classmethod
-    def send_mail_to_admin_sync(cls, email, first_name, last_name, total_cancel,
-                                total_complete, total_remind, today):
-        user_name= f'{first_name} {last_name}'
+    def send_mail_to_admin_sync(cls, email, user_name, total_cancel,
+                                total_complete, total_remind):
         content = render_to_string(
             "job_for_admin.html",
-            {"total_cancel": total_cancel, "user_name": user_name, "today": today,
+            {"total_cancel": total_cancel, "user_name": user_name,
              "total_complete": total_complete, "total_remind": total_remind},
         )
         SendMail.start(
