@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, time
 
 from django.db.models import Q, QuerySet, Sum, Value, Avg, Min, Max
 from django.db.models.functions import Collate
@@ -139,8 +139,8 @@ class TourService:
         current_date = datetime.now().date()
         base_ft = Q(
             is_active=True,
-            start_date__date__lte=current_date,
-            end_date__date__gte=current_date
+            start_date__lte=datetime.combine(current_date, time.max),
+            end_date__gte=datetime.combine(current_date, time.min)
         )
 
         for_all_coupon_ft = Q(for_all=True)

@@ -31,11 +31,11 @@ class StatisticService:
 
         date_statistic = []
         if start_date and end_date:
-            total_tour = tour_statistic.filter(created_at__range=(datetime.combine(start_date, time.min),
-                                                                  datetime.combine(end_date, time.max))) \
-                                        .aggregate(total_price=Sum("booking_item__tour__price"))
-            total_hotel = hotel_statistic.filter(created_at__range=(datetime.combine(start_date, time.min),
-                                                                    datetime.combine(end_date, time.max))) \
+            date_range = (datetime.combine(start_date, time.min),
+                          datetime.combine(end_date, time.max))
+            total_tour = tour_statistic.filter(created_at__range=date_range) \
+                                       .aggregate(total_price=Sum("booking_item__tour__price"))
+            total_hotel = hotel_statistic.filter(created_at__range=date_range) \
                                          .aggregate(total_price=Sum("booking_item__room__price"))
             _date = start_date
             while _date <= end_date:

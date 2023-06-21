@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, time
 from typing import List, Dict, Optional, Iterable, Union
 
 from django.db.models import Avg, Count, Min, Max, Q, Sum, QuerySet, F, Value
@@ -135,11 +135,13 @@ class HotelService:
 
         """
         room_id = kwargs.get("room_id", "")
-        date_range = [start_date, end_date]
+        date_range = (datetime.combine(start_date, time.min),
+                      datetime.combine(end_date, time.max))
         valid_booking_status = [BookingStatus.PAID, BookingStatus.UNPAID]
         date_range_ft = Q(booking_item__booking__start_date__range=date_range) \
             | Q(booking_item__booking__end_date__range=date_range) \
-            | Q(booking_item__booking__start_date__lt=start_date, booking_item__booking__end_date__gt=end_date)
+            | Q(booking_item__booking__start_date__lt=datetime.combine(start_date, time.max),
+                booking_item__booking__end_date__gt=datetime.combine(end_date, time.min))
         booking_ft = date_range_ft & \
             Q(booking_item__room__isnull=False) & \
             Q(booking_item__booking__status__in=valid_booking_status) & \
@@ -188,8 +190,8 @@ class HotelService:
         current_date = datetime.now().date()
         base_ft = Q(
             is_active=True,
-            start_date__date__lte=current_date,
-            end_date__date__gte=current_date
+            start_date__lte=datetime.combine(current_date, time.max),
+            end_date__gte=datetime.combine(current_date, time.min)
         )
         for_all_coupon_ft = Q(for_all=True)
         selected_hotels_coupon_ft = Q(for_all=False, hotel_coupons__hotel_id=hotel_id)
@@ -203,8 +205,8 @@ class HotelService:
         current_date = datetime.now().date()
         base_ft = Q(
             is_active=True,
-            start_date__date__lte=current_date,
-            end_date__date__gte=current_date
+            start_date__lte=datetime.combine(current_date, time.max),
+            end_date__gte=datetime.combine(current_date, time.min)
         )
         selected_hotels_coupon_ft = base_ft & Q(for_all=False, hotel_coupons__hotel_id__in=hotel_ids)
         coupon_mapping = dict(
