@@ -2,7 +2,8 @@ import os
 from datetime import datetime, timedelta, date
 from typing import List, Dict, Optional
 
-from django.db.models import F, QuerySet, Q
+from django.db.models import F, QuerySet, Q, Value, CharField
+from django.db.models.functions import Collate, Concat
 from django.template.loader import render_to_string
 from rest_framework.exceptions import ValidationError
 
@@ -347,16 +348,26 @@ class BookingService:
         return total_price_mapping
 
     @classmethod
-    def get_bookings_qs_for_manage(cls, user: Profile, booking_type: BookingType, status: str = None) -> QuerySet:
+    def get_bookings_qs_for_manage(cls, user: Profile, booking_type: BookingType,
+                                   name, status: str = None) -> QuerySet:
         booking_ft = Q(type=booking_type)
+        if name:
+            name = Collate(Value(name.strip()), "utf8mb4_general_ci")
+
         if user.role.id.hex == RoleData.PARTNER.value.get('id'):
             if booking_type == BookingType.TOUR:
                 booking_ft &= Q(booking_item__tour__owner=user)
             else:
                 booking_ft &= Q(booking_item__room__hotel__owner=user)
 
+        if booking_type == BookingType.TOUR:
+            booking_ft &= Q(booking_item__tour__name__icontains=name)
+        else:
+            booking_ft &= Q(booking_item__room__hotel__name__icontains=name)
+
         if status:
             booking_ft &= Q(status=status)
+
         unique_booking_ids = Booking.objects.filter(booking_ft).values_list("id", flat=True).distinct()
         booking_qs = Booking.objects.filter(id__in=unique_booking_ids).order_by("-created_at")
 

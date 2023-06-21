@@ -1,4 +1,5 @@
-from django.db.models import Q
+from django.db.models import Q, Value
+from django.db.models.functions import Collate
 from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -120,10 +121,12 @@ class BookingViewSet(BaseViewSet):
     @action(detail=False, methods=[HttpMethod.GET])
     def for_management(self, request, *args, **kwargs):
         booking_type = Utils.safe_int(request.query_params.get("type", None))
+        name = request.query_params.get('name', "")
+        _status = request.query_params.get('status', None)
 
         if not booking_type or booking_type not in BookingType.values:
             return Response({"error_message": "Thiếu type trong request params"}, status=status.HTTP_400_BAD_REQUEST)
 
         self.serializer_class = PartnerHotelBookingSerializer if booking_type == BookingType.HOTEL else PartnerTourBookingSerializer
-        self.queryset = BookingService.get_bookings_qs_for_manage(request.user, booking_type)
+        self.queryset = BookingService.get_bookings_qs_for_manage(request.user, booking_type, name, _status)
         return super().list(request, *args, **kwargs)
