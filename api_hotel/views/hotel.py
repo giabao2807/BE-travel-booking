@@ -93,9 +93,9 @@ class HotelViewSet(BaseViewSet):
         name = request.query_params.get('name', "")
         if name:
             name = Collate(Value(name.strip()), "utf8mb4_general_ci")
-        queryset = Hotel.objects.all()
+        queryset = Hotel.objects.filter(name__icontains=name)
         if request.user.role.id.hex == RoleData.PARTNER.value.get('id'):
-            queryset = queryset.filter(name__icontains=name, owner=request.user)
+            queryset = queryset.filter(owner=request.user)
         hotel_id_queryset = queryset.values_list("id", flat=True).order_by(order_by)
         paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, order_by)
