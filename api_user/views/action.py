@@ -6,6 +6,9 @@ from rest_framework.response import Response
 from api_user.models import Profile
 from api_user.serializers import LoginAccountSerializer, ProfileDetailSerializer, CreateProfileSerializer
 from api_user.services import TokenService, ProfileService
+from api_user.services.login_with_google import GoogleLoginService
+from base.exceptions import BoniException
+from base.exceptions.base import ErrorType
 from base.utils import Utils
 from common.constants.base import HttpMethod, ErrorResponse, ErrorResponseType
 from base.views import BaseViewSet
@@ -68,3 +71,15 @@ class ActionViewSet(BaseViewSet):
                                                         password=password, send_email=True)
                 return Response({"success": "Reset password!"}, status=status.HTTP_200_OK)
         return Response({"error_message": "Email is incorrect!"}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(methods=[HttpMethod.POST], detail=False)
+    def login_with_google(self, request, *args, **kwargs):
+        token: str = request.data.get('token')
+        user_info: dict = GoogleLoginService.verify_google_token_id(token)
+
+        if user_info:
+            success_login_response: dict = GoogleLoginService.login(user_info)
+        else:
+            raise BoniException(ErrorType.INVALID, ['token'])
+
+        return Response(success_login_response)

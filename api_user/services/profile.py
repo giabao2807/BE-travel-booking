@@ -128,8 +128,7 @@ class ProfileService:
         """
         default_role = RoleService.get_role_customer()
         password = user_data.pop('password')
-        user_data['password'] = make_password(password,
-                                              os.getenv('DEFAULT_PASSWORD'))
+        user_data['password'] = make_password(password, os.getenv('DEFAULT_PASSWORD'))
         user = Profile(**user_data)
         user.role = default_role
         user.save()
