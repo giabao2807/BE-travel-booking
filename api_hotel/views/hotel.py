@@ -1,3 +1,5 @@
+from django.db.models import Value
+from django.db.models.functions import Collate
 from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -88,9 +90,12 @@ class HotelViewSet(BaseViewSet):
     @action(detail=False, methods=[HttpMethod.GET])
     def for_management(self, request, *args, **kwargs):
         order_by = "-created_at"
+        name = request.query_params.get('name', "")
+        if name:
+            name = Collate(Value(name.strip()), "utf8mb4_general_ci")
         queryset = Hotel.objects.all()
         if request.user.role.id.hex == RoleData.PARTNER.value.get('id'):
-            queryset = queryset.filter(owner=request.user)
+            queryset = queryset.filter(name__icontains=name, owner=request.user)
         hotel_id_queryset = queryset.values_list("id", flat=True).order_by(order_by)
         paginated_hotel_ids = self.paginate_queryset(hotel_id_queryset)
         hotel_cards = HotelService.get_hotel_cards(paginated_hotel_ids, order_by)

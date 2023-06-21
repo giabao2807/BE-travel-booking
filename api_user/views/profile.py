@@ -57,9 +57,9 @@ class ProfileViewSet(BaseViewSet):
 
     @action(detail=False, methods=[HttpMethod.GET])
     def list_partner(self, request, *args, **kwargs):
-        self.queryset = ProfileService.list_partner()
-        self.serializer_class = PartnerSortSerializer
-        return super().list(request, *args, **kwargs)
+        queryset = ProfileService.list_partner()
+        serializer = PartnerSortSerializer(queryset, many=True)
+        return Response(serializer.data)
 
     def list(self, request, *args, **kwargs):
         self.queryset = ProfileService.get_filter_query(request)

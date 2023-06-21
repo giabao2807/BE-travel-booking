@@ -110,8 +110,8 @@ class TourService:
         return data, tour_images_link
 
     @classmethod
-    def list_tour_manage(cls, user: Profile):
-        queryset = Tour.objects.all()
+    def list_tour_manage(cls, user: Profile, filter_name):
+        queryset = Tour.objects.filter(name__icontains=filter_name)
         if user.role.id.hex == RoleData.PARTNER.value.get('id'):
             tour_ft = Q(owner=user)
             queryset = queryset.filter(tour_ft)

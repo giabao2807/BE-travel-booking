@@ -1,5 +1,6 @@
 from django.db import transaction
-from django.db.models import Q
+from django.db.models import Q, Value
+from django.db.models.functions import Collate
 from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -132,7 +133,10 @@ class TourViewSet(BaseViewSet):
     @action(detail=False, methods=[HttpMethod.GET])
     def list_tour(self, request, *args, **kwargs):
         user = request.user
-        queryset = TourService.list_tour_manage(user)
+        name = request.query_params.get('name', "")
+        if name:
+            name = Collate(Value(name.strip()), "utf8mb4_general_ci")
+        queryset = TourService.list_tour_manage(user, name)
         serializer = self._list(queryset, request)
         return Response(serializer.data)
 
