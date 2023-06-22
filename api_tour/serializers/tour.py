@@ -40,7 +40,7 @@ class TourFavoriteInfoSerializer(ModelSerializer):
         ret = super().to_representation(instance)
         ret['city'] = instance.city.name if instance.city else 'Việt Nam'
         ret['num_review'] = TourService.count_num_review(instance)
-        ret['rate'] = 4.5
+        ret['rate'] = TourService.get_rating(instance)
         tour_image = TourImage.objects.filter(tour=instance)
         ret['list_images'] = [image.image.link for image in tour_image]
 
@@ -74,7 +74,7 @@ class TourSerializer(ModelSerializer):
         ret = super().to_representation(instance)
         ret['city'] = instance.city.name if instance.city else 'Việt Nam'
         ret['num_review'] = TourService.count_num_review(instance)
-        ret['rate'] = 4.5
+        ret['rate'] = TourService.get_rating(instance)
         tour_image = TourImage.objects.filter(tour=instance)
         ret['list_images'] = [image.image.link for image in tour_image]
         return ret
@@ -103,7 +103,7 @@ class CardTourSerializer(ModelSerializer):
         ret = super().to_representation(instance)
         ret['city'] = instance.city.name if instance.city else 'Việt Nam'
         ret['num_review'] = TourService.count_num_review(instance)
-        ret['rate'] = 4.5
+        ret['rate'] = TourService.get_rating(instance)
         return ret
 
 
@@ -131,7 +131,7 @@ class CardFavoriteTourSerializer(ModelSerializer):
         ret = super().to_representation(instance)
         ret['city'] = instance.city.name if instance.city else 'Việt Nam'
         ret['num_review'] = TourService.count_num_review(instance)
-        ret['rate'] = 4.5
+        ret['rate'] = TourService.get_rating(instance)
         user = self.context["request"].user
 
         if not user.is_anonymous and user.role.id.hex == RoleData.ADMIN.id:

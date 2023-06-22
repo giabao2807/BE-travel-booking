@@ -227,6 +227,10 @@ class ProfileService:
         - access_token
         - refresh_token
         """
+        return cls.success_response_for_login(profile)
+
+    @classmethod
+    def success_response_for_login(cls, profile):
         token_data = TokenService.generate_by_account(profile)
         role = profile.role
         user_data = {

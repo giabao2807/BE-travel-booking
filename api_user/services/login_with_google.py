@@ -39,10 +39,11 @@ class GoogleLoginService:
                 last_name=last_name,
                 gender=Profile.GenderChoices.OTHER,
                 avatar=avatar,
-                password=os.getenv("DEFAULT_PASSWORD", "1234")
+                password=os.getenv("DEFAULT_PASSWORD", "12341234")
             )
             profile = ProfileService.create_customer(profile_data)
-        return TokenService.generate_by_account(profile)
+
+        return ProfileService.success_response_for_login(profile)
 
     @staticmethod
     def verify_google_token_id(token: str):

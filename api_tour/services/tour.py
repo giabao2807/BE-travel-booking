@@ -122,6 +122,12 @@ class TourService:
         return BookingReview.objects.filter(booking__booking_item__tour=tour).count()
 
     @classmethod
+    def get_rating(cls, tour: Tour):
+        booking_rating = BookingReview.objects.filter(booking__booking_item__tour=tour)\
+            .aggregate(avg_rate=Avg("rate"))
+        return booking_rating['avg_rate'] or 0
+
+    @classmethod
     def check_deactive_tour(cls, tour: Tour, user: Profile):
         is_valid = True
         if user.role.id.hex == RoleData.ADMIN.value.get('id'):
