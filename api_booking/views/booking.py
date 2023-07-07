@@ -104,7 +104,7 @@ class BookingViewSet(BaseViewSet):
     def get_payment_link(self, request, *args, **kwargs):
         booking = self.get_object()
         bank_code = request.query_params.get("bank_code")
-        env = request.query_params.get("env")
+        env = request.query_params.get("env", SupportEnv.PROD)
         env = Utils.safe_int(env, SupportEnv.PROD)
         client_ip = Utils.get_client_ip(request)
 
