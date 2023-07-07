@@ -4,7 +4,7 @@ from rest_framework.exceptions import ValidationError
 from rest_framework.serializers import ModelSerializer
 
 from api_booking.consts import BookingType
-from api_booking.models import Booking, BookingItem
+from api_booking.models import Booking, BookingItem, BookingReview
 from api_booking.serializers import CUBookingItemSerializer
 from api_booking.services.booking import BookingService
 from api_hotel.serializers import BookingHotelCardSerializer
@@ -100,6 +100,9 @@ class ListHotelBookingSerializer(ModelSerializer):
         if hotel:
             hotel = hotel.first()
             data["hotel"] = BookingHotelCardSerializer(hotel).data
+        user = self.context["request"].user
+        if not user.is_anonymous:
+            data['is_review'] = BookingReview.objects.filter(booking=instance, owner=user).count() > 0
 
         data["booking_items"] = booking_items
 
@@ -145,6 +148,10 @@ class ListTourBookingSerializer(ModelSerializer):
             tour = booking_item.tour
             data["tour"] = CardTourSerializer(tour).data
             data["booking_items"] = dict(quantity=booking_item.quantity)
+
+        user = self.context["request"].user
+        if not user.is_anonymous:
+            data['is_review'] = BookingReview.objects.filter(booking=instance, owner=user).count() > 0
 
         return data
 

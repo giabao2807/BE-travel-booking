@@ -52,7 +52,18 @@ class BookingViewSet(BaseViewSet):
             self.serializer_class = ListBookingSerializer
         self.queryset = Booking.objects.filter(booking_ft).order_by("-created_at")
 
-        return super().list(request, *args, **kwargs)
+        return self._list(request, *args, **kwargs)
+
+    def _list(self, request, *args, **kwargs):
+        queryset = self.filter_queryset(self.get_queryset())
+
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True, context={'request': request})
+        return Response(serializer.data)
 
     def retrieve(self, request, *args, **kwargs):
         booking = self.get_object()
