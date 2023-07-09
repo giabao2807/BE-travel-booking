@@ -130,14 +130,16 @@ class TourService:
     @classmethod
     def check_deactive_tour(cls, tour: Tour, user: Profile):
         is_valid = True
-        if user.role.id.hex == RoleData.ADMIN.value.get('id'):
-            return True
-        if tour.owner.id != user.id:
-            return False
         bookings = Booking.objects.filter(booking_item__tour=tour)
         for booking in bookings:
             if booking.status == BookingStatus.PAID:
                 return False
+
+        if user.role.id.hex == RoleData.ADMIN.value.get('id'):
+            return True
+        if tour.owner.id != user.id:
+            return False
+
         return is_valid
 
     @classmethod

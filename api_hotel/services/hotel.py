@@ -27,14 +27,16 @@ class HotelService:
     @classmethod
     def check_deactive_tour(cls, hotel, user):
         is_valid = True
-        if user.role.id.hex == RoleData.ADMIN.value.get('id'):
-            return True
-        if hotel.owner.id != user.id:
-            return False
+
         bookings = Booking.objects.filter(booking_item__room__hotel=hotel)
         for booking in bookings:
             if booking.status == BookingStatus.PAID:
                 return False
+        if user.role.id.hex == RoleData.ADMIN.value.get('id'):
+            return True
+        if hotel.owner.id != user.id:
+            return False
+
         return is_valid
 
     @classmethod
